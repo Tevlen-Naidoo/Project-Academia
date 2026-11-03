@@ -1,0 +1,571 @@
+{
+  "$defs": {
+    "Author": {
+      "additionalProperties": false,
+      "properties": {
+        "affiliation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Affiliation"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "Author",
+      "type": "object"
+    },
+    "Buzz": {
+      "additionalProperties": false,
+      "properties": {
+        "awards": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Awards",
+          "type": "array"
+        },
+        "hf_comments": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hf Comments"
+        },
+        "hf_upvotes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hf Upvotes"
+        },
+        "hn_comments": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hn Comments"
+        },
+        "hn_points": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hn Points"
+        }
+      },
+      "title": "Buzz",
+      "type": "object"
+    },
+    "Citations": {
+      "additionalProperties": false,
+      "properties": {
+        "by_year": {
+          "additionalProperties": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "title": "By Year",
+          "type": "object"
+        },
+        "influential": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Influential"
+        },
+        "last_12_months": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last 12 Months"
+        },
+        "per_month": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Per Month"
+        },
+        "total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total"
+        }
+      },
+      "title": "Citations",
+      "type": "object"
+    },
+    "Funnel": {
+      "enum": [
+        "fresh",
+        "waves"
+      ],
+      "title": "Funnel",
+      "type": "string"
+    },
+    "Links": {
+      "additionalProperties": false,
+      "properties": {
+        "abstract_page": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Abstract Page"
+        },
+        "code": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Code"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "pdf": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pdf"
+        }
+      },
+      "title": "Links",
+      "type": "object"
+    },
+    "Paper": {
+      "additionalProperties": false,
+      "properties": {
+        "abstract": {
+          "minLength": 1,
+          "title": "Abstract",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "$ref": "#/$defs/Author"
+          },
+          "title": "Authors",
+          "type": "array"
+        },
+        "buzz": {
+          "$ref": "#/$defs/Buzz"
+        },
+        "citations": {
+          "$ref": "#/$defs/Citations"
+        },
+        "dates": {
+          "$ref": "#/$defs/PaperDates"
+        },
+        "fetched_at": {
+          "format": "date-time",
+          "title": "Fetched At",
+          "type": "string"
+        },
+        "funnel": {
+          "items": {
+            "$ref": "#/$defs/Funnel"
+          },
+          "minItems": 1,
+          "title": "Funnel",
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^(arxiv|doi|openalex|s2):.+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "ids": {
+          "$ref": "#/$defs/PaperIds"
+        },
+        "links": {
+          "$ref": "#/$defs/Links"
+        },
+        "publication": {
+          "$ref": "#/$defs/Publication"
+        },
+        "source_categories": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Categories",
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "tldr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tldr"
+        },
+        "topics": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "type": "string"
+          },
+          "title": "Topics",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "ids",
+        "title",
+        "abstract",
+        "dates",
+        "funnel",
+        "fetched_at"
+      ],
+      "title": "Paper",
+      "type": "object"
+    },
+    "PaperDates": {
+      "additionalProperties": false,
+      "properties": {
+        "first_seen": {
+          "format": "date",
+          "title": "First Seen",
+          "type": "string"
+        },
+        "published": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published"
+        },
+        "submitted": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Submitted"
+        }
+      },
+      "required": [
+        "first_seen"
+      ],
+      "title": "PaperDates",
+      "type": "object"
+    },
+    "PaperIds": {
+      "additionalProperties": false,
+      "properties": {
+        "arxiv": {
+          "anyOf": [
+            {
+              "pattern": "^(\\d{4}\\.\\d{4,5}|[a-z-]+(\\.[A-Z]{2})?/\\d{7})$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Arxiv"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "pattern": "^10\\.\\S+/\\S+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "openalex": {
+          "anyOf": [
+            {
+              "pattern": "^W\\d+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Openalex"
+        },
+        "s2": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "S2"
+        }
+      },
+      "title": "PaperIds",
+      "type": "object"
+    },
+    "Publication": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "$ref": "#/$defs/StatusEvidence",
+          "default": "none"
+        },
+        "status": {
+          "$ref": "#/$defs/PublicationStatus",
+          "default": "preprint"
+        },
+        "venue": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Venue"
+        },
+        "venue_type": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/VenueType"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "Publication",
+      "type": "object"
+    },
+    "PublicationStatus": {
+      "enum": [
+        "published",
+        "accepted",
+        "preprint"
+      ],
+      "title": "PublicationStatus",
+      "type": "string"
+    },
+    "SourceReport": {
+      "additionalProperties": false,
+      "properties": {
+        "duration_s": {
+          "default": 0.0,
+          "minimum": 0,
+          "title": "Duration S",
+          "type": "number"
+        },
+        "errors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Errors",
+          "type": "array"
+        },
+        "fetched": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Fetched",
+          "type": "integer"
+        }
+      },
+      "title": "SourceReport",
+      "type": "object"
+    },
+    "StatusEvidence": {
+      "description": "Which signal decided `Publication.status`, strongest first.",
+      "enum": [
+        "s2_venue",
+        "s2_publication_type",
+        "openalex_published_version",
+        "arxiv_journal_ref",
+        "arxiv_doi",
+        "none"
+      ],
+      "title": "StatusEvidence",
+      "type": "string"
+    },
+    "VenueType": {
+      "enum": [
+        "journal",
+        "conference",
+        "workshop",
+        "other"
+      ],
+      "title": "VenueType",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "One day's output, saved as data/candidates/YYYY-MM-DD.json.",
+  "properties": {
+    "date": {
+      "format": "date",
+      "title": "Date",
+      "type": "string"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "papers": {
+      "items": {
+        "$ref": "#/$defs/Paper"
+      },
+      "title": "Papers",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "sources": {
+      "additionalProperties": {
+        "$ref": "#/$defs/SourceReport"
+      },
+      "title": "Sources",
+      "type": "object"
+    }
+  },
+  "required": [
+    "date",
+    "generated_at"
+  ],
+  "title": "CandidatesFile",
+  "type": "object"
+}
