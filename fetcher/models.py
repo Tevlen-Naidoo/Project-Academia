@@ -59,6 +59,8 @@ class StatusEvidence(StrEnum):
     OPENALEX_PUBLISHED_VERSION = "openalex_published_version"
     ARXIV_JOURNAL_REF = "arxiv_journal_ref"
     ARXIV_DOI = "arxiv_doi"
+    ARXIV_COMMENT = "arxiv_comment"
+    """The author comment says "accepted at ..." or "to appear in ..."."""
     NONE = "none"
 
 

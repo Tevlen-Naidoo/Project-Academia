@@ -9,7 +9,6 @@ dependencies = [
     "pydantic>=2.8",
     "pyyaml>=6.0",
     "tenacity>=8.5",
-    "feedparser>=6.0",
 ]
 
 [dependency-groups]
@@ -33,10 +32,6 @@ python_version = "3.12"
 strict = true
 plugins = ["pydantic.mypy"]
 files = ["fetcher", "tests"]
-
-[[tool.mypy.overrides]]
-module = ["feedparser", "feedparser.*"]
-ignore_missing_imports = true
 
 [tool.pydantic-mypy]
 init_forbid_extra = true

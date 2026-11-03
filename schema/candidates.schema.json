@@ -511,6 +511,7 @@
         "openalex_published_version",
         "arxiv_journal_ref",
         "arxiv_doi",
+        "arxiv_comment",
         "none"
       ],
       "title": "StatusEvidence",
