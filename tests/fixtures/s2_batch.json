@@ -1,0 +1,15 @@
+[
+  {
+    "paperId": "s2restoration",
+    "externalIds": {"ArXiv": "2610.01234", "DOI": "10.48550/arXiv.2610.01234", "CorpusId": 1},
+    "venue": "Computer Vision and Pattern Recognition",
+    "publicationVenue": {"id": "x", "name": "Computer Vision and Pattern Recognition", "type": "conference"},
+    "publicationTypes": ["Conference"],
+    "journal": null,
+    "publicationDate": "2026-06-15",
+    "citationCount": 12,
+    "influentialCitationCount": 2,
+    "tldr": {"model": "tldr@v2.0.0", "text": "A fast diffusion model for image restoration."}
+  },
+  null
+]

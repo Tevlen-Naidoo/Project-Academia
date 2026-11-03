@@ -1,0 +1,19 @@
+{
+  "meta": {"count": 1},
+  "results": [
+    {
+      "id": "https://openalex.org/W4400000001",
+      "doi": "https://doi.org/10.1002/jgt.99999",
+      "title": "Chromatic Bounds for Sparse Graphs",
+      "publication_date": "2026-10-30",
+      "cited_by_count": 3,
+      "counts_by_year": [{"year": 2026, "cited_by_count": 3}],
+      "locations": [
+        {"version": "submittedVersion", "source": {"display_name": "arXiv (Cornell University)", "type": "repository"}},
+        {"version": "publishedVersion", "source": {"display_name": "Journal of Graph Theory", "type": "journal"}}
+      ],
+      "topics": [{"id": "https://openalex.org/T1", "subfield": {"id": "https://openalex.org/subfields/2607", "display_name": "Discrete Mathematics and Combinatorics"}}],
+      "abstract_inverted_index": {"Every": [0], "graph": [1], "is": [2], "colourable.": [3]}
+    }
+  ]
+}
