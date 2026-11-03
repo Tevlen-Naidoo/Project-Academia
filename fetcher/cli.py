@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import sys
 from collections.abc import Sequence
 from pathlib import Path
 
 from pydantic import ValidationError
 
-from fetcher import schema
+from fetcher import pipeline, schema
+from fetcher.http import HttpClient
 from fetcher.models import CandidatesFile
 from fetcher.topics import DEFAULT_TOPICS_PATH, load_topics
 
@@ -50,9 +52,32 @@ def _cmd_schema(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_run(args: argparse.Namespace) -> int:
+    topics = load_topics(args.config)
+    options = pipeline.RunOptions(today=args.date, fresh_days=args.fresh_days)
+    with HttpClient() as http:
+        candidates = pipeline.run(http, topics, options)
+    path = pipeline.write(candidates, args.data_dir)
+    for name, report in candidates.sources.items():
+        print(
+            f"{name}: {report.fetched} fetched, {len(report.errors)} errors, {report.duration_s}s"
+        )
+        for error in report.errors[:10]:
+            print(f"  - {error}", file=sys.stderr)
+    print(f"{len(candidates.papers)} candidates -> {path}")
+    return 0 if candidates.papers else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="fetcher", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
+
+    run = sub.add_parser("run", help="fetch today's candidates and write them to data/")
+    run.add_argument("--date", type=dt.date.fromisoformat, default=dt.datetime.now(dt.UTC).date())
+    run.add_argument("--fresh-days", type=int, default=pipeline.FRESH_WINDOW_DAYS)
+    run.add_argument("--config", type=Path, default=DEFAULT_TOPICS_PATH)
+    run.add_argument("--data-dir", type=Path, default=pipeline.DATA_DIR)
+    run.set_defaults(func=_cmd_run)
 
     topics = sub.add_parser("topics", help="show the topic mapping")
     topics.add_argument("--config", type=Path, default=DEFAULT_TOPICS_PATH)
