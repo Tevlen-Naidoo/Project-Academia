@@ -81,6 +81,29 @@ class HttpClient:
         params: Mapping[str, Any] | None = None,
         headers: Mapping[str, str] | None = None,
     ) -> httpx.Response:
+        return self.request("GET", url, limiter=limiter, params=params, headers=headers)
+
+    def post(
+        self,
+        url: str,
+        *,
+        limiter: RateLimiter,
+        json: Any,
+        params: Mapping[str, Any] | None = None,
+        headers: Mapping[str, str] | None = None,
+    ) -> httpx.Response:
+        return self.request("POST", url, limiter=limiter, params=params, headers=headers, json=json)
+
+    def request(
+        self,
+        method: str,
+        url: str,
+        *,
+        limiter: RateLimiter,
+        params: Mapping[str, Any] | None = None,
+        headers: Mapping[str, str] | None = None,
+        json: Any = None,
+    ) -> httpx.Response:
         retrying = Retrying(
             stop=stop_after_attempt(self._attempts),
             wait=wait_exponential(multiplier=2, max=self._backoff_max),
@@ -91,7 +114,9 @@ class HttpClient:
         for attempt in retrying:
             with attempt:
                 limiter.wait()
-                response = self._client.get(url, params=params, headers=headers)
+                response = self._client.request(
+                    method, url, params=params, headers=headers, json=json
+                )
                 if response.status_code in RETRY_STATUSES:
                     raise RetryableStatusError(response)
                 response.raise_for_status()

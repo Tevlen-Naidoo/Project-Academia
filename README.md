@@ -7,9 +7,9 @@ OpenAlex, Hugging Face Daily Papers and Hacker News.
 
 ## Status
 
-Step 1 of 4: the paper fetcher. The data model, topic mapping and arXiv source are in;
-Semantic Scholar and OpenAlex enrichment, the "making waves" funnel and buzz signals come
-next.
+Step 1 of 4: the paper fetcher. New arXiv papers are enriched with citations, venues
+and published status from Semantic Scholar and OpenAlex, then trimmed to the best 40 per
+topic (300 at most). The "making waves" funnel and buzz signals come next.
 
 To try it, open **Actions → Fetch candidates (manual) → Run workflow**. The candidates
 file is attached to the run as an artifact.

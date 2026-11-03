@@ -78,7 +78,7 @@ def test_pipeline_run_writes_valid_file(tmp_path: Path) -> None:
 
     assert path == tmp_path / "candidates" / "2026-11-03.json"
     loaded = CandidatesFile.model_validate_json(path.read_bytes())
-    assert [p.id for p in loaded.papers] == ["arxiv:2610.01234", "arxiv:2610.05678"]
+    assert {p.id for p in loaded.papers} == {"arxiv:2610.01234", "arxiv:2610.05678"}
     report = loaded.sources["arxiv"]
     assert report.fetched == 3
     assert any("2610.04444" in e for e in report.errors)
