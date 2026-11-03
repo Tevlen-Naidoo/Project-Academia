@@ -1,0 +1,86 @@
+# Topic tags the fetcher assigns to papers.
+#
+# Each topic lists the arXiv categories and OpenAlex subfields that map to it.
+# An entry is either a plain category/subfield, or an object with `keywords`:
+# then the paper only gets the tag if its title or abstract contains one of the
+# keywords (whole word, case-insensitive). Use that for broad categories such
+# as math.CO, which is mostly not graph theory.
+#
+# `weight` tells step 2 how often to pick from a topic: `core` topics share most
+# days, `light` topics appear now and then.
+#
+# OpenAlex subfield ids come from its topic taxonomy (Computer Science = field
+# 17, Physics and Astronomy = field 31, Mathematics = field 26). They are
+# confirmed against the live API when the OpenAlex source is built.
+
+version: 1
+
+topics:
+  ml:
+    label: Machine learning
+    weight: core
+    arxiv: [cs.LG, stat.ML]
+    openalex:
+      - subfield: 1702
+        keywords: [learning, neural, training, model, models, optimization, reinforcement]
+
+  ai:
+    label: Artificial intelligence
+    weight: core
+    arxiv: [cs.AI, cs.MA]
+    openalex: [1702]
+
+  vision:
+    label: Computer vision
+    weight: core
+    arxiv: [cs.CV]
+    openalex: [1707]
+
+  image-processing:
+    label: Digital image processing
+    weight: core
+    arxiv: [eess.IV, cs.GR]
+    openalex:
+      - subfield: 1707
+        keywords: [image, images, denoising, segmentation, restoration, compression, super-resolution]
+      - subfield: 1711
+        keywords: [image, images, video]
+
+  nlp:
+    label: Natural language processing
+    weight: core
+    arxiv: [cs.CL]
+    openalex:
+      - subfield: 1702
+        keywords: [language, languages, text, translation, LLM, LLMs, linguistic, speech]
+
+  graph-theory:
+    label: Graph theory
+    weight: core
+    arxiv:
+      - cs.DM
+      - category: math.CO
+        keywords: [graph, graphs, vertex, vertices, edge, edges, coloring, colouring, matching, tree, trees, hypergraph]
+    openalex:
+      - subfield: 2607
+        keywords: [graph, graphs, vertex, vertices, coloring, colouring, hypergraph]
+
+  robotics:
+    label: Robotics
+    weight: core
+    arxiv: [cs.RO]
+    openalex:
+      - subfield: 2207
+        keywords: [robot, robots, robotic, robotics, manipulation, locomotion]
+
+  theory:
+    label: Theory of computation
+    weight: core
+    arxiv: [cs.CC, cs.DS, cs.LO, cs.FL, cs.GT]
+    openalex: [1703]
+
+  astronomy:
+    label: Astronomy
+    weight: light
+    arxiv: [astro-ph.*]
+    openalex: [3103]
