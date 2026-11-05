@@ -36,6 +36,26 @@ uv run python -m reader prereqs data/candidates/2026-11-05.json --ids arxiv:2410
 Without `--ids` it takes the top 3 candidates by the fetcher's rough order, until scoring
 writes a picks file. Output goes to `data/prereqs/YYYY-MM-DD.json`.
 
+## Reading board
+
+`data/board.json` is your reading list, in three columns: To read, Reading and Done.
+Papers only go on it when you add them; the daily picks are suggestions and never land
+there by themselves. To read holds at most 10 papers. Every card keeps links to the
+paper, and papers on the board (Done included) will be skipped by future picks.
+
+```sh
+uv run python -m reader board add 2410.12345          # or a DOI, or an arXiv / DOI / Semantic Scholar link
+uv run python -m reader board add 2410.12345 --pick   # note it came from the daily picks
+uv run python -m reader board start 2410.12345        # move to Reading
+uv run python -m reader board done 2410.12345         # move to Done (stamps the date)
+uv run python -m reader board later 2410.12345        # back to To read
+uv run python -m reader board remove 2410.12345
+uv run python -m reader board list
+```
+
+The commands edit `data/board.json`; commit it to keep the change. From a phone, use
+**Actions → Update reading board → Run workflow**, which makes the change and commits it.
+
 ## Layout
 
 | Path | What it is |
@@ -43,7 +63,7 @@ writes a picks file. Output goes to `data/prereqs/YYYY-MM-DD.json`.
 | `fetcher/models.py` | The `Paper` record and daily `CandidatesFile`, as Pydantic models |
 | `fetcher/topics.py` | Loads `config/topics.yaml` and tags papers by topic |
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
-| `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) |
+| `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) and the reading board (`reader/board.py`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |
 | `data/` | Daily output: `candidates/`, `picks/`, `runs/` |
 
