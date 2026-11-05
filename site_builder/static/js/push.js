@@ -1,14 +1,12 @@
 // Web Push for the daily picks.
 //
-// Turning notifications on asks the browser for a push subscription. If this browser
-// has the reading board's GitHub key, the subscription is saved straight to
-// data/push/subscriptions.json. Otherwise the Settings page shows a sign-up code to
-// paste into the "Add notification device" workflow, which saves it. After each daily
-// run, `python -m notifier send` pushes a message to every saved device. On iPhone
-// and iPad this only works from the Home Screen app (iOS 16.4 or later).
-import { PUSH_KEY, ROOT, changeFile, getToken } from "./github.js";
+// Turning notifications on asks the browser for a push subscription and saves it in
+// Firestore (devices/<hash of the endpoint>), which needs you signed in. After each
+// daily run, `python -m notifier send` pushes a message to every saved device. On
+// iPhone and iPad this only works from the Home Screen app (iOS 16.4 or later).
+import { currentUser, removeDevice, saveDevice } from "./firebase.js";
+import { PUSH_KEY, ROOT } from "./github.js";
 
-const PATH = "data/push/subscriptions.json";
 const SAVED_KEY = "academia.pushEndpoint";
 
 export const pushSupported = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
@@ -51,31 +49,15 @@ function keyBytes(b64) {
   return out;
 }
 
-export function signupCode(sub) {
-  const json = sub.toJSON();
-  const text = JSON.stringify({ endpoint: json.endpoint, keys: json.keys, device: deviceName() });
-  const bytes = new TextEncoder().encode(text);
-  let bin = "";
-  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
-  return "pa1." + btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-}
-
-function emptyFile() { return { schema_version: 1, subscriptions: [] }; }
-
 export async function saveSubscription(sub) {
   const json = sub.toJSON();
   const entry = { endpoint: json.endpoint, keys: json.keys, device: deviceName(), added_on: today() };
-  await changeFile(PATH, emptyFile, (file) => {
-    file.subscriptions = (file.subscriptions || []).filter((s) => s.endpoint !== entry.endpoint);
-    file.subscriptions.push(entry);
-  }, `Notifications: add ${entry.device}`);
+  await saveDevice(entry);
   remember(entry.endpoint);
 }
 
 export async function removeSubscription(endpoint) {
-  await changeFile(PATH, emptyFile, (file) => {
-    file.subscriptions = (file.subscriptions || []).filter((s) => s.endpoint !== endpoint);
-  }, `Notifications: remove ${deviceName()}`);
+  await removeDevice(endpoint);
   remember("");
 }
 
@@ -100,9 +82,10 @@ export async function subscribe() {
 
 /** On any page: if this device's subscription changed since it was saved, save it again. */
 export async function resync() {
-  if (!pushSupported || !PUSH_KEY || !getToken()) return;
+  if (!pushSupported || !PUSH_KEY) return;
   if (Notification.permission !== "granted") return;
   try {
+    if (!(await currentUser())) return;
     const reg = await navigator.serviceWorker.getRegistration(ROOT);
     const sub = reg && (await reg.pushManager.getSubscription());
     if (sub && sub.endpoint !== remembered()) await saveSubscription(sub);

@@ -1,6 +1,7 @@
 """The reading board: the papers Tevlen chose to read, in three columns.
 
-Saved as data/board.json and exported to schema/ for the web app. Cards are only
+Stored in Firestore (boards/main, see store/data.py), or in data/board.json when
+Firestore isn't set up, and exported to schema/ for the web app. Cards are only
 ever added by hand (the `board` commands or the web app); recommendations never
 land here on their own. Scoring and the prerequisite finder call
 `Board.paper_ids()` to skip papers already on the board, Done included.

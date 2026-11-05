@@ -16,6 +16,7 @@ from reader import board
 from scorer import pipeline, schema
 from scorer.config import DEFAULT_SCORING_PATH, load_scoring
 from scorer.models import PicksFile
+from store.data import load_board
 
 
 def _cmd_run(args: argparse.Namespace) -> int:
@@ -23,13 +24,13 @@ def _cmd_run(args: argparse.Namespace) -> int:
     if not source.exists():
         print(f"No candidates file at {source}", file=sys.stderr)
         return 1
-    board_path: Path = args.board or args.data_dir / "board.json"
     picks = pipeline.run(
         source,
         config=load_scoring(args.config),
         topics=load_topics(args.topics),
         data_dir=args.data_dir,
-        exclude=board.load(board_path).paper_ids(),
+        # Firestore when FIREBASE_SERVICE_ACCOUNT is set, else --board or data/board.json.
+        exclude=(board.load(args.board) if args.board else load_board(args.data_dir)).paper_ids(),
     )
     path = pipeline.write(picks, args.data_dir)
     light = " (light day)" if picks.light_day else ""

@@ -7,7 +7,9 @@ import contextlib
 import datetime as dt
 import functools
 import http.server
+import json
 import os
+import re
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -32,6 +34,34 @@ def _push_key() -> str:
         return ""
 
 
+FIREBASE_ENV = "FIREBASE_CONFIG"
+_FIREBASE_KEYS = {"apiKey", "authDomain", "projectId", "appId"}
+
+
+def firebase_config() -> str:
+    """The Firebase web config from FIREBASE_CONFIG, checked and made compact.
+
+    Accepts the JSON object, or the `const firebaseConfig = {...};` snippet the
+    Firebase console shows, as long as its keys are quoted or plain names."""
+    raw = os.environ.get(FIREBASE_ENV, "").strip()
+    if not raw:
+        return ""
+    text = raw[raw.find("{") : raw.rfind("}") + 1] if "{" in raw else raw
+    try:
+        data = json.loads(text)
+    except ValueError:
+        # The console snippet uses bare keys: apiKey: "..." -> "apiKey": "..."
+        try:
+            quoted = re.sub(r"([{,]\s*)([A-Za-z_]\w*)\s*:", r'\1"\2":', text)
+            data = json.loads(re.sub(r",\s*}", "}", quoted))
+        except ValueError:
+            data = None
+    if not isinstance(data, dict) or not data.keys() >= _FIREBASE_KEYS:
+        print(f"Sign-in stays off: {FIREBASE_ENV} isn't a Firebase web app config.")
+        return ""
+    return json.dumps({k: str(v) for k, v in data.items()}, separators=(",", ":"))
+
+
 def _cmd_build(args: argparse.Namespace) -> int:
     site = render.Site(
         repo=args.repo,
@@ -39,6 +69,7 @@ def _cmd_build(args: argparse.Namespace) -> int:
         data=load.load(args.data_dir),
         built_at=dt.datetime.now(dt.UTC),
         push_key=_push_key(),
+        firebase_config=firebase_config(),
     )
     pages = render.build(site, args.out)
     print(f"{len(pages)} pages, {len(site.data.days)} days -> {args.out}")

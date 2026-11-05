@@ -28,7 +28,7 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--fg); overflow-wrap: anywhere; word-break: break-word; }
 img, svg, video, textarea, input, select { max-width: 100%; }
 site-header, site-footer, site-message, paper-card, day-pager, archive-list, reading-board,
-board-column, board-card, board-button, paper-graph, graph-legend, github-key-settings, push-settings { display: block; }
+board-column, board-card, board-button, paper-graph, graph-legend, account-settings, push-settings { display: block; }
 a { color: var(--accent); }
 header.top, main, footer { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
 header.top { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: baseline; padding-top: 1rem; padding-bottom: .75rem; border-bottom: 1px solid var(--line); }
@@ -135,5 +135,6 @@ ul.legend { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .
 .dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .35rem; vertical-align: -.05rem; }
 details.graph-list h3 { font-size: 1rem; margin: .75rem 0 .25rem; }
 details.graph-list summary { cursor: pointer; }
-github-key-settings + push-settings { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: .5rem; }
-.push-code textarea { width: 100%; font: .8rem ui-monospace, Menlo, monospace; word-break: break-all; background: var(--card); color: var(--fg); border: 1px solid var(--line); padding: .5rem; }
+account-settings + push-settings { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: .5rem; }
+.account-id { font: .85rem ui-monospace, Menlo, monospace; word-break: break-all; user-select: all; }
+.sign-in-email { margin-top: 1rem; }

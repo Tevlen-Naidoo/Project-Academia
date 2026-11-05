@@ -1,7 +1,8 @@
 name: Publish site
 
 # Builds the site from data/ and publishes it to GitHub Pages. Runs on every
-# push to main, including the board saves the site makes with your GitHub key.
+# push to main. The board and devices live in Firestore, so using the site never
+# pushes anything.
 # One-time setup: Settings -> Pages -> Source: GitHub Actions.
 
 on:
@@ -36,6 +37,8 @@ jobs:
         env:
           # Only the public half reaches the site; it turns on the Notifications setting.
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          # The Firebase web config (public by design) turns on sign-in and the live board.
+          FIREBASE_CONFIG: ${{ vars.FIREBASE_CONFIG }}
         run: uv run python -m site_builder build
       - uses: actions/upload-pages-artifact@v3
         with:

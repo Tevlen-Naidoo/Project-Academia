@@ -19,8 +19,9 @@ import httpx
 from cryptography.hazmat.primitives.asymmetric import ec
 
 from fetcher.pipeline import DATA_DIR
-from notifier import subscriptions, vapid, webpush
+from notifier import vapid, webpush
 from scorer.models import PicksFile
+from store.data import forget_devices, load_devices
 
 DEFAULT_REPO = "Tevlen-Naidoo/Project-Academia"
 TITLE_LIMIT = 90
@@ -71,43 +72,14 @@ def _key() -> ec.EllipticCurvePrivateKey | None:
     return vapid.load_private_key(secret) if secret.strip() else None
 
 
-def _cmd_add_device(args: argparse.Namespace) -> int:
-    try:
-        sub = subscriptions.decode_code(args.code)
-    except ValueError as exc:
-        print(f"Couldn't read the code: {exc}", file=sys.stderr)
-        return 1
-    today = dt.datetime.now(dt.UTC).date()
-    sub = sub.model_copy(update={"added_on": today})
-    path: Path = args.data_dir / "push" / "subscriptions.json"
-    file = subscriptions.load(path)
-    subscriptions.upsert(file, sub)
-    subscriptions.save(file, path, dt.datetime.now(dt.UTC))
-    print(f"Saved {sub.device or 'the device'}. {len(file.subscriptions)} device(s) signed up.")
-
-    key = _key()
-    if key is None:
-        print(f"{vapid.ENV_VAR} is not set, so no test notification was sent.")
-        return 0
-    payload = json.dumps(test_message(today), ensure_ascii=False).encode("utf-8")
-    with httpx.Client(timeout=30) as client:
-        result = webpush.send(client, sub, payload, key, site_url(args.repo))
-    if result.ok:
-        print("Sent a test notification to it.")
-        return 0
-    print(f"The test notification failed: {result.status} {result.detail}", file=sys.stderr)
-    return 1
-
-
 def _cmd_send(args: argparse.Namespace) -> int:
     key = _key()
     if key is None:
         print(f"{vapid.ENV_VAR} is not set, so no notifications were sent.")
         return 0
 
-    path: Path = args.data_dir / "push" / "subscriptions.json"
-    file = subscriptions.load(path)
-    if not file.subscriptions:
+    devices = load_devices(args.data_dir)
+    if not devices:
         print("No devices have turned on notifications yet.")
         return 0
 
@@ -129,17 +101,14 @@ def _cmd_send(args: argparse.Namespace) -> int:
     payload = json.dumps(message, ensure_ascii=False).encode("utf-8")
     subject = site_url(args.repo)
     with httpx.Client(timeout=30) as client:
-        results = [webpush.send(client, sub, payload, key, subject) for sub in file.subscriptions]
+        results = [webpush.send(client, sub, payload, key, subject) for sub in devices]
 
     for r in results:
         label = r.subscription.device or "device"
         state = "sent" if r.ok else ("gone, removed" if r.gone else f"failed: {r.detail}")
         print(f"{label}: {r.status} {state}")
 
-    gone = [r for r in results if r.gone]
-    if gone:
-        file.subscriptions = [r.subscription for r in results if not r.gone]
-        subscriptions.save(file, path, dt.datetime.now(dt.UTC))
+    forget_devices(args.data_dir, [r.subscription.endpoint for r in results if r.gone])
     sent = sum(r.ok for r in results)
     print(f"Sent to {sent} of {len(results)} devices.")
     failed = [r for r in results if not r.ok and not r.gone]
@@ -157,11 +126,6 @@ def build_parser() -> argparse.ArgumentParser:
     send.add_argument("--data-dir", type=Path, default=DATA_DIR)
     send.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO))
     send.set_defaults(func=_cmd_send)
-    add = sub.add_parser("add-device", help="save a device from its sign-up code")
-    add.add_argument("code")
-    add.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    add.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO))
-    add.set_defaults(func=_cmd_add_device)
     return parser
 
 

@@ -176,34 +176,3 @@ def test_keys_command(capsys: pytest.CaptureFixture[str]) -> None:
     lines = [line for line in capsys.readouterr().out.splitlines() if line and " " not in line]
     private, public = lines
     assert vapid.public_key(vapid.load_private_key(private)) == public
-
-
-def _code(sub: subscriptions.Subscription) -> str:
-    body = json.dumps({"endpoint": sub.endpoint, "keys": sub.keys.model_dump(), "device": "iPad"})
-    return "pa1." + vapid.b64url(body.encode())
-
-
-@respx.mock
-def test_add_device_saves_it_and_sends_a_test(
-    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
-) -> None:
-    monkeypatch.setenv(vapid.ENV_VAR, vapid.generate())
-    device = Device(APPLE)
-    route = respx.post(APPLE).mock(return_value=httpx.Response(201))
-    code = _code(device.subscription)
-    # Pasting can add line breaks; they don't matter.
-    pasted = code[:40] + "\n " + code[40:]
-    assert cli.main(["add-device", pasted, "--data-dir", str(tmp_path)]) == 0
-    assert cli.main(["add-device", code, "--data-dir", str(tmp_path)]) == 0
-
-    saved = subscriptions.load(tmp_path / "push" / "subscriptions.json").subscriptions
-    assert [(s.endpoint, s.device) for s in saved] == [(APPLE, "iPad")]
-    assert saved[0].added_on is not None
-    assert json.loads(device.decrypt(route.calls.last.request.content))["tag"] == "test"
-    assert "Sent a test notification" in capsys.readouterr().out
-
-
-def test_add_device_rejects_a_bad_code(tmp_path: Path) -> None:
-    for code in ["hello", "pa1.!!!", "pa1." + vapid.b64url(b'{"endpoint": "http://x"}')]:
-        assert cli.main(["add-device", code, "--data-dir", str(tmp_path)]) == 1
-    assert not (tmp_path / "push" / "subscriptions.json").exists()
