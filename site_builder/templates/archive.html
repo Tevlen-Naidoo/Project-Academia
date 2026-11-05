@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Archive · Project Academia{% endblock %}
+{% block main %}
+<h1>Archive</h1>
+<form class="filters" hidden>
+  <label>Topic
+    <select name="topic">
+      <option value="">All topics</option>
+      {% for tag, topic in topics.topics.items() %}<option value="{{ tag }}">{{ topic.label }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Kind
+    <select name="funnel">
+      <option value="">New and making waves</option>
+      <option value="fresh">New</option>
+      <option value="waves">Making waves</option>
+    </select>
+  </label>
+  <label>Search <input type="search" name="q" placeholder="Words in a title"></label>
+</form>
+{% if days %}
+<ol class="days">
+{% for day in days %}
+  <li class="day">
+    <h2><a href="{{ root }}days/{{ day.date.isoformat() }}/index.html">{{ day.date|long_date }}</a></h2>
+    <ul>
+    {% for view in day.picks %}
+      <li data-topic="{{ view.pick.topic or '' }}" data-funnel="{{ view.pick.funnel.value }}">
+        <a href="{{ root }}days/{{ day.date.isoformat() }}/index.html#pick-{{ view.pick.rank }}">{{ view.pick.paper.title }}</a>
+        <span class="meta">{{ view.pick.topic|topic_label }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ol>
+<p class="empty" hidden>No papers match.</p>
+{% else %}
+<p>No past days yet.</p>
+{% endif %}
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/archive.js"></script>{% endblock %}

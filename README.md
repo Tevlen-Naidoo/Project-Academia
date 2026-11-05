@@ -7,7 +7,7 @@ OpenAlex, Hugging Face Daily Papers and Hacker News.
 
 ## Status
 
-Steps 1 and 2 of 4: the paper fetcher and the scorer. Two funnels feed the daily candidates file:
+Steps 1 to 3 of 4: the paper fetcher, the scorer and the web app. Two funnels feed the daily candidates file:
 
 - **Fresh:** arXiv papers from the last 7 days in the configured categories.
 - **Making waves:** the most-cited papers of the last 18 months per topic, from OpenAlex,
@@ -81,6 +81,28 @@ uv run python -m reader board list
 The commands edit `data/board.json`; commit it to keep the change. From a phone, use
 **Actions → Update reading board → Run workflow**, which makes the change and commits it.
 
+## Web app
+
+`site_builder/` turns the picks, prerequisites and reading board into a static site, which
+GitHub Pages hosts. It has Today (the 3 picks, their abstracts, links and what to read
+first), an Archive with topic, kind and title filters, a page per day, and the Reading
+board.
+
+Board buttons on the site save straight to `data/board.json` in this repository, so the
+daily picks keep skipping papers on the board. That needs a GitHub key, pasted once per
+device on the site's Settings page:
+
+1. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new).
+2. Give it access to **only this repository**, with **Contents: Read and write**. Nothing else.
+3. Paste it on the Settings page. It stays in that browser and is only sent to GitHub.
+
+Every board save is a commit, which rebuilds the site. One-time setup: **Settings → Pages →
+Source: GitHub Actions**.
+
+```sh
+uv run python -m site_builder build --serve   # build into site/ and preview on localhost:8000
+```
+
 ## Layout
 
 | Path | What it is |
@@ -90,6 +112,7 @@ The commands edit `data/board.json`; commit it to keep the change. From a phone,
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
 | `scorer/` | The daily picks (`scorer/models.py` holds `Pick` and `PicksFile`) |
 | `config/scoring.yaml` | Scoring weights, light days, topic spread and repeat rules |
+| `site_builder/` | The static web app: templates, CSS and `board.js`, which saves the board |
 | `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) and the reading board (`reader/board.py`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |
 | `data/` | Daily output: `candidates/`, `picks/`, `runs/` |

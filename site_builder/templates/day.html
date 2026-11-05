@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "macros.html" import pick_card %}
+{% block title %}{% if day %}{{ day.date|long_date }} · {% endif %}Project Academia{% endblock %}
+{% block main %}
+{% if day %}
+<h1>{{ "Today's papers" if is_today else "Papers" }} <small>{{ day.date|long_date }}</small></h1>
+{% for view in day.picks %}
+{{ pick_card(view, day) }}
+{% endfor %}
+<nav class="pager">
+  {% if older %}<a href="{{ root }}days/{{ older.date.isoformat() }}/index.html">← {{ older.date|long_date }}</a>{% else %}<span></span>{% endif %}
+  {% if newer %}<a href="{{ root }}days/{{ newer.date.isoformat() }}/index.html">{{ newer.date|long_date }} →</a>{% endif %}
+</nav>
+{% else %}
+<h1>No papers yet</h1>
+<p>The first picks appear here after the next daily run.</p>
+{% endif %}
+{% endblock %}

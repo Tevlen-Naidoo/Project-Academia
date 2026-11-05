@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "macros.html" import link_row, paper_link %}
+{% block title %}Reading board · Project Academia{% endblock %}
+
+{% macro card_item(card) %}
+<li class="card">
+  <a href="{{ paper_link(card.paper.links) }}">{{ card.paper.title }}</a>
+  <span class="meta">
+    {% if card.finished_on %}Finished {{ card.finished_on }}{% elif card.started_on %}Started {{ card.started_on }}{% else %}Added {{ card.added_on }}{% endif %}
+  </span>
+  {{ link_row(card.paper.links) }}
+</li>
+{% endmacro %}
+
+{% macro column(title, cards, count) %}
+<section>
+  <h2>{{ title }} <small>{{ count }}</small></h2>
+  {% if cards %}<ul>{% for card in cards %}{{ card_item(card) }}{% endfor %}</ul>{% else %}<p class="meta">Empty.</p>{% endif %}
+</section>
+{% endmacro %}
+
+{% block main %}
+<h1>Reading board</h1>
+<div id="board" class="board" data-limit="{{ limit }}">
+  {{ column("To read", to_read, to_read|length ~ "/" ~ limit) }}
+  {{ column("Reading", reading, reading|length) }}
+  {{ column("Done", done_recent + done_older, (done_recent + done_older)|length) }}
+</div>
+{% endblock %}
