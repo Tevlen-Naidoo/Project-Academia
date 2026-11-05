@@ -7,7 +7,9 @@ free key. Lookups here are list calls filtered by DOI, 50 DOIs per call.
 
 from __future__ import annotations
 
+import datetime as dt
 import os
+import re
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 
@@ -29,8 +31,13 @@ SELECT = ",".join(
         "locations",
         "topics",
         "abstract_inverted_index",
+        "authorships",
+        "primary_topic",
+        "type",
     ]
 )
+WAVES_PER_QUERY = 100
+"""OpenAlex's maximum page size."""
 
 
 class _Lenient(BaseModel):
@@ -44,7 +51,16 @@ class OASource(_Lenient):
 
 class OALocation(_Lenient):
     version: str | None = None
+    landing_page_url: str | None = None
     source: OASource | None = None
+
+
+class OAAuthor(_Lenient):
+    display_name: str | None = None
+
+
+class OAAuthorship(_Lenient):
+    author: OAAuthor | None = None
 
 
 class OACount(_Lenient):
@@ -63,6 +79,10 @@ class OATopic(_Lenient):
 class OAWork(_Lenient):
     id: str
     doi: str | None = None
+    title: str | None = None
+    type: str | None = None
+    authorships: list[OAAuthorship] = Field(default_factory=list)
+    primary_topic: OATopic | None = None
     publication_date: str | None = None
     cited_by_count: int | None = None
     counts_by_year: list[OACount] = Field(default_factory=list)
@@ -79,6 +99,19 @@ class OAWork(_Lenient):
         if not self.doi:
             return None
         return self.doi.lower().removeprefix("https://doi.org/")
+
+    @property
+    def arxiv_id(self) -> str | None:
+        """The arXiv id, from an arXiv DOI or an arxiv.org landing page."""
+        doi = self.bare_doi or ""
+        if doi.startswith("10.48550/arxiv."):
+            return _strip_version(doi.removeprefix("10.48550/arxiv."))
+        for location in self.locations:
+            url = location.landing_page_url or ""
+            match = _ARXIV_URL_RE.search(url)
+            if match:
+                return _strip_version(match["id"])
+        return None
 
     @property
     def subfield_ids(self) -> list[int]:
@@ -98,6 +131,14 @@ class OAWork(_Lenient):
         positions = sorted((pos, word) for word, spots in index.items() for pos in spots)
         text = " ".join(word for _, word in positions).strip()
         return text or None
+
+
+_ARXIV_URL_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(?P<id>[^?#\s]+?)(?:\.pdf)?$")
+_VERSION_RE = re.compile(r"v\d+$")
+
+
+def _strip_version(arxiv_id: str) -> str:
+    return _VERSION_RE.sub("", arxiv_id)
 
 
 def arxiv_doi(arxiv_id: str) -> str:
@@ -156,3 +197,34 @@ class OpenAlexSource:
                 if work.bare_doi:
                     result.works[work.bare_doi] = work
         return result
+
+    def most_cited(
+        self,
+        subfield: int,
+        *,
+        since: dt.date,
+        until: dt.date,
+        min_citations: int,
+        limit: int = WAVES_PER_QUERY,
+    ) -> list[OAWork]:
+        """The most-cited works with an abstract published in a window, for one subfield."""
+        filters = ",".join(
+            [
+                f"primary_topic.subfield.id:{subfield}",
+                f"from_publication_date:{since.isoformat()}",
+                f"to_publication_date:{until.isoformat()}",
+                f"cited_by_count:>{min_citations}",
+                "has_abstract:true",
+                "type:article|preprint",
+            ]
+        )
+        params: dict[str, str | int] = {
+            "filter": filters,
+            "select": SELECT,
+            "sort": "cited_by_count:desc",
+            "per_page": min(limit, WAVES_PER_QUERY),
+        }
+        if self._api_key:
+            params["api_key"] = self._api_key
+        response = self._http.get(WORKS_URL, limiter=self._limiter, params=params)
+        return [OAWork.model_validate(row) for row in response.json().get("results", [])]
