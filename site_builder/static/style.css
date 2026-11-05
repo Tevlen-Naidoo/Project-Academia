@@ -108,3 +108,4 @@ ul.legend { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .
 details.graph-list h3 { font-size: 1rem; margin: .75rem 0 .25rem; }
 details.graph-list summary { cursor: pointer; }
 .settings + .settings { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: .5rem; }
+#push-code-text { width: 100%; font: .8rem ui-monospace, Menlo, monospace; word-break: break-all; background: var(--card); color: var(--fg); border: 1px solid var(--line); padding: .5rem; }
