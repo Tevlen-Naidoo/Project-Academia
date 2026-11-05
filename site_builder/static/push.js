@@ -1,10 +1,11 @@
 // Web Push: the "Notifications" part of the Settings page.
 //
-// Turning notifications on asks the browser for a push subscription and saves it
-// in data/push/subscriptions.json through the GitHub API, with the same GitHub key
-// the reading board uses. After each daily run, `python -m notifier send` pushes a
-// message to every saved device. On iPhone and iPad this only works from the
-// Home Screen app (iOS 16.4 or later), which keeps its own copy of the GitHub key.
+// Turning notifications on asks the browser for a push subscription. If this browser
+// has the reading board's GitHub key, the subscription is saved straight to
+// data/push/subscriptions.json. Otherwise the page shows a sign-up code to paste into
+// the "Add notification device" workflow, which saves it. After each daily run,
+// `python -m notifier send` pushes a message to every saved device. On iPhone and iPad
+// this only works from the Home Screen app (iOS 16.4 or later).
 (function () {
   "use strict";
 
@@ -53,6 +54,15 @@
     return out;
   }
 
+  function signupCode(sub) {
+    var json = sub.toJSON();
+    var text = JSON.stringify({ endpoint: json.endpoint, keys: json.keys, device: deviceName() });
+    var bytes = new TextEncoder().encode(text);
+    var bin = "";
+    for (var i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return "pa1." + btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+
   function emptyFile() { return { schema_version: 1, subscriptions: [] }; }
 
   function saveSubscription(sub) {
@@ -98,6 +108,27 @@
     var ios = document.getElementById("push-ios");
     var on = document.getElementById("push-on");
     var off = document.getElementById("push-off");
+    var codeBox = document.getElementById("push-code");
+    var codeText = document.getElementById("push-code-text");
+    var copy = document.getElementById("push-copy");
+
+    function showCode(sub, open) {
+      if (!sub) { codeBox.hidden = true; return; }
+      codeText.value = signupCode(sub);
+      codeBox.hidden = false;
+      if (open) codeBox.open = true;
+    }
+
+    copy.addEventListener("click", function () {
+      codeText.select();
+      var done = function () { copy.textContent = "Copied"; };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(codeText.value).then(done, function () { document.execCommand("copy"); done(); });
+      } else {
+        document.execCommand("copy");
+        done();
+      }
+    });
 
     function show(text, subscribed) {
       state.textContent = text;
@@ -128,17 +159,15 @@
       ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
         if (sub && Notification.permission === "granted") {
           show("Notifications are on for this " + deviceName() + ".", true);
+          showCode(sub, false);
         } else {
           show("Notifications are off for this device.", false);
+          showCode(null);
         }
       }).catch(function () { show("Couldn't start notifications in this browser."); });
     }
 
     on.addEventListener("click", function () {
-      if (!gh.getToken()) {
-        state.textContent = "Save your GitHub key above first. It's needed to save this device.";
-        return;
-      }
       on.disabled = true;
       state.textContent = "Asking for permission…";
       // Ask straight from the tap: iOS only shows the prompt for a tap.
@@ -156,17 +185,20 @@
           });
         });
       }).then(function (sub) {
+        if (!gh || !gh.getToken()) {
+          // No GitHub key here: the workflow saves the device from its code.
+          show("Almost done: copy the code below into GitHub to finish.", true);
+          showCode(sub, true);
+          return;
+        }
         state.textContent = "Saving this device…";
-        return saveSubscription(sub);
-      }).then(function () {
-        show("Notifications are on for this " + deviceName() + ". The next one comes with tomorrow's papers.", true);
+        return saveSubscription(sub).then(function () {
+          show("Notifications are on for this " + deviceName() + ". The next one comes with tomorrow's papers.", true);
+          showCode(sub, false);
+        });
       }).catch(function (err) {
         on.disabled = false;
         if (err && err.message === "PERMISSION") { refresh(); return; }
-        if (err && err.message === "NO_TOKEN") {
-          state.textContent = "Save your GitHub key above first. It's needed to save this device.";
-          return;
-        }
         state.textContent = (err && err.message) || "Couldn't turn on notifications.";
       });
     });
@@ -178,7 +210,8 @@
         if (!sub) return null;
         var endpoint = sub.endpoint;
         return sub.unsubscribe().then(function () {
-          return gh.getToken() ? removeSubscription(endpoint) : null;
+          // Without a key the next send finds it gone and drops it.
+          return gh && gh.getToken() ? removeSubscription(endpoint) : null;
         });
       }).then(function () { refresh(); }).catch(function (err) {
         off.disabled = false;

@@ -29,11 +29,20 @@
     <ol>
       <li>In Safari, tap the <strong>Share</strong> button, then <strong>Add to Home Screen</strong>.</li>
       <li>Open <strong>Academia</strong> from your Home Screen and go to Settings.</li>
-      <li>Paste your GitHub key above again. The Home Screen app keeps its own copy.</li>
       <li>Tap <strong>Turn on notifications</strong> and allow them.</li>
+      <li>Copy the sign-up code it shows into the <strong>Add notification device</strong> workflow on GitHub.</li>
     </ol>
   </div>
   <p id="push-state" class="meta">Checking…</p>
+  <details id="push-code" hidden>
+    <summary>Sign-up code for this device</summary>
+    <p>To finish, copy this code, open
+    <a href="https://github.com/{{ repo }}/actions/workflows/push-device.yml" target="_blank" rel="noopener">Add notification device</a>
+    on GitHub (the GitHub app works), tap <strong>Run workflow</strong>, paste the code and run it.
+    A test notification arrives within a minute or two. You only do this once per device.</p>
+    <textarea id="push-code-text" rows="4" readonly spellcheck="false"></textarea>
+    <p><button type="button" class="button small" id="push-copy">Copy code</button></p>
+  </details>
   <p>
     <button type="button" class="button" id="push-on" hidden>Turn on notifications</button>
     <button type="button" class="button" id="push-off" hidden>Turn off notifications</button>

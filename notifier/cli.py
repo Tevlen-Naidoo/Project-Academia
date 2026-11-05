@@ -16,6 +16,7 @@ from collections.abc import Sequence
 from pathlib import Path
 
 import httpx
+from cryptography.hazmat.primitives.asymmetric import ec
 
 from fetcher.pipeline import DATA_DIR
 from notifier import subscriptions, vapid, webpush
@@ -65,12 +66,44 @@ def _cmd_keys(args: argparse.Namespace) -> int:
     return 0
 
 
-def _cmd_send(args: argparse.Namespace) -> int:
+def _key() -> ec.EllipticCurvePrivateKey | None:
     secret = os.environ.get(vapid.ENV_VAR, "")
-    if not secret.strip():
+    return vapid.load_private_key(secret) if secret.strip() else None
+
+
+def _cmd_add_device(args: argparse.Namespace) -> int:
+    try:
+        sub = subscriptions.decode_code(args.code)
+    except ValueError as exc:
+        print(f"Couldn't read the code: {exc}", file=sys.stderr)
+        return 1
+    today = dt.datetime.now(dt.UTC).date()
+    sub = sub.model_copy(update={"added_on": today})
+    path: Path = args.data_dir / "push" / "subscriptions.json"
+    file = subscriptions.load(path)
+    subscriptions.upsert(file, sub)
+    subscriptions.save(file, path, dt.datetime.now(dt.UTC))
+    print(f"Saved {sub.device or 'the device'}. {len(file.subscriptions)} device(s) signed up.")
+
+    key = _key()
+    if key is None:
+        print(f"{vapid.ENV_VAR} is not set, so no test notification was sent.")
+        return 0
+    payload = json.dumps(test_message(today), ensure_ascii=False).encode("utf-8")
+    with httpx.Client(timeout=30) as client:
+        result = webpush.send(client, sub, payload, key, site_url(args.repo))
+    if result.ok:
+        print("Sent a test notification to it.")
+        return 0
+    print(f"The test notification failed: {result.status} {result.detail}", file=sys.stderr)
+    return 1
+
+
+def _cmd_send(args: argparse.Namespace) -> int:
+    key = _key()
+    if key is None:
         print(f"{vapid.ENV_VAR} is not set, so no notifications were sent.")
         return 0
-    key = vapid.load_private_key(secret)
 
     path: Path = args.data_dir / "push" / "subscriptions.json"
     file = subscriptions.load(path)
@@ -124,6 +157,11 @@ def build_parser() -> argparse.ArgumentParser:
     send.add_argument("--data-dir", type=Path, default=DATA_DIR)
     send.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO))
     send.set_defaults(func=_cmd_send)
+    add = sub.add_parser("add-device", help="save a device from its sign-up code")
+    add.add_argument("code")
+    add.add_argument("--data-dir", type=Path, default=DATA_DIR)
+    add.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO))
+    add.set_defaults(func=_cmd_add_device)
     return parser
 
 
