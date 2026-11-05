@@ -1,0 +1,34 @@
+rules_version = '2';
+
+// Security rules for the Project Academia database. Paste this file into
+// Firebase console -> Firestore Database -> Rules, then Publish.
+//
+// Only accounts listed under owners/ can read or write the board and the
+// notification devices. The owners list itself can only be changed with the
+// service account (the "Set up database" workflow), never from the site.
+// The daily run uses the service account, which these rules don't apply to.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/owners/$(request.auth.uid));
+    }
+
+    match /boards/{board} {
+      allow read, write: if isOwner();
+    }
+
+    match /devices/{device} {
+      allow read, write: if isOwner();
+    }
+
+    match /owners/{uid} {
+      // Lets the Settings page check whether you're allowed in.
+      allow get: if request.auth != null && request.auth.uid == uid;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

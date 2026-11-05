@@ -1,0 +1,55 @@
+name: Set up database
+
+# Run once after creating the Firebase project (see the README):
+# allows your account to use the board, copies data/board.json and
+# data/push/subscriptions.json into Firestore, then removes those files from
+# the repository. Running it again with another account id allows that account
+# too; it never overwrites the board already in Firestore.
+
+on:
+  workflow_dispatch:
+    inputs:
+      owner:
+        description: "Your account id, from the site's Settings page after signing in"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-papers
+  cancel-in-progress: false
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked --no-dev
+      - name: Allow the account and copy the data
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          OWNER: ${{ inputs.owner }}
+        run: uv run python -m store setup --owner "$OWNER"
+      - name: Check
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: uv run python -m store check
+      - name: Remove the old files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git rm -q --ignore-unmatch data/board.json data/push/subscriptions.json
+          if git diff --cached --quiet; then
+            echo "Nothing left to remove."
+            exit 0
+          fi
+          git commit -m "Move the reading board and notification devices to Firestore"
+          git push

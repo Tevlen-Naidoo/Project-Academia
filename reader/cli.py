@@ -6,7 +6,7 @@ import argparse
 import datetime as dt
 import json
 import sys
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from pathlib import Path
 
 from fetcher.enrich import presort_key
@@ -16,6 +16,8 @@ from fetcher.topics import DEFAULT_TOPICS_PATH, load_topics
 from reader import board, finder, schema
 from reader.board import BoardError, CardSource, Column, SourceKind
 from reader.lookup import PaperLookup, parse_ids
+from store.data import change_board, load_board
+from store.firestore import StoreError
 
 DEFAULT_PICKS = 3
 
@@ -67,8 +69,7 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
         foundation_hops=args.hops,
         topics=load_topics(args.config),
         # Skip papers shown in the last 30 days and anything on the reading board.
-        exclude=finder.history(args.data_dir, args.date)
-        | board.load(args.data_dir / board.BOARD_PATH.name).paper_ids(),
+        exclude=finder.history(args.data_dir, args.date) | load_board(args.data_dir).paper_ids(),
     )
     with HttpClient() as http:
         result, graphs = finder.run(http, picks, options)
@@ -85,13 +86,23 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
     return 0
 
 
-def _board_paths(args: argparse.Namespace) -> tuple[Path, board.Board]:
-    path: Path = args.board
-    return path, board.load(path)
+def _load_board(args: argparse.Namespace) -> board.Board:
+    """`--board FILE` reads that file; otherwise Firestore (or data/board.json without a key)."""
+    if args.board is not None:
+        return board.load(args.board)
+    return load_board(args.data_dir)
+
+
+def _change_board[T](args: argparse.Namespace, apply: Callable[[board.Board], T]) -> T:
+    if args.board is not None:
+        current = board.load(args.board)
+        result = apply(current)
+        board.save(current, args.board)
+        return result
+    return change_board(args.data_dir, apply)
 
 
 def _cmd_board_add(args: argparse.Namespace) -> int:
-    path, current = _board_paths(args)
     ids = parse_ids(args.paper)
     if args.prereq_of:
         source = CardSource(
@@ -102,28 +113,25 @@ def _cmd_board_add(args: argparse.Namespace) -> int:
     else:
         source = CardSource(kind=SourceKind.MANUAL, date=args.date_found)
     # Check before the network lookup, so a duplicate or a full column fails fast.
-    current.check_can_add(ids)
+    _load_board(args).check_can_add(ids)
     with HttpClient() as http:
         paper = PaperLookup(http, data_dir=args.data_dir).resolve(ids)
-    card = current.add(paper, today=args.today, source=source)
-    board.save(current, path)
+    card = _change_board(args, lambda b: b.add(paper, today=args.today, source=source))
     print(f"Added to To read: {card.paper.title}")
     _print_links(card)
     return 0
 
 
 def _cmd_board_move(args: argparse.Namespace) -> int:
-    path, current = _board_paths(args)
-    card = current.move(parse_ids(args.paper), Column(args.column), today=args.today)
-    board.save(current, path)
+    ids, column = parse_ids(args.paper), Column(args.column)
+    card = _change_board(args, lambda b: b.move(ids, column, today=args.today))
     print(f"Moved to {board.column_name(card.column)}: {card.paper.title}")
     return 0
 
 
 def _cmd_board_remove(args: argparse.Namespace) -> int:
-    path, current = _board_paths(args)
-    card = current.remove(parse_ids(args.paper))
-    board.save(current, path)
+    ids = parse_ids(args.paper)
+    card = _change_board(args, lambda b: b.remove(ids))
     print(f"Removed: {card.paper.title}")
     return 0
 
@@ -136,7 +144,7 @@ def _print_links(card: board.Card) -> None:
 
 
 def _cmd_board_list(args: argparse.Namespace) -> int:
-    _, current = _board_paths(args)
+    current = _load_board(args)
     for column in Column:
         cards = current.column(column)
         limit = f"/{board.TO_READ_LIMIT}" if column is Column.TO_READ else ""
@@ -196,7 +204,10 @@ def build_parser() -> argparse.ArgumentParser:
 def _add_board_parser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:
     today = dt.datetime.now(dt.UTC).date()
     board_cmd = sub.add_parser("board", help="your reading board: To read, Reading, Done")
-    board_cmd.add_argument("--board", type=Path, default=board.BOARD_PATH)
+    board_cmd.add_argument(
+        "--board", type=Path, default=None, help="use this board file instead of Firestore"
+    )
+    board_cmd.add_argument("--data-dir", type=Path, default=finder.DATA_DIR)
     board_cmd.add_argument("--today", type=dt.date.fromisoformat, default=today)
     actions = board_cmd.add_subparsers(dest="action", required=True)
 
@@ -206,7 +217,6 @@ def _add_board_parser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) 
     found.add_argument("--pick", action="store_true", help="it was one of the daily picks")
     found.add_argument("--prereq-of", metavar="PICK_ID", help="it was shown under this pick")
     add.add_argument("--date-found", type=dt.date.fromisoformat, help="the day it was recommended")
-    add.add_argument("--data-dir", type=Path, default=finder.DATA_DIR)
     add.set_defaults(func=_cmd_board_add)
 
     for name, column, help_text in (
@@ -230,7 +240,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         result: int = args.func(args)
-    except BoardError as exc:
+    except (BoardError, StoreError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
     return result

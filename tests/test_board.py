@@ -223,15 +223,14 @@ def test_lookup_prefers_local_candidates(tmp_path: Path, paper_data: dict[str, A
 def test_cli_round_trip(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:
     respx.get(f"{S2}/ARXIV:1706.03762").respond(json=_s2_details())
     path = tmp_path / "board.json"
-    base = ["board", "--board", str(path), "--today", "2026-11-05"]
-    data = ["--data-dir", str(tmp_path)]
+    base = ["board", "--board", str(path), "--data-dir", str(tmp_path), "--today", "2026-11-05"]
 
-    assert cli.main([*base, "add", "https://arxiv.org/abs/1706.03762v7", "--pick", *data]) == 0
+    assert cli.main([*base, "add", "https://arxiv.org/abs/1706.03762v7", "--pick"]) == 0
     assert "Added to To read: Attention Is All You Need" in capsys.readouterr().out
     saved = json.loads(path.read_text())
     assert saved["cards"][0]["source"] == {"kind": "pick"}
 
-    assert cli.main([*base, "add", "1706.03762", *data]) == 1
+    assert cli.main([*base, "add", "1706.03762"]) == 1
     assert "already on the board" in capsys.readouterr().err
 
     assert cli.main([*base, "start", "1706.03762"]) == 0
@@ -256,14 +255,14 @@ def test_cli_prereq_source(tmp_path: Path, paper_data: dict[str, Any]) -> None:
         "board",
         "--board",
         str(path),
+        "--data-dir",
+        str(tmp_path),
         "add",
         "2410.12345",
         "--prereq-of",
         "arxiv:2411.00001",
         "--date-found",
         "2026-11-04",
-        "--data-dir",
-        str(tmp_path),
     ]
     assert cli.main(argv) == 0
     source = board.load(path).cards[0].source

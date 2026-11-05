@@ -21,3 +21,9 @@ def paper_data() -> dict[str, Any]:
         "funnel": ["fresh"],
         "fetched_at": "2026-11-03T06:00:00Z",
     }
+
+
+@pytest.fixture(autouse=True)
+def _no_firestore(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Tests use the local files in data/, never a real Firestore."""
+    monkeypatch.delenv("FIREBASE_SERVICE_ACCOUNT", raising=False)

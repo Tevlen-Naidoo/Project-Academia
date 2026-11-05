@@ -337,3 +337,59 @@ def test_cli_build_derives_the_push_key(
     monkeypatch.setenv(vapid.ENV_VAR, "not a key")
     assert cli.main(["build", "--data-dir", str(data_dir), "--out", str(out)]) == 0
     assert 'data-push-key=""' in (out / "index.html").read_text("utf-8")
+
+
+@pytest.mark.parametrize(
+    "raw",
+    [
+        '{"apiKey": "k", "authDomain": "a.firebaseapp.com", "projectId": "a", '
+        '"appId": "1:2:web:3"}',
+        """<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-analytics.js";
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "k",
+  authDomain: "a.firebaseapp.com",
+  projectId: "a",
+  storageBucket: "a.appspot.com",
+  appId: "1:2:web:3",
+  measurementId: "G-X"
+};
+  const app = initializeApp(firebaseConfig);
+</script>""",
+        """const firebaseConfig = {
+  apiKey: "k", authDomain: "a.firebaseapp.com", projectId: "a", appId: "1:2:web:3",
+};""",
+    ],
+)
+def test_firebase_config_reaches_every_page(
+    raw: str, data_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setenv(cli.FIREBASE_ENV, raw)
+    config = cli.firebase_config()
+    assert json.loads(config)["projectId"] == "a"
+    site = render.Site(
+        repo="owner/repo",
+        topics=TOPICS,
+        data=load.load(data_dir),
+        built_at=NOW,
+        firebase_config=config,
+    )
+    out = tmp_path / "site"
+    render.build(site, out)
+    page = (out / "settings" / "index.html").read_text("utf-8")
+    match = re.search(r'data-firebase="([^"]*)"', page)
+    assert match is not None
+    assert json.loads(html.unescape(match.group(1)))["apiKey"] == "k"
+    assert "<account-settings>" in page
+
+
+def test_bad_firebase_config_is_ignored(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    monkeypatch.setenv(cli.FIREBASE_ENV, '{"apiKey": "k"}')
+    assert cli.firebase_config() == ""
+    assert "Sign-in stays off" in capsys.readouterr().out
+    monkeypatch.delenv(cli.FIREBASE_ENV)
+    assert cli.firebase_config() == ""

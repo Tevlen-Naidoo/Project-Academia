@@ -76,10 +76,13 @@ papers" page for each day, linked from every pick, with time running left to rig
 
 ## Reading board
 
-`data/board.json` is your reading list, in three columns: To read, Reading and Done.
+The reading board is your reading list, in three columns: To read, Reading and Done.
 Papers only go on it when you add them; the daily picks are suggestions and never land
 there by themselves. To read holds at most 10 papers. Every card keeps links to the
-paper, and papers on the board (Done included) will be skipped by future picks.
+paper, and papers on the board (Done included) are skipped by future picks.
+
+The board lives in your Firestore database (see [Database](#database)), not in this
+repository, so changing it never makes a commit. Use it on the site, or from a terminal:
 
 ```sh
 uv run python -m reader board add 2410.12345          # or a DOI, or an arXiv / DOI / Semantic Scholar link
@@ -91,13 +94,52 @@ uv run python -m reader board remove 2410.12345
 uv run python -m reader board list
 ```
 
-The commands edit `data/board.json`; commit it to keep the change. From a phone, use
-**Actions → Update reading board → Run workflow**, which makes the change and commits it.
+The commands use Firestore when `FIREBASE_SERVICE_ACCOUNT` holds the service account key,
+and `data/board.json` otherwise (handy for trying things locally). `--board FILE` uses a
+file of your choice.
+
+## Database
+
+The board and the notification devices are stored in [Cloud Firestore](https://firebase.google.com/docs/firestore)
+on Firebase's free plan. The site stays static: the browser signs in with Firebase and talks
+to Firestore directly, and the [security rules](firestore.rules) let only your account read
+or write. The daily run reads the board (to skip papers on it) and the devices (to send
+notifications) with a service account key.
+
+| Document | What it holds |
+| --- | --- |
+| `boards/main` | The board, in the same shape as `reader.board.Board` (`schema/board.schema.json`) |
+| `devices/<sha256 of endpoint>` | One notification device each |
+| `owners/<account id>` | The accounts allowed in. Only the service account can change this |
+
+One-time setup (about 10 minutes, no card needed):
+
+1. At [console.firebase.google.com](https://console.firebase.google.com), **Create a project**
+   (Google Analytics is not needed).
+2. **Build → Firestore Database → Create database**, in production mode, in a nearby region.
+   Open its **Rules** tab, paste [`firestore.rules`](firestore.rules) and **Publish**.
+3. **Build → Authentication → Get started**. Turn on **Google** (and **Email/Password** if you
+   want it for the Home Screen app). Under **Settings → Authorised domains**, add
+   `tevlen-naidoo.github.io`.
+4. **Project settings → General → Your apps → Web (`</>`)**, register an app (no hosting) and
+   copy the `firebaseConfig` object. In GitHub, **Settings → Secrets and variables → Actions →
+   Variables → New repository variable**, name it `FIREBASE_CONFIG` and paste it. It is
+   public by design; the rules protect the data.
+5. **Project settings → Service accounts → Generate new private key**. In GitHub, add a
+   repository **secret** named `FIREBASE_SERVICE_ACCOUNT` with the whole file's contents, then
+   delete the file.
+6. Run **Actions → Publish site**, open the site's **Settings**, and sign in. It shows your
+   account id.
+7. Run **Actions → Set up database** with that id. It lets your account in, copies the
+   current board and devices into Firestore, and removes `data/board.json` and
+   `data/push/subscriptions.json` from the repository.
+
+Until step 7, the daily run keeps using the files in `data/`.
 
 ## Web app
 
-`site_builder/` turns the picks, prerequisites and reading board into a static site, which
-GitHub Pages hosts. It has Today (the 3 picks, their abstracts, links and what to read
+`site_builder/` turns the picks and prerequisites into a static site, which GitHub Pages
+hosts, with the reading board loaded live from the database once you sign in. It has Today (the 3 picks, their abstracts, links and what to read
 first), an Archive with topic, kind and title filters, a page per day, and the Reading
 board, where cards move between columns by dragging them (press and hold first on a touch
 screen) or with their buttons.
@@ -107,16 +149,9 @@ bundled in `site_builder/static/vendor/lit.js`, so there is no npm step. The Pyt
 (`site_builder/views.py`) hands each component its data as a JSON attribute, and the
 components in `site_builder/static/js/components/` draw it, with one plain stylesheet.
 
-Board buttons on the site save straight to `data/board.json` in this repository, so the
-daily picks keep skipping papers on the board. That needs a GitHub key, pasted once per
-device on the site's Settings page:
-
-1. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new).
-2. Give it access to **only this repository**, with **Contents: Read and write**. Nothing else.
-3. Paste it on the Settings page. It stays in that browser and is only sent to GitHub.
-
-Every board save is a commit, which rebuilds the site. One-time setup: **Settings → Pages →
-Source: GitHub Actions**.
+Board buttons on the site save straight to the database, after you sign in once per device
+on the Settings page. One-time setup: **Settings → Pages → Source: GitHub Actions**, plus the
+[Database](#database) steps.
 
 ```sh
 uv run python -m site_builder build --serve   # build into site/ and preview on localhost:8000
@@ -150,14 +185,14 @@ On each iPhone or iPad (iOS 16.4 or later):
 
 1. Open the site in Safari, tap **Share → Add to Home Screen**, and open **Academia** from
    the Home Screen.
-2. Go to **Settings**, paste your GitHub key again (the Home Screen app keeps its own copy),
-   then tap **Turn on notifications** and allow them.
+2. Go to **Settings**, sign in again (the Home Screen app keeps its own sign-in), then tap
+   **Turn on notifications** and allow them.
 
 On a computer or Android phone, step 2 works straight from the browser. To check it all,
 run **Actions → Send notifications → Run workflow** for a test message.
 
-Devices are listed in `data/push/subscriptions.json`. A device that turns notifications off,
-or whose subscription expires, is dropped after the next send. Without the secret, the
+Devices are saved in the database (`devices/`). A device that turns notifications off, or
+whose subscription expires, is removed after the next send. Without the secret, the
 daily run skips notifications and the Settings page says they aren't set up.
 
 ## Layout
@@ -169,8 +204,10 @@ daily run skips notifications and the Settings page says they aren't set up.
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
 | `scorer/` | The daily picks (`scorer/models.py` holds `Pick` and `PicksFile`) |
 | `config/scoring.yaml` | Scoring weights, light days, topic spread and repeat rules |
-| `site_builder/` | The static web app: page templates, the Lit web components in `static/js/components/`, `static/js/board-store.js`, which saves the board, and `static/js/push.js` and `root/sw.js` for notifications |
+| `site_builder/` | The static web app: page templates, the Lit web components in `static/js/components/`, `static/js/board-store.js` and `static/js/firebase.js`, which sign in and save the board, and `static/js/push.js` and `root/sw.js` for notifications |
 | `notifier/` | Sends the daily Web Push notification (`python -m notifier send`) |
+| `store/` | Firestore access for the daily run and the command line (`python -m store setup`, `check`) |
+| `firestore.rules` | Who may read and write the database. Paste into the Firebase console |
 | `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) and the reading board (`reader/board.py`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |
 | `data/` | Daily output: `candidates/`, `picks/`, `runs/` |

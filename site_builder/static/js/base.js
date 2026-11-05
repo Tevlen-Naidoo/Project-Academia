@@ -26,8 +26,16 @@ export function say(text, { error = false, settingsLink = false } = {}) {
 
 /** Show what went wrong with a save. */
 export function explain(err) {
-  if (err && err.message === "NO_TOKEN") {
-    say("To save to the board, add your GitHub key on the ", { error: true, settingsLink: true });
+  if (err && err.message === "NO_SIGNIN") {
+    say("To save to the board, sign in on the ", { error: true, settingsLink: true });
+    return;
+  }
+  if (err && err.message === "NOT_ALLOWED") {
+    say("This account isn't allowed to use the board yet. See the ", { error: true, settingsLink: true });
+    return;
+  }
+  if (err && err.message === "NOT_CONFIGURED") {
+    say("The board's database isn't set up for this site yet. See the ", { error: true, settingsLink: true });
     return;
   }
   say(err && err.message ? err.message : "Something went wrong.", { error: true });

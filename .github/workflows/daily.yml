@@ -53,6 +53,9 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: uv run python -m fetcher run --date "${{ steps.day.outputs.date }}"
       - name: Score
+        env:
+          # Reads the reading board, to skip papers already on it.
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: uv run python -m scorer run --date "${{ steps.day.outputs.date }}"
       - name: Find prerequisites
         # A failure here leaves out that day's prerequisites; the picks still go up.
@@ -60,6 +63,7 @@ jobs:
         env:
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: uv run python -m reader prereqs --date "${{ steps.day.outputs.date }}"
       - name: Commit
         env:
@@ -75,7 +79,7 @@ jobs:
             exit 0
           fi
           git commit -m "Daily papers for $DAY"
-          # A board save from the site may have landed during the run.
+          # Another workflow may have pushed during the run.
           for attempt in 1 2 3; do
             if git push; then exit 0; fi
             sleep $((attempt * 5))
@@ -109,4 +113,4 @@ jobs:
     with:
       date: ${{ needs.papers.outputs.date }}
     permissions:
-      contents: write
+      contents: read

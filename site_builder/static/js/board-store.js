@@ -1,10 +1,9 @@
-// The reading board, saved to data/board.json in the repository, shared by every
-// component on the page. Cards follow the rules of reader/board.py: To read holds
+// The reading board, saved in Firestore (boards/main) and shared by every
+// component on the page. Only a signed-in owner can read or change it. Cards follow the rules of reader/board.py: To read holds
 // at most 10 papers, a paper is on the board once, and the start and finish dates
 // match the column.
-import { changeFile, getToken, loadFile } from "./github.js";
+import { changeBoard, currentUser, onUser, readBoard } from "./firebase.js";
 
-const PATH = "data/board.json";
 export const TO_READ_LIMIT = 10;
 export const COLUMNS = [
   ["to_read", "To read"],
@@ -88,8 +87,8 @@ export function removeCard(board, ids) {
 
 /**
  * Holds the board the page shows. It starts from the copy baked into the page at
- * build time (if any), then reads the live file from GitHub once. Components
- * listen for "change".
+ * build time (empty once the board lives in Firestore), then reads the live board
+ * once you're signed in. Components listen for "change".
  */
 class BoardStore extends EventTarget {
   constructor() {
@@ -99,6 +98,21 @@ class BoardStore extends EventTarget {
     this._queue = Promise.resolve();
     this._pending = 0;
     this._confirmed = null;
+    this.signedIn = false;
+    this._watching = false;
+  }
+
+  _watch() {
+    if (this._watching) return;
+    this._watching = true;
+    onUser((user) => {
+      const signedIn = !!user;
+      if (signedIn === this.signedIn) return;
+      this.signedIn = signedIn;
+      this._loading = null;
+      if (!signedIn) this._set(emptyBoard());
+      else this.refresh();
+    });
   }
 
   _set(board, confirmed = true) {
@@ -112,13 +126,16 @@ class BoardStore extends EventTarget {
     if (!this.board && board) this._set(board);
   }
 
-  /** Read the live board once per page. Failing keeps the build-time board. */
+  /** Read the live board once per page (and again after signing in). */
   refresh() {
+    this._watch();
     if (!this._loading) {
-      this._loading = loadFile(PATH, emptyBoard())
-        .then((file) => {
-          if (this._pending) this._confirmed = file.data;
-          else this._set(file.data);
+      this._loading = currentUser()
+        .then((user) => (user ? readBoard(emptyBoard()) : null))
+        .then((data) => {
+          if (!data) return;
+          if (this._pending) this._confirmed = data;
+          else this._set(data);
         })
         .catch(() => {});
     }
@@ -127,11 +144,19 @@ class BoardStore extends EventTarget {
 
   /**
    * Change the board and save it. With `optimistic`, the page shows the change
-   * straight away; if the save fails, the page reloads the board from GitHub.
+   * straight away; if the save fails, the page reloads the board from Firestore.
    * Saves run one at a time, so quick moves in a row don't race each other.
    */
+  // `message` is kept for callers; Firestore saves carry no commit message.
   change(apply, message, { optimistic = false } = {}) {
-    if (!getToken()) return Promise.reject(new Error("NO_TOKEN"));
+    if (!this.signedIn) {
+      // A saved sign-in may still be loading: wait for it before saying no.
+      return currentUser().then((user) => {
+        if (!user) throw new Error("NO_SIGNIN");
+        this.signedIn = true;
+        return this.change(apply, message, { optimistic });
+      });
+    }
     if (optimistic && this.board) {
       const draft = JSON.parse(JSON.stringify(this.board));
       try {
@@ -142,7 +167,7 @@ class BoardStore extends EventTarget {
       this._set(draft, false);
     }
     this._pending += 1;
-    const run = this._queue.then(() => changeFile(PATH, emptyBoard, apply, message));
+    const run = this._queue.then(() => changeBoard(emptyBoard, apply));
     this._queue = run.catch(() => {});
     return run.then(
       (done) => {
@@ -155,7 +180,7 @@ class BoardStore extends EventTarget {
       (err) => {
         this._pending -= 1;
         if (!this._pending) {
-          // Go back to the last saved board, then check GitHub for the truth.
+          // Go back to the last saved board, then check Firestore for the truth.
           if (this._confirmed) this._set(this._confirmed);
           this._loading = null;
           this.refresh();

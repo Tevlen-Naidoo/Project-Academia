@@ -30,6 +30,8 @@ class Site:
     built_at: dt.datetime
     push_key: str = ""
     """VAPID public key for Web Push; empty leaves notifications off."""
+    firebase_config: str = ""
+    """The Firebase web app config as JSON; empty leaves sign-in and the live board off."""
 
 
 def _environment(site: Site) -> Environment:
@@ -57,6 +59,7 @@ def _environment(site: Site) -> Environment:
         repo=site.repo,
         built_at=site.built_at,
         push_key=site.push_key,
+        firebase_config=site.firebase_config,
     )
     return env
 

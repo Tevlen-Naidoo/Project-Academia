@@ -16,6 +16,7 @@ import {
   moveCard,
   removeCard,
 } from "../board-store.js";
+import { currentUser } from "../firebase.js";
 import { linkRow } from "./papers.js";
 
 const DONE_SHOWN = 20;
@@ -108,6 +109,9 @@ export class ReadingBoard extends LightElement {
     boardStore.seed(this.board);
     this._board = boardStore.board;
     boardStore.refresh();
+    currentUser().then((user) => {
+      if (!user) say("Your board is private. To see and change it, sign in on the ", { settingsLink: true });
+    });
 
     this.addEventListener("card-move", (e) => this._move(e.detail.ids, e.detail.column));
     this.addEventListener("card-remove", (e) => this._remove(e.detail.ids));
