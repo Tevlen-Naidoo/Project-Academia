@@ -1,0 +1,80 @@
+name: Rebuild prerequisites and graphs
+
+# Re-runs only the prerequisite finder for a day that already has picks, then
+# commits that day's prerequisites and citation graphs and republishes the site.
+# The picks themselves are left as they are. Use it after a change to the
+# finder, or when the daily run's prerequisite step failed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Day to rebuild (YYYY-MM-DD). Leave empty for today."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shares the daily run's group, so the two never write the same files at once.
+  group: daily-papers
+  cancel-in-progress: false
+
+jobs:
+  prereqs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked --no-dev
+      - name: Choose the day
+        id: day
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          day="${INPUT_DATE:-$(date -u +%F)}"
+          if ! [[ "$day" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "Not a date: $day" >&2
+            exit 1
+          fi
+          if [ ! -f "data/picks/$day.json" ]; then
+            echo "No picks for $day yet. Run the Daily papers workflow instead." >&2
+            exit 1
+          fi
+          echo "date=$day" >> "$GITHUB_OUTPUT"
+      - name: Find prerequisites and graphs
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: uv run python -m reader prereqs --date "${{ steps.day.outputs.date }}"
+      - name: Commit
+        env:
+          DAY: ${{ steps.day.outputs.date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add "data/prereqs/$DAY.json" "data/graphs/$DAY.json"
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Prerequisites and graphs for $DAY"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            sleep $((attempt * 5))
+            git pull --rebase
+          done
+          exit 1
+  publish:
+    needs: prereqs
+    uses: ./.github/workflows/pages.yml
+    secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
