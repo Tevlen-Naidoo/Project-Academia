@@ -1,0 +1,28 @@
+{
+  "offset": 0,
+  "data": [
+    {"isInfluential": true, "intents": ["methodology"],
+     "contexts": ["We build on the   transformer architecture [12]."],
+     "citedPaper": {"paperId": "sA", "externalIds": {"ArXiv": "1706.03762", "DOI": "10.48550/arXiv.1706.03762"},
+       "title": "Attention Is All You Need", "year": 2017, "venue": "NeurIPS",
+       "publicationTypes": ["Conference"], "citationCount": 52000, "influentialCitationCount": 9000}},
+    {"isInfluential": true, "intents": ["methodology", "background"], "contexts": [],
+     "citedPaper": {"paperId": "sB", "externalIds": {"DOI": "10.1109/CVPR.2016.90"},
+       "title": "Deep Residual Learning", "year": 2016, "venue": "CVPR",
+       "citationCount": 5000, "influentialCitationCount": 800}},
+    {"isInfluential": true, "intents": ["methodology"], "contexts": [],
+     "citedPaper": {"paperId": "sC", "externalIds": {}, "title": "A Smaller Method Paper", "year": 2022,
+       "citationCount": 300, "influentialCitationCount": 20}},
+    {"isInfluential": false, "intents": ["background"], "contexts": [],
+     "citedPaper": {"paperId": "sD", "externalIds": {}, "title": "A Survey of Vision Transformers", "year": 2023,
+       "publicationTypes": ["Review", "JournalArticle"], "citationCount": 20000, "influentialCitationCount": 400}},
+    {"isInfluential": false, "intents": ["background"], "contexts": [],
+     "citedPaper": {"paperId": "sE", "externalIds": {}, "title": "Another Survey", "year": 2023,
+       "publicationTypes": ["Review"], "citationCount": 15000, "influentialCitationCount": 100}},
+    {"isInfluential": false, "intents": [], "contexts": [],
+     "citedPaper": {"paperId": "sF", "externalIds": {}, "title": "Barely Cited", "year": 2024,
+       "citationCount": 5, "influentialCitationCount": 0}},
+    {"isInfluential": false, "intents": [], "contexts": [],
+     "citedPaper": {"paperId": null, "title": "Unresolved reference"}}
+  ]
+}

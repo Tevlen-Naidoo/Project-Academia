@@ -21,6 +21,21 @@ that link to a paper (last 30 days).
 To try it, open **Actions → Fetch candidates (manual) → Run workflow**. The candidates
 file is attached to the run as an artifact.
 
+## Prerequisite reading
+
+`reader/` finds what to read before each pick. For every pick it ranks the paper's
+references (Semantic Scholar, falling back to OpenAlex) and keeps up to 2 **Read first**
+papers (influential, cited for their method), 3 **Background** papers (at most one survey),
+and for each Read first paper the **Foundation**: the lowest paper in its own chain of Read
+first papers, at most 3 hops down. Papers shown in the last 30 days are skipped.
+
+```sh
+uv run python -m reader prereqs data/candidates/2026-11-05.json --ids arxiv:2410.12345
+```
+
+Without `--ids` it takes the top 3 candidates by the fetcher's rough order, until scoring
+writes a picks file. Output goes to `data/prereqs/YYYY-MM-DD.json`.
+
 ## Layout
 
 | Path | What it is |
@@ -28,6 +43,7 @@ file is attached to the run as an artifact.
 | `fetcher/models.py` | The `Paper` record and daily `CandidatesFile`, as Pydantic models |
 | `fetcher/topics.py` | Loads `config/topics.yaml` and tags papers by topic |
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
+| `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |
 | `data/` | Daily output: `candidates/`, `picks/`, `runs/` |
 

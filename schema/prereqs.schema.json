@@ -1,0 +1,379 @@
+{
+  "$defs": {
+    "Links": {
+      "additionalProperties": false,
+      "properties": {
+        "abstract_page": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Abstract Page"
+        },
+        "code": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Code"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "pdf": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pdf"
+        }
+      },
+      "title": "Links",
+      "type": "object"
+    },
+    "PaperIds": {
+      "additionalProperties": false,
+      "properties": {
+        "arxiv": {
+          "anyOf": [
+            {
+              "pattern": "^(\\d{4}\\.\\d{4,5}|[a-z-]+(\\.[A-Z]{2})?/\\d{7})$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Arxiv"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "pattern": "^10\\.\\S+/\\S+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "openalex": {
+          "anyOf": [
+            {
+              "pattern": "^W\\d+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Openalex"
+        },
+        "s2": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "S2"
+        }
+      },
+      "title": "PaperIds",
+      "type": "object"
+    },
+    "PaperRef": {
+      "additionalProperties": false,
+      "description": "A slim record of a referenced paper: enough to show it and link to it.",
+      "properties": {
+        "citations": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Citations"
+        },
+        "id": {
+          "pattern": "^(arxiv|doi|openalex|s2):.+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "ids": {
+          "$ref": "#/$defs/PaperIds"
+        },
+        "influential_citations": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Influential Citations"
+        },
+        "is_review": {
+          "default": false,
+          "title": "Is Review",
+          "type": "boolean"
+        },
+        "links": {
+          "$ref": "#/$defs/Links"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "tldr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tldr"
+        },
+        "venue": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Venue"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year"
+        }
+      },
+      "required": [
+        "id",
+        "ids",
+        "title"
+      ],
+      "title": "PaperRef",
+      "type": "object"
+    },
+    "PickPrereqs": {
+      "additionalProperties": false,
+      "properties": {
+        "errors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Errors",
+          "type": "array"
+        },
+        "pick_id": {
+          "pattern": "^(arxiv|doi|openalex|s2):.+$",
+          "title": "Pick Id",
+          "type": "string"
+        },
+        "pick_title": {
+          "title": "Pick Title",
+          "type": "string"
+        },
+        "prerequisites": {
+          "items": {
+            "$ref": "#/$defs/Prerequisite"
+          },
+          "title": "Prerequisites",
+          "type": "array"
+        },
+        "references_seen": {
+          "default": 0,
+          "minimum": 0,
+          "title": "References Seen",
+          "type": "integer"
+        },
+        "source": {
+          "$ref": "#/$defs/ReferenceSource"
+        }
+      },
+      "required": [
+        "pick_id",
+        "pick_title",
+        "source"
+      ],
+      "title": "PickPrereqs",
+      "type": "object"
+    },
+    "PrereqLabel": {
+      "enum": [
+        "read_first",
+        "foundation",
+        "background"
+      ],
+      "title": "PrereqLabel",
+      "type": "string"
+    },
+    "Prerequisite": {
+      "additionalProperties": false,
+      "properties": {
+        "chain": {
+          "items": {
+            "pattern": "^(arxiv|doi|openalex|s2):.+$",
+            "type": "string"
+          },
+          "title": "Chain",
+          "type": "array"
+        },
+        "label": {
+          "$ref": "#/$defs/PrereqLabel"
+        },
+        "paper": {
+          "$ref": "#/$defs/PaperRef"
+        },
+        "quote": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quote"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "score": {
+          "title": "Score",
+          "type": "number"
+        },
+        "supports": {
+          "items": {
+            "pattern": "^(arxiv|doi|openalex|s2):.+$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Supports",
+          "type": "array"
+        }
+      },
+      "required": [
+        "paper",
+        "label",
+        "score",
+        "supports"
+      ],
+      "title": "Prerequisite",
+      "type": "object"
+    },
+    "ReferenceSource": {
+      "enum": [
+        "s2",
+        "openalex",
+        "none"
+      ],
+      "title": "ReferenceSource",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "format": "date",
+      "title": "Date",
+      "type": "string"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "picks": {
+      "items": {
+        "$ref": "#/$defs/PickPrereqs"
+      },
+      "title": "Picks",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "date",
+    "generated_at"
+  ],
+  "title": "PrereqsFile",
+  "type": "object"
+}
