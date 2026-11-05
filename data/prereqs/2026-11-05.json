@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T09:10:40.631661Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2505.13400",
+      "pick_title": "A multi-agent system for automating scientific discovery",
+      "source": "s2",
+      "references_seen": 62,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1186/s13059-014-0550-8",
+            "ids": {
+              "doi": "10.1186/s13059-014-0550-8",
+              "s2": "817fc8de25f989b8229847fc7710750f273460b6"
+            },
+            "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+            "year": 2014,
+            "venue": "Genome Biology",
+            "citations": 51028,
+            "influential_citations": 11019,
+            "is_review": false,
+            "tldr": "This work presents DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates, which enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/817fc8de25f989b8229847fc7710750f273460b6",
+              "doi": "https://doi.org/10.1186/s13059-014-0550-8"
+            }
+          },
+          "label": "background",
+          "score": 5.787,
+          "reasons": [
+            "51k citations"
+          ],
+          "supports": [
+            "arxiv:2505.13400"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2210.03629",
+            "ids": {
+              "arxiv": "2210.03629",
+              "s2": "99832586d55f540f603637e458a292406a0ed75d"
+            },
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "year": 2022,
+            "venue": "International Conference on Learning Representations",
+            "citations": 13528,
+            "influential_citations": 1293,
+            "is_review": false,
+            "tldr": "The use of LLMs are explored to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources to gather additional information.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2210.03629",
+              "pdf": "https://arxiv.org/pdf/2210.03629"
+            }
+          },
+          "label": "background",
+          "score": 4.861,
+          "reasons": [
+            "14k citations"
+          ],
+          "quote": "The human flow cytometry analysis was similar to Finch’s except that the human analysis had the additional step of using the no-bead control to remove background signal in the Alexa 647 channel, which proved minimal.",
+          "supports": [
+            "arxiv:2505.13400"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1056/nejmc081470",
+            "ids": {
+              "doi": "10.1056/nejmc081470",
+              "s2": "40a704c870cfd5cbd0afe272119ebb06c154cc40"
+            },
+            "title": "Age-related macular degeneration.",
+            "year": 2008,
+            "venue": "New England Journal of Medicine",
+            "citations": 5809,
+            "influential_citations": 364,
+            "is_review": false,
+            "tldr": "The studies of familial multiple myeloma as well as others from the literature that attempt to define a genetic association between multiple myeloma and prostate cancer underscore the power of tumor aggregation, yet a common molecular genetic pathway explaining this putative association with hereditary cancer remains elusive.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/40a704c870cfd5cbd0afe272119ebb06c154cc40",
+              "doi": "https://doi.org/10.1056/nejmc081470"
+            }
+          },
+          "label": "background",
+          "score": 4.292,
+          "reasons": [
+            "5.8k citations"
+          ],
+          "supports": [
+            "arxiv:2505.13400"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.01815",
+      "pick_title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+      "source": "s2",
+      "references_seen": 32,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1098/rsta.2015.0202",
+            "ids": {
+              "doi": "10.1098/rsta.2015.0202",
+              "s2": "5bc875d65df812f9617d8ba508c1c85f4d219b19"
+            },
+            "title": "Principal component analysis: a review and recent developments",
+            "year": 2016,
+            "venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+            "citations": 10160,
+            "influential_citations": 489,
+            "is_review": true,
+            "tldr": "The basic ideas of PCA are introduced, discussing what it can and cannot do, and some variants of the technique have been developed that are tailored to various different data types and structures.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5bc875d65df812f9617d8ba508c1c85f4d219b19",
+              "doi": "https://doi.org/10.1098/rsta.2015.0202"
+            }
+          },
+          "label": "background",
+          "score": 5.051,
+          "reasons": [
+            "10k citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "An orthonormal appearance basis U ( ℓ ) app ,k is obtained by standard SVD/PCA [Jolliffe and Cadima, 2016] on training-scene displacements.",
+          "supports": [
+            "arxiv:2611.01815"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "s2": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 11931,
+            "influential_citations": 1707,
+            "is_review": false,
+            "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "label": "background",
+          "score": 4.878,
+          "reasons": [
+            "12k citations"
+          ],
+          "quote": "DINO-WM and JEPA-WM share a frozen DINOv2 encoder [Oquab et al., 2024], so their comparison varies only the predictor.",
+          "supports": [
+            "arxiv:2611.01815"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/0471667196.ess7149",
+            "ids": {
+              "doi": "10.1002/0471667196.ess7149",
+              "s2": "474885b0ea7a9d501b876b1982d6bd34c12c2599"
+            },
+            "title": "Directional Statistics, I",
+            "year": 2011,
+            "citations": 2592,
+            "influential_citations": 320,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/474885b0ea7a9d501b876b1982d6bd34c12c2599",
+              "doi": "https://doi.org/10.1002/0471667196.ess7149"
+            }
+          },
+          "label": "background",
+          "score": 3.984,
+          "reasons": [
+            "2.6k citations"
+          ],
+          "quote": "For ∆ Ti = ˆ z Ti − ˆ z clean i and non-negligible u Ti = ∆ Ti / ∥ ∆ Ti ∥ 2 , directional coherence is the standard mean resultant length [Mardia and Jupp, 1999], Our operational control shuffles source-transform correspondence only across scenes, retaining the factor, model, and layer.",
+          "supports": [
+            "arxiv:2611.01815"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1109/jiot.2026.3652582",
+      "pick_title": "SMNet: A Novel Compositional Generalization Model for Industrial Robot Multijoint Fault Diagnosis",
+      "source": "openalex",
+      "references_seen": 30,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1162/neco.1997.9.8.1735",
+            "ids": {
+              "doi": "10.1162/neco.1997.9.8.1735",
+              "openalex": "W2064675550"
+            },
+            "title": "Long Short-Term Memory",
+            "year": 1997,
+            "venue": "Neural Computation",
+            "citations": 103570,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2064675550",
+              "doi": "https://doi.org/10.1162/neco.1997.9.8.1735"
+            }
+          },
+          "label": "background",
+          "score": 4.012,
+          "reasons": [
+            "104k citations"
+          ],
+          "supports": [
+            "doi:10.1109/jiot.2026.3652582"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1609/aaai.v37i9.26317",
+            "ids": {
+              "doi": "10.1609/aaai.v37i9.26317",
+              "openalex": "W4382203079"
+            },
+            "title": "Are Transformers Effective for Time Series Forecasting?",
+            "year": 2023,
+            "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "citations": 3790,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4382203079",
+              "doi": "https://doi.org/10.1609/aaai.v37i9.26317"
+            }
+          },
+          "label": "background",
+          "score": 2.863,
+          "reasons": [
+            "3.8k citations"
+          ],
+          "supports": [
+            "doi:10.1109/jiot.2026.3652582"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ymssp.2017.06.022",
+            "ids": {
+              "doi": "10.1016/j.ymssp.2017.06.022",
+              "openalex": "W2744790985"
+            },
+            "title": "A deep convolutional neural network with new training methods for bearing fault diagnosis under noisy environment and different working load",
+            "year": 2017,
+            "venue": "Mechanical Systems and Signal Processing",
+            "citations": 1426,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2744790985",
+              "doi": "https://doi.org/10.1016/j.ymssp.2017.06.022"
+            }
+          },
+          "label": "background",
+          "score": 2.524,
+          "reasons": [
+            "1.4k citations"
+          ],
+          "supports": [
+            "doi:10.1109/jiot.2026.3652582"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

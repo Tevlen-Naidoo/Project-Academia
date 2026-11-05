@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T09:10:28.909560Z",
+  "candidates_file": "candidates/2026-11-05.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "waves",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9865,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9857,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "91 citations, about 16 a month · Published in Nature",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2505.13400",
+        "ids": {
+          "arxiv": "2505.13400",
+          "doi": "10.1038/s41586-026-10652-y",
+          "s2": "799017d2818108e91392c541579cbe9d2cc38e35",
+          "openalex": "W7161734976"
+        },
+        "title": "A multi-agent system for automating scientific discovery",
+        "authors": [
+          {
+            "name": "Ali Essa Ghareeb",
+            "affiliation": null
+          },
+          {
+            "name": "Benjamin Chang",
+            "affiliation": null
+          },
+          {
+            "name": "Ludovico Mitchener",
+            "affiliation": null
+          },
+          {
+            "name": "Yiu Angela",
+            "affiliation": null
+          },
+          {
+            "name": "Caralyn J. Szostkiewicz",
+            "affiliation": null
+          },
+          {
+            "name": "Dmytro Shved",
+            "affiliation": null
+          },
+          {
+            "name": "Gavin J. Gyimesi",
+            "affiliation": null
+          },
+          {
+            "name": "Jon M. Laurent",
+            "affiliation": null
+          },
+          {
+            "name": "Samantha M. Wright",
+            "affiliation": null
+          },
+          {
+            "name": "Muhammed T. Razzak",
+            "affiliation": null
+          },
+          {
+            "name": "Andrew D. White",
+            "affiliation": null
+          },
+          {
+            "name": "Silvia C. Finnemann",
+            "affiliation": null
+          },
+          {
+            "name": "Michaela M. Hinks",
+            "affiliation": null
+          },
+          {
+            "name": "Samuel G. Rodriques",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Scientific discovery is driven by the iterative process of observation, hypothesis generation, experimentation, and data analysis. Despite recent advancements in applying artificial intelligence to biology, no system has yet automated all these stages [1, 2, 3]. Here, we introduce Robin, the first multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate hypotheses, propose experiments, interpret experimental results, and generate updated hypotheses, achieving a semi-autonomous approach to scientific discovery. By applying this system, we were able to identify promising therapeutic candidates for dry age-related macular degeneration (dAMD), the major cause of blindness in the developed world [4, 5]. Robin proposed enhancing retinal pigment epithelium phagocytosis as a therapeutic strategy, and identified and confirmed in vitro efficacy for ripasudil and KL001. Ripasudil is a clinically-used Rho kinase (ROCK) inhibitor that has never previously been proposed for treating dAMD. To elucidate the mechanism of ripasudil-induced upregulation of phagocytosis, Robin then proposed and analyzed a follow-up RNA-seq experiment, which revealed upregulation of ABCA1 , a lipid efflux pump and possible novel target. All hypotheses, experimental directions, data analyses, and data figures in the main text of this report were produced by Robin. As the first AI system to autonomously discover and validate novel therapeutic candidates within an iterative lab-in-the-loop framework, Robin establishes a new paradigm for AI-driven scientific discovery.",
+        "tldr": "Robin is the first AI system to autonomously discover and validate a novel therapeutic candidate within an iterative lab-in-the-loop framework, establishing a new paradigm for AI-driven scientific discovery.",
+        "topics": [
+          "ai",
+          "nlp",
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-05",
+          "submitted": null,
+          "published": "2026-05-19"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Nature",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 91,
+          "influential": 4,
+          "last_12_months": 140,
+          "per_month": 16.294,
+          "by_year": {
+            "2026": 139,
+            "2025": 7
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2505.13400",
+          "pdf": "https://arxiv.org/pdf/2505.13400",
+          "doi": "https://doi.org/10.1038/s41586-026-10652-y",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-05T09:06:09.808963Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8798,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "23 upvotes on Hugging Face · Accepted at World Models",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.01815",
+        "ids": {
+          "arxiv": "2611.01815",
+          "doi": null,
+          "s2": "219888df5987b172f5b3c7e65245bb7a4918b486",
+          "openalex": "W7225165458"
+        },
+        "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+        "authors": [
+          {
+            "name": "Anton Hristov",
+            "affiliation": null
+          },
+          {
+            "name": "Aleksandar Slavov",
+            "affiliation": null
+          },
+          {
+            "name": "Vasil Vasilev",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty. We present an evaluation framework that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error. On IntPhys2, a benchmark of physically possible and impossible events, we compare representations from latent prediction, masked pixel reconstruction, and simple visual statistics. Appearance remains easy to decode, while V-JEPA2 exposes modest information about whether events are possible or impossible. Looking at the latent geometry, appearance changes become smaller compared with differences between videos, their directions line up more consistently across scenes, and their overlap with physical changes decreases in deeper layers. Across action-conditioned models, incorrect actions raise prediction error, while appearance changes also produce substantial responses. In Physion++ video clips, repeating a single frame can produce higher error than the original clip, while changing color throughout the clip can lower it. Using Kubric, a simulation and rendering framework, we find that impossible events can produce lower error than possible events. A fixed error threshold also incorrectly flags many possible events as impossible. A model can therefore represent physical information and respond to incorrect actions without its native prediction error reliably measuring physical surprise.",
+        "tldr": "An evaluation framework is presented that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error, finding that impossible events can produce lower error than possible events.",
+        "topics": [
+          "ml",
+          "vision",
+          "ai"
+        ],
+        "source_categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "dates": {
+          "first_seen": "2026-11-05",
+          "submitted": "2026-11-01",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "World Models",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 23,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.01815",
+          "pdf": "https://arxiv.org/pdf/2611.01815",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-05T09:06:09.808963Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "waves",
+      "score": 0.9726,
+      "adjusted": 0.9726,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9706,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9062,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "40 citations, about 4 a month · Published in IEEE Internet of Things Journal",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1109/jiot.2026.3652582",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1109/jiot.2026.3652582",
+          "s2": "f7ffb067a1be04df1e11e6ddec20c3cdce34bb85",
+          "openalex": "W7123349468"
+        },
+        "title": "SMNet: A Novel Compositional Generalization Model for Industrial Robot Multijoint Fault Diagnosis",
+        "authors": [
+          {
+            "name": "Xiaoxi Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Chengzhi Jiang",
+            "affiliation": null
+          },
+          {
+            "name": "Yuhan Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Dandan Peng",
+            "affiliation": null
+          },
+          {
+            "name": "Hao Su",
+            "affiliation": null
+          },
+          {
+            "name": "Yiming He",
+            "affiliation": null
+          },
+          {
+            "name": "Zhuyun Chen",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Compound fault diagnosis in multi-joint industrial robots is a critical yet underexplored problem in industrial internet of things, where the simultaneous degradation of multiple joints poses a severe challenge for reliable operation. Unlike conventional methods limited to single-fault scenarios, this paper addresses the compositional generalization challenge—requiring models trained only on simple faults to accurately recognize unseen higher-order fault compositions. To this end, we propose StateMix Network (SMNet), a multi-stage architecture that preserves atomic joint-level representations before compositional diagnosis. Specifically, a Single-Joint Feature Extraction (SJFE) backbone extracts clean joint-private features, which are then fused by an Attention-Guided Dilated Fusion (AGDF) neck employing parallel Cascaded Dilated Convolution Blocks (CDCBs) bracketed by a dual-path attention mechanism for scale- and context-aware integration. Finally, a Mamba-based sequence mixer models long-range cross-joint dependencies to capture global fault dynamics. Extensive experiments on in-situ vibration data from a single six-joint industrial robot platform, under a strict train-on-simple/evaluate-on-complex protocol, demonstrate that SMNet consistently outperforms representative baselines in macro-Precision, Recall, and F1-score, particularly on unseen triple- and quadruple-joint compositions. Ablation and sensitivity analyses further validate the effectiveness of each module. This work presents a diagnostic approach that effectively generalizes from simple to complex fault scenarios in industrial robots.",
+        "tldr": null,
+        "topics": [
+          "robotics"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-05",
+          "submitted": null,
+          "published": "2026-01-12"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Internet of Things Journal",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 40,
+          "influential": 2,
+          "last_12_months": 40,
+          "per_month": 4.1,
+          "by_year": {
+            "2026": 40,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1109/jiot.2026.3652582",
+          "pdf": null,
+          "doi": "https://doi.org/10.1109/jiot.2026.3652582",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-05T09:06:09.808963Z"
+      }
+    }
+  ]
+}
