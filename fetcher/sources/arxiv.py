@@ -13,6 +13,7 @@ from collections.abc import Iterator, Sequence
 from dataclasses import dataclass, field
 
 from fetcher.http import HttpClient, RateLimiter
+from fetcher.sources.base import Source, SourceResult
 
 API_URL = "https://export.arxiv.org/api/query"
 PAGE_SIZE = 500
@@ -52,10 +53,9 @@ class ArxivEntry:
 
 
 @dataclass(slots=True)
-class ArxivResult:
+class ArxivResult(SourceResult):
     entries: list[ArxivEntry] = field(default_factory=list)
     total_reported: int = 0
-    errors: list[str] = field(default_factory=list)
 
 
 def _clean(text: str | None) -> str:
@@ -144,7 +144,9 @@ def parse_feed(xml_bytes: bytes) -> tuple[list[ArxivEntry], int, list[str]]:
     return entries, total, errors
 
 
-class ArxivSource:
+class ArxivSource(Source):
+    request_interval_s = REQUEST_INTERVAL_S
+
     def __init__(
         self,
         http: HttpClient,
@@ -153,17 +155,15 @@ class ArxivSource:
         page_size: int = PAGE_SIZE,
         max_results: int = MAX_RESULTS,
     ) -> None:
-        self._http = http
-        self._limiter = limiter or RateLimiter(REQUEST_INTERVAL_S)
+        super().__init__(http, limiter=limiter)
         self._page_size = page_size
         self._max_results = max_results
 
     def _pages(self, query: str) -> Iterator[tuple[list[ArxivEntry], int, list[str]]]:
         start = 0
         while start < self._max_results:
-            response = self._http.get(
+            response = self._get(
                 API_URL,
-                limiter=self._limiter,
                 params={
                     "search_query": query,
                     "sortBy": "submittedDate",
