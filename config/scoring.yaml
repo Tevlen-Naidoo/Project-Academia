@@ -1,0 +1,48 @@
+# Settings for step 2, which picks the day's papers from the candidates file.
+#
+# Every signal is turned into a percentile (0 to 1) before weighting, so the
+# weights of each funnel should add up to 1. A paper in both funnels gets the
+# higher of its two scores.
+
+version: 1
+
+picks_per_day: 3
+
+weights:
+  fresh:
+    buzz: 0.40
+    status: 0.30
+    citation_speed: 0.10
+    influential: 0.0
+    recency: 0.20
+  waves:
+    buzz: 0.15
+    status: 0.20
+    citation_speed: 0.45
+    influential: 0.20
+    recency: 0.0
+
+# How much each publication status is worth, before weighting.
+status_values:
+  published: 1.0
+  accepted: 0.8
+  preprint: 0.0
+
+# Recency falls from 1 (today) to 0 at the end of this many days.
+recency_days: 7
+
+# Days of the week when one slot goes to a light topic (astronomy, history,
+# art, culture). On other days light topics are only a fallback.
+light_days: [mon, wed, fri]
+
+# A paper's score is multiplied by `factor` once for each of the last `days`
+# days on which its main topic was picked, so one topic can't win every day.
+topic_spread:
+  days: 3
+  factor: 0.85
+
+# A past pick can return after `cooldown_days`, at `factor` times its score.
+# Papers on the reading board are never picked again.
+repeats:
+  cooldown_days: 30
+  factor: 0.8
