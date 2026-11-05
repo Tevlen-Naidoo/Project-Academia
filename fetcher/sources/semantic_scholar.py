@@ -8,7 +8,8 @@ all anonymous users, so we stay at 1 per second either way.
 from __future__ import annotations
 
 import os
-from collections.abc import Sequence
+import time
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 
 import httpx
@@ -20,6 +21,10 @@ BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 BATCH_SIZE = 250
 """The API allows 500, but large batches can exceed its response size limit."""
 MIN_SPLIT = 8
+TIME_BUDGET_S = 300.0
+"""Stop looking papers up after this long, so a throttled API cannot stall the run."""
+NONE_FOUND = "No valid paper ids given"
+"""The API's 400 message when none of a batch's ids is in Semantic Scholar."""
 """Stop halving a rejected batch below this many ids."""
 REQUEST_INTERVAL_S = 1.1
 FIELDS = ",".join(
@@ -97,21 +102,35 @@ class SemanticScholarSource:
         api_key: str | None = None,
         limiter: RateLimiter | None = None,
         batch_size: int = BATCH_SIZE,
+        time_budget_s: float = TIME_BUDGET_S,
+        clock: Callable[[], float] = time.monotonic,
     ) -> None:
         self._http = http
+        self._time_budget_s = time_budget_s
+        self._clock = clock
+        self._deadline = 0.0
         self._api_key = api_key if api_key is not None else os.environ.get("S2_API_KEY") or None
         self._limiter = limiter or RateLimiter(REQUEST_INTERVAL_S)
         self._batch_size = batch_size
 
     def batch(self, ids: Sequence[str]) -> S2Result:
         result = S2Result(requested=len(ids))
+        self._deadline = self._clock() + self._time_budget_s
         for start in range(0, len(ids), self._batch_size):
+            if self._clock() > self._deadline:
+                result.errors.append(
+                    f"stopped after {self._time_budget_s:.0f}s; "
+                    f"{len(ids) - start} ids not looked up"
+                )
+                break
             self._fetch_chunk(list(ids[start : start + self._batch_size]), start, result)
         return result
 
     def _fetch_chunk(self, chunk: list[str], start: int, result: S2Result) -> None:
         """Fetch one chunk. A rejected chunk is split in half and retried, because the
         API answers 400 when a batch's response would be too large or one id is bad."""
+        if self._clock() > self._deadline:
+            return  # batch() reports the stop
         headers = {"x-api-key": self._api_key} if self._api_key else None
         problem: str
         try:
@@ -127,6 +146,8 @@ class SemanticScholarSource:
             if exc.response.status_code != 400:
                 result.errors.append(f"batch at {start}: HTTP {exc.response.status_code}")
                 return
+            if NONE_FOUND in exc.response.text:
+                return  # none of these papers is in Semantic Scholar yet; not an error
             problem = f"HTTP 400: {_snippet(exc.response.text)}"
         except Exception as exc:  # network, retries exhausted, bad JSON: report and move on
             result.errors.append(f"batch at {start}: {type(exc).__name__}: {exc}")

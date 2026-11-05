@@ -188,3 +188,11 @@ def test_pipeline_keeps_fresh_and_waves_papers() -> None:
     # every configured subfield is queried in two windows, each returning the 3 fixture works
     assert waves_report.fetched == 3 * 2 * len(load_topics().openalex_subfields())
     assert len(ids) == len(candidates.papers)  # no duplicates across queries
+
+
+def test_malformed_doi_is_dropped_not_fatal() -> None:
+    work = _works()[1].model_copy(update={"doi": "https://doi.org/10.1234/has space"})
+    paper = paper_from_work(work, topics=load_topics(), today=TODAY, now=NOW)
+    assert paper is not None
+    assert paper.ids.doi is None
+    assert paper.id == "openalex:W4500000002"

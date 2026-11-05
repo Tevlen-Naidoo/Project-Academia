@@ -56,7 +56,9 @@ def _cmd_run(args: argparse.Namespace) -> int:
     topics = load_topics(args.config)
     options = pipeline.RunOptions(today=args.date, fresh_days=args.fresh_days)
     with HttpClient() as http:
-        candidates = pipeline.run(http, topics, options)
+        candidates = pipeline.run(
+            http, topics, options, log=lambda line: print(f"[done] {line}", flush=True)
+        )
     path = pipeline.write(candidates, args.data_dir)
     for name, report in candidates.sources.items():
         print(

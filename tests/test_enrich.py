@@ -264,3 +264,40 @@ def test_s2_rate_limit_after_retries_is_reported_not_split() -> None:
         result = source.batch(["ARXIV:1"] * 20)
     assert route.call_count == 2
     assert len(result.errors) == 1 and "429" in result.errors[0]
+
+
+@respx.mock
+def test_s2_none_found_is_not_an_error_and_not_split() -> None:
+    route = respx.post(BATCH_URL).mock(
+        return_value=httpx.Response(400, json={"error": "No valid paper ids given"})
+    )
+    with HttpClient(sleep=lambda _: None) as http:
+        source = SemanticScholarSource(http, api_key="", limiter=RateLimiter(0))
+        result = source.batch([f"ARXIV:2611.{i:05d}" for i in range(100)])
+    assert route.call_count == 1
+    assert result.papers == {}
+    assert result.errors == []
+
+
+@respx.mock
+def test_s2_time_budget_stops_lookups() -> None:
+    now = [0.0]
+
+    def answer(request: httpx.Request) -> httpx.Response:
+        now[0] += 100  # each call "takes" 100 s
+        ids = json.loads(request.content)["ids"]
+        return httpx.Response(200, json=[None] * len(ids))
+
+    route = respx.post(BATCH_URL).mock(side_effect=answer)
+    with HttpClient(sleep=lambda _: None) as http:
+        source = SemanticScholarSource(
+            http,
+            api_key="",
+            limiter=RateLimiter(0),
+            batch_size=10,
+            time_budget_s=250,
+            clock=lambda: now[0],
+        )
+        result = source.batch([f"ARXIV:{i}" for i in range(100)])
+    assert route.call_count == 3
+    assert result.errors == ["stopped after 250s; 70 ids not looked up"]

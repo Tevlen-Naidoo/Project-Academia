@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import re
 from dataclasses import dataclass
 
 from fetcher import enrich
@@ -34,6 +35,9 @@ def windows(today: dt.date) -> list[Window]:
     ]
 
 
+_DOI_RE = re.compile(r"^10\.\S+/\S+$")
+
+
 def _date(text: str | None) -> dt.date | None:
     if not text:
         return None
@@ -62,8 +66,8 @@ def paper_from_work(
 
     arxiv = work.arxiv_id
     doi = work.bare_doi
-    if doi and doi.startswith(enrich.ARXIV_DOI_PREFIX):
-        doi = None
+    if doi and (doi.startswith(enrich.ARXIV_DOI_PREFIX) or not _DOI_RE.match(doi)):
+        doi = None  # arXiv's own DOI, or a malformed one (spaces, missing suffix)
     ids = PaperIds(arxiv=arxiv, doi=doi, openalex=work.work_id)
     when = _date(work.publication_date)
     is_preprint = work.type == "preprint"
