@@ -15,6 +15,7 @@ from fetcher.topics import TopicsConfig
 from reader import board
 from reader.lookup import ref_from_paper
 from reader.models import PaperRef
+from site_builder import graph_view
 from site_builder.load import Day, SiteData
 
 HERE = Path(__file__).resolve().parent
@@ -132,6 +133,16 @@ def build(site: Site, out: Path) -> list[Path]:
             is_today=False,
             nav="archive",
         )
+    for day in days:
+        if day.has_graphs:
+            page(
+                f"days/{day.date.isoformat()}/graph/index.html",
+                "graph.html",
+                day=day,
+                layouts=[(v, graph_view.layout(v.graph)) for v in day.picks if v.graph],
+                role_names=graph_view.ROLE_NAMES,
+                nav="archive",
+            )
     page("archive/index.html", "archive.html", days=days, nav="archive")
     page("settings/index.html", "settings.html", nav="settings")
 

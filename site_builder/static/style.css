@@ -81,3 +81,29 @@ button.button:disabled { opacity: .5; cursor: default; }
 #token-form { display: flex; flex-wrap: wrap; gap: .5rem; align-items: end; margin-top: 1rem; }
 #token-form label { display: flex; flex-direction: column; font-size: .85rem; color: var(--muted); flex: 1 1 16rem; }
 #token-form input { font: inherit; padding: .4rem; }
+.graph-link { margin: .5rem 0; }
+.graph-section { margin: 1.5rem 0 2rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.graph-scroll { overflow-x: auto; }
+svg.graph { width: 100%; min-width: 40rem; height: auto; display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+svg.graph .ticks line { stroke: var(--line); }
+svg.graph .ticks text { fill: var(--muted); font-size: 11px; }
+svg.graph .edge { stroke: var(--muted); stroke-opacity: .18; stroke-width: 1; }
+svg.graph .edge.strong { stroke-opacity: .5; }
+svg.graph .edge.builds-on { stroke-dasharray: 4 3; stroke-opacity: .8; }
+svg.graph .node circle { stroke: var(--bg); stroke-width: 1.5; }
+svg.graph .node text { fill: var(--fg); font-size: 11.5px; paint-order: stroke; stroke: var(--card); stroke-width: 4px; stroke-linejoin: round; }
+svg.graph a.node:hover circle, svg.graph a.node:focus circle { stroke: var(--fg); }
+:root { --g-pick: #1a5fb4; --g-read: #c64600; --g-found: #8f3f97; --g-bg: #2e8540; --g-ref: #9a9aa2; --g-cite: #b08800; }
+@media (prefers-color-scheme: dark) {
+  :root { --g-pick: #8ab4f8; --g-read: #f29b6b; --g-found: #d29be0; --g-bg: #7cc98a; --g-ref: #6e6e78; --g-cite: #e3c35a; }
+}
+.role-pick circle, .dot.role-pick { fill: var(--g-pick); background: var(--g-pick); }
+.role-read_first circle, .dot.role-read_first { fill: var(--g-read); background: var(--g-read); }
+.role-foundation circle, .dot.role-foundation { fill: var(--g-found); background: var(--g-found); }
+.role-background circle, .dot.role-background { fill: var(--g-bg); background: var(--g-bg); }
+.role-reference circle, .dot.role-reference { fill: var(--g-ref); background: var(--g-ref); }
+.role-citing circle, .dot.role-citing { fill: var(--g-cite); background: var(--g-cite); }
+ul.legend { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .9rem; }
+.dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .35rem; vertical-align: -.05rem; }
+details.graph-list h3 { font-size: 1rem; margin: .75rem 0 .25rem; }
+details.graph-list summary { cursor: pointer; }

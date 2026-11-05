@@ -67,6 +67,7 @@ jobs:
           git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
           git add "data/picks/$DAY.json"
           if [ -f "data/prereqs/$DAY.json" ]; then git add "data/prereqs/$DAY.json"; fi
+          if [ -f "data/graphs/$DAY.json" ]; then git add "data/graphs/$DAY.json"; fi
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
             exit 0
@@ -87,6 +88,7 @@ jobs:
             data/candidates/*.json
             data/picks/*.json
             data/prereqs/*.json
+            data/graphs/*.json
           retention-days: 30
           if-no-files-found: warn
   publish:

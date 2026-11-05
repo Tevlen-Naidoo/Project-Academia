@@ -53,7 +53,9 @@ uv run python -m scorer run --date 2026-11-05   # reads data/candidates/2026-11-
 references (Semantic Scholar, falling back to OpenAlex) and keeps up to 2 **Read first**
 papers (influential, cited for their method), 3 **Background** papers (at most one survey),
 and for each Read first paper the **Foundation**: the lowest paper in its own chain of Read
-first papers, at most 3 hops down. Papers shown in the last 30 days are skipped.
+first papers, at most 3 hops down. Background papers must share a field of study with
+the pick (from Semantic Scholar or OpenAlex) unless Semantic Scholar says the pick builds on
+them, so a highly cited paper from another field is not suggested on citations alone. Papers shown in the last 30 days are skipped.
 
 ```sh
 uv run python -m reader prereqs                      # today's picks
@@ -63,6 +65,14 @@ uv run python -m reader prereqs data/candidates/2026-11-05.json --ids arxiv:2410
 With no file it reads today's picks from `data/picks/YYYY-MM-DD.json`, in rank order.
 Given a candidates file instead, it takes the top 3 by the fetcher's rough order.
 Output goes to `data/prereqs/YYYY-MM-DD.json`.
+
+## Connected papers
+
+The same run saves a citation graph per pick in `data/graphs/YYYY-MM-DD.json`: the pick,
+its prerequisites, up to 15 other references and the 10 most-cited papers that cite it,
+with the citations between all of them (one extra Semantic Scholar call per pick for the
+citing papers, and one for the links between them). The site draws it on a "Connected
+papers" page for each day, linked from every pick, with time running left to right.
 
 ## Reading board
 

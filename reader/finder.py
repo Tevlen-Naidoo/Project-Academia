@@ -19,7 +19,9 @@ from pydantic import ValidationError
 from fetcher.http import HttpClient
 from fetcher.models import Paper
 from fetcher.sources.semantic_scholar import SemanticScholarSource
-from reader import rank
+from fetcher.topics import TopicsConfig
+from reader import graph, rank
+from reader.fields import pick_fields
 from reader.models import (
     PaperRef,
     PickPrereqs,
@@ -32,6 +34,7 @@ from reader.references import Reference, ReferenceClient, s2_key
 
 DATA_DIR = Path("data")
 PREREQS_SUBDIR = "prereqs"
+GRAPHS_SUBDIR = "graphs"
 HISTORY_DAYS = 30
 FOUNDATION_MAX_HOPS = 3
 
@@ -42,6 +45,8 @@ class FinderOptions:
     foundation_hops: int = FOUNDATION_MAX_HOPS
     exclude: set[str] = field(default_factory=set)
     """Paper ids never to show: past picks and prerequisites, papers already read."""
+    topics: TopicsConfig | None = None
+    """When set, Background papers must share a field of study with their pick."""
 
 
 def history(data_dir: Path, today: dt.date, days: int = HISTORY_DAYS) -> set[str]:
@@ -98,6 +103,24 @@ def _foundation(read_first: PaperRef, path: list[PaperRef], pick_id: str) -> Pre
     )
 
 
+Fetched = dict[str, tuple[str, list[Reference], list[str]]]
+"""Per pick id: where the references came from, the references, and errors."""
+
+
+def fetch(picks: Sequence[Paper], client: ReferenceClient) -> Fetched:
+    fetched: Fetched = {}
+    for pick in picks:
+        source, listing = client.references(pick.ids)
+        fetched[pick.id] = (source, listing.references, listing.errors)
+    return fetched
+
+
+def fields_by_pick(picks: Sequence[Paper], options: FinderOptions) -> dict[str, frozenset[str]]:
+    if options.topics is None:
+        return {}
+    return {p.id: pick_fields(p, options.topics) for p in picks}
+
+
 def find(
     picks: Sequence[Paper],
     client: ReferenceClient,
@@ -105,14 +128,13 @@ def find(
     *,
     s2: SemanticScholarSource | None = None,
     now: dt.datetime | None = None,
+    fetched: Fetched | None = None,
 ) -> PrereqsFile:
     pick_ids = {p.id for p in picks}
     skip = options.exclude | pick_ids
-
-    fetched: dict[str, tuple[str, list[Reference], list[str]]] = {}
-    for pick in picks:
-        source, listing = client.references(pick.ids)
-        fetched[pick.id] = (source, listing.references, listing.errors)
+    if fetched is None:
+        fetched = fetch(picks, client)
+    fields = fields_by_pick(picks, options)
 
     shared: Counter[str] = Counter()
     for _, refs, _ in fetched.values():
@@ -121,7 +143,9 @@ def find(
     out = PrereqsFile(date=options.today, generated_at=now or dt.datetime.now(dt.UTC))
     for pick in picks:
         source, refs, errors = fetched[pick.id]
-        prereqs, read_first = rank.select(pick.id, refs, shared=shared, exclude=skip)
+        prereqs, read_first = rank.select(
+            pick.id, refs, shared=shared, exclude=skip, pick_fields=fields.get(pick.id, frozenset())
+        )
         taken = {p.paper.id for p in prereqs}
         for ref in read_first:
             path = foundation_chain(
@@ -171,9 +195,22 @@ def _add_tldrs(out: PrereqsFile, s2: SemanticScholarSource) -> None:
         out.picks[0].errors.extend(f"TLDR lookup: {e}" for e in result.errors)
 
 
-def run(http: HttpClient, picks: Sequence[Paper], options: FinderOptions) -> PrereqsFile:
+def run(
+    http: HttpClient, picks: Sequence[Paper], options: FinderOptions
+) -> tuple[PrereqsFile, graph.GraphFile]:
     client = ReferenceClient(http)
-    return find(picks, client, options, s2=SemanticScholarSource(http))
+    fetched = fetch(picks, client)
+    prereqs = find(picks, client, options, s2=SemanticScholarSource(http), fetched=fetched)
+    refs = {pick_id: entry[1] for pick_id, entry in fetched.items()}
+    graphs = graph.build(
+        picks,
+        refs,
+        prereqs,
+        client,
+        fields=fields_by_pick(picks, options),
+        now=prereqs.generated_at,
+    )
+    return prereqs, graphs
 
 
 def write(prereqs: PrereqsFile, data_dir: Path = DATA_DIR) -> Path:
@@ -181,4 +218,12 @@ def write(prereqs: PrereqsFile, data_dir: Path = DATA_DIR) -> Path:
     folder.mkdir(parents=True, exist_ok=True)
     path = folder / f"{prereqs.date.isoformat()}.json"
     path.write_text(prereqs.model_dump_json(indent=2, exclude_none=True) + "\n", encoding="utf-8")
+    return path
+
+
+def write_graphs(graphs: graph.GraphFile, data_dir: Path = DATA_DIR) -> Path:
+    folder = data_dir / GRAPHS_SUBDIR
+    folder.mkdir(parents=True, exist_ok=True)
+    path = folder / f"{graphs.date.isoformat()}.json"
+    path.write_text(graphs.model_dump_json(indent=2, exclude_none=True) + "\n", encoding="utf-8")
     return path

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import pick_card %}
+{% from "macros.html" import pick_card with context %}
 {% block title %}{% if day %}{{ day.date|long_date }} · {% endif %}Project Academia{% endblock %}
 {% block main %}
 {% if day %}

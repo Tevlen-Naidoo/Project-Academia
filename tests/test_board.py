@@ -21,6 +21,7 @@ from reader.board import (
     Column,
     SourceKind,
 )
+from reader.graph import GraphFile
 from reader.lookup import PaperLookup, find_local, parse_ids
 from reader.models import PaperRef, PrereqsFile
 
@@ -286,9 +287,11 @@ def test_prereqs_skip_board_papers(
 
     seen: dict[str, set[str]] = {}
 
-    def fake_run(_http: object, _picks: object, options: finder.FinderOptions) -> PrereqsFile:
+    def fake_run(
+        _http: object, _picks: object, options: finder.FinderOptions
+    ) -> tuple[PrereqsFile, GraphFile]:
         seen["exclude"] = options.exclude
-        return PrereqsFile(date=TODAY, generated_at=NOW)
+        return PrereqsFile(date=TODAY, generated_at=NOW), GraphFile(date=TODAY, generated_at=NOW)
 
     monkeypatch.setattr(finder, "run", fake_run)
     argv = ["prereqs", str(file), "--date", "2026-11-05", "--data-dir", str(tmp_path)]

@@ -182,3 +182,56 @@ def test_repo_is_written_for_board_js(data_dir: Path, tmp_path: Path) -> None:
     out = tmp_path / "site"
     _build(data_dir, out)
     assert 'data-repo="owner/repo"' in (out / "settings" / "index.html").read_text("utf-8")
+
+
+def _graph_file(data_dir: Path) -> None:
+    from reader.graph import EdgeKind, GraphEdge, GraphFile, GraphNode, NodeRole, PickGraph
+
+    picks = load.load(data_dir).days[0].picks
+    pick = picks[0].pick.paper
+    nodes = [
+        GraphNode(paper=ref_from_paper(pick), role=NodeRole.PICK),
+        GraphNode(paper=_ref(3762, "Attention Is All You Need"), role=NodeRole.READ_FIRST),
+        GraphNode(paper=_ref(5, "Some <b>other</b> reference"), role=NodeRole.REFERENCE),
+        GraphNode(paper=_ref(6, "A later paper"), role=NodeRole.CITING),
+    ]
+    edges = [
+        GraphEdge(source=pick.id, target=nodes[1].paper.id),
+        GraphEdge(source=pick.id, target=nodes[2].paper.id),
+        GraphEdge(source=nodes[2].paper.id, target=nodes[1].paper.id),
+        GraphEdge(source=nodes[3].paper.id, target=pick.id),
+        GraphEdge(source=nodes[1].paper.id, target=nodes[2].paper.id, kind=EdgeKind.BUILDS_ON),
+    ]
+    graphs = GraphFile(
+        date=DAY2, generated_at=NOW, graphs=[PickGraph(pick_id=pick.id, nodes=nodes, edges=edges)]
+    )
+    (data_dir / "graphs").mkdir()
+    (data_dir / "graphs" / f"{DAY2}.json").write_text(graphs.model_dump_json(), "utf-8")
+
+
+def test_graph_page(data_dir: Path, tmp_path: Path) -> None:
+    _graph_file(data_dir)
+    out = tmp_path / "site"
+    pages = _build(data_dir, out)
+    graph_page = out / "days" / str(DAY2) / "graph" / "index.html"
+    assert graph_page in pages
+    text = graph_page.read_text("utf-8")
+    assert text.count("<circle") == 4
+    assert "Some &lt;b&gt;other&lt;/b&gt; reference" in text
+    assert 'class="edge strong builds-on"' in text
+    assert "Cited by" in text
+    # The pick card links to its graph, and every internal link resolves.
+    assert "See connected papers (3)" in (out / "index.html").read_text("utf-8")
+    for page in pages:
+        for href in HREF.findall(page.read_text("utf-8")):
+            href = html.unescape(href)
+            if href.startswith(("http://", "https://", "#")):
+                continue
+            assert (page.parent / href.split("#")[0]).resolve().exists(), href
+
+
+def test_no_graph_page_without_graphs(data_dir: Path, tmp_path: Path) -> None:
+    out = tmp_path / "site"
+    _build(data_dir, out)
+    assert not (out / "days" / str(DAY2) / "graph").exists()
+    assert "See connected papers" not in (out / "index.html").read_text("utf-8")

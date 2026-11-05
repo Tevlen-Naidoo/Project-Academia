@@ -12,6 +12,7 @@ from pathlib import Path
 from fetcher.enrich import presort_key
 from fetcher.http import HttpClient
 from fetcher.models import CandidatesFile, Paper
+from fetcher.topics import DEFAULT_TOPICS_PATH, load_topics
 from reader import board, finder, schema
 from reader.board import BoardError, CardSource, Column, SourceKind
 from reader.lookup import PaperLookup, parse_ids
@@ -64,13 +65,15 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
     options = finder.FinderOptions(
         today=args.date,
         foundation_hops=args.hops,
+        topics=load_topics(args.config),
         # Skip papers shown in the last 30 days and anything on the reading board.
         exclude=finder.history(args.data_dir, args.date)
         | board.load(args.data_dir / board.BOARD_PATH.name).paper_ids(),
     )
     with HttpClient() as http:
-        result = finder.run(http, picks, options)
+        result, graphs = finder.run(http, picks, options)
     path = finder.write(result, args.data_dir)
+    graph_path = finder.write_graphs(graphs, args.data_dir)
     for pick in result.picks:
         print(f"{pick.pick_title} ({pick.source}, {pick.references_seen} references)")
         for pre in pick.prerequisites:
@@ -78,6 +81,7 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
         for error in pick.errors[:5]:
             print(f"  ! {error}", file=sys.stderr)
     print(f"-> {path}")
+    print(f"-> {graph_path} ({sum(len(g.nodes) for g in graphs.graphs)} nodes)")
     return 0
 
 
@@ -177,6 +181,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--date", type=dt.date.fromisoformat, default=dt.datetime.now(dt.UTC).date()
     )
     prereqs.add_argument("--hops", type=int, default=finder.FOUNDATION_MAX_HOPS)
+    prereqs.add_argument("--config", type=Path, default=DEFAULT_TOPICS_PATH)
     prereqs.add_argument("--data-dir", type=Path, default=finder.DATA_DIR)
     prereqs.set_defaults(func=_cmd_prereqs)
 
