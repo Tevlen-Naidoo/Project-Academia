@@ -162,7 +162,7 @@ def test_s2_bad_batch_is_reported() -> None:
         source = SemanticScholarSource(http, api_key="", limiter=RateLimiter(0))
         result = source.batch(["ARXIV:1"])
     assert result.papers == {}
-    assert "unexpected response shape" in result.errors[0]
+    assert "unexpected response" in result.errors[0]
 
 
 @respx.mock
@@ -215,3 +215,41 @@ def test_full_pipeline_with_enrichment(tmp_path: Path) -> None:
     assert candidates.sources["semantic_scholar"].fetched == 1
     assert candidates.sources["openalex"].fetched == 1
     assert path.exists()
+
+
+@respx.mock
+def test_s2_rejected_batch_is_split_and_retried() -> None:
+    def answer(request: httpx.Request) -> httpx.Response:
+        ids = json.loads(request.content)["ids"]
+        if len(ids) > 8:
+            return httpx.Response(400, json={"error": "Response would exceed maximum size"})
+        return httpx.Response(200, json=[{"paperId": i} for i in ids])
+
+    route = respx.post(BATCH_URL).mock(side_effect=answer)
+    ids = sorted(f"ARXIV:{i:02d}" for i in range(16))
+    with HttpClient(sleep=lambda _: None) as http:
+        source = SemanticScholarSource(http, api_key="", limiter=RateLimiter(0))
+        result = source.batch(ids)
+    assert sorted(result.papers) == ids
+    assert result.errors == []
+    assert route.call_count == 3  # 16 rejected, then 8 + 8
+
+
+@respx.mock
+def test_s2_split_stops_and_reports_small_bad_batch() -> None:
+    respx.post(BATCH_URL).mock(return_value=httpx.Response(400, text="Invalid id"))
+    with HttpClient(sleep=lambda _: None) as http:
+        source = SemanticScholarSource(http, api_key="", limiter=RateLimiter(0))
+        result = source.batch(["ARXIV:bad"] * 4)
+    assert result.papers == {}
+    assert result.errors == ["batch at 0 (4 ids): HTTP 400: Invalid id"]
+
+
+@respx.mock
+def test_s2_rate_limit_after_retries_is_reported_not_split() -> None:
+    route = respx.post(BATCH_URL).mock(return_value=httpx.Response(429))
+    with HttpClient(attempts=2, sleep=lambda _: None) as http:
+        source = SemanticScholarSource(http, api_key="", limiter=RateLimiter(0))
+        result = source.batch(["ARXIV:1"] * 20)
+    assert route.call_count == 2
+    assert len(result.errors) == 1 and "429" in result.errors[0]

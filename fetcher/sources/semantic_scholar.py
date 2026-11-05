@@ -11,12 +11,16 @@ import os
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 
+import httpx
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 from fetcher.http import HttpClient, RateLimiter
 
 BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
-BATCH_SIZE = 500
+BATCH_SIZE = 250
+"""The API allows 500, but large batches can exceed its response size limit."""
+MIN_SPLIT = 8
+"""Stop halving a rejected batch below this many ids."""
 REQUEST_INTERVAL_S = 1.1
 FIELDS = ",".join(
     [
@@ -101,29 +105,56 @@ class SemanticScholarSource:
 
     def batch(self, ids: Sequence[str]) -> S2Result:
         result = S2Result(requested=len(ids))
-        headers = {"x-api-key": self._api_key} if self._api_key else None
         for start in range(0, len(ids), self._batch_size):
-            chunk = list(ids[start : start + self._batch_size])
-            try:
-                response = self._http.post(
-                    BATCH_URL,
-                    limiter=self._limiter,
-                    params={"fields": FIELDS},
-                    headers=headers,
-                    json={"ids": chunk},
-                )
-                rows = response.json()
-            except Exception as exc:  # report and move on to the next batch
-                result.errors.append(f"batch at {start}: {type(exc).__name__}: {exc}")
-                continue
-            if not isinstance(rows, list) or len(rows) != len(chunk):
-                result.errors.append(f"batch at {start}: unexpected response shape")
-                continue
-            for asked, row in zip(chunk, rows, strict=True):
-                if row is None:
-                    continue  # not in Semantic Scholar (yet)
-                try:
-                    result.papers[asked] = S2Paper.model_validate(row)
-                except ValidationError as exc:
-                    result.errors.append(f"{asked}: {exc.error_count()} validation errors")
+            self._fetch_chunk(list(ids[start : start + self._batch_size]), start, result)
         return result
+
+    def _fetch_chunk(self, chunk: list[str], start: int, result: S2Result) -> None:
+        """Fetch one chunk. A rejected chunk is split in half and retried, because the
+        API answers 400 when a batch's response would be too large or one id is bad."""
+        headers = {"x-api-key": self._api_key} if self._api_key else None
+        problem: str
+        try:
+            response = self._http.post(
+                BATCH_URL,
+                limiter=self._limiter,
+                params={"fields": FIELDS},
+                headers=headers,
+                json={"ids": chunk},
+            )
+            rows = response.json()
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code != 400:
+                result.errors.append(f"batch at {start}: HTTP {exc.response.status_code}")
+                return
+            problem = f"HTTP 400: {_snippet(exc.response.text)}"
+        except Exception as exc:  # network, retries exhausted, bad JSON: report and move on
+            result.errors.append(f"batch at {start}: {type(exc).__name__}: {exc}")
+            return
+        else:
+            if isinstance(rows, list) and len(rows) == len(chunk):
+                self._collect(chunk, rows, result)
+                return
+            problem = f"unexpected response: {_snippet(str(rows))}"
+
+        if len(chunk) > MIN_SPLIT:
+            half = len(chunk) // 2
+            self._fetch_chunk(chunk[:half], start, result)
+            self._fetch_chunk(chunk[half:], start + half, result)
+        else:
+            result.errors.append(f"batch at {start} ({len(chunk)} ids): {problem}")
+
+    @staticmethod
+    def _collect(chunk: list[str], rows: list[object], result: S2Result) -> None:
+        for asked, row in zip(chunk, rows, strict=True):
+            if row is None:
+                continue  # not in Semantic Scholar (yet)
+            try:
+                result.papers[asked] = S2Paper.model_validate(row)
+            except ValidationError as exc:
+                result.errors.append(f"{asked}: {exc.error_count()} validation errors")
+
+
+def _snippet(text: str, limit: int = 200) -> str:
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: limit - 1] + "…"
