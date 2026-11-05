@@ -2,7 +2,9 @@
 
 Each signal becomes a percentile among the day's candidates, so buzz,
 citations and status can be weighted against each other. Citation signals are
-ranked within the paper's main topic, so slow-citing fields can compete.
+ranked within the paper's main topic, so slow-citing fields can compete. Each
+funnel's scores are then scaled so its best paper scores 1, so new papers and
+making-waves papers compete on equal terms.
 """
 
 from __future__ import annotations
@@ -11,7 +13,7 @@ import bisect
 import datetime as dt
 from collections import defaultdict
 from collections.abc import Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 from fetcher.enrich import buzz_score
 from fetcher.models import Funnel, Paper
@@ -73,7 +75,7 @@ def score_all(papers: Sequence[Paper], config: ScoringConfig, today: dt.date) ->
     speed_pct = {t: Percentiles(v) for t, v in speed.items()}
     influential_pct = {t: Percentiles(v) for t, v in influential.items()}
 
-    out: list[Scored] = []
+    raw_scores: list[list[Scored]] = []
     for p in papers:
         topic = main_topic(p)
         raw: dict[Signal, float | None] = {
@@ -91,13 +93,21 @@ def score_all(papers: Sequence[Paper], config: ScoringConfig, today: dt.date) ->
             ),
             Signal.RECENCY: _recency(p, today, config.recency_days),
         }
-        best: Scored | None = None
-        for funnel in p.funnel:
-            candidate = _weigh(p, funnel, raw, config.weights[funnel])
-            if best is None or candidate.score > best.score:
-                best = candidate
-        assert best is not None  # Paper.funnel has at least one entry
-        out.append(best)
+        raw_scores.append([_weigh(p, f, raw, config.weights[f]) for f in p.funnel])
+
+    # Each funnel's weights reach different heights (a new preprint has no citations
+    # yet), so scale each funnel's scores until its best paper scores 1.
+    top: dict[Funnel, float] = {}
+    for options in raw_scores:
+        for s in options:
+            top[s.funnel] = max(top.get(s.funnel, 0.0), s.score)
+    out: list[Scored] = []
+    for options in raw_scores:
+        scaled = [
+            replace(s, score=round(s.score / top[s.funnel], 4) if top[s.funnel] else 0.0)
+            for s in options
+        ]
+        out.append(max(scaled, key=lambda s: s.score))
     return out
 
 
@@ -114,4 +124,4 @@ def _weigh(
         for signal, value in raw.items()
     )
     total = sum(s.value * s.weight for s in parts)
-    return Scored(paper=paper, funnel=funnel, score=round(min(total, 1.0), 4), breakdown=parts)
+    return Scored(paper=paper, funnel=funnel, score=min(total, 1.0), breakdown=parts)

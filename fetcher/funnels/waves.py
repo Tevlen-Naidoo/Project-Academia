@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import calendar
 import datetime as dt
 import re
 from dataclasses import dataclass
@@ -36,6 +37,25 @@ def windows(today: dt.date) -> list[Window]:
 
 
 _DOI_RE = re.compile(r"^10\.\S+/\S+$")
+_NEW_ARXIV_RE = re.compile(r"^(?P<yy>\d{2})(?P<mm>\d{2})\.\d{4,5}$")
+
+
+def first_seen_by(work: OAWork) -> dt.date | None:
+    """The latest date by which the work had surely appeared, from evidence besides its
+    publication date: the end of its arXiv id's month, or the end of the first year it was cited.
+
+    OpenAlex dates a reprint, or the journal version of an old preprint, by its new
+    publication, so a decades-old paper can look like it is making waves.
+    """
+    dates: list[dt.date] = []
+    match = _NEW_ARXIV_RE.match(work.arxiv_id or "")
+    if match and 1 <= int(match["mm"]) <= 12:
+        year, month = 2000 + int(match["yy"]), int(match["mm"])
+        dates.append(dt.date(year, month, calendar.monthrange(year, month)[1]))
+    cited = [c.year for c in work.counts_by_year if c.cited_by_count > 0]
+    if cited:
+        dates.append(dt.date(min(cited), 12, 31))
+    return min(dates, default=None)
 
 
 def _date(text: str | None) -> dt.date | None:
@@ -50,7 +70,11 @@ def _date(text: str | None) -> dt.date | None:
 def paper_from_work(
     work: OAWork, *, topics: TopicsConfig, today: dt.date, now: dt.datetime
 ) -> Paper | None:
-    """A candidate from an OpenAlex work, or None if it has no title, abstract or topic."""
+    """A candidate from an OpenAlex work, or None if it has no title, abstract or topic,
+    or is older than the oldest window under a new publication date."""
+    seen = first_seen_by(work)
+    if seen is not None and seen < windows(today)[-1].since:
+        return None
     title = " ".join((work.title or "").split())
     abstract = work.abstract()
     if not title or not abstract:

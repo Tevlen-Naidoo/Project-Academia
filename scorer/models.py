@@ -53,6 +53,7 @@ class Pick(_Model):
     funnel: Funnel
     """Which funnel's weights gave the score."""
     score: Annotated[float, Field(ge=0, le=1)]
+    """The weighted signals, scaled so the best paper of its funnel today scores 1."""
     adjusted: Annotated[float, Field(ge=0, le=1)]
     """The score after the topic-spread and repeat factors."""
     breakdown: list[SignalScore]
