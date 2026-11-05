@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as dt
 import time
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -195,17 +196,25 @@ def run(
     openalex: OpenAlexSource | None = None,
     huggingface: HuggingFaceSource | None = None,
     hackernews: HackerNewsSource | None = None,
+    log: Callable[[str], None] = lambda _: None,
 ) -> CandidatesFile:
+    """Every stage logs a line as it finishes, so a slow run shows where it is."""
     now = now or dt.datetime.now(dt.UTC)
     openalex = openalex or OpenAlexSource(http)
     fresh, arxiv_report = run_fresh(arxiv or ArxivSource(http), topics, options, now)
+    log(f"arxiv: {len(fresh)} candidates in {arxiv_report.duration_s}s")
     rising, waves_report = run_waves(openalex, topics, options, now)
+    log(f"openalex_waves: {len(rising)} candidates in {waves_report.duration_s}s")
     papers = merge.merge(fresh, rising)
     s2_report = run_semantic_scholar(semantic_scholar or SemanticScholarSource(http), papers)
+    log(f"semantic_scholar: {s2_report.fetched} matched in {s2_report.duration_s}s")
     # Waves papers came from OpenAlex already; only look up the rest
     oa_report = run_openalex(openalex, [p for p in papers if p.ids.openalex is None], topics)
+    log(f"openalex: {oa_report.fetched} matched in {oa_report.duration_s}s")
     hf_report = run_huggingface(huggingface or HuggingFaceSource(http), papers, options)
+    log(f"huggingface: {hf_report.fetched} papers in {hf_report.duration_s}s")
     hn_report = run_hackernews(hackernews or HackerNewsSource(http), papers, now)
+    log(f"hackernews: {hn_report.fetched} stories in {hn_report.duration_s}s")
     for paper in papers:
         enrich.derive_signals(paper, options.today)
     fresh_pool = [p for p in papers if Funnel.FRESH in p.funnel]
