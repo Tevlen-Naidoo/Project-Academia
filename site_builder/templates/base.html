@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-repo="{{ repo }}" data-root="{{ root }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>{% block title %}Project Academia{% endblock %}</title>
+<link rel="stylesheet" href="{{ root }}static/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ root }}index.html">Project Academia</a>
+  <nav>
+    <a href="{{ root }}index.html"{% if nav == "today" %} aria-current="page"{% endif %}>Today</a>
+    <a href="{{ root }}archive/index.html"{% if nav == "archive" %} aria-current="page"{% endif %}>Archive</a>
+    <a href="{{ root }}board/index.html"{% if nav == "board" %} aria-current="page"{% endif %}>Reading board</a>
+    <a href="{{ root }}settings/index.html"{% if nav == "settings" %} aria-current="page"{% endif %}>Settings</a>
+  </nav>
+</header>
+<main>
+<p id="board-message" class="message" role="status" aria-live="polite" hidden></p>
+{% block main %}{% endblock %}
+</main>
+<footer>
+  Built {{ built_at.strftime("%Y-%m-%d %H:%M") }} UTC from free metadata: arXiv, Semantic Scholar,
+  OpenAlex, Hugging Face and Hacker News.
+  <a href="https://github.com/{{ repo }}">Source</a>
+</footer>
+<script src="{{ root }}static/board.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

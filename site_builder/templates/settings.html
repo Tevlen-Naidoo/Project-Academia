@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Settings · Project Academia{% endblock %}
+{% block main %}
+<h1>Settings</h1>
+<section class="settings">
+  <h2>GitHub key for the reading board</h2>
+  <p>The board is saved in the project's GitHub repository, so the daily picks can skip papers
+  you've saved. To let this site save it, give it a GitHub key once on each device. The key
+  stays in this browser and is sent only to GitHub.</p>
+  <p id="token-state" class="meta">Checking…</p>
+  <ol>
+    <li><a href="https://github.com/settings/personal-access-tokens/new?name=Project+Academia+board&amp;description=Lets+the+Project+Academia+site+save+the+reading+board&amp;expires_in=366&amp;contents=write" target="_blank" rel="noopener">Create a fine-grained key on GitHub</a>.</li>
+    <li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> and pick <strong>{{ repo.split("/")[1] }}</strong>.</li>
+    <li>Under <strong>Permissions → Repository permissions</strong>, set <strong>Contents</strong> to <strong>Read and write</strong>. Nothing else is needed.</li>
+    <li>Press <strong>Generate token</strong>, copy it, and paste it here.</li>
+  </ol>
+  <form id="token-form">
+    <label>GitHub key <input type="password" name="token" autocomplete="off" spellcheck="false" placeholder="github_pat_…" required></label>
+    <button type="submit" class="button">Save key</button>
+    <button type="button" class="button" id="token-forget">Forget key</button>
+  </form>
+</section>
+{% endblock %}
