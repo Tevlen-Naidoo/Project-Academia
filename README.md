@@ -7,7 +7,7 @@ OpenAlex, Hugging Face Daily Papers and Hacker News.
 
 ## Status
 
-Steps 1 to 3 of 4: the paper fetcher, the scorer and the web app. Two funnels feed the daily candidates file:
+All 4 steps are in place: the paper fetcher, the scorer, the web app and the daily run. Two funnels feed the daily candidates file:
 
 - **Fresh:** arXiv papers from the last 7 days in the configured categories.
 - **Making waves:** the most-cited papers of the last 18 months per topic, from OpenAlex,
@@ -105,6 +105,15 @@ Source: GitHub Actions**.
 ```sh
 uv run python -m site_builder build --serve   # build into site/ and preview on localhost:8000
 ```
+
+## Daily run
+
+**Actions → Daily papers** runs every day at 03:15 UTC (05:15 SAST), so the papers are up
+by 07:00 SAST. It fetches the candidates, picks 3 papers, finds what to read first,
+commits `data/picks/` and `data/prereqs/` for the day, and republishes the site. The
+candidates file is only attached to the run, for 30 days. If a run fails, nothing is
+committed and the site keeps the previous day's papers; GitHub emails you about the
+failure. To fill in a missed day, run the workflow by hand with that date.
 
 ## Layout
 
