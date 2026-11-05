@@ -56,10 +56,13 @@ and for each Read first paper the **Foundation**: the lowest paper in its own ch
 first papers, at most 3 hops down. Papers shown in the last 30 days are skipped.
 
 ```sh
+uv run python -m reader prereqs                      # today's picks
 uv run python -m reader prereqs data/candidates/2026-11-05.json --ids arxiv:2410.12345
 ```
 
-Without `--ids` it takes the top 3 candidates by the fetcher's rough order. Output goes to `data/prereqs/YYYY-MM-DD.json`.
+With no file it reads today's picks from `data/picks/YYYY-MM-DD.json`, in rank order.
+Given a candidates file instead, it takes the top 3 by the fetcher's rough order.
+Output goes to `data/prereqs/YYYY-MM-DD.json`.
 
 ## Reading board
 

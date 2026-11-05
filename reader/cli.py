@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import sys
 from collections.abc import Sequence
 from pathlib import Path
@@ -18,10 +19,30 @@ from reader.lookup import PaperLookup, parse_ids
 DEFAULT_PICKS = 3
 
 
-def choose_picks(papers: Sequence[Paper], ids: Sequence[str], limit: int) -> list[Paper]:
-    """The papers named by `ids`, or the top `limit` by the fetcher's rough order.
+PICKS_SUBDIR = "picks"
 
-    The fallback stands in for step 2 (scoring) until it writes a picks file.
+
+def load_papers(path: Path) -> tuple[list[Paper], bool]:
+    """The papers in a picks file (in rank order) or a candidates file.
+
+    Returns the papers and whether they are already ranked picks. A picks file is
+    read by shape (`picks[].paper` and `picks[].rank`), so this does not depend on
+    the scorer package.
+    """
+    data = json.loads(path.read_bytes())
+    if isinstance(data, dict) and isinstance(data.get("picks"), list):
+        rows = sorted(data["picks"], key=lambda row: row.get("rank", 0))
+        return [Paper.model_validate(row["paper"]) for row in rows], True
+    return CandidatesFile.model_validate(data).papers, False
+
+
+def choose_picks(
+    papers: Sequence[Paper], ids: Sequence[str], limit: int, *, ranked: bool = False
+) -> list[Paper]:
+    """The papers named by `ids`, else the first `limit`.
+
+    Ranked picks keep their order; candidates are ordered by the fetcher's rough
+    presort, a stand-in for when no picks file exists.
     """
     if ids:
         by_id = {p.id: p for p in papers}
@@ -29,12 +50,17 @@ def choose_picks(papers: Sequence[Paper], ids: Sequence[str], limit: int) -> lis
         if missing:
             raise SystemExit(f"not in the file: {', '.join(missing)}")
         return [by_id[i] for i in ids]
+    if ranked:
+        return list(papers[:limit])
     return sorted(papers, key=presort_key, reverse=True)[:limit]
 
 
 def _cmd_prereqs(args: argparse.Namespace) -> int:
-    papers = CandidatesFile.model_validate_json(args.file.read_bytes()).papers
-    picks = choose_picks(papers, args.ids, args.limit)
+    path: Path = args.file or args.data_dir / PICKS_SUBDIR / f"{args.date.isoformat()}.json"
+    if not path.exists():
+        raise SystemExit(f"no such file: {path} (run the scorer, or pass a candidates file)")
+    papers, ranked = load_papers(path)
+    picks = choose_picks(papers, args.ids, args.limit, ranked=ranked)
     options = finder.FinderOptions(
         today=args.date,
         foundation_hops=args.hops,
@@ -137,7 +163,12 @@ def build_parser() -> argparse.ArgumentParser:
     sub = parser.add_subparsers(dest="command", required=True)
 
     prereqs = sub.add_parser("prereqs", help="find prerequisite reading for the day's picks")
-    prereqs.add_argument("file", type=Path, help="a candidates (or picks) file")
+    prereqs.add_argument(
+        "file",
+        type=Path,
+        nargs="?",
+        help="a picks or candidates file (default: data/picks/DATE.json)",
+    )
     prereqs.add_argument("--ids", nargs="*", default=[], help="paper ids of the picks")
     prereqs.add_argument(
         "--limit", type=int, default=DEFAULT_PICKS, help="picks to take when --ids is not given"

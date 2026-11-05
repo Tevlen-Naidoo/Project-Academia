@@ -306,3 +306,30 @@ def test_choose_picks(paper_data: dict[str, Any]) -> None:
 
 def test_schema_up_to_date() -> None:
     assert schema.stale() == []
+
+
+def test_load_papers_from_picks_file(tmp_path: Path, paper_data: dict[str, Any]) -> None:
+    second = {**paper_data, "id": "arxiv:2410.99999", "ids": {"arxiv": "2410.99999"}}
+    picks = {
+        "date": "2026-11-05",
+        "picks": [{"rank": 2, "paper": second}, {"rank": 1, "paper": paper_data}],
+    }
+    path = tmp_path / "picks.json"
+    path.write_text(json.dumps(picks))
+    papers, ranked = cli.load_papers(path)
+    assert ranked
+    assert [p.id for p in papers] == ["arxiv:2410.12345", "arxiv:2410.99999"]
+    assert [p.id for p in cli.choose_picks(papers, [], 1, ranked=True)] == ["arxiv:2410.12345"]
+
+
+def test_load_papers_from_candidates_file(tmp_path: Path, paper_data: dict[str, Any]) -> None:
+    candidates = {
+        "date": "2026-11-05",
+        "generated_at": "2026-11-05T06:00:00Z",
+        "papers": [paper_data],
+    }
+    path = tmp_path / "candidates.json"
+    path.write_text(json.dumps(candidates))
+    papers, ranked = cli.load_papers(path)
+    assert not ranked
+    assert [p.id for p in papers] == ["arxiv:2410.12345"]
