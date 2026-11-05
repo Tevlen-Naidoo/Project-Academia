@@ -1,7 +1,8 @@
 name: Fetch candidates (manual)
 
-# Runs the fetcher on demand and uploads the candidates file as a workflow
-# artifact. It does not commit anything; the daily schedule comes in step 4.
+# Runs the fetcher and the scorer on demand and uploads the candidates and
+# picks files as a workflow artifact. It does not commit anything, so every
+# run scores without past picks; the daily schedule comes in step 4.
 
 on:
   workflow_dispatch:
@@ -29,9 +30,13 @@ jobs:
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: uv run python -m fetcher run --fresh-days "${{ inputs.fresh_days }}"
+      - name: Score
+        run: uv run python -m scorer run
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: candidates
-          path: data/candidates/*.json
+          path: |
+            data/candidates/*.json
+            data/picks/*.json
           if-no-files-found: warn

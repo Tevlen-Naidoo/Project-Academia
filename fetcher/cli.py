@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import sys
+from collections import Counter
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -67,6 +68,9 @@ def _cmd_run(args: argparse.Namespace) -> int:
         for error in report.errors[:10]:
             print(f"  - {error}", file=sys.stderr)
     print(f"{len(candidates.papers)} candidates -> {path}")
+    per_topic = Counter(t for p in candidates.papers for t in p.topics)
+    for tag in topics.topics:
+        print(f"  {tag:<18}{per_topic[tag]}")
     return 0 if candidates.papers else 1
 
 
