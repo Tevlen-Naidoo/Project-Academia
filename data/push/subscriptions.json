@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T10:07:25.361622Z",
+  "updated_at": "2026-11-05T10:22:29.362455Z",
   "subscriptions": [
     {
       "endpoint": "https://web.push.apple.com/QNPHeqf1WVL090E_0Un5RJiM7pyc54Tx_RQk-aryNF3hCHW0rnG4IjD63ynyTnvkxzHy5FwxgFeMXf9dwune6obitbCDEA4Sl7jVJ-Pj_vCHOGb96_VSh3JT1EsmLWvNfmh_DOTzi8PbEPVtcWEAu1rR1m3VETQSwYSPYMKjSsU",
@@ -9,6 +9,15 @@
         "auth": "Kb8jjyeTNqualM1rHrKpdg"
       },
       "device": "iPad",
+      "added_on": "2026-11-05"
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/fp38CdecmcE:APA91bHEZuKP67DCHefBlaez-nQZfcMfQE3ZszXkmuAcWkCvXN2EqroUHWYEa3SG9IyyeryTJVtAtBrotCqfQygxp0x3UHjO3na16IGvwQWQge7wfWya6F7eIYseTpBBEN89aTO0XaSh",
+      "keys": {
+        "p256dh": "BF_WDvP-oPfdv9froALvap9JgWDYPDfgfK3LgxXLTeq-6VR8Aj42EDdSteb_jpH8UK9xImuj_JKdzMr_8Pl2yoM",
+        "auth": "IPr5hyEhItf2UAhFTKEs0g"
+      },
+      "device": "Android",
       "added_on": "2026-11-05"
     }
   ]
