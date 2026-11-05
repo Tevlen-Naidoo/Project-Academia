@@ -1,0 +1,47 @@
+{
+  "meta": {"count": 3},
+  "results": [
+    {
+      "id": "https://openalex.org/W4500000001",
+      "doi": "https://doi.org/10.48550/arxiv.2505.11111",
+      "title": "Scaling   Laws for Vision Transformers",
+      "type": "preprint",
+      "publication_date": "2026-05-20",
+      "cited_by_count": 180,
+      "counts_by_year": [{"year": 2026, "cited_by_count": 180}],
+      "authorships": [{"author": {"display_name": "Grace Hopper"}}, {"author": null}],
+      "locations": [
+        {"version": "submittedVersion", "landing_page_url": "https://arxiv.org/abs/2505.11111v3", "source": {"display_name": "arXiv (Cornell University)", "type": "repository"}}
+      ],
+      "primary_topic": {"subfield": {"id": "https://openalex.org/subfields/1707"}},
+      "topics": [{"subfield": {"id": "https://openalex.org/subfields/1707"}}],
+      "abstract_inverted_index": {"We": [0], "fit": [1], "scaling": [2], "laws": [3], "for": [4], "image": [5], "models.": [6]}
+    },
+    {
+      "id": "https://openalex.org/W4500000002",
+      "doi": "https://doi.org/10.1038/s41586-026-00001-x",
+      "title": "A Dark Matter Map of the Local Universe",
+      "type": "article",
+      "publication_date": "2025-09-01",
+      "cited_by_count": 95,
+      "counts_by_year": [{"year": 2026, "cited_by_count": 60}, {"year": 2025, "cited_by_count": 35}],
+      "authorships": [{"author": {"display_name": "Vera Rubin"}}],
+      "locations": [
+        {"version": "publishedVersion", "landing_page_url": "https://www.nature.com/articles/x", "source": {"display_name": "Nature", "type": "journal"}}
+      ],
+      "primary_topic": {"subfield": {"id": "https://openalex.org/subfields/3103"}},
+      "topics": [],
+      "abstract_inverted_index": {"We": [0], "map": [1], "dark": [2], "matter.": [3]}
+    },
+    {
+      "id": "https://openalex.org/W4500000003",
+      "doi": null,
+      "title": "No Abstract Here",
+      "type": "article",
+      "publication_date": "2026-01-01",
+      "cited_by_count": 50,
+      "primary_topic": {"subfield": {"id": "https://openalex.org/subfields/1707"}},
+      "abstract_inverted_index": null
+    }
+  ]
+}

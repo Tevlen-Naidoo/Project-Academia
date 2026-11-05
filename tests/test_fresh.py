@@ -3,6 +3,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 from pathlib import Path
+from typing import Any
 
 import httpx
 import pytest
@@ -13,9 +14,22 @@ from fetcher.funnels.fresh import paper_from_entry, venue_from_comment
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import CandidatesFile, PublicationStatus, StatusEvidence
 from fetcher.sources.arxiv import API_URL, ArxivSource, parse_feed
+from fetcher.sources.openalex import OpenAlexSource
+from fetcher.sources.semantic_scholar import SemanticScholarSource
 from fetcher.topics import load_topics
 
 FIXTURES = Path(__file__).parent / "fixtures"
+
+
+def _fast_sources(http: HttpClient) -> dict[str, Any]:
+    """Sources with no rate-limit waits; unmocked ones fail fast and are reported."""
+    return {
+        "arxiv": ArxivSource(http, limiter=RateLimiter(0)),
+        "semantic_scholar": SemanticScholarSource(http, api_key="", limiter=RateLimiter(0)),
+        "openalex": OpenAlexSource(http, api_key="", limiter=RateLimiter(0)),
+    }
+
+
 TODAY = dt.date(2026, 11, 3)
 NOW = dt.datetime(2026, 11, 3, 6, 0, tzinfo=dt.UTC)
 
@@ -72,7 +86,7 @@ def test_pipeline_run_writes_valid_file(tmp_path: Path) -> None:
             load_topics(),
             pipeline.RunOptions(today=TODAY),
             now=NOW,
-            arxiv=ArxivSource(http, limiter=RateLimiter(0)),
+            **_fast_sources(http),
         )
     path = pipeline.write(candidates, tmp_path)
 
@@ -94,7 +108,7 @@ def test_pipeline_survives_source_outage() -> None:
             load_topics(),
             pipeline.RunOptions(today=TODAY),
             now=NOW,
-            arxiv=ArxivSource(http, limiter=RateLimiter(0)),
+            **_fast_sources(http),
         )
     assert candidates.papers == []
     assert candidates.sources["arxiv"].errors

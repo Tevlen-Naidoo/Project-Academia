@@ -7,9 +7,15 @@ OpenAlex, Hugging Face Daily Papers and Hacker News.
 
 ## Status
 
-Step 1 of 4: the paper fetcher. New arXiv papers are enriched with citations, venues
-and published status from Semantic Scholar and OpenAlex, then trimmed to the best 40 per
-topic (300 at most). The "making waves" funnel and buzz signals come next.
+Step 1 of 4: the paper fetcher. Two funnels feed the daily candidates file:
+
+- **Fresh:** arXiv papers from the last 7 days in the configured categories.
+- **Making waves:** the most-cited papers of the last 18 months per topic, from OpenAlex,
+  split into a 0 to 6 month and a 6 to 18 month window.
+
+Every candidate is enriched with citations, venue and published status from Semantic
+Scholar and OpenAlex, then trimmed with a quota per topic and per funnel (up to 200 fresh
+and 100 making-waves papers). Buzz signals from Hugging Face and Hacker News come next.
 
 To try it, open **Actions → Fetch candidates (manual) → Run workflow**. The candidates
 file is attached to the run as an artifact.

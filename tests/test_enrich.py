@@ -211,7 +211,7 @@ def test_full_pipeline_with_enrichment(tmp_path: Path) -> None:
     assert colouring.publication.evidence is StatusEvidence.OPENALEX_PUBLISHED_VERSION
     assert colouring.ids.openalex == "W4400000001"
 
-    assert set(candidates.sources) == {"arxiv", "semantic_scholar", "openalex"}
+    assert set(candidates.sources) == {"arxiv", "openalex_waves", "semantic_scholar", "openalex"}
     assert candidates.sources["semantic_scholar"].fetched == 1
     assert candidates.sources["openalex"].fetched == 1
     assert path.exists()
