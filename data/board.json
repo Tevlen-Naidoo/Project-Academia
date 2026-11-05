@@ -25,7 +25,36 @@
         "pick_id": "doi:10.1109/jiot.2026.3652582"
       },
       "added_on": "2026-11-05"
+    },
+    {
+      "paper": {
+        "citations": 91,
+        "id": "arxiv:2505.13400",
+        "ids": {
+          "arxiv": "2505.13400",
+          "doi": "10.1038/s41586-026-10652-y",
+          "openalex": "W7161734976",
+          "s2": "799017d2818108e91392c541579cbe9d2cc38e35"
+        },
+        "influential_citations": 4,
+        "is_review": false,
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2505.13400",
+          "doi": "https://doi.org/10.1038/s41586-026-10652-y",
+          "pdf": "https://arxiv.org/pdf/2505.13400"
+        },
+        "title": "A multi-agent system for automating scientific discovery",
+        "tldr": "Robin is the first AI system to autonomously discover and validate a novel therapeutic candidate within an iterative lab-in-the-loop framework, establishing a new paradigm for AI-driven scientific discovery.",
+        "venue": "Nature",
+        "year": 2026
+      },
+      "column": "to_read",
+      "source": {
+        "date": "2026-11-05",
+        "kind": "pick"
+      },
+      "added_on": "2026-11-05"
     }
   ],
-  "updated_at": "2026-11-05T09:12:42.506Z"
+  "updated_at": "2026-11-05T12:44:49.925Z"
 }
