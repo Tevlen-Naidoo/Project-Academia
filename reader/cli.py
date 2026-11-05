@@ -38,7 +38,9 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
     options = finder.FinderOptions(
         today=args.date,
         foundation_hops=args.hops,
-        exclude=finder.history(args.data_dir, args.date),
+        # Skip papers shown in the last 30 days and anything on the reading board.
+        exclude=finder.history(args.data_dir, args.date)
+        | board.load(args.data_dir / board.BOARD_PATH.name).paper_ids(),
     )
     with HttpClient() as http:
         result = finder.run(http, picks, options)
