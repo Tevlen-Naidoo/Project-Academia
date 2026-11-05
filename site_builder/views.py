@@ -1,6 +1,6 @@
 """Turn the site's data into the plain JSON its web components draw.
 
-Each page is a few custom elements (see static/js/components/) fed one of these
+Each page is a few custom elements (see web/src/components/) fed one of these
 dicts as a JSON attribute. Links inside the site are worked out here, relative to
 the page, so the components never guess paths.
 """

@@ -30,7 +30,19 @@ DAY1 = dt.date(2026, 11, 4)
 DAY2 = dt.date(2026, 11, 5)
 TOPICS = load_topics()
 HREF = re.compile(r'(?:href|src)="([^"]+)"')
-STATIC = Path(render.__file__).parent / "static"
+WEB_SRC = Path(render.__file__).parent.parent / "web" / "src"
+
+
+@pytest.fixture(autouse=True)
+def built_assets(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
+    """Stand-ins for what `npm run build` writes, so these tests don't need Node."""
+    assets = tmp_path / "web-dist"
+    (assets / "chunks").mkdir(parents=True)
+    (assets / "app.js").write_text("// built components\n", encoding="utf-8")
+    (assets / "app.css").write_text("/* built styles */\n", encoding="utf-8")
+    (assets / "chunks" / "firebase.js").write_text("// a lazy chunk\n", encoding="utf-8")
+    monkeypatch.setattr(render, "ASSETS", assets)
+    return assets
 
 
 def _attr(page: str, element: str, name: str) -> list[Any]:
@@ -144,22 +156,20 @@ def test_every_page_and_internal_link_exists(data_dir: Path, tmp_path: Path) -> 
 
 
 def test_every_component_is_defined(data_dir: Path, tmp_path: Path) -> None:
-    """Each custom element a page uses has a customElements.define in the static JS."""
+    """Each custom element a page uses has a @customElement in the TypeScript sources."""
     out = tmp_path / "site"
     pages = _build(data_dir, out)
     defined = set()
-    for script in STATIC.glob("js/**/*.js"):
-        defined |= set(
-            re.findall(r'customElements\.define\("([a-z-]+)"', script.read_text("utf-8"))
-        )
+    for script in WEB_SRC.glob("components/*.ts"):
+        defined |= set(re.findall(r'@customElement\("([a-z-]+)"\)', script.read_text("utf-8")))
     used = {
         tag for page in pages for tag in re.findall(r"<([a-z]+-[a-z-]+)", page.read_text("utf-8"))
     }
     assert used <= defined, used - defined
     assert {"reading-board", "paper-card", "site-header", "push-settings"} <= used
-    app = (STATIC / "js" / "app.js").read_text("utf-8")
-    for script in STATIC.glob("js/components/*.js"):
-        assert f"./components/{script.name}" in app
+    main = (WEB_SRC / "main.ts").read_text("utf-8")
+    for script in WEB_SRC.glob("components/*.ts"):
+        assert f'"./components/{script.stem}"' in main
 
 
 def test_today_shows_the_latest_day(data_dir: Path, tmp_path: Path) -> None:
@@ -194,7 +204,7 @@ def _payloads(page: str) -> list[dict[str, Any]]:
 
 
 def test_board_buttons_carry_valid_cards(data_dir: Path, tmp_path: Path) -> None:
-    """What board.js saves must load with the board model the scorer uses."""
+    """What <board-button> saves must load with the board model the scorer uses."""
     out = tmp_path / "site"
     _build(data_dir, out)
     payloads = _payloads((out / "index.html").read_text("utf-8"))
@@ -215,7 +225,7 @@ def test_papers_already_on_the_board_say_so(data_dir: Path, tmp_path: Path) -> N
     assert sorted(columns) == ["", "", "to_read"]
     board_page = (out / "board" / "index.html").read_text("utf-8")
     (built,) = _attr(board_page, "reading-board", "board")
-    loaded = board.Board.model_validate(built)  # the same shape board.js reads from GitHub
+    loaded = board.Board.model_validate(built)  # the same shape the board components read
     assert [c.paper.title for c in loaded.column(board.Column.DONE)] == ["An older paper"]
     assert len(loaded.column(board.Column.TO_READ)) == 1
 
@@ -224,9 +234,30 @@ def test_empty_data_still_builds(tmp_path: Path) -> None:
     out = tmp_path / "site"
     _build(tmp_path / "nothing", out)
     assert "No papers yet" in (out / "index.html").read_text("utf-8")
-    assert (out / "static" / "js" / "app.js").exists()
-    assert (out / "static" / "vendor" / "lit.js").exists()
+    assert (out / "static" / "app.js").exists()
+    assert (out / "static" / "app.css").exists()
+    assert (out / "static" / "chunks" / "firebase.js").exists()
+    assert (out / "static" / "icon-192.png").exists()
     assert (out / ".nojekyll").exists()
+
+
+def test_build_needs_the_web_assets(tmp_path: Path, built_assets: Path) -> None:
+    (built_assets / "app.js").unlink()
+    site = render.Site(repo="owner/repo", topics=TOPICS, data=load.load(tmp_path), built_at=NOW)
+    with pytest.raises(render.MissingAssetsError, match="npm run build"):
+        render.build(site, tmp_path / "site")
+    assert cli.main(["build", "--data-dir", str(tmp_path), "--out", str(tmp_path / "s")]) == 1
+    # The dev server serves the components itself, so it builds the pages without them.
+    pages = render.build(site, tmp_path / "dev", with_assets=False)
+    assert pages
+    assert not (tmp_path / "dev" / "static" / "app.js").exists()
+
+
+def test_every_stylesheet_is_imported() -> None:
+    index = (WEB_SRC / "styles" / "index.css").read_text("utf-8")
+    for sheet in (WEB_SRC / "styles").glob("*.css"):
+        if sheet.name != "index.css":
+            assert f'"./{sheet.name}"' in index, sheet.name
 
 
 def test_cli_build(data_dir: Path, tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:

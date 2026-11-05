@@ -1,0 +1,14 @@
+/* components/layout.ts: <site-header>, <site-message>, <site-footer>, <day-pager>. */
+header.top { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: baseline; padding-top: 1rem; padding-bottom: .75rem; border-bottom: 1px solid var(--line); }
+.brand { font-weight: 700; color: var(--fg); text-decoration: none; }
+nav a { margin-right: 1rem; text-decoration: none; }
+nav a[aria-current="page"] { font-weight: 600; text-decoration: underline; }
+
+.message { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .5rem .75rem; margin-top: 1rem; }
+.message.error { border-color: var(--danger); }
+
+footer { color: var(--muted); font-size: .8rem; padding-top: 2rem; padding-bottom: 2rem; }
+
+.pager { display: flex; justify-content: space-between; margin: 1.5rem 0; gap: 1rem; }
+.pager > * { min-width: 0; }
+.pager > :last-child { text-align: right; }

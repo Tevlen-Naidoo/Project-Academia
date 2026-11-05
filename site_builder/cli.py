@@ -75,7 +75,11 @@ def _cmd_build(args: argparse.Namespace) -> int:
         push_key=_push_key(),
         firebase_config=firebase_config(),
     )
-    pages = render.build(site, args.out)
+    try:
+        pages = render.build(site, args.out, with_assets=not args.no_assets)
+    except render.MissingAssetsError as exc:
+        print(exc)
+        return 1
     print(f"{len(pages)} pages, {len(site.data.days)} days -> {args.out}")
     if args.serve:
         handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(args.out))
@@ -100,6 +104,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     build.add_argument("--serve", action="store_true", help="serve the site after building")
     build.add_argument("--port", type=int, default=8000)
+    build.add_argument(
+        "--no-assets",
+        action="store_true",
+        help="leave out the built web components (used by `npm run dev`, which serves them)",
+    )
     build.set_defaults(func=_cmd_build)
     return parser
 

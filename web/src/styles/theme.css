@@ -1,0 +1,67 @@
+/*
+ * The site's design tokens. Change a value here and every page follows.
+ *
+ * While `npm run dev` is running, saving this file (or any file in this folder)
+ * updates the open page straight away, without a reload.
+ *
+ * Light mode is the default; the block under prefers-color-scheme: dark is used
+ * when the device is in dark mode. Give every colour a value in both.
+ */
+:root {
+  /* --- colours ------------------------------------------------------------- */
+  --bg: #ffffff; /* page background */
+  --fg: #1d1d1f; /* body text */
+  --muted: #5f6368; /* secondary text: authors, dates, hints */
+  --line: #e2e2e5; /* borders and dividers */
+  --card: #f7f7f8; /* card and panel background */
+  --accent: #1a5fb4; /* links, buttons, focus */
+  --badge: #ececef; /* badge background */
+  --danger: #c5221f; /* errors and blocked drops */
+  --shadow: rgba(0, 0, 0, 0.25); /* the card you are dragging */
+
+  /* Graph dot colours, one per role (see components/graph.ts). */
+  --g-pick: #1a5fb4;
+  --g-read: #c64600;
+  --g-found: #8f3f97;
+  --g-bg: #2e8540;
+  --g-ref: #9a9aa2;
+  --g-cite: #b08800;
+
+  /* --- type ---------------------------------------------------------------- */
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Menlo, monospace;
+  --line-height: 1.55;
+  --text-sm: 0.85rem;
+  --text-md: 0.9rem;
+  --h1-size: 1.5rem;
+  --h2-size: 1.15rem;
+
+  /* --- shape and space ----------------------------------------------------- */
+  --radius-sm: 8px; /* buttons, board cards, messages */
+  --radius-lg: 10px; /* pick cards, graph panels */
+  --radius-pill: 999px; /* badges */
+  --gutter: 1rem; /* space at the page's left and right edges */
+  --page-width: 46rem; /* reading width on phones and tablets */
+  --page-width-wide: 72rem; /* width on wide screens, where the board has 3 columns */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161618;
+    --fg: #ececee;
+    --muted: #a0a0a8;
+    --line: #2e2e33;
+    --card: #1f1f23;
+    --accent: #8ab4f8;
+    --badge: #2c2c31;
+    --danger: #f28b82;
+    --shadow: rgba(0, 0, 0, 0.5);
+
+    --g-pick: #8ab4f8;
+    --g-read: #f29b6b;
+    --g-found: #d29be0;
+    --g-bg: #7cc98a;
+    --g-ref: #6e6e78;
+    --g-cite: #e3c35a;
+  }
+}

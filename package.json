@@ -1,0 +1,21 @@
+{
+  "name": "project-academia-web",
+  "private": true,
+  "type": "module",
+  "description": "The site's Lit web components, written in TypeScript and bundled with Vite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "preview": "npm run build && uv run python -m site_builder build --serve"
+  },
+  "dependencies": {
+    "firebase": "12.19.0",
+    "lit": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}

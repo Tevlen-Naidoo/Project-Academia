@@ -1,0 +1,40 @@
+/* Page-wide rules: resets, the page frame, headings, links and buttons. */
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+}
+/* Long titles, URLs and ids wrap instead of pushing the page sideways on narrow
+   screens such as iPad split view. */
+body { margin: 0; background: var(--bg); color: var(--fg); overflow-wrap: anywhere; word-break: break-word; }
+img, svg, video, textarea, input, select { max-width: 100%; }
+
+/* Custom elements are inline by default; every one of ours is a block. */
+site-header, site-footer, site-message, paper-card, day-pager, archive-list, reading-board,
+board-column, board-card, board-button, paper-graph, graph-legend, account-settings, push-settings { display: block; }
+
+a { color: var(--accent); }
+header.top, main, footer { max-width: var(--page-width); margin: 0 auto; padding: 0 var(--gutter); }
+@media (min-width: 60rem) {
+  header.top, main, footer { max-width: var(--page-width-wide); }
+}
+
+h1 { font-size: var(--h1-size); margin: 1.5rem 0 1rem; }
+h1 small { display: block; font-size: .95rem; font-weight: 400; color: var(--muted); }
+h2 { font-size: var(--h2-size); line-height: 1.35; margin: .25rem 0 .5rem; }
+h2 small { color: var(--muted); font-weight: 400; }
+blockquote { margin: .4rem 0; padding-left: .75rem; border-left: 3px solid var(--line); color: var(--muted); font-size: var(--text-md); }
+
+.meta { color: var(--muted); font-size: var(--text-md); margin: .25rem 0; }
+.badge { background: var(--badge); border-radius: var(--radius-pill); padding: .05rem .6rem; font-size: .8rem; }
+
+.button { display: inline-block; border: 1px solid var(--accent); border-radius: var(--radius-sm); padding: .35rem .8rem; text-decoration: none; font-size: .95rem; }
+.button.small { padding: .15rem .55rem; font-size: var(--text-sm); }
+.button.quiet { border-color: var(--line); color: var(--muted); }
+button.button { background: none; color: var(--accent); font: inherit; cursor: pointer; }
+button.button:disabled { opacity: .5; cursor: default; }
+
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .6rem .75rem; margin-bottom: .75rem; }

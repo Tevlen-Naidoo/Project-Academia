@@ -1,0 +1,8 @@
+/* components/archive.ts: <archive-list> and its filters. */
+.filters { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 1rem; }
+.filters label { display: flex; flex-direction: column; font-size: var(--text-sm); color: var(--muted); flex: 1 1 10rem; min-width: 0; }
+.filters select, .filters input { font: inherit; padding: .3rem; }
+ol.days { list-style: none; padding: 0; }
+ol.days > li { border-bottom: 1px solid var(--line); padding: .5rem 0; }
+ol.days ul { padding-left: 1.1rem; margin: .25rem 0; }
+ol.days ul li { margin: .25rem 0; }
