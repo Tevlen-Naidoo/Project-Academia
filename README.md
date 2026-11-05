@@ -66,6 +66,14 @@ With no file it reads today's picks from `data/picks/YYYY-MM-DD.json`, in rank o
 Given a candidates file instead, it takes the top 3 by the fetcher's rough order.
 Output goes to `data/prereqs/YYYY-MM-DD.json`.
 
+## Connected papers
+
+The same run saves a citation graph per pick in `data/graphs/YYYY-MM-DD.json`: the pick,
+its prerequisites, up to 15 other references and the 10 most-cited papers that cite it,
+with the citations between all of them (one extra Semantic Scholar call per pick for the
+citing papers, and one for the links between them). The site draws it on a "Connected
+papers" page for each day, linked from every pick, with time running left to right.
+
 ## Reading board
 
 `data/board.json` is your reading list, in three columns: To read, Reading and Done.

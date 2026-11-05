@@ -1,7 +1,7 @@
 """Load everything the site shows, with the project's own models.
 
 A data file that doesn't validate stops the build, so the site never shows a
-half-broken page. A missing prerequisites file or board is fine.
+half-broken page. A missing prerequisites file, graphs file or board is fine.
 """
 
 from __future__ import annotations
@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from reader import board
+from reader.graph import GraphFile, PickGraph
 from reader.models import PrereqLabel, PrereqsFile, Prerequisite
 from scorer.models import Pick, PicksFile
 
@@ -21,6 +22,7 @@ PREREQ_ORDER = {PrereqLabel.READ_FIRST: 0, PrereqLabel.FOUNDATION: 1, PrereqLabe
 class PickView:
     pick: Pick
     prerequisites: tuple[Prerequisite, ...] = ()
+    graph: PickGraph | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -28,6 +30,10 @@ class Day:
     date: dt.date
     light_day: bool
     picks: tuple[PickView, ...]
+
+    @property
+    def has_graphs(self) -> bool:
+        return any(p.graph is not None for p in self.picks)
 
     @property
     def topics(self) -> list[str]:
@@ -56,6 +62,14 @@ def _prereqs(data_dir: Path, day: dt.date) -> dict[str, tuple[Prerequisite, ...]
     }
 
 
+def _graphs(data_dir: Path, day: dt.date) -> dict[str, PickGraph]:
+    path = data_dir / "graphs" / f"{day.isoformat()}.json"
+    if not path.exists():
+        return {}
+    graphs = GraphFile.model_validate_json(path.read_bytes())
+    return {g.pick_id: g for g in graphs.graphs if len(g.nodes) > 1}
+
+
 def load(data_dir: Path) -> SiteData:
     days: list[Day] = []
     for path in sorted((data_dir / "picks").glob("*.json"), reverse=True):
@@ -63,12 +77,18 @@ def load(data_dir: Path) -> SiteData:
         if not picks.picks:
             continue
         prereqs = _prereqs(data_dir, picks.date)
+        graphs = _graphs(data_dir, picks.date)
         days.append(
             Day(
                 date=picks.date,
                 light_day=picks.light_day,
                 picks=tuple(
-                    PickView(pick=p, prerequisites=prereqs.get(p.paper.id, ())) for p in picks.picks
+                    PickView(
+                        pick=p,
+                        prerequisites=prereqs.get(p.paper.id, ()),
+                        graph=graphs.get(p.paper.id),
+                    )
+                    for p in picks.picks
                 ),
             )
         )

@@ -71,8 +71,9 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
         | board.load(args.data_dir / board.BOARD_PATH.name).paper_ids(),
     )
     with HttpClient() as http:
-        result = finder.run(http, picks, options)
+        result, graphs = finder.run(http, picks, options)
     path = finder.write(result, args.data_dir)
+    graph_path = finder.write_graphs(graphs, args.data_dir)
     for pick in result.picks:
         print(f"{pick.pick_title} ({pick.source}, {pick.references_seen} references)")
         for pre in pick.prerequisites:
@@ -80,6 +81,7 @@ def _cmd_prereqs(args: argparse.Namespace) -> int:
         for error in pick.errors[:5]:
             print(f"  ! {error}", file=sys.stderr)
     print(f"-> {path}")
+    print(f"-> {graph_path} ({sum(len(g.nodes) for g in graphs.graphs)} nodes)")
     return 0
 
 

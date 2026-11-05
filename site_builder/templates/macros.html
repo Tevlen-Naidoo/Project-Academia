@@ -46,6 +46,9 @@
   </details>
   {{ link_row(paper.links) }}
   {{ board_button(paper.ids, card_payload(paper, found=day.date)) }}
+  {% if view.graph %}
+  <p class="graph-link"><a href="{{ root }}days/{{ day.date.isoformat() }}/graph/index.html#pick-{{ pick.rank }}">See connected papers ({{ view.graph.nodes|length - 1 }})</a></p>
+  {% endif %}
   {% if view.prerequisites %}
   <details class="prereqs">
     <summary>Read before this ({{ view.prerequisites|length }})</summary>

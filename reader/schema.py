@@ -8,11 +8,13 @@ from pydantic import BaseModel
 
 from fetcher.schema import SCHEMA_DIR, render
 from reader.board import Board
+from reader.graph import GraphFile
 from reader.models import PrereqsFile
 
 SCHEMAS: dict[str, type[BaseModel]] = {
     "prereqs.schema.json": PrereqsFile,
     "board.schema.json": Board,
+    "graph.schema.json": GraphFile,
 }
 
 

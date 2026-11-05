@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import os
 import re
+from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -40,6 +41,12 @@ S2_REFERENCE_FIELDS = ",".join(
         "s2FieldsOfStudy",
     ]
 )
+S2_CITATIONS_URL = "https://api.semanticscholar.org/graph/v1/paper/{id}/citations"
+S2_CITATION_FIELDS = (
+    "paperId,externalIds,title,year,venue,publicationTypes,citationCount,"
+    "influentialCitationCount,fieldsOfStudy"
+)
+S2_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 S2_PAGE_LIMIT = 1000
 OA_INTERVAL_S = 0.2
 OA_IDS_PER_CALL = 100
@@ -98,6 +105,10 @@ class S2CitedPaper(_Lenient):
         out = set(self.fields_of_study or ())
         out.update(f.category for f in self.s2_fields_of_study or () if f.category)
         return frozenset(out)
+
+
+class S2Citation(_Lenient):
+    citing_paper: S2CitedPaper = Field(alias="citingPaper")
 
 
 class S2Reference(_Lenient):
@@ -341,3 +352,63 @@ class ReferenceClient:
                 if paper is not None:
                     result.references.append(Reference(paper=paper, fields=work.fields()))
         return result
+
+    def s2_citations(self, key: str) -> ReferenceList:
+        """Papers that cite `key` (first page, up to 1000), as References with no signals."""
+        result = ReferenceList()
+        headers = {"x-api-key": self._s2_key} if self._s2_key else None
+        try:
+            self.calls += 1
+            response = self._http.get(
+                S2_CITATIONS_URL.format(id=key),
+                limiter=self._s2_limiter,
+                params={"fields": S2_CITATION_FIELDS, "limit": S2_PAGE_LIMIT},
+                headers=headers,
+            )
+            rows = response.json().get("data") or []
+        except Exception as exc:
+            result.errors.append(f"S2 citations for {key}: {type(exc).__name__}: {exc}")
+            return result
+        for row in rows:
+            try:
+                item = S2Citation.model_validate(row)
+            except ValidationError:
+                continue
+            paper = ref_from_s2(item.citing_paper)
+            if paper is not None:
+                result.references.append(Reference(paper=paper, fields=item.citing_paper.fields()))
+        return result
+
+    def s2_reference_ids(
+        self, s2_ids: Iterable[str | None]
+    ) -> tuple[dict[str, set[str]], list[str]]:
+        """For each S2 paper id, the S2 ids of the papers it cites (one batch call)."""
+        ids = list(dict.fromkeys(i for i in s2_ids if i))
+        out: dict[str, set[str]] = {}
+        if not ids:
+            return out, []
+        headers = {"x-api-key": self._s2_key} if self._s2_key else None
+        try:
+            self.calls += 1
+            response = self._http.post(
+                S2_BATCH_URL,
+                limiter=self._s2_limiter,
+                params={"fields": "references.paperId"},
+                headers=headers,
+                json={"ids": ids},
+            )
+            rows = response.json()
+        except Exception as exc:
+            return out, [f"S2 cross-links: {type(exc).__name__}: {exc}"]
+        if not isinstance(rows, list):
+            return out, ["S2 cross-links: unexpected response"]
+        for asked, row in zip(ids, rows, strict=False):
+            if not isinstance(row, dict):
+                continue
+            cited = {
+                str(r["paperId"])
+                for r in row.get("references") or []
+                if isinstance(r, dict) and r.get("paperId")
+            }
+            out[asked] = cited
+        return out, []

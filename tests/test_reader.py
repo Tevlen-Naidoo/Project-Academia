@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -397,3 +398,94 @@ def test_pick_fields(paper_data: dict[str, Any]) -> None:
     assert "Mathematics" in pick_fields(graph, topics)
     astro = _pick({**paper_data, "topics": ["astronomy"], "source_categories": ["astro-ph.GA"]})
     assert pick_fields(astro, topics) == {"Physics"}
+
+
+@respx.mock
+def test_graph_build(paper_data: dict[str, Any]) -> None:
+    from reader import graph
+
+    _mock_chain(respx.mock)
+    respx.get(f"{S2}/ARXIV:2410.12345/citations").respond(
+        json={
+            "data": [
+                {
+                    "citingPaper": {
+                        "paperId": f"c{i}",
+                        "title": f"Citer {i}",
+                        "year": 2026,
+                        "citationCount": i,
+                    }
+                }
+                for i in range(12)
+            ]
+        }
+    )
+    batch_ids: list[list[str]] = []
+
+    def batch(request: httpx.Request) -> httpx.Response:
+        ids = json.loads(request.content)["ids"]
+        if request.url.params.get("fields") == "references.paperId":
+            batch_ids.append(ids)
+            # The Attention paper cites ResNet's predecessor... here: sA cites sB.
+            return httpx.Response(
+                200,
+                json=[
+                    {"paperId": i, "references": [{"paperId": "sB"}] if i == "sA" else []}
+                    for i in ids
+                ],
+            )
+        return httpx.Response(200, json=[None for _ in ids])
+
+    respx.post(f"{S2}/batch").mock(side_effect=batch)
+    pick = _pick(paper_data)
+    client = _client()
+    fetched = finder.fetch([pick], client)
+    options = finder.FinderOptions(today=TODAY)
+    prereqs = finder.find([pick], client, options, now=NOW, fetched=fetched)
+    out = graph.build([pick], {pick.id: fetched[pick.id][1]}, prereqs, client, now=NOW)
+    g = out.graphs[0]
+    roles = Counter(n.role for n in g.nodes)
+    assert roles[graph.NodeRole.PICK] == 1
+    assert roles[graph.NodeRole.READ_FIRST] == 2
+    assert roles[graph.NodeRole.FOUNDATION] == 1
+    assert roles[graph.NodeRole.CITING] == graph.CITING_MAX
+    assert g.citing_seen == 12
+    edges = {(e.source, e.target, e.kind) for e in g.edges}
+    assert (pick.id, "arxiv:1706.03762", graph.EdgeKind.CITES) in edges
+    assert ("arxiv:1706.03762", "doi:10.1109/cvpr.2016.90", graph.EdgeKind.CITES) in edges
+    assert ("arxiv:1706.03762", "arxiv:1409.0473", graph.EdgeKind.BUILDS_ON) in edges
+    assert ("s2:c11", pick.id, graph.EdgeKind.CITES) in edges
+    assert batch_ids and "sA" in batch_ids[0]
+    graph.GraphFile.model_validate_json(out.model_dump_json(exclude_none=True))
+
+
+def test_graph_layout_rows() -> None:
+    from reader.graph import GraphNode, NodeRole, PickGraph
+    from site_builder.graph_view import layout
+
+    def node(pid: str, role: NodeRole, year: int) -> GraphNode:
+        ids = PaperIds(s2=pid)
+        return GraphNode(
+            paper=PaperRef(id=ids.canonical(), ids=ids, title=pid * 50, year=year), role=role
+        )
+
+    g = PickGraph(
+        pick_id="s2:p",
+        nodes=[
+            node("p", NodeRole.PICK, 2026),
+            node("a", NodeRole.READ_FIRST, 2017),
+            node("b", NodeRole.BACKGROUND, 2015),
+            node("r1", NodeRole.REFERENCE, 2020),
+            node("r2", NodeRole.REFERENCE, 2020),
+            node("c", NodeRole.CITING, 2026),
+        ],
+    )
+    lay = layout(g)
+    by_id = {p.node.paper.id: p for p in lay.nodes}
+    # Each prerequisite on its own row above the pick; references stack below it.
+    assert by_id["s2:a"].y < by_id["s2:b"].y < by_id["s2:p"].y < by_id["s2:r1"].y
+    assert by_id["s2:r1"].x == by_id["s2:r2"].x and by_id["s2:r1"].y != by_id["s2:r2"].y
+    assert by_id["s2:c"].x > by_id["s2:p"].x
+    assert by_id["s2:a"].label and by_id["s2:a"].label.endswith("…")
+    assert by_id["s2:p"].label is None
+    assert [t.label for t in lay.ticks][-1] == "Cited by"
