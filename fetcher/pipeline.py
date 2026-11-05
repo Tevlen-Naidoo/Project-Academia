@@ -13,12 +13,15 @@ from fetcher.funnels.fresh import paper_from_entry
 from fetcher.http import HttpClient
 from fetcher.models import CandidatesFile, Funnel, Paper, SourceReport
 from fetcher.sources.arxiv import ArxivSource
+from fetcher.sources.hackernews import HackerNewsSource
+from fetcher.sources.huggingface import HuggingFaceSource
 from fetcher.sources.openalex import OpenAlexSource
 from fetcher.sources.semantic_scholar import SemanticScholarSource
 from fetcher.topics import TopicsConfig
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 FRESH_WINDOW_DAYS = 7
+HN_WINDOW_DAYS = 30
 FRESH_PER_TOPIC = 25
 FRESH_CAP = 200
 WAVES_PER_TOPIC = 12
@@ -102,6 +105,40 @@ def run_waves(
     return papers, report
 
 
+def run_huggingface(
+    source: HuggingFaceSource, papers: list[Paper], options: RunOptions
+) -> SourceReport:
+    started = time.monotonic()
+    report = SourceReport()
+    result = source.recent(until=options.today, days=options.fresh_days)
+    report.fetched = len(result.buzz)
+    report.errors.extend(result.errors)
+    for paper in papers:
+        hit = result.buzz.get(paper.ids.arxiv or "")
+        if hit is not None:
+            paper.buzz.hf_upvotes = hit.upvotes
+            paper.buzz.hf_comments = hit.comments
+    report.duration_s = round(time.monotonic() - started, 2)
+    return report
+
+
+def run_hackernews(source: HackerNewsSource, papers: list[Paper], now: dt.datetime) -> SourceReport:
+    started = time.monotonic()
+    report = SourceReport()
+    result = source.recent(since=now - dt.timedelta(days=HN_WINDOW_DAYS))
+    report.fetched = result.stories
+    report.errors.extend(result.errors)
+    for paper in papers:
+        hit = result.by_arxiv.get(paper.ids.arxiv or "") or result.by_doi.get(
+            (paper.ids.doi or "").lower()
+        )
+        if hit is not None:
+            paper.buzz.hn_points = hit.points
+            paper.buzz.hn_comments = hit.comments
+    report.duration_s = round(time.monotonic() - started, 2)
+    return report
+
+
 def run_semantic_scholar(source: SemanticScholarSource, papers: list[Paper]) -> SourceReport:
     started = time.monotonic()
     by_id = enrich.s2_ids(papers)
@@ -155,6 +192,8 @@ def run(
     arxiv: ArxivSource | None = None,
     semantic_scholar: SemanticScholarSource | None = None,
     openalex: OpenAlexSource | None = None,
+    huggingface: HuggingFaceSource | None = None,
+    hackernews: HackerNewsSource | None = None,
 ) -> CandidatesFile:
     now = now or dt.datetime.now(dt.UTC)
     openalex = openalex or OpenAlexSource(http)
@@ -164,6 +203,8 @@ def run(
     s2_report = run_semantic_scholar(semantic_scholar or SemanticScholarSource(http), papers)
     # Waves papers came from OpenAlex already; only look up the rest
     oa_report = run_openalex(openalex, [p for p in papers if p.ids.openalex is None], topics)
+    hf_report = run_huggingface(huggingface or HuggingFaceSource(http), papers, options)
+    hn_report = run_hackernews(hackernews or HackerNewsSource(http), papers, now)
     for paper in papers:
         enrich.derive_signals(paper, options.today)
     fresh_pool = [p for p in papers if Funnel.FRESH in p.funnel]
@@ -184,6 +225,8 @@ def run(
             "openalex_waves": waves_report,
             "semantic_scholar": s2_report,
             "openalex": oa_report,
+            "huggingface": hf_report,
+            "hackernews": hn_report,
         },
         papers=selected,
     )
