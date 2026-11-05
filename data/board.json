@@ -48,14 +48,13 @@
         "venue": "Nature",
         "year": 2026
       },
-      "column": "reading",
+      "column": "to_read",
       "source": {
         "date": "2026-11-05",
         "kind": "pick"
       },
-      "added_on": "2026-11-05",
-      "started_on": "2026-11-05"
+      "added_on": "2026-11-05"
     }
   ],
-  "updated_at": "2026-11-05T12:45:02.116Z"
+  "updated_at": "2026-11-05T13:17:17.438Z"
 }
