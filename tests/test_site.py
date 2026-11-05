@@ -344,12 +344,22 @@ def test_cli_build_derives_the_push_key(
     [
         '{"apiKey": "k", "authDomain": "a.firebaseapp.com", "projectId": "a", '
         '"appId": "1:2:web:3"}',
-        """const firebaseConfig = {
-  apiKey: "k",
+        """<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-analytics.js";
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "k",
   authDomain: "a.firebaseapp.com",
   projectId: "a",
   storageBucket: "a.appspot.com",
   appId: "1:2:web:3",
+  measurementId: "G-X"
+};
+  const app = initializeApp(firebaseConfig);
+</script>""",
+        """const firebaseConfig = {
+  apiKey: "k", authDomain: "a.firebaseapp.com", projectId: "a", appId: "1:2:web:3",
 };""",
     ],
 )
