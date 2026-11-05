@@ -20,4 +20,23 @@
     <button type="button" class="button" id="token-forget">Forget key</button>
   </form>
 </section>
+<section class="settings" id="push">
+  <h2>Notifications</h2>
+  <p>Get a notification on this device when the day's papers are up, usually before 7am
+  SAST. Tapping it opens Today. Turn it on once on each device.</p>
+  <div id="push-ios" hidden>
+    <p>On iPhone and iPad (iOS 16.4 or later):</p>
+    <ol>
+      <li>In Safari, tap the <strong>Share</strong> button, then <strong>Add to Home Screen</strong>.</li>
+      <li>Open <strong>Academia</strong> from your Home Screen and go to Settings.</li>
+      <li>Paste your GitHub key above again. The Home Screen app keeps its own copy.</li>
+      <li>Tap <strong>Turn on notifications</strong> and allow them.</li>
+    </ol>
+  </div>
+  <p id="push-state" class="meta">Checking…</p>
+  <p>
+    <button type="button" class="button" id="push-on" hidden>Turn on notifications</button>
+    <button type="button" class="button" id="push-off" hidden>Turn off notifications</button>
+  </p>
+</section>
 {% endblock %}

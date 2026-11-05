@@ -27,6 +27,8 @@ jobs:
   papers:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    outputs:
+      date: ${{ steps.day.outputs.date }}
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
@@ -94,7 +96,17 @@ jobs:
   publish:
     needs: papers
     uses: ./.github/workflows/pages.yml
+    secrets: inherit
     permissions:
       contents: read
       pages: write
       id-token: write
+  notify:
+    # After the site is live, so tapping the notification shows the new papers.
+    needs: [papers, publish]
+    uses: ./.github/workflows/notify.yml
+    secrets: inherit
+    with:
+      date: ${{ needs.papers.outputs.date }}
+    permissions:
+      contents: write

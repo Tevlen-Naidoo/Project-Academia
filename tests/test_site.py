@@ -235,3 +235,43 @@ def test_no_graph_page_without_graphs(data_dir: Path, tmp_path: Path) -> None:
     _build(data_dir, out)
     assert not (out / "days" / str(DAY2) / "graph").exists()
     assert "See connected papers" not in (out / "index.html").read_text("utf-8")
+
+
+def test_installable_with_notifications(data_dir: Path, tmp_path: Path) -> None:
+    out = tmp_path / "site"
+    _build(data_dir, out)
+    manifest = json.loads((out / "manifest.webmanifest").read_text("utf-8"))
+    assert manifest["display"] == "standalone"
+    for icon in manifest["icons"]:
+        assert (out / icon["src"]).exists()
+    assert (out / "sw.js").exists()
+    settings = (out / "settings" / "index.html").read_text("utf-8")
+    assert 'id="push-on"' in settings
+    assert 'data-push-key=""' in settings  # no key, so notifications stay off
+
+    site = render.Site(
+        repo="owner/repo",
+        topics=TOPICS,
+        data=load.load(data_dir),
+        built_at=NOW,
+        push_key="BPublicKey",
+    )
+    render.build(site, out)
+    assert 'data-push-key="BPublicKey"' in (out / "index.html").read_text("utf-8")
+
+
+def test_cli_build_derives_the_push_key(
+    data_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from notifier import vapid
+
+    private = vapid.generate()
+    monkeypatch.setenv(vapid.ENV_VAR, private)
+    out = tmp_path / "site"
+    assert cli.main(["build", "--data-dir", str(data_dir), "--out", str(out)]) == 0
+    public = vapid.public_key(vapid.load_private_key(private))
+    assert f'data-push-key="{public}"' in (out / "index.html").read_text("utf-8")
+
+    monkeypatch.setenv(vapid.ENV_VAR, "not a key")
+    assert cli.main(["build", "--data-dir", str(data_dir), "--out", str(out)]) == 0
+    assert 'data-push-key=""' in (out / "index.html").read_text("utf-8")

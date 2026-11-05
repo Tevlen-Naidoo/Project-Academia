@@ -21,6 +21,8 @@ from site_builder.load import Day, SiteData
 HERE = Path(__file__).resolve().parent
 TEMPLATES = HERE / "templates"
 STATIC = HERE / "static"
+ROOT_FILES = HERE / "root"
+"""Files served from the site root: the service worker must sit there to cover every page."""
 DEFAULT_REPO = "Tevlen-Naidoo/Project-Academia"
 DONE_SHOWN = 20
 """Done cards shown open on the board page; older ones fold away."""
@@ -32,6 +34,8 @@ class Site:
     topics: TopicsConfig
     data: SiteData
     built_at: dt.datetime
+    push_key: str = ""
+    """VAPID public key for Web Push; empty leaves notifications off."""
 
 
 def _environment(site: Site) -> Environment:
@@ -89,6 +93,7 @@ def _environment(site: Site) -> Environment:
         repo=site.repo,
         built_at=site.built_at,
         topics=site.topics,
+        push_key=site.push_key,
     )
     return env
 
@@ -163,5 +168,7 @@ def build(site: Site, out: Path) -> list[Path]:
         nav="board",
     )
     shutil.copytree(STATIC, out / "static")
+    for path in ROOT_FILES.iterdir():
+        shutil.copy(path, out / path.name)
     (out / ".nojekyll").write_text("", encoding="utf-8")
     return pages
