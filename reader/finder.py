@@ -19,7 +19,9 @@ from pydantic import ValidationError
 from fetcher.http import HttpClient
 from fetcher.models import Paper
 from fetcher.sources.semantic_scholar import SemanticScholarSource
+from fetcher.topics import TopicsConfig
 from reader import rank
+from reader.fields import pick_fields
 from reader.models import (
     PaperRef,
     PickPrereqs,
@@ -42,6 +44,8 @@ class FinderOptions:
     foundation_hops: int = FOUNDATION_MAX_HOPS
     exclude: set[str] = field(default_factory=set)
     """Paper ids never to show: past picks and prerequisites, papers already read."""
+    topics: TopicsConfig | None = None
+    """When set, Background papers must share a field of study with their pick."""
 
 
 def history(data_dir: Path, today: dt.date, days: int = HISTORY_DAYS) -> set[str]:
@@ -121,7 +125,10 @@ def find(
     out = PrereqsFile(date=options.today, generated_at=now or dt.datetime.now(dt.UTC))
     for pick in picks:
         source, refs, errors = fetched[pick.id]
-        prereqs, read_first = rank.select(pick.id, refs, shared=shared, exclude=skip)
+        fields = pick_fields(pick, options.topics) if options.topics else frozenset()
+        prereqs, read_first = rank.select(
+            pick.id, refs, shared=shared, exclude=skip, pick_fields=fields
+        )
         taken = {p.paper.id for p in prereqs}
         for ref in read_first:
             path = foundation_chain(

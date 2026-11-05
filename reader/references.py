@@ -19,6 +19,7 @@ from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import ARXIV_ID_RE, Links, PaperIds
 from fetcher.sources.openalex import WORKS_URL
 from fetcher.sources.semantic_scholar import REQUEST_INTERVAL_S as S2_INTERVAL_S
+from reader.fields import openalex_fields
 from reader.models import PaperRef
 
 S2_PAPER_URL = "https://api.semanticscholar.org/graph/v1/paper/{id}/references"
@@ -35,12 +36,16 @@ S2_REFERENCE_FIELDS = ",".join(
         "publicationTypes",
         "citationCount",
         "influentialCitationCount",
+        "fieldsOfStudy",
+        "s2FieldsOfStudy",
     ]
 )
 S2_PAGE_LIMIT = 1000
 OA_INTERVAL_S = 0.2
 OA_IDS_PER_CALL = 100
-OA_SELECT = "id,doi,display_name,publication_year,cited_by_count,type,primary_location"
+OA_SELECT = (
+    "id,doi,display_name,publication_year,cited_by_count,type,primary_location,primary_topic"
+)
 REVIEW_TYPES = frozenset({"Review"})
 _DOI_RE = re.compile(r"^10\.\S+/\S+$")
 _ARXIV_DOI_PREFIX = "10.48550/arxiv."
@@ -55,6 +60,8 @@ class Reference:
     """None when the source cannot tell (OpenAlex)."""
     intents: list[str] | None = None
     contexts: list[str] = field(default_factory=list)
+    fields: frozenset[str] = frozenset()
+    """Fields of study of the cited paper (S2 vocabulary); empty when unknown."""
 
     @property
     def has_signals(self) -> bool:
@@ -71,6 +78,10 @@ class _Lenient(BaseModel):
     model_config = ConfigDict(extra="ignore", populate_by_name=True)
 
 
+class S2Field(_Lenient):
+    category: str | None = None
+
+
 class S2CitedPaper(_Lenient):
     paper_id: str | None = Field(default=None, alias="paperId")
     external_ids: dict[str, str | int] | None = Field(default=None, alias="externalIds")
@@ -80,6 +91,13 @@ class S2CitedPaper(_Lenient):
     publication_types: list[str] | None = Field(default=None, alias="publicationTypes")
     citation_count: int | None = Field(default=None, alias="citationCount")
     influential_citation_count: int | None = Field(default=None, alias="influentialCitationCount")
+    fields_of_study: list[str] | None = Field(default=None, alias="fieldsOfStudy")
+    s2_fields_of_study: list[S2Field] | None = Field(default=None, alias="s2FieldsOfStudy")
+
+    def fields(self) -> frozenset[str]:
+        out = set(self.fields_of_study or ())
+        out.update(f.category for f in self.s2_fields_of_study or () if f.category)
+        return frozenset(out)
 
 
 class S2Reference(_Lenient):
@@ -97,6 +115,14 @@ class OAPrimaryLocation(_Lenient):
     source: OAPrimarySource | None = None
 
 
+class OAField(_Lenient):
+    display_name: str | None = None
+
+
+class OATopicField(_Lenient):
+    field: OAField | None = None
+
+
 class OARefWork(_Lenient):
     id: str
     doi: str | None = None
@@ -105,6 +131,11 @@ class OARefWork(_Lenient):
     cited_by_count: int | None = None
     type: str | None = None
     primary_location: OAPrimaryLocation | None = None
+    primary_topic: OATopicField | None = None
+
+    def fields(self) -> frozenset[str]:
+        topic = self.primary_topic
+        return openalex_fields(topic.field.display_name if topic and topic.field else None)
 
 
 def _clean_doi(doi: str | None) -> str | None:
@@ -267,6 +298,7 @@ class ReferenceClient:
                     influential=item.is_influential,
                     intents=item.intents or [],
                     contexts=item.contexts or [],
+                    fields=item.cited_paper.fields(),
                 )
             )
         return result
@@ -301,10 +333,11 @@ class ReferenceClient:
                 continue
             for row in rows:
                 try:
-                    paper = ref_from_openalex(OARefWork.model_validate(row))
+                    work = OARefWork.model_validate(row)
+                    paper = ref_from_openalex(work)
                 except ValidationError as exc:
                     result.errors.append(f"OpenAlex work: {exc.error_count()} validation errors")
                     continue
                 if paper is not None:
-                    result.references.append(Reference(paper=paper))
+                    result.references.append(Reference(paper=paper, fields=work.fields()))
         return result

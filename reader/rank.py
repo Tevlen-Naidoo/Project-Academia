@@ -102,6 +102,21 @@ def quote(ref: Reference) -> str | None:
     return None
 
 
+def on_topic(ref: Reference, pick_fields: frozenset[str]) -> bool:
+    """Whether a reference can be Background for a pick in `pick_fields`.
+
+    Yes when S2 says the pick builds on it (influential, or cited for its method
+    or results), or when it shares a field of study with the pick. A reference
+    with no known field is left out once the pick's fields are known.
+    """
+    if not pick_fields:
+        return True
+    intents = ref.intents or []
+    if ref.influential or "methodology" in intents or "result" in intents:
+        return True
+    return bool(ref.fields & pick_fields)
+
+
 def unique(refs: Iterable[Reference]) -> list[Reference]:
     """One entry per paper; a duplicate keeps the strongest signals."""
     best: dict[str, Reference] = {}
@@ -118,8 +133,12 @@ def select(
     *,
     shared: Mapping[str, int] | None = None,
     exclude: frozenset[str] | set[str] = frozenset(),
+    pick_fields: frozenset[str] = frozenset(),
 ) -> tuple[list[Prerequisite], list[Reference]]:
     """Up to 2 Read first and 3 Background prerequisites for one pick.
+
+    Background papers must be on topic for the pick (`on_topic`), so a highly
+    cited paper from another field is not suggested on citation count alone.
 
     Returns the prerequisites and the Read first references (for the Foundation step).
     """
@@ -136,6 +155,8 @@ def select(
         if len(background) >= BACKGROUND_MAX:
             break
         if ref.paper.id in chosen or (ref.paper.citations or 0) < BACKGROUND_MIN_CITATIONS:
+            continue
+        if not on_topic(ref, pick_fields):
             continue
         if ref.paper.is_review:
             if reviews >= REVIEWS_IN_BACKGROUND_MAX:

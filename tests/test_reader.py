@@ -333,3 +333,67 @@ def test_load_papers_from_candidates_file(tmp_path: Path, paper_data: dict[str, 
     papers, ranked = cli.load_papers(path)
     assert not ranked
     assert [p.id for p in papers] == ["arxiv:2410.12345"]
+
+
+def _fielded(pid: str, fields: set[str], citations: int = 50_000) -> Reference:
+    ref = _ref(pid, citations=citations, influential=False, intents=[])
+    ref.fields = frozenset(fields)
+    return ref
+
+
+def test_background_must_share_the_picks_field() -> None:
+    # The first live run: a CS pick got DESeq2 and a medical review as Background.
+    refs = [
+        _fielded("deseq2", {"Biology"}),
+        _fielded("amd", {"Medicine"}),
+        _fielded("dirstats", {"Mathematics"}),
+        _fielded("react", {"Computer Science"}, citations=13_000),
+        _fielded("unknown", set()),
+    ]
+    cs = frozenset({"Computer Science", "Engineering"})
+    prereqs, _ = rank.select("s2:pick", refs, pick_fields=cs)
+    assert [p.paper.title for p in prereqs] == ["react"]
+    # Without known pick fields nothing is filtered.
+    prereqs, _ = rank.select("s2:pick", refs)
+    assert len(prereqs) == 3
+
+
+def test_direct_signal_overrides_field() -> None:
+    ref = _fielded("method", {"Biology"})
+    ref.intents = ["methodology"]
+    assert rank.on_topic(ref, frozenset({"Computer Science"}))
+
+
+def test_reference_fields_from_s2_and_openalex() -> None:
+    item = S2Reference.model_validate(
+        {
+            "citedPaper": {
+                "paperId": "x",
+                "title": "T",
+                "fieldsOfStudy": ["Medicine"],
+                "s2FieldsOfStudy": [{"category": "Biology", "source": "s2-fos-model"}],
+            }
+        }
+    )
+    assert item.cited_paper.fields() == {"Medicine", "Biology"}
+    work = OARefWork.model_validate(
+        {
+            "id": "https://openalex.org/W1",
+            "display_name": "T",
+            "primary_topic": {"field": {"display_name": "Physics and Astronomy"}},
+        }
+    )
+    assert work.fields() == {"Physics"}
+
+
+def test_pick_fields(paper_data: dict[str, Any]) -> None:
+    from fetcher.topics import load_topics
+    from reader.fields import pick_fields
+
+    topics = load_topics()
+    cs_pick = _pick({**paper_data, "topics": ["ml", "vision"], "source_categories": ["cs.CV"]})
+    assert pick_fields(cs_pick, topics) == {"Computer Science", "Engineering"}
+    graph = _pick({**paper_data, "topics": ["graph-theory"], "source_categories": ["math.CO"]})
+    assert "Mathematics" in pick_fields(graph, topics)
+    astro = _pick({**paper_data, "topics": ["astronomy"], "source_categories": ["astro-ph.GA"]})
+    assert pick_fields(astro, topics) == {"Physics"}

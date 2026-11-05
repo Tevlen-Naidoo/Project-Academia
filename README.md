@@ -53,7 +53,9 @@ uv run python -m scorer run --date 2026-11-05   # reads data/candidates/2026-11-
 references (Semantic Scholar, falling back to OpenAlex) and keeps up to 2 **Read first**
 papers (influential, cited for their method), 3 **Background** papers (at most one survey),
 and for each Read first paper the **Foundation**: the lowest paper in its own chain of Read
-first papers, at most 3 hops down. Papers shown in the last 30 days are skipped.
+first papers, at most 3 hops down. Background papers must share a field of study with
+the pick (from Semantic Scholar or OpenAlex) unless Semantic Scholar says the pick builds on
+them, so a highly cited paper from another field is not suggested on citations alone. Papers shown in the last 30 days are skipped.
 
 ```sh
 uv run python -m reader prereqs                      # today's picks
