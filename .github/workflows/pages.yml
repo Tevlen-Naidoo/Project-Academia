@@ -33,6 +33,13 @@ jobs:
           python-version: "3.12"
           enable-cache: true
       - run: uv sync --locked --no-dev
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build the web components
+        run: npm run build
       - name: Build
         env:
           # Only the public half reaches the site; it turns on the Notifications setting.

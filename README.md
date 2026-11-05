@@ -144,17 +144,48 @@ first), an Archive with topic, kind and title filters, a page per day, and the R
 board, where cards move between columns by dragging them (press and hold first on a touch
 screen) or with their buttons.
 
-Every part of a page is a web component built with [Lit](https://lit.dev), which ships
-bundled in `site_builder/static/vendor/lit.js`, so there is no npm step. The Python builder
-(`site_builder/views.py`) hands each component its data as a JSON attribute, and the
-components in `site_builder/static/js/components/` draw it, with one plain stylesheet.
+Every part of a page is a web component built with [Lit](https://lit.dev), written in
+TypeScript in `web/src/components/`. Vite bundles them, with Lit and the Firebase SDK from
+npm, into `web/dist/`, and the Python builder (`site_builder/`) writes the pages and copies
+that bundle into `site/static/`. The site GitHub Pages serves is still plain static files.
+The builder hands each component its data as a JSON attribute (`site_builder/views.py`;
+the matching TypeScript types are in `web/src/lib/types.ts`).
 
 Board buttons on the site save straight to the database, after you sign in once per device
 on the Settings page. One-time setup: **Settings → Pages → Source: GitHub Actions**, plus the
 [Database](#database) steps.
 
+### Working on the site
+
+You need [Node.js](https://nodejs.org) 22 or later as well as uv. Once:
+
 ```sh
-uv run python -m site_builder build --serve   # build into site/ and preview on localhost:8000
+npm install
+```
+
+Then:
+
+```sh
+npm run dev       # live preview on http://localhost:5173
+```
+
+The dev server builds the pages from `data/` with the Python builder and serves them with
+the TypeScript sources. Saving a stylesheet updates the open page without a reload; saving
+a component, a template in `site_builder/templates/` or anything in `data/` reloads it.
+
+Styles live in `web/src/styles/`:
+
+| File | What it styles |
+| --- | --- |
+| `theme.css` | Colours (light and dark), fonts, text sizes, corner radii and page widths, as CSS variables. Start here. |
+| `base.css` | The page frame, headings, links, buttons, badges and cards |
+| `layout.css`, `papers.css`, `archive.css`, `board.css`, `graph.css`, `settings.css` | One file per component file in `web/src/components/` |
+
+Components render into the page (not a shadow root), so these stylesheets reach everything.
+
+```sh
+npm run typecheck # check the TypeScript
+npm run preview   # build exactly what gets published into site/ and serve it on localhost:8000
 ```
 
 ## Daily run
@@ -204,7 +235,8 @@ daily run skips notifications and the Settings page says they aren't set up.
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
 | `scorer/` | The daily picks (`scorer/models.py` holds `Pick` and `PicksFile`) |
 | `config/scoring.yaml` | Scoring weights, light days, topic spread and repeat rules |
-| `site_builder/` | The static web app: page templates, the Lit web components in `static/js/components/`, `static/js/board-store.js` and `static/js/firebase.js`, which sign in and save the board, and `static/js/push.js` and `root/sw.js` for notifications |
+| `site_builder/` | Builds the static site: page templates, the JSON each component gets (`views.py`), icons, and `root/sw.js` for notifications |
+| `web/` | The site's Lit web components in TypeScript (`src/components/`), its stylesheets (`src/styles/`), and `src/lib/` (`board-store.ts` and `firebase.ts` sign in and save the board, `push.ts` handles notifications) |
 | `notifier/` | Sends the daily Web Push notification (`python -m notifier send`) |
 | `store/` | Firestore access for the daily run and the command line (`python -m store setup`, `check`) |
 | `firestore.rules` | Who may read and write the database. Paste into the Firebase console |

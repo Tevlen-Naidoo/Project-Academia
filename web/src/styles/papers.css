@@ -1,0 +1,23 @@
+/* components/papers.ts: <paper-card>, its prerequisites and <board-button>. */
+.pick { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 1rem 1.1rem; margin: 0 0 1.25rem; }
+.badges { margin: 0 0 .25rem; display: flex; flex-wrap: wrap; gap: .35rem; }
+.authors { color: var(--muted); font-size: var(--text-md); margin: .25rem 0; }
+.reason { font-weight: 600; margin: .5rem 0; }
+.tldr { margin: .5rem 0; }
+
+/* The abstract shows six lines until you open it. */
+details.abstract summary { list-style: none; cursor: pointer; }
+details.abstract summary::-webkit-details-marker { display: none; }
+.clamp { display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+details.abstract[open] .clamp { display: block; -webkit-line-clamp: unset; }
+.more { display: inline-block; color: var(--accent); font-size: var(--text-md); margin-top: .2rem; }
+details.abstract[open] .more { display: none; }
+
+ul.links { list-style: none; padding: 0; margin: .75rem 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+.on-board { color: var(--muted); font-size: var(--text-md); }
+.graph-link { margin: .5rem 0; }
+
+details.prereqs { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: .75rem; }
+details.prereqs summary { cursor: pointer; font-weight: 600; }
+details.prereqs ul { padding-left: 1.1rem; }
+details.prereqs li { margin: .75rem 0; }

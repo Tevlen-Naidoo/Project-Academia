@@ -17,6 +17,9 @@ from site_builder.load import Day, PickView, SiteData
 HERE = Path(__file__).resolve().parent
 TEMPLATES = HERE / "templates"
 STATIC = HERE / "static"
+"""Icons and other files copied into site/static as they are."""
+ASSETS = HERE.parent / "web" / "dist"
+"""The web components and stylesheets, built from web/ by `npm run build`."""
 ROOT_FILES = HERE / "root"
 """Files served from the site root: the service worker must sit there to cover every page."""
 DEFAULT_REPO = "Tevlen-Naidoo/Project-Academia"
@@ -69,8 +72,19 @@ def _write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def build(site: Site, out: Path) -> list[Path]:
-    """Write every page under `out`, replacing what was there. Returns the pages."""
+class MissingAssetsError(RuntimeError):
+    """web/dist hasn't been built, so the pages would have no scripts or styles."""
+
+
+def build(site: Site, out: Path, *, with_assets: bool = True) -> list[Path]:
+    """Write every page under `out`, replacing what was there. Returns the pages.
+
+    The folder `npm run build` writes (ASSETS: app.js, app.css and chunks) is copied
+    into static/. `with_assets=False` leaves it out, for `npm run dev`, which serves
+    the TypeScript sources itself."""
+    assets = ASSETS if with_assets else None
+    if assets is not None and not (assets / "app.js").exists():
+        raise MissingAssetsError(f"{assets} has no app.js. Run `npm ci && npm run build` first.")
     if out.exists():
         shutil.rmtree(out)
     env = _environment(site)
@@ -118,6 +132,8 @@ def build(site: Site, out: Path) -> list[Path]:
 
     page("board/index.html", "board.html", nav="board")
     shutil.copytree(STATIC, out / "static")
+    if assets is not None:
+        shutil.copytree(assets, out / "static", dirs_exist_ok=True)
     for path in ROOT_FILES.iterdir():
         shutil.copy(path, out / path.name)
     (out / ".nojekyll").write_text("", encoding="utf-8")

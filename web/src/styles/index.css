@@ -1,0 +1,13 @@
+/*
+ * Every stylesheet the site uses, in order. Start with theme.css: colours, fonts,
+ * sizes and spacing are all variables there. Each other file styles one part of the
+ * site and is named after the component in web/src/components/ that draws it.
+ */
+@import "./theme.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./papers.css";
+@import "./archive.css";
+@import "./board.css";
+@import "./graph.css";
+@import "./settings.css";

@@ -1,7 +1,7 @@
 """The devices that turned on notifications.
 
 The site's Settings page saves each device to Firestore (see store/data.py and
-site_builder/static/js/push.js); data/push/subscriptions.json is only read when
+web/src/lib/push.ts); data/push/subscriptions.json is only read when
 Firestore isn't set up. An endpoint is only useful together with this project's
 VAPID private key, which stays in the Actions secrets.
 """

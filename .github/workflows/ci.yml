@@ -26,3 +26,15 @@ jobs:
         run: uv run pytest -q
       - name: Schemas up to date
         run: uv run python -m fetcher schema --check && uv run python -m reader schema --check && uv run python -m scorer schema --check
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Type check and build
+        run: npm run build

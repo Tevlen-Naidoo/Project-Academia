@@ -1,0 +1,34 @@
+/* components/graph.ts: <paper-graph> and <graph-legend>. Dot colours are in theme.css. */
+.graph-section { margin: 1.5rem 0 2rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.graph-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+svg.graph { width: 100%; min-width: 40rem; height: auto; display: block; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg); }
+svg.graph .ticks line { stroke: var(--line); }
+svg.graph .ticks text { fill: var(--muted); font-size: 11px; }
+svg.graph .edge { stroke: var(--muted); stroke-opacity: .18; stroke-width: 1; }
+svg.graph .edge.strong { stroke-opacity: .5; }
+svg.graph .edge.builds-on { stroke-dasharray: 4 3; stroke-opacity: .8; }
+svg.graph .node circle { stroke: var(--bg); stroke-width: 1.5; }
+svg.graph .node text { fill: var(--fg); font-size: 11.5px; paint-order: stroke; stroke: var(--card); stroke-width: 4px; stroke-linejoin: round; }
+svg.graph a.node:hover circle, svg.graph a.node:focus circle { stroke: var(--fg); }
+
+/* Pointing at a dot names it and fades every paper not linked to it. */
+svg.graph .node, svg.graph .edge { transition: opacity .15s; }
+svg.graph .node.faded { opacity: .15; }
+svg.graph .edge.faded { opacity: .05; }
+svg.graph .edge.lit { stroke-opacity: .9; stroke-width: 1.5; }
+svg.graph .node.focused circle { stroke: var(--fg); stroke-width: 2; }
+svg.graph .node.focused text { display: none; }
+svg.graph .focus-label { fill: var(--fg); font-size: 13px; font-weight: 600; pointer-events: none;
+  paint-order: stroke; stroke: var(--card); stroke-width: 5px; stroke-linejoin: round; }
+
+.role-pick circle, .dot.role-pick { fill: var(--g-pick); background: var(--g-pick); }
+.role-read_first circle, .dot.role-read_first { fill: var(--g-read); background: var(--g-read); }
+.role-foundation circle, .dot.role-foundation { fill: var(--g-found); background: var(--g-found); }
+.role-background circle, .dot.role-background { fill: var(--g-bg); background: var(--g-bg); }
+.role-reference circle, .dot.role-reference { fill: var(--g-ref); background: var(--g-ref); }
+.role-citing circle, .dot.role-citing { fill: var(--g-cite); background: var(--g-cite); }
+
+ul.legend { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: var(--text-md); }
+.dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .35rem; vertical-align: -.05rem; }
+details.graph-list h3 { font-size: 1rem; margin: .75rem 0 .25rem; }
+details.graph-list summary { cursor: pointer; }

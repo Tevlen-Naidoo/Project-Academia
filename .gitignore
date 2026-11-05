@@ -7,3 +7,5 @@ __pycache__/
 .cache/
 dist/
 site/
+node_modules/
+web/dist/

@@ -1,0 +1,8 @@
+/* components/settings.ts: <account-settings> and <push-settings>. */
+.settings ol li { margin: .4rem 0; }
+account-settings + push-settings { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: .5rem; }
+.token-form { display: flex; flex-wrap: wrap; gap: .5rem; align-items: end; margin-top: 1rem; }
+.token-form label { display: flex; flex-direction: column; font-size: var(--text-sm); color: var(--muted); flex: 1 1 16rem; min-width: 0; }
+.token-form input { font: inherit; padding: .4rem; width: 100%; }
+.account-id { font: var(--text-sm) var(--font-mono); word-break: break-all; user-select: all; }
+.sign-in-email { margin-top: 1rem; }
