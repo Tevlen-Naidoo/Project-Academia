@@ -16,11 +16,11 @@ permissions:
 
 jobs:
   fetch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.12"
           enable-cache: true
@@ -32,7 +32,7 @@ jobs:
         run: uv run python -m fetcher run --fresh-days "${{ inputs.fresh_days }}"
       - name: Score
         run: uv run python -m scorer run
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: candidates
