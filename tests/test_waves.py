@@ -196,3 +196,25 @@ def test_malformed_doi_is_dropped_not_fatal() -> None:
     assert paper is not None
     assert paper.ids.doi is None
     assert paper.id == "openalex:W4500000002"
+
+
+def test_malformed_arxiv_id_is_ignored() -> None:
+    work = OAWork.model_validate(
+        {
+            "id": "W3101030129",
+            "doi": "https://doi.org/10.48550/arxiv.not-an-id",
+            "locations": [{"landing_page_url": "https://arxiv.org/abs/2401.00001v2"}],
+        }
+    )
+    assert work.arxiv_id == "2401.00001"  # falls through to the valid landing page
+    bad_only = OAWork.model_validate({"id": "W1", "doi": "https://doi.org/10.48550/arxiv.1234"})
+    assert bad_only.arxiv_id is None
+
+
+def test_old_style_arxiv_id_from_lowercased_doi() -> None:
+    work = OAWork.model_validate({"id": "W2", "doi": "https://doi.org/10.48550/arXiv.math/0601001"})
+    assert work.arxiv_id == "math/0601001"
+    work = OAWork.model_validate(
+        {"id": "W3", "doi": "https://doi.org/10.48550/arXiv.math.CO/0601001"}
+    )
+    assert work.arxiv_id == "math.CO/0601001"

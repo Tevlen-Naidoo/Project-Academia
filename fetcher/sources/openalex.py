@@ -16,6 +16,7 @@ from dataclasses import dataclass, field
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 from fetcher.http import HttpClient, RateLimiter
+from fetcher.models import ARXIV_ID_RE
 
 WORKS_URL = "https://api.openalex.org/works"
 DOIS_PER_CALL = 50
@@ -103,15 +104,19 @@ class OAWork(_Lenient):
     @property
     def arxiv_id(self) -> str | None:
         """The arXiv id, from an arXiv DOI or an arxiv.org landing page."""
+        candidates: list[str] = []
         doi = self.bare_doi or ""
         if doi.startswith("10.48550/arxiv."):
-            return _strip_version(doi.removeprefix("10.48550/arxiv."))
+            candidates.append(doi.removeprefix("10.48550/arxiv."))
         for location in self.locations:
-            url = location.landing_page_url or ""
-            match = _ARXIV_URL_RE.search(url)
+            match = _ARXIV_URL_RE.search(location.landing_page_url or "")
             if match:
-                return _strip_version(match["id"])
-        return None
+                candidates.append(match["id"])
+        for raw in candidates:
+            arxiv_id = _strip_version(raw)
+            if ARXIV_ID_RE.match(arxiv_id):
+                return arxiv_id
+        return None  # none found, or only malformed ones
 
     @property
     def subfield_ids(self) -> list[int]:
@@ -137,8 +142,18 @@ _ARXIV_URL_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(?P<id>[^?#\s]+?)(?:\.pdf)?$
 _VERSION_RE = re.compile(r"v\d+$")
 
 
+_OLD_STYLE_RE = re.compile(r"^(?P<archive>[a-z-]+)(?:\.(?P<cls>[a-z]{2}))?/(?P<num>\d{7})$", re.I)
+
+
 def _strip_version(arxiv_id: str) -> str:
-    return _VERSION_RE.sub("", arxiv_id)
+    """Drop a version suffix, and restore case in old-style ids that came from a
+    lowercased DOI (`math.co/0601001` -> `math.CO/0601001`)."""
+    arxiv_id = _VERSION_RE.sub("", arxiv_id)
+    match = _OLD_STYLE_RE.match(arxiv_id)
+    if match:
+        cls = f".{match['cls'].upper()}" if match["cls"] else ""
+        return f"{match['archive'].lower()}{cls}/{match['num']}"
+    return arxiv_id
 
 
 def arxiv_doi(arxiv_id: str) -> str:
