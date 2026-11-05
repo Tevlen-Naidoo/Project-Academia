@@ -1,4 +1,4 @@
-"""Export the prerequisites JSON Schema next to the fetcher's."""
+"""Export the prerequisites and reading board JSON Schemas next to the fetcher's."""
 
 from __future__ import annotations
 
@@ -7,9 +7,13 @@ from pathlib import Path
 from pydantic import BaseModel
 
 from fetcher.schema import SCHEMA_DIR, render
+from reader.board import Board
 from reader.models import PrereqsFile
 
-SCHEMAS: dict[str, type[BaseModel]] = {"prereqs.schema.json": PrereqsFile}
+SCHEMAS: dict[str, type[BaseModel]] = {
+    "prereqs.schema.json": PrereqsFile,
+    "board.schema.json": Board,
+}
 
 
 def write_all(directory: Path = SCHEMA_DIR) -> list[Path]:

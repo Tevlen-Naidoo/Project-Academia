@@ -1,0 +1,365 @@
+{
+  "$defs": {
+    "Card": {
+      "additionalProperties": false,
+      "properties": {
+        "added_on": {
+          "format": "date",
+          "title": "Added On",
+          "type": "string"
+        },
+        "column": {
+          "$ref": "#/$defs/Column",
+          "default": "to_read"
+        },
+        "finished_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finished On"
+        },
+        "paper": {
+          "$ref": "#/$defs/PaperRef"
+        },
+        "source": {
+          "$ref": "#/$defs/CardSource"
+        },
+        "started_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Started On"
+        }
+      },
+      "required": [
+        "paper",
+        "added_on"
+      ],
+      "title": "Card",
+      "type": "object"
+    },
+    "CardSource": {
+      "additionalProperties": false,
+      "description": "Where the paper was found when it was added.",
+      "properties": {
+        "date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date"
+        },
+        "kind": {
+          "$ref": "#/$defs/SourceKind",
+          "default": "manual"
+        },
+        "pick_id": {
+          "anyOf": [
+            {
+              "pattern": "^(arxiv|doi|openalex|s2):.+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pick Id"
+        }
+      },
+      "title": "CardSource",
+      "type": "object"
+    },
+    "Column": {
+      "enum": [
+        "to_read",
+        "reading",
+        "done"
+      ],
+      "title": "Column",
+      "type": "string"
+    },
+    "Links": {
+      "additionalProperties": false,
+      "properties": {
+        "abstract_page": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Abstract Page"
+        },
+        "code": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Code"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "pdf": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pdf"
+        }
+      },
+      "title": "Links",
+      "type": "object"
+    },
+    "PaperIds": {
+      "additionalProperties": false,
+      "properties": {
+        "arxiv": {
+          "anyOf": [
+            {
+              "pattern": "^(\\d{4}\\.\\d{4,5}|[a-z-]+(\\.[A-Z]{2})?/\\d{7})$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Arxiv"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "pattern": "^10\\.\\S+/\\S+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "openalex": {
+          "anyOf": [
+            {
+              "pattern": "^W\\d+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Openalex"
+        },
+        "s2": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "S2"
+        }
+      },
+      "title": "PaperIds",
+      "type": "object"
+    },
+    "PaperRef": {
+      "additionalProperties": false,
+      "description": "A slim record of a referenced paper: enough to show it and link to it.",
+      "properties": {
+        "citations": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Citations"
+        },
+        "id": {
+          "pattern": "^(arxiv|doi|openalex|s2):.+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "ids": {
+          "$ref": "#/$defs/PaperIds"
+        },
+        "influential_citations": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Influential Citations"
+        },
+        "is_review": {
+          "default": false,
+          "title": "Is Review",
+          "type": "boolean"
+        },
+        "links": {
+          "$ref": "#/$defs/Links"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "tldr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tldr"
+        },
+        "venue": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Venue"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year"
+        }
+      },
+      "required": [
+        "id",
+        "ids",
+        "title"
+      ],
+      "title": "PaperRef",
+      "type": "object"
+    },
+    "SourceKind": {
+      "enum": [
+        "pick",
+        "prerequisite",
+        "manual"
+      ],
+      "title": "SourceKind",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cards": {
+      "items": {
+        "$ref": "#/$defs/Card"
+      },
+      "title": "Cards",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "updated_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Updated At"
+    }
+  },
+  "title": "Board",
+  "type": "object"
+}

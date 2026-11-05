@@ -1,0 +1,61 @@
+name: Update reading board
+
+# Adds or moves one paper on data/board.json and commits the change.
+# Run it from Actions -> Update reading board -> Run workflow (works in the GitHub app).
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        type: choice
+        options: [add, start, done, later, remove]
+        default: add
+      paper:
+        description: "arXiv id, DOI, or a link to the paper"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reading-board
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked --no-dev
+      - name: Update the board
+        env:
+          ACTION: ${{ inputs.action }}
+          PAPER: ${{ inputs.paper }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+        run: uv run python -m reader board "$ACTION" "$PAPER"
+      - name: Commit
+        env:
+          ACTION: ${{ inputs.action }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add data/board.json
+          if git diff --cached --quiet; then
+            echo "No change to the board."
+            exit 0
+          fi
+          git commit -m "Reading board: $ACTION"
+          git push
+      - name: Show the board
+        run: |
+          {
+            echo '```'
+            uv run python -m reader board list
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
