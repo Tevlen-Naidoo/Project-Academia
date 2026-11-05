@@ -10,7 +10,7 @@ import respx
 
 from fetcher import merge
 from fetcher.funnels.fresh import paper_from_entry
-from fetcher.funnels.waves import paper_from_work, windows
+from fetcher.funnels.waves import first_seen_by, paper_from_work, windows
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import Funnel, Paper, PublicationStatus, StatusEvidence
 from fetcher.sources.arxiv import parse_feed
@@ -218,3 +218,29 @@ def test_old_style_arxiv_id_from_lowercased_doi() -> None:
         {"id": "W3", "doi": "https://doi.org/10.48550/arXiv.math.CO/0601001"}
     )
     assert work.arxiv_id == "math.CO/0601001"
+
+
+def _reprint(**changes: Any) -> OAWork:
+    data = json.loads((FIXTURES / "openalex_waves.json").read_text())["results"][1]
+    data.update(changes)
+    return OAWork.model_validate(data)
+
+
+def test_old_work_with_a_new_publication_date_is_dropped() -> None:
+    """A classic reissued last year was cited long before its 'publication'."""
+    topics = load_topics()
+    old = _reprint(counts_by_year=[{"year": 2016, "cited_by_count": 40}])
+    assert first_seen_by(old) == dt.date(2016, 12, 31)
+    assert paper_from_work(old, topics=topics, today=TODAY, now=NOW) is None
+
+    recent = _reprint(counts_by_year=[{"year": 2026, "cited_by_count": 40}])
+    assert paper_from_work(recent, topics=topics, today=TODAY, now=NOW) is not None
+
+
+def test_journal_version_of_an_old_preprint_is_dropped() -> None:
+    old = _reprint(
+        counts_by_year=[],
+        locations=[{"landing_page_url": "https://arxiv.org/abs/2303.18223"}],
+    )
+    assert first_seen_by(old) == dt.date(2023, 3, 31)
+    assert paper_from_work(old, topics=load_topics(), today=TODAY, now=NOW) is None
