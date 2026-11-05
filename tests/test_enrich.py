@@ -14,6 +14,8 @@ from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import Paper, PublicationStatus, StatusEvidence, VenueType
 from fetcher.sources.arxiv import API_URL as ARXIV_URL
 from fetcher.sources.arxiv import ArxivSource
+from fetcher.sources.hackernews import HackerNewsSource
+from fetcher.sources.huggingface import HuggingFaceSource
 from fetcher.sources.openalex import WORKS_URL, OAWork, OpenAlexSource, arxiv_doi
 from fetcher.sources.semantic_scholar import BATCH_URL, S2Paper, SemanticScholarSource
 from fetcher.topics import load_topics
@@ -197,6 +199,8 @@ def test_full_pipeline_with_enrichment(tmp_path: Path) -> None:
             arxiv=ArxivSource(http, limiter=RateLimiter(0)),
             semantic_scholar=SemanticScholarSource(http, api_key="", limiter=RateLimiter(0)),
             openalex=OpenAlexSource(http, api_key="", limiter=RateLimiter(0)),
+            huggingface=HuggingFaceSource(http, limiter=RateLimiter(0)),
+            hackernews=HackerNewsSource(http, limiter=RateLimiter(0)),
         )
     path = pipeline.write(candidates, tmp_path)
     papers = {p.id: p for p in candidates.papers}
@@ -211,7 +215,14 @@ def test_full_pipeline_with_enrichment(tmp_path: Path) -> None:
     assert colouring.publication.evidence is StatusEvidence.OPENALEX_PUBLISHED_VERSION
     assert colouring.ids.openalex == "W4400000001"
 
-    assert set(candidates.sources) == {"arxiv", "openalex_waves", "semantic_scholar", "openalex"}
+    assert set(candidates.sources) == {
+        "arxiv",
+        "openalex_waves",
+        "semantic_scholar",
+        "openalex",
+        "huggingface",
+        "hackernews",
+    }
     assert candidates.sources["semantic_scholar"].fetched == 1
     assert candidates.sources["openalex"].fetched == 1
     assert path.exists()

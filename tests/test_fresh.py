@@ -14,6 +14,8 @@ from fetcher.funnels.fresh import paper_from_entry, venue_from_comment
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import CandidatesFile, PublicationStatus, StatusEvidence
 from fetcher.sources.arxiv import API_URL, ArxivSource, parse_feed
+from fetcher.sources.hackernews import HackerNewsSource
+from fetcher.sources.huggingface import HuggingFaceSource
 from fetcher.sources.openalex import OpenAlexSource
 from fetcher.sources.semantic_scholar import SemanticScholarSource
 from fetcher.topics import load_topics
@@ -27,6 +29,8 @@ def _fast_sources(http: HttpClient) -> dict[str, Any]:
         "arxiv": ArxivSource(http, limiter=RateLimiter(0)),
         "semantic_scholar": SemanticScholarSource(http, api_key="", limiter=RateLimiter(0)),
         "openalex": OpenAlexSource(http, api_key="", limiter=RateLimiter(0)),
+        "huggingface": HuggingFaceSource(http, limiter=RateLimiter(0)),
+        "hackernews": HackerNewsSource(http, limiter=RateLimiter(0)),
     }
 
 

@@ -154,7 +154,13 @@ def derive_signals(paper: Paper, today: dt.date) -> None:
         c.last_12_months = round(this_year + last_year)
 
 
-def presort_key(paper: Paper) -> tuple[int, int, float, dt.date]:
+def buzz_score(paper: Paper) -> float:
+    """A rough attention count: Hugging Face upvotes plus half the Hacker News points."""
+    b = paper.buzz
+    return (b.hf_upvotes or 0) + 0.5 * (b.hn_points or 0)
+
+
+def presort_key(paper: Paper) -> tuple[int, float, int, float, dt.date]:
     """Rough order used only to trim the pool; step 2 does the real scoring."""
     status = {
         PublicationStatus.PUBLISHED: 2,
@@ -163,6 +169,7 @@ def presort_key(paper: Paper) -> tuple[int, int, float, dt.date]:
     }[paper.publication.status]
     return (
         paper.citations.influential or 0,
+        buzz_score(paper),
         status,
         paper.citations.per_month or 0.0,
         paper.dates.submitted or dt.date.min,

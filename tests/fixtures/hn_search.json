@@ -1,0 +1,10 @@
+{
+  "nbPages": 1,
+  "hits": [
+    {"title": "Sparse diffusion restores images in real time", "url": "https://arxiv.org/abs/2610.01234v2", "points": 240, "num_comments": 81},
+    {"title": "PDF version", "url": "https://arxiv.org/pdf/2610.01234", "points": 10, "num_comments": 2},
+    {"title": "Graph colouring bound", "url": "https://doi.org/10.1002/JGT.99999", "points": 55, "num_comments": 12},
+    {"title": "Not a paper", "url": "https://example.com/blog", "points": 900, "num_comments": 300},
+    {"title": "Ask HN with no url", "url": null, "points": 5}
+  ]
+}

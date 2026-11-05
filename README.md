@@ -15,7 +15,8 @@ Step 1 of 4: the paper fetcher. Two funnels feed the daily candidates file:
 
 Every candidate is enriched with citations, venue and published status from Semantic
 Scholar and OpenAlex, then trimmed with a quota per topic and per funnel (up to 200 fresh
-and 100 making-waves papers). Buzz signals from Hugging Face and Hacker News come next.
+and 100 making-waves papers). Buzz comes from Hugging Face Daily Papers upvotes (last 7 days) and Hacker News stories
+that link to a paper (last 30 days).
 
 To try it, open **Actions → Fetch candidates (manual) → Run workflow**. The candidates
 file is attached to the run as an artifact.

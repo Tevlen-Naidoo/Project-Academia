@@ -14,6 +14,8 @@ from fetcher.funnels.waves import paper_from_work, windows
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import Funnel, Paper, PublicationStatus, StatusEvidence
 from fetcher.sources.arxiv import parse_feed
+from fetcher.sources.hackernews import HackerNewsSource
+from fetcher.sources.huggingface import HuggingFaceSource
 from fetcher.sources.openalex import WORKS_URL, OAWork, OpenAlexSource
 from fetcher.topics import load_topics
 
@@ -175,6 +177,8 @@ def test_pipeline_keeps_fresh_and_waves_papers() -> None:
             arxiv=ArxivSource(http, limiter=RateLimiter(0)),
             semantic_scholar=SemanticScholarSource(http, api_key="", limiter=RateLimiter(0)),
             openalex=OpenAlexSource(http, api_key="", limiter=RateLimiter(0)),
+            huggingface=HuggingFaceSource(http, limiter=RateLimiter(0)),
+            hackernews=HackerNewsSource(http, limiter=RateLimiter(0)),
         )
     ids = {p.id for p in candidates.papers}
     # Both fresh arXiv papers survive even though the waves papers are far more cited
