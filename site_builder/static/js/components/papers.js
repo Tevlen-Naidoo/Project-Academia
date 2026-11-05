@@ -7,14 +7,14 @@ const PREREQ_LABELS = { read_first: "Read first", foundation: "Foundation", back
 
 /** The row of Abstract page / PDF / DOI / Code links. */
 export function linkRow(links, { code = true } = {}) {
-  links = links || {};
-  const items = [
-    ["abstract_page", "Abstract page"],
-    ["pdf", "PDF"],
-    ["doi", "DOI"],
-    ...(code ? [["code", "Code"]] : []),
-  ].filter(([key]) => links[key]);
-  return html`<ul class="links">${items.map(([key, label]) => html`<li><a href=${links[key]}>${label}</a></li>`)}</ul>`;
+	links = links || {};
+	const items = [
+		["abstract_page", "Abstract page"],
+		["pdf", "PDF"],
+		["doi", "DOI"],
+		...(code ? [["code", "Code"]] : []),
+	].filter(([key]) => links[key]);
+	return html`<ul class="links">${items.map(([key, label]) => html`<li><a href=${links[key]}>${label}</a></li>`)}</ul>`;
 }
 
 /**
@@ -22,58 +22,58 @@ export function linkRow(links, { code = true } = {}) {
  * To read, or says which column it is already in.
  */
 export class BoardButton extends LightElement {
-  static properties = {
-    ids: { type: Object },
-    payload: { type: Object },
-    column: {},
-    _busy: { state: true },
-  };
+	static properties = {
+		ids: { type: Object },
+		payload: { type: Object },
+		column: {},
+		_busy: { state: true },
+	};
 
-  constructor() {
-    super();
-    this.column = "";
-    this._busy = false;
-    this._onChange = () => {
-      const card = find(boardStore.board, this.ids);
-      this.column = card ? card.column : "";
-    };
-  }
+	constructor() {
+		super();
+		this.column = "";
+		this._busy = false;
+		this._onChange = () => {
+			const card = find(boardStore.board, this.ids);
+			this.column = card ? card.column : "";
+		};
+	}
 
-  connectedCallback() {
-    super.connectedCallback();
-    boardStore.addEventListener("change", this._onChange);
-    if (boardStore.board) this._onChange();
-    boardStore.refresh();
-  }
+	connectedCallback() {
+		super.connectedCallback();
+		boardStore.addEventListener("change", this._onChange);
+		if (boardStore.board) this._onChange();
+		boardStore.refresh();
+	}
 
-  disconnectedCallback() {
-    boardStore.removeEventListener("change", this._onChange);
-    super.disconnectedCallback();
-  }
+	disconnectedCallback() {
+		boardStore.removeEventListener("change", this._onChange);
+		super.disconnectedCallback();
+	}
 
-  async _add() {
-    this._busy = true;
-    say("Saving…");
-    try {
-      await boardStore.change((board) => addCard(board, this.payload), `Reading board: add ${this.payload.paper.id}`);
-      say(`Added to To read: ${this.payload.paper.title}`);
-    } catch (err) {
-      explain(err);
-    } finally {
-      this._busy = false;
-    }
-  }
+	async _add() {
+		this._busy = true;
+		say("Saving…");
+		try {
+			await boardStore.change((board) => addCard(board, this.payload), `Reading board: add ${this.payload.paper.id}`);
+			say(`Added to To read: ${this.payload.paper.title}`);
+		} catch (err) {
+			explain(err);
+		} finally {
+			this._busy = false;
+		}
+	}
 
-  render() {
-    if (this.column) {
-      return html`<p class="on-board">On your reading board: <span>${COLUMN_NAMES[this.column]}</span></p>`;
-    }
-    return html`<button type="button" class="button" ?disabled=${this._busy} @click=${this._add}>Add to reading list</button>`;
-  }
+	render() {
+		if (this.column) {
+			return html`<p class="on-board">On your reading board: <span>${COLUMN_NAMES[this.column]}</span></p>`;
+		}
+		return html`<button type="button" class="button" ?disabled=${this._busy} @click=${this._add}>Add to reading list</button>`;
+	}
 }
 
 function prereqItem(pre) {
-  return html`
+	return html`
     <li>
       <span class="badge">${PREREQ_LABELS[pre.label]}</span>
       <a href=${pre.href}>${pre.title}</a>
@@ -87,20 +87,20 @@ function prereqItem(pre) {
 
 /** <paper-card pick='{...}'>: one of the day's picks. */
 export class PaperCard extends LightElement {
-  static properties = { pick: { type: Object } };
+	static properties = { pick: { type: Object } };
 
-  render() {
-    const p = this.pick;
-    if (!p) return nothing;
-    const status = p.status === "published" ? "Published" : p.status === "accepted" ? "Accepted" : "";
-    return html`
+	render() {
+		const p = this.pick;
+		if (!p) return nothing;
+		const status = p.status === "published" ? "Published" : p.status === "accepted" ? "Accepted" : "";
+		return html`
       <article class="pick" id="pick-${p.rank}">
         <p class="badges">
           <span class="badge">${p.topic_label}</span>
           <span class="badge">${p.funnel === "waves" ? "Making waves" : "New"}</span>
           ${status
-            ? html`<span class="badge status">${status}${p.venue ? ` · ${p.venue}` : ""}</span>`
-            : html`<span class="badge">Preprint</span>`}
+				? html`<span class="badge status">${status}${p.venue ? ` · ${p.venue}` : ""}</span>`
+				: html`<span class="badge">Preprint</span>`}
           ${p.repick ? html`<span class="badge">Picked before</span>` : nothing}
         </p>
         <h2><a href=${p.href}>${p.title}</a></h2>
@@ -120,7 +120,7 @@ export class PaperCard extends LightElement {
             <ul>${p.prerequisites.map(prereqItem)}</ul>
           </details>` : nothing}
       </article>`;
-  }
+	}
 }
 
 customElements.define("board-button", BoardButton);

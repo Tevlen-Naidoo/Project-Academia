@@ -2,6 +2,5 @@
 {% block title %}Reading board · Project Academia{% endblock %}
 {% block main %}
 <h1>Reading board</h1>
-<p class="meta board-help">Drag a card to another column to move it. On a touch screen, press and hold the card first.</p>
 <reading-board class="board" board='{{ board_data()|tojson }}'></reading-board>
 {% endblock %}

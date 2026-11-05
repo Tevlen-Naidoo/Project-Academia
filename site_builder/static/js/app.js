@@ -10,11 +10,11 @@ import { resync } from "./push.js";
 
 // Pages are drawn by the components, so jump to a #pick-N link once they have.
 async function jumpToHash() {
-  if (!location.hash) return;
-  const pending = [...document.querySelectorAll("main *")].filter((el) => el.updateComplete);
-  await Promise.all(pending.map((el) => el.updateComplete));
-  const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-  if (target) target.scrollIntoView();
+	if (!location.hash) return;
+	const pending = [...document.querySelectorAll("main *")].filter((el) => el.updateComplete);
+	await Promise.all(pending.map((el) => el.updateComplete));
+	const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+	if (target) target.scrollIntoView();
 }
 
 jumpToHash();

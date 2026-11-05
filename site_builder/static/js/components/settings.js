@@ -2,110 +2,108 @@
 import { html, nothing } from "../../vendor/lit.js";
 import { LightElement } from "../base.js";
 import {
-  configured,
-  isOwner,
-  onUser,
-  signInWithEmail,
-  signInWithGoogle,
-  signOut,
+	configured,
+	isOwner,
+	onUser,
+	signInWithEmail,
+	signInWithGoogle,
+	signOut,
 } from "../firebase.js";
 import { PUSH_KEY, REPO } from "../github.js";
 import {
-  deviceName,
-  isApple,
-  pushReady,
-  pushSupported,
-  removeSubscription,
-  saveSubscription,
-  standalone,
-  subscribe,
+	deviceName,
+	isApple,
+	pushReady,
+	pushSupported,
+	removeSubscription,
+	saveSubscription,
+	standalone,
+	subscribe,
 } from "../push.js";
 
 const SETUP_URL = () => `https://github.com/${REPO}/actions/workflows/setup-database.yml`;
 
 /** Sign in to the board's database, once per device. */
 export class AccountSettings extends LightElement {
-  static properties = {
-    _user: { state: true },
-    _owner: { state: true }, // true, false, or null while checking
-    _state: { state: true },
-    _busy: { state: true },
-  };
+	static properties = {
+		_user: { state: true },
+		_owner: { state: true }, // true, false, or null while checking
+		_state: { state: true },
+		_busy: { state: true },
+	};
 
-  constructor() {
-    super();
-    this._user = undefined;
-    this._owner = null;
-    this._state = configured ? "Checking…" : "";
-    this._busy = false;
-  }
+	constructor() {
+		super();
+		this._user = undefined;
+		this._owner = null;
+		this._state = configured ? "Checking…" : "";
+		this._busy = false;
+	}
 
-  connectedCallback() {
-    super.connectedCallback();
-    this._stop = onUser((user) => this._changed(user));
-  }
+	connectedCallback() {
+		super.connectedCallback();
+		this._stop = onUser((user) => this._changed(user));
+	}
 
-  disconnectedCallback() {
-    if (this._stop) this._stop();
-    super.disconnectedCallback();
-  }
+	disconnectedCallback() {
+		if (this._stop) this._stop();
+		super.disconnectedCallback();
+	}
 
-  async _changed(user) {
-    this._user = user;
-    this._owner = null;
-    if (!user) { this._state = configured ? "Not signed in on this device." : ""; return; }
-    this._state = "Checking access…";
-    try {
-      this._owner = await isOwner();
-      this._state = this._owner
-        ? `Signed in as ${user.email || user.uid}. The board saves to your database.`
-        : `Signed in as ${user.email || user.uid}, but this account isn't allowed in yet.`;
-    } catch (e) {
-      this._state = "Signed in, but couldn't reach the database.";
-    }
-  }
+	async _changed(user) {
+		this._user = user;
+		this._owner = null;
+		if (!user) { this._state = configured ? "Not signed in on this device." : ""; return; }
+		this._state = "Checking access…";
+		try {
+			this._owner = await isOwner();
+			this._state = this._owner
+				? `Signed in as ${user.email || user.uid}. The board saves to your database.`
+				: `Signed in as ${user.email || user.uid}, but this account isn't allowed in yet.`;
+		} catch (e) {
+			this._state = "Signed in, but couldn't reach the database.";
+		}
+	}
 
-  async _run(fn) {
-    this._busy = true;
-    try {
-      await fn();
-    } catch (err) {
-      this._state = (err && err.message) || "Something went wrong.";
-    } finally {
-      this._busy = false;
-    }
-  }
+	async _run(fn) {
+		this._busy = true;
+		try {
+			await fn();
+		} catch (err) {
+			this._state = (err && err.message) || "Something went wrong.";
+		} finally {
+			this._busy = false;
+		}
+	}
 
-  _google() { this._run(() => signInWithGoogle()); }
+	_google() { this._run(() => signInWithGoogle()); }
 
-  _email(e) {
-    e.preventDefault();
-    const form = e.currentTarget;
-    this._run(() => signInWithEmail(form.email.value.trim(), form.password.value));
-  }
+	_email(e) {
+		e.preventDefault();
+		const form = e.currentTarget;
+		this._run(() => signInWithEmail(form.email.value.trim(), form.password.value));
+	}
 
-  _signOut() { this._run(() => signOut()); }
+	_signOut() { this._run(() => signOut()); }
 
-  _copyId() {
-    if (navigator.clipboard && this._user) navigator.clipboard.writeText(this._user.uid).catch(() => {});
-  }
+	_copyId() {
+		if (navigator.clipboard && this._user) navigator.clipboard.writeText(this._user.uid).catch(() => { });
+	}
 
-  render() {
-    if (!configured) {
-      return html`
+	render() {
+		if (!configured) {
+			return html`
         <section class="settings">
           <h2>Account</h2>
           <p>The reading board's database isn't set up for this site yet. Add the
           <strong>FIREBASE_CONFIG</strong> repository variable (see the README), then the site
           rebuilds with sign-in here.</p>
         </section>`;
-    }
-    const user = this._user;
-    return html`
+		}
+		const user = this._user;
+		return html`
       <section class="settings">
         <h2>Account</h2>
-        <p>The reading board and your notification devices are saved in your own database, not in
-        GitHub, so saving never makes a commit. Sign in once on each device.</p>
         <p class="meta key-state">${this._state}</p>
         ${user ? html`
           ${this._owner === false ? html`
@@ -129,110 +127,110 @@ export class AccountSettings extends LightElement {
           </details>
         ` : nothing}
       </section>`;
-  }
+	}
 }
 
 /** Turn this device's daily notification on or off. */
 export class PushSettings extends LightElement {
-  static properties = {
-    _state: { state: true },
-    _on: { state: true }, // true, false, or null when neither button applies
-    _busy: { state: true },
-    _ios: { state: true },
-  };
+	static properties = {
+		_state: { state: true },
+		_on: { state: true }, // true, false, or null when neither button applies
+		_busy: { state: true },
+		_ios: { state: true },
+	};
 
-  constructor() {
-    super();
-    this._state = "Checking…";
-    this._on = null;
-    this._busy = false;
-    this._ios = false;
-  }
+	constructor() {
+		super();
+		this._state = "Checking…";
+		this._on = null;
+		this._busy = false;
+		this._ios = false;
+	}
 
-  connectedCallback() {
-    super.connectedCallback();
-    if (!PUSH_KEY) { this._state = "Notifications aren't set up for this site yet (the VAPID key is missing)."; return; }
-    if (!pushSupported) {
-      if (isApple && !standalone) {
-        this._ios = true;
-        this._state = "On iPhone and iPad, notifications only work from the Home Screen app.";
-      } else {
-        this._state = "This browser can't receive notifications.";
-      }
-      return;
-    }
-    this._refresh();
-  }
+	connectedCallback() {
+		super.connectedCallback();
+		if (!PUSH_KEY) { this._state = "Notifications aren't set up for this site yet (the VAPID key is missing)."; return; }
+		if (!pushSupported) {
+			if (isApple && !standalone) {
+				this._ios = true;
+				this._state = "On iPhone and iPad, notifications only work from the Home Screen app.";
+			} else {
+				this._state = "This browser can't receive notifications.";
+			}
+			return;
+		}
+		this._refresh();
+	}
 
-  _show(text, on = null) {
-    this._state = text;
-    this._on = on;
-    this._busy = false;
-  }
+	_show(text, on = null) {
+		this._state = text;
+		this._on = on;
+		this._busy = false;
+	}
 
-  async _refresh() {
-    if (Notification.permission === "denied") {
-      this._show("Notifications are blocked for this site. Allow them in your device's settings, then come back.");
-      return;
-    }
-    try {
-      const reg = await pushReady();
-      const sub = await reg.pushManager.getSubscription();
-      if (sub && Notification.permission === "granted") {
-        this._show(`Notifications are on for this ${deviceName()}.`, true);
-      } else {
-        this._show("Notifications are off for this device.", false);
-      }
-    } catch (e) {
-      this._show("Couldn't start notifications in this browser.");
-    }
-  }
+	async _refresh() {
+		if (Notification.permission === "denied") {
+			this._show("Notifications are blocked for this site. Allow them in your device's settings, then come back.");
+			return;
+		}
+		try {
+			const reg = await pushReady();
+			const sub = await reg.pushManager.getSubscription();
+			if (sub && Notification.permission === "granted") {
+				this._show(`Notifications are on for this ${deviceName()}.`, true);
+			} else {
+				this._show("Notifications are off for this device.", false);
+			}
+		} catch (e) {
+			this._show("Couldn't start notifications in this browser.");
+		}
+	}
 
-  _failed(err, fallback) {
-    this._busy = false;
-    const code = err && err.message;
-    if (code === "NO_SIGNIN") this._state = "Sign in above first, so this device can be saved.";
-    else if (code === "NOT_ALLOWED") this._state = "This account isn't allowed in yet (see Account above).";
-    else if (code === "NOT_CONFIGURED") this._state = "The database isn't set up for this site yet.";
-    else this._state = code || fallback;
-  }
+	_failed(err, fallback) {
+		this._busy = false;
+		const code = err && err.message;
+		if (code === "NO_SIGNIN") this._state = "Sign in above first, so this device can be saved.";
+		else if (code === "NOT_ALLOWED") this._state = "This account isn't allowed in yet (see Account above).";
+		else if (code === "NOT_CONFIGURED") this._state = "The database isn't set up for this site yet.";
+		else this._state = code || fallback;
+	}
 
-  async _turnOn() {
-    this._busy = true;
-    this._state = "Asking for permission…";
-    try {
-      // Ask straight from the tap: iOS only shows the prompt for a tap.
-      const permission = await Notification.requestPermission();
-      if (permission !== "granted") { this._refresh(); return; }
-      const sub = await subscribe();
-      this._state = "Saving this device…";
-      await saveSubscription(sub);
-      this._show(`Notifications are on for this ${deviceName()}. The next one comes with tomorrow's papers.`, true);
-    } catch (err) {
-      this._failed(err, "Couldn't turn on notifications.");
-    }
-  }
+	async _turnOn() {
+		this._busy = true;
+		this._state = "Asking for permission…";
+		try {
+			// Ask straight from the tap: iOS only shows the prompt for a tap.
+			const permission = await Notification.requestPermission();
+			if (permission !== "granted") { this._refresh(); return; }
+			const sub = await subscribe();
+			this._state = "Saving this device…";
+			await saveSubscription(sub);
+			this._show(`Notifications are on for this ${deviceName()}. The next one comes with tomorrow's papers.`, true);
+		} catch (err) {
+			this._failed(err, "Couldn't turn on notifications.");
+		}
+	}
 
-  async _turnOff() {
-    this._busy = true;
-    this._state = "Turning off…";
-    try {
-      const reg = await pushReady();
-      const sub = await reg.pushManager.getSubscription();
-      if (sub) {
-        const endpoint = sub.endpoint;
-        await sub.unsubscribe();
-        // If this fails (signed out), the next send finds the device gone and drops it.
-        await removeSubscription(endpoint).catch(() => {});
-      }
-      this._refresh();
-    } catch (err) {
-      this._failed(err, "Couldn't turn off notifications.");
-    }
-  }
+	async _turnOff() {
+		this._busy = true;
+		this._state = "Turning off…";
+		try {
+			const reg = await pushReady();
+			const sub = await reg.pushManager.getSubscription();
+			if (sub) {
+				const endpoint = sub.endpoint;
+				await sub.unsubscribe();
+				// If this fails (signed out), the next send finds the device gone and drops it.
+				await removeSubscription(endpoint).catch(() => { });
+			}
+			this._refresh();
+		} catch (err) {
+			this._failed(err, "Couldn't turn off notifications.");
+		}
+	}
 
-  render() {
-    return html`
+	render() {
+		return html`
       <section class="settings" id="push">
         <h2>Notifications</h2>
         <p>Get a notification on this device when the day's papers are up, usually before 7am
@@ -252,7 +250,7 @@ export class PushSettings extends LightElement {
           ${this._on === true ? html`<button type="button" class="button" ?disabled=${this._busy} @click=${this._turnOff}>Turn off notifications</button>` : nothing}
         </p>
       </section>`;
-  }
+	}
 }
 
 customElements.define("account-settings", AccountSettings);

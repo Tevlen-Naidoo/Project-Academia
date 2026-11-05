@@ -4,43 +4,43 @@ import { html, nothing } from "../../vendor/lit.js";
 import { LightElement } from "../base.js";
 
 export class ArchiveList extends LightElement {
-  static properties = {
-    days: { type: Array },
-    topics: { type: Array },
-    _topic: { state: true },
-    _funnel: { state: true },
-    _words: { state: true },
-  };
+	static properties = {
+		days: { type: Array },
+		topics: { type: Array },
+		_topic: { state: true },
+		_funnel: { state: true },
+		_words: { state: true },
+	};
 
-  constructor() {
-    super();
-    this.days = [];
-    this.topics = [];
-    this._topic = "";
-    this._funnel = "";
-    this._words = [];
-  }
+	constructor() {
+		super();
+		this.days = [];
+		this.topics = [];
+		this._topic = "";
+		this._funnel = "";
+		this._words = [];
+	}
 
-  _onInput(e) {
-    const form = e.currentTarget;
-    this._topic = form.topic.value;
-    this._funnel = form.funnel.value;
-    this._words = form.q.value.toLowerCase().split(/\s+/).filter(Boolean);
-  }
+	_onInput(e) {
+		const form = e.currentTarget;
+		this._topic = form.topic.value;
+		this._funnel = form.funnel.value;
+		this._words = form.q.value.toLowerCase().split(/\s+/).filter(Boolean);
+	}
 
-  _keep(pick) {
-    const title = pick.title.toLowerCase();
-    return (!this._topic || pick.topic === this._topic) &&
-      (!this._funnel || pick.funnel === this._funnel) &&
-      this._words.every((w) => title.includes(w));
-  }
+	_keep(pick) {
+		const title = pick.title.toLowerCase();
+		return (!this._topic || pick.topic === this._topic) &&
+			(!this._funnel || pick.funnel === this._funnel) &&
+			this._words.every((w) => title.includes(w));
+	}
 
-  render() {
-    if (!this.days.length) return html`<p>No past days yet.</p>`;
-    const days = this.days
-      .map((day) => ({ ...day, picks: day.picks.filter((p) => this._keep(p)) }))
-      .filter((day) => day.picks.length);
-    return html`
+	render() {
+		if (!this.days.length) return html`<p>No past days yet.</p>`;
+		const days = this.days
+			.map((day) => ({ ...day, picks: day.picks.filter((p) => this._keep(p)) }))
+			.filter((day) => day.picks.length);
+		return html`
       <form class="filters" @input=${this._onInput} @submit=${(e) => e.preventDefault()}>
         <label>Topic
           <select name="topic">
@@ -68,7 +68,7 @@ export class ArchiveList extends LightElement {
           </li>`)}
       </ol>
       ${days.length ? nothing : html`<p class="empty">No papers match.</p>`}`;
-  }
+	}
 }
 
 customElements.define("archive-list", ArchiveList);
