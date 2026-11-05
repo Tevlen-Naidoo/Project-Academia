@@ -38,4 +38,3 @@ def test_api_key_comes_from_the_environment(monkeypatch: pytest.MonkeyPatch) -> 
 def test_a_given_limiter_wins() -> None:
     limiter = RateLimiter(0)
     assert HuggingFaceSource(HttpClient(), limiter=limiter)._limiter is limiter
-
