@@ -1,0 +1,2177 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T12:54:16.755511Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2505.13400",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2505.13400",
+            "ids": {
+              "arxiv": "2505.13400",
+              "doi": "10.1038/s41586-026-10652-y",
+              "s2": "799017d2818108e91392c541579cbe9d2cc38e35",
+              "openalex": "W7161734976"
+            },
+            "title": "A multi-agent system for automating scientific discovery",
+            "year": 2026,
+            "venue": "Nature",
+            "citations": 91,
+            "influential_citations": 4,
+            "is_review": false,
+            "tldr": "Robin is the first AI system to autonomously discover and validate a novel therapeutic candidate within an iterative lab-in-the-loop framework, establishing a new paradigm for AI-driven scientific discovery.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.13400",
+              "pdf": "https://arxiv.org/pdf/2505.13400",
+              "doi": "https://doi.org/10.1038/s41586-026-10652-y"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1186/s13059-014-0550-8",
+            "ids": {
+              "doi": "10.1186/s13059-014-0550-8",
+              "s2": "817fc8de25f989b8229847fc7710750f273460b6"
+            },
+            "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+            "year": 2014,
+            "venue": "Genome Biology",
+            "citations": 51029,
+            "influential_citations": 11019,
+            "is_review": false,
+            "tldr": "This work presents DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates, which enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/817fc8de25f989b8229847fc7710750f273460b6",
+              "doi": "https://doi.org/10.1186/s13059-014-0550-8"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2210.03629",
+            "ids": {
+              "arxiv": "2210.03629",
+              "s2": "99832586d55f540f603637e458a292406a0ed75d"
+            },
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "year": 2022,
+            "venue": "International Conference on Learning Representations",
+            "citations": 13528,
+            "influential_citations": 1293,
+            "is_review": false,
+            "tldr": "The use of LLMs are explored to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources to gather additional information.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2210.03629",
+              "pdf": "https://arxiv.org/pdf/2210.03629"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/nprot.2009.97",
+            "ids": {
+              "doi": "10.1038/nprot.2009.97",
+              "s2": "e3271609bd0814e337af0e5693f4471c5a392c5b"
+            },
+            "title": "Mapping Identifiers for the Integration of Genomic Datasets with the R/Bioconductor package biomaRt",
+            "year": 2009,
+            "venue": "Nature Protocols",
+            "citations": 3894,
+            "influential_citations": 339,
+            "is_review": false,
+            "tldr": "It is demonstrated how to use the computational environment R to integrate and jointly analyze experimental datasets, employing BioMart web services to provide the molecule mappings.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e3271609bd0814e337af0e5693f4471c5a392c5b",
+              "doi": "https://doi.org/10.1038/nprot.2009.97"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.06292",
+            "ids": {
+              "arxiv": "2408.06292",
+              "s2": "33161a5a9b5dcb635b5a97475e6a6209a69ada7d"
+            },
+            "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 1375,
+            "influential_citations": 119,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.06292",
+              "pdf": "https://arxiv.org/pdf/2408.06292"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2211.09085",
+            "ids": {
+              "arxiv": "2211.09085",
+              "s2": "7d645a3fd276918374fd9483fd675c28e46506d1"
+            },
+            "title": "Galactica: A Large Language Model for Science",
+            "year": 2022,
+            "venue": "arXiv.org",
+            "citations": 1140,
+            "influential_citations": 96,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2211.09085",
+              "pdf": "https://arxiv.org/pdf/2211.09085"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-023-06792-0",
+            "ids": {
+              "doi": "10.1038/s41586-023-06792-0",
+              "s2": "6fe3779fe5f2e9402abdd08ad8db41a0f13a99eb"
+            },
+            "title": "Autonomous chemical research with large language models",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 1548,
+            "influential_citations": 46,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6fe3779fe5f2e9402abdd08ad8db41a0f13a99eb",
+              "doi": "https://doi.org/10.1038/s41586-023-06792-0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1371/journal.pbio.1002195",
+            "ids": {
+              "doi": "10.1371/journal.pbio.1002195",
+              "s2": "efa5558bddd68abe4adc81adbbef6f739e648392"
+            },
+            "title": "Big Data: Astronomical or Genomical?",
+            "year": 2015,
+            "venue": "PLoS Biology",
+            "citations": 1359,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/efa5558bddd68abe4adc81adbbef6f739e648392",
+              "doi": "https://doi.org/10.1371/journal.pbio.1002195"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.00096",
+            "ids": {
+              "arxiv": "2503.00096",
+              "doi": "10.48550/arxiv.2503.00096",
+              "s2": "53f7efc5cadfe7d1a9313fd649947fbf8f22c553"
+            },
+            "title": "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 136,
+            "influential_citations": 12,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.00096",
+              "pdf": "https://arxiv.org/pdf/2503.00096",
+              "doi": "https://doi.org/10.48550/arxiv.2503.00096"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/nar/gkae1128",
+            "ids": {
+              "doi": "10.1093/nar/gkae1128",
+              "s2": "10ea293a93d0d66f91cb6bf8ab31d9035bd7f7fc"
+            },
+            "title": "Open Targets Platform: facilitating therapeutic hypotheses building in drug discovery",
+            "year": 2024,
+            "venue": "Nucleic Acids Research",
+            "citations": 217,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/10ea293a93d0d66f91cb6bf8ab31d9035bd7f7fc",
+              "doi": "https://doi.org/10.1093/nar/gkae1128"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2409.13740",
+            "ids": {
+              "arxiv": "2409.13740",
+              "doi": "10.48550/arxiv.2409.13740",
+              "s2": "fa5f9aa1cb6f97654ca8e6d279ceee1427a87e68"
+            },
+            "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 198,
+            "influential_citations": 22,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2409.13740",
+              "pdf": "https://arxiv.org/pdf/2409.13740",
+              "doi": "https://doi.org/10.48550/arxiv.2409.13740"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2402.01788",
+            "ids": {
+              "arxiv": "2402.01788",
+              "doi": "10.48550/arxiv.2402.01788",
+              "s2": "fd30d3189b3bc3295ddad05ac1f683ce41f5e9cb"
+            },
+            "title": "LitLLM: A Toolkit for Scientific Literature Review",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 86,
+            "influential_citations": 7,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2402.01788",
+              "pdf": "https://arxiv.org/pdf/2402.01788",
+              "doi": "https://doi.org/10.48550/arxiv.2402.01788"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2404.17605",
+            "ids": {
+              "arxiv": "2404.17605",
+              "doi": "10.48550/arxiv.2404.17605",
+              "s2": "e4eb81ad222ba047770d5a90bdd7406c138c6126"
+            },
+            "title": "Autonomous LLM-driven research from data to human-verifiable research papers",
+            "year": 2024,
+            "venue": "NEJM AI",
+            "citations": 102,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2404.17605",
+              "pdf": "https://arxiv.org/pdf/2404.17605",
+              "doi": "https://doi.org/10.48550/arxiv.2404.17605"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.06196",
+            "ids": {
+              "arxiv": "2504.06196",
+              "doi": "10.48550/arxiv.2504.06196",
+              "s2": "b4d924d27eddfb3b472ff117beaeaf8710cf9361"
+            },
+            "title": "TxGemma: Efficient and Agentic LLMs for Therapeutics",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 79,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.06196",
+              "pdf": "https://arxiv.org/pdf/2504.06196",
+              "doi": "https://doi.org/10.48550/arxiv.2504.06196"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.09858",
+            "ids": {
+              "arxiv": "2502.09858",
+              "doi": "10.48550/arxiv.2502.09858",
+              "s2": "1601699d52b474efe80ea9a41e66b3fc9d6ac3ad"
+            },
+            "title": "Automated Hypothesis Validation with Agentic Sequential Falsifications",
+            "year": 2025,
+            "venue": "International Conference on Machine Learning",
+            "citations": 66,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.09858",
+              "pdf": "https://arxiv.org/pdf/2502.09858",
+              "doi": "https://doi.org/10.48550/arxiv.2502.09858"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1186/s13040-024-00371-3",
+            "ids": {
+              "doi": "10.1186/s13040-024-00371-3",
+              "s2": "bd5c9a65b795cea7aa5f5649802363286becfad1"
+            },
+            "title": "Using GPT-4 to write a scientific review article: a pilot evaluation study",
+            "year": 2024,
+            "venue": "bioRxiv",
+            "citations": 28,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bd5c9a65b795cea7aa5f5649802363286becfad1",
+              "doi": "https://doi.org/10.1186/s13040-024-00371-3"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.06316",
+            "ids": {
+              "arxiv": "2406.06316",
+              "doi": "10.48550/arxiv.2406.06316",
+              "s2": "90c35b83d91ba40e8f4b87e264519bc4713395b3"
+            },
+            "title": "Tx-LLM: A Large Language Model for Therapeutics",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 53,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.06316",
+              "pdf": "https://arxiv.org/pdf/2406.06316",
+              "doi": "https://doi.org/10.48550/arxiv.2406.06316"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2409.18812",
+            "ids": {
+              "arxiv": "2409.18812",
+              "doi": "10.1145/3677389.3702565",
+              "s2": "9c6957004194f0fa06c459a9731427f7818a200f"
+            },
+            "title": "LLMs4Synthesis: Leveraging Large Language Models for Scientific Synthesis",
+            "year": 2024,
+            "venue": "ACM/IEEE Joint Conference on Digital Libraries",
+            "citations": 17,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2409.18812",
+              "pdf": "https://arxiv.org/pdf/2409.18812",
+              "doi": "https://doi.org/10.1145/3677389.3702565"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.03312",
+            "ids": {
+              "arxiv": "2509.03312",
+              "doi": "10.48550/arxiv.2509.03312",
+              "s2": "7fdbdd7ffcd4f7e4ffbec33d079e4a2bcb80f275"
+            },
+            "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 143,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.03312",
+              "pdf": "https://arxiv.org/pdf/2509.03312",
+              "doi": "https://doi.org/10.48550/arxiv.2509.03312"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2511.02824",
+            "ids": {
+              "arxiv": "2511.02824",
+              "doi": "10.48550/arxiv.2511.02824",
+              "s2": "0fc30d552b48b12817ba6ec4dfa9571b2a262b8d"
+            },
+            "title": "Kosmos: An AI Scientist for Autonomous Discovery",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 125,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.02824",
+              "pdf": "https://arxiv.org/pdf/2511.02824",
+              "doi": "https://doi.org/10.48550/arxiv.2511.02824"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.18746",
+            "ids": {
+              "arxiv": "2512.18746",
+              "doi": "10.48550/arxiv.2512.18746",
+              "s2": "fc6e9b47819d2f5cdfd8f47829f7894d37e2059c"
+            },
+            "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 108,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.18746",
+              "pdf": "https://arxiv.org/pdf/2512.18746",
+              "doi": "https://doi.org/10.48550/arxiv.2512.18746"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.23880",
+            "ids": {
+              "arxiv": "2512.23880",
+              "doi": "10.48550/arxiv.2512.23880",
+              "s2": "09bcf0235d2aa604bf1b52bae4b61a64db84eacc"
+            },
+            "title": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 37,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.23880",
+              "pdf": "https://arxiv.org/pdf/2512.23880",
+              "doi": "https://doi.org/10.48550/arxiv.2512.23880"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.08713",
+            "ids": {
+              "arxiv": "2509.08713",
+              "doi": "10.48550/arxiv.2509.08713",
+              "s2": "4d965644e4f78a16f3e6be212936ac52c43c59ec"
+            },
+            "title": "The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 36,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.08713",
+              "pdf": "https://arxiv.org/pdf/2509.08713",
+              "doi": "https://doi.org/10.48550/arxiv.2509.08713"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.01249",
+            "ids": {
+              "arxiv": "2606.01249",
+              "doi": "10.48550/arxiv.2606.01249",
+              "s2": "e7eaf95303eeafdfd3662e893f51941a7b75f78a"
+            },
+            "title": "Trust Region On-Policy Distillation",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 34,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.01249",
+              "pdf": "https://arxiv.org/pdf/2606.01249",
+              "doi": "https://doi.org/10.48550/arxiv.2606.01249"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.06917",
+            "ids": {
+              "arxiv": "2509.06917",
+              "doi": "10.48550/arxiv.2509.06917",
+              "s2": "9ccda7b4f093ceb80d057aba41570f437536a867"
+            },
+            "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 34,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.06917",
+              "pdf": "https://arxiv.org/pdf/2509.06917",
+              "doi": "https://doi.org/10.48550/arxiv.2509.06917"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1101/2025.06.03.657658",
+            "ids": {
+              "doi": "10.1101/2025.06.03.657658",
+              "s2": "2fefa431695af64d206423787883444d4df0b18e"
+            },
+            "title": "OriGene: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery",
+            "year": 2026,
+            "venue": "bioRxiv",
+            "citations": 33,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2fefa431695af64d206423787883444d4df0b18e",
+              "doi": "https://doi.org/10.1101/2025.06.03.657658"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.21184",
+            "ids": {
+              "arxiv": "2508.21184",
+              "doi": "10.48550/arxiv.2508.21184",
+              "s2": "ec37ae28907638a87c8b229a296f57a6539e6838"
+            },
+            "title": "BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 32,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.21184",
+              "pdf": "https://arxiv.org/pdf/2508.21184",
+              "doi": "https://doi.org/10.48550/arxiv.2508.21184"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.12821",
+            "ids": {
+              "arxiv": "2507.12821",
+              "doi": "10.48550/arxiv.2507.12821",
+              "s2": "f7042efe993787005c17fbb2a2d014730aff2b7d"
+            },
+            "title": "Assessing Adaptive World Models in Machines with Novel Games",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 23,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.12821",
+              "pdf": "https://arxiv.org/pdf/2507.12821",
+              "doi": "https://doi.org/10.48550/arxiv.2507.12821"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1186/s13059-014-0550-8",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2210.03629",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1038/nprot.2009.97",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2211.09085",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1038/s41586-023-06792-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1371/journal.pbio.1002195",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2503.00096",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1093/nar/gkae1128",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2409.13740",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2402.01788",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2404.17605",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2504.06196",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2502.09858",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "doi:10.1186/s13040-024-00371-3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2406.06316",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.13400",
+          "target": "arxiv:2409.18812",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.03312",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.02824",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.18746",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.23880",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.08713",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.01249",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.06917",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1101/2025.06.03.657658",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.21184",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.12821",
+          "target": "arxiv:2505.13400",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41586-023-06792-0",
+          "target": "arxiv:2210.03629",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.00096",
+          "target": "arxiv:2409.13740",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.00096",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.01788",
+          "target": "arxiv:2211.09085",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.17605",
+          "target": "doi:10.1038/s41586-023-06792-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.17605",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.02824",
+          "target": "arxiv:2409.13740",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.02824",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.02824",
+          "target": "arxiv:2503.00096",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.18746",
+          "target": "arxiv:2509.03312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.23880",
+          "target": "arxiv:2509.06917",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.23880",
+          "target": "arxiv:2511.02824",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.23880",
+          "target": "arxiv:2409.13740",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.23880",
+          "target": "doi:10.1038/s41586-023-06792-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.06917",
+          "target": "arxiv:2210.03629",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1101/2025.06.03.657658",
+          "target": "arxiv:2502.09858",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1101/2025.06.03.657658",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.21184",
+          "target": "arxiv:2210.03629",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.21184",
+          "target": "arxiv:2408.06292",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 91,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.01815",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.01815",
+            "ids": {
+              "arxiv": "2611.01815",
+              "s2": "219888df5987b172f5b3c7e65245bb7a4918b486",
+              "openalex": "W7225165458"
+            },
+            "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+            "year": 2026,
+            "venue": "World Models",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "An evaluation framework is presented that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error, finding that impossible events can produce lower error than possible events.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.01815",
+              "pdf": "https://arxiv.org/pdf/2611.01815"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1098/rsta.2015.0202",
+            "ids": {
+              "doi": "10.1098/rsta.2015.0202",
+              "s2": "5bc875d65df812f9617d8ba508c1c85f4d219b19"
+            },
+            "title": "Principal component analysis: a review and recent developments",
+            "year": 2016,
+            "venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+            "citations": 10161,
+            "influential_citations": 489,
+            "is_review": true,
+            "tldr": "The basic ideas of PCA are introduced, discussing what it can and cannot do, and some variants of the technique have been developed that are tailored to various different data types and structures.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5bc875d65df812f9617d8ba508c1c85f4d219b19",
+              "doi": "https://doi.org/10.1098/rsta.2015.0202"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "s2": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 11931,
+            "influential_citations": 1707,
+            "is_review": false,
+            "tldr": "This work revisits existing approaches and combines different techniques to scale the pretraining in terms of data and model size, and proposes an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2203.12602",
+            "ids": {
+              "arxiv": "2203.12602",
+              "doi": "10.48550/arxiv.2203.12602",
+              "s2": "4990f7542f0600e0501a7e7a931b32eb7cb804d5"
+            },
+            "title": "VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2453,
+            "influential_citations": 343,
+            "is_review": false,
+            "tldr": "This paper shows that video masked autoencoders (VideoMAE) are data-efficient learners for self-supervised video pre-training (SSVP), and proposes customized video tube masking with an extremely high ratio, inspired by the recent ImageMAE.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2203.12602",
+              "pdf": "https://arxiv.org/pdf/2203.12602",
+              "doi": "https://doi.org/10.48550/arxiv.2203.12602"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+            "ids": {
+              "s2": "775f42ed458b8c5b0f2094ea4ff5b64c557b1a34"
+            },
+            "title": "A Path Towards Autonomous Machine Intelligence",
+            "year": 2022,
+            "citations": 1357,
+            "influential_citations": 110,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/775f42ed458b8c5b0f2094ea4ff5b64c557b1a34"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.09985",
+            "ids": {
+              "arxiv": "2506.09985",
+              "doi": "10.48550/arxiv.2506.09985",
+              "s2": "b202faf38efbffcb26470c702e1140b047d6f6e7"
+            },
+            "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 1037,
+            "influential_citations": 147,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.09985",
+              "pdf": "https://arxiv.org/pdf/2506.09985",
+              "doi": "https://doi.org/10.48550/arxiv.2506.09985"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.16727",
+            "ids": {
+              "arxiv": "2303.16727",
+              "doi": "10.1109/cvpr52729.2023.01398",
+              "s2": "9fac3d0728a8c833a593446e3e176e90d856df04"
+            },
+            "title": "VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 913,
+            "influential_citations": 123,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.16727",
+              "pdf": "https://arxiv.org/pdf/2303.16727",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.01398"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/s0025-5718-1973-0348991-3",
+            "ids": {
+              "doi": "10.1090/s0025-5718-1973-0348991-3",
+              "s2": "bcf377585fa0751b8bb983ccc7cf0866826eebec"
+            },
+            "title": "Numerical methods for computing angles between linear subspaces",
+            "year": 1971,
+            "venue": "Milestones in Matrix Computation",
+            "citations": 872,
+            "influential_citations": 73,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bcf377585fa0751b8bb983ccc7cf0866826eebec",
+              "doi": "https://doi.org/10.1090/s0025-5718-1973-0348991-3"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2404.08471",
+            "ids": {
+              "arxiv": "2404.08471",
+              "doi": "10.48550/arxiv.2404.08471",
+              "s2": "872d78c04c8fb115d492eea98199407991670533"
+            },
+            "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+            "year": 2024,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 693,
+            "influential_citations": 91,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2404.08471",
+              "pdf": "https://arxiv.org/pdf/2404.08471",
+              "doi": "https://doi.org/10.48550/arxiv.2404.08471"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2411.04983",
+            "ids": {
+              "arxiv": "2411.04983",
+              "doi": "10.48550/arxiv.2411.04983",
+              "s2": "badf5d00486111d936b056e52f13c26c1bbbd573"
+            },
+            "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+            "year": 2024,
+            "venue": "International Conference on Machine Learning",
+            "citations": 567,
+            "influential_citations": 97,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2411.04983",
+              "pdf": "https://arxiv.org/pdf/2411.04983",
+              "doi": "https://doi.org/10.48550/arxiv.2411.04983"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.19312",
+            "ids": {
+              "arxiv": "2603.19312",
+              "doi": "10.48550/arxiv.2603.19312",
+              "s2": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1"
+            },
+            "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 359,
+            "influential_citations": 105,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.19312",
+              "pdf": "https://arxiv.org/pdf/2603.19312",
+              "doi": "https://doi.org/10.48550/arxiv.2603.19312"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1411.5908",
+            "ids": {
+              "arxiv": "1411.5908",
+              "doi": "10.1007/s11263-018-1098-y",
+              "s2": "371400e61632592146f40b621fb3dbb6971721be"
+            },
+            "title": "Understanding Image Representations by Measuring Their Equivariance and Equivalence",
+            "year": 2014,
+            "venue": "International Journal of Computer Vision",
+            "citations": 724,
+            "influential_citations": 32,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1411.5908",
+              "pdf": "https://arxiv.org/pdf/1411.5908",
+              "doi": "https://doi.org/10.1007/s11263-018-1098-y"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2203.03570",
+            "ids": {
+              "arxiv": "2203.03570",
+              "doi": "10.1109/cvpr52688.2022.00373",
+              "s2": "7613b1df07b909a91e608d75babc834df40cf85a"
+            },
+            "title": "Kubric: A scalable dataset generator",
+            "year": 2022,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 527,
+            "influential_citations": 52,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2203.03570",
+              "pdf": "https://arxiv.org/pdf/2203.03570",
+              "doi": "https://doi.org/10.1109/cvpr52688.2022.00373"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2511.08544",
+            "ids": {
+              "arxiv": "2511.08544",
+              "doi": "10.48550/arxiv.2511.08544",
+              "s2": "988ef01812555a4e2a5810bd245a71f31896b36c"
+            },
+            "title": "LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 325,
+            "influential_citations": 76,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.08544",
+              "pdf": "https://arxiv.org/pdf/2511.08544",
+              "doi": "https://doi.org/10.48550/arxiv.2511.08544"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2106.08261",
+            "ids": {
+              "arxiv": "2106.08261",
+              "doi": "10.48550/arxiv.2106.08261",
+              "s2": "aea777bdd260fcf83822c8a55fa80f396f425cc2"
+            },
+            "title": "Physion: Evaluating Physical Prediction from Vision in Humans and Machines",
+            "year": 2021,
+            "venue": "NeurIPS Datasets and Benchmarks",
+            "citations": 214,
+            "influential_citations": 23,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2106.08261",
+              "pdf": "https://arxiv.org/pdf/2106.08261",
+              "doi": "https://doi.org/10.48550/arxiv.2106.08261"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41562-022-01394-8",
+            "ids": {
+              "doi": "10.1038/s41562-022-01394-8",
+              "s2": "9d82233c2de4215c7c107ca38d3dd2f597df2342"
+            },
+            "title": "Intuitive physics learning in a deep-learning model inspired by developmental psychology",
+            "year": 2022,
+            "venue": "Nature Human Behaviour",
+            "citations": 154,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9d82233c2de4215c7c107ca38d3dd2f597df2342",
+              "doi": "https://doi.org/10.1038/s41562-022-01394-8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:80d6f092d83ed6a7e829f60b08409377ad8f0df3",
+            "ids": {
+              "s2": "80d6f092d83ed6a7e829f60b08409377ad8f0df3"
+            },
+            "title": "Modeling Expectation Violation in Intuitive Physics with Coarse Probabilistic Object Representations",
+            "year": 2019,
+            "venue": "Neural Information Processing Systems",
+            "citations": 101,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/80d6f092d83ed6a7e829f60b08409377ad8f0df3"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.1803.07616",
+            "ids": {
+              "doi": "10.48550/arxiv.1803.07616",
+              "s2": "24346fd2106e0743033420c90d4944bcbc9f9c9d"
+            },
+            "title": "IntPhys: A Framework and Benchmark for Visual Intuitive Physics Reasoning",
+            "year": 2018,
+            "venue": "arXiv.org",
+            "citations": 86,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/24346fd2106e0743033420c90d4944bcbc9f9c9d",
+              "doi": "https://doi.org/10.48550/arxiv.1803.07616"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.24497",
+            "ids": {
+              "arxiv": "2512.24497",
+              "doi": "10.48550/arxiv.2512.24497",
+              "s2": "35fc38884dacfaf54e87d739fdb4104bc49b63e5"
+            },
+            "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+            "year": 2025,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 62,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.24497",
+              "pdf": "https://arxiv.org/pdf/2512.24497",
+              "doi": "https://doi.org/10.48550/arxiv.2512.24497"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.01815",
+          "target": "doi:10.1098/rsta.2015.0202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2203.12602",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2506.09985",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2303.16727",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "doi:10.1090/s0025-5718-1973-0348991-3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2404.08471",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2411.04983",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2603.19312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:1411.5908",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2203.03570",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2511.08544",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2106.08261",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "doi:10.1038/s41562-022-01394-8",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "s2:80d6f092d83ed6a7e829f60b08409377ad8f0df3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "doi:10.48550/arxiv.1803.07616",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.01815",
+          "target": "arxiv:2512.24497",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2203.12602",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.09985",
+          "target": "arxiv:2303.16727",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.09985",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.09985",
+          "target": "arxiv:2404.08471",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.09985",
+          "target": "arxiv:2411.04983",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.09985",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.16727",
+          "target": "arxiv:2203.12602",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.08471",
+          "target": "arxiv:2303.16727",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.08471",
+          "target": "arxiv:2203.12602",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.08471",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2404.08471",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.19312",
+          "target": "arxiv:2506.09985",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.19312",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.19312",
+          "target": "arxiv:2411.04983",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.19312",
+          "target": "arxiv:2511.08544",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.19312",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.08544",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.08544",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2106.08261",
+          "target": "s2:80d6f092d83ed6a7e829f60b08409377ad8f0df3",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41562-022-01394-8",
+          "target": "s2:80d6f092d83ed6a7e829f60b08409377ad8f0df3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.24497",
+          "target": "s2:775f42ed458b8c5b0f2094ea4ff5b64c557b1a34",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.24497",
+          "target": "arxiv:2411.04983",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.24497",
+          "target": "arxiv:2404.08471",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1109/jiot.2026.3652582",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1109/jiot.2026.3652582",
+            "ids": {
+              "doi": "10.1109/jiot.2026.3652582",
+              "s2": "f7ffb067a1be04df1e11e6ddec20c3cdce34bb85",
+              "openalex": "W7123349468"
+            },
+            "title": "SMNet: A Novel Compositional Generalization Model for Industrial Robot Multijoint Fault Diagnosis",
+            "year": 2026,
+            "venue": "IEEE Internet of Things Journal",
+            "citations": 40,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://doi.org/10.1109/jiot.2026.3652582",
+              "doi": "https://doi.org/10.1109/jiot.2026.3652582"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1609/aaai.v37i9.26317",
+            "ids": {
+              "doi": "10.1609/aaai.v37i9.26317",
+              "openalex": "W4382203079"
+            },
+            "title": "Are Transformers Effective for Time Series Forecasting?",
+            "year": 2023,
+            "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "citations": 3790,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4382203079",
+              "doi": "https://doi.org/10.1609/aaai.v37i9.26317"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ymssp.2017.06.022",
+            "ids": {
+              "doi": "10.1016/j.ymssp.2017.06.022",
+              "openalex": "W2744790985"
+            },
+            "title": "A deep convolutional neural network with new training methods for bearing fault diagnosis under noisy environment and different working load",
+            "year": 2017,
+            "venue": "Mechanical Systems and Signal Processing",
+            "citations": 1426,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2744790985",
+              "doi": "https://doi.org/10.1016/j.ymssp.2017.06.022"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2015.7298664",
+            "ids": {
+              "doi": "10.1109/cvpr.2015.7298664",
+              "openalex": "W1936750108"
+            },
+            "title": "Efficient object localization using Convolutional Networks",
+            "year": 2015,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 1377,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1936750108",
+              "doi": "https://doi.org/10.1109/cvpr.2015.7298664"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1162/neco.1997.9.8.1735",
+            "ids": {
+              "doi": "10.1162/neco.1997.9.8.1735",
+              "openalex": "W2064675550"
+            },
+            "title": "Long Short-Term Memory",
+            "year": 1997,
+            "venue": "Neural Computation",
+            "citations": 103570,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2064675550",
+              "doi": "https://doi.org/10.1162/neco.1997.9.8.1735"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.eswa.2023.121338",
+            "ids": {
+              "doi": "10.1016/j.eswa.2023.121338",
+              "openalex": "W4386193242"
+            },
+            "title": "LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention",
+            "year": 2023,
+            "venue": "Expert Systems with Applications",
+            "citations": 401,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4386193242",
+              "doi": "https://doi.org/10.1016/j.eswa.2023.121338"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.neucom.2022.04.111",
+            "ids": {
+              "doi": "10.1016/j.neucom.2022.04.111",
+              "openalex": "W4225016315"
+            },
+            "title": "A Time Series Transformer based method for the rotating machinery fault diagnosis",
+            "year": 2022,
+            "venue": "Neurocomputing",
+            "citations": 349,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4225016315",
+              "doi": "https://doi.org/10.1016/j.neucom.2022.04.111"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-3349",
+            "ids": {
+              "doi": "10.52202/075280-3349",
+              "openalex": "W7133233229"
+            },
+            "title": "Frequency-domain MLPs are More Effective Learners in Time Series Forecasting",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 289,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133233229",
+              "doi": "https://doi.org/10.52202/075280-3349"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/jiot.2024.3418352",
+            "ids": {
+              "doi": "10.1109/jiot.2024.3418352",
+              "openalex": "W4399939305"
+            },
+            "title": "Online Fault Diagnosis of Industrial Robot Using IoRT and Hybrid Deep Learning Techniques: An Experimental Approach",
+            "year": 2024,
+            "venue": "IEEE Internet of Things Journal",
+            "citations": 159,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4399939305",
+              "doi": "https://doi.org/10.1109/jiot.2024.3418352"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jmsy.2020.08.010",
+            "ids": {
+              "doi": "10.1016/j.jmsy.2020.08.010",
+              "openalex": "W3083796308"
+            },
+            "title": "Attitude data-based deep hybrid learning architecture for intelligent fault diagnosis of multi-joint industrial robots",
+            "year": 2020,
+            "venue": "Journal of Manufacturing Systems",
+            "citations": 154,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3083796308",
+              "doi": "https://doi.org/10.1016/j.jmsy.2020.08.010"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/jsen.2021.3137992",
+            "ids": {
+              "doi": "10.1109/jsen.2021.3137992",
+              "openalex": "W4206199419"
+            },
+            "title": "Fault Detection of the Harmonic Reducer Based on CNN-LSTM With a Novel Denoising Algorithm",
+            "year": 2021,
+            "venue": "IEEE Sensors Journal",
+            "citations": 145,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4206199419",
+              "doi": "https://doi.org/10.1109/jsen.2021.3137992"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tie.2019.2931511",
+            "ids": {
+              "doi": "10.1109/tie.2019.2931511",
+              "openalex": "W2980686936"
+            },
+            "title": "Fault Detection and Diagnosis of Industrial Robot Based on Power Consumption Modeling",
+            "year": 2019,
+            "venue": "IEEE Transactions on Industrial Electronics",
+            "citations": 99,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2980686936",
+              "doi": "https://doi.org/10.1109/tie.2019.2931511"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.37965/jdmd.2023.152",
+            "ids": {
+              "doi": "10.37965/jdmd.2023.152",
+              "openalex": "W4322774658"
+            },
+            "title": "Compound Fault Diagnosis for Rotating Machinery: State-of-the-Art, Challenges, and Opportunities",
+            "year": 2023,
+            "venue": "Journal of Dynamics Monitoring and Diagnostics",
+            "citations": 96,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4322774658",
+              "doi": "https://doi.org/10.37965/jdmd.2023.152"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jmsy.2022.12.006",
+            "ids": {
+              "doi": "10.1016/j.jmsy.2022.12.006",
+              "openalex": "W4311918071"
+            },
+            "title": "Compound fault diagnosis for industrial robots based on dual-transformer networks",
+            "year": 2022,
+            "venue": "Journal of Manufacturing Systems",
+            "citations": 95,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4311918071",
+              "doi": "https://doi.org/10.1016/j.jmsy.2022.12.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jmsy.2022.12.001",
+            "ids": {
+              "doi": "10.1016/j.jmsy.2022.12.001",
+              "openalex": "W4313367665"
+            },
+            "title": "In-situ fault diagnosis for the harmonic reducer of industrial robots via multi-scale mixed convolutional neural networks",
+            "year": 2022,
+            "venue": "Journal of Manufacturing Systems",
+            "citations": 94,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4313367665",
+              "doi": "https://doi.org/10.1016/j.jmsy.2022.12.001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ymssp.2022.109569",
+            "ids": {
+              "doi": "10.1016/j.ymssp.2022.109569",
+              "openalex": "W4285676265"
+            },
+            "title": "Discriminative feature learning using a multiscale convolutional capsule network from attitude data for fault diagnosis of industrial robots",
+            "year": 2022,
+            "venue": "Mechanical Systems and Signal Processing",
+            "citations": 84,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4285676265",
+              "doi": "https://doi.org/10.1016/j.ymssp.2022.109569"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tnnls.2024.3483954",
+            "ids": {
+              "doi": "10.1109/tnnls.2024.3483954",
+              "openalex": "W4404238616"
+            },
+            "title": "Matching Pursuit Network: An Interpretable Sparse Time-Frequency Representation Method Toward Mechanical Fault Diagnosis",
+            "year": 2024,
+            "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+            "citations": 77,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4404238616",
+              "doi": "https://doi.org/10.1109/tnnls.2024.3483954"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tim.2022.3158996",
+            "ids": {
+              "doi": "10.1109/tim.2022.3158996",
+              "openalex": "W4226058060"
+            },
+            "title": "Intelligent Fault Diagnosis for Bearings of Industrial Robot Joints Under Varying Working Conditions Based on Deep Adversarial Domain Adaptation",
+            "year": 2022,
+            "venue": "IEEE Transactions on Instrumentation and Measurement",
+            "citations": 75,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4226058060",
+              "doi": "https://doi.org/10.1109/tim.2022.3158996"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ress.2025.111209",
+            "ids": {
+              "doi": "10.1016/j.ress.2025.111209",
+              "openalex": "W4410557585"
+            },
+            "title": "Attention-guided graph isomorphism learning: A multi-task framework for fault diagnosis and remaining useful life prediction",
+            "year": 2025,
+            "venue": "Reliability Engineering & System Safety",
+            "citations": 71,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4410557585",
+              "doi": "https://doi.org/10.1016/j.ress.2025.111209"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tim.2026.3676178",
+            "ids": {
+              "doi": "10.1109/tim.2026.3676178",
+              "s2": "e40796173bf4b84482cd2e81399900bd6022a997"
+            },
+            "title": "RRDNet: Robust Fault Diagnosis of Railway Switch Machines Under Imperfect Sensing",
+            "year": 2026,
+            "venue": "IEEE Transactions on Instrumentation and Measurement",
+            "citations": 16,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e40796173bf4b84482cd2e81399900bd6022a997",
+              "doi": "https://doi.org/10.1109/tim.2026.3676178"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.neucom.2026.133186",
+            "ids": {
+              "doi": "10.1016/j.neucom.2026.133186",
+              "s2": "2f74f075220d01ab3420ecb66becc473d3352a62"
+            },
+            "title": "Strengthen the weak, align the strong: A federated enhanced iterative learning framework for cross-machine fault diagnosis",
+            "year": 2026,
+            "venue": "Neurocomputing",
+            "citations": 9,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2f74f075220d01ab3420ecb66becc473d3352a62",
+              "doi": "https://doi.org/10.1016/j.neucom.2026.133186"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1361-6501/ae4768",
+            "ids": {
+              "doi": "10.1088/1361-6501/ae4768",
+              "s2": "e1631bdd6f736a48d5817101a8deeb4ad9853659"
+            },
+            "title": "Zero-shot compound fault diagnosis method driven by semantic adaptive fusion",
+            "year": 2026,
+            "venue": "Measurement science and technology",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e1631bdd6f736a48d5817101a8deeb4ad9853659",
+              "doi": "https://doi.org/10.1088/1361-6501/ae4768"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.measurement.2026.121862",
+            "ids": {
+              "doi": "10.1016/j.measurement.2026.121862",
+              "s2": "1afacaf87738517ff2ff799738fa67817338abcb"
+            },
+            "title": "Synergistic Mamba-attention gated fusion for remaining useful life prediction of aircraft engines",
+            "year": 2026,
+            "venue": "Measurement",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1afacaf87738517ff2ff799738fa67817338abcb",
+              "doi": "https://doi.org/10.1016/j.measurement.2026.121862"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/jsen.2026.3673312",
+            "ids": {
+              "doi": "10.1109/jsen.2026.3673312",
+              "s2": "63ec5c58edba53c111fdc915ee7e3967a4b925c0"
+            },
+            "title": "JFDNet: A Robust Industrial Robot Multijoint Fault Detection Network Under Sensor Fault and Environmental Noise Scenarios",
+            "year": 2026,
+            "venue": "IEEE Sensors Journal",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/63ec5c58edba53c111fdc915ee7e3967a4b925c0",
+              "doi": "https://doi.org/10.1109/jsen.2026.3673312"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1049/tje2.70197",
+            "ids": {
+              "doi": "10.1049/tje2.70197",
+              "s2": "b85a9f978010d62fff9f11402648302b2ba77c57"
+            },
+            "title": "Learning Multi‐Pattern Vibration Representations for In‐the‐Wild Bolt Looseness Detection on Power Transmission Towers",
+            "year": 2026,
+            "venue": "Jurnal Engineering",
+            "citations": 1,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b85a9f978010d62fff9f11402648302b2ba77c57",
+              "doi": "https://doi.org/10.1049/tje2.70197"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.32604/cmc.2026.079644",
+            "ids": {
+              "doi": "10.32604/cmc.2026.079644",
+              "s2": "5a7bba13450c3f8a152d32e7c1743b43153ded35"
+            },
+            "title": "Hierarchical Cyber–Physical Symbiosis with Bidirectional State Space Modeling for IIoT Anomaly Diagnosis",
+            "year": 2026,
+            "venue": "Computers, Materials &amp; Continua",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5a7bba13450c3f8a152d32e7c1743b43153ded35",
+              "doi": "https://doi.org/10.32604/cmc.2026.079644"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/access.2026.3696128",
+            "ids": {
+              "doi": "10.1109/access.2026.3696128",
+              "s2": "6cd48879ff3deb7a6796e1a85c7d1768e4bc55a6"
+            },
+            "title": "A Streamlined Fault Detection and Selectivity Method Based on a Normalized Current Difference Criterion and Apparent Impedance for Onshore Wind Farm Collector Grids",
+            "year": 2026,
+            "venue": "IEEE Access",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6cd48879ff3deb7a6796e1a85c7d1768e4bc55a6",
+              "doi": "https://doi.org/10.1109/access.2026.3696128"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tim.2026.3699679",
+            "ids": {
+              "doi": "10.1109/tim.2026.3699679",
+              "s2": "ff1ad98e47d92ae01727382c24d6b27aa2776b0a"
+            },
+            "title": "Few-Shot Fault Diagnosis of Railway Point Machines Using a Curriculum-Guided Tri-Branch Relation Network With RBF-Based Nonlinear Task Difficulty Measurement",
+            "year": 2026,
+            "venue": "IEEE Transactions on Instrumentation and Measurement",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ff1ad98e47d92ae01727382c24d6b27aa2776b0a",
+              "doi": "https://doi.org/10.1109/tim.2026.3699679"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.aei.2026.104956",
+            "ids": {
+              "doi": "10.1016/j.aei.2026.104956",
+              "s2": "ebcb6958cb21a01ee5bf0ea149aade0b8ee94b91"
+            },
+            "title": "Distribution-anchored causal regularization network for exemplar-free class incremental fault diagnosis under unseen operating domains",
+            "year": 2026,
+            "venue": "Advanced Engineering Informatics",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ebcb6958cb21a01ee5bf0ea149aade0b8ee94b91",
+              "doi": "https://doi.org/10.1016/j.aei.2026.104956"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1609/aaai.v37i9.26317",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.ymssp.2017.06.022",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/cvpr.2015.7298664",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1162/neco.1997.9.8.1735",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.eswa.2023.121338",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.neucom.2022.04.111",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.52202/075280-3349",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/jiot.2024.3418352",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.jmsy.2020.08.010",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/jsen.2021.3137992",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/tie.2019.2931511",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.37965/jdmd.2023.152",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.jmsy.2022.12.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.jmsy.2022.12.001",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.ymssp.2022.109569",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/tnnls.2024.3483954",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1109/tim.2022.3158996",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jiot.2026.3652582",
+          "target": "doi:10.1016/j.ress.2025.111209",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tim.2026.3676178",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.neucom.2026.133186",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1088/1361-6501/ae4768",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.measurement.2026.121862",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/jsen.2026.3673312",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1049/tje2.70197",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.32604/cmc.2026.079644",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/access.2026.3696128",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tim.2026.3699679",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.aei.2026.104956",
+          "target": "doi:10.1109/jiot.2026.3652582",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 40,
+      "errors": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T09:10:40.631661Z",
+  "generated_at": "2026-11-05T12:54:16.755511Z",
   "picks": [
     {
       "pick_id": "arxiv:2505.13400",
@@ -19,7 +19,7 @@
             "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
             "year": 2014,
             "venue": "Genome Biology",
-            "citations": 51028,
+            "citations": 51029,
             "influential_citations": 11019,
             "is_review": false,
             "tldr": "This work presents DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates, which enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression.",
@@ -70,27 +70,27 @@
         },
         {
           "paper": {
-            "id": "doi:10.1056/nejmc081470",
+            "id": "doi:10.1038/nprot.2009.97",
             "ids": {
-              "doi": "10.1056/nejmc081470",
-              "s2": "40a704c870cfd5cbd0afe272119ebb06c154cc40"
+              "doi": "10.1038/nprot.2009.97",
+              "s2": "e3271609bd0814e337af0e5693f4471c5a392c5b"
             },
-            "title": "Age-related macular degeneration.",
-            "year": 2008,
-            "venue": "New England Journal of Medicine",
-            "citations": 5809,
-            "influential_citations": 364,
+            "title": "Mapping Identifiers for the Integration of Genomic Datasets with the R/Bioconductor package biomaRt",
+            "year": 2009,
+            "venue": "Nature Protocols",
+            "citations": 3894,
+            "influential_citations": 339,
             "is_review": false,
-            "tldr": "The studies of familial multiple myeloma as well as others from the literature that attempt to define a genetic association between multiple myeloma and prostate cancer underscore the power of tumor aggregation, yet a common molecular genetic pathway explaining this putative association with hereditary cancer remains elusive.",
+            "tldr": "It is demonstrated how to use the computational environment R to integrate and jointly analyze experimental datasets, employing BioMart web services to provide the molecule mappings.",
             "links": {
-              "abstract_page": "https://www.semanticscholar.org/paper/40a704c870cfd5cbd0afe272119ebb06c154cc40",
-              "doi": "https://doi.org/10.1056/nejmc081470"
+              "abstract_page": "https://www.semanticscholar.org/paper/e3271609bd0814e337af0e5693f4471c5a392c5b",
+              "doi": "https://doi.org/10.1038/nprot.2009.97"
             }
           },
           "label": "background",
-          "score": 4.292,
+          "score": 4.138,
           "reasons": [
-            "5.8k citations"
+            "3.9k citations"
           ],
           "supports": [
             "arxiv:2505.13400"
@@ -116,7 +116,7 @@
             "title": "Principal component analysis: a review and recent developments",
             "year": 2016,
             "venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-            "citations": 10160,
+            "citations": 10161,
             "influential_citations": 489,
             "is_review": true,
             "tldr": "The basic ideas of PCA are introduced, discussing what it can and cannot do, and some variants of the technique have been developed that are tailored to various different data types and structures.",
@@ -171,27 +171,30 @@
         },
         {
           "paper": {
-            "id": "doi:10.1002/0471667196.ess7149",
+            "id": "arxiv:2203.12602",
             "ids": {
-              "doi": "10.1002/0471667196.ess7149",
-              "s2": "474885b0ea7a9d501b876b1982d6bd34c12c2599"
+              "arxiv": "2203.12602",
+              "doi": "10.48550/arxiv.2203.12602",
+              "s2": "4990f7542f0600e0501a7e7a931b32eb7cb804d5"
             },
-            "title": "Directional Statistics, I",
-            "year": 2011,
-            "citations": 2592,
-            "influential_citations": 320,
+            "title": "VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2453,
+            "influential_citations": 343,
             "is_review": false,
+            "tldr": "This paper shows that video masked autoencoders (VideoMAE) are data-efficient learners for self-supervised video pre-training (SSVP), and proposes customized video tube masking with an extremely high ratio, inspired by the recent ImageMAE.",
             "links": {
-              "abstract_page": "https://www.semanticscholar.org/paper/474885b0ea7a9d501b876b1982d6bd34c12c2599",
-              "doi": "https://doi.org/10.1002/0471667196.ess7149"
+              "abstract_page": "https://arxiv.org/abs/2203.12602",
+              "pdf": "https://arxiv.org/pdf/2203.12602",
+              "doi": "https://doi.org/10.48550/arxiv.2203.12602"
             }
           },
           "label": "background",
-          "score": 3.984,
+          "score": 3.98,
           "reasons": [
-            "2.6k citations"
+            "2.5k citations"
           ],
-          "quote": "For ∆ Ti = ˆ z Ti − ˆ z clean i and non-negligible u Ti = ∆ Ti / ∥ ∆ Ti ∥ 2 , directional coherence is the standard mean resultant length [Mardia and Jupp, 1999], Our operational control shuffles source-transform correspondence only across scenes, retaining the factor, model, and layer.",
           "supports": [
             "arxiv:2611.01815"
           ],
@@ -206,33 +209,6 @@
       "source": "openalex",
       "references_seen": 30,
       "prerequisites": [
-        {
-          "paper": {
-            "id": "doi:10.1162/neco.1997.9.8.1735",
-            "ids": {
-              "doi": "10.1162/neco.1997.9.8.1735",
-              "openalex": "W2064675550"
-            },
-            "title": "Long Short-Term Memory",
-            "year": 1997,
-            "venue": "Neural Computation",
-            "citations": 103570,
-            "is_review": false,
-            "links": {
-              "abstract_page": "https://openalex.org/W2064675550",
-              "doi": "https://doi.org/10.1162/neco.1997.9.8.1735"
-            }
-          },
-          "label": "background",
-          "score": 4.012,
-          "reasons": [
-            "104k citations"
-          ],
-          "supports": [
-            "doi:10.1109/jiot.2026.3652582"
-          ],
-          "chain": []
-        },
         {
           "paper": {
             "id": "doi:10.1609/aaai.v37i9.26317",
@@ -279,6 +255,33 @@
           },
           "label": "background",
           "score": 2.524,
+          "reasons": [
+            "1.4k citations"
+          ],
+          "supports": [
+            "doi:10.1109/jiot.2026.3652582"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2015.7298664",
+            "ids": {
+              "doi": "10.1109/cvpr.2015.7298664",
+              "openalex": "W1936750108"
+            },
+            "title": "Efficient object localization using Convolutional Networks",
+            "year": 2015,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 1377,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1936750108",
+              "doi": "https://doi.org/10.1109/cvpr.2015.7298664"
+            }
+          },
+          "label": "background",
+          "score": 2.511,
           "reasons": [
             "1.4k citations"
           ],
