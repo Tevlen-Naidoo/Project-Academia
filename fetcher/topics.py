@@ -50,6 +50,8 @@ class Topic(_Config):
     weight: Literal["core", "light"]
     arxiv: tuple[ArxivRule, ...] = ()
     openalex: tuple[OpenAlexRule, ...] = ()
+    citation_scale: Annotated[float, Field(gt=0, le=1)] = 1.0
+    """Multiplies the making-waves citation minimums, for fields that cite slowly."""
 
     @field_validator("arxiv", mode="before")
     @classmethod
@@ -99,6 +101,15 @@ class TopicsConfig(_Config):
             for rule in topic.openalex:
                 seen.setdefault(rule.subfield, None)
         return list(seen)
+
+    def citation_scale(self, subfield: int) -> float:
+        """The lowest `citation_scale` of any topic that uses this OpenAlex subfield."""
+        scales = [
+            topic.citation_scale
+            for topic in self.topics.values()
+            if any(rule.subfield == subfield for rule in topic.openalex)
+        ]
+        return min(scales, default=1.0)
 
     def tag(
         self,

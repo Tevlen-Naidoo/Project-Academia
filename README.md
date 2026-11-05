@@ -1,8 +1,8 @@
 # Project Academia
 
 Recommends three academic papers a day: new and fast-rising work in computer science
-(ML, AI, vision, image processing, NLP, graph theory, robotics, theory), with astronomy
-now and then. Uses only free metadata and abstracts from arXiv, Semantic Scholar,
+(ML, AI, vision, image processing, NLP, graph theory, robotics, theory), with astronomy,
+history, art and culture now and then. Uses only free metadata and abstracts from arXiv, Semantic Scholar,
 OpenAlex, Hugging Face Daily Papers and Hacker News.
 
 ## Status

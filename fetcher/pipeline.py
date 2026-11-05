@@ -79,13 +79,14 @@ def run_waves(
     report = SourceReport()
     papers: list[Paper] = []
     for subfield in topics.openalex_subfields():
+        scale = topics.citation_scale(subfield)
         for window in waves.windows(options.today):
             try:
                 works = source.most_cited(
                     subfield,
                     since=window.since,
                     until=window.until,
-                    min_citations=window.min_citations,
+                    min_citations=max(1, round(window.min_citations * scale)),
                 )
             except Exception as exc:  # one failed query must not lose the rest
                 report.errors.append(

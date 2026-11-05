@@ -6,6 +6,9 @@
 # keywords (whole word, case-insensitive). Use that for broad categories such
 # as math.CO, which is mostly not graph theory.
 #
+# `citation_scale` (0 to 1, default 1) lowers the making-waves citation minimums for
+# fields that cite slowly, such as the humanities.
+#
 # `weight` tells step 2 how often to pick from a topic: `core` topics share most
 # days, `light` topics appear now and then.
 #
@@ -84,3 +87,26 @@ topics:
     weight: light
     arxiv: [astro-ph.*]
     openalex: [3103]
+
+  # Humanities: arXiv has almost none, so these come from the OpenAlex making-waves
+  # funnel. Subfield ids follow the ASJC codes OpenAlex uses (Arts and Humanities =
+  # field 12, Social Sciences = field 33). Humanities cite slowly, hence the scale.
+
+  history:
+    label: History
+    weight: light
+    citation_scale: 0.2
+    arxiv: [physics.hist-ph]
+    openalex: [1202, 1204, 1205, 1207]
+
+  art:
+    label: Art
+    weight: light
+    citation_scale: 0.2
+    openalex: [1213, 1210, 1208, 1209]
+
+  culture:
+    label: Culture
+    weight: light
+    citation_scale: 0.2
+    openalex: [3316, 3314, 1212]
