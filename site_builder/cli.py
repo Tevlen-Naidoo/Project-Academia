@@ -49,7 +49,7 @@ def firebase_config() -> str:
     # The console's whole <script> snippet has other braces (imports), so start
     # from `firebaseConfig = {` when it is there.
     start = raw.find("{", max(raw.find("firebaseConfig"), 0))
-    end = raw.find("}", start) if start >= 0 and raw.find("firebaseConfig") >= 0 else raw.rfind("}")
+    end = raw.rfind("}")
     text = raw[start : end + 1] if start >= 0 else raw
     try:
         data = json.loads(text)
