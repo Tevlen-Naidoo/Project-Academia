@@ -11,28 +11,15 @@
 <link rel="apple-touch-icon" href="{{ root }}static/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Academia">
+<script type="module" src="{{ root }}static/js/app.js"></script>
 </head>
 <body>
-<header class="top">
-  <a class="brand" href="{{ root }}index.html">Project Academia</a>
-  <nav>
-    <a href="{{ root }}index.html"{% if nav == "today" %} aria-current="page"{% endif %}>Today</a>
-    <a href="{{ root }}archive/index.html"{% if nav == "archive" %} aria-current="page"{% endif %}>Archive</a>
-    <a href="{{ root }}board/index.html"{% if nav == "board" %} aria-current="page"{% endif %}>Reading board</a>
-    <a href="{{ root }}settings/index.html"{% if nav == "settings" %} aria-current="page"{% endif %}>Settings</a>
-  </nav>
-</header>
+<site-header current="{{ nav }}"></site-header>
 <main>
-<p id="board-message" class="message" role="status" aria-live="polite" hidden></p>
+<noscript><p class="message error">This site needs JavaScript to show its pages.</p></noscript>
+<site-message></site-message>
 {% block main %}{% endblock %}
 </main>
-<footer>
-  Built {{ built_at.strftime("%Y-%m-%d %H:%M") }} UTC from free metadata: arXiv, Semantic Scholar,
-  OpenAlex, Hugging Face and Hacker News.
-  <a href="https://github.com/{{ repo }}">Source</a>
-</footer>
-<script src="{{ root }}static/board.js"></script>
-<script src="{{ root }}static/push.js"></script>
-{% block scripts %}{% endblock %}
+<site-footer built="{{ built_at.strftime("%Y-%m-%d %H:%M") }}"></site-footer>
 </body>
 </html>

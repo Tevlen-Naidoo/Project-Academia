@@ -99,7 +99,13 @@ The commands edit `data/board.json`; commit it to keep the change. From a phone,
 `site_builder/` turns the picks, prerequisites and reading board into a static site, which
 GitHub Pages hosts. It has Today (the 3 picks, their abstracts, links and what to read
 first), an Archive with topic, kind and title filters, a page per day, and the Reading
-board.
+board, where cards move between columns by dragging them (press and hold first on a touch
+screen) or with their buttons.
+
+Every part of a page is a web component built with [Lit](https://lit.dev), which ships
+bundled in `site_builder/static/vendor/lit.js`, so there is no npm step. The Python builder
+(`site_builder/views.py`) hands each component its data as a JSON attribute, and the
+components in `site_builder/static/js/components/` draw it, with one plain stylesheet.
 
 Board buttons on the site save straight to `data/board.json` in this repository, so the
 daily picks keep skipping papers on the board. That needs a GitHub key, pasted once per
@@ -163,7 +169,7 @@ daily run skips notifications and the Settings page says they aren't set up.
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
 | `scorer/` | The daily picks (`scorer/models.py` holds `Pick` and `PicksFile`) |
 | `config/scoring.yaml` | Scoring weights, light days, topic spread and repeat rules |
-| `site_builder/` | The static web app: templates, CSS, `board.js`, which saves the board, and `push.js` and `root/sw.js` for notifications |
+| `site_builder/` | The static web app: page templates, the Lit web components in `static/js/components/`, `static/js/board-store.js`, which saves the board, and `static/js/push.js` and `root/sw.js` for notifications |
 | `notifier/` | Sends the daily Web Push notification (`python -m notifier send`) |
 | `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) and the reading board (`reader/board.py`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |

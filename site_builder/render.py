@@ -1,4 +1,4 @@
-"""Render the site into a folder of static HTML, CSS and a little JavaScript."""
+"""Render the site into a folder of static pages built from web components (Lit)."""
 
 from __future__ import annotations
 
@@ -10,13 +10,9 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
-from fetcher.models import Paper, PaperIds
 from fetcher.topics import TopicsConfig
-from reader import board
-from reader.lookup import ref_from_paper
-from reader.models import PaperRef
-from site_builder import graph_view
-from site_builder.load import Day, SiteData
+from site_builder import views
+from site_builder.load import Day, PickView, SiteData
 
 HERE = Path(__file__).resolve().parent
 TEMPLATES = HERE / "templates"
@@ -24,8 +20,6 @@ STATIC = HERE / "static"
 ROOT_FILES = HERE / "root"
 """Files served from the site root: the service worker must sit there to cover every page."""
 DEFAULT_REPO = "Tevlen-Naidoo/Project-Academia"
-DONE_SHOWN = 20
-"""Done cards shown open on the board page; older ones fold away."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -46,53 +40,22 @@ def _environment(site: Site) -> Environment:
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    b = site.data.board
 
-    def topic_label(tag: str | None) -> str:
-        if tag is None:
-            return "Other"
-        topic = site.topics.topics.get(tag)
-        return topic.label if topic else tag
+    def pick_data(view: PickView, day: Day, root: str) -> dict[str, Any]:
+        return views.pick(view, day, root=root, topics=site.topics, b=b)
 
-    def long_date(day: dt.date) -> str:
-        return f"{day:%A} {day.day} {day:%B %Y}"
+    def archive_data(days: list[Day], root: str) -> dict[str, Any]:
+        return views.archive(days, root=root, topics=site.topics)
 
-    def card_for(ids: PaperIds) -> board.Card | None:
-        return site.data.board.find(ids)
-
-    def authors(paper: Paper, limit: int = 6) -> str:
-        names = [a.name for a in paper.authors]
-        if len(names) > limit:
-            return ", ".join(names[:limit]) + f" and {len(names) - limit} more"
-        return ", ".join(names)
-
-    def card_payload(
-        paper: Paper | PaperRef, *, found: dt.date, prereq_of: str | None = None
-    ) -> dict[str, Any]:
-        """What board.js puts on the board for this paper: a `Card` without its dates."""
-        ref = ref_from_paper(paper) if isinstance(paper, Paper) else paper
-        source = board.CardSource(
-            kind=board.SourceKind.PREREQUISITE if prereq_of else board.SourceKind.PICK,
-            date=found,
-            pick_id=prereq_of,
-        )
-        return {
-            "paper": ref.model_dump(mode="json", exclude_none=True),
-            "source": source.model_dump(mode="json", exclude_none=True),
-        }
-
-    def ids_payload(ids: PaperIds) -> dict[str, Any]:
-        return ids.model_dump(mode="json", exclude_none=True)
-
-    env.filters.update(topic_label=topic_label, long_date=long_date, authors=authors)
+    env.filters.update(long_date=views.long_date)
     env.globals.update(
-        card_for=card_for,
-        card_payload=card_payload,
-        ids_payload=ids_payload,
-        column_name=board.column_name,
-        Column=board.Column,
+        pick_data=pick_data,
+        archive_data=archive_data,
+        board_data=lambda: views.board_data(b),
+        graph_data=views.graph,
         repo=site.repo,
         built_at=site.built_at,
-        topics=site.topics,
         push_key=site.push_key,
     )
     return env
@@ -144,29 +107,13 @@ def build(site: Site, out: Path) -> list[Path]:
                 f"days/{day.date.isoformat()}/graph/index.html",
                 "graph.html",
                 day=day,
-                layouts=[(v, graph_view.layout(v.graph)) for v in day.picks if v.graph],
-                role_names=graph_view.ROLE_NAMES,
+                graphs=[v for v in day.picks if v.graph],
                 nav="archive",
             )
     page("archive/index.html", "archive.html", days=days, nav="archive")
     page("settings/index.html", "settings.html", nav="settings")
 
-    b = site.data.board
-    done = sorted(
-        b.column(board.Column.DONE),
-        key=lambda c: (c.finished_on or c.added_on, c.paper.id),
-        reverse=True,
-    )
-    page(
-        "board/index.html",
-        "board.html",
-        to_read=b.column(board.Column.TO_READ),
-        reading=b.column(board.Column.READING),
-        done_recent=done[:DONE_SHOWN],
-        done_older=done[DONE_SHOWN:],
-        limit=board.TO_READ_LIMIT,
-        nav="board",
-    )
+    page("board/index.html", "board.html", nav="board")
     shutil.copytree(STATIC, out / "static")
     for path in ROOT_FILES.iterdir():
         shutil.copy(path, out / path.name)

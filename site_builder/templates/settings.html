@@ -2,50 +2,6 @@
 {% block title %}Settings · Project Academia{% endblock %}
 {% block main %}
 <h1>Settings</h1>
-<section class="settings">
-  <h2>GitHub key for the reading board</h2>
-  <p>The board is saved in the project's GitHub repository, so the daily picks can skip papers
-  you've saved. To let this site save it, give it a GitHub key once on each device. The key
-  stays in this browser and is sent only to GitHub.</p>
-  <p id="token-state" class="meta">Checking…</p>
-  <ol>
-    <li><a href="https://github.com/settings/personal-access-tokens/new?name=Project+Academia+board&amp;description=Lets+the+Project+Academia+site+save+the+reading+board&amp;expires_in=366&amp;contents=write" target="_blank" rel="noopener">Create a fine-grained key on GitHub</a>.</li>
-    <li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> and pick <strong>{{ repo.split("/")[1] }}</strong>.</li>
-    <li>Under <strong>Permissions → Repository permissions</strong>, set <strong>Contents</strong> to <strong>Read and write</strong>. Nothing else is needed.</li>
-    <li>Press <strong>Generate token</strong>, copy it, and paste it here.</li>
-  </ol>
-  <form id="token-form">
-    <label>GitHub key <input type="password" name="token" autocomplete="off" spellcheck="false" placeholder="github_pat_…" required></label>
-    <button type="submit" class="button">Save key</button>
-    <button type="button" class="button" id="token-forget">Forget key</button>
-  </form>
-</section>
-<section class="settings" id="push">
-  <h2>Notifications</h2>
-  <p>Get a notification on this device when the day's papers are up, usually before 7am
-  SAST. Tapping it opens Today. Turn it on once on each device.</p>
-  <div id="push-ios" hidden>
-    <p>On iPhone and iPad (iOS 16.4 or later):</p>
-    <ol>
-      <li>In Safari, tap the <strong>Share</strong> button, then <strong>Add to Home Screen</strong>.</li>
-      <li>Open <strong>Academia</strong> from your Home Screen and go to Settings.</li>
-      <li>Tap <strong>Turn on notifications</strong> and allow them.</li>
-      <li>Copy the sign-up code it shows into the <strong>Add notification device</strong> workflow on GitHub.</li>
-    </ol>
-  </div>
-  <p id="push-state" class="meta">Checking…</p>
-  <details id="push-code" hidden>
-    <summary>Sign-up code for this device</summary>
-    <p>To finish, copy this code, open
-    <a href="https://github.com/{{ repo }}/actions/workflows/push-device.yml" target="_blank" rel="noopener">Add notification device</a>
-    on GitHub (the GitHub app works), tap <strong>Run workflow</strong>, paste the code and run it.
-    A test notification arrives within a minute or two. You only do this once per device.</p>
-    <textarea id="push-code-text" rows="4" readonly spellcheck="false"></textarea>
-    <p><button type="button" class="button small" id="push-copy">Copy code</button></p>
-  </details>
-  <p>
-    <button type="button" class="button" id="push-on" hidden>Turn on notifications</button>
-    <button type="button" class="button" id="push-off" hidden>Turn off notifications</button>
-  </p>
-</section>
+<github-key-settings></github-key-settings>
+<push-settings></push-settings>
 {% endblock %}

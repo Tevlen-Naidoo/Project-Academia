@@ -30,6 +30,36 @@ DAY1 = dt.date(2026, 11, 4)
 DAY2 = dt.date(2026, 11, 5)
 TOPICS = load_topics()
 HREF = re.compile(r'(?:href|src)="([^"]+)"')
+STATIC = Path(render.__file__).parent / "static"
+
+
+def _attr(page: str, element: str, name: str) -> list[Any]:
+    """The JSON a page hands one of its web components, e.g. every <paper-card pick>."""
+    pattern = rf"<{element}\b[^>]*\b{name}='([^']*)'"
+    return [json.loads(html.unescape(m)) for m in re.findall(pattern, page)]
+
+
+def _json_hrefs(value: Any) -> list[str]:
+    """Every link inside a component's JSON."""
+    if isinstance(value, dict):
+        found = [v for k, v in value.items() if k.endswith("href") and isinstance(v, str)]
+        return found + [h for v in value.values() for h in _json_hrefs(v)]
+    if isinstance(value, list):
+        return [h for v in value for h in _json_hrefs(v)]
+    return []
+
+
+def _internal_links(page: Path) -> list[str]:
+    text = page.read_text("utf-8")
+    links = [html.unescape(h) for h in HREF.findall(text)]
+    for element, name in [
+        ("paper-card", "pick"),
+        ("archive-list", "days"),
+        ("paper-graph", "layout"),
+    ]:
+        links += _json_hrefs(_attr(text, element, name))
+    links += [html.unescape(h) for h in re.findall(r'(?:older|newer)-href="([^"]+)"', text)]
+    return [h for h in links if h and not h.startswith(("http://", "https://", "#"))]
 
 
 def _picks(data_dir: Path, day: dt.date, extra: list[Paper] | None = None) -> list[Paper]:
@@ -108,12 +138,28 @@ def test_every_page_and_internal_link_exists(data_dir: Path, tmp_path: Path) -> 
         "settings/index.html",
     }
     for page in pages:
-        for href in HREF.findall(page.read_text("utf-8")):
-            href = html.unescape(href)
-            if href.startswith(("http://", "https://", "#")):
-                continue
+        for href in _internal_links(page):
             target = (page.parent / href.split("#")[0]).resolve()
             assert target.exists(), f"{page.relative_to(out)} links to missing {href}"
+
+
+def test_every_component_is_defined(data_dir: Path, tmp_path: Path) -> None:
+    """Each custom element a page uses has a customElements.define in the static JS."""
+    out = tmp_path / "site"
+    pages = _build(data_dir, out)
+    defined = set()
+    for script in STATIC.glob("js/**/*.js"):
+        defined |= set(
+            re.findall(r'customElements\.define\("([a-z-]+)"', script.read_text("utf-8"))
+        )
+    used = {
+        tag for page in pages for tag in re.findall(r"<([a-z]+-[a-z-]+)", page.read_text("utf-8"))
+    }
+    assert used <= defined, used - defined
+    assert {"reading-board", "paper-card", "site-header", "push-settings"} <= used
+    app = (STATIC / "js" / "app.js").read_text("utf-8")
+    for script in STATIC.glob("js/components/*.js"):
+        assert f"./components/{script.name}" in app
 
 
 def test_today_shows_the_latest_day(data_dir: Path, tmp_path: Path) -> None:
@@ -122,9 +168,11 @@ def test_today_shows_the_latest_day(data_dir: Path, tmp_path: Path) -> None:
     index = (out / "index.html").read_text("utf-8")
     assert "Thursday 5 November 2026" in index
     assert f"days/{DAY1}/index.html" in index  # link to the day before
-    assert index.count('<article class="pick"') == 3
-    assert "Attention Is All You Need" in index
-    assert "Read before this (1)" in index
+    picks = _attr(index, "paper-card", "pick")
+    assert len(picks) == 3
+    assert [p["rank"] for p in picks] == [1, 2, 3]
+    prereqs = [pre for p in picks for pre in p["prerequisites"]]
+    assert [pre["title"] for pre in prereqs] == ["Attention Is All You Need"]
 
 
 def test_titles_are_escaped(data_dir: Path, tmp_path: Path) -> None:
@@ -132,11 +180,17 @@ def test_titles_are_escaped(data_dir: Path, tmp_path: Path) -> None:
     _build(data_dir, out)
     index = (out / "index.html").read_text("utf-8")
     assert "<script>alert(1)</script>" not in index
-    assert "&lt;script&gt;alert(1)&lt;/script&gt; &amp; co" in index
+    titles = [p["title"] for p in _attr(index, "paper-card", "pick")]
+    assert "Breaking <script>alert(1)</script> & co" in titles
 
 
 def _payloads(page: str) -> list[dict[str, Any]]:
-    return [json.loads(html.unescape(m)) for m in re.findall(r"data-card='([^']*)'", page)]
+    """The cards <board-button> would add, for every pick and prerequisite."""
+    buttons = []
+    for pick in _attr(page, "paper-card", "pick"):
+        buttons.append(pick["board"])
+        buttons += [pre["board"] for pre in pick["prerequisites"]]
+    return [b["payload"] for b in buttons]
 
 
 def test_board_buttons_carry_valid_cards(data_dir: Path, tmp_path: Path) -> None:
@@ -157,17 +211,21 @@ def test_papers_already_on_the_board_say_so(data_dir: Path, tmp_path: Path) -> N
     out = tmp_path / "site"
     _build(data_dir, out)
     index = (out / "index.html").read_text("utf-8")
-    assert "On your reading board: <span>To read</span>" in index
+    columns = [p["board"]["column"] for p in _attr(index, "paper-card", "pick")]
+    assert sorted(columns) == ["", "", "to_read"]
     board_page = (out / "board" / "index.html").read_text("utf-8")
-    assert "An older paper" in board_page
-    assert "1/10" in board_page
+    (built,) = _attr(board_page, "reading-board", "board")
+    loaded = board.Board.model_validate(built)  # the same shape board.js reads from GitHub
+    assert [c.paper.title for c in loaded.column(board.Column.DONE)] == ["An older paper"]
+    assert len(loaded.column(board.Column.TO_READ)) == 1
 
 
 def test_empty_data_still_builds(tmp_path: Path) -> None:
     out = tmp_path / "site"
     _build(tmp_path / "nothing", out)
     assert "No papers yet" in (out / "index.html").read_text("utf-8")
-    assert (out / "static" / "board.js").exists()
+    assert (out / "static" / "js" / "app.js").exists()
+    assert (out / "static" / "vendor" / "lit.js").exists()
     assert (out / ".nojekyll").exists()
 
 
@@ -216,17 +274,20 @@ def test_graph_page(data_dir: Path, tmp_path: Path) -> None:
     graph_page = out / "days" / str(DAY2) / "graph" / "index.html"
     assert graph_page in pages
     text = graph_page.read_text("utf-8")
-    assert text.count("<circle") == 4
-    assert "Some &lt;b&gt;other&lt;/b&gt; reference" in text
-    assert 'class="edge strong builds-on"' in text
-    assert "Cited by" in text
+    assert "<b>other</b>" not in text
+    (lay,) = _attr(text, "paper-graph", "layout")
+    assert len(lay["nodes"]) == 4
+    assert "Some <b>other</b> reference" in {n["title"] for n in lay["nodes"]}
+    assert [e for e in lay["edges"] if e["strong"] and e["builds_on"]]
+    ids = {n["id"] for n in lay["nodes"]}
+    assert all(e["source"] in ids and e["target"] in ids for e in lay["edges"])
+    assert "Cited by" in [t["label"] for t in lay["ticks"]]
     # The pick card links to its graph, and every internal link resolves.
-    assert "See connected papers (3)" in (out / "index.html").read_text("utf-8")
+    index = (out / "index.html").read_text("utf-8")
+    graphs = [p["graph"] for p in _attr(index, "paper-card", "pick") if p["graph"]]
+    assert [g["count"] for g in graphs] == [3]
     for page in pages:
-        for href in HREF.findall(page.read_text("utf-8")):
-            href = html.unescape(href)
-            if href.startswith(("http://", "https://", "#")):
-                continue
+        for href in _internal_links(page):
             assert (page.parent / href.split("#")[0]).resolve().exists(), href
 
 
@@ -234,7 +295,8 @@ def test_no_graph_page_without_graphs(data_dir: Path, tmp_path: Path) -> None:
     out = tmp_path / "site"
     _build(data_dir, out)
     assert not (out / "days" / str(DAY2) / "graph").exists()
-    assert "See connected papers" not in (out / "index.html").read_text("utf-8")
+    index = (out / "index.html").read_text("utf-8")
+    assert all(p["graph"] is None for p in _attr(index, "paper-card", "pick"))
 
 
 def test_installable_with_notifications(data_dir: Path, tmp_path: Path) -> None:
@@ -246,7 +308,7 @@ def test_installable_with_notifications(data_dir: Path, tmp_path: Path) -> None:
         assert (out / icon["src"]).exists()
     assert (out / "sw.js").exists()
     settings = (out / "settings" / "index.html").read_text("utf-8")
-    assert 'id="push-on"' in settings
+    assert "<push-settings>" in settings
     assert 'data-push-key=""' in settings  # no key, so notifications stay off
 
     site = render.Site(

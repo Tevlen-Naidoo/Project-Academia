@@ -1,16 +1,14 @@
 {% extends "base.html" %}
-{% from "macros.html" import pick_card with context %}
 {% block title %}{% if day %}{{ day.date|long_date }} · {% endif %}Project Academia{% endblock %}
 {% block main %}
 {% if day %}
 <h1>{{ "Today's papers" if is_today else "Papers" }} <small>{{ day.date|long_date }}</small></h1>
 {% for view in day.picks %}
-{{ pick_card(view, day) }}
+<paper-card pick='{{ pick_data(view, day, root)|tojson }}'></paper-card>
 {% endfor %}
-<nav class="pager">
-  {% if older %}<a href="{{ root }}days/{{ older.date.isoformat() }}/index.html">← {{ older.date|long_date }}</a>{% else %}<span></span>{% endif %}
-  {% if newer %}<a href="{{ root }}days/{{ newer.date.isoformat() }}/index.html">{{ newer.date|long_date }} →</a>{% endif %}
-</nav>
+<day-pager
+  {% if older %}older-href="{{ root }}days/{{ older.date.isoformat() }}/index.html" older-label="{{ older.date|long_date }}"{% endif %}
+  {% if newer %}newer-href="{{ root }}days/{{ newer.date.isoformat() }}/index.html" newer-label="{{ newer.date|long_date }}"{% endif %}></day-pager>
 {% else %}
 <h1>No papers yet</h1>
 <p>The first picks appear here after the next daily run.</p>

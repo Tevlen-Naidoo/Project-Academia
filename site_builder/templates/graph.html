@@ -1,57 +1,10 @@
 {% extends "base.html" %}
-{% from "macros.html" import paper_link %}
 {% block title %}Connected papers · {{ day.date|long_date }} · Project Academia{% endblock %}
 {% block main %}
 <h1>Connected papers <small>{{ day.date|long_date }}</small></h1>
-<p class="meta">Each drawing puts one of the day's papers among the papers it builds on (left) and the papers that cite it (right). Time runs left to right, bigger dots have more citations, and lines are citations. Click a dot to open the paper.</p>
-<ul class="legend">
-  <li><span class="dot role-pick"></span>This paper</li>
-  <li><span class="dot role-read_first"></span>Read first</li>
-  <li><span class="dot role-foundation"></span>Foundation</li>
-  <li><span class="dot role-background"></span>Background</li>
-  <li><span class="dot role-reference"></span>Other references</li>
-  <li><span class="dot role-citing"></span>Cited by</li>
-</ul>
-{% for view, lay in layouts %}
-<section class="graph-section" id="pick-{{ view.pick.rank }}">
-  <h2><a href="{{ paper_link(view.pick.paper.links) }}">{{ view.pick.paper.title }}</a></h2>
-  <div class="graph-scroll">
-  <svg class="graph" viewBox="0 0 {{ lay.width }} {{ lay.height }}" role="img" aria-label="Citation graph around {{ view.pick.paper.title }}">
-    <g class="ticks">
-    {% for t in lay.ticks %}
-      <line x1="{{ t.x }}" x2="{{ t.x }}" y1="22" y2="{{ lay.height - 8 }}"></line>
-      <text x="{{ t.x }}" y="14" text-anchor="middle">{{ t.label }}</text>
-    {% endfor %}
-    </g>
-    <g class="edges">
-    {% for e in lay.edges %}
-      <line class="edge{% if e.touches_pick %} strong{% endif %}{% if e.edge.kind == 'builds_on' %} builds-on{% endif %}" x1="{{ e.x1 }}" y1="{{ e.y1 }}" x2="{{ e.x2 }}" y2="{{ e.y2 }}"></line>
-    {% endfor %}
-    </g>
-    <g class="nodes">
-    {% for n in lay.nodes %}
-      {% set href = paper_link(n.node.paper.links) %}
-      <a {% if href %}href="{{ href }}"{% endif %} class="node role-{{ n.node.role }}">
-        <title>{{ n.node.paper.title }}{% if n.node.paper.year %} ({{ n.node.paper.year }}){% endif %}{% if n.node.paper.citations is not none %} · {{ n.node.paper.citations }} citations{% endif %}</title>
-        <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}"></circle>
-        {% if n.label %}<text x="{{ n.x - n.r - 4 if n.label_left else n.x + n.r + 4 }}" y="{{ n.y + 4 }}" text-anchor="{{ 'end' if n.label_left else 'start' }}">{{ n.label }}</text>{% endif %}
-      </a>
-    {% endfor %}
-    </g>
-  </svg>
-  </div>
-  <details class="graph-list">
-    <summary>All {{ view.graph.nodes|length }} papers in this graph</summary>
-    {% for name, nodes in lay.groups %}
-    <h3>{{ name }}</h3>
-    <ul>
-      {% for node in nodes %}
-      <li><a href="{{ paper_link(node.paper.links) }}">{{ node.paper.title }}</a> <span class="meta">{% if node.paper.year %}{{ node.paper.year }}{% endif %}{% if node.paper.citations is not none %} · {{ node.paper.citations }} citations{% endif %}</span></li>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </details>
-  <p><a href="{{ root }}days/{{ day.date.isoformat() }}/index.html#pick-{{ view.pick.rank }}">Back to the paper</a></p>
-</section>
+<p class="meta">Each drawing puts one of the day's papers among the papers it builds on (left) and the papers that cite it (right). Time runs left to right, bigger dots have more citations, and lines are citations. Point at a dot (or tap it) to see its name and the papers it links to; click it (or tap again) to open the paper.</p>
+<graph-legend></graph-legend>
+{% for view in graphs %}
+<paper-graph layout='{{ graph_data(view, day, root=root)|tojson }}'></paper-graph>
 {% endfor %}
 {% endblock %}
