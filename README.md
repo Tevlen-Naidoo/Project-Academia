@@ -125,6 +125,35 @@ candidates file is only attached to the run, for 30 days. If a run fails, nothin
 committed and the site keeps the previous day's papers; GitHub emails you about the
 failure. To fill in a missed day, run the workflow by hand with that date.
 
+## Notifications
+
+After each daily run has published the site, **Actions → Send notifications** pushes
+"3 new papers for today" with the three titles to every device that turned notifications
+on. Tapping it opens Today. It uses Web Push straight from the site (no app or outside
+service), so the site can be added to the Home Screen as an app.
+
+One-time setup:
+
+1. Make a key on your computer, in this repository: `uv run python -m notifier keys`
+   (or `openssl ecparam -name prime256v1 -genkey -noout` and copy all of its output).
+2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**,
+   name it `VAPID_PRIVATE_KEY` and paste the private key. Keep it nowhere else.
+3. Run **Actions → Publish site → Run workflow**, so the site learns the matching public key.
+
+On each iPhone or iPad (iOS 16.4 or later):
+
+1. Open the site in Safari, tap **Share → Add to Home Screen**, and open **Academia** from
+   the Home Screen.
+2. Go to **Settings**, paste your GitHub key again (the Home Screen app keeps its own copy),
+   then tap **Turn on notifications** and allow them.
+
+On a computer or Android phone, step 2 works straight from the browser. To check it all,
+run **Actions → Send notifications → Run workflow** for a test message.
+
+Devices are listed in `data/push/subscriptions.json`. A device that turns notifications off,
+or whose subscription expires, is dropped after the next send. Without the secret, the
+daily run skips notifications and the Settings page says they aren't set up.
+
 ## Layout
 
 | Path | What it is |
@@ -134,7 +163,8 @@ failure. To fill in a missed day, run the workflow by hand with that date.
 | `config/topics.yaml` | Topics, their arXiv categories and OpenAlex subfields. Edit this to change topics |
 | `scorer/` | The daily picks (`scorer/models.py` holds `Pick` and `PicksFile`) |
 | `config/scoring.yaml` | Scoring weights, light days, topic spread and repeat rules |
-| `site_builder/` | The static web app: templates, CSS and `board.js`, which saves the board |
+| `site_builder/` | The static web app: templates, CSS, `board.js`, which saves the board, and `push.js` and `root/sw.js` for notifications |
+| `notifier/` | Sends the daily Web Push notification (`python -m notifier send`) |
 | `reader/` | Prerequisite reading for the picks (`reader/models.py` holds `PaperRef` and `PrereqsFile`) and the reading board (`reader/board.py`) |
 | `schema/` | JSON Schemas generated from the models, read by the web app |
 | `data/` | Daily output: `candidates/`, `picks/`, `runs/` |

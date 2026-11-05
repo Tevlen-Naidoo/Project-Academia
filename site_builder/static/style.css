@@ -107,3 +107,4 @@ ul.legend { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .
 .dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .35rem; vertical-align: -.05rem; }
 details.graph-list h3 { font-size: 1rem; margin: .75rem 0 .25rem; }
 details.graph-list summary { cursor: pointer; }
+.settings + .settings { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: .5rem; }

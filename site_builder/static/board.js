@@ -60,46 +60,57 @@
 
   function emptyBoard() { return { schema_version: 1, cards: [] }; }
 
-  function load() {
-    var url = "/repos/" + REPO + "/contents/" + PATH + "?ref=" + BRANCH;
+  // Read a JSON file from the repository. A missing file reads as `empty`.
+  function loadFile(path, empty) {
+    var url = "/repos/" + REPO + "/contents/" + path + "?ref=" + BRANCH;
     return request("GET", url, null, getToken()).then(function (res) {
-      if (res.status === 404) return { board: emptyBoard(), sha: null };
-      if (!res.ok) throw new Error("GitHub said " + res.status + " when reading the board.");
+      if (res.status === 404) return { data: empty, sha: null };
+      if (!res.ok) throw new Error("GitHub said " + res.status + " when reading " + path + ".");
       return res.json().then(function (file) {
-        return { board: JSON.parse(decode(file.content)), sha: file.sha };
+        return { data: JSON.parse(decode(file.content)), sha: file.sha };
       });
     });
   }
 
-  function save(board, sha, message) {
-    board.updated_at = new Date().toISOString();
+  function saveFile(path, data, sha, message) {
+    data.updated_at = new Date().toISOString();
     var body = {
       message: message,
-      content: encode(JSON.stringify(board, null, 2) + "\n"),
+      content: encode(JSON.stringify(data, null, 2) + "\n"),
       branch: BRANCH
     };
     if (sha) body.sha = sha;
-    return request("PUT", "/repos/" + REPO + "/contents/" + PATH, body, getToken());
+    return request("PUT", "/repos/" + REPO + "/contents/" + path, body, getToken());
   }
 
   // Load, change, save. If someone else saved in between, start again once.
-  function change(apply, message, attempt) {
+  function changeFile(path, empty, apply, message, attempt) {
     attempt = attempt || 1;
     if (!getToken()) {
       return Promise.reject(new Error("NO_TOKEN"));
     }
-    return load().then(function (current) {
-      var result = apply(current.board);
-      return save(current.board, current.sha, message).then(function (res) {
+    return loadFile(path, empty()).then(function (current) {
+      var result = apply(current.data);
+      return saveFile(path, current.data, current.sha, message).then(function (res) {
         if ((res.status === 409 || res.status === 422) && attempt < 2) {
-          return change(apply, message, attempt + 1);
+          return changeFile(path, empty, apply, message, attempt + 1);
         }
         if (res.status === 401 || res.status === 403) {
           throw new Error("GitHub refused the key. Check it on the Settings page.");
         }
-        if (!res.ok) throw new Error("GitHub said " + res.status + " when saving the board.");
-        return { board: current.board, result: result };
+        if (!res.ok) throw new Error("GitHub said " + res.status + " when saving " + path + ".");
+        return { data: current.data, result: result };
       });
+    });
+  }
+
+  function load() {
+    return loadFile(PATH, emptyBoard()).then(function (c) { return { board: c.data, sha: c.sha }; });
+  }
+
+  function change(apply, message) {
+    return changeFile(PATH, emptyBoard, apply, message).then(function (done) {
+      return { board: done.data, result: done.result };
     });
   }
 
@@ -365,4 +376,5 @@
   }
 
   window.AcademiaBoard = { addCard: addCard, moveCard: moveCard, removeCard: removeCard, find: find };
+  window.AcademiaGitHub = { getToken: getToken, changeFile: changeFile };
 })();
