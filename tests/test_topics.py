@@ -14,6 +14,7 @@ def test_all_planned_topics_present(config: TopicsConfig) -> None:
     assert set(config.topics) == {
         "ml", "ai", "vision", "image-processing", "nlp",
         "graph-theory", "robotics", "theory", "astronomy",
+        "history", "art", "culture",
     }  # fmt: skip
     assert config.topics["astronomy"].weight == "light"
 
@@ -74,3 +75,18 @@ def test_shorthand_and_object_forms_are_equivalent() -> None:
     config = TopicsConfig.model_validate(raw)
     assert config.topics["a"].arxiv == config.topics["b"].arxiv
     assert config.topics["a"].openalex == config.topics["b"].openalex
+
+
+def test_humanities_topics(config: TopicsConfig) -> None:
+    for tag in ("history", "art", "culture"):
+        assert config.topics[tag].weight == "light"
+    assert config.tag(openalex_subfields=[1202]) == ["history"]
+    assert config.tag(openalex_subfields=[1213]) == ["art"]
+    assert config.tag(openalex_subfields=[3316]) == ["culture"]
+    assert config.tag(arxiv_categories=["physics.hist-ph"]) == ["history"]
+
+
+def test_citation_scale(config: TopicsConfig) -> None:
+    assert config.citation_scale(1202) == 0.2
+    assert config.citation_scale(1707) == 1.0
+    assert config.citation_scale(9999) == 1.0
