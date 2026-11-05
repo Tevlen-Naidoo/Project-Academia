@@ -8,15 +8,15 @@ free key. Lookups here are list calls filtered by DOI, 50 DOIs per call.
 from __future__ import annotations
 
 import datetime as dt
-import os
 import re
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 
-from pydantic import BaseModel, ConfigDict, Field, ValidationError
+from pydantic import Field, ValidationError
 
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import ARXIV_ID_RE
+from fetcher.sources.base import LenientModel, Source, SourceResult
 
 WORKS_URL = "https://api.openalex.org/works"
 DOIS_PER_CALL = 50
@@ -41,43 +41,39 @@ WAVES_PER_QUERY = 100
 """OpenAlex's maximum page size."""
 
 
-class _Lenient(BaseModel):
-    model_config = ConfigDict(extra="ignore")
-
-
-class OASource(_Lenient):
+class OASource(LenientModel):
     display_name: str | None = None
     type: str | None = None
 
 
-class OALocation(_Lenient):
+class OALocation(LenientModel):
     version: str | None = None
     landing_page_url: str | None = None
     source: OASource | None = None
 
 
-class OAAuthor(_Lenient):
+class OAAuthor(LenientModel):
     display_name: str | None = None
 
 
-class OAAuthorship(_Lenient):
+class OAAuthorship(LenientModel):
     author: OAAuthor | None = None
 
 
-class OACount(_Lenient):
+class OACount(LenientModel):
     year: int
     cited_by_count: int = 0
 
 
-class OASubfield(_Lenient):
+class OASubfield(LenientModel):
     id: str
 
 
-class OATopic(_Lenient):
+class OATopic(LenientModel):
     subfield: OASubfield | None = None
 
 
-class OAWork(_Lenient):
+class OAWork(LenientModel):
     id: str
     doi: str | None = None
     title: str | None = None
@@ -162,14 +158,16 @@ def arxiv_doi(arxiv_id: str) -> str:
 
 
 @dataclass(slots=True)
-class OAResult:
+class OAResult(SourceResult):
     works: dict[str, OAWork] = field(default_factory=dict)
     """Keyed by lowercase bare DOI."""
     requested: int = 0
-    errors: list[str] = field(default_factory=list)
 
 
-class OpenAlexSource:
+class OpenAlexSource(Source):
+    request_interval_s = REQUEST_INTERVAL_S
+    api_key_env = "OPENALEX_API_KEY"
+
     def __init__(
         self,
         http: HttpClient,
@@ -178,11 +176,7 @@ class OpenAlexSource:
         limiter: RateLimiter | None = None,
         per_call: int = DOIS_PER_CALL,
     ) -> None:
-        self._http = http
-        self._api_key = (
-            api_key if api_key is not None else os.environ.get("OPENALEX_API_KEY") or None
-        )
-        self._limiter = limiter or RateLimiter(REQUEST_INTERVAL_S)
+        super().__init__(http, limiter=limiter, api_key=api_key)
         self._per_call = per_call
 
     def by_dois(self, dois: Sequence[str]) -> OAResult:
@@ -198,7 +192,7 @@ class OpenAlexSource:
             if self._api_key:
                 params["api_key"] = self._api_key
             try:
-                response = self._http.get(WORKS_URL, limiter=self._limiter, params=params)
+                response = self._get(WORKS_URL, params=params)
                 rows = response.json().get("results", [])
             except Exception as exc:  # report and move on
                 result.errors.append(f"dois at {start}: {type(exc).__name__}: {exc}")
@@ -241,5 +235,5 @@ class OpenAlexSource:
         }
         if self._api_key:
             params["api_key"] = self._api_key
-        response = self._http.get(WORKS_URL, limiter=self._limiter, params=params)
+        response = self._get(WORKS_URL, params=params)
         return [OAWork.model_validate(row) for row in response.json().get("results", [])]

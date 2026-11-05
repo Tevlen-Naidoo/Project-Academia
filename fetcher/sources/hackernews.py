@@ -10,9 +10,9 @@ import datetime as dt
 import re
 from dataclasses import dataclass, field
 
-from pydantic import BaseModel, ConfigDict, ValidationError
+from pydantic import ValidationError
 
-from fetcher.http import HttpClient, RateLimiter
+from fetcher.sources.base import LenientModel, Source, SourceResult
 
 SEARCH_URL = "https://hn.algolia.com/api/v1/search_by_date"
 HITS_PER_PAGE = 1000
@@ -24,11 +24,7 @@ _ARXIV_RE = re.compile(r"arxiv\.org/(?:abs|pdf|html)/(?P<id>\d{4}\.\d{4,5}|[a-z-
 _DOI_RE = re.compile(r"doi\.org/(?P<doi>10\.\d{4,9}/[^\s?#]+)", re.IGNORECASE)
 
 
-class _Lenient(BaseModel):
-    model_config = ConfigDict(extra="ignore")
-
-
-class HNHit(_Lenient):
+class HNHit(LenientModel):
     url: str | None = None
     points: int | None = None
     num_comments: int | None = None
@@ -41,12 +37,11 @@ class HNBuzz:
 
 
 @dataclass(slots=True)
-class HNResult:
+class HNResult(SourceResult):
     by_arxiv: dict[str, HNBuzz] = field(default_factory=dict)
     by_doi: dict[str, HNBuzz] = field(default_factory=dict)
     """Keyed by lowercase DOI."""
     stories: int = 0
-    errors: list[str] = field(default_factory=list)
 
 
 def paper_key(url: str) -> tuple[str, str] | None:
@@ -66,19 +61,16 @@ def _add(table: dict[str, HNBuzz], key: str, hit: HNHit) -> None:
     table[key] = HNBuzz(old.points + (hit.points or 0), old.comments + (hit.num_comments or 0))
 
 
-class HackerNewsSource:
-    def __init__(self, http: HttpClient, *, limiter: RateLimiter | None = None) -> None:
-        self._http = http
-        self._limiter = limiter or RateLimiter(REQUEST_INTERVAL_S)
+class HackerNewsSource(Source):
+    request_interval_s = REQUEST_INTERVAL_S
 
     def recent(self, *, since: dt.datetime) -> HNResult:
         result = HNResult()
         for query in QUERIES:
             for page in range(MAX_PAGES):
                 try:
-                    response = self._http.get(
+                    response = self._get(
                         SEARCH_URL,
-                        limiter=self._limiter,
                         params={
                             "query": query,
                             "tags": "story",

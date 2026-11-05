@@ -7,15 +7,15 @@ all anonymous users, so we stay at 1 per second either way.
 
 from __future__ import annotations
 
-import os
 import time
 from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 
 import httpx
-from pydantic import BaseModel, ConfigDict, Field, ValidationError
+from pydantic import Field, ValidationError
 
 from fetcher.http import HttpClient, RateLimiter
+from fetcher.sources.base import LenientModel, Source, SourceResult
 
 BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 BATCH_SIZE = 250
@@ -43,24 +43,20 @@ FIELDS = ",".join(
 )
 
 
-class _Lenient(BaseModel):
-    model_config = ConfigDict(extra="ignore", populate_by_name=True)
-
-
-class S2Venue(_Lenient):
+class S2Venue(LenientModel):
     name: str | None = None
     type: str | None = None
 
 
-class S2Journal(_Lenient):
+class S2Journal(LenientModel):
     name: str | None = None
 
 
-class S2Tldr(_Lenient):
+class S2Tldr(LenientModel):
     text: str | None = None
 
 
-class S2Paper(_Lenient):
+class S2Paper(LenientModel):
     paper_id: str = Field(alias="paperId")
     external_ids: dict[str, str | int] = Field(default_factory=dict, alias="externalIds")
     venue: str | None = None
@@ -79,11 +75,10 @@ class S2Paper(_Lenient):
 
 
 @dataclass(slots=True)
-class S2Result:
+class S2Result(SourceResult):
     papers: dict[str, S2Paper] = field(default_factory=dict)
     """Keyed by the id we asked with, e.g. `ARXIV:2410.12345`."""
     requested: int = 0
-    errors: list[str] = field(default_factory=list)
 
 
 def lookup_id(*, arxiv: str | None, doi: str | None) -> str | None:
@@ -94,7 +89,10 @@ def lookup_id(*, arxiv: str | None, doi: str | None) -> str | None:
     return None
 
 
-class SemanticScholarSource:
+class SemanticScholarSource(Source):
+    request_interval_s = REQUEST_INTERVAL_S
+    api_key_env = "S2_API_KEY"
+
     def __init__(
         self,
         http: HttpClient,
@@ -105,12 +103,10 @@ class SemanticScholarSource:
         time_budget_s: float = TIME_BUDGET_S,
         clock: Callable[[], float] = time.monotonic,
     ) -> None:
-        self._http = http
+        super().__init__(http, limiter=limiter, api_key=api_key)
         self._time_budget_s = time_budget_s
         self._clock = clock
         self._deadline = 0.0
-        self._api_key = api_key if api_key is not None else os.environ.get("S2_API_KEY") or None
-        self._limiter = limiter or RateLimiter(REQUEST_INTERVAL_S)
         self._batch_size = batch_size
 
     def batch(self, ids: Sequence[str]) -> S2Result:
@@ -134,9 +130,8 @@ class SemanticScholarSource:
         headers = {"x-api-key": self._api_key} if self._api_key else None
         problem: str
         try:
-            response = self._http.post(
+            response = self._post(
                 BATCH_URL,
-                limiter=self._limiter,
                 params={"fields": FIELDS},
                 headers=headers,
                 json={"ids": chunk},
