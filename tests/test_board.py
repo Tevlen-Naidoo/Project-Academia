@@ -11,7 +11,7 @@ from pydantic import ValidationError
 
 from fetcher.http import HttpClient, RateLimiter
 from fetcher.models import CandidatesFile, Links, PaperIds
-from reader import board, cli
+from reader import board, cli, finder
 from reader.board import (
     TO_READ_LIMIT,
     Board,
@@ -22,7 +22,7 @@ from reader.board import (
     SourceKind,
 )
 from reader.lookup import PaperLookup, find_local, parse_ids
-from reader.models import PaperRef
+from reader.models import PaperRef, PrereqsFile
 
 TODAY = dt.date(2026, 11, 5)
 NOW = dt.datetime(2026, 11, 5, 8, 0, tzinfo=dt.UTC)
@@ -269,3 +269,28 @@ def test_cli_prereq_source(tmp_path: Path, paper_data: dict[str, Any]) -> None:
     assert source.kind is SourceKind.PREREQUISITE
     assert source.pick_id == "arxiv:2411.00001"
     assert source.date == dt.date(2026, 11, 4)
+
+
+def test_prereqs_skip_board_papers(
+    tmp_path: Path, paper_data: dict[str, Any], monkeypatch: pytest.MonkeyPatch
+) -> None:
+    candidates = CandidatesFile.model_validate(
+        {"date": "2026-11-05", "generated_at": "2026-11-05T06:00:00Z", "papers": [paper_data]}
+    )
+    file = tmp_path / "candidates.json"
+    file.write_text(candidates.model_dump_json())
+    b = Board()
+    b.add(_ref("1706.03762"), today=TODAY)
+    b.move(PaperIds(arxiv="1706.03762"), Column.DONE, today=TODAY)
+    board.save(b, tmp_path / "board.json", now=NOW)
+
+    seen: dict[str, set[str]] = {}
+
+    def fake_run(_http: object, _picks: object, options: finder.FinderOptions) -> PrereqsFile:
+        seen["exclude"] = options.exclude
+        return PrereqsFile(date=TODAY, generated_at=NOW)
+
+    monkeypatch.setattr(finder, "run", fake_run)
+    argv = ["prereqs", str(file), "--date", "2026-11-05", "--data-dir", str(tmp_path)]
+    assert cli.main(argv) == 0
+    assert "arxiv:1706.03762" in seen["exclude"]
