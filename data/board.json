@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "paper": {
+        "citations": 103570,
+        "id": "doi:10.1162/neco.1997.9.8.1735",
+        "ids": {
+          "doi": "10.1162/neco.1997.9.8.1735",
+          "openalex": "W2064675550"
+        },
+        "is_review": false,
+        "links": {
+          "abstract_page": "https://openalex.org/W2064675550",
+          "doi": "https://doi.org/10.1162/neco.1997.9.8.1735"
+        },
+        "title": "Long Short-Term Memory",
+        "venue": "Neural Computation",
+        "year": 1997
+      },
+      "column": "to_read",
+      "source": {
+        "date": "2026-11-05",
+        "kind": "prerequisite",
+        "pick_id": "doi:10.1109/jiot.2026.3652582"
+      },
+      "added_on": "2026-11-05"
+    }
+  ],
+  "updated_at": "2026-11-05T09:12:42.506Z"
+}
