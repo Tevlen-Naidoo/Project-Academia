@@ -2,7 +2,7 @@ name: Fetch candidates (manual)
 
 # Runs the fetcher and the scorer on demand and uploads the candidates and
 # picks files as a workflow artifact. It does not commit anything, so every
-# run scores without past picks; the daily schedule comes in step 4.
+# run scores without past picks. The daily schedule is in daily.yml.
 
 on:
   workflow_dispatch:

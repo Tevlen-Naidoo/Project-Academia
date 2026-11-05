@@ -1,0 +1,98 @@
+name: Daily papers
+
+# Every morning: fetch candidates, pick 3 papers, find what to read first,
+# commit the picks and prerequisites, and republish the site.
+# 03:15 UTC is 05:15 SAST. GitHub often starts scheduled runs late, and a run
+# takes about 10 minutes, so this leaves room for the papers to be up by 07:00 SAST.
+# Run it by hand (Actions -> Daily papers -> Run workflow) to fill in a missed day.
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Day to pick for (YYYY-MM-DD). Leave empty for today."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-papers
+  cancel-in-progress: false
+
+jobs:
+  papers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked --no-dev
+      - name: Choose the day
+        id: day
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          day="${INPUT_DATE:-$(date -u +%F)}"
+          if ! [[ "$day" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "Not a date: $day" >&2
+            exit 1
+          fi
+          echo "date=$day" >> "$GITHUB_OUTPUT"
+      - name: Fetch
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: uv run python -m fetcher run --date "${{ steps.day.outputs.date }}"
+      - name: Score
+        run: uv run python -m scorer run --date "${{ steps.day.outputs.date }}"
+      - name: Find prerequisites
+        # A failure here leaves out that day's prerequisites; the picks still go up.
+        continue-on-error: true
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: uv run python -m reader prereqs --date "${{ steps.day.outputs.date }}"
+      - name: Commit
+        env:
+          DAY: ${{ steps.day.outputs.date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add "data/picks/$DAY.json"
+          if [ -f "data/prereqs/$DAY.json" ]; then git add "data/prereqs/$DAY.json"; fi
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Daily papers for $DAY"
+          # A board save from the site may have landed during the run.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            sleep $((attempt * 5))
+            git pull --rebase
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-${{ steps.day.outputs.date }}
+          path: |
+            data/candidates/*.json
+            data/picks/*.json
+            data/prereqs/*.json
+          retention-days: 30
+          if-no-files-found: warn
+  publish:
+    needs: papers
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
