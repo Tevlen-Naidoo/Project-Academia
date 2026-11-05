@@ -11,7 +11,8 @@ Steps 1 and 2 of 4: the paper fetcher and the scorer. Two funnels feed the daily
 
 - **Fresh:** arXiv papers from the last 7 days in the configured categories.
 - **Making waves:** the most-cited papers of the last 18 months per topic, from OpenAlex,
-  split into a 0 to 6 month and a 6 to 18 month window.
+  split into a 0 to 6 month and a 6 to 18 month window. Older work with a new publication
+  date (a reprint, or the journal version of an old preprint) is left out.
 
 Every candidate is enriched with citations, venue and published status from Semantic
 Scholar and OpenAlex, then trimmed with a quota per topic and per funnel (up to 200 fresh
@@ -29,7 +30,8 @@ which embeds each full paper with its score, score breakdown and a one-line reas
 
 - Each signal (buzz, publication status, citations per month, influential citations,
   recency) becomes a percentile, then the signals are weighted. New and making-waves papers
-  have their own weights; the scores alone decide the mix. Citations are compared within
+  have their own weights, and each funnel's scores are scaled so its best paper scores 1;
+  the scores alone decide the mix. Citations are compared within
   a topic, so slow-citing fields can compete.
 - The 3 picks come from different topics. On Monday, Wednesday and Friday one slot goes to
   a light topic (astronomy, history, art, culture).

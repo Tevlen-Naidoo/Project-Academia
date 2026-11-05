@@ -1,8 +1,9 @@
 # Settings for step 2, which picks the day's papers from the candidates file.
 #
 # Every signal is turned into a percentile (0 to 1) before weighting, so the
-# weights of each funnel should add up to 1. A paper in both funnels gets the
-# higher of its two scores.
+# weights of each funnel should add up to 1. Each funnel's scores are then
+# scaled so its best paper scores 1, so new and making-waves papers compete
+# evenly. A paper in both funnels gets the higher of its two scores.
 
 version: 1
 

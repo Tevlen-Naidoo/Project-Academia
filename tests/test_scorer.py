@@ -409,3 +409,16 @@ def test_cli_skips_papers_on_the_board(tmp_path: Path, capsys: pytest.CaptureFix
 
 def test_cli_without_candidates(tmp_path: Path) -> None:
     assert cli.main(["run", "--date", "2026-11-05", "--data-dir", str(tmp_path)]) == 1
+
+
+def test_each_funnel_tops_out_at_one() -> None:
+    """A new preprint can't reach a cited, published paper's raw score, but competes evenly."""
+    fresh = [make_paper(i, upvotes=10 * i) for i in range(1, 4)]
+    waves = [
+        make_paper(10 + i, funnel=(Funnel.WAVES,), per_month=5.0 * i, status="published")
+        for i in range(1, 4)
+    ]
+    scored = {s.paper.id: s for s in score_all([*fresh, *waves], CONFIG, THURSDAY)}
+    assert scored[fresh[-1].id].score == 1.0
+    assert scored[waves[-1].id].score == 1.0
+    assert scored[fresh[0].id].score < 1.0
