@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T05:17:27.192092Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.1287/orsc.2026.ed.v37.n3",
+      "pick_title": "More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review",
+      "source": "openalex",
+      "references_seen": 12,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1177/00018392241304403",
+            "ids": {
+              "doi": "10.1177/00018392241304403",
+              "openalex": "W4405822361"
+            },
+            "title": "Resisting the Algorithmic Management of Science: Craft and Community After Generative AI",
+            "year": 2024,
+            "venue": "Administrative Science Quarterly",
+            "citations": 68,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4405822361",
+              "doi": "https://doi.org/10.1177/00018392241304403"
+            }
+          },
+          "label": "background",
+          "score": 1.471,
+          "reasons": [
+            "68 citations"
+          ],
+          "supports": [
+            "doi:10.1287/orsc.2026.ed.v37.n3"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2507.13347",
+      "pick_title": "$π^3$: Permutation-Equivariant Visual Geometry Learning",
+      "source": "s2",
+      "references_seen": 50,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2503.11651",
+            "ids": {
+              "arxiv": "2503.11651",
+              "doi": "10.1109/cvpr52734.2025.00499",
+              "s2": "4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c"
+            },
+            "title": "VGGT: Visual Geometry Grounded Transformer",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 2179,
+            "influential_citations": 544,
+            "is_review": false,
+            "tldr": "VGGT is presented, a feed-forward neural network that directly infers all key 3D attributes of a scene, including camera parameters, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views, a step forward in 3D computer vision.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.11651",
+              "pdf": "https://arxiv.org/pdf/2503.11651",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.00499"
+            }
+          },
+          "label": "background",
+          "score": 7.039,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.2k citations"
+          ],
+          "quote": "For sparse views, keyframes are sampled with a stride of 200 (7-Scenes) or 500 (NRGBD), while for dense views, the stride is reduced [36] 0.093 0.049 0.102 0.051 0.704 0.805 0.104 0.041 0.079 0.031 0.822 0.968 FLARE[47] 0.085 0.057 0.145 0.107 0.696 0.780 0.053 0.024 0.051 0.025 0.877 0.988 VGGT[34…",
+          "supports": [
+            "arxiv:2507.13347"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.14132",
+            "ids": {
+              "arxiv": "2312.14132",
+              "doi": "10.1109/cvpr52733.2024.01956",
+              "s2": "5f82a81766cb78395a55b8fc697c2421a20f4a9e"
+            },
+            "title": "DUSt3R: Geometric 3D Vision Made Easy",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 2145,
+            "influential_citations": 337,
+            "is_review": false,
+            "tldr": "DUSt3R is introduced, a radically novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, operating without prior infor-mation about camera calibration nor viewpoint poses, and it is shown that this formulation smoothly unifies the monocular and binocular reconstruction cases.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.14132",
+              "pdf": "https://arxiv.org/pdf/2312.14132",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.01956"
+            }
+          },
+          "label": "background",
+          "score": 6.93,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.1k citations"
+          ],
+          "quote": "Following prior work [34, 39], we evaluate predicted camera poses on the scene-level RealEstate10K [49] and object-centric Co3Dv2 [21] datasets, both featuring over 1000 test sequences.",
+          "supports": [
+            "arxiv:2507.13347"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2014.59",
+            "ids": {
+              "doi": "10.1109/cvpr.2014.59",
+              "s2": "736baa2d935ebffca0683bdc729dff36eba15d68"
+            },
+            "title": "Large Scale Multi-view Stereopsis Evaluation",
+            "year": 2014,
+            "venue": "2014 IEEE Conference on Computer Vision and Pattern Recognition",
+            "citations": 1109,
+            "influential_citations": 213,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/736baa2d935ebffca0683bdc729dff36eba15d68",
+              "doi": "https://doi.org/10.1109/cvpr.2014.59"
+            }
+          },
+          "label": "background",
+          "score": 6.601,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.1k citations"
+          ],
+          "quote": "…0.049 0.102 0.051 0.704 0.805 0.104 0.041 0.079 0.031 0.822 0.968 FLARE[47] 0.085 0.057 0.145 0.107 0.696 0.780 0.053 0.024 0.051 0.025 0.877 0.988 VGGT[34] 0.044 0.025 0.056 0.033 0.733 0.845 0.051 0.029 0.066 0.038 0.890 0.981 π 3 (Ours) 0.047 0.029 0.075 0.049 0.742 0.841 0.026 0.015 0.028…",
+          "supports": [
+            "arxiv:2507.13347"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1093/nar/gkaf361",
+      "pick_title": "PLIP 2025: introducing protein–protein interactions to the protein–ligand interaction profiler",
+      "source": "s2",
+      "references_seen": 14,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-024-07487-w",
+            "ids": {
+              "doi": "10.1038/s41586-024-07487-w",
+              "s2": "7572ba7f604ef95d7acdd657ebac458106bd35df"
+            },
+            "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+            "year": 2024,
+            "venue": "Nature",
+            "citations": 15338,
+            "influential_citations": 1240,
+            "is_review": false,
+            "tldr": "The new AlphaFold model demonstrates substantially improved accuracy over many previous specialized tools: far greater accuracy for protein–ligand interactions compared with state-of-the-art docking tools, much higher accuracy for protein–nucleic acid interactions compared with nucleic-acid-specific predictors and substantially higher antibody–antigen prediction accuracy.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7572ba7f604ef95d7acdd657ebac458106bd35df",
+              "doi": "https://doi.org/10.1038/s41586-024-07487-w"
+            }
+          },
+          "label": "background",
+          "score": 4.896,
+          "reasons": [
+            "15k citations"
+          ],
+          "quote": "With the growth of the protein databank PDB [ 1 ] and the availability of millions of predicted protein structures [ 2 , 3 ], there is a need to analyze molecular interactions be-tween protein targets and small molecules, DNA, RNA, peptides, and proteins.",
+          "supports": [
+            "doi:10.1093/nar/gkaf361"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/nar/gkv315",
+            "ids": {
+              "doi": "10.1093/nar/gkv315",
+              "s2": "9fb2bf7b0fb083b764794b82486189b314e6e9ab"
+            },
+            "title": "PLIP: fully automated protein–ligand interaction profiler",
+            "year": 2015,
+            "venue": "Nucleic Acids Res.",
+            "citations": 2199,
+            "influential_citations": 157,
+            "is_review": false,
+            "tldr": "The protein-ligand interaction profiler (PLIP) is presented, a novel web service for fully automated detection and visualization of relevant non-covalent protein–ligand contacts in 3D structures, freely available at projects.tu-dresden.de/plip-web.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9fb2bf7b0fb083b764794b82486189b314e6e9ab",
+              "doi": "https://doi.org/10.1093/nar/gkv315"
+            }
+          },
+          "label": "background",
+          "score": 3.773,
+          "reasons": [
+            "2.2k citations"
+          ],
+          "quote": "Over the past decade, PLIP [ 5 , 6 ] has been widely used in three main application areas: 1.",
+          "supports": [
+            "doi:10.1093/nar/gkaf361"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/nar/gkab294",
+            "ids": {
+              "doi": "10.1093/nar/gkab294",
+              "s2": "fa13632c756a92f0f5fc47f337de3890133482d7"
+            },
+            "title": "PLIP 2021: expanding the scope of the protein–ligand interaction profiler to DNA and RNA",
+            "year": 2021,
+            "venue": "Nucleic Acids Res.",
+            "citations": 1829,
+            "influential_citations": 114,
+            "is_review": false,
+            "tldr": "The power of the extended PLIP to encompass interactions with DNA and RNA is demonstrated with examples of a cancer drug binding to a DNA target, and an RNA–protein complex central to a neurological disease.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fa13632c756a92f0f5fc47f337de3890133482d7",
+              "doi": "https://doi.org/10.1093/nar/gkab294"
+            }
+          },
+          "label": "background",
+          "score": 3.64,
+          "reasons": [
+            "1.8k citations"
+          ],
+          "quote": "Over the past decade, PLIP [ 5 , 6 ] has been widely used in three main application areas: 1.",
+          "supports": [
+            "doi:10.1093/nar/gkaf361"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

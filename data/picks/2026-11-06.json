@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T05:17:20.622001Z",
+  "candidates_file": "candidates/2026-11-06.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "history",
+      "funnel": "waves",
+      "score": 0.9973,
+      "adjusted": 0.9973,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9667,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9667,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "54 citations, about 9 a month · Published in Organization science (Providence, R.I.)",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1287/orsc.2026.ed.v37.n3",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1287/orsc.2026.ed.v37.n3",
+          "s2": "c4129625d94072e4fab25d462109598026a7bdc1",
+          "openalex": "W7155816294"
+        },
+        "title": "More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review",
+        "authors": [
+          {
+            "name": "Claudine Madras Gartenberg",
+            "affiliation": null
+          },
+          {
+            "name": "Sharique Hasan",
+            "affiliation": null
+          },
+          {
+            "name": "Alex Murray",
+            "affiliation": null
+          },
+          {
+            "name": "Lamar Pierce",
+            "affiliation": null
+          }
+        ],
+        "abstract": "As the AI Task Force for Organization Science, we provide an early account of artificial intelligence’s (AI) impact on both submissions and reviews at a major academic journal. Submission volume has risen 42% since the late 2022 release of ChatGPT, while writing quality has declined. The rise in AI-generated writing accounts for nearly all of these trends. AI-generated writing in reviews has also increased, and is characterized by lower writing quality and less topical diversity than human-generated writing. We are, to our knowledge, the first journal to report these early impacts of AI in the review process. Conversations with editors across scientific disciplines, however, suggest that what we observe is not limited to our journal or to the social sciences. At this early stage of AI adoption, we cannot make a normative assessment about appropriate or ideal levels of AI usage. We can, however, conclude that the current state of AI tools, amplified by existing publish-or-perish incentives, appears to be pushing the system toward an equilibrium of more rather than better research. Reaching an equilibrium in which AI serves as a critical engine of innovation will require that our institutions and the incentive structures they create adapt. Funding: S. Hasan used research funding from Duke University’s Fuqua School of Business. C. Gartenberg used research funding from University of Pennsylvania’s Wharton School. Supplemental Material: The online appendix is available at https://doi.org/10.1287/orsc.2026.ed.v37.n3 .",
+        "tldr": "It is concluded that the current state of AI tools, amplified by existing publish-or-perish incentives, appears to be pushing the system toward an equilibrium of more rather than better research.",
+        "topics": [
+          "history"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-06",
+          "submitted": null,
+          "published": "2026-04-27"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Organization science (Providence, R.I.)",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 54,
+          "influential": 4,
+          "last_12_months": 53,
+          "per_month": 8.517,
+          "by_year": {
+            "2026": 53
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1287/orsc.2026.ed.v37.n3",
+          "pdf": null,
+          "doi": "https://doi.org/10.1287/orsc.2026.ed.v37.n3",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-06T05:11:50.554478Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "waves",
+      "score": 0.9606,
+      "adjusted": 0.9606,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9286,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "412 citations, about 26 a month · Published in International Conference on Learning Representations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2507.13347",
+        "ids": {
+          "arxiv": "2507.13347",
+          "doi": null,
+          "s2": "5bcba424f2d550a8321fa50a43bebe8751e2d2a5",
+          "openalex": "W4416063870"
+        },
+        "title": "$π^3$: Permutation-Equivariant Visual Geometry Learning",
+        "authors": [
+          {
+            "name": "Wang, Yifan",
+            "affiliation": null
+          },
+          {
+            "name": "Jianjun Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Haoyi Zhu",
+            "affiliation": null
+          },
+          {
+            "name": "Chang, Wenzheng",
+            "affiliation": null
+          },
+          {
+            "name": "Yang Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Zizun Li",
+            "affiliation": null
+          },
+          {
+            "name": "Junyi Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Jiangmiao Pang",
+            "affiliation": null
+          },
+          {
+            "name": "Chunhua Shen",
+            "affiliation": null
+          },
+          {
+            "name": "He, Tong",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We introduce $π^3$, a feed-forward neural network that offers a novel approach to visual geometry reconstruction, breaking the reliance on a conventional fixed reference view. Previous methods often anchor their reconstructions to a designated viewpoint, an inductive bias that can lead to instability and failures if the reference is suboptimal. In contrast, $π^3$ employs a fully permutation-equivariant architecture to predict affine-invariant camera poses and scale-invariant local point maps without any reference frames. This design not only makes our model inherently robust to input ordering, but also leads to higher accuracy and performance. These advantages enable our simple and bias-free approach to achieve state-of-the-art performance on a wide range of tasks, including camera pose estimation, monocular/video depth estimation, and dense point map reconstruction. Code and models are available at https://github.com/yyfz/Pi3.",
+        "tldr": "A feed-forward neural network that offers a novel approach to visual geometry reconstruction, breaking the reliance on a conventional fixed reference view, and employs a fully permutation-equivariant architecture to predict affine-invariant camera poses and scale-invariant local point maps without any reference frames.",
+        "topics": [
+          "vision"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-06",
+          "submitted": "2025-07-17",
+          "published": "2025-07-17"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "International Conference on Learning Representations",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 412,
+          "influential": 91,
+          "last_12_months": 65,
+          "per_month": 26.292,
+          "by_year": {
+            "2026": 65,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2507.13347",
+          "pdf": "https://arxiv.org/pdf/2507.13347",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-06T05:11:50.554478Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.9606,
+      "adjusted": 0.9606,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9211,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9167,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "350 citations, about 20 a month · Published in Nucleic Acids Research",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1093/nar/gkaf361",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1093/nar/gkaf361",
+          "s2": "41183c787b1ec6243243b064311eecda84f1e484",
+          "openalex": "W4410251219"
+        },
+        "title": "PLIP 2025: introducing protein–protein interactions to the protein–ligand interaction profiler",
+        "authors": [
+          {
+            "name": "Philipp Schake",
+            "affiliation": null
+          },
+          {
+            "name": "Sarah Naomi Bolz",
+            "affiliation": null
+          },
+          {
+            "name": "Katja L Linnemann",
+            "affiliation": null
+          },
+          {
+            "name": "Michael Schroeder",
+            "affiliation": null
+          }
+        ],
+        "abstract": "PLIP, the protein-ligand interaction profiler, analyses molecular interactions in protein structures. PLIP detects eight types of non-covalent interactions. Initially focused on small-molecule, DNA, and RNA interactions to a protein, the current release incorporates protein-protein interactions. We document the usefulness of this feature by comparing PLIP interactions of the cancer drug venetoclax with the native protein-protein interaction of Bcl-2 and BAX. PLIP reveals how the drug mimics the native interaction, as there is critical overlap in the interaction profiles. PLIP is available as a web server, source code with containers, and Jupyter notebook. The PLIP web server is online at https://plip-tool.biotec.tu-dresden.de.",
+        "tldr": "Comparing PLIP interactions of the cancer drug venetoclax with the native protein–protein interaction of Bcl-2 and BAX reveals how the drug mimics the native interaction, as there is critical overlap in the interaction profiles.",
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-06",
+          "submitted": null,
+          "published": "2025-05-09"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Nucleic Acids Research",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 350,
+          "influential": 31,
+          "last_12_months": 324,
+          "per_month": 19.513,
+          "by_year": {
+            "2026": 316,
+            "2025": 51
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1093/nar/gkaf361",
+          "pdf": null,
+          "doi": "https://doi.org/10.1093/nar/gkaf361",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-06T05:11:50.554478Z"
+      }
+    }
+  ]
+}
