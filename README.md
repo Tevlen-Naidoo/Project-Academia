@@ -190,8 +190,9 @@ npm run preview   # build exactly what gets published into site/ and serve it on
 
 ## Daily run
 
-**Actions → Daily papers** runs every day at 03:15 UTC (05:15 SAST), so the papers are up
-by 07:00 SAST. It fetches the candidates, picks 3 papers, finds what to read first,
+**Actions → Daily papers** is scheduled at 05:17, 05:47 and 06:17 SAST, so the papers are up
+by 07:00 SAST even if GitHub drops a scheduled start (it does at busy times). The first run
+makes the day's papers; the later ones see they are already up and stop. It fetches the candidates, picks 3 papers, finds what to read first,
 commits `data/picks/` and `data/prereqs/` for the day, and republishes the site. The
 candidates file is only attached to the run, for 30 days. If a run fails, nothing is
 committed and the site keeps the previous day's papers; GitHub emails you about the
