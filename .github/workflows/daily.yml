@@ -2,13 +2,19 @@ name: Daily papers
 
 # Every morning: fetch candidates, pick 3 papers, find what to read first,
 # commit the picks and prerequisites, and republish the site.
-# 03:15 UTC is 05:15 SAST. GitHub often starts scheduled runs late, and a run
-# takes about 10 minutes, so this leaves room for the papers to be up by 07:00 SAST.
-# Run it by hand (Actions -> Daily papers -> Run workflow) to fill in a missed day.
+# GitHub starts scheduled runs late at busy times and sometimes drops them
+# altogether (on 2026-11-06 the 03:15 UTC run never started). So there are three
+# start times, 05:17, 05:47 and 06:17 SAST: the first one to run makes the day's
+# papers, and the later ones see today's picks file and stop at once. A run takes
+# about 10 minutes, so the papers are up by 07:00 SAST even if two are dropped.
+# Run it by hand (Actions -> Daily papers -> Run workflow) to fill in a missed day;
+# a run by hand always runs, even if the day's picks exist.
 
 on:
   schedule:
-    - cron: "15 3 * * *"
+    - cron: "17 3 * * *"
+    - cron: "47 3 * * *"
+    - cron: "17 4 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -24,7 +30,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    # A scheduled run stops here if an earlier start time already made today's papers.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      done: ${{ steps.check.outputs.done }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          sparse-checkout: data/picks
+      - id: check
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          day="$(date -u +%F)"
+          if [ "$EVENT" = "schedule" ] && [ -f "data/picks/$day.json" ]; then
+            echo "Today's papers ($day) are already up."
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
   papers:
+    needs: check
+    if: needs.check.outputs.done != 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     outputs:
