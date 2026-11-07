@@ -2,13 +2,14 @@ name: Daily papers
 
 # Every morning: fetch candidates, pick 3 papers, find what to read first,
 # commit the picks and prerequisites, and republish the site.
-# GitHub starts scheduled runs late at busy times and sometimes drops them
-# altogether (on 2026-11-06 the 03:15 UTC run never started). So there are three
-# start times, 05:17, 05:47 and 06:17 SAST: the first one to run makes the day's
-# papers, and the later ones see today's picks file and stop at once. A run takes
-# about 10 minutes, so the papers are up by 07:00 SAST even if two are dropped.
+# GitHub's own schedule is unreliable: on 2026-11-06 and 2026-11-07 none of the
+# scheduled runs started (a known GitHub problem). So an outside caller also
+# starts the run each morning through workflow_dispatch with if_needed=true.
+# Whichever starts first (the outside call or one of the three cron times,
+# 05:17, 05:47 and 06:17 SAST) makes the day's papers; the others see today's
+# picks file and stop at once.
 # Run it by hand (Actions -> Daily papers -> Run workflow) to fill in a missed day;
-# a run by hand always runs, even if the day's picks exist.
+# a run by hand always runs unless "only if needed" is ticked.
 
 on:
   schedule:
@@ -21,6 +22,11 @@ on:
         description: "Day to pick for (YYYY-MM-DD). Leave empty for today."
         required: false
         default: ""
+      if_needed:
+        description: "Only if today's papers aren't up yet (for automated callers)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -31,7 +37,7 @@ concurrency:
 
 jobs:
   check:
-    # A scheduled run stops here if an earlier start time already made today's papers.
+    # A scheduled or if_needed run stops here if today's papers are already up.
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     outputs:
@@ -44,9 +50,14 @@ jobs:
       - id: check
         env:
           EVENT: ${{ github.event_name }}
+          IF_NEEDED: ${{ inputs.if_needed }}
+          INPUT_DATE: ${{ inputs.date }}
         run: |
           day="$(date -u +%F)"
-          if [ "$EVENT" = "schedule" ] && [ -f "data/picks/$day.json" ]; then
+          only_if_needed=false
+          if [ "$EVENT" = "schedule" ]; then only_if_needed=true; fi
+          if [ "$IF_NEEDED" = "true" ] && [ -z "$INPUT_DATE" ]; then only_if_needed=true; fi
+          if [ "$only_if_needed" = "true" ] && [ -f "data/picks/$day.json" ]; then
             echo "Today's papers ($day) are already up."
             echo "done=true" >> "$GITHUB_OUTPUT"
           else
