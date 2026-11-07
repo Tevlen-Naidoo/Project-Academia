@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T04:50:01.581230Z",
+  "candidates_file": "candidates/2026-11-07.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.8822,
+      "adjusted": 0.8822,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.7857,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.75,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "36 citations, about 3 a month · Published in Information and Computation",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1016/j.ic.2025.105353",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1016/j.ic.2025.105353",
+          "s2": "0ed96fb1520f43b09a1bfa12a1a9f0e60522279c",
+          "openalex": "W4413951348"
+        },
+        "title": "Exact counting of subtrees with diameter no more than d in trees: A generating function approach",
+        "authors": [
+          {
+            "name": "Yu Fen Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Bang-Bang Jin",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaoming Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Xiao‐Dong Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Bo Li",
+            "affiliation": null
+          },
+          {
+            "name": "Kai Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Hua Wang",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Network motifs, regarded as fundamental building blocks, offer crucial insights into the structure and function of complex networks, with broad applications across disciplines including sociology, computer science, bioinformatics, chemoinformatics, and pharmaceutics. However, the identification of network motifs remains a significant and computationally challenging problem. Among various motifs, subtree enumeration has garnered substantial attention in recent years, particularly due to its relevance in network science and bioinformatics. For an n -vertex tree T , by introducing novel generating functions with ( d + 2 ) variables, we propose an innovative algorithm for the exact enumeration of T 's subtrees rooted at fixed vertex v , where the distance between v and the farthest leaf is k = 0 , 1 , … , d , and the distance between any two leaves is no more than d . Building on this algorithm, we develop novel recursive algorithms for exact enumerating various diameter no more than d subtrees (abbreviated as DNMT- d subtrees) of T . As applications, we apply these algorithms to derive the number of DNMT- d subtrees in a full binary tree B h with h ≥ 2 levels, and briefly discuss the density of DNMT- d subtrees in general trees. Our research generalizes the work of Frank Ruskey on Listing and Counting Subtrees of a Tree in 1981 and makes it a special case of our study where d equals the diameter of the tree T . Moreover, the proposed O ( d n 2 ) algorithms introduce new approaches for enumerating subtrees under diameter constraints and lay the groundwork for counting diameter-constrained subgraphs (motifs) in complex networks.",
+        "tldr": null,
+        "topics": [
+          "graph-theory",
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-07",
+          "submitted": null,
+          "published": "2025-09-03"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Information and Computation",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 36,
+          "influential": 1,
+          "last_12_months": 34,
+          "per_month": 2.548,
+          "by_year": {
+            "2026": 34,
+            "2025": 2
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1016/j.ic.2025.105353",
+          "pdf": null,
+          "doi": "https://doi.org/10.1016/j.ic.2025.105353",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-07T04:46:07.450067Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.9812,
+      "adjusted": 0.834,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9833,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "531 citations, about 437 a month · Published in Nature Medicine",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2507.05201",
+        "ids": {
+          "arxiv": "2507.05201",
+          "doi": "10.1038/s41591-026-04626-w",
+          "s2": "d23432504ce8755dd9933b93fbffd66bd462c9c9",
+          "openalex": "W4414687708"
+        },
+        "title": "An open vision-language model for diverse medical applications",
+        "authors": [
+          {
+            "name": "Andrew Sellergren",
+            "affiliation": null
+          },
+          {
+            "name": "Sahar Kazemzadeh",
+            "affiliation": null
+          },
+          {
+            "name": "Fereshteh Mahvar",
+            "affiliation": null
+          },
+          {
+            "name": "Atilla P. Kiraly",
+            "affiliation": null
+          },
+          {
+            "name": "Madeleine Traverse",
+            "affiliation": null
+          },
+          {
+            "name": "Timo Kohlberger",
+            "affiliation": null
+          },
+          {
+            "name": "Chufan Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Ronnachai Jaroensri",
+            "affiliation": null
+          },
+          {
+            "name": "Shawn Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Fayaz Jamil",
+            "affiliation": null
+          },
+          {
+            "name": "Cian Hughes",
+            "affiliation": null
+          },
+          {
+            "name": "Fereshteh Mahvar",
+            "affiliation": null
+          },
+          {
+            "name": "Liron Yatziv",
+            "affiliation": null
+          },
+          {
+            "name": "Liron Yatziv",
+            "affiliation": null
+          },
+          {
+            "name": "Tiffany J. Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Bram Sterling",
+            "affiliation": null
+          },
+          {
+            "name": "Sathaiah Baby",
+            "affiliation": null
+          },
+          {
+            "name": "Susanna Maria Baby",
+            "affiliation": null
+          },
+          {
+            "name": "Jeremy Lai",
+            "affiliation": null
+          },
+          {
+            "name": "Samuel Schmidgall",
+            "affiliation": null
+          },
+          {
+            "name": "Lu Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Kejia Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Per G. Björnsson",
+            "affiliation": null
+          },
+          {
+            "name": "Shashir Reddy",
+            "affiliation": null
+          },
+          {
+            "name": "Ryan Brush",
+            "affiliation": null
+          },
+          {
+            "name": "Kenneth Philbrick",
+            "affiliation": null
+          },
+          {
+            "name": "Bashir Sadjad",
+            "affiliation": null
+          },
+          {
+            "name": "Mercy Asiedu",
+            "affiliation": null
+          },
+          {
+            "name": "Ines Mezerreg",
+            "affiliation": null
+          },
+          {
+            "name": "Howard Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Howard Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Richa Tiwari",
+            "affiliation": null
+          },
+          {
+            "name": "Sunny Jansen",
+            "affiliation": null
+          },
+          {
+            "name": "Preeti Singh",
+            "affiliation": null
+          },
+          {
+            "name": "Aishwarya Kamath",
+            "affiliation": null
+          },
+          {
+            "name": "Johan Ferret",
+            "affiliation": null
+          },
+          {
+            "name": "Catherine Kozlowski",
+            "affiliation": null
+          },
+          {
+            "name": "Rachelle Sico",
+            "affiliation": null
+          },
+          {
+            "name": "Aishwarya Kamath",
+            "affiliation": null
+          },
+          {
+            "name": "Johan Ferret",
+            "affiliation": null
+          },
+          {
+            "name": "Shreya Pathak",
+            "affiliation": null
+          },
+          {
+            "name": "Nino Vieillard",
+            "affiliation": null
+          },
+          {
+            "name": "Ramona Merhej",
+            "affiliation": null
+          },
+          {
+            "name": "Sarah Perrin",
+            "affiliation": null
+          },
+          {
+            "name": "Tatiana Matejovicova",
+            "affiliation": null
+          },
+          {
+            "name": "Alexandre Ramé",
+            "affiliation": null
+          },
+          {
+            "name": "Morgane Rivière",
+            "affiliation": null
+          },
+          {
+            "name": "Louis Rouillard",
+            "affiliation": null
+          },
+          {
+            "name": "Thomas Mesnard",
+            "affiliation": null
+          },
+          {
+            "name": "Geoffrey Cideron",
+            "affiliation": null
+          },
+          {
+            "name": "Jean-bastien Grill",
+            "affiliation": null
+          },
+          {
+            "name": "Jean-Baptiste Alayrac",
+            "affiliation": null
+          },
+          {
+            "name": "Edouard Yvinec",
+            "affiliation": null
+          },
+          {
+            "name": "Michelle Casbon",
+            "affiliation": null
+          },
+          {
+            "name": "Elena Buchatskaya",
+            "affiliation": null
+          },
+          {
+            "name": "Jean-Baptiste Alayrac",
+            "affiliation": null
+          },
+          {
+            "name": "Dmitry Lepikhin",
+            "affiliation": null
+          },
+          {
+            "name": "Vlad Feinberg",
+            "affiliation": null
+          },
+          {
+            "name": "Sebastian Borgeaud",
+            "affiliation": null
+          },
+          {
+            "name": "Alek Andreev",
+            "affiliation": null
+          },
+          {
+            "name": "Cassidy Hardin",
+            "affiliation": null
+          },
+          {
+            "name": "Robert Dadashi",
+            "affiliation": null
+          },
+          {
+            "name": "Léonard Hussenot",
+            "affiliation": null
+          },
+          {
+            "name": "Armand Joulin",
+            "affiliation": null
+          },
+          {
+            "name": "Olivier Bachem",
+            "affiliation": null
+          },
+          {
+            "name": "Clément Farabet",
+            "affiliation": null
+          },
+          {
+            "name": "Joelle K. Barral",
+            "affiliation": null
+          },
+          {
+            "name": "Tris Warkentin",
+            "affiliation": null
+          },
+          {
+            "name": "Jonathon Shlens",
+            "affiliation": null
+          },
+          {
+            "name": "David J. Fleet",
+            "affiliation": null
+          },
+          {
+            "name": "Victor Cotruta",
+            "affiliation": null
+          },
+          {
+            "name": "Victor Cotruta",
+            "affiliation": null
+          },
+          {
+            "name": "Omar Sanseviero",
+            "affiliation": null
+          },
+          {
+            "name": "Gus Martins",
+            "affiliation": null
+          },
+          {
+            "name": "Phoebe Kirk",
+            "affiliation": null
+          },
+          {
+            "name": "Dr. Anand Rao",
+            "affiliation": null
+          },
+          {
+            "name": "Yossi Matias",
+            "affiliation": null
+          },
+          {
+            "name": "Katherine Chou",
+            "affiliation": null
+          },
+          {
+            "name": "Avinatan Hassidim",
+            "affiliation": null
+          },
+          {
+            "name": "Dale R. Webster",
+            "affiliation": null
+          },
+          {
+            "name": "Shravya Shetty",
+            "affiliation": null
+          },
+          {
+            "name": "Kapil Goel",
+            "affiliation": null
+          },
+          {
+            "name": "Yun Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Can Kirmizibayrak",
+            "affiliation": null
+          },
+          {
+            "name": "David F. Steiner",
+            "affiliation": null
+          },
+          {
+            "name": "Rory Pilgrim",
+            "affiliation": null
+          },
+          {
+            "name": "Daniel Golden",
+            "affiliation": null
+          },
+          {
+            "name": "Lin Yang",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Artificial intelligence has high potential for impact in healthcare applications, but its training and deployment are challenging due to diverse data, a complex spectrum of possible tasks and important privacy needs. High-performing foundation models that enable data-efficient fine-tuning for diverse downstream tasks can meaningfully accelerate development in this domain. We introduce MedGemma, a collection of medical vision-language foundation models based on Gemma 3. MedGemma demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while maintaining the general capabilities of the Gemma base models. For out-of-distribution tasks, MedGemma achieves improvements of 2.6-10% in medical image question answering, 15.5-18.1% in chest X-ray finding classification and 10.8% in agentic evaluations compared with the base models. Our results show that fine-tuning MedGemma can be more effective than fine-tuning the base Gemma 3 model for medical tasks, particularly in the setting of limited training data. We additionally introduce MedSigLIP, a medically tuned vision encoder derived from SigLIP. MedSigLIP powers the visual understanding capabilities of MedGemma and, as an encoder, achieves performance comparable to or better than that of many specialized medical image encoders. Taken together, the MedGemma collection provides a strong foundation of medical image and text capabilities, with the potential to accelerate medical research and the development of downstream applications.",
+        "tldr": "The results show that fine-tuning MedGemma can be more effective than fine-tuning the base Gemma 3 model for medical tasks, particularly in the setting of limited training data.",
+        "topics": [
+          "ml",
+          "ai",
+          "vision",
+          "image-processing",
+          "nlp"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-07",
+          "submitted": null,
+          "published": "2026-10-01"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Nature Medicine",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 531,
+          "influential": 84,
+          "last_12_months": 310,
+          "per_month": 436.855,
+          "by_year": {
+            "2026": 305,
+            "2025": 33
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2507.05201",
+          "pdf": "https://arxiv.org/pdf/2507.05201",
+          "doi": "https://doi.org/10.1038/s41591-026-04626-w",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-07T04:46:07.450067Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.9342,
+      "adjusted": 0.7941,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "54 citations, about 5 a month · Published in Artificial Intelligence Review",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2507.19504",
+        "ids": {
+          "arxiv": "2507.19504",
+          "doi": "10.1007/s10462-025-11462-w",
+          "s2": "fa1ab1d39aadfa58a385169f0da0e012f085bb85",
+          "openalex": "W4417535890"
+        },
+        "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
+        "authors": [
+          {
+            "name": "Zhe Su",
+            "affiliation": null
+          },
+          {
+            "name": "Xiang Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Layal Bou Hamdan",
+            "affiliation": null
+          },
+          {
+            "name": "Vasileios Maroulas",
+            "affiliation": null
+          },
+          {
+            "name": "Jie Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Gunnar Carlsson",
+            "affiliation": null
+          },
+          {
+            "name": "Guo-Wei Wei",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Topological data analysis (TDA) is a rapidly evolving field in applied mathematics and data science that leverages tools from topology to uncover robust, shape-driven, and explainable insights in complex datasets. The main workhorse is persistent homology, a technique rooted in algebraic topology. Paired with topological deep learning (TDL) or topological machine learning, persistent homology has achieved tremendous success in a wide variety of applications in science, engineering, medicine, and industry. However, persistent homology has many limitations due to its high-level abstraction, insensitivity to non-topological changes, and restriction to point cloud data. This paper presents a comprehensive review of TDA and TDL beyond persistent homology. It analyzes how persistent topological Laplacians and Dirac operators provide spectral representations to capture both topological invariants and homotopic evolution. Other formulations are presented in terms of sheaf theory, Mayer topology, and interaction topology. For data on differentiable manifolds, techniques rooted in differential topology, such as persistent de Rham cohomology, persistent Hodge Laplacian, and Hodge decomposition, are reviewed. For one-dimensional (1D) curves embedded in 3-space, approaches from geometric topology are discussed, including multiscale Gauss-link integrals, persistent Jones polynomials, and persistent Khovanov homology. This paper further discusses the appropriate selection of topological tools for different input data, such as point clouds, sequential data, data on manifolds, curves embedded in 3-space, and data with additional non-geometric information. A review is also given of various topological representations, software packages, and machine learning vectorizations. Finally, this review ends with concluding remarks.",
+        "tldr": "This paper presents a comprehensive review of TDA and TDL beyond persistent homology, and analyzes how persistent topological Laplacians and Dirac operators provide spectral representations to capture both topological invariants and homotopic evolution.",
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-07",
+          "submitted": null,
+          "published": "2025-12-21"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Artificial Intelligence Review",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 54,
+          "influential": 1,
+          "last_12_months": 24,
+          "per_month": 5.121,
+          "by_year": {
+            "2026": 24,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2507.19504",
+          "pdf": "https://arxiv.org/pdf/2507.19504",
+          "doi": "https://doi.org/10.1007/s10462-025-11462-w",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-07T04:46:07.450067Z"
+      }
+    }
+  ]
+}

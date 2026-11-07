@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T04:51:11.388526Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.1016/j.ic.2025.105353",
+      "pick_title": "Exact counting of subtrees with diameter no more than d in trees: A generating function approach",
+      "source": "openalex",
+      "references_seen": 56,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1145/3433652",
+            "ids": {
+              "doi": "10.1145/3433652",
+              "openalex": "W3135378849"
+            },
+            "title": "A Survey on Subgraph Counting",
+            "year": 2021,
+            "venue": "ACM Computing Surveys",
+            "citations": 157,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3135378849",
+              "doi": "https://doi.org/10.1145/3433652"
+            }
+          },
+          "label": "background",
+          "score": 1.759,
+          "reasons": [
+            "157 citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.ic.2025.105353"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.aam.2004.07.002",
+            "ids": {
+              "doi": "10.1016/j.aam.2004.07.002",
+              "openalex": "W1998411156"
+            },
+            "title": "On subtrees of trees",
+            "year": 2004,
+            "venue": "Advances in Applied Mathematics",
+            "citations": 123,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1998411156",
+              "doi": "https://doi.org/10.1016/j.aam.2004.07.002"
+            }
+          },
+          "label": "background",
+          "score": 1.675,
+          "reasons": [
+            "123 citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.ic.2025.105353"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1021/ci000095o",
+            "ids": {
+              "doi": "10.1021/ci000095o",
+              "openalex": "W2060111015"
+            },
+            "title": "On Interpretation of Well-Known Topological Indices",
+            "year": 2001,
+            "venue": "Journal of Chemical Information and Computer Sciences",
+            "citations": 120,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2060111015",
+              "doi": "https://doi.org/10.1021/ci000095o"
+            }
+          },
+          "label": "background",
+          "score": 1.666,
+          "reasons": [
+            "120 citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.ic.2025.105353"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 0ed96fb1520f43b09a1bfa12a1a9f0e60522279c: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/0ed96fb1520f43b09a1bfa12a1a9f0e60522279c/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2507.05201",
+      "pick_title": "An open vision-language model for diverse medical applications",
+      "source": "s2",
+      "references_seen": 63,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.2501.12948",
+            "ids": {
+              "doi": "10.48550/arxiv.2501.12948",
+              "s2": "bf76cb3bd7a54c60138f9523ffb462a486c4807b"
+            },
+            "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 6459,
+            "influential_citations": 1030,
+            "is_review": false,
+            "tldr": "This work introduces first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL and achieves performance comparable to OpenAI-o1-1217 on reasoning tasks.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bf76cb3bd7a54c60138f9523ffb462a486c4807b",
+              "doi": "https://doi.org/10.48550/arxiv.2501.12948"
+            }
+          },
+          "label": "background",
+          "score": 7.555,
+          "reasons": [
+            "Influential reference for this paper",
+            "6.5k citations"
+          ],
+          "quote": "Notably, MedGemma’s performance of 86.2 on MedQA represented the best performance for an open model at the time of its release, other than the 671-billion-parameter DeepSeek-R1 model (91.0) 16 , and was substantially higher than the next closest well-documented open model, OpenBioLLM 70B (78.2) 17 .",
+          "supports": [
+            "arxiv:2507.05201"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/jamia/ocv080",
+            "ids": {
+              "doi": "10.1093/jamia/ocv080",
+              "s2": "04b9e4192eca063b95ca65db901e1cccfb0ecd6f"
+            },
+            "title": "Preparing a collection of radiology examinations for distribution and retrieval",
+            "year": 2015,
+            "venue": "J. Am. Medical Informatics Assoc.",
+            "citations": 1433,
+            "influential_citations": 161,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/04b9e4192eca063b95ca65db901e1cccfb0ecd6f",
+              "doi": "https://doi.org/10.1093/jamia/ocv080"
+            }
+          },
+          "label": "background",
+          "score": 6.63,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.4k citations"
+          ],
+          "quote": "…MedGemma 4B demonstrates the highest Generative Radiology Report Evaluation and Error Notation (GREEN) score 29 on the ReXGradient dataset 30 (GREEN score 0.566) and the IU-Xray set 31 (GREEN score 0.724), with middle-of-the-leaderboard performance on the MIMIC-III and CheXpert Plus datasets.",
+          "supports": [
+            "arxiv:2507.05201"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.08774",
+            "ids": {
+              "arxiv": "2303.08774",
+              "s2": "163b4d6a79a5b19af88b8585456363340d9efd04"
+            },
+            "title": "GPT-4 Technical Report",
+            "year": 2023,
+            "citations": 28320,
+            "influential_citations": 3391,
+            "is_review": false,
+            "tldr": "GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs, is developed, a Transformer-based model pre-trained to predict the next token in a document which exhibits human-level performance on various professional and academic benchmarks.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.08774",
+              "pdf": "https://arxiv.org/pdf/2303.08774"
+            }
+          },
+          "label": "background",
+          "score": 5.327,
+          "reasons": [
+            "28k citations"
+          ],
+          "supports": [
+            "arxiv:2507.05201"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2507.19504",
+      "pick_title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
+      "source": "openalex",
+      "references_seen": 278,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1126/science.290.5500.2319",
+            "ids": {
+              "doi": "10.1126/science.290.5500.2319",
+              "openalex": "W2001141328"
+            },
+            "title": "A Global Geometric Framework for Nonlinear Dimensionality Reduction",
+            "year": 2000,
+            "venue": "Science",
+            "citations": 13479,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2001141328",
+              "doi": "https://doi.org/10.1126/science.290.5500.2319"
+            }
+          },
+          "label": "background",
+          "score": 3.304,
+          "reasons": [
+            "13k citations"
+          ],
+          "supports": [
+            "arxiv:2507.19504"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.21105/joss.00861",
+            "ids": {
+              "doi": "10.21105/joss.00861",
+              "openalex": "W2889326414"
+            },
+            "title": "UMAP: Uniform Manifold Approximation and Projection",
+            "year": 2018,
+            "venue": "The Journal of Open Source Software",
+            "citations": 9787,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2889326414",
+              "doi": "https://doi.org/10.21105/joss.00861"
+            }
+          },
+          "label": "background",
+          "score": 3.193,
+          "reasons": [
+            "9.8k citations"
+          ],
+          "supports": [
+            "arxiv:2507.19504"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/nme.2579",
+            "ids": {
+              "doi": "10.1002/nme.2579",
+              "openalex": "W2112311198"
+            },
+            "title": "Gmsh: A 3‐D finite element mesh generator with built‐in pre‐ and post‐processing facilities",
+            "year": 2009,
+            "venue": "International Journal for Numerical Methods in Engineering",
+            "citations": 7818,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2112311198",
+              "doi": "https://doi.org/10.1002/nme.2579"
+            }
+          },
+          "label": "background",
+          "score": 3.115,
+          "reasons": [
+            "7.8k citations"
+          ],
+          "supports": [
+            "arxiv:2507.19504"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for fa1ab1d39aadfa58a385169f0da0e012f085bb85: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/fa1ab1d39aadfa58a385169f0da0e012f085bb85/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    }
+  ]
+}

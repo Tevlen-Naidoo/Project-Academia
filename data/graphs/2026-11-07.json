@@ -1,0 +1,2559 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T04:51:11.388526Z",
+  "graphs": [
+    {
+      "pick_id": "doi:10.1016/j.ic.2025.105353",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ic.2025.105353",
+            "ids": {
+              "doi": "10.1016/j.ic.2025.105353",
+              "s2": "0ed96fb1520f43b09a1bfa12a1a9f0e60522279c",
+              "openalex": "W4413951348"
+            },
+            "title": "Exact counting of subtrees with diameter no more than d in trees: A generating function approach",
+            "year": 2025,
+            "venue": "Information and Computation",
+            "citations": 36,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://doi.org/10.1016/j.ic.2025.105353",
+              "doi": "https://doi.org/10.1016/j.ic.2025.105353"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3433652",
+            "ids": {
+              "doi": "10.1145/3433652",
+              "openalex": "W3135378849"
+            },
+            "title": "A Survey on Subgraph Counting",
+            "year": 2021,
+            "venue": "ACM Computing Surveys",
+            "citations": 157,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3135378849",
+              "doi": "https://doi.org/10.1145/3433652"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.aam.2004.07.002",
+            "ids": {
+              "doi": "10.1016/j.aam.2004.07.002",
+              "openalex": "W1998411156"
+            },
+            "title": "On subtrees of trees",
+            "year": 2004,
+            "venue": "Advances in Applied Mathematics",
+            "citations": 123,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1998411156",
+              "doi": "https://doi.org/10.1016/j.aam.2004.07.002"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1021/ci000095o",
+            "ids": {
+              "doi": "10.1021/ci000095o",
+              "openalex": "W2060111015"
+            },
+            "title": "On Interpretation of Well-Known Topological Indices",
+            "year": 2001,
+            "venue": "Journal of Chemical Information and Computer Sciences",
+            "citations": 120,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2060111015",
+              "doi": "https://doi.org/10.1021/ci000095o"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/jgt.21674",
+            "ids": {
+              "doi": "10.1002/jgt.21674",
+              "openalex": "W2171458593"
+            },
+            "title": "The Number of Subtrees of Trees with Given Degree Sequence",
+            "year": 2012,
+            "venue": "Journal of Graph Theory",
+            "citations": 76,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2171458593",
+              "doi": "https://doi.org/10.1002/jgt.21674"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.tcs.2006.09.002",
+            "ids": {
+              "doi": "10.1016/j.tcs.2006.09.002",
+              "openalex": "W2021043715"
+            },
+            "title": "Enumeration of subtrees of trees",
+            "year": 2006,
+            "venue": "Theoretical Computer Science",
+            "citations": 65,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2021043715",
+              "doi": "https://doi.org/10.1016/j.tcs.2006.09.002"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00453-011-9600-8",
+            "ids": {
+              "doi": "10.1007/s00453-011-9600-8",
+              "openalex": "W2763029945"
+            },
+            "title": "Finding and Counting Vertex-Colored Subtrees",
+            "year": 2011,
+            "venue": "Algorithmica",
+            "citations": 54,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2763029945",
+              "doi": "https://doi.org/10.1007/s00453-011-9600-8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/070687736",
+            "ids": {
+              "doi": "10.1137/070687736",
+              "openalex": "W2039079531"
+            },
+            "title": "Largest Number of Subtrees of Trees with a Given Maximum Degree",
+            "year": 2008,
+            "venue": "SIAM Journal on Discrete Mathematics",
+            "citations": 49,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2039079531",
+              "doi": "https://doi.org/10.1137/070687736"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jctb.2014.02.003",
+            "ids": {
+              "doi": "10.1016/j.jctb.2014.02.003",
+              "openalex": "W2593779793"
+            },
+            "title": "Extremal results on average subtree density of series-reduced trees",
+            "year": 2014,
+            "venue": "Journal of Combinatorial Theory Series B",
+            "citations": 47,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2593779793",
+              "doi": "https://doi.org/10.1016/j.jctb.2014.02.003"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.amc.2015.06.094",
+            "ids": {
+              "doi": "10.1016/j.amc.2015.06.094",
+              "openalex": "W870582675"
+            },
+            "title": "Subtrees of spiro and polyphenyl hexagonal chains",
+            "year": 2015,
+            "venue": "Applied Mathematics and Computation",
+            "citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W870582675",
+              "doi": "https://doi.org/10.1016/j.amc.2015.06.094"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.dam.2020.06.013",
+            "ids": {
+              "doi": "10.1016/j.dam.2020.06.013",
+              "openalex": "W3038718769"
+            },
+            "title": "The expected subtree number index in random polyphenylene and spiro chains",
+            "year": 2020,
+            "venue": "Discrete Applied Mathematics",
+            "citations": 32,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3038718769",
+              "doi": "https://doi.org/10.1016/j.dam.2020.06.013"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ins.2022.05.038",
+            "ids": {
+              "doi": "10.1016/j.ins.2022.05.038",
+              "openalex": "W4280647410"
+            },
+            "title": "The usefulness of topological indices",
+            "year": 2022,
+            "venue": "Information Sciences",
+            "citations": 29,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4280647410",
+              "doi": "https://doi.org/10.1016/j.ins.2022.05.038"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/jgt.22359",
+            "ids": {
+              "doi": "10.1002/jgt.22359",
+              "openalex": "W2800651034"
+            },
+            "title": "Subtrees of graphs",
+            "year": 2018,
+            "venue": "Journal of Graph Theory",
+            "citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2800651034",
+              "doi": "https://doi.org/10.1002/jgt.22359"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/0210011",
+            "ids": {
+              "doi": "10.1137/0210011",
+              "openalex": "W1978630464"
+            },
+            "title": "Listing and Counting Subtrees of a Tree",
+            "year": 1981,
+            "venue": "SIAM Journal on Computing",
+            "citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1978630464",
+              "doi": "https://doi.org/10.1137/0210011"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00453-019-00656-8",
+            "ids": {
+              "doi": "10.1007/s00453-019-00656-8",
+              "openalex": "W2995561890"
+            },
+            "title": "Sublinear-Space and Bounded-Delay Algorithms for Maximal Clique Enumeration in Graphs",
+            "year": 2019,
+            "venue": "Algorithmica",
+            "citations": 22,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2995561890",
+              "doi": "https://doi.org/10.1007/s00453-019-00656-8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/00207160.2015.1109640",
+            "ids": {
+              "doi": "10.1080/00207160.2015.1109640",
+              "openalex": "W2321742174"
+            },
+            "title": "Trees with large numbers of subtrees",
+            "year": 2015,
+            "venue": "International Journal of Computer Mathematics",
+            "citations": 18,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2321742174",
+              "doi": "https://doi.org/10.1080/00207160.2015.1109640"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.tcs.2015.02.028",
+            "ids": {
+              "doi": "10.1016/j.tcs.2015.02.028",
+              "openalex": "W3014235012"
+            },
+            "title": "Enumeration of BC-subtrees of trees",
+            "year": 2015,
+            "venue": "Theoretical Computer Science",
+            "citations": 18,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3014235012",
+              "doi": "https://doi.org/10.1016/j.tcs.2015.02.028"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.tcs.2021.09.024",
+            "ids": {
+              "doi": "10.1016/j.tcs.2021.09.024",
+              "openalex": "W3203853268"
+            },
+            "title": "Enumeration of subtrees and BC-subtrees with maximum degree no more than k in trees",
+            "year": 2021,
+            "venue": "Theoretical Computer Science",
+            "citations": 17,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3203853268",
+              "doi": "https://doi.org/10.1016/j.tcs.2021.09.024"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/comjnl/bxw091",
+            "ids": {
+              "doi": "10.1093/comjnl/bxw091",
+              "openalex": "W2560195154"
+            },
+            "title": "On Algorithms for Enumerating Subtrees of Hexagonal and Phenylene Chains",
+            "year": 2016,
+            "venue": "The Computer Journal",
+            "citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2560195154",
+              "doi": "https://doi.org/10.1093/comjnl/bxw091"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s12061-026-09908-x",
+            "ids": {
+              "doi": "10.1007/s12061-026-09908-x",
+              "s2": "0f0107b23cb088ac8a85afe7e6a7dd26cc2e59d1"
+            },
+            "title": "Spatiotemporal Evolution and Determinant Analysis of Energy-Related Carbon Emissions in Jiangsu Province Using Interpretable Machine Learning",
+            "year": 2026,
+            "venue": "Applied spatial analysis and policy",
+            "citations": 10,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0f0107b23cb088ac8a85afe7e6a7dd26cc2e59d1",
+              "doi": "https://doi.org/10.1007/s12061-026-09908-x"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-025-33532-3",
+            "ids": {
+              "doi": "10.1038/s41598-025-33532-3",
+              "s2": "deb86b276e78b066f6b8117632464f73c075fdae"
+            },
+            "title": "Leveraging topological indices and machine learning for advanced prediction of antidepressant drug properties",
+            "year": 2026,
+            "venue": "Scientific Reports",
+            "citations": 7,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/deb86b276e78b066f6b8117632464f73c075fdae",
+              "doi": "https://doi.org/10.1038/s41598-025-33532-3"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.microc.2026.117252",
+            "ids": {
+              "doi": "10.1016/j.microc.2026.117252",
+              "s2": "8402366c18cf59ed60c1cc4199e34bf40102c9ec"
+            },
+            "title": "Structural modeling and machine learning-enhanced QSPR analysis of CAD-related and cardiovascular therapy drugs using topological descriptors",
+            "year": 2026,
+            "venue": "Microchemical journal (Print)",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8402366c18cf59ed60c1cc4199e34bf40102c9ec",
+              "doi": "https://doi.org/10.1016/j.microc.2026.117252"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/math14050842",
+            "ids": {
+              "doi": "10.3390/math14050842",
+              "s2": "ff9a41b4330b28b8e88e0f5f8be2e34fff579876"
+            },
+            "title": "OptiNeRF: A Spatially Optimized Neural Rendering Framework for Complex Scene Reconstruction",
+            "year": 2026,
+            "venue": "Mathematics",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ff9a41b4330b28b8e88e0f5f8be2e34fff579876",
+              "doi": "https://doi.org/10.3390/math14050842"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/systems14070872",
+            "ids": {
+              "doi": "10.3390/systems14070872",
+              "s2": "80847b24ad351e9f0b5d4402f9f668973cb796a6"
+            },
+            "title": "A Combined intPLUS and Emission-Linkage Framework for Provincial Carbon-Balance Projection",
+            "year": 2026,
+            "venue": "Syst.",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/80847b24ad351e9f0b5d4402f9f668973cb796a6",
+              "doi": "https://doi.org/10.3390/systems14070872"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1021/acsomega.6c03590",
+            "ids": {
+              "doi": "10.1021/acsomega.6c03590",
+              "s2": "cbf3e1ec0608602e508690e96b9d452b31b8b92e"
+            },
+            "title": "Degree-Based Topological Indices and Machine Learning for QSPR Modeling of Arthritis Drugs",
+            "year": 2026,
+            "venue": "ACS Omega",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cbf3e1ec0608602e508690e96b9d452b31b8b92e",
+              "doi": "https://doi.org/10.1021/acsomega.6c03590"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/su18052333",
+            "ids": {
+              "doi": "10.3390/su18052333",
+              "s2": "3c72e97dd6065b4cd9ea257e3c0b262ec9149dca"
+            },
+            "title": "Spatiotemporal Synergy and Dislocation Coupling Between Immovable Cultural Heritage and Intangible Cultural Heritage in the Grand Canal Basin: Associations and Driving Factors",
+            "year": 2026,
+            "venue": "Sustainability",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3c72e97dd6065b4cd9ea257e3c0b262ec9149dca",
+              "doi": "https://doi.org/10.3390/su18052333"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jii.2026.101119",
+            "ids": {
+              "doi": "10.1016/j.jii.2026.101119",
+              "s2": "72abb0fa8ff97a8feeb31cba69226ffb365f6ac2"
+            },
+            "title": "How to improve ship energy efficiency under data-scarce scenarios: An advanced pathway enabled by intelligent sample augmentation",
+            "year": 2026,
+            "venue": "Journal of Industrial Information Integration",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/72abb0fa8ff97a8feeb31cba69226ffb365f6ac2",
+              "doi": "https://doi.org/10.1016/j.jii.2026.101119"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11696-026-04774-w",
+            "ids": {
+              "doi": "10.1007/s11696-026-04774-w",
+              "s2": "4e5f23962fde17593b922aa649f2806b385478fb"
+            },
+            "title": "Integrating topological indices and multi-criteria decision making for systematic ranking of antihistamines",
+            "year": 2026,
+            "venue": "Chemické zvesti",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4e5f23962fde17593b922aa649f2806b385478fb",
+              "doi": "https://doi.org/10.1007/s11696-026-04774-w"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/land15030388",
+            "ids": {
+              "doi": "10.3390/land15030388",
+              "s2": "a26445986044140944e5d570f35d71e4b2e7c023"
+            },
+            "title": "Spatiotemporal Heterogeneity and Drivers of Habitat Quality with Land-Use Simulation and Projection in Jiangsu Province, China Based on intPLUS–InVEST and GeoDetector",
+            "year": 2026,
+            "venue": "Land",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a26445986044140944e5d570f35d71e4b2e7c023",
+              "doi": "https://doi.org/10.3390/land15030388"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1145/3433652",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.aam.2004.07.002",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1021/ci000095o",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1002/jgt.21674",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.tcs.2006.09.002",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1007/s00453-011-9600-8",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1137/070687736",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.jctb.2014.02.003",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.amc.2015.06.094",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.dam.2020.06.013",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.ins.2022.05.038",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1002/jgt.22359",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1137/0210011",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1007/s00453-019-00656-8",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1080/00207160.2015.1109640",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.tcs.2015.02.028",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1016/j.tcs.2021.09.024",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.ic.2025.105353",
+          "target": "doi:10.1093/comjnl/bxw091",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s12061-026-09908-x",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-025-33532-3",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.microc.2026.117252",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/math14050842",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/systems14070872",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1021/acsomega.6c03590",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/su18052333",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jii.2026.101119",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s11696-026-04774-w",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/land15030388",
+          "target": "doi:10.1016/j.ic.2025.105353",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/systems14070872",
+          "target": "doi:10.1007/s12061-026-09908-x",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 36,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2507.05201",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2507.05201",
+            "ids": {
+              "arxiv": "2507.05201",
+              "doi": "10.1038/s41591-026-04626-w",
+              "s2": "d23432504ce8755dd9933b93fbffd66bd462c9c9",
+              "openalex": "W4414687708"
+            },
+            "title": "An open vision-language model for diverse medical applications",
+            "year": 2026,
+            "venue": "Nature Medicine",
+            "citations": 531,
+            "influential_citations": 84,
+            "is_review": false,
+            "tldr": "The results show that fine-tuning MedGemma can be more effective than fine-tuning the base Gemma 3 model for medical tasks, particularly in the setting of limited training data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.05201",
+              "pdf": "https://arxiv.org/pdf/2507.05201",
+              "doi": "https://doi.org/10.1038/s41591-026-04626-w"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.2501.12948",
+            "ids": {
+              "doi": "10.48550/arxiv.2501.12948",
+              "s2": "bf76cb3bd7a54c60138f9523ffb462a486c4807b"
+            },
+            "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 6459,
+            "influential_citations": 1030,
+            "is_review": false,
+            "tldr": "This work introduces first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL and achieves performance comparable to OpenAI-o1-1217 on reasoning tasks.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bf76cb3bd7a54c60138f9523ffb462a486c4807b",
+              "doi": "https://doi.org/10.48550/arxiv.2501.12948"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/jamia/ocv080",
+            "ids": {
+              "doi": "10.1093/jamia/ocv080",
+              "s2": "04b9e4192eca063b95ca65db901e1cccfb0ecd6f"
+            },
+            "title": "Preparing a collection of radiology examinations for distribution and retrieval",
+            "year": 2015,
+            "venue": "J. Am. Medical Informatics Assoc.",
+            "citations": 1433,
+            "influential_citations": 161,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/04b9e4192eca063b95ca65db901e1cccfb0ecd6f",
+              "doi": "https://doi.org/10.1093/jamia/ocv080"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.08774",
+            "ids": {
+              "arxiv": "2303.08774",
+              "s2": "163b4d6a79a5b19af88b8585456363340d9efd04"
+            },
+            "title": "GPT-4 Technical Report",
+            "year": 2023,
+            "citations": 28320,
+            "influential_citations": 3391,
+            "is_review": false,
+            "tldr": "GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs, is developed, a Transformer-based model pre-trained to predict the next token in a document which exhibits human-level performance on various professional and academic benchmarks.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.08774",
+              "pdf": "https://arxiv.org/pdf/2303.08774"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2302.13971",
+            "ids": {
+              "arxiv": "2302.13971",
+              "s2": "57e849d0de13ed5f91d086936296721d4ff75a75"
+            },
+            "title": "LLaMA: Open and Efficient Foundation Language Models",
+            "year": 2023,
+            "venue": "arXiv.org",
+            "citations": 22541,
+            "influential_citations": 2306,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2302.13971",
+              "pdf": "https://arxiv.org/pdf/2302.13971"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2009.03300",
+            "ids": {
+              "arxiv": "2009.03300",
+              "doi": "10.48550/arxiv.2009.03300",
+              "s2": "814a4f680b9ba6baba23b93499f4b48af1a27678"
+            },
+            "title": "Measuring Massive Multitask Language Understanding",
+            "year": 2020,
+            "venue": "International Conference on Learning Representations",
+            "citations": 10457,
+            "influential_citations": 1993,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2009.03300",
+              "pdf": "https://arxiv.org/pdf/2009.03300",
+              "doi": "https://doi.org/10.48550/arxiv.2009.03300"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.00228",
+            "ids": {
+              "arxiv": "2505.00228",
+              "doi": "10.48550/arxiv.2505.00228",
+              "s2": "122375857fb5c1d7ea32d17bfa3e5cab25de09c6"
+            },
+            "title": "ReXGradient-160K: A Large-Scale Publicly Available Dataset of Chest Radiographs with Free-text Reports",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 37,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.00228",
+              "pdf": "https://arxiv.org/pdf/2505.00228",
+              "doi": "https://doi.org/10.48550/arxiv.2505.00228"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.12948",
+            "ids": {
+              "arxiv": "2501.12948",
+              "doi": "10.1038/s41586-025-09422-z",
+              "s2": "2eed1fad9bbf887d4395de40f20144c4fafefd7f"
+            },
+            "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+            "year": 2025,
+            "venue": "Nature",
+            "citations": 6026,
+            "influential_citations": 962,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.12948",
+              "pdf": "https://arxiv.org/pdf/2501.12948",
+              "doi": "https://doi.org/10.1038/s41586-025-09422-z"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2204.14198",
+            "ids": {
+              "arxiv": "2204.14198",
+              "doi": "10.52202/068431-1723",
+              "s2": "26218bdcc3945c7edae7aa2adbfba4cd820a2df3"
+            },
+            "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 6975,
+            "influential_citations": 434,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2204.14198",
+              "pdf": "https://arxiv.org/pdf/2204.14198",
+              "doi": "https://doi.org/10.52202/068431-1723"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.19393",
+            "ids": {
+              "arxiv": "2501.19393",
+              "doi": "10.48550/arxiv.2501.19393",
+              "s2": "ef8a8bd193b1a0a5e2c834a7a28869a2ec85bab7"
+            },
+            "title": "s1: Simple test-time scaling",
+            "year": 2025,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 1643,
+            "influential_citations": 228,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.19393",
+              "pdf": "https://arxiv.org/pdf/2501.19393",
+              "doi": "https://doi.org/10.48550/arxiv.2501.19393"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1705.02315",
+            "ids": {
+              "arxiv": "1705.02315",
+              "doi": "10.1109/cvpr.2017.369",
+              "s2": "58b6bd06ea58c367c64286126ba14128b45041b8"
+            },
+            "title": "ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases",
+            "year": 2017,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 3980,
+            "influential_citations": 536,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1705.02315",
+              "pdf": "https://arxiv.org/pdf/1705.02315",
+              "doi": "https://doi.org/10.1109/cvpr.2017.369"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2212.13138",
+            "ids": {
+              "arxiv": "2212.13138",
+              "doi": "10.1038/s41586-023-06291-2",
+              "s2": "6052486bc9144dc1730c12bf35323af3792a1fd0"
+            },
+            "title": "Large language models encode clinical knowledge",
+            "year": 2022,
+            "venue": "Nature",
+            "citations": 5818,
+            "influential_citations": 249,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2212.13138",
+              "pdf": "https://arxiv.org/pdf/2212.13138",
+              "doi": "https://doi.org/10.1038/s41586-023-06291-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2009.13081",
+            "ids": {
+              "arxiv": "2009.13081",
+              "doi": "10.48550/arxiv.2009.13081",
+              "s2": "fc97c3f375c7228a1df7caa5c0ce5d2a6a171bd7"
+            },
+            "title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+            "year": 2020,
+            "venue": "Applied Sciences",
+            "citations": 2338,
+            "influential_citations": 399,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2009.13081",
+              "pdf": "https://arxiv.org/pdf/2009.13081",
+              "doi": "https://doi.org/10.48550/arxiv.2009.13081"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.19786",
+            "ids": {
+              "arxiv": "2503.19786",
+              "doi": "10.48550/arxiv.2503.19786",
+              "s2": "adac25c0aebd013f1225ec02636edfcc0bf4cf7c"
+            },
+            "title": "Gemma 3 Technical Report",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 2189,
+            "influential_citations": 365,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.19786",
+              "pdf": "https://arxiv.org/pdf/2503.19786",
+              "doi": "https://doi.org/10.48550/arxiv.2503.19786"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1710.05006",
+            "ids": {
+              "arxiv": "1710.05006",
+              "doi": "10.48550/arxiv.1710.05006",
+              "s2": "0746aead5432e64c060e042ad38d9766194f1061"
+            },
+            "title": "Skin lesion analysis toward melanoma detection: A challenge at the 2017 International symposium on biomedical imaging (ISBI), hosted by the international skin imaging collaboration (ISIC)",
+            "year": 2016,
+            "venue": "IEEE International Symposium on Biomedical Imaging",
+            "citations": 2899,
+            "influential_citations": 215,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1710.05006",
+              "pdf": "https://arxiv.org/pdf/1710.05006",
+              "doi": "https://doi.org/10.48550/arxiv.1710.05006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.00890",
+            "ids": {
+              "arxiv": "2306.00890",
+              "doi": "10.48550/arxiv.2306.00890",
+              "s2": "f22d71c7ce9720ba1f717a4f1181488200e78198"
+            },
+            "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2303,
+            "influential_citations": 271,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.00890",
+              "pdf": "https://arxiv.org/pdf/2306.00890",
+              "doi": "https://doi.org/10.48550/arxiv.2306.00890"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1909.06146",
+            "ids": {
+              "arxiv": "1909.06146",
+              "doi": "10.18653/v1/d19-1259",
+              "s2": "0c3c4c88c7b07596221ac640c7b7102686e3eae3"
+            },
+            "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+            "year": 2019,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 2094,
+            "influential_citations": 258,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1909.06146",
+              "pdf": "https://arxiv.org/pdf/1909.06146",
+              "doi": "https://doi.org/10.18653/v1/d19-1259"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2010.16056",
+            "ids": {
+              "arxiv": "2010.16056",
+              "doi": "10.48550/arxiv.2010.16056",
+              "s2": "9e815edd2f12d9ebc3bf9005b3eabe72cc75ed8e"
+            },
+            "title": "Generating Radiology Reports via Memory-driven Transformer",
+            "year": 2020,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 922,
+            "influential_citations": 217,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2010.16056",
+              "pdf": "https://arxiv.org/pdf/2010.16056",
+              "doi": "https://doi.org/10.48550/arxiv.2010.16056"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/sdata.2018.251",
+            "ids": {
+              "doi": "10.1038/sdata.2018.251",
+              "s2": "18f9a6045ba01cb079c4fa49a630d71bbd27cd92"
+            },
+            "title": "A dataset of clinically generated visual questions and answers about radiology images",
+            "year": 2018,
+            "venue": "Scientific Data",
+            "citations": 996,
+            "influential_citations": 140,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/18f9a6045ba01cb079c4fa49a630d71bbd27cd92",
+              "doi": "https://doi.org/10.1038/sdata.2018.251"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.07044",
+            "ids": {
+              "arxiv": "2506.07044",
+              "doi": "10.48550/arxiv.2506.07044",
+              "s2": "f48b977e55db53bfb8e27e03bfcb472cf7f27bf8"
+            },
+            "title": "Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 273,
+            "influential_citations": 38,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.07044",
+              "pdf": "https://arxiv.org/pdf/2506.07044",
+              "doi": "https://doi.org/10.48550/arxiv.2506.07044"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:70880997c8c92418e8616b8c16e996069d121c6e",
+            "ids": {
+              "s2": "70880997c8c92418e8616b8c16e996069d121c6e"
+            },
+            "title": "for diagnosis and",
+            "citations": 83,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/70880997c8c92418e8616b8c16e996069d121c6e"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.21687",
+            "ids": {
+              "arxiv": "2603.21687",
+              "doi": "10.48550/arxiv.2603.21687",
+              "s2": "4b010f0d90ee6ca92e538c3a0213e413861c0d35"
+            },
+            "title": "MIRAGE: The Illusion of Visual Understanding",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 75,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.21687",
+              "pdf": "https://arxiv.org/pdf/2603.21687",
+              "doi": "https://doi.org/10.48550/arxiv.2603.21687"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.03712",
+            "ids": {
+              "arxiv": "2406.03712",
+              "doi": "10.1109/tkde.2026.3709941",
+              "s2": "679b1c81bf676d0389e1d4317bee630f250d3399"
+            },
+            "title": "A Survey on Medical Large Language Models: Technology, Application, Trustworthiness, and Future Directions",
+            "year": 2024,
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "citations": 72,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.03712",
+              "pdf": "https://arxiv.org/pdf/2406.03712",
+              "doi": "https://doi.org/10.1109/tkde.2026.3709941"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.05081",
+            "ids": {
+              "arxiv": "2604.05081",
+              "doi": "10.48550/arxiv.2604.05081",
+              "s2": "286600ac54d3c723476ad30a16bf27189b37a15d"
+            },
+            "title": "MedGemma 1.5 Technical Report",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 59,
+            "influential_citations": 18,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.05081",
+              "pdf": "https://arxiv.org/pdf/2604.05081",
+              "doi": "https://doi.org/10.48550/arxiv.2604.05081"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.06073",
+            "ids": {
+              "arxiv": "2503.06073",
+              "doi": "10.48550/arxiv.2503.06073",
+              "s2": "f14b994542fb8ba5d8bd341a9680610330ccfd20"
+            },
+            "title": "GEM: Empowering MLLM for Grounded ECG Understanding with Time Series and Images",
+            "year": 2025,
+            "venue": "Neural Information Processing Systems",
+            "citations": 56,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.06073",
+              "pdf": "https://arxiv.org/pdf/2503.06073",
+              "doi": "https://doi.org/10.48550/arxiv.2503.06073"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.07988",
+            "ids": {
+              "arxiv": "2507.07988",
+              "doi": "10.1038/s41746-025-02208-7",
+              "s2": "50f69078f1085c5967e92d0c0ac13ba2906aca83"
+            },
+            "title": "Automating expert-level medical reasoning evaluation of large language models",
+            "year": 2025,
+            "venue": "npj Digital Medicine",
+            "citations": 53,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.07988",
+              "pdf": "https://arxiv.org/pdf/2507.07988",
+              "doi": "https://doi.org/10.1038/s41746-025-02208-7"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2411.16778",
+            "ids": {
+              "arxiv": "2411.16778",
+              "doi": "10.1109/iccv51701.2025.01979",
+              "s2": "fe542f138a84185b0060c26dc1988827a0f3498d"
+            },
+            "title": "GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-Ray Diagnosis",
+            "year": 2024,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 39,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2411.16778",
+              "pdf": "https://arxiv.org/pdf/2411.16778",
+              "doi": "https://doi.org/10.1109/iccv51701.2025.01979"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2511.17803",
+            "ids": {
+              "arxiv": "2511.17803",
+              "doi": "10.48550/arxiv.2511.17803",
+              "s2": "8eb0630913261c6f53d87efc786de4caa282e065"
+            },
+            "title": "Pillar-0: A New Frontier for Radiology Foundation Models",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 30,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.17803",
+              "pdf": "https://arxiv.org/pdf/2511.17803",
+              "doi": "https://doi.org/10.48550/arxiv.2511.17803"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.02669",
+            "ids": {
+              "arxiv": "2508.02669",
+              "doi": "10.48550/arxiv.2508.02669",
+              "s2": "b178e8f59fa0c943758f1bf49807f44c70c8a496"
+            },
+            "title": "MedVLThinker: Simple Baselines for Multimodal Medical Reasoning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 30,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.02669",
+              "pdf": "https://arxiv.org/pdf/2508.02669",
+              "doi": "https://doi.org/10.48550/arxiv.2508.02669"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2507.05201",
+          "target": "doi:10.48550/arxiv.2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "doi:10.1093/jamia/ocv080",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2303.08774",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2302.13971",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2505.00228",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2204.14198",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2501.19393",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:1705.02315",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2212.13138",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2503.19786",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:1710.05006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2010.16056",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:70880997c8c92418e8616b8c16e996069d121c6e",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.21687",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.06073",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.17803",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "arxiv:2507.05201",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.05201",
+          "target": "arxiv:2507.07988",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2302.13971",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.00228",
+          "target": "doi:10.1093/jamia/ocv080",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1705.02315",
+          "target": "doi:10.1093/jamia/ocv080",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.13138",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.13138",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.13138",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.19786",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00890",
+          "target": "arxiv:2303.08774",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00890",
+          "target": "arxiv:2302.13971",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00890",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2010.16056",
+          "target": "doi:10.1093/jamia/ocv080",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "doi:10.48550/arxiv.2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:1705.02315",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "doi:10.1093/jamia/ocv080",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:2212.13138",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07044",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.21687",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.21687",
+          "target": "arxiv:2212.13138",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2303.08774",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2302.13971",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2212.13138",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03712",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "arxiv:1705.02315",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.05081",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.06073",
+          "target": "arxiv:2303.08774",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.06073",
+          "target": "arxiv:2302.13971",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.06073",
+          "target": "arxiv:2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.06073",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "doi:10.48550/arxiv.2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:2212.13138",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:1909.06146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.07988",
+          "target": "arxiv:2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "arxiv:2303.08774",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "arxiv:2302.13971",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "arxiv:2204.14198",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.16778",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.17803",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.17803",
+          "target": "arxiv:2506.07044",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "doi:10.1038/sdata.2018.251",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "arxiv:2009.13081",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "arxiv:2501.12948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "arxiv:2501.19393",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.02669",
+          "target": "arxiv:2306.00890",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 531,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2507.19504",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2507.19504",
+            "ids": {
+              "arxiv": "2507.19504",
+              "doi": "10.1007/s10462-025-11462-w",
+              "s2": "fa1ab1d39aadfa58a385169f0da0e012f085bb85",
+              "openalex": "W4417535890"
+            },
+            "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
+            "year": 2025,
+            "venue": "Artificial Intelligence Review",
+            "citations": 54,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "This paper presents a comprehensive review of TDA and TDL beyond persistent homology, and analyzes how persistent topological Laplacians and Dirac operators provide spectral representations to capture both topological invariants and homotopic evolution.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.19504",
+              "pdf": "https://arxiv.org/pdf/2507.19504",
+              "doi": "https://doi.org/10.1007/s10462-025-11462-w"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1126/science.290.5500.2319",
+            "ids": {
+              "doi": "10.1126/science.290.5500.2319",
+              "openalex": "W2001141328"
+            },
+            "title": "A Global Geometric Framework for Nonlinear Dimensionality Reduction",
+            "year": 2000,
+            "venue": "Science",
+            "citations": 13479,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2001141328",
+              "doi": "https://doi.org/10.1126/science.290.5500.2319"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.21105/joss.00861",
+            "ids": {
+              "doi": "10.21105/joss.00861",
+              "openalex": "W2889326414"
+            },
+            "title": "UMAP: Uniform Manifold Approximation and Projection",
+            "year": 2018,
+            "venue": "The Journal of Open Source Software",
+            "citations": 9787,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2889326414",
+              "doi": "https://doi.org/10.21105/joss.00861"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/nme.2579",
+            "ids": {
+              "doi": "10.1002/nme.2579",
+              "openalex": "W2112311198"
+            },
+            "title": "Gmsh: A 3‐D finite element mesh generator with built‐in pre‐ and post‐processing facilities",
+            "year": 2009,
+            "venue": "International Journal for Numerical Methods in Engineering",
+            "citations": 7818,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2112311198",
+              "doi": "https://doi.org/10.1002/nme.2579"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1115/1.3424474",
+            "ids": {
+              "doi": "10.1115/1.3424474",
+              "openalex": "W2092891737"
+            },
+            "title": "The Finite Element Method for Elliptic Problems",
+            "year": 1978,
+            "venue": "Journal of Applied Mechanics",
+            "citations": 5583,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2092891737",
+              "doi": "https://doi.org/10.1115/1.3424474"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/msp.2017.2693418",
+            "ids": {
+              "doi": "10.1109/msp.2017.2693418",
+              "openalex": "W2558748708"
+            },
+            "title": "Geometric Deep Learning: Going beyond Euclidean data",
+            "year": 2017,
+            "venue": "IEEE Signal Processing Magazine",
+            "citations": 3617,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2558748708",
+              "doi": "https://doi.org/10.1109/msp.2017.2693418"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/s0273-0979-09-01249-x",
+            "ids": {
+              "doi": "10.1090/s0273-0979-09-01249-x",
+              "openalex": "W1991566301"
+            },
+            "title": "Topology and data",
+            "year": 2009,
+            "venue": "Bulletin of the American Mathematical Society",
+            "citations": 2290,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1991566301",
+              "doi": "https://doi.org/10.1090/s0273-0979-09-01249-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00454-002-2885-2",
+            "ids": {
+              "doi": "10.1007/s00454-002-2885-2",
+              "openalex": "W3013843370"
+            },
+            "title": "Topological Persistence and Simplification",
+            "year": 2002,
+            "venue": "Discrete & Computational Geometry",
+            "citations": 1800,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3013843370",
+              "doi": "https://doi.org/10.1007/s00454-002-2885-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00454-004-1146-y",
+            "ids": {
+              "doi": "10.1007/s00454-004-1146-y",
+              "openalex": "W2144044408"
+            },
+            "title": "Computing Persistent Homology",
+            "year": 2004,
+            "venue": "Discrete & Computational Geometry",
+            "citations": 1570,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2144044408",
+              "doi": "https://doi.org/10.1007/s00454-004-1146-y"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/andp.18471481202",
+            "ids": {
+              "doi": "10.1002/andp.18471481202",
+              "openalex": "W2029673229"
+            },
+            "title": "Ueber die Auflösung der Gleichungen, auf welche man bei der Untersuchung der linearen Vertheilung galvanischer Ströme geführt wird",
+            "year": 1847,
+            "venue": "Annalen der Physik",
+            "citations": 1235,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2029673229",
+              "doi": "https://doi.org/10.1002/andp.18471481202"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/s0273-0979-07-01191-3",
+            "ids": {
+              "doi": "10.1090/s0273-0979-07-01191-3",
+              "openalex": "W2071391326"
+            },
+            "title": "Barcodes: The persistent topology of data",
+            "year": 2007,
+            "venue": "Bulletin of the American Mathematical Society",
+            "citations": 1212,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2071391326",
+              "doi": "https://doi.org/10.1090/s0273-0979-07-01191-3"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0962492906210018",
+            "ids": {
+              "doi": "10.1017/s0962492906210018",
+              "openalex": "W2138486270"
+            },
+            "title": "Finite element exterior calculus, homological techniques, and applications",
+            "year": 2006,
+            "venue": "Acta Numerica",
+            "citations": 940,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2138486270",
+              "doi": "https://doi.org/10.1017/s0962492906210018"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/frai.2021.681108",
+            "ids": {
+              "doi": "10.3389/frai.2021.681108",
+              "openalex": "W3165474212"
+            },
+            "title": "A Survey of Topological Machine Learning Methods",
+            "year": 2021,
+            "venue": "Frontiers in Artificial Intelligence",
+            "citations": 216,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W3165474212",
+              "doi": "https://doi.org/10.3389/frai.2021.681108"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/conm/453/08802",
+            "ids": {
+              "doi": "10.1090/conm/453/08802",
+              "openalex": "W4233690291"
+            },
+            "title": "Persistent homology—a survey",
+            "year": 2008,
+            "venue": "Contemporary mathematics - American Mathematical Society",
+            "citations": 875,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4233690291",
+              "doi": "https://doi.org/10.1090/conm/453/08802"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1186/s13244-023-01413-w",
+            "ids": {
+              "doi": "10.1186/s13244-023-01413-w",
+              "openalex": "W4362506068"
+            },
+            "title": "Topological data analysis in medical imaging: current state of the art",
+            "year": 2023,
+            "venue": "Insights into Imaging",
+            "citations": 115,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W4362506068",
+              "doi": "https://doi.org/10.1186/s13244-023-01413-w"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11263-007-0056-x",
+            "ids": {
+              "doi": "10.1007/s11263-007-0056-x",
+              "openalex": "W2104339857"
+            },
+            "title": "On the Local Behavior of Spaces of Natural Images",
+            "year": 2007,
+            "venue": "International Journal of Computer Vision",
+            "citations": 468,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2104339857",
+              "doi": "https://doi.org/10.1007/s11263-007-0056-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-319-42545-0",
+            "ids": {
+              "doi": "10.1007/978-3-319-42545-0",
+              "openalex": "W1596721197"
+            },
+            "title": "The Structure and Stability of Persistence Modules",
+            "year": 2016,
+            "venue": "SpringerBriefs in mathematics",
+            "citations": 403,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1596721197",
+              "doi": "https://doi.org/10.1007/978-3-319-42545-0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s41468-021-00071-5",
+            "ids": {
+              "doi": "10.1007/s41468-021-00071-5",
+              "openalex": "W2964534207"
+            },
+            "title": "Ripser: efficient computation of Vietoris–Rips persistence barcodes",
+            "year": 2021,
+            "venue": "Journal of Applied and Computational Topology",
+            "citations": 384,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2964534207",
+              "doi": "https://doi.org/10.1007/s41468-021-00071-5"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1371/journal.pcbi.1005690",
+            "ids": {
+              "doi": "10.1371/journal.pcbi.1005690",
+              "openalex": "W2741292700"
+            },
+            "title": "TopologyNet: Topology based deep convolutional and multi-task neural networks for biomolecular property predictions",
+            "year": 2017,
+            "venue": "PLoS Computational Biology",
+            "citations": 329,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2741292700",
+              "doi": "https://doi.org/10.1371/journal.pcbi.1005690"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.16877",
+            "ids": {
+              "arxiv": "2509.16877",
+              "doi": "10.1021/acs.jcim.5c02266",
+              "s2": "7dbc49d99863cbbd850fd12713e3bc24e606cbf2"
+            },
+            "title": "A Review of Topological Data Analysis and Topological Deep Learning in Molecular Sciences",
+            "year": 2025,
+            "venue": "Journal of Chemical Information and Modeling",
+            "citations": 44,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.16877",
+              "pdf": "https://arxiv.org/pdf/2509.16877",
+              "doi": "https://doi.org/10.1021/acs.jcim.5c02266"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.09406",
+            "ids": {
+              "arxiv": "2508.09406",
+              "doi": "10.1038/s41467-026-76429-z",
+              "s2": "5eabf8f993e66fef7d32cc49dcb23fc182edc9d8"
+            },
+            "title": "CAKR: commutative algebra k-mer representations for genomics",
+            "year": 2025,
+            "venue": "Nature Communications",
+            "citations": 14,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.09406",
+              "pdf": "https://arxiv.org/pdf/2508.09406",
+              "doi": "https://doi.org/10.1038/s41467-026-76429-z"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/2632-072x/ae3c4e",
+            "ids": {
+              "doi": "10.1088/2632-072x/ae3c4e",
+              "s2": "a010c8497503ea0c8d4451b3b16ba7452eb93eed"
+            },
+            "title": "Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions",
+            "year": 2026,
+            "venue": "Journal of Physics: Complexity",
+            "citations": 13,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a010c8497503ea0c8d4451b3b16ba7452eb93eed",
+              "doi": "https://doi.org/10.1088/2632-072x/ae3c4e"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2206.04189",
+            "ids": {
+              "arxiv": "2206.04189",
+              "doi": "10.1088/2632-2153/ae72eb",
+              "s2": "e80cfc46642acf452ce9eae28c2ee662c5f5b564"
+            },
+            "title": "Correlated clustering and projection for dimensionality reduction",
+            "year": 2022,
+            "venue": "Machine Learning: Science and Technology",
+            "citations": 12,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2206.04189",
+              "pdf": "https://arxiv.org/pdf/2206.04189",
+              "doi": "https://doi.org/10.1088/2632-2153/ae72eb"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.20973",
+            "ids": {
+              "arxiv": "2510.20973",
+              "doi": "10.1002/aidi.202500207",
+              "s2": "cce7a82b007352ce0d2de4f37094c0f9a4f63ba0"
+            },
+            "title": "Interpretability and Representability of Commutative Algebra, Algebraic Topology, and Topological Spectral Theory for Real-World Data",
+            "year": 2025,
+            "venue": "Advanced intelligent discovery",
+            "citations": 8,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.20973",
+              "pdf": "https://arxiv.org/pdf/2510.20973",
+              "doi": "https://doi.org/10.1002/aidi.202500207"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.23187",
+            "ids": {
+              "arxiv": "2510.23187",
+              "doi": "10.3934/fods.2026014",
+              "s2": "a4ee20918db4a43eb237fec3fe10d6d91ca0ec37"
+            },
+            "title": "GBNL: Graded Betti number learning of complex biological data",
+            "year": 2025,
+            "venue": "Foundations of Data Science",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.23187",
+              "pdf": "https://arxiv.org/pdf/2510.23187",
+              "doi": "https://doi.org/10.3934/fods.2026014"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.14846",
+            "ids": {
+              "arxiv": "2602.14846",
+              "doi": "10.48550/arxiv.2602.14846",
+              "s2": "5a9b53351c204d89f8850c070d812cff93521710"
+            },
+            "title": "Multi-dimensional Persistent Sheaf Laplacians for Image Analysis",
+            "year": 2026,
+            "venue": "Foundations of Data Science",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.14846",
+              "pdf": "https://arxiv.org/pdf/2602.14846",
+              "doi": "https://doi.org/10.48550/arxiv.2602.14846"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.20788",
+            "ids": {
+              "arxiv": "2510.20788",
+              "s2": "e633578082d02c30d831e99bdb88c97cceb6e5df"
+            },
+            "title": "Predicting Protein-Nucleic Acid Flexibility Using Persistent Sheaf Laplacians.",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.20788",
+              "pdf": "https://arxiv.org/pdf/2510.20788"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.23020",
+            "ids": {
+              "arxiv": "2509.23020",
+              "doi": "10.48550/arxiv.2509.23020",
+              "s2": "7dab7c996c63c673b508a3559adaa729a77a413a"
+            },
+            "title": "On the Sheafification of Higher-Order Message Passing",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.23020",
+              "pdf": "https://arxiv.org/pdf/2509.23020",
+              "doi": "https://doi.org/10.48550/arxiv.2509.23020"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.29763",
+            "ids": {
+              "arxiv": "2606.29763",
+              "doi": "10.48550/arxiv.2606.29763",
+              "s2": "e96d753b00fdabb7b262fec1e6a281345175e2d0"
+            },
+            "title": "TopoAgent: An Agentic Framework for Automated Topology Learning in Medical Imaging",
+            "year": 2026,
+            "venue": "European Conference on Computer Vision",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.29763",
+              "pdf": "https://arxiv.org/pdf/2606.29763",
+              "doi": "https://doi.org/10.48550/arxiv.2606.29763"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1126/science.290.5500.2319",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.21105/joss.00861",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1002/nme.2579",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1115/1.3424474",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1109/msp.2017.2693418",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1090/s0273-0979-09-01249-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1007/s00454-002-2885-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1007/s00454-004-1146-y",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1002/andp.18471481202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1090/s0273-0979-07-01191-3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1017/s0962492906210018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.3389/frai.2021.681108",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1090/conm/453/08802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1186/s13244-023-01413-w",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1007/s11263-007-0056-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1007/978-3-319-42545-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1007/s41468-021-00071-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.19504",
+          "target": "doi:10.1371/journal.pcbi.1005690",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.16877",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09406",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1088/2632-072x/ae3c4e",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.04189",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.20973",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23187",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.14846",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.20788",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.23020",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.29763",
+          "target": "arxiv:2507.19504",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.16877",
+          "target": "arxiv:2508.09406",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.04189",
+          "target": "arxiv:2509.16877",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.20973",
+          "target": "arxiv:2508.09406",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.20973",
+          "target": "arxiv:2509.16877",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23187",
+          "target": "arxiv:2508.09406",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23187",
+          "target": "arxiv:2509.16877",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.14846",
+          "target": "arxiv:2206.04189",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.14846",
+          "target": "arxiv:2509.16877",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.20788",
+          "target": "arxiv:2509.16877",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 54,
+      "errors": []
+    }
+  ]
+}
