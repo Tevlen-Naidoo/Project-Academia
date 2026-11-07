@@ -190,11 +190,14 @@ npm run preview   # build exactly what gets published into site/ and serve it on
 
 ## Daily run
 
-**Actions → Daily papers** is scheduled at 05:17, 05:47 and 06:17 SAST, so the papers are up
-by 07:00 SAST even if GitHub drops a scheduled start (it does at busy times). The first run
-makes the day's papers; the later ones see they are already up and stop. It fetches the candidates, picks 3 papers, finds what to read first,
-commits `data/picks/` and `data/prereqs/` for the day, and republishes the site. The
-candidates file is only attached to the run, for 30 days. If a run fails, nothing is
+**Actions → Daily papers** makes the day's papers. GitHub's own schedule (05:17, 05:47 and
+06:17 SAST) is unreliable and sometimes never starts at all, so an outside caller also starts
+the workflow each morning at about 05:20 SAST with **Only if today's papers aren't up yet**
+ticked (`if_needed=true`). Whichever start comes first makes the papers; later starts see that
+`data/picks/` already has today's file and stop. A run started by hand without that box always
+runs. Each run fetches the candidates, picks 3 papers, finds what to read first,
+commits `data/picks/` and `data/prereqs/` for the day, republishes the site and sends the
+notification. The candidates file is only attached to the run, for 30 days. If a run fails, nothing is
 committed and the site keeps the previous day's papers; GitHub emails you about the
 failure. To fill in a missed day, run the workflow by hand with that date.
 
