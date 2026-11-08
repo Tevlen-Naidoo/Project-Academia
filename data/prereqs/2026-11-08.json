@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T10:26:25.516090Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.04949",
+      "pick_title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+      "source": "openalex",
+      "references_seen": 6,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2505.09388",
+            "ids": {
+              "arxiv": "2505.09388",
+              "doi": "10.48550/arxiv.2505.09388",
+              "openalex": "W4414939355"
+            },
+            "title": "Qwen3 Technical Report",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 17136,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.09388",
+              "pdf": "https://arxiv.org/pdf/2505.09388",
+              "doi": "https://doi.org/10.48550/arxiv.2505.09388"
+            }
+          },
+          "label": "background",
+          "score": 3.387,
+          "reasons": [
+            "17k citations"
+          ],
+          "supports": [
+            "arxiv:2611.04949"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.07891",
+            "ids": {
+              "arxiv": "2503.07891",
+              "doi": "10.48550/arxiv.2503.07891",
+              "openalex": "W4414566258"
+            },
+            "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 209,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.07891",
+              "pdf": "https://arxiv.org/pdf/2503.07891",
+              "doi": "https://doi.org/10.48550/arxiv.2503.07891"
+            }
+          },
+          "label": "background",
+          "score": 1.858,
+          "reasons": [
+            "209 citations"
+          ],
+          "supports": [
+            "arxiv:2611.04949"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.05209",
+            "ids": {
+              "arxiv": "2509.05209",
+              "doi": "10.48550/arxiv.2509.05209",
+              "openalex": "W4415058057"
+            },
+            "title": "Hunyuan-MT Technical Report",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 53,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.05209",
+              "pdf": "https://arxiv.org/pdf/2509.05209",
+              "doi": "https://doi.org/10.48550/arxiv.2509.05209"
+            }
+          },
+          "label": "background",
+          "score": 1.386,
+          "reasons": [
+            "53 citations"
+          ],
+          "supports": [
+            "arxiv:2611.04949"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for f4cc397e7f85f2ddfe5e5b3248b7c87918f0c9e9: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/f4cc397e7f85f2ddfe5e5b3248b7c87918f0c9e9/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "doi:10.1109/tit.2026.3692458",
+      "pick_title": "Function-Correcting Codes With Data Protection",
+      "source": "s2",
+      "references_seen": 21,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.5860/choice.42-0987",
+            "ids": {
+              "doi": "10.5860/choice.42-0987",
+              "s2": "22cfbab1856262474d1f699b181992322b7e3d42"
+            },
+            "title": "Coding Theory: A First Course",
+            "year": 2004,
+            "citations": 365,
+            "influential_citations": 64,
+            "is_review": false,
+            "tldr": "This book gives a comprehensive introduction to coding theory whilst only assuming basic linear algebra and contains a detailed and rigorous introduction to the theory of block codes and moves on to more advanced topics like BCH codes, Goppa codes and Sudan's algorithm for list decoding.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/22cfbab1856262474d1f699b181992322b7e3d42",
+              "doi": "https://doi.org/10.5860/choice.42-0987"
+            }
+          },
+          "label": "background",
+          "score": 5.957,
+          "reasons": [
+            "Influential reference for this paper",
+            "365 citations"
+          ],
+          "quote": "Then for t f − t d ≥ 5 and M ≤ 4( t f − t d ) 2 , we have Furthermore, for M = 4, we have Using the lower and upper bounds on the redundancy of an ( f , t f )-FCC, provided in Corollary 1 and Theorem 1, respectively, the following theorem establishes bounds on the redundancy for our method of const…",
+          "supports": [
+            "doi:10.1109/tit.2026.3692458"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:0803.2570",
+            "ids": {
+              "arxiv": "0803.2570",
+              "s2": "e1bfd0ae939c2e10a4234b50faa4e3dd7af9db9c"
+            },
+            "title": "Unequal Error Protection: An Information-Theoretic Perspective",
+            "year": 2008,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 103,
+            "influential_citations": 9,
+            "is_review": false,
+            "tldr": "It is shown that, feedback results in a significant improvement in both bit-wise and message-wise UEPs (except the single message case for missed detection).",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/0803.2570",
+              "pdf": "https://arxiv.org/pdf/0803.2570"
+            }
+          },
+          "label": "background",
+          "score": 5.114,
+          "reasons": [
+            "Influential reference for this paper",
+            "103 citations"
+          ],
+          "quote": "…that r ≥ 2 t f + t d , and hence A. Upper Bounds for r f (k , t d , t f ) We have deﬁned two types of distance requirement matrices in Deﬁnitions 7 and 11, given as In the following theorem, we make a connection between these two matrices, and using that, we provide an upper bound for r f ( k ,…",
+          "supports": [
+            "doi:10.1109/tit.2026.3692458"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.03094",
+            "ids": {
+              "arxiv": "2102.03094",
+              "doi": "10.48550/arxiv.2102.03094",
+              "s2": "8fe48b2dddb22b74d51fd421b7af0762f51b446d"
+            },
+            "title": "Function-Correcting Codes",
+            "year": 2021,
+            "venue": "International Symposium on Information Theory",
+            "citations": 40,
+            "influential_citations": 20,
+            "is_review": false,
+            "tldr": "This work shows that function-correcting codes are equivalent to irregular distance codes, i.e., codes that obey some given distance requirement between each pair of codewords, and derives general upper and lower bounds on their optimal redundancy.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.03094",
+              "pdf": "https://arxiv.org/pdf/2102.03094",
+              "doi": "https://doi.org/10.48550/arxiv.2102.03094"
+            }
+          },
+          "label": "background",
+          "score": 4.951,
+          "reasons": [
+            "Influential reference for this paper",
+            "40 citations"
+          ],
+          "quote": "This e ﬃ ciency highlights the signiﬁcance of a function-correcting code (FCC), which is designed to protect speciﬁc function rather than the entire dataset, o ﬀ ering a more e ﬃ cient solution in such scenarios.",
+          "supports": [
+            "doi:10.1109/tit.2026.3692458"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2511.13560",
+      "pick_title": "Sequences of Bivariate Bicycle Codes from Covering Graphs",
+      "source": "s2",
+      "references_seen": 55,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2308.07915",
+            "ids": {
+              "arxiv": "2308.07915",
+              "doi": "10.1038/s41586-024-07107-7",
+              "s2": "38340391d1d42dda851db732fafc0232e66a86f4"
+            },
+            "title": "High-threshold and low-overhead fault-tolerant quantum memory",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 945,
+            "influential_citations": 174,
+            "is_review": false,
+            "tldr": "An end-to-end quantum error correction protocol that implements fault-tolerant memory on the basis of a family of low-density parity-check codes shows the possibility of low-overhead fault-tolerant quantum memory within the reach of near-term quantum processors.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.07915",
+              "pdf": "https://arxiv.org/pdf/2308.07915",
+              "doi": "https://doi.org/10.1038/s41586-024-07107-7"
+            }
+          },
+          "label": "background",
+          "score": 6.502,
+          "reasons": [
+            "Influential reference for this paper",
+            "945 citations"
+          ],
+          "quote": "In this section we recall the basics of the bivariate bicycle code construction; for the full details see [34].",
+          "supports": [
+            "arxiv:2511.13560"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1111.4022",
+            "ids": {
+              "arxiv": "1111.4022",
+              "doi": "10.1088/1367-2630/14/12/123011",
+              "s2": "c375e28f31864920ca0b867664e3819a577c87f7"
+            },
+            "title": "Surface code quantum computing by lattice surgery",
+            "year": 2011,
+            "citations": 902,
+            "influential_citations": 71,
+            "is_review": false,
+            "tldr": "This paper introduces a new technique enabling the coupling of two planar codes without transversal operations, maintaining the 2DNN of the encoded computer, and shows how lattice surgery allows us to distribute encoded GHZ states in a more direct manner, and how a demonstration of an encoded CNOT between two distance-3 logical states is possible with 53 physical qubits.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1111.4022",
+              "pdf": "https://arxiv.org/pdf/1111.4022",
+              "doi": "https://doi.org/10.1088/1367-2630/14/12/123011"
+            }
+          },
+          "label": "background",
+          "score": 6.293,
+          "reasons": [
+            "Influential reference for this paper",
+            "902 citations"
+          ],
+          "quote": "As an example, we show in Table 3 that several of the k = 10 codes can be generated as a sequence of covers of the base [[62 , 10 , 6]] code.",
+          "supports": [
+            "arxiv:2511.13560"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2101.09310",
+            "ids": {
+              "arxiv": "2101.09310",
+              "doi": "10.1038/s41467-023-36493-1",
+              "s2": "9d82c7e11a220e9848003d5cc0c198ff96e0a448"
+            },
+            "title": "Fusion-based quantum computation",
+            "year": 2021,
+            "venue": "Nature Communications",
+            "citations": 537,
+            "influential_citations": 48,
+            "is_review": false,
+            "tldr": "A quantum computation scheme where the same measurements used to generate entanglement can also be used to achieve fault-tolerance leading to an increased tolerance to errors leading to a model for fault tolerant quantum computing constructed from physical primitives readily accessible in photonic systems.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2101.09310",
+              "pdf": "https://arxiv.org/pdf/2101.09310",
+              "doi": "https://doi.org/10.1038/s41467-023-36493-1"
+            }
+          },
+          "label": "background",
+          "score": 6.03,
+          "reasons": [
+            "Influential reference for this paper",
+            "537 citations"
+          ],
+          "quote": "For example, the Tanner graph of the gross code [[144 , 12 , 12]] is a double cover of the Tanner graph of [[72 , 12 , 6]] code.",
+          "supports": [
+            "arxiv:2511.13560"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

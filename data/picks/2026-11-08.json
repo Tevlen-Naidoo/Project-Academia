@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T10:25:46.288303Z",
+  "candidates_file": "candidates/2026-11-08.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "nlp",
+      "funnel": "fresh",
+      "score": 0.9685,
+      "adjusted": 0.9685,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.7765,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.2857,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "1 upvotes on Hugging Face · Published in Conference on Empirical Methods in Natural Language Processing",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.04949",
+        "ids": {
+          "arxiv": "2611.04949",
+          "doi": "10.18653/2026.findings-emnlp.2326",
+          "s2": "f4cc397e7f85f2ddfe5e5b3248b7c87918f0c9e9",
+          "openalex": "W7224657723"
+        },
+        "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+        "authors": [
+          {
+            "name": "Dayeon Jeong",
+            "affiliation": null
+          },
+          {
+            "name": "Kyeongpil Kang",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuances and the temporal bias inherent in scarce human-labeled corpora. To address these challenges, we propose HERIT, a systematic domain-adaptation pipeline that leverages retrieval-augmented generation (RAG) to generate high-quality pseudo-labeled data from abundant Hanja-Korean corpora. This approach substantially expands the training dataset, mitigating both data scarcity and temporal overfitting across different historical periods. Extensive automated and human evaluations demonstrate that HERIT consistently outperforms baselines. Finally, we translate previously untranslated portions of the archives using our model, thereby enabling global access to these resources for researchers.",
+        "tldr": "HerIT is proposed, a systematic domain-adaptation pipeline that leverages retrieval-augmented generation (RAG) to generate high-quality pseudo-labeled data from abundant Hanja-Korean corpora, thereby enabling global access to these resources for researchers.",
+        "topics": [
+          "nlp",
+          "ml",
+          "ai",
+          "art"
+        ],
+        "source_categories": [
+          "cs.CL"
+        ],
+        "dates": {
+          "first_seen": "2026-11-08",
+          "submitted": "2026-11-03",
+          "published": "2026-11-03"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 1,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.04949",
+          "pdf": "https://arxiv.org/pdf/2611.04949",
+          "doi": "https://doi.org/10.18653/2026.findings-emnlp.2326",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-08T10:21:28.591249Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.9723,
+      "adjusted": 0.8265,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9828,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8793,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "20 citations, about 3 a month · Published in IEEE Transactions on Information Theory",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1109/tit.2026.3692458",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1109/tit.2026.3692458",
+          "s2": "61655212994fc342930c4fe449327cb403fd5229",
+          "openalex": "W7160954920"
+        },
+        "title": "Function-Correcting Codes With Data Protection",
+        "authors": [
+          {
+            "name": "Charul Rajput",
+            "affiliation": null
+          },
+          {
+            "name": "Balaji Sundar Rajan",
+            "affiliation": null
+          },
+          {
+            "name": "Ragnar Freij-Hollanti",
+            "affiliation": null
+          },
+          {
+            "name": "Camilla Hollanti",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Function-correcting codes (FCCs) are designed to provide error protection for the value of a function computed on the data. Existing work typically focuses solely on protecting the function value and not the underlying data. In this work, we propose a general framework that offers protection for both the data and the function values. Since protecting the data inherently contributes to protecting the function value, we focus on scenarios where the function value requires stronger protection than the data itself. A two-step construction procedure for such codes is proposed, and bounds on the optimal redundancy of general FCCs with data protection are reported. Using these results, we exhibit examples that show that data protection can be added to existing FCCs without increasing redundancy. Using our two-step construction procedure, we present explicit constructions of FCCs with data protection for specific families of functions, such as locally bounded functions and the Hamming weight function. We associate a graph calledminimum-distance graphto a code and use it to show that perfect codes and maximum distance separable (MDS) codes cannot provide additional protection to function values over and above the amount of protection for data for any function. Then we focus on linear FCCs and provide some results for linear functions, leveraging their inherent structural properties. While FCCs for linear functions have been considered earlier in the literature, to the best of our knowledge, the linearity of the FCC itself has not been studied before. Finally, we generalize the Plotkin and Hamming bounds well known in classical error-correcting coding theory to FCCs with data protection.",
+        "tldr": "This work proposes a general framework that offers protection for both the data and the function values inFunction-correcting codes and presents explicit constructions of FCCs with data protection for specific families of functions, such as locally bounded functions and the Hamming weight function.",
+        "topics": [
+          "graph-theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-08",
+          "submitted": null,
+          "published": "2026-05-12"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Transactions on Information Theory",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 20,
+          "influential": 4,
+          "last_12_months": 10,
+          "per_month": 3.382,
+          "by_year": {
+            "2026": 10
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1109/tit.2026.3692458",
+          "pdf": null,
+          "doi": "https://doi.org/10.1109/tit.2026.3692458",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-08T10:21:28.591249Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "waves",
+      "score": 0.9591,
+      "adjusted": 0.8152,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9286,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9457,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "17 citations, about 5 a month · Published in PRX Quantum",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2511.13560",
+        "ids": {
+          "arxiv": "2511.13560",
+          "doi": "10.1103/vxpb-vjwl",
+          "s2": "32fa832fe4a08940ffafbffe47990c6aedd9ae1f",
+          "openalex": "W7172257030"
+        },
+        "title": "Sequences of Bivariate Bicycle Codes from Covering Graphs",
+        "authors": [
+          {
+            "name": "Anonymous",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We show that given an instance of a bivariate bicycle (BB) code, it is possible to generate an infinite sequence of new BB codes using increasingly large covering graphs of the original code's Tanner graph. When a BB code has a Tanner graph that is a $h$-fold covering of the base BB code's Tanner graph, we refer to it as a $h$-\\textit{cover code}. We show that for a BB code to be a $h$-cover code, its lattice parameters and defining polynomials must satisfy simple algebraic conditions relative to those of the base code. By extending the graph covering map to a chain map, we show there are induced projection and lifting maps on (co)homology that enable the projection and lifting of logical operators and, in certain cases, automorphisms between the base and the cover code. The search space of cover codes is considerably reduced compared to the full space of possible polynomials and we find that many interesting examples of BB codes, such as the $[[144,12,12]]$ gross code, can be viewed as cover codes. We also apply our method to search for BB codes with weight 8 checks and find many new codes, including a $[[64,14,8]]$ and $[[144,14,14]]$ code. For an $h$-cover code of an $[[n,k,d]]$ BB code with parameters $[[n_h = hn, k_h, d_h]]$, we prove that $k_h \\geq k$ for any $h$, and $d_h \\leq hd$ when $h$ is odd. Furthermore if $h$ is odd and $k_h = k$, we prove the distance lower bound $d \\leq d_h$. We conjecture it is always true that an $h$-cover BB code of a base $[[n,k,d]]$ BB code obeys the distance bounds $d \\leq d_h \\leq hd$. While the focus of this work is on bivariate bicycle codes, we expect these methods to generalise readily to many group algebra codes and to certain code constructions involving hypergraph, lifted, and balanced products.",
+        "tldr": null,
+        "topics": [
+          "ai",
+          "graph-theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-08",
+          "submitted": null,
+          "published": "2026-08-03"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "PRX Quantum",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 17,
+          "influential": 5,
+          "last_12_months": 18,
+          "per_month": 5.335,
+          "by_year": {
+            "2026": 18
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2511.13560",
+          "pdf": "https://arxiv.org/pdf/2511.13560",
+          "doi": "https://doi.org/10.1103/vxpb-vjwl",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-08T10:21:28.591249Z"
+      }
+    }
+  ]
+}

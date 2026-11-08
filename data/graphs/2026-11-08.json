@@ -1,0 +1,2332 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T10:26:25.516090Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.04949",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.04949",
+            "ids": {
+              "arxiv": "2611.04949",
+              "doi": "10.18653/2026.findings-emnlp.2326",
+              "s2": "f4cc397e7f85f2ddfe5e5b3248b7c87918f0c9e9",
+              "openalex": "W7224657723"
+            },
+            "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+            "year": 2026,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "HerIT is proposed, a systematic domain-adaptation pipeline that leverages retrieval-augmented generation (RAG) to generate high-quality pseudo-labeled data from abundant Hanja-Korean corpora, thereby enabling global access to these resources for researchers.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.04949",
+              "pdf": "https://arxiv.org/pdf/2611.04949",
+              "doi": "https://doi.org/10.18653/2026.findings-emnlp.2326"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.09388",
+            "ids": {
+              "arxiv": "2505.09388",
+              "doi": "10.48550/arxiv.2505.09388",
+              "openalex": "W4414939355"
+            },
+            "title": "Qwen3 Technical Report",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 17136,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.09388",
+              "pdf": "https://arxiv.org/pdf/2505.09388",
+              "doi": "https://doi.org/10.48550/arxiv.2505.09388"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.07891",
+            "ids": {
+              "arxiv": "2503.07891",
+              "doi": "10.48550/arxiv.2503.07891",
+              "openalex": "W4414566258"
+            },
+            "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 209,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.07891",
+              "pdf": "https://arxiv.org/pdf/2503.07891",
+              "doi": "https://doi.org/10.48550/arxiv.2503.07891"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.05209",
+            "ids": {
+              "arxiv": "2509.05209",
+              "doi": "10.48550/arxiv.2509.05209",
+              "openalex": "W4415058057"
+            },
+            "title": "Hunyuan-MT Technical Report",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 53,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.05209",
+              "pdf": "https://arxiv.org/pdf/2509.05209",
+              "doi": "https://doi.org/10.48550/arxiv.2509.05209"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2402.13482",
+            "ids": {
+              "arxiv": "2402.13482",
+              "doi": "10.48550/arxiv.2402.13482",
+              "openalex": "W4392088226"
+            },
+            "title": "Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks",
+            "year": 2024,
+            "venue": "arXiv (Cornell University)",
+            "citations": 26,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2402.13482",
+              "pdf": "https://arxiv.org/pdf/2402.13482",
+              "doi": "https://doi.org/10.48550/arxiv.2402.13482"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.00931",
+            "ids": {
+              "arxiv": "2510.00931",
+              "doi": "10.48550/arxiv.2510.00931",
+              "openalex": "W4414809533"
+            },
+            "title": "Making, not Taking, the Best of N",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.00931",
+              "pdf": "https://arxiv.org/pdf/2510.00931",
+              "doi": "https://doi.org/10.48550/arxiv.2510.00931"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/2026.emnlp-main.1302",
+            "ids": {
+              "doi": "10.18653/2026.emnlp-main.1302",
+              "openalex": "W4415257106"
+            },
+            "title": "LLM Reasoning for Machine Translation: Synthetic Data Generation over Thinking Tokens",
+            "year": 2026,
+            "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4415257106",
+              "doi": "https://doi.org/10.18653/2026.emnlp-main.1302"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.04949",
+          "target": "arxiv:2505.09388",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04949",
+          "target": "arxiv:2503.07891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04949",
+          "target": "arxiv:2509.05209",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04949",
+          "target": "arxiv:2402.13482",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04949",
+          "target": "arxiv:2510.00931",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04949",
+          "target": "doi:10.18653/2026.emnlp-main.1302",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1109/tit.2026.3692458",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.2026.3692458",
+            "ids": {
+              "doi": "10.1109/tit.2026.3692458",
+              "s2": "61655212994fc342930c4fe449327cb403fd5229",
+              "openalex": "W7160954920"
+            },
+            "title": "Function-Correcting Codes With Data Protection",
+            "year": 2026,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 20,
+            "influential_citations": 4,
+            "is_review": false,
+            "tldr": "This work proposes a general framework that offers protection for both the data and the function values inFunction-correcting codes and presents explicit constructions of FCCs with data protection for specific families of functions, such as locally bounded functions and the Hamming weight function.",
+            "links": {
+              "abstract_page": "https://doi.org/10.1109/tit.2026.3692458",
+              "doi": "https://doi.org/10.1109/tit.2026.3692458"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.5860/choice.42-0987",
+            "ids": {
+              "doi": "10.5860/choice.42-0987",
+              "s2": "22cfbab1856262474d1f699b181992322b7e3d42"
+            },
+            "title": "Coding Theory: A First Course",
+            "year": 2004,
+            "citations": 365,
+            "influential_citations": 64,
+            "is_review": false,
+            "tldr": "This book gives a comprehensive introduction to coding theory whilst only assuming basic linear algebra and contains a detailed and rigorous introduction to the theory of block codes and moves on to more advanced topics like BCH codes, Goppa codes and Sudan's algorithm for list decoding.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/22cfbab1856262474d1f699b181992322b7e3d42",
+              "doi": "https://doi.org/10.5860/choice.42-0987"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:0803.2570",
+            "ids": {
+              "arxiv": "0803.2570",
+              "s2": "e1bfd0ae939c2e10a4234b50faa4e3dd7af9db9c"
+            },
+            "title": "Unequal Error Protection: An Information-Theoretic Perspective",
+            "year": 2008,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 103,
+            "influential_citations": 9,
+            "is_review": false,
+            "tldr": "It is shown that, feedback results in a significant improvement in both bit-wise and message-wise UEPs (except the single message case for missed detection).",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/0803.2570",
+              "pdf": "https://arxiv.org/pdf/0803.2570"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.03094",
+            "ids": {
+              "arxiv": "2102.03094",
+              "doi": "10.48550/arxiv.2102.03094",
+              "s2": "8fe48b2dddb22b74d51fd421b7af0762f51b446d"
+            },
+            "title": "Function-Correcting Codes",
+            "year": 2021,
+            "venue": "International Symposium on Information Theory",
+            "citations": 40,
+            "influential_citations": 20,
+            "is_review": false,
+            "tldr": "This work shows that function-correcting codes are equivalent to irregular distance codes, i.e., codes that obey some given distance requirement between each pair of codewords, and derives general upper and lower bounds on their optimal redundancy.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.03094",
+              "pdf": "https://arxiv.org/pdf/2102.03094",
+              "doi": "https://doi.org/10.48550/arxiv.2102.03094"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.07804",
+            "ids": {
+              "arxiv": "2504.07804",
+              "doi": "10.1109/itw62417.2025.11240404",
+              "s2": "fa46c7c07d04820a2298880ec3deac1d035364e2"
+            },
+            "title": "Function-Correcting Codes for Locally Bounded Functions",
+            "year": 2025,
+            "venue": "Information Theory Workshop",
+            "citations": 22,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.07804",
+              "pdf": "https://arxiv.org/pdf/2504.07804",
+              "doi": "https://doi.org/10.1109/itw62417.2025.11240404"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/itw.2016.7606785",
+            "ids": {
+              "doi": "10.1109/itw.2016.7606785",
+              "s2": "654277199983ce849f6d40b54e84847f28e5dfab"
+            },
+            "title": "On distributed computing for functions with certain structures",
+            "year": 2016,
+            "venue": "Information Theory Workshop",
+            "citations": 12,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/654277199983ce849f6d40b54e84847f28e5dfab",
+              "doi": "https://doi.org/10.1109/itw.2016.7606785"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/sfcs.1995.492580",
+            "ids": {
+              "doi": "10.1109/sfcs.1995.492580",
+              "s2": "b5a9373f519e8afb41bf6705461414d59d6296af"
+            },
+            "title": "Coding for computing",
+            "year": 1995,
+            "venue": "Proceedings of IEEE 36th Annual Foundations of Computer Science",
+            "citations": 461,
+            "influential_citations": 69,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b5a9373f519e8afb41bf6705461414d59d6296af",
+              "doi": "https://doi.org/10.1109/sfcs.1995.492580"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.2307/3618021",
+            "ids": {
+              "doi": "10.2307/3618021",
+              "s2": "7624c3aef472f2f7723579ab074c84ea09f9d7ce"
+            },
+            "title": "A First Course in Coding Theory",
+            "year": 1988,
+            "citations": 274,
+            "influential_citations": 38,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7624c3aef472f2f7723579ab074c84ea09f9d7ce",
+              "doi": "https://doi.org/10.2307/3618021"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1967.1054054",
+            "ids": {
+              "doi": "10.1109/tit.1967.1054054",
+              "s2": "23a185eaf09ab6c494a0a7dd895b2c42453be48f"
+            },
+            "title": "On linear unequal error protection codes",
+            "year": 1967,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 338,
+            "influential_citations": 17,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/23a185eaf09ab6c494a0a7dd895b2c42453be48f",
+              "doi": "https://doi.org/10.1109/tit.1967.1054054"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1981.1056381",
+            "ids": {
+              "doi": "10.1109/tit.1981.1056381",
+              "s2": "c197e6e605432b08b3a37407c9cd04921e17c3cd"
+            },
+            "title": "To get a bit of information may be as hard as to get full information",
+            "year": 1981,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 40,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c197e6e605432b08b3a37407c9cd04921e17c3cd",
+              "doi": "https://doi.org/10.1109/tit.1981.1056381"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.16271",
+            "ids": {
+              "arxiv": "2312.16271",
+              "doi": "10.1109/tit.2024.3451249",
+              "s2": "8599d0e10f9d021a6931ac01edcdc3262e63e4e4"
+            },
+            "title": "Function-Correcting Codes for Symbol-Pair Read Channels",
+            "year": 2023,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 31,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.16271",
+              "pdf": "https://arxiv.org/pdf/2312.16271",
+              "doi": "https://doi.org/10.1109/tit.2024.3451249"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.03332",
+            "ids": {
+              "arxiv": "2507.03332",
+              "doi": "10.48550/arxiv.2507.03332",
+              "s2": "06b3b145665d1e3e43bc60592f64b7c646f6ee68"
+            },
+            "title": "Function-Correcting Codes with Homogeneous Distance",
+            "year": 2025,
+            "venue": "Finite Fields Their Appl.",
+            "citations": 20,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.03332",
+              "pdf": "https://arxiv.org/pdf/2507.03332",
+              "doi": "https://doi.org/10.48550/arxiv.2507.03332"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.12894",
+            "ids": {
+              "arxiv": "2503.12894",
+              "doi": "10.48550/arxiv.2503.12894",
+              "s2": "746a06b28307c33f6b323fc337c274ea6b83e8d8"
+            },
+            "title": "Function-Correcting Codes for b-Symbol Read Channels",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 30,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.12894",
+              "pdf": "https://arxiv.org/pdf/2503.12894",
+              "doi": "https://doi.org/10.48550/arxiv.2503.12894"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.17654",
+            "ids": {
+              "arxiv": "2507.17654",
+              "doi": "10.48550/arxiv.2507.17654",
+              "s2": "484e114b34af4c9c1e5ef54bb931f7d42c4f3ce8"
+            },
+            "title": "On Function-Correcting Codes in the Lee Metric",
+            "year": 2025,
+            "venue": "Journal of Algebra",
+            "citations": 17,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.17654",
+              "pdf": "https://arxiv.org/pdf/2507.17654",
+              "doi": "https://doi.org/10.48550/arxiv.2507.17654"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.16983",
+            "ids": {
+              "arxiv": "2502.16983",
+              "doi": "10.1109/tit.2025.3626715",
+              "s2": "b2b701ec39fd301bf69530a23388e4322c8b39d3"
+            },
+            "title": "Optimal Redundancy of Function-Correcting Codes",
+            "year": 2025,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 29,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.16983",
+              "pdf": "https://arxiv.org/pdf/2502.16983",
+              "doi": "https://doi.org/10.1109/tit.2025.3626715"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.14410",
+            "ids": {
+              "arxiv": "2504.14410",
+              "doi": "10.1109/istc65386.2025.11154510",
+              "s2": "baf33c06d11797be9fd7d2e26469e8208664f323"
+            },
+            "title": "On the Redundancy of Function-Correcting Codes over Finite Fields",
+            "year": 2025,
+            "venue": "International Symposium on Turbo Codes and Iterative Information Processing",
+            "citations": 21,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.14410",
+              "pdf": "https://arxiv.org/pdf/2504.14410",
+              "doi": "https://doi.org/10.1109/istc65386.2025.11154510"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.09473",
+            "ids": {
+              "arxiv": "2505.09473",
+              "doi": "10.1109/tit.2025.3633259",
+              "s2": "4cd0e9d94d76c0ab5bdfa6767f32ab1bc43a9777"
+            },
+            "title": "Function-Correcting b-Symbol Codes for Locally (λ, ρ, b)-Functions",
+            "year": 2025,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 19,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.09473",
+              "pdf": "https://arxiv.org/pdf/2505.09473",
+              "doi": "https://doi.org/10.1109/tit.2025.3633259"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.01702",
+            "ids": {
+              "arxiv": "2508.01702",
+              "doi": "10.1109/tit.2026.3697793",
+              "s2": "6e687bccffc3eaebc812d9edfc5951a43a2106c5"
+            },
+            "title": "Plotkin-Like Bound and Explicit Function-Correcting Code Constructions for Lee Metric Channels",
+            "year": 2025,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 16,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.01702",
+              "pdf": "https://arxiv.org/pdf/2508.01702",
+              "doi": "https://doi.org/10.1109/tit.2026.3697793"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/itw.2017.8278033",
+            "ids": {
+              "doi": "10.1109/itw.2017.8278033",
+              "s2": "ade84f7eb6eac4224eee63962d14a6ea3a43e7c0"
+            },
+            "title": "Context-aware resiliency: Unequal message protection for random-access memories",
+            "year": 2017,
+            "venue": "Information Theory Workshop",
+            "citations": 16,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ade84f7eb6eac4224eee63962d14a6ea3a43e7c0",
+              "doi": "https://doi.org/10.1109/itw.2017.8278033"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.06450",
+            "ids": {
+              "arxiv": "2601.06450",
+              "doi": "10.1109/isit62367.2026.11653940",
+              "s2": "c42cc616cfbf1d0bc2ab913f2f3cb7d2af2fbb9d"
+            },
+            "title": "Function-Correcting Partition Codes",
+            "year": 2026,
+            "venue": "International Symposium on Information Theory",
+            "citations": 9,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.06450",
+              "pdf": "https://arxiv.org/pdf/2601.06450",
+              "doi": "https://doi.org/10.1109/isit62367.2026.11653940"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.21932",
+            "ids": {
+              "arxiv": "2602.21932",
+              "doi": "10.1109/isit62367.2026.11653981",
+              "s2": "77d279ee95031f897597894f9e916fbc07364163"
+            },
+            "title": "Function-Correcting Codes with Optimal Data Protection for Hamming Code Membership",
+            "year": 2026,
+            "venue": "International Symposium on Information Theory",
+            "citations": 6,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.21932",
+              "pdf": "https://arxiv.org/pdf/2602.21932",
+              "doi": "https://doi.org/10.1109/isit62367.2026.11653981"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.07243",
+            "ids": {
+              "arxiv": "2512.07243",
+              "doi": "10.48550/arxiv.2512.07243",
+              "s2": "a7b50cf17d3d4f79ca89f2014d62bc272837b36d"
+            },
+            "title": "Function-Correcting Codes for Insertion-Deletion Channel",
+            "year": 2025,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 6,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.07243",
+              "pdf": "https://arxiv.org/pdf/2512.07243",
+              "doi": "https://doi.org/10.48550/arxiv.2512.07243"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.14471",
+            "ids": {
+              "arxiv": "2603.14471",
+              "doi": "10.48550/arxiv.2603.14471",
+              "s2": "0f6c172b69385d5195997f954bec47bd590fc0ed"
+            },
+            "title": "Function-Correcting Codes for Linear and Locally Bounded Functions Over a Finite Chain Ring",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.14471",
+              "pdf": "https://arxiv.org/pdf/2603.14471",
+              "doi": "https://doi.org/10.48550/arxiv.2603.14471"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.10135",
+            "ids": {
+              "arxiv": "2601.10135",
+              "doi": "10.1109/isit62367.2026.11653615",
+              "s2": "dbea1b48c717eaf4704dcad573356822b1407786"
+            },
+            "title": "Function Correcting Codes for Maximally-Unbalanced Boolean Functions",
+            "year": 2026,
+            "venue": "International Symposium on Information Theory",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.10135",
+              "pdf": "https://arxiv.org/pdf/2601.10135",
+              "doi": "https://doi.org/10.1109/isit62367.2026.11653615"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.18908",
+            "ids": {
+              "arxiv": "2607.18908",
+              "doi": "10.48550/arxiv.2607.18908",
+              "s2": "10380dd53b8379409ce279298863f8e1c5436eb1"
+            },
+            "title": "Function-Correcting RT Codes: A Coding Framework for Parallel Channels",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.18908",
+              "pdf": "https://arxiv.org/pdf/2607.18908",
+              "doi": "https://doi.org/10.48550/arxiv.2607.18908"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.01049",
+            "ids": {
+              "arxiv": "2603.01049",
+              "doi": "10.1109/isit62367.2026.11653884",
+              "s2": "87cf9703b87dfd411e189645d90feffda7fca1dc"
+            },
+            "title": "Non-Existence of Some Function-Correcting Codes With Data Protection",
+            "year": 2026,
+            "venue": "International Symposium on Information Theory",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.01049",
+              "pdf": "https://arxiv.org/pdf/2603.01049",
+              "doi": "https://doi.org/10.1109/isit62367.2026.11653884"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.14023",
+            "ids": {
+              "arxiv": "2605.14023",
+              "doi": "10.48550/arxiv.2605.14023",
+              "s2": "bb3496695a905acec75b03e64847e26163d7dfdf"
+            },
+            "title": "Function-Correction with Optimal Data Protection for the General Hamming Code Membership",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.14023",
+              "pdf": "https://arxiv.org/pdf/2605.14023",
+              "doi": "https://doi.org/10.48550/arxiv.2605.14023"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.03370",
+            "ids": {
+              "arxiv": "2605.03370",
+              "doi": "10.48550/arxiv.2605.03370",
+              "s2": "4e0988a2da730c2d6c48e351755ffbe2ea0a24a7"
+            },
+            "title": "Generalized Function-Correcting Partition Codes",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.03370",
+              "pdf": "https://arxiv.org/pdf/2605.03370",
+              "doi": "https://doi.org/10.48550/arxiv.2605.03370"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.10989",
+            "ids": {
+              "arxiv": "2609.10989",
+              "s2": "e5eb58080a6b548699c41a34bcf9037bced0abf9"
+            },
+            "title": "Data Protection in Function-Correcting Symbol-Pair Codes: Redundancy Bounds and Protection Profiles",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.10989",
+              "pdf": "https://arxiv.org/pdf/2609.10989"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.5860/choice.42-0987",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:0803.2570",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2102.03094",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2504.07804",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.1109/itw.2016.7606785",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.1109/sfcs.1995.492580",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.2307/3618021",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.1109/tit.1967.1054054",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.1109/tit.1981.1056381",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2312.16271",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2507.03332",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2503.12894",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2507.17654",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2502.16983",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2504.14410",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2505.09473",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "arxiv:2508.01702",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tit.2026.3692458",
+          "target": "doi:10.1109/itw.2017.8278033",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.06450",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.21932",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07243",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.14471",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.10135",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.18908",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.01049",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.14023",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.03370",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.10989",
+          "target": "doi:10.1109/tit.2026.3692458",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 20,
+      "errors": [
+        "S2 cross-links: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch?fields=references.paperId"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2511.13560",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2511.13560",
+            "ids": {
+              "arxiv": "2511.13560",
+              "doi": "10.1103/vxpb-vjwl",
+              "s2": "32fa832fe4a08940ffafbffe47990c6aedd9ae1f",
+              "openalex": "W7172257030"
+            },
+            "title": "Sequences of Bivariate Bicycle Codes from Covering Graphs",
+            "year": 2026,
+            "venue": "PRX Quantum",
+            "citations": 17,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.13560",
+              "pdf": "https://arxiv.org/pdf/2511.13560",
+              "doi": "https://doi.org/10.1103/vxpb-vjwl"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.07915",
+            "ids": {
+              "arxiv": "2308.07915",
+              "doi": "10.1038/s41586-024-07107-7",
+              "s2": "38340391d1d42dda851db732fafc0232e66a86f4"
+            },
+            "title": "High-threshold and low-overhead fault-tolerant quantum memory",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 945,
+            "influential_citations": 174,
+            "is_review": false,
+            "tldr": "An end-to-end quantum error correction protocol that implements fault-tolerant memory on the basis of a family of low-density parity-check codes shows the possibility of low-overhead fault-tolerant quantum memory within the reach of near-term quantum processors.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.07915",
+              "pdf": "https://arxiv.org/pdf/2308.07915",
+              "doi": "https://doi.org/10.1038/s41586-024-07107-7"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1111.4022",
+            "ids": {
+              "arxiv": "1111.4022",
+              "doi": "10.1088/1367-2630/14/12/123011",
+              "s2": "c375e28f31864920ca0b867664e3819a577c87f7"
+            },
+            "title": "Surface code quantum computing by lattice surgery",
+            "year": 2011,
+            "citations": 902,
+            "influential_citations": 71,
+            "is_review": false,
+            "tldr": "This paper introduces a new technique enabling the coupling of two planar codes without transversal operations, maintaining the 2DNN of the encoded computer, and shows how lattice surgery allows us to distribute encoded GHZ states in a more direct manner, and how a demonstration of an encoded CNOT between two distance-3 logical states is possible with 53 physical qubits.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1111.4022",
+              "pdf": "https://arxiv.org/pdf/1111.4022",
+              "doi": "https://doi.org/10.1088/1367-2630/14/12/123011"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2101.09310",
+            "ids": {
+              "arxiv": "2101.09310",
+              "doi": "10.1038/s41467-023-36493-1",
+              "s2": "9d82c7e11a220e9848003d5cc0c198ff96e0a448"
+            },
+            "title": "Fusion-based quantum computation",
+            "year": 2021,
+            "venue": "Nature Communications",
+            "citations": 537,
+            "influential_citations": 48,
+            "is_review": false,
+            "tldr": "A quantum computation scheme where the same measurements used to generate entanglement can also be used to achieve fault-tolerance leading to an increased tolerance to errors leading to a model for fault tolerant quantum computing constructed from physical primitives readily accessible in photonic systems.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2101.09310",
+              "pdf": "https://arxiv.org/pdf/2101.09310",
+              "doi": "https://doi.org/10.1038/s41467-023-36493-1"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2202.13641",
+            "ids": {
+              "arxiv": "2202.13641",
+              "doi": "10.1109/focs54457.2022.00117",
+              "s2": "5378828e5dc382ffc05c5deb3c29970c10f3adfa"
+            },
+            "title": "Quantum Tanner codes",
+            "year": 2022,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 356,
+            "influential_citations": 38,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2202.13641",
+              "pdf": "https://arxiv.org/pdf/2202.13641",
+              "doi": "https://doi.org/10.1109/focs54457.2022.00117"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2012.09271",
+            "ids": {
+              "arxiv": "2012.09271",
+              "doi": "10.1109/tit.2021.3097347",
+              "s2": "05bbb8dc48833d882486f834b5b41798e06b597d"
+            },
+            "title": "Balanced Product Quantum Codes",
+            "year": 2020,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 284,
+            "influential_citations": 26,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2012.09271",
+              "pdf": "https://arxiv.org/pdf/2012.09271",
+              "doi": "https://doi.org/10.1109/tit.2021.3097347"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2206.07750",
+            "ids": {
+              "arxiv": "2206.07750",
+              "doi": "10.1145/3564246.3585101",
+              "s2": "0a567cb66191782eeccc844426beee4f04c2fe74"
+            },
+            "title": "Good Quantum LDPC Codes with Linear Time Decoders",
+            "year": 2022,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 228,
+            "influential_citations": 22,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2206.07750",
+              "pdf": "https://arxiv.org/pdf/2206.07750",
+              "doi": "https://doi.org/10.1145/3564246.3585101"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.16400",
+            "ids": {
+              "arxiv": "2306.16400",
+              "doi": "10.1103/physreva.109.022407",
+              "s2": "de538b78fdf7eeb6396d5bb2df799ffa99022d25"
+            },
+            "title": "Quantum two-block group algebra codes",
+            "year": 2023,
+            "venue": "Physical Review A",
+            "citations": 100,
+            "influential_citations": 22,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.16400",
+              "pdf": "https://arxiv.org/pdf/2306.16400",
+              "doi": "https://doi.org/10.1103/physreva.109.022407"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.03827",
+            "ids": {
+              "arxiv": "2503.03827",
+              "doi": "10.1103/rmy6-9n89",
+              "s2": "65213fe44bf2a5f4e87d092b1292a087e40a3744"
+            },
+            "title": "Generalized toric codes on twisted tori for quantum error correction",
+            "year": 2025,
+            "venue": "PRX Quantum",
+            "citations": 62,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.03827",
+              "pdf": "https://arxiv.org/pdf/2503.03827",
+              "doi": "https://doi.org/10.1103/rmy6-9n89"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.04794",
+            "ids": {
+              "arxiv": "2508.04794",
+              "s2": "80c5e91ffd27c2a95695a230fe1b07974144badc"
+            },
+            "title": "Automorphism gadgets in homological product codes",
+            "year": 2025,
+            "citations": 17,
+            "influential_citations": 3,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.04794",
+              "pdf": "https://arxiv.org/pdf/2508.04794"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2411.11822",
+            "ids": {
+              "arxiv": "2411.11822",
+              "s2": "4da7525b9e511f1186403f47d327630798662e8f"
+            },
+            "title": "Fault-tolerant quantum computation with a neutral atom processor",
+            "year": 2024,
+            "citations": 62,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2411.11822",
+              "pdf": "https://arxiv.org/pdf/2411.11822"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.16336",
+            "ids": {
+              "arxiv": "2407.16336",
+              "doi": "10.1103/physrevlett.134.090602",
+              "s2": "131ca96c2d4a45e27ef2e9ec04501d28e56733ad"
+            },
+            "title": "Lowering Connectivity Requirements for Bivariate Bicycle Codes Using Morphing Circuits.",
+            "year": 2024,
+            "venue": "Physical Review Letters",
+            "citations": 55,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.16336",
+              "pdf": "https://arxiv.org/pdf/2407.16336",
+              "doi": "https://doi.org/10.1103/physrevlett.134.090602"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.03628",
+            "ids": {
+              "arxiv": "2410.03628",
+              "s2": "216c4f6bf1e0a0d9cc0ed39ee7225990da1ef783"
+            },
+            "title": "Universal adapters between quantum LDPC codes",
+            "year": 2024,
+            "citations": 48,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.03628",
+              "pdf": "https://arxiv.org/pdf/2410.03628"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.09423",
+            "ids": {
+              "arxiv": "2407.09423",
+              "s2": "86597d0ec830251ba5ceac4b662ad81e9b79dabb"
+            },
+            "title": "SSIP: automated surgery with quantum LDPC codes",
+            "year": 2024,
+            "citations": 30,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.09423",
+              "pdf": "https://arxiv.org/pdf/2407.09423"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/0016-0032(61)90240-x",
+            "ids": {
+              "doi": "10.1016/0016-0032(61)90240-x",
+              "s2": "5c1f0774a801d6f6757430418b3a2e966e7d4f67"
+            },
+            "title": "An Introduction to Homological Algebra",
+            "year": 2016,
+            "citations": 1244,
+            "influential_citations": 365,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5c1f0774a801d6f6757430418b3a2e966e7d4f67",
+              "doi": "https://doi.org/10.1016/0016-0032(61)90240-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1201/9780203490204.ch7",
+            "ids": {
+              "doi": "10.1201/9780203490204.ch7",
+              "s2": "287650fad5a478581f0040ad064e6856c7c13af2"
+            },
+            "title": "Topological Graph Theory",
+            "year": 1987,
+            "venue": "Handbook of Graph Theory",
+            "citations": 1382,
+            "influential_citations": 142,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/287650fad5a478581f0040ad064e6856c7c13af2",
+              "doi": "https://doi.org/10.1201/9780203490204.ch7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1808.02892",
+            "ids": {
+              "arxiv": "1808.02892",
+              "doi": "10.22331/q-2019-03-05-128",
+              "s2": "f62ab3fcc45eb787f4eb3213a3ffcae97799e9e5"
+            },
+            "title": "A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery",
+            "year": 2018,
+            "venue": "Quantum",
+            "citations": 767,
+            "influential_citations": 146,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1808.02892",
+              "pdf": "https://arxiv.org/pdf/1808.02892",
+              "doi": "https://doi.org/10.22331/q-2019-03-05-128"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2111.03654",
+            "ids": {
+              "arxiv": "2111.03654",
+              "doi": "10.1145/3519935.3520017",
+              "s2": "973afb39e5eee258d32988f8f4b31f77fe124cf4"
+            },
+            "title": "Asymptotically good Quantum and locally testable classical LDPC codes",
+            "year": 2021,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 568,
+            "influential_citations": 78,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2111.03654",
+              "pdf": "https://arxiv.org/pdf/2111.03654",
+              "doi": "https://doi.org/10.1145/3519935.3520017"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/b978-0-12-385491-9.00010-1",
+            "ids": {
+              "doi": "10.1016/b978-0-12-385491-9.00010-1",
+              "s2": "7b0a5099f1fcaecacedd9a26fa816e8f6fe2b640"
+            },
+            "title": "Quantum Low-Density Parity-Check Codes",
+            "year": 2012,
+            "citations": 514,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7b0a5099f1fcaecacedd9a26fa816e8f6fe2b640",
+              "doi": "https://doi.org/10.1016/b978-0-12-385491-9.00010-1"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.15446",
+            "ids": {
+              "arxiv": "2601.15446",
+              "s2": "e91fac2e3f782e664b2e25bed66ddbdb1fa35caa"
+            },
+            "title": "Check-weight-constrained quantum codes: Bounds and examples",
+            "year": 2026,
+            "citations": 13,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.15446",
+              "pdf": "https://arxiv.org/pdf/2601.15446"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.18879",
+            "ids": {
+              "arxiv": "2601.18879",
+              "doi": "10.48550/arxiv.2601.18879",
+              "s2": "b73d46f28b0501389b418ab3fa9bca70ed59b012"
+            },
+            "title": "Multivariate Multicycle Codes for Complete Single-Shot Decoding",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 12,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.18879",
+              "pdf": "https://arxiv.org/pdf/2601.18879",
+              "doi": "https://doi.org/10.48550/arxiv.2601.18879"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.20532",
+            "ids": {
+              "arxiv": "2512.20532",
+              "s2": "e1b59f30aeb04f467584eb5903eba32885e1de82"
+            },
+            "title": "Small quantum Tanner codes from left--right Cayley complexes",
+            "year": 2025,
+            "citations": 10,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.20532",
+              "pdf": "https://arxiv.org/pdf/2512.20532"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.23307",
+            "ids": {
+              "arxiv": "2602.23307",
+              "doi": "10.1103/lf7t-81xq",
+              "s2": "d065e7ecd2d6dc71bd1ac8820676a6b56f4c8fbe"
+            },
+            "title": "Copy-cup gates in tensor products of group algebra codes",
+            "year": 2026,
+            "venue": "Physical Review A",
+            "citations": 8,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.23307",
+              "pdf": "https://arxiv.org/pdf/2602.23307",
+              "doi": "https://doi.org/10.1103/lf7t-81xq"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.17268",
+            "ids": {
+              "arxiv": "2606.17268",
+              "doi": "10.48550/arxiv.2606.17268",
+              "s2": "59a14b3cb3942b580dbbf71a3545bcaa358c85f1"
+            },
+            "title": "Breaking the bicycle frame: Coset-based quantum LDPC codes",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 7,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.17268",
+              "pdf": "https://arxiv.org/pdf/2606.17268",
+              "doi": "https://doi.org/10.48550/arxiv.2606.17268"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2608.09915",
+            "ids": {
+              "arxiv": "2608.09915",
+              "s2": "01a24ee965cfd2ca772397e5b02f5f983001ec69"
+            },
+            "title": "Decoupling 2D translation-invariant topological CSS codes",
+            "year": 2026,
+            "citations": 5,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2608.09915",
+              "pdf": "https://arxiv.org/pdf/2608.09915"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.21160",
+            "ids": {
+              "arxiv": "2607.21160",
+              "s2": "ca14594c08fa73c2d15f42a72b65eb06babd555e"
+            },
+            "title": "Duality constrains optimal thresholds in quantum error correction",
+            "year": 2026,
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.21160",
+              "pdf": "https://arxiv.org/pdf/2607.21160"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.19298",
+            "ids": {
+              "arxiv": "2605.19298",
+              "s2": "e8c4030728f728c7bac7b452fadcc5ad98bef02a"
+            },
+            "title": "Translation-invariant quantum low-density parity-check codes from compactified fracton models",
+            "year": 2026,
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.19298",
+              "pdf": "https://arxiv.org/pdf/2605.19298"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.28621",
+            "ids": {
+              "arxiv": "2607.28621",
+              "s2": "324070792eb5e77748c063acd6c7aada507750e5"
+            },
+            "title": "Lifting Lifted Product Codes",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.28621",
+              "pdf": "https://arxiv.org/pdf/2607.28621"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.08771",
+            "ids": {
+              "arxiv": "2606.08771",
+              "doi": "10.48550/arxiv.2606.08771",
+              "s2": "11043adbccbfabd9d8b9fc252909ce2f08175e9e"
+            },
+            "title": "Algebra of Bivariate-Bicycle Surface Codes",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.08771",
+              "pdf": "https://arxiv.org/pdf/2606.08771",
+              "doi": "https://doi.org/10.48550/arxiv.2606.08771"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2101.09310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2508.04794",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2411.11822",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2407.16336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2410.03628",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2407.09423",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "doi:10.1016/0016-0032(61)90240-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "doi:10.1201/9780203490204.ch7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:1808.02892",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2511.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2606.17268",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.13560",
+          "target": "arxiv:2605.19298",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.07915",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.07915",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.07915",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.07915",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2101.09310",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2101.09310",
+          "target": "arxiv:1808.02892",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2202.13641",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2202.13641",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2202.13641",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.07750",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.07750",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.07750",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.07750",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.16400",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.16400",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2407.09423",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2407.16336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.03827",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.16336",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.16336",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.16336",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:1808.02892",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.03628",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "doi:10.1016/0016-0032(61)90240-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.09423",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1808.02892",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2111.03654",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2111.03654",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2512.20532",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.15446",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2601.15446",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:1808.02892",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2512.20532",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.18879",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20532",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2601.18879",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.23307",
+          "target": "arxiv:2410.03628",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.17268",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.09915",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2101.09310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2605.19298",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.21160",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2601.15446",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.19298",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "doi:10.1016/0016-0032(61)90240-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "doi:10.1016/b978-0-12-385491-9.00010-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2012.09271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2508.04794",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:1111.4022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.28621",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2308.07915",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2206.07750",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2202.13641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2503.03827",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2306.16400",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.08771",
+          "target": "arxiv:2111.03654",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 17,
+      "errors": []
+    }
+  ]
+}
