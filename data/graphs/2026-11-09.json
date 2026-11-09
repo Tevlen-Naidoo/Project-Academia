@@ -1,0 +1,1748 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T11:36:01.426622Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2506.20707",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2506.20707",
+            "ids": {
+              "arxiv": "2506.20707",
+              "doi": "10.1103/7wt3-9v2y",
+              "s2": "af927567262cd63700a7591901b514969b738ae4",
+              "openalex": "W4414896463"
+            },
+            "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+            "year": 2026,
+            "venue": "Physical Review D",
+            "citations": 258,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.20707",
+              "pdf": "https://arxiv.org/pdf/2506.20707",
+              "doi": "https://doi.org/10.1103/7wt3-9v2y"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201833910",
+            "ids": {
+              "doi": "10.1051/0004-6361/201833910",
+              "openalex": "W4288079944"
+            },
+            "title": "Planck 2018 results",
+            "year": 2020,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 16313,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4288079944",
+              "doi": "https://doi.org/10.1051/0004-6361/201833910"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/427976",
+            "ids": {
+              "doi": "10.1086/427976",
+              "openalex": "W1976579441"
+            },
+            "title": "HEALPix: A Framework for High‐Resolution Discretization and Fast Analysis of Data Distributed on the Sphere",
+            "year": 2005,
+            "venue": "The Astrophysical Journal",
+            "citations": 6281,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1976579441",
+              "doi": "https://doi.org/10.1086/427976"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.81.1562",
+            "ids": {
+              "doi": "10.1103/physrevlett.81.1562",
+              "openalex": "W2134803267"
+            },
+            "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+            "year": 1998,
+            "venue": "Physical Review Letters",
+            "citations": 6278,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2134803267",
+              "doi": "https://doi.org/10.1103/physrevlett.81.1562"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.89.011301",
+            "ids": {
+              "doi": "10.1103/physrevlett.89.011301",
+              "openalex": "W1983987483"
+            },
+            "title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+            "year": 2002,
+            "venue": "Physical Review Letters",
+            "citations": 3712,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1983987483",
+              "doi": "https://doi.org/10.1103/physrevlett.89.011301"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.12942/lrr-2011-2",
+            "ids": {
+              "doi": "10.12942/lrr-2011-2",
+              "openalex": "W2113474582"
+            },
+            "title": "Varying Constants, Gravitation and Cosmology",
+            "year": 2011,
+            "venue": "Living Reviews in Relativity",
+            "citations": 878,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W2113474582",
+              "doi": "https://doi.org/10.12942/lrr-2011-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/mnras/stx721",
+            "ids": {
+              "doi": "10.1093/mnras/stx721",
+              "openalex": "W2501864044"
+            },
+            "title": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: cosmological analysis of the DR12 galaxy sample",
+            "year": 2017,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 3287,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2501864044",
+              "doi": "https://doi.org/10.1093/mnras/stx721"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201014759",
+            "ids": {
+              "doi": "10.1051/0004-6361/201014759",
+              "openalex": "W4293003757"
+            },
+            "title": "Herschel Space Observatory",
+            "year": 2010,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 3107,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4293003757",
+              "doi": "https://doi.org/10.1051/0004-6361/201014759"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/2041-8213/ac5c5b",
+            "ids": {
+              "doi": "10.3847/2041-8213/ac5c5b",
+              "openalex": "W4286702585"
+            },
+            "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s −1 Mpc −1 Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+            "year": 2022,
+            "venue": "The Astrophysical Journal Letters",
+            "citations": 3014,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4286702585",
+              "doi": "https://doi.org/10.3847/2041-8213/ac5c5b"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/0067-0049/208/2/20",
+            "ids": {
+              "doi": "10.1088/0067-0049/208/2/20",
+              "openalex": "W2001369144"
+            },
+            "title": "NINE-YEAR WILKINSON MICROWAVE ANISOTROPY PROBE ( WMAP ) OBSERVATIONS: FINAL MAPS AND RESULTS",
+            "year": 2013,
+            "venue": "The Astrophysical Journal Supplement Series",
+            "citations": 2974,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2001369144",
+              "doi": "https://doi.org/10.1088/0067-0049/208/2/20"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1142/s0218271801000822",
+            "ids": {
+              "doi": "10.1142/s0218271801000822",
+              "openalex": "W2117797710"
+            },
+            "title": "ACCELERATING UNIVERSES WITH SCALING DARK MATTER",
+            "year": 2001,
+            "venue": "International Journal of Modern Physics D",
+            "citations": 2946,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2117797710",
+              "doi": "https://doi.org/10.1142/s0218271801000822"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.90.091301",
+            "ids": {
+              "doi": "10.1103/physrevlett.90.091301",
+              "openalex": "W2057645607"
+            },
+            "title": "Exploring the Expansion History of the Universe",
+            "year": 2003,
+            "venue": "Physical Review Letters",
+            "citations": 2870,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2057645607",
+              "doi": "https://doi.org/10.1103/physrevlett.90.091301"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1111/j.1365-2966.2011.19250.x",
+            "ids": {
+              "doi": "10.1111/j.1365-2966.2011.19250.x",
+              "openalex": "W2121951791"
+            },
+            "title": "The 6dF Galaxy Survey: baryon acoustic oscillations and the local Hubble constant",
+            "year": 2011,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 2669,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2121951791",
+              "doi": "https://doi.org/10.1111/j.1365-2966.2011.19250.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1475-7516/2011/07/034",
+            "ids": {
+              "doi": "10.1088/1475-7516/2011/07/034",
+              "openalex": "W2130038292"
+            },
+            "title": "The Cosmic Linear Anisotropy Solving System (CLASS). Part II: Approximation schemes",
+            "year": 2011,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 2614,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2130038292",
+              "doi": "https://doi.org/10.1088/1475-7516/2011/07/034"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201833880",
+            "ids": {
+              "doi": "10.1051/0004-6361/201833880",
+              "openalex": "W3098899650"
+            },
+            "title": "Planck 2018 results",
+            "year": 2019,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 2381,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3098899650",
+              "doi": "https://doi.org/10.1051/0004-6361/201833880"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1046/j.1365-8711.2003.06503.x",
+            "ids": {
+              "doi": "10.1046/j.1365-8711.2003.06503.x",
+              "openalex": "W2117363750"
+            },
+            "title": "Stable clustering, the halo model and non-linear cosmological power spectra",
+            "year": 2003,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 2114,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2117363750",
+              "doi": "https://doi.org/10.1046/j.1365-8711.2003.06503.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1475-7516/2025/02/021",
+            "ids": {
+              "doi": "10.1088/1475-7516/2025/02/021",
+              "openalex": "W4394029306"
+            },
+            "title": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+            "year": 2025,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 2020,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4394029306",
+              "doi": "https://doi.org/10.1088/1475-7516/2025/02/021"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-4357/ac8e04",
+            "ids": {
+              "doi": "10.3847/1538-4357/ac8e04",
+              "openalex": "W4282961335"
+            },
+            "title": "The Pantheon+ Analysis: Cosmological Constraints",
+            "year": 2022,
+            "venue": "The Astrophysical Journal",
+            "citations": 1834,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4282961335",
+              "doi": "https://doi.org/10.3847/1538-4357/ac8e04"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/mnras/stv154",
+            "ids": {
+              "doi": "10.1093/mnras/stv154",
+              "openalex": "W2170967203"
+            },
+            "title": "The clustering of the SDSS DR7 main Galaxy sample – I. A 4 per cent distance measure at z = 0.15",
+            "year": 2015,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 1804,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2170967203",
+              "doi": "https://doi.org/10.1093/mnras/stv154"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.01369",
+            "ids": {
+              "arxiv": "2501.01369",
+              "doi": "10.1103/j5rj-dz1k",
+              "s2": "c4c810503fffe7e8776028d8900e94f1c5701b9f"
+            },
+            "title": "Current Constraints on Cosmological Scenarios with Very Low Reheating Temperatures.",
+            "year": 2025,
+            "venue": "Physical Review Letters",
+            "citations": 45,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.01369",
+              "pdf": "https://arxiv.org/pdf/2501.01369",
+              "doi": "https://doi.org/10.1103/j5rj-dz1k"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.15274",
+            "ids": {
+              "arxiv": "2504.15274",
+              "doi": "10.1088/1475-7516/2025/12/050",
+              "s2": "e4f5cf06cf2a7ada20bb59da04af6a81488db646"
+            },
+            "title": "Is dynamical dark energy necessary? DESI BAO and modified recombination",
+            "year": 2025,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 42,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.15274",
+              "pdf": "https://arxiv.org/pdf/2504.15274",
+              "doi": "https://doi.org/10.1088/1475-7516/2025/12/050"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.05291",
+            "ids": {
+              "arxiv": "2609.05291",
+              "s2": "7cd92affafeb23ad841cadb1e95ed4c7353e772a"
+            },
+            "title": "Inelastic from the Other Side: Xenon Excitation Signals in Light of the LZ High-Recoil Event",
+            "year": 2026,
+            "citations": 37,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.05291",
+              "pdf": "https://arxiv.org/pdf/2609.05291"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.16932",
+            "ids": {
+              "arxiv": "2504.16932",
+              "doi": "10.1103/6r54-8lv4",
+              "s2": "7ac395dabcda30778adddec010fac5df544133b8"
+            },
+            "title": "Addressing Tensions in ΛCDM Cosmology by an Increase in the Optical Depth to Reionization.",
+            "year": 2025,
+            "venue": "Physical Review Letters",
+            "citations": 35,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.16932",
+              "pdf": "https://arxiv.org/pdf/2504.16932",
+              "doi": "https://doi.org/10.1103/6r54-8lv4"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.12238",
+            "ids": {
+              "arxiv": "2602.12238",
+              "doi": "10.1016/j.dark.2026.102286",
+              "s2": "58ea74c577955f6a0a4584f6336abae5df67b66e"
+            },
+            "title": "Status of the S8 tension: A 2026 review of probe discrepancies",
+            "year": 2026,
+            "venue": "Physics of the Dark Universe",
+            "citations": 28,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.12238",
+              "pdf": "https://arxiv.org/pdf/2602.12238",
+              "doi": "https://doi.org/10.1016/j.dark.2026.102286"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.24465",
+            "ids": {
+              "arxiv": "2505.24465",
+              "doi": "10.1088/1475-7516/2025/09/084",
+              "s2": "5b7305e70bd2f3c16c74dab4789a335abe9372cb"
+            },
+            "title": "Robust evidence for dynamical dark energy from DESI galaxy-CMB lensing cross-correlation and geometric probes",
+            "year": 2025,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 28,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.24465",
+              "pdf": "https://arxiv.org/pdf/2505.24465",
+              "doi": "https://doi.org/10.1088/1475-7516/2025/09/084"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.09599",
+            "ids": {
+              "arxiv": "2503.09599",
+              "doi": "10.1038/s41550-025-02737-x",
+              "s2": "690dd6c3388087dd1bb7739f35f6b91ba9023a00"
+            },
+            "title": "Hints of primordial magnetic fields at recombination and implications for the Hubble tension",
+            "year": 2025,
+            "venue": "Nature Astronomy",
+            "citations": 27,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.09599",
+              "pdf": "https://arxiv.org/pdf/2503.09599",
+              "doi": "https://doi.org/10.1038/s41550-025-02737-x"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.03122",
+            "ids": {
+              "arxiv": "2601.03122",
+              "doi": "10.1016/j.dark.2026.102238",
+              "s2": "c85501b7958d341a89fd45639c2fa63abfe7e305"
+            },
+            "title": "Late-time Background Constraints on Linear and Non-linear Interacting Dark Energy after DESI DR2",
+            "year": 2026,
+            "venue": "Physics of the Dark Universe",
+            "citations": 26,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.03122",
+              "pdf": "https://arxiv.org/pdf/2601.03122",
+              "doi": "https://doi.org/10.1016/j.dark.2026.102238"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.13279",
+            "ids": {
+              "arxiv": "2508.13279",
+              "doi": "10.1088/1475-7516/2025/12/038",
+              "s2": "5ec4a62b59fd31c627d94ee7b8209102f752ac92"
+            },
+            "title": "Deformations of Starobinsky inflation in no-scale SU(5) and SO(10) GUTs",
+            "year": 2025,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 24,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.13279",
+              "pdf": "https://arxiv.org/pdf/2508.13279",
+              "doi": "https://doi.org/10.1088/1475-7516/2025/12/038"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.23355",
+            "ids": {
+              "arxiv": "2507.23355",
+              "doi": "10.1103/8jjr-7hpb",
+              "s2": "b3f9abcfd8d8e031b5c0f7eefe3f1c5acae6506b"
+            },
+            "title": "SPT-3G D1: Axion early dark energy with CMB experiments and DESI observations",
+            "year": 2025,
+            "venue": "Physical Review D",
+            "citations": 24,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.23355",
+              "pdf": "https://arxiv.org/pdf/2507.23355",
+              "doi": "https://doi.org/10.1103/8jjr-7hpb"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1051/0004-6361/201833910",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1086/427976",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1103/physrevlett.81.1562",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1103/physrevlett.89.011301",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.12942/lrr-2011-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1093/mnras/stx721",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1051/0004-6361/201014759",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.3847/2041-8213/ac5c5b",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1088/0067-0049/208/2/20",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1142/s0218271801000822",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1103/physrevlett.90.091301",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1111/j.1365-2966.2011.19250.x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1088/1475-7516/2011/07/034",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1051/0004-6361/201833880",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1046/j.1365-8711.2003.06503.x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1088/1475-7516/2025/02/021",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.3847/1538-4357/ac8e04",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20707",
+          "target": "doi:10.1093/mnras/stv154",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.01369",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.15274",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05291",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.16932",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.12238",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24465",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.09599",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.03122",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.13279",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.23355",
+          "target": "arxiv:2506.20707",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.15274",
+          "target": "arxiv:2503.09599",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.09599",
+          "target": "arxiv:2504.15274",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.03122",
+          "target": "arxiv:2505.24465",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 258,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.07909",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.07909",
+            "ids": {
+              "arxiv": "2611.07909",
+              "s2": "701947c965bd109c7d3c43bb160681b469f37a20",
+              "openalex": "W7225411468"
+            },
+            "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+            "year": 2026,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "Experiments on three different Gaussian avatar reconstruction methods show improvements in both perceptual and reconstruction measures over the raw outputs and an SDEdit-style refinement baseline, which indicates a useful operating regime for recoverable appearance artifacts.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.07909",
+              "pdf": "https://arxiv.org/pdf/2611.07909"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.04079",
+            "ids": {
+              "arxiv": "2308.04079",
+              "doi": "10.1145/3592433",
+              "s2": "2cc1d857e86d5152ba7fe6a8355c2a0150cc280a"
+            },
+            "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+            "year": 2023,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 11376,
+            "influential_citations": 2923,
+            "is_review": false,
+            "tldr": "This work develops a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows realtime rendering and demonstrates state-of-the-art visual quality and real-time rendering on several established datasets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.04079",
+              "pdf": "https://arxiv.org/pdf/2308.04079",
+              "doi": "https://doi.org/10.1145/3592433"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.02069",
+            "ids": {
+              "arxiv": "2312.02069",
+              "doi": "10.1109/cvpr52733.2024.01919",
+              "s2": "6c0717e783f1f44c5ffa9aaad36076950ab8c444"
+            },
+            "title": "GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 389,
+            "influential_citations": 67,
+            "is_review": false,
+            "tldr": "This work introduces GaussianAvatars11, a new method to create photorealistic head avatars that are fully controllable in terms of expression, pose, and viewpoint and jointly optimize for the morphable model parameters and Gaussian splat parameters in an end-to-end fashion.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.02069",
+              "pdf": "https://arxiv.org/pdf/2312.02069",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.01919"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2006.11239",
+            "ids": {
+              "arxiv": "2006.11239",
+              "doi": "10.48550/arxiv.2006.11239",
+              "s2": "5c126ae3421f05768d8edd97ecd44b1364e2c99a"
+            },
+            "title": "Denoising Diffusion Probabilistic Models",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 37635,
+            "influential_citations": 5142,
+            "is_review": false,
+            "tldr": "High quality image synthesis results are presented using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics, which naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2006.11239",
+              "pdf": "https://arxiv.org/pdf/2006.11239",
+              "doi": "https://doi.org/10.48550/arxiv.2006.11239"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1801.03924",
+            "ids": {
+              "arxiv": "1801.03924",
+              "doi": "10.48550/arxiv.1801.03924",
+              "s2": "c468bbde6a22d961829e1970e6ad5795e05418d1"
+            },
+            "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+            "year": 2018,
+            "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "citations": 21386,
+            "influential_citations": 2604,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1801.03924",
+              "pdf": "https://arxiv.org/pdf/1801.03924",
+              "doi": "https://doi.org/10.48550/arxiv.1801.03924"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "s2": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 12023,
+            "influential_citations": 1722,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2201.05989",
+            "ids": {
+              "arxiv": "2201.05989",
+              "doi": "10.1145/3528223.3530127",
+              "s2": "60e69982ef2920596c6f31d6fd3ca5e9591f3db6"
+            },
+            "title": "Instant neural graphics primitives with a multiresolution hash encoding",
+            "year": 2022,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 6598,
+            "influential_citations": 823,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2201.05989",
+              "pdf": "https://arxiv.org/pdf/2201.05989",
+              "doi": "https://doi.org/10.1145/3528223.3530127"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1901.05103",
+            "ids": {
+              "arxiv": "1901.05103",
+              "doi": "10.1109/cvpr.2019.00025",
+              "s2": "dd81523b9accdf1c13cd37f76b22ab27d84b7a42"
+            },
+            "title": "DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation",
+            "year": 2019,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 4890,
+            "influential_citations": 564,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1901.05103",
+              "pdf": "https://arxiv.org/pdf/1901.05103",
+              "doi": "https://doi.org/10.1109/cvpr.2019.00025"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1812.03828",
+            "ids": {
+              "arxiv": "1812.03828",
+              "doi": "10.1109/cvpr.2019.00459",
+              "s2": "2e689bdce24cf3644432505ce2783f03a1445ed2"
+            },
+            "title": "Occupancy Networks: Learning 3D Reconstruction in Function Space",
+            "year": 2018,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 3600,
+            "influential_citations": 412,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1812.03828",
+              "pdf": "https://arxiv.org/pdf/1812.03828",
+              "doi": "https://doi.org/10.1109/cvpr.2019.00459"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2108.01073",
+            "ids": {
+              "arxiv": "2108.01073",
+              "s2": "f671a09e3e5922e6d38cb77dda8d76d5ceac2a27"
+            },
+            "title": "SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations",
+            "year": 2021,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2552,
+            "influential_citations": 298,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2108.01073",
+              "pdf": "https://arxiv.org/pdf/2108.01073"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.07636",
+            "ids": {
+              "arxiv": "2104.07636",
+              "doi": "10.1109/tpami.2022.3204461",
+              "s2": "bc7e6165b00f0c39d40ca2c7a4eb33fcc0e3200d"
+            },
+            "title": "Image Super-Resolution via Iterative Refinement",
+            "year": 2021,
+            "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "citations": 2782,
+            "influential_citations": 212,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.07636",
+              "pdf": "https://arxiv.org/pdf/2104.07636",
+              "doi": "https://doi.org/10.1109/tpami.2022.3204461"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2007.14808",
+            "ids": {
+              "arxiv": "2007.14808",
+              "doi": "10.1145/3292039",
+              "s2": "ba11b4feb04a472cb5e5962697ed6faa653dc647"
+            },
+            "title": "Face2Face: Real-Time Face Capture and Reenactment of RGB Videos",
+            "year": 2016,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 2483,
+            "influential_citations": 231,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2007.14808",
+              "pdf": "https://arxiv.org/pdf/2007.14808",
+              "doi": "https://doi.org/10.1145/3292039"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3130800.3130813",
+            "ids": {
+              "doi": "10.1145/3130800.3130813",
+              "s2": "5dc0b8301da2dd94183d7a7f192941e5bfd31a9f"
+            },
+            "title": "Learning a model of facial shape and expression from 4D scans",
+            "year": 2017,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 1837,
+            "influential_citations": 274,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5dc0b8301da2dd94183d7a7f192941e5bfd31a9f",
+              "doi": "https://doi.org/10.1145/3130800.3130813"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2008.00951",
+            "ids": {
+              "arxiv": "2008.00951",
+              "doi": "10.1109/cvpr46437.2021.00232",
+              "s2": "4cc32db67ff82cf1aa160631c35bb315c5add749"
+            },
+            "title": "Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation",
+            "year": 2020,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1312,
+            "influential_citations": 207,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2008.00951",
+              "pdf": "https://arxiv.org/pdf/2008.00951",
+              "doi": "https://doi.org/10.1109/cvpr46437.2021.00232"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2003.08934",
+            "ids": {
+              "arxiv": "2003.08934",
+              "doi": "10.48550/arxiv.2003.08934",
+              "s2": "428b663772dba998f5dc6a24488fff1858a0899f"
+            },
+            "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "year": 2020,
+            "venue": "European Conference on Computer Vision",
+            "citations": 1076,
+            "influential_citations": 216,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2003.08934",
+              "pdf": "https://arxiv.org/pdf/2003.08934",
+              "doi": "https://doi.org/10.48550/arxiv.2003.08934"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1904.03189",
+            "ids": {
+              "arxiv": "1904.03189",
+              "doi": "10.1109/iccv.2019.00453",
+              "s2": "62931b3e0dce8748364e19c87ef318e22ec59c7f"
+            },
+            "title": "Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?",
+            "year": 2019,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 1229,
+            "influential_citations": 130,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1904.03189",
+              "pdf": "https://arxiv.org/pdf/1904.03189",
+              "doi": "https://doi.org/10.1109/iccv.2019.00453"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tvcg.2013.249",
+            "ids": {
+              "doi": "10.1109/tvcg.2013.249",
+              "s2": "c75ba6ef724c0c3a9c9510a70da4cc8729b59a35"
+            },
+            "title": "FaceWarehouse: A 3D Facial Expression Database for Visual Computing",
+            "year": 2014,
+            "venue": "IEEE Transactions on Visualization and Computer Graphics",
+            "citations": 1190,
+            "influential_citations": 131,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c75ba6ef724c0c3a9c9510a70da4cc8729b59a35",
+              "doi": "https://doi.org/10.1109/tvcg.2013.249"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1903.08527",
+            "ids": {
+              "arxiv": "1903.08527",
+              "doi": "10.1109/cvprw.2019.00038",
+              "s2": "c5651aea43997f71891c2cc7694ddf51af95c2c0"
+            },
+            "title": "Accurate 3D Face Reconstruction With Weakly-Supervised Learning: From Single Image to Image Set",
+            "year": 2019,
+            "venue": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+            "citations": 927,
+            "influential_citations": 183,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1903.08527",
+              "pdf": "https://arxiv.org/pdf/1903.08527",
+              "doi": "https://doi.org/10.1109/cvprw.2019.00038"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2012.04012",
+            "ids": {
+              "arxiv": "2012.04012",
+              "doi": "10.1145/3476576.3476646",
+              "s2": "3b9abbc46f85edd74e0d25811f016b1ba5da33d7"
+            },
+            "title": "Learning an animatable detailed 3D face model from in-the-wild images",
+            "year": 2020,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 914,
+            "influential_citations": 163,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2012.04012",
+              "pdf": "https://arxiv.org/pdf/2012.04012",
+              "doi": "https://doi.org/10.1145/3476576.3476646"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2312.02069",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:1801.03924",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2201.05989",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:1901.05103",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:1812.03828",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2108.01073",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2104.07636",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2007.14808",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "doi:10.1145/3130800.3130813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2008.00951",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2003.08934",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:1904.03189",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "doi:10.1109/tvcg.2013.249",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:1903.08527",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07909",
+          "target": "arxiv:2012.04012",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.04079",
+          "target": "arxiv:2003.08934",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.04079",
+          "target": "arxiv:2201.05989",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.02069",
+          "target": "doi:10.1145/3130800.3130813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.02069",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.02069",
+          "target": "arxiv:1801.03924",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.02069",
+          "target": "arxiv:2007.14808",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.02069",
+          "target": "arxiv:2201.05989",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2201.05989",
+          "target": "arxiv:1901.05103",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1901.05103",
+          "target": "arxiv:1812.03828",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1812.03828",
+          "target": "arxiv:1901.05103",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2108.01073",
+          "target": "arxiv:1801.03924",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2108.01073",
+          "target": "arxiv:1904.03189",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2108.01073",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2108.01073",
+          "target": "arxiv:2008.00951",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.07636",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2007.14808",
+          "target": "doi:10.1109/tvcg.2013.249",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2008.00951",
+          "target": "arxiv:1801.03924",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2008.00951",
+          "target": "arxiv:1904.03189",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2003.08934",
+          "target": "arxiv:1801.03924",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2003.08934",
+          "target": "arxiv:1901.05103",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2003.08934",
+          "target": "arxiv:1812.03828",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1903.08527",
+          "target": "arxiv:2007.14808",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1903.08527",
+          "target": "doi:10.1109/tvcg.2013.249",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2012.04012",
+          "target": "doi:10.1145/3130800.3130813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2012.04012",
+          "target": "arxiv:1903.08527",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2012.04012",
+          "target": "arxiv:2007.14808",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.03852",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.03852",
+            "ids": {
+              "arxiv": "2611.03852",
+              "doi": "10.18653/2026.realm-1.84",
+              "s2": "7d3b8d35e590809bb7b1193e0ba9ca3123465402",
+              "openalex": "W7224360176"
+            },
+            "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+            "year": 2026,
+            "venue": "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "This work investigates whether open-weight models can generate less verbose reasoning by changing the form of their own earlier thoughts, without retraining, and identifies reasoning history as one way to reduce future reasoning-token use and motivate model-specific compaction policies evaluated for both efficiency and retained capability.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.03852",
+              "pdf": "https://arxiv.org/pdf/2611.03852",
+              "doi": "https://doi.org/10.18653/2026.realm-1.84"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2403.07974",
+            "ids": {
+              "arxiv": "2403.07974",
+              "doi": "10.48550/arxiv.2403.07974",
+              "s2": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e"
+            },
+            "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2611,
+            "influential_citations": 402,
+            "is_review": false,
+            "tldr": "This work proposes LiveCodeBench, a comprehensive and contamination-free evaluation of LLMs for code, which continuously collects new problems over time from contests across three competition platforms, namely LeetCode, AtCoder, and CodeForces.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2403.07974",
+              "pdf": "https://arxiv.org/pdf/2403.07974",
+              "doi": "https://doi.org/10.48550/arxiv.2403.07974"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.06770",
+            "ids": {
+              "arxiv": "2310.06770",
+              "doi": "10.48550/arxiv.2310.06770",
+              "s2": "94a5f96308729e31c1ffbc0f0618db87795092fe"
+            },
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "year": 2023,
+            "venue": "International Conference on Learning Representations",
+            "citations": 4813,
+            "influential_citations": 790,
+            "is_review": false,
+            "tldr": "SWE-bench is introduced, an evaluation framework consisting of software engineering problems drawn from real GitHub issues and corresponding pull requests across popular Python repositories that shows that both state-of-the-art proprietary models and the fine-tuned model SWE-Llama can resolve only the simplest issues.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.06770",
+              "pdf": "https://arxiv.org/pdf/2310.06770",
+              "doi": "https://doi.org/10.48550/arxiv.2310.06770"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.07986",
+            "ids": {
+              "arxiv": "2504.07986",
+              "doi": "10.48550/arxiv.2504.07986",
+              "s2": "b5e43268320b197c1530daefe6cdfdf8b07d3857"
+            },
+            "title": "SEAL: Steerable Reasoning Calibration of Large Language Models for Free",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 92,
+            "influential_citations": 23,
+            "is_review": true,
+            "tldr": "This work investigates the internal reasoning structures of LLMs and categorizes them into three primary thought types: execution, reflection, and transition thoughts, and introduces SEAL (Steerable reasoning calibration), a training-free approach that seamlessly calibrates the CoT process, improving accuracy while demonstrating significant efficiency gains.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.07986",
+              "pdf": "https://arxiv.org/pdf/2504.07986",
+              "doi": "https://doi.org/10.48550/arxiv.2504.07986"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.18600",
+            "ids": {
+              "arxiv": "2502.18600",
+              "doi": "10.48550/arxiv.2502.18600",
+              "s2": "56a9aa8825b6c6441b0d22b9bc04852e1af80852"
+            },
+            "title": "Chain of Draft: Thinking Faster by Writing Less",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 326,
+            "influential_citations": 21,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.18600",
+              "pdf": "https://arxiv.org/pdf/2502.18600",
+              "doi": "https://doi.org/10.48550/arxiv.2502.18600"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.11967",
+            "ids": {
+              "arxiv": "2510.11967",
+              "doi": "10.48550/arxiv.2510.11967",
+              "s2": "6ca29e9438224626cafa50f121c22244f35575c0"
+            },
+            "title": "Scaling Long-Horizon LLM Agent via Context-Folding",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 172,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.11967",
+              "pdf": "https://arxiv.org/pdf/2510.11967",
+              "doi": "https://doi.org/10.48550/arxiv.2510.11967"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2401.05618",
+            "ids": {
+              "arxiv": "2401.05618",
+              "doi": "10.1109/fllm63129.2024.10852493",
+              "s2": "4de6bace974ae5e6b092077950180a86ce48fe6b"
+            },
+            "title": "The Benefits of a Concise Chain of Thought on Problem-Solving in Large Language Models",
+            "year": 2024,
+            "venue": "2024 2nd International Conference on Foundation and Large Language Models (FLLM)",
+            "citations": 112,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2401.05618",
+              "pdf": "https://arxiv.org/pdf/2401.05618",
+              "doi": "https://doi.org/10.1109/fllm63129.2024.10852493"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.04742",
+            "ids": {
+              "arxiv": "2507.04742",
+              "doi": "10.48550/arxiv.2507.04742",
+              "s2": "49e2040f89d56c83a06ee9923ab8a2f6a52f50d3"
+            },
+            "title": "Activation Steering for Chain-of-Thought Compression",
+            "year": 2025,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 37,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.04742",
+              "pdf": "https://arxiv.org/pdf/2507.04742",
+              "doi": "https://doi.org/10.48550/arxiv.2507.04742"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.19602",
+            "ids": {
+              "arxiv": "2503.19602",
+              "doi": "10.48550/arxiv.2503.19602",
+              "s2": "837397b65145a6107d6a15d1336c21df9b4fe7c6"
+            },
+            "title": "Innate Reasoning is Not Enough: In-Context Learning Enhances Reasoning Large Language Models with Less Overthinking",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 24,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.19602",
+              "pdf": "https://arxiv.org/pdf/2503.19602",
+              "doi": "https://doi.org/10.48550/arxiv.2503.19602"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.11716",
+            "ids": {
+              "arxiv": "2604.11716",
+              "doi": "10.48550/arxiv.2604.11716",
+              "s2": "9e782a2f817661998ab280b93d87754d549465cc"
+            },
+            "title": "SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context",
+            "year": 2026,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 14,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.11716",
+              "pdf": "https://arxiv.org/pdf/2604.11716",
+              "doi": "https://doi.org/10.48550/arxiv.2604.11716"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.01161",
+            "ids": {
+              "arxiv": "2604.01161",
+              "doi": "10.48550/arxiv.2604.01161",
+              "s2": "25d573ee74514bda4d2897a1cde48aec2fb1bd16"
+            },
+            "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 6,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.01161",
+              "pdf": "https://arxiv.org/pdf/2604.01161",
+              "doi": "https://doi.org/10.48550/arxiv.2604.01161"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2403.07974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2310.06770",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2504.07986",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2502.18600",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2510.11967",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2401.05618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2507.04742",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2503.19602",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2604.11716",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03852",
+          "target": "arxiv:2604.01161",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2403.07974",
+          "target": "arxiv:2310.06770",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.07986",
+          "target": "arxiv:2403.07974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.11967",
+          "target": "arxiv:2310.06770",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04742",
+          "target": "arxiv:2403.07974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04742",
+          "target": "arxiv:2504.07986",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04742",
+          "target": "arxiv:2502.18600",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.11716",
+          "target": "arxiv:2310.06770",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.11716",
+          "target": "arxiv:2510.11967",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.01161",
+          "target": "arxiv:2403.07974",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    }
+  ]
+}

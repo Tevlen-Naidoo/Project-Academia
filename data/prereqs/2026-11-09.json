@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T11:36:01.426622Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2506.20707",
+      "pick_title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+      "source": "openalex",
+      "references_seen": 202,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201833910",
+            "ids": {
+              "doi": "10.1051/0004-6361/201833910",
+              "openalex": "W4288079944"
+            },
+            "title": "Planck 2018 results",
+            "year": 2020,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 16313,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4288079944",
+              "doi": "https://doi.org/10.1051/0004-6361/201833910"
+            }
+          },
+          "label": "background",
+          "score": 3.37,
+          "reasons": [
+            "16k citations"
+          ],
+          "supports": [
+            "arxiv:2506.20707"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/427976",
+            "ids": {
+              "doi": "10.1086/427976",
+              "openalex": "W1976579441"
+            },
+            "title": "HEALPix: A Framework for High‐Resolution Discretization and Fast Analysis of Data Distributed on the Sphere",
+            "year": 2005,
+            "venue": "The Astrophysical Journal",
+            "citations": 6281,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1976579441",
+              "doi": "https://doi.org/10.1086/427976"
+            }
+          },
+          "label": "background",
+          "score": 3.038,
+          "reasons": [
+            "6.3k citations"
+          ],
+          "supports": [
+            "arxiv:2506.20707"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.81.1562",
+            "ids": {
+              "doi": "10.1103/physrevlett.81.1562",
+              "openalex": "W2134803267"
+            },
+            "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+            "year": 1998,
+            "venue": "Physical Review Letters",
+            "citations": 6278,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2134803267",
+              "doi": "https://doi.org/10.1103/physrevlett.81.1562"
+            }
+          },
+          "label": "background",
+          "score": 3.038,
+          "reasons": [
+            "6.3k citations"
+          ],
+          "supports": [
+            "arxiv:2506.20707"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.07909",
+      "pick_title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+      "source": "s2",
+      "references_seen": 54,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2308.04079",
+            "ids": {
+              "arxiv": "2308.04079",
+              "doi": "10.1145/3592433",
+              "s2": "2cc1d857e86d5152ba7fe6a8355c2a0150cc280a"
+            },
+            "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+            "year": 2023,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 11376,
+            "influential_citations": 2923,
+            "is_review": false,
+            "tldr": "This work develops a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows realtime rendering and demonstrates state-of-the-art visual quality and real-time rendering on several established datasets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.04079",
+              "pdf": "https://arxiv.org/pdf/2308.04079",
+              "doi": "https://doi.org/10.1145/3592433"
+            }
+          },
+          "label": "background",
+          "score": 7.978,
+          "reasons": [
+            "Influential reference for this paper",
+            "11k citations"
+          ],
+          "quote": "Thefieldhassincepivotedto rasterizable3DGaussiansplats[Kerbl et al. 2023], which replace dense ray-marching with a set of anisotropic blobs that are both GPU-friendly and easily deformed.",
+          "supports": [
+            "arxiv:2611.07909"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.02069",
+            "ids": {
+              "arxiv": "2312.02069",
+              "doi": "10.1109/cvpr52733.2024.01919",
+              "s2": "6c0717e783f1f44c5ffa9aaad36076950ab8c444"
+            },
+            "title": "GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 389,
+            "influential_citations": 67,
+            "is_review": false,
+            "tldr": "This work introduces GaussianAvatars11, a new method to create photorealistic head avatars that are fully controllable in terms of expression, pose, and viewpoint and jointly optimize for the morphable model parameters and Gaussian splat parameters in an end-to-end fashion.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.02069",
+              "pdf": "https://arxiv.org/pdf/2312.02069",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.01919"
+            }
+          },
+          "label": "background",
+          "score": 5.989,
+          "reasons": [
+            "Influential reference for this paper",
+            "389 citations"
+          ],
+          "quote": "Figure 6 presents EDGAR results for avatars reconstructed by CAP4D [Taubner et al. 2025a], GaussianAvatars [Qian et al. 2024a], and RGBAvatar [Li et al. 2025] under different input settings.",
+          "supports": [
+            "arxiv:2611.07909"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2006.11239",
+            "ids": {
+              "arxiv": "2006.11239",
+              "doi": "10.48550/arxiv.2006.11239",
+              "s2": "5c126ae3421f05768d8edd97ecd44b1364e2c99a"
+            },
+            "title": "Denoising Diffusion Probabilistic Models",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 37635,
+            "influential_citations": 5142,
+            "is_review": false,
+            "tldr": "High quality image synthesis results are presented using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics, which naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2006.11239",
+              "pdf": "https://arxiv.org/pdf/2006.11239",
+              "doi": "https://doi.org/10.48550/arxiv.2006.11239"
+            }
+          },
+          "label": "background",
+          "score": 5.516,
+          "reasons": [
+            "38k citations"
+          ],
+          "quote": "Advances in generative models [Goodfellow et al. 2014; Ho et al. 2020] have demonstrated not only impressive generation quality but also their utility for image refinement [Saharia et al. 2022a,b; Yang et al. 2021] and editing [Lugmayr et al. 2022; Meng et al. 2021; Rom-bach et al. 2022].",
+          "supports": [
+            "arxiv:2611.07909"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.03852",
+      "pick_title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+      "source": "s2",
+      "references_seen": 10,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2403.07974",
+            "ids": {
+              "arxiv": "2403.07974",
+              "doi": "10.48550/arxiv.2403.07974",
+              "s2": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e"
+            },
+            "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2611,
+            "influential_citations": 402,
+            "is_review": false,
+            "tldr": "This work proposes LiveCodeBench, a comprehensive and contamination-free evaluation of LLMs for code, which continuously collects new problems over time from contests across three competition platforms, namely LeetCode, AtCoder, and CodeForces.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2403.07974",
+              "pdf": "https://arxiv.org/pdf/2403.07974",
+              "doi": "https://doi.org/10.48550/arxiv.2403.07974"
+            }
+          },
+          "label": "background",
+          "score": 7.036,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.6k citations"
+          ],
+          "quote": "In the LiveCodeBench screen (Jain et al., 2024), extended verification, defined retrospectively as at least 350 reasoning tokens, occurs in 61.1% of successful DeepSeek clean branches and none of the compact branches.",
+          "supports": [
+            "arxiv:2611.03852"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.06770",
+            "ids": {
+              "arxiv": "2310.06770",
+              "doi": "10.48550/arxiv.2310.06770",
+              "s2": "94a5f96308729e31c1ffbc0f0618db87795092fe"
+            },
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "year": 2023,
+            "venue": "International Conference on Learning Representations",
+            "citations": 4813,
+            "influential_citations": 790,
+            "is_review": false,
+            "tldr": "SWE-bench is introduced, an evaluation framework consisting of software engineering problems drawn from real GitHub issues and corresponding pull requests across popular Python repositories that shows that both state-of-the-art proprietary models and the fine-tuned model SWE-Llama can resolve only the simplest issues.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.06770",
+              "pdf": "https://arxiv.org/pdf/2310.06770",
+              "doi": "https://doi.org/10.48550/arxiv.2310.06770"
+            }
+          },
+          "label": "background",
+          "score": 4.395,
+          "reasons": [
+            "4.8k citations"
+          ],
+          "quote": "We compare continuous compaction with normal history on a fixed 50-task SWE-bench Verified Mini sample (Jimenez et al., 2024).",
+          "supports": [
+            "arxiv:2611.03852"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.07986",
+            "ids": {
+              "arxiv": "2504.07986",
+              "doi": "10.48550/arxiv.2504.07986",
+              "s2": "b5e43268320b197c1530daefe6cdfdf8b07d3857"
+            },
+            "title": "SEAL: Steerable Reasoning Calibration of Large Language Models for Free",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 92,
+            "influential_citations": 23,
+            "is_review": true,
+            "tldr": "This work investigates the internal reasoning structures of LLMs and categorizes them into three primary thought types: execution, reflection, and transition thoughts, and introduces SEAL (Steerable reasoning calibration), a training-free approach that seamlessly calibrates the CoT process, improving accuracy while demonstrating significant efficiency gains.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.07986",
+              "pdf": "https://arxiv.org/pdf/2504.07986",
+              "doi": "https://doi.org/10.48550/arxiv.2504.07986"
+            }
+          },
+          "label": "background",
+          "score": 2.765,
+          "reasons": [
+            "92 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "Related approaches manage agent context (Sun et al., 2025; Lian et al., 2026; Li et al., 2026) or steer concise reasoning states (Azizi et al., 2026; Chen et al., 2025).",
+          "supports": [
+            "arxiv:2611.03852"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

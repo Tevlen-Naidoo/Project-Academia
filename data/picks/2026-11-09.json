@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T11:35:51.625361Z",
+  "candidates_file": "candidates/2026-11-09.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "astronomy",
+      "funnel": "waves",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9848,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9783,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "258 citations, about 25 a month · Published in Physical Review D",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2506.20707",
+        "ids": {
+          "arxiv": "2506.20707",
+          "doi": "10.1103/7wt3-9v2y",
+          "s2": "af927567262cd63700a7591901b514969b738ae4",
+          "openalex": "W4414896463"
+        },
+        "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+        "authors": [
+          {
+            "name": "E. Camphuis",
+            "affiliation": null
+          },
+          {
+            "name": "W. Quan",
+            "affiliation": null
+          },
+          {
+            "name": "L. Balkenhol",
+            "affiliation": null
+          },
+          {
+            "name": "A. R. Khalife",
+            "affiliation": null
+          },
+          {
+            "name": "Fan Ge",
+            "affiliation": null
+          },
+          {
+            "name": "F. Guidi",
+            "affiliation": null
+          },
+          {
+            "name": "N. Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Gabriel P. Lynch",
+            "affiliation": null
+          },
+          {
+            "name": "Y. Omori",
+            "affiliation": null
+          },
+          {
+            "name": "Cynthia Trendafilova",
+            "affiliation": null
+          },
+          {
+            "name": "Adam J. Anderson",
+            "affiliation": null
+          },
+          {
+            "name": "Behzad Ansarinejad",
+            "affiliation": null
+          },
+          {
+            "name": "M. Archipley",
+            "affiliation": null
+          },
+          {
+            "name": "Peter S. Barry",
+            "affiliation": null
+          },
+          {
+            "name": "K. Benabed",
+            "affiliation": null
+          },
+          {
+            "name": "A. N. Bender",
+            "affiliation": null
+          },
+          {
+            "name": "Bradford A. Benson",
+            "affiliation": null
+          },
+          {
+            "name": "F. Bianchini",
+            "affiliation": null
+          },
+          {
+            "name": "Lindsey E. Bleem",
+            "affiliation": null
+          },
+          {
+            "name": "François R. Bouchet",
+            "affiliation": null
+          },
+          {
+            "name": "Lincoln Bryant",
+            "affiliation": null
+          },
+          {
+            "name": "M. G. Campitiello",
+            "affiliation": null
+          },
+          {
+            "name": "J. E. Carlstrom",
+            "affiliation": null
+          },
+          {
+            "name": "C. L. Chang",
+            "affiliation": null
+          },
+          {
+            "name": "Prakrut Chaubal",
+            "affiliation": null
+          },
+          {
+            "name": "Paul M. Chichura",
+            "affiliation": null
+          },
+          {
+            "name": "A Chokshi",
+            "affiliation": null
+          },
+          {
+            "name": "T.-L. Chou",
+            "affiliation": null
+          },
+          {
+            "name": "A. Coerver",
+            "affiliation": null
+          },
+          {
+            "name": "T. M. Crawford",
+            "affiliation": null
+          },
+          {
+            "name": "C. Daley",
+            "affiliation": null
+          },
+          {
+            "name": "T. de Haan",
+            "affiliation": null
+          },
+          {
+            "name": "K. R. Dibert",
+            "affiliation": null
+          },
+          {
+            "name": "M. Dobbs",
+            "affiliation": null
+          },
+          {
+            "name": "M. Doohan",
+            "affiliation": null
+          },
+          {
+            "name": "A. Doussot",
+            "affiliation": null
+          },
+          {
+            "name": "D. Dutcher",
+            "affiliation": null
+          },
+          {
+            "name": "Wendeline B. Everett",
+            "affiliation": null
+          },
+          {
+            "name": "Chang Qing Feng",
+            "affiliation": null
+          },
+          {
+            "name": "K. R. Ferguson",
+            "affiliation": null
+          },
+          {
+            "name": "K. Fichman",
+            "affiliation": null
+          },
+          {
+            "name": "A. Foster",
+            "affiliation": null
+          },
+          {
+            "name": "S. Galli",
+            "affiliation": null
+          },
+          {
+            "name": "A. E. Gambrel",
+            "affiliation": null
+          },
+          {
+            "name": "Robert W. Gardner",
+            "affiliation": null
+          },
+          {
+            "name": "N. Goeckner-Wald",
+            "affiliation": null
+          },
+          {
+            "name": "R. Gualtieri",
+            "affiliation": null
+          },
+          {
+            "name": "Sam T. Guns",
+            "affiliation": null
+          },
+          {
+            "name": "N. W. Halverson",
+            "affiliation": null
+          },
+          {
+            "name": "Eric F. Hivon",
+            "affiliation": null
+          },
+          {
+            "name": "Gilbert P Holder",
+            "affiliation": null
+          },
+          {
+            "name": "W. L. Holzapfel",
+            "affiliation": null
+          },
+          {
+            "name": "John C. Hood",
+            "affiliation": null
+          },
+          {
+            "name": "A Hryciuk",
+            "affiliation": null
+          },
+          {
+            "name": "F. Kéruzoré",
+            "affiliation": null
+          },
+          {
+            "name": "Lloyd Knox",
+            "affiliation": null
+          },
+          {
+            "name": "M. Korman",
+            "affiliation": null
+          },
+          {
+            "name": "K. Kornoelje",
+            "affiliation": null
+          },
+          {
+            "name": "Chao-Lin L. Kuo",
+            "affiliation": null
+          },
+          {
+            "name": "K. Levy",
+            "affiliation": null
+          },
+          {
+            "name": "Amy E. Lowitz",
+            "affiliation": null
+          },
+          {
+            "name": "C. Lu",
+            "affiliation": null
+          },
+          {
+            "name": "Abhishek S. Maniyar",
+            "affiliation": null
+          },
+          {
+            "name": "E. S. Martsen",
+            "affiliation": null
+          },
+          {
+            "name": "F. Menanteau",
+            "affiliation": null
+          },
+          {
+            "name": "M. Millea",
+            "affiliation": null
+          },
+          {
+            "name": "J. Montgomery",
+            "affiliation": null
+          },
+          {
+            "name": "Yuka Nakato",
+            "affiliation": null
+          },
+          {
+            "name": "Tyler J. Natoli",
+            "affiliation": null
+          },
+          {
+            "name": "Gavin I. Noble",
+            "affiliation": null
+          },
+          {
+            "name": "Aaron Ouellette",
+            "affiliation": null
+          },
+          {
+            "name": "Zhaodi Pan",
+            "affiliation": null
+          },
+          {
+            "name": "P. Paschos",
+            "affiliation": null
+          },
+          {
+            "name": "Kedar A. Phadke",
+            "affiliation": null
+          },
+          {
+            "name": "Alexander W. Pollak",
+            "affiliation": null
+          },
+          {
+            "name": "K. Prabhu",
+            "affiliation": null
+          },
+          {
+            "name": "S. Raghunathan",
+            "affiliation": null
+          },
+          {
+            "name": "M Rahimi",
+            "affiliation": null
+          },
+          {
+            "name": "Alexandra S. Rahlin",
+            "affiliation": null
+          },
+          {
+            "name": "Christian L. Reichardt",
+            "affiliation": null
+          },
+          {
+            "name": "M. Rouble",
+            "affiliation": null
+          },
+          {
+            "name": "John E. Ruhl",
+            "affiliation": null
+          },
+          {
+            "name": "E. Schiappucci",
+            "affiliation": null
+          },
+          {
+            "name": "Alison Simpson",
+            "affiliation": null
+          },
+          {
+            "name": "Joshua A. Sobrin",
+            "affiliation": null
+          },
+          {
+            "name": "Antony A. Stark",
+            "affiliation": null
+          },
+          {
+            "name": "J. Stephen",
+            "affiliation": null
+          },
+          {
+            "name": "C. Tandoi",
+            "affiliation": null
+          },
+          {
+            "name": "Ben Thorne",
+            "affiliation": null
+          },
+          {
+            "name": "Carlo Arrigo Umiltà",
+            "affiliation": null
+          },
+          {
+            "name": "Joaquin D. Vieira",
+            "affiliation": null
+          },
+          {
+            "name": "A. Vitrier",
+            "affiliation": null
+          },
+          {
+            "name": "Y. Wan",
+            "affiliation": null
+          },
+          {
+            "name": "N. Whitehorn",
+            "affiliation": null
+          },
+          {
+            "name": "W. L. K. Wu",
+            "affiliation": null
+          },
+          {
+            "name": "M. R. Young",
+            "affiliation": null
+          },
+          {
+            "name": "J. A. Zebrowski",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We present measurements of the temperature and E-mode polarization angular power spectra of the cosmic microwave background (CMB) from observations of 4% of the sky with SPT-3G, the current camera on the South Pole Telescope (SPT). The maps used in this analysis are the deepest used in a CMB TT/TE/EE analysis to date. The maps and resulting power spectra have been validated through blind and unblind tests. The measurements of the lensed EE and TE spectra are the most precise to date at l=1800-4000 and l=2200-4000, respectively. Combining our TT/TE/EE spectra with previously published SPT-3G CMB lensing results, we find parameters for the standard LCDM model consistent with Planck and ACT-DR6 with comparable constraining power. We report a Hubble constant of $H_0=66.66\\pm0.60$ km/s/Mpc from SPT-3G alone, 6.2 sigma away from local measurements from SH0ES. For the first time, combined ground-based (SPT+ACT) CMB primary and lensing data have reached Planck's constraining power on some parameters, a milestone for CMB cosmology. The combination of these three CMB experiments yields the tightest CMB constraints to date, with $H_0=67.19\\pm0.38$ km/s/Mpc, and the amplitude of clustering $σ_8=0.8137\\pm0.0037$. CMB data alone show no evidence for physics beyond LCDM; however, we observe a 2.8 sigma difference in LCDM between CMB and baryon acoustic oscillation (BAO) results from DESI-DR2, which is relaxed in extended models. The combination of CMB and BAO yields 2-3 sigma shifts from LCDM in the curvature of the universe, the amplitude of CMB lensing, or the dark energy equation of state. It also drives mild preferences for models that address the Hubble tension through modified recombination or variations in the electron mass in a non-flat universe. This work highlights the growing power of ground-based CMB experiments and lays a foundation for further cosmological analyses with SPT-3G.",
+        "tldr": null,
+        "topics": [
+          "astronomy"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-09",
+          "submitted": null,
+          "published": "2026-01-05"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Physical Review D",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 258,
+          "influential": 34,
+          "last_12_months": 308,
+          "per_month": 25.498,
+          "by_year": {
+            "2026": 303,
+            "2025": 34
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2506.20707",
+          "pdf": "https://arxiv.org/pdf/2506.20707",
+          "doi": "https://doi.org/10.1103/7wt3-9v2y",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-09T11:30:10.963396Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8609,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "17 upvotes on Hugging Face · Accepted at ACM Transactions on Graphics",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.07909",
+        "ids": {
+          "arxiv": "2611.07909",
+          "doi": null,
+          "s2": "701947c965bd109c7d3c43bb160681b469f37a20",
+          "openalex": "W7225411468"
+        },
+        "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+        "authors": [
+          {
+            "name": "Kwan Yun",
+            "affiliation": null
+          },
+          {
+            "name": "Minhyeok Bang",
+            "affiliation": null
+          },
+          {
+            "name": "Colette Suhjung Koo",
+            "affiliation": null
+          },
+          {
+            "name": "Junyong Noh",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leading to artifacts such as blurring, stretching, and temporal instability. We present EDGAR (Efficient Diffusion-Driven Gaussian Avatar Refinement), a conditional diffusion framework designed to enhance the quality of Gaussian avatars by correcting artifacts while preserving identity fidelity. To train EDGAR, we construct EDGAR-SET, a hybrid triplet dataset composed of real-captured and synthetic-rendered samples, which simulates realistic Gaussian avatar failure cases by pairing degraded renderings with ground-truth and reference images. EDGAR refines degraded frames through a fusion block that injects identity features extracted by the self-supervised Sapiens model into a one-step diffusion backbone, enabling effective artifact removal without sacrificing efficiency. Our EDGAR model incorporates a Mixture-of-Experts (MoE) architecture to address diverse degradation types and severity levels. The refined multi-view renderings are subsequently used as pseudo-targets to optimize a single underlying Gaussian avatar, so that the final avatar can be rendered without applying EDGAR to every output frame. Experiments on three different Gaussian avatar reconstruction methods, each evaluated under three different settings, show improvements in both perceptual and reconstruction measures over the raw outputs and an SDEdit-style refinement baseline. In addition, cross-view evaluation demonstrates improved calibrated consistency, while tests under large yaw and open-mouth expressions verify robustness under extreme settings. These results collectively indicate a useful operating regime for recoverable appearance artifacts. The code is available at https://kwanyun.github.io/edgar/",
+        "tldr": "Experiments on three different Gaussian avatar reconstruction methods show improvements in both perceptual and reconstruction measures over the raw outputs and an SDEdit-style refinement baseline, which indicates a useful operating regime for recoverable appearance artifacts.",
+        "topics": [
+          "ml",
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.GR",
+          "cs.CV",
+          "cs.LG",
+          "cs.MM"
+        ],
+        "dates": {
+          "first_seen": "2026-11-09",
+          "submitted": "2026-11-05",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "ACM Transactions on Graphics",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 17,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.07909",
+          "pdf": "https://arxiv.org/pdf/2611.07909",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-09T11:30:10.963396Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 0.949,
+      "adjusted": 0.8066,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8398,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "13 upvotes on Hugging Face · Published in Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.03852",
+        "ids": {
+          "arxiv": "2611.03852",
+          "doi": "10.18653/2026.realm-1.84",
+          "s2": "7d3b8d35e590809bb7b1193e0ba9ca3123465402",
+          "openalex": "W7224360176"
+        },
+        "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+        "authors": [
+          {
+            "name": "Anton Hristov",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds little value to solving the problem. Progress in proprietary models motivates this goal, yet their hidden scratchpads limit direct study of how it is achieved. We investigate whether open-weight models can generate less verbose reasoning by changing the form of their own earlier thoughts, without retraining. Our intervention rewrites prior reasoning into compact state records before pending tool results are revealed, then compares continuations from original and compact histories. Across the tested models, accepted compact histories usually shorten future reasoning; a coding case study also shows less repeated verification after a shared candidate solution. In software-agent deployments, compaction can reduce total spending, although task quality and rewrite-inclusive time depend on the target and compressor. These findings identify reasoning history as one way to reduce future reasoning-token use and motivate model-specific compaction policies evaluated for both efficiency and retained capability.",
+        "tldr": "This work investigates whether open-weight models can generate less verbose reasoning by changing the form of their own earlier thoughts, without retraining, and identifies reasoning history as one way to reduce future reasoning-token use and motivate model-specific compaction policies evaluated for both efficiency and retained capability.",
+        "topics": [
+          "ai",
+          "nlp",
+          "ml"
+        ],
+        "source_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "dates": {
+          "first_seen": "2026-11-09",
+          "submitted": "2026-11-02",
+          "published": "2026-11-02"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 13,
+          "hf_comments": 6,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.03852",
+          "pdf": "https://arxiv.org/pdf/2611.03852",
+          "doi": "https://doi.org/10.18653/2026.realm-1.84",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-09T11:30:10.963396Z"
+      }
+    }
+  ]
+}
