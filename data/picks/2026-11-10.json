@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:16:36.857703Z",
+  "candidates_file": "candidates/2026-11-10.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "fresh",
+      "score": 0.9636,
+      "adjusted": 0.9636,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9908,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "87 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.12806",
+        "ids": {
+          "arxiv": "2611.12806",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+        "authors": [
+          {
+            "name": "Bing Han",
+            "affiliation": null
+          },
+          {
+            "name": "Yichuan Peng",
+            "affiliation": null
+          },
+          {
+            "name": "Haoyu Dong",
+            "affiliation": null
+          },
+          {
+            "name": "Yuanmeng Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Yongyi Jia",
+            "affiliation": null
+          },
+          {
+            "name": "Fangjing Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Kecheng Zheng",
+            "affiliation": null
+          },
+          {
+            "name": "Yiming Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Yanhong Zeng",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaoqing Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Chen Song",
+            "affiliation": null
+          },
+          {
+            "name": "Rundong Zou",
+            "affiliation": null
+          },
+          {
+            "name": "Anqi Dong",
+            "affiliation": null
+          },
+          {
+            "name": "Yuan Guan",
+            "affiliation": null
+          },
+          {
+            "name": "Ka Leong Cheng",
+            "affiliation": null
+          },
+          {
+            "name": "Xing Zhu",
+            "affiliation": null
+          },
+          {
+            "name": "Yujun Shen",
+            "affiliation": null
+          },
+          {
+            "name": "Nan Xue",
+            "affiliation": null
+          },
+          {
+            "name": "Wei Ning",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as $π_{0.5}$ and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+        "tldr": null,
+        "topics": [
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-10",
+          "submitted": "2026-11-09",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 87,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.12806",
+          "pdf": "https://arxiv.org/pdf/2611.12806",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-10T11:11:06.993027Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 0.9037,
+      "adjusted": 0.9037,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8948,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "25 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.12886",
+        "ids": {
+          "arxiv": "2611.12886",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+        "authors": [
+          {
+            "name": "Haozhi Yuan",
+            "affiliation": null
+          },
+          {
+            "name": "Handong Li",
+            "affiliation": null
+          },
+          {
+            "name": "Yifan Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Qianshan Wei",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. First, Ground-Drop-GRPO (GD-GRPO) trains spatial and temporal specialists with evidence-aware rewards and stochastic removal of the original visual input, encouraging them to acquire grounded evidence and use the returned observations. Second, Observation-Gated-MOPD (OG-MOPD) replaces deficient tool actions with canonical ones mid-rollout and resumes distillation from the repaired observation. The two stages complement each other, as learning to rely on tool-returned observations can help the policy benefit from observation repair. Neither stage requires a task-specific SFT cold start. Extensive experiments over 14 image and video benchmarks demonstrate that Reframe outperforms both Mix-RL and vanilla MOPD. Ablation results show that GD-GRPO increases observation dependence and tool gain compared with outcome-based GRPO.",
+        "tldr": null,
+        "topics": [
+          "vision"
+        ],
+        "source_categories": [
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-10",
+          "submitted": "2026-11-09",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 25,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.12886",
+          "pdf": "https://arxiv.org/pdf/2611.12886",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-10T11:11:06.993027Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "image-processing",
+      "funnel": "fresh",
+      "score": 0.6797,
+      "adjusted": 0.6797,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in IEEE Transactions on Pattern Analysis and Machine Intelligence · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.09754",
+        "ids": {
+          "arxiv": "2611.09754",
+          "doi": "10.1109/TPAMI.2025.3600072",
+          "s2": "8f6d53087ece91e5c6747eeb067a2e9c9a6c9a46",
+          "openalex": "W4413319157"
+        },
+        "title": "Tomographic Sparse View Selection using the View Covariance Loss",
+        "authors": [
+          {
+            "name": "Jingsong Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Amirkoushyar Ziabari",
+            "affiliation": null
+          },
+          {
+            "name": "Singanallur V. Venkatakrishnan",
+            "affiliation": null
+          },
+          {
+            "name": "Obaidullah Rahman",
+            "affiliation": null
+          },
+          {
+            "name": "Gregery T. Buzzard",
+            "affiliation": null
+          },
+          {
+            "name": "Charles A. Bouman",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Standard computed tomography (CT) reconstruction algorithms such as filtered back projection (FBP) and Feldkamp-Davis-Kress (FDK) require many views for producing high-quality reconstructions, which can slow image acquisition and increase cost in non-destructive evaluation (NDE) applications. Over the past 20 years, a variety of methods have been developed for computing high-quality CT reconstructions from sparse views. However, the problem of how to select the best views for CT reconstruction remains open. In this paper, we present a novel view covariance loss (VCL) function that measures the joint information of a set of views by approximating the normalized mean squared error (NMSE) of the reconstruction. We present fast algorithms for computing the VCL along with an algorithm for selecting a subset of views that approximately minimizes its value. Our experiments on simulated and measured data indicate that for a fixed number of views our proposed view covariance loss selection (VCLS) algorithm results in reconstructions with lower NRMSE, fewer artifacts, and greater accuracy than current alternative approaches.",
+        "tldr": "A novel view covariance loss (VCL) function that measures the joint information of a set of views by approximating the normalized mean squared error (NMSE) of the reconstruction results in reconstructions with lower NRMSE, fewer artifacts, and greater accuracy than current alternative approaches.",
+        "topics": [
+          "image-processing"
+        ],
+        "source_categories": [
+          "eess.IV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-10",
+          "submitted": "2026-11-06",
+          "published": "2025-08-19"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 5,
+          "influential": 1,
+          "last_12_months": 4,
+          "per_month": 0.34,
+          "by_year": {
+            "2026": 4,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.09754",
+          "pdf": "https://arxiv.org/pdf/2611.09754",
+          "doi": "https://doi.org/10.1109/TPAMI.2025.3600072",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-10T11:11:06.993027Z"
+      }
+    }
+  ]
+}

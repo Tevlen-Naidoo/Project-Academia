@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:16:57.885595Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.12806",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.12806",
+            "ids": {
+              "arxiv": "2611.12806"
+            },
+            "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.12806",
+              "pdf": "https://arxiv.org/pdf/2611.12806"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.12806: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.12806/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.12886",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.12886",
+            "ids": {
+              "arxiv": "2611.12886"
+            },
+            "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.12886",
+              "pdf": "https://arxiv.org/pdf/2611.12886"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.12886: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.12886/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.09754",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.09754",
+            "ids": {
+              "arxiv": "2611.09754",
+              "doi": "10.1109/TPAMI.2025.3600072",
+              "s2": "8f6d53087ece91e5c6747eeb067a2e9c9a6c9a46",
+              "openalex": "W4413319157"
+            },
+            "title": "Tomographic Sparse View Selection using the View Covariance Loss",
+            "year": 2025,
+            "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "citations": 5,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "A novel view covariance loss (VCL) function that measures the joint information of a set of views by approximating the normalized mean squared error (NMSE) of the reconstruction results in reconstructions with lower NRMSE, fewer artifacts, and greater accuracy than current alternative approaches.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.09754",
+              "pdf": "https://arxiv.org/pdf/2611.09754",
+              "doi": "https://doi.org/10.1109/TPAMI.2025.3600072"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1117/3.2197756",
+            "ids": {
+              "doi": "10.1117/3.2197756",
+              "s2": "181aea672710f1cadbb1cc7e5e75662337b2ce41"
+            },
+            "title": "Computed Tomography: Principles, Design, Artifacts, and Recent Advances",
+            "year": 2003,
+            "citations": 1601,
+            "influential_citations": 141,
+            "is_review": false,
+            "tldr": "Introduction Preliminaries Image Reconstruction Image Presentation Key Performance Parameters of a CT Scanner Major Components of CT scanner Image Artifacts: Appearances, Causes, and Corrections Computer Simulation and Analysis.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/181aea672710f1cadbb1cc7e5e75662337b2ce41",
+              "doi": "https://doi.org/10.1117/3.2197756"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/globalsip.2013.6737048",
+            "ids": {
+              "doi": "10.1109/globalsip.2013.6737048",
+              "s2": "b9a8e2ba7e910ad82c87fa16d656d6966433e344"
+            },
+            "title": "Plug-and-Play priors for model based reconstruction",
+            "year": 2013,
+            "venue": "IEEE Global Conference on Signal and Information Processing",
+            "citations": 1078,
+            "influential_citations": 87,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b9a8e2ba7e910ad82c87fa16d656d6966433e344",
+              "doi": "https://doi.org/10.1109/globalsip.2013.6737048"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1118/1.2789499",
+            "ids": {
+              "doi": "10.1118/1.2789499",
+              "s2": "79b33b94477515a1c005ac2ce3169c4dec142938"
+            },
+            "title": "A three-dimensional statistical approach to improved image quality for multislice helical CT.",
+            "year": 2007,
+            "venue": "Medical Physics (Lancaster)",
+            "citations": 1074,
+            "influential_citations": 55,
+            "is_review": false,
+            "tldr": "Enhanced image resolution and lower noise have been achieved, concurrently with the reduction of helical cone-beam artifacts, as demonstrated by phantom studies and clinical results illustrate the capabilities of the algorithm on real patient data.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/79b33b94477515a1c005ac2ce3169c4dec142938",
+              "doi": "https://doi.org/10.1118/1.2789499"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.58286/30740",
+            "ids": {
+              "doi": "10.58286/30740",
+              "s2": "ce8427f7273d05c7b08e9c023b50641cc27b0dcd"
+            },
+            "title": "An Adaptive View Selection Algorithm for Large-scale Cone-Beam CT Reconstruction",
+            "year": 2025,
+            "venue": "e-Journal of Nondestructive Testing",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ce8427f7273d05c7b08e9c023b50641cc27b0dcd",
+              "doi": "https://doi.org/10.58286/30740"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/0957-0233/27/7/072001",
+            "ids": {
+              "doi": "10.1088/0957-0233/27/7/072001",
+              "s2": "ac29642360e8aa0b684397e2a2cc800f13d16338"
+            },
+            "title": "X-ray computed tomography for additive manufacturing: a review",
+            "year": 2016,
+            "citations": 491,
+            "influential_citations": 6,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ac29642360e8aa0b684397e2a2cc800f13d16338",
+              "doi": "https://doi.org/10.1088/0957-0233/27/7/072001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1512.07331",
+            "ids": {
+              "arxiv": "1512.07331",
+              "doi": "10.1109/tci.2016.2599778",
+              "s2": "acd22257603757ccb773374774c7a780b85e3a99"
+            },
+            "title": "Plug-and-Play Priors for Bright Field Electron Tomography and Sparse Interpolation",
+            "year": 2015,
+            "venue": "IEEE Transactions on Computational Imaging",
+            "citations": 387,
+            "influential_citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1512.07331",
+              "pdf": "https://arxiv.org/pdf/1512.07331",
+              "doi": "https://doi.org/10.1109/tci.2016.2599778"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1097/00004728-198210000-00061",
+            "ids": {
+              "doi": "10.1097/00004728-198210000-00061",
+              "s2": "431aa1552ea1137c156fc340fba0714d061706de"
+            },
+            "title": "Optimal short scan convolution reconstruction for fanbeam CT.",
+            "year": 1982,
+            "venue": "Medical Physics (Lancaster)",
+            "citations": 190,
+            "influential_citations": 9,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/431aa1552ea1137c156fc340fba0714d061706de",
+              "doi": "https://doi.org/10.1097/00004728-198210000-00061"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1705.08983",
+            "ids": {
+              "arxiv": "1705.08983",
+              "doi": "10.48550/arxiv.1705.08983",
+              "s2": "133599f6d5d90a8675fc64815e7668d2ff658223"
+            },
+            "title": "Plug-and-Play Unplugged: Optimization Free Reconstruction using Consensus Equilibrium",
+            "year": 2017,
+            "venue": "SIAM Journal of Imaging Sciences",
+            "citations": 221,
+            "influential_citations": 21,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1705.08983",
+              "pdf": "https://arxiv.org/pdf/1705.08983",
+              "doi": "https://doi.org/10.48550/arxiv.1705.08983"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tip.2010.2058811",
+            "ids": {
+              "doi": "10.1109/tip.2010.2058811",
+              "s2": "cfef955910718692cee24bf7007b211ca1f8a38e"
+            },
+            "title": "Fast Model-Based X-Ray CT Reconstruction Using Spatially Nonhomogeneous ICD Optimization",
+            "year": 2011,
+            "venue": "IEEE Transactions on Image Processing",
+            "citations": 324,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cfef955910718692cee24bf7007b211ca1f8a38e",
+              "doi": "https://doi.org/10.1109/tip.2010.2058811"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1118/1.3477088",
+            "ids": {
+              "doi": "10.1118/1.3477088",
+              "s2": "975a24a8bdfc5946454184ebf51356cd64333040"
+            },
+            "title": "Empirical beam hardening correction (EBHC) for CT.",
+            "year": 2010,
+            "venue": "Medical Physics (Lancaster)",
+            "citations": 179,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/975a24a8bdfc5946454184ebf51356cd64333040",
+              "doi": "https://doi.org/10.1118/1.3477088"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.precisioneng.2020.08.006",
+            "ids": {
+              "doi": "10.1016/j.precisioneng.2020.08.006",
+              "s2": "1be1d58c545d2aea3d420100ac68b1cfa04ea6e0"
+            },
+            "title": "Effect of the number of projections on dimensional measurements with X-ray computed tomography",
+            "year": 2020,
+            "citations": 56,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1be1d58c545d2aea3d420100ac68b1cfa04ea6e0",
+              "doi": "https://doi.org/10.1016/j.precisioneng.2020.08.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2006.02420",
+            "ids": {
+              "arxiv": "2006.02420",
+              "doi": "10.48550/arxiv.2006.02420",
+              "s2": "00a66ac66c15ae4f79aca043678225ee99f3cc5b"
+            },
+            "title": "Learning to Scan: A Deep Reinforcement Learning Approach for Personalized Scanning in CT Imaging",
+            "year": 2020,
+            "venue": "Inverse Problems and Imaging",
+            "citations": 34,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2006.02420",
+              "pdf": "https://arxiv.org/pdf/2006.02420",
+              "doi": "https://doi.org/10.48550/arxiv.2006.02420"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41524-023-01032-5",
+            "ids": {
+              "doi": "10.1038/s41524-023-01032-5",
+              "s2": "3573e91eba81c5df135bcfb8cd898eb3feb7cfda"
+            },
+            "title": "Enabling rapid X-ray CT characterisation for additive manufacturing using CAD models and deep learning-based reconstruction",
+            "year": 2023,
+            "citations": 67,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3573e91eba81c5df135bcfb8cd898eb3feb7cfda",
+              "doi": "https://doi.org/10.1038/s41524-023-01032-5"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/srep19135",
+            "ids": {
+              "doi": "10.1038/srep19135",
+              "s2": "4210986cab9e0eb4d93396f8441d2844f593d583"
+            },
+            "title": "Object Specific Trajectory Optimization for Industrial X-ray Computed Tomography",
+            "year": 2016,
+            "venue": "Scientific Reports",
+            "citations": 55,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4210986cab9e0eb4d93396f8441d2844f593d583",
+              "doi": "https://doi.org/10.1038/srep19135"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tip.2013.2280185",
+            "ids": {
+              "doi": "10.1109/tip.2013.2280185",
+              "s2": "df207a8e652c6dfc0aa8f1111ee6dbffb5eb31a4"
+            },
+            "title": "Adaptive Projection Selection for Computed Tomography",
+            "year": 2013,
+            "venue": "IEEE Transactions on Image Processing",
+            "citations": 26,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/df207a8e652c6dfc0aa8f1111ee6dbffb5eb31a4",
+              "doi": "https://doi.org/10.1109/tip.2013.2280185"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s10921-022-00888-9",
+            "ids": {
+              "doi": "10.1007/s10921-022-00888-9",
+              "s2": "7e4defdc23cacad5aa7f61518b0d0bea91ac810e"
+            },
+            "title": "Practical Part-Specific Trajectory Optimization for Robot-Guided Inspection via Computed Tomography",
+            "year": 2022,
+            "venue": "Journal of nondestructive evaluation",
+            "citations": 21,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7e4defdc23cacad5aa7f61518b0d0bea91ac810e",
+              "doi": "https://doi.org/10.1007/s10921-022-00888-9"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:8f91ee009d20c86be1e792aeacec05bc88fe71dc",
+            "ids": {
+              "s2": "8f91ee009d20c86be1e792aeacec05bc88fe71dc"
+            },
+            "title": "Model-based CT Reconstruction from Sparse Views",
+            "year": 2013,
+            "citations": 29,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8f91ee009d20c86be1e792aeacec05bc88fe71dc"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.ndteint.2012.05.002",
+            "ids": {
+              "doi": "10.1016/j.ndteint.2012.05.002",
+              "s2": "e3278b0a45b7bd83590f7fcf3461b1fed97dd965"
+            },
+            "title": "Optimal specimen placement in cone beam X-ray computed tomography",
+            "year": 2012,
+            "citations": 25,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e3278b0a45b7bd83590f7fcf3461b1fed97dd965",
+              "doi": "https://doi.org/10.1016/j.ndteint.2012.05.002"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.24023",
+            "ids": {
+              "arxiv": "2605.24023",
+              "doi": "10.48550/arxiv.2605.24023",
+              "s2": "e6df98313257cafaa5ae5c1e359706c17a4268ab"
+            },
+            "title": "Soft Tuy-Completeness for Robust Projection Selection in Cone-Beam CT",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 1,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.24023",
+              "pdf": "https://arxiv.org/pdf/2605.24023",
+              "doi": "https://doi.org/10.48550/arxiv.2605.24023"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.knosys.2025.115110",
+            "ids": {
+              "doi": "10.1016/j.knosys.2025.115110",
+              "s2": "a9ceaf22c1b3314810ca1f97abf53843bd4bd055"
+            },
+            "title": "LiFedST: A linearized federated split-attention transformer for spatio-temporal forecasting",
+            "year": 2025,
+            "venue": "Knowledge-Based Systems",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a9ceaf22c1b3314810ca1f97abf53843bd4bd055",
+              "doi": "https://doi.org/10.1016/j.knosys.2025.115110"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.03322",
+            "ids": {
+              "arxiv": "2611.03322",
+              "s2": "f71cac0835bcb11b28b103712481792ed862efce"
+            },
+            "title": "View optimization in Computed Tomography",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.03322",
+              "pdf": "https://arxiv.org/pdf/2611.03322"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.09579",
+            "ids": {
+              "arxiv": "2610.09579",
+              "s2": "b774833302ff80999e6811d54274453f29a92e4d"
+            },
+            "title": "Gradient-Based Trajectory Optimisation over Continuous Poses for Sparse-View Cone-Beam CT",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.09579",
+              "pdf": "https://arxiv.org/pdf/2610.09579"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/lsp.2026.3669839",
+            "ids": {
+              "doi": "10.1109/lsp.2026.3669839",
+              "s2": "1df8a6fca26671c17c9e42edb83ca0b29cd0752c"
+            },
+            "title": "Dual-Branch Feature Fusion for Sparse-View X-Ray 3D Reconstruction",
+            "year": 2026,
+            "venue": "IEEE Signal Processing Letters",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1df8a6fca26671c17c9e42edb83ca0b29cd0752c",
+              "doi": "https://doi.org/10.1109/lsp.2026.3669839"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1117/3.2197756",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1109/globalsip.2013.6737048",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1118/1.2789499",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.58286/30740",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1088/0957-0233/27/7/072001",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "arxiv:1512.07331",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1097/00004728-198210000-00061",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "arxiv:1705.08983",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1109/tip.2010.2058811",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1118/1.3477088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1016/j.precisioneng.2020.08.006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "arxiv:2006.02420",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1038/s41524-023-01032-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1038/srep19135",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1109/tip.2013.2280185",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1007/s10921-022-00888-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "s2:8f91ee009d20c86be1e792aeacec05bc88fe71dc",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09754",
+          "target": "doi:10.1016/j.ndteint.2012.05.002",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.24023",
+          "target": "arxiv:2611.09754",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.knosys.2025.115110",
+          "target": "arxiv:2611.09754",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03322",
+          "target": "arxiv:2611.09754",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "arxiv:2611.09754",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/lsp.2026.3669839",
+          "target": "arxiv:2611.09754",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.07331",
+          "target": "doi:10.1109/globalsip.2013.6737048",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.07331",
+          "target": "doi:10.1118/1.2789499",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1705.08983",
+          "target": "doi:10.1109/globalsip.2013.6737048",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1705.08983",
+          "target": "arxiv:1512.07331",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/srep19135",
+          "target": "doi:10.1109/tip.2013.2280185",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10921-022-00888-9",
+          "target": "doi:10.1109/tip.2013.2280185",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10921-022-00888-9",
+          "target": "doi:10.1016/j.ndteint.2012.05.002",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10921-022-00888-9",
+          "target": "doi:10.1016/j.precisioneng.2020.08.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10921-022-00888-9",
+          "target": "doi:10.1038/srep19135",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.24023",
+          "target": "doi:10.1038/srep19135",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "arxiv:2605.24023",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "doi:10.1007/s10921-022-00888-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "doi:10.1109/tip.2013.2280185",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "doi:10.1038/srep19135",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.09579",
+          "target": "arxiv:2006.02420",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 5,
+      "errors": []
+    }
+  ]
+}

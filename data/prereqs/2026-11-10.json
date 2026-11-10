@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:16:57.885595Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.12806",
+      "pick_title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.12806: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.12806/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.12806: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.12806?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.12886",
+      "pick_title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.12886: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.12886/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.12886: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.12886?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.09754",
+      "pick_title": "Tomographic Sparse View Selection using the View Covariance Loss",
+      "source": "s2",
+      "references_seen": 36,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1117/3.2197756",
+            "ids": {
+              "doi": "10.1117/3.2197756",
+              "s2": "181aea672710f1cadbb1cc7e5e75662337b2ce41"
+            },
+            "title": "Computed Tomography: Principles, Design, Artifacts, and Recent Advances",
+            "year": 2003,
+            "citations": 1601,
+            "influential_citations": 141,
+            "is_review": false,
+            "tldr": "Introduction Preliminaries Image Reconstruction Image Presentation Key Performance Parameters of a CT Scanner Major Components of CT scanner Image Artifacts: Appearances, Causes, and Corrections Computer Simulation and Analysis.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/181aea672710f1cadbb1cc7e5e75662337b2ce41",
+              "doi": "https://doi.org/10.1117/3.2197756"
+            }
+          },
+          "label": "background",
+          "score": 3.64,
+          "reasons": [
+            "1.6k citations"
+          ],
+          "quote": "For example, in our CT reconstruction problem, if an analytical reconstruction algorithm such as FBP or FDK is used, then the reconstructed image is computed as a linear combination of ﬁltered back-projections [38].",
+          "supports": [
+            "arxiv:2611.09754"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/globalsip.2013.6737048",
+            "ids": {
+              "doi": "10.1109/globalsip.2013.6737048",
+              "s2": "b9a8e2ba7e910ad82c87fa16d656d6966433e344"
+            },
+            "title": "Plug-and-Play priors for model based reconstruction",
+            "year": 2013,
+            "venue": "IEEE Global Conference on Signal and Information Processing",
+            "citations": 1078,
+            "influential_citations": 87,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b9a8e2ba7e910ad82c87fa16d656d6966433e344",
+              "doi": "https://doi.org/10.1109/globalsip.2013.6737048"
+            }
+          },
+          "label": "background",
+          "score": 3.399,
+          "reasons": [
+            "1.1k citations"
+          ],
+          "quote": "Techniquessuchasmodel-basediterativereconstruction (MBIR)[8],[9],[10],[11],plug-and-play(PnP)algorithms[12], [13],[14],andend-to-enddeeplearning(DL)methods[15], [16] have shown that high-quality reconstructions can be achieved with far fewer projections compared to the standard methods.",
+          "supports": [
+            "arxiv:2611.09754"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1118/1.2789499",
+            "ids": {
+              "doi": "10.1118/1.2789499",
+              "s2": "79b33b94477515a1c005ac2ce3169c4dec142938"
+            },
+            "title": "A three-dimensional statistical approach to improved image quality for multislice helical CT.",
+            "year": 2007,
+            "venue": "Medical Physics (Lancaster)",
+            "citations": 1074,
+            "influential_citations": 55,
+            "is_review": false,
+            "tldr": "Enhanced image resolution and lower noise have been achieved, concurrently with the reduction of helical cone-beam artifacts, as demonstrated by phantom studies and clinical results illustrate the capabilities of the algorithm on real patient data.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/79b33b94477515a1c005ac2ce3169c4dec142938",
+              "doi": "https://doi.org/10.1118/1.2789499"
+            }
+          },
+          "label": "background",
+          "score": 3.299,
+          "reasons": [
+            "1.1k citations"
+          ],
+          "quote": "Usingsparse-view reconstruction algorithms raises an important question: Given the limited number of projections available, which orientations should be selected to achieve the best reconstruction?",
+          "supports": [
+            "arxiv:2611.09754"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
