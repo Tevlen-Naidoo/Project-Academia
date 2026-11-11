@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T11:01:21.160373Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.3390/heritage8100428",
+      "pick_title": "Artificial Intelligence in Heritage Tourism: Innovation, Accessibility, and Sustainability in the Digital Age",
+      "source": "s2",
+      "references_seen": 91,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1186/s40494-024-01403-1",
+            "ids": {
+              "doi": "10.1186/s40494-024-01403-1",
+              "s2": "3b615cd77e5dd69aeee083b7252bce0a603ffd4b"
+            },
+            "title": "Digitalizing cultural heritage through metaverse applications: challenges, opportunities, and strategies",
+            "year": 2024,
+            "venue": "Heritage Science",
+            "citations": 163,
+            "influential_citations": 7,
+            "is_review": true,
+            "tldr": "The current study aims to explore the potential of metaverse applications in digitalizing cultural heritage, encompassing virtual reconstructions, educational outreach, global accessibility, and sustainability, and evaluates the impact of metaverse applications on public engagement and cultural education.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3b615cd77e5dd69aeee083b7252bce0a603ffd4b",
+              "doi": "https://doi.org/10.1186/s40494-024-01403-1"
+            }
+          },
+          "label": "background",
+          "score": 5.723,
+          "reasons": [
+            "Influential reference for this paper",
+            "163 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "Both expand the scope of cultural tourism and also contribute to its conservation by reducing the impact of in-person tourism on original assets, mitigating physical wear and tear, and promoting sustainable practices [35,36].",
+          "supports": [
+            "doi:10.3390/heritage8100428"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/10963480231205767",
+            "ids": {
+              "doi": "10.1177/10963480231205767",
+              "s2": "4b0ae9c08eba2cf74d0020208b755b9d74a1aff2"
+            },
+            "title": "When “Old” Meets “New”: Unlocking the Future of Innovative Technology Implementation in Heritage Tourism",
+            "year": 2023,
+            "venue": "Journal of Hospitality &amp; Tourism Research",
+            "citations": 77,
+            "influential_citations": 4,
+            "is_review": false,
+            "tldr": "This paper aims to gain insights into how heritage destinations have adopted innovative technologies into their daily operations, and to reveal future research directions that can guide technology studies in the heritage tourism domain.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4b0ae9c08eba2cf74d0020208b755b9d74a1aff2",
+              "doi": "https://doi.org/10.1177/10963480231205767"
+            }
+          },
+          "label": "background",
+          "score": 4.863,
+          "reasons": [
+            "Influential reference for this paper",
+            "77 citations"
+          ],
+          "quote": "This capacity for continuous feedback promotes both the sustainability of sites and the improvement of the visitor experience [2].",
+          "supports": [
+            "doi:10.3390/heritage8100428"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.2139/ssrn.4642605",
+            "ids": {
+              "doi": "10.2139/ssrn.4642605",
+              "s2": "bc998df9dd0ba712a3e52e3f0ced214585b27412"
+            },
+            "title": "Sustainable tourism development using leading-edge Artificial Intelligence (AI), Blockchain, Internet of Things (IoT), Augmented Reality (AR) and Virtual Reality (VR) technologies",
+            "year": 2023,
+            "venue": "Social Science Research Network",
+            "citations": 61,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bc998df9dd0ba712a3e52e3f0ced214585b27412",
+              "doi": "https://doi.org/10.2139/ssrn.4642605"
+            }
+          },
+          "label": "background",
+          "score": 4.783,
+          "reasons": [
+            "Influential reference for this paper",
+            "61 citations"
+          ],
+          "quote": "Predictive models anticipate tourist flows and manage carrying capacity, as is the case in sites of high heritage value where saturation and physical deterioration are prevented through real-time data analysis [77].",
+          "supports": [
+            "doi:10.3390/heritage8100428"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.09055",
+      "pick_title": "OmniLatent: Unified Latent for 3D Part Modeling",
+      "source": "s2",
+      "references_seen": 82,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2412.01506",
+            "ids": {
+              "arxiv": "2412.01506",
+              "doi": "10.1109/cvpr52734.2025.02000",
+              "s2": "5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8"
+            },
+            "title": "Structured 3D Latents for Scalable and Versatile 3D Generation",
+            "year": 2024,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1069,
+            "influential_citations": 283,
+            "is_review": false,
+            "tldr": "A novel 3D generation method for versatile and high-quality 3D asset creation by integrating a sparsely-populated 3D grid with dense multiview visual features extracted from a powerful vision foundation model, comprehensively capturing both structural and textural information while maintaining flexibility during decoding.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.01506",
+              "pdf": "https://arxiv.org/pdf/2412.01506",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.02000"
+            }
+          },
+          "label": "background",
+          "score": 6.65,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.1k citations"
+          ],
+          "quote": "Notable examples include 3DShape2VecSet [Zhang et al. 2023] for set-structured data, CLAY [Zhang et al. 2024] for large-scale hierarchical modeling, TRELLIS [Xiang et al. 2024] for unified representation formats, and 3DTopia-XL [Chen et al. 2025b] for primitive-based high-quality asset generation.",
+          "supports": [
+            "arxiv:2611.09055"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.14692",
+            "ids": {
+              "arxiv": "2512.14692",
+              "doi": "10.48550/arxiv.2512.14692",
+              "s2": "ecd0d6c7e8093bd69655edc511e408216d52c7fb"
+            },
+            "title": "Native and Compact Structured Latents for 3D Generation",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 239,
+            "influential_citations": 70,
+            "is_review": false,
+            "tldr": "A new sparse voxel structure called O-Voxel, an omni-voxel representation that encodes both geometry and appearance that can robustly model arbitrary topology, and a Sparse Compression VAE which provides a high spatial compression rate and a compact latent space.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.14692",
+              "pdf": "https://arxiv.org/pdf/2512.14692",
+              "doi": "https://doi.org/10.48550/arxiv.2512.14692"
+            }
+          },
+          "label": "background",
+          "score": 5.83,
+          "reasons": [
+            "Influential reference for this paper",
+            "239 citations"
+          ],
+          "quote": "We compare against Michelangelo [Zhao et al. 2024], Craftman 1.5 [Li et al. 2024], TRELLIS [Xiang et al. 2024], TRELLIS-2 [Xiang et al. 2025], Hunyuan3D-2 [Zhao et al. 2025a], Hi3DGen [Ye et al. 2025], and Direct3D-s2 [Wu et al. 2025b].",
+          "supports": [
+            "arxiv:2611.09055"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.05573",
+            "ids": {
+              "arxiv": "2506.05573",
+              "doi": "10.48550/arxiv.2506.05573",
+              "s2": "6426206584581bf941054570874348234652f2ba"
+            },
+            "title": "PartCrafter: Structured 3D Mesh Generation via Compositional Latent Diffusion Transformers",
+            "year": 2025,
+            "venue": "Neural Information Processing Systems",
+            "citations": 107,
+            "influential_citations": 32,
+            "is_review": false,
+            "tldr": "PartCrafter is introduced, the first structured 3D generative model that jointly synthesizes multiple semantically meaningful and geometrically distinct 3D meshes from a single RGB image, and introduces a compositional latent space, where each 3D part is represented by a set of disentangled latent tokens.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.05573",
+              "pdf": "https://arxiv.org/pdf/2506.05573",
+              "doi": "https://doi.org/10.48550/arxiv.2506.05573"
+            }
+          },
+          "label": "background",
+          "score": 5.386,
+          "reasons": [
+            "Influential reference for this paper",
+            "107 citations"
+          ],
+          "quote": "Another line of research focuses on the direct synthesis of part-aware 3D assets [Ding et al. 2025; Dong et al. 2025; He et al. 2025a; Li et al. 2025a; Lin et al. 2025; Tang et al. 2025b; Yan et al. 2025; Yang et al. 2025b,c; Zhang et al. 2025b].",
+          "supports": [
+            "arxiv:2611.09055"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2601.16163",
+      "pick_title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "source": "s2",
+      "references_seen": 46,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2503.20314",
+            "ids": {
+              "arxiv": "2503.20314",
+              "doi": "10.48550/arxiv.2503.20314",
+              "s2": "8877e9a5bf473404c35b758faa76905c202f0f36"
+            },
+            "title": "Wan: Open and Advanced Large-Scale Video Generative Models",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 3165,
+            "influential_citations": 945,
+            "is_review": false,
+            "tldr": "This report presents Wan, a comprehensive and open suite of video foundation models designed to push the boundaries of video generation, built upon the mainstream diffusion transformer paradigm, which consistently outperforms the existing open-source models as well as state-of-the-art commercial solutions across multiple internal and external benchmarks.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.20314",
+              "pdf": "https://arxiv.org/pdf/2503.20314",
+              "doi": "https://doi.org/10.48550/arxiv.2503.20314"
+            }
+          },
+          "label": "background",
+          "score": 7.288,
+          "reasons": [
+            "Influential reference for this paper",
+            "3.2k citations"
+          ],
+          "quote": "1 spatiotemporal VAE tokenizer (Wan et al., 2025) and is trained using the EDM denoising score matching formulation (Karras et al., 2022).",
+          "supports": [
+            "arxiv:2601.16163"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.19645",
+            "ids": {
+              "arxiv": "2502.19645",
+              "doi": "10.48550/arxiv.2502.19645",
+              "s2": "5088b84507462bf725bb4898623d1dead4c6a206"
+            },
+            "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+            "year": 2025,
+            "venue": "Robotics",
+            "citations": 1196,
+            "influential_citations": 236,
+            "is_review": false,
+            "tldr": "This work proposes an Optimized Fine-Tuning (OFT) recipe, an instantiation of this recipe, which sets a new state of the art on the LIBERO simulation benchmark, significantly boosting OpenVLA's average success rate across four task suites from 76.5% to 97.1% while increasing action generation throughput by 26$\\times$.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.19645",
+              "pdf": "https://arxiv.org/pdf/2502.19645",
+              "doi": "https://doi.org/10.48550/arxiv.2502.19645"
+            }
+          },
+          "label": "background",
+          "score": 6.65,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.2k citations"
+          ],
+          "quote": "As a direct policy, Cosmos Policy achieves a new state of the art in both the LIBERO and RoboCasa simulation benchmarks (98.5% and 67.1% average success rates, respectively), outperforming diffusion-based policies trained from scratch, video-based policies (e.g., UVA, Video Policy), and even fine-t…",
+          "supports": [
+            "arxiv:2601.16163"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.06111",
+            "ids": {
+              "arxiv": "2505.06111",
+              "doi": "10.48550/arxiv.2505.06111",
+              "s2": "23ec5b0184fe48558f14401247a411d2a48bd75f"
+            },
+            "title": "UniVLA: Learning to Act Anywhere with Task-centric Latent Actions",
+            "year": 2025,
+            "venue": "Robotics",
+            "citations": 560,
+            "influential_citations": 80,
+            "is_review": false,
+            "tldr": "This work proposes UniVLA, a new framework for learning cross-embodiment vision-language-action (VLA) policies that achieves superior performance over OpenVLA with less than 1/20 of pretraining compute and 1/10 of downstream data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.06111",
+              "pdf": "https://arxiv.org/pdf/2505.06111",
+              "doi": "https://doi.org/10.48550/arxiv.2505.06111"
+            }
+          },
+          "label": "background",
+          "score": 6.153,
+          "reasons": [
+            "Influential reference for this paper",
+            "560 citations"
+          ],
+          "quote": "5 , OpenVLA-OFT, CogVLA, UniVLA, DP-VLA, GR00T-N1.",
+          "supports": [
+            "arxiv:2601.16163"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

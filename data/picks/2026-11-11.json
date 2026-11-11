@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T11:00:53.674995Z",
+  "candidates_file": "candidates/2026-11-11.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "history",
+      "funnel": "waves",
+      "score": 0.9043,
+      "adjusted": 0.9043,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9545,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5455,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "39 citations, about 3 a month · Published in The Heritage",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.3390/heritage8100428",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.3390/heritage8100428",
+          "s2": "26df1295bf9cf8761789d6d7a010fd64de24abd3",
+          "openalex": "W4415210546"
+        },
+        "title": "Artificial Intelligence in Heritage Tourism: Innovation, Accessibility, and Sustainability in the Digital Age",
+        "authors": [
+          {
+            "name": "José Manuel Sánchez Martín",
+            "affiliation": null
+          },
+          {
+            "name": "Rebeca Guillén Peñafiel",
+            "affiliation": null
+          },
+          {
+            "name": "Ana María Hernández Carretero",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Artificial intelligence (AI) is profoundly transforming heritage tourism through the incorporation of technological solutions that reconfigure the ways in which cultural heritage is conserved, interpreted, and experienced. This article presents a critical and systematic review of current AI applications in this field, with a special focus on their impact on destination management, the personalization of tourist experiences, universal accessibility, and the preservation of both tangible and intangible assets. Based on an analysis of the scientific literature and international use cases, key technologies such as machine learning, computer vision, generative models, and recommendation systems are identified. These tools enable everything from the virtual reconstruction of historical sites to the development of intelligent cultural assistants and adaptive tours, improving the visitor experience and promoting inclusion. This study also examines the main ethical, technical, and epistemological challenges associated with this transformation, including algorithmic surveillance, data protection, interoperability between platforms, the digital divide, and the reconfiguration of heritage knowledge production processes. In conclusion, this study argues that AI, when implemented in accordance with principles of responsibility, sustainability, and cultural sensitivity, can serve as a strategic instrument for ensuring the accessibility, representativeness, and social relevance of cultural heritage in the digital age. However, its effective integration necessitates the development of sector-specific ethical frameworks, inclusive governance models, and sustainable technological implementation strategies that promote equity, community participation, and long-term viability. Furthermore, this article highlights the need for empirical research to assess the actual impact of these technologies and for the creation of indicators to evaluate their effectiveness, fairness, and contribution to the Sustainable Development Goals.",
+        "tldr": "It is argued that AI, when implemented in accordance with principles of responsibility, sustainability, and cultural sensitivity, can serve as a strategic instrument for ensuring the accessibility, representativeness, and social relevance of cultural heritage in the digital age.",
+        "topics": [
+          "history",
+          "culture"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-11",
+          "submitted": null,
+          "published": "2025-10-12"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "The Heritage",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 39,
+          "influential": 2,
+          "last_12_months": 59,
+          "per_month": 3.005,
+          "by_year": {
+            "2026": 58,
+            "2025": 4
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.3390/heritage8100428",
+          "pdf": null,
+          "doi": "https://doi.org/10.3390/heritage8100428",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-11T10:56:06.970135Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8165,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.2857,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "4 upvotes on Hugging Face · Published in ACM Transactions on Graphics",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.09055",
+        "ids": {
+          "arxiv": "2611.09055",
+          "doi": "10.1145/3842538",
+          "s2": "985dcece9458f932f8f0263968cb0491800bd751",
+          "openalex": "W7225650836"
+        },
+        "title": "OmniLatent: Unified Latent for 3D Part Modeling",
+        "authors": [
+          {
+            "name": "Yunhan Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Yunfei Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Zeqiang Lai",
+            "affiliation": null
+          },
+          {
+            "name": "Jiachen Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Minxiu Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xintong Han",
+            "affiliation": null
+          },
+          {
+            "name": "Xiangyu Yue",
+            "affiliation": null
+          },
+          {
+            "name": "Xihui Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Chunchao Guo",
+            "affiliation": null
+          }
+        ],
+        "abstract": "3D part decomposition is a central capability for editable asset creation, yet existing workflows typically segment a completed mesh as a post-processing step, making the result sensitive to geometric artifacts, texture ambiguity, and limited part-level annotations. We present OmniLatent, a unified latent modeling framework for 3D part decomposition. Instead of predicting part labels in isolation, OmniLatent learns a shared latent space that jointly encodes geometry, deformation, appearance, and binary part IDs, allowing data-rich geometric and visual priors to support data-scarce part learning. Given a single input image, the base model generates geometry, deformation, texture, and surface part IDs in one pass, producing a part-aware 3D asset without a separate segmentation stage. We further tune the pretrained model for two extensions: a point-prompt adapter that maps arbitrary 3D point prompts with binary part IDs into latent tokens for full segmentation, refinement, and part subdivision, and an amodal part completion model that completes partial surface masks into a coherent full-object decomposition through dynamic per-part token allocation, cross-attention to the given geometry latent, and alternating part-local and global attention. Extensive experiments show that OmniLatent produces semantically meaningful part segmentations with precise boundaries, supports interactive part editing, and completes partial part observations while preserving global object consistency.",
+        "tldr": "OmniLatent is presented, a unified latent modeling framework for 3D part decomposition that produces semantically meaningful part segmentations with precise boundaries, supports interactive part editing, and completes partial part observations while preserving global object consistency.",
+        "topics": [
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-11",
+          "submitted": "2026-11-06",
+          "published": null
+        },
+        "publication": {
+          "status": "published",
+          "venue": "ACM Transactions on Graphics",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 4,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.09055",
+          "pdf": "https://arxiv.org/pdf/2611.09055",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-11T10:56:06.970135Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.9296,
+      "adjusted": 0.7902,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8562,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8699,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "452 citations, about 47 a month · Published in International Conference on Learning Representations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2601.16163",
+        "ids": {
+          "arxiv": "2601.16163",
+          "doi": null,
+          "s2": "e1042da4004da8b246737df2ee1ea96012b17824",
+          "openalex": "W7125496427"
+        },
+        "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+        "authors": [
+          {
+            "name": "Moo Jin Kim",
+            "affiliation": null
+          },
+          {
+            "name": "Yihuai Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Tsung-Yi Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Yen-Chen Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Yunhao Ge",
+            "affiliation": null
+          },
+          {
+            "name": "Grace Lam",
+            "affiliation": null
+          },
+          {
+            "name": "Percy Liang",
+            "affiliation": null
+          },
+          {
+            "name": "Shuran Song",
+            "affiliation": null
+          },
+          {
+            "name": "Ming-Yu Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Chelsea Finn",
+            "affiliation": null
+          },
+          {
+            "name": "Jinwei Gu",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Recent video generation models demonstrate remarkable ability to capture complex physical interactions and scene evolution over time. To leverage their spatiotemporal priors, robotics works have adapted video models for policy learning but introduce complexity by requiring multiple stages of post-training and new architectural components for action generation. In this work, we introduce Cosmos Policy, a simple approach for adapting a large pretrained video model (Cosmos-Predict2) into an effective robot policy through a single stage of post-training on the robot demonstration data collected on the target platform, with no architectural modifications. Cosmos Policy learns to directly generate robot actions encoded as latent frames within the video model's latent diffusion process, harnessing the model's pretrained priors and core learning algorithm to capture complex action distributions. Additionally, Cosmos Policy generates future state images and values (expected cumulative rewards), which are similarly encoded as latent frames, enabling test-time planning of action trajectories with higher likelihood of success. In our evaluations, Cosmos Policy achieves state-of-the-art performance on the LIBERO and RoboCasa simulation benchmarks (98.5% and 67.1% average success rates, respectively) and the highest average score in challenging real-world bimanual manipulation tasks, outperforming strong diffusion policies trained from scratch, video model-based policies, and state-of-the-art vision-language-action models fine-tuned on the same robot demonstrations. Furthermore, given policy rollout data, Cosmos Policy can learn from experience to refine its world model and value function and leverage model-based planning to achieve even higher success rates in challenging tasks. We release code, models, and training data at https://research.nvidia.com/labs/dir/cosmos-policy/",
+        "tldr": "Cosmos Policy is introduced, a simple approach for adapting a large pretrained video model (Cosmos-Predict2) into an effective robot policy through a single stage of post-training on the robot demonstration data collected on the target platform, with no architectural modifications.",
+        "topics": [
+          "ml",
+          "ai",
+          "robotics"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-11",
+          "submitted": "2026-01-22",
+          "published": "2026-01-22"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "International Conference on Learning Representations",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 452,
+          "influential": 85,
+          "last_12_months": 339,
+          "per_month": 46.959,
+          "by_year": {
+            "2026": 339,
+            "2025": 3
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2601.16163",
+          "pdf": "https://arxiv.org/pdf/2601.16163",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-11T10:56:06.970135Z"
+      }
+    }
+  ]
+}
