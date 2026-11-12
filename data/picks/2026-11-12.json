@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T11:12:22.930595Z",
+  "candidates_file": "candidates/2026-11-12.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.9251,
+      "adjusted": 0.9251,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8793,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8103,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "10 citations, about 2 a month · Published in Proceedings of the American Mathematical Society",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2508.20819",
+        "ids": {
+          "arxiv": "2508.20819",
+          "doi": "10.1090/proc/17742",
+          "s2": "9dc80893d96d8271a37bb856fb824cc553233d42",
+          "openalex": "W4414449895"
+        },
+        "title": "Beyond Nash-Williams: Counterexamples to clique decomposition thresholds for all cliques larger than triangles",
+        "authors": [
+          {
+            "name": "Michelle Delcourt",
+            "affiliation": null
+          },
+          {
+            "name": "Cicely Henderson",
+            "affiliation": null
+          },
+          {
+            "name": "Thomas Lesgourgues",
+            "affiliation": null
+          },
+          {
+            "name": "Luke Postle",
+            "affiliation": null
+          }
+        ],
+        "abstract": "A central open question in extremal design theory is Nash-Williams’ conjecture from 1970 that every K 3 K_3 -divisible graph on n n vertices (for n n large enough) with minimum degree at least 3 n / 4 3n/4 has a K 3 K_3 -decomposition. A folklore generalization of Nash-Williams’ conjecture extends this to all q ≥ 4 q\\ge 4 by positing that every K q K_q -divisible graph on n n vertices (for n n large enough) with minimum degree at least ( 1 − 1 q + 1 ) n \\left (1-\\frac {1}{q+1}\\right )n has a K q K_q -decomposition. We disprove this conjecture for all q ≥ 4 q\\ge 4 . Namely, we show that for each q ≥ 4 q\\ge 4 , there exists c > 1 c > 1 such that there exist infinitely many",
+        "tldr": null,
+        "topics": [
+          "graph-theory",
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-12",
+          "submitted": null,
+          "published": "2026-05-20"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Proceedings of the American Mathematical Society",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 10,
+          "influential": 2,
+          "last_12_months": 8,
+          "per_month": 1.73,
+          "by_year": {
+            "2026": 8,
+            "2025": 2
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2508.20819",
+          "pdf": "https://arxiv.org/pdf/2508.20819",
+          "doi": "https://doi.org/10.1090/proc/17742",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-12T11:06:53.931121Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8887,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "16 upvotes on Hugging Face · Accepted at NeurIPS 2026",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.12527",
+        "ids": {
+          "arxiv": "2611.12527",
+          "doi": null,
+          "s2": "e1ef2b9920c702c8ad8895070f92d3e05e0bfd5c",
+          "openalex": "W7225725719"
+        },
+        "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+        "authors": [
+          {
+            "name": "Sang-Hoon Lee",
+            "affiliation": null
+          },
+          {
+            "name": "Ha-Yeong Choi",
+            "affiliation": null
+          }
+        ],
+        "abstract": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addition, WaveGen performs internal text-speech alignment within a single model, eliminating the need for external alignment modules such as duration predictors. To preserve a truly end-to-end formulation, our framework further avoids dependence on self-supervised representations, such as BERT-based text embeddings and Wav2Vec 2.0-based semantic representations, as well as semantic distillation methods for training optimization. To achieve this, we carefully design Spectral Forcing, a model architecture with disentangled diffusion heads, and a training objective based on a multi-scale spectral $v$-loss. We further validate the scalability of end-to-end TTS models by scaling the model size from 0.1B to 0.6B parameters. Using a single architecture, open-source data, and one-stage training, without external modules such as duration predictor or REPA, WaveGen demonstrates fully end-to-end waveform generation achieving state-of-the-art performance on the Emilia training dataset. In particular, WaveGen achieves a WER of 1.47 and a SIM of 0.75 on the Seed-en benchmark. Source code and checkpoints are available at https://github.com/sh-lee-prml/WaveGen",
+        "tldr": null,
+        "topics": [
+          "ai",
+          "ml",
+          "nlp"
+        ],
+        "source_categories": [
+          "cs.SD",
+          "cs.AI",
+          "eess.AS",
+          "eess.SP"
+        ],
+        "dates": {
+          "first_seen": "2026-11-12",
+          "submitted": "2026-11-09",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "NeurIPS 2026",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 16,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.12527",
+          "pdf": "https://arxiv.org/pdf/2611.12527",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-12T11:06:53.931121Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.763,
+      "adjusted": 0.763,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9615,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9615,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "22 citations, about 18 a month · 7 influential citations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2610.06783",
+        "ids": {
+          "arxiv": "2610.06783",
+          "doi": null,
+          "s2": "4c63ddf57961c2f144586373bc66d503f23c586f",
+          "openalex": "W7220697103"
+        },
+        "title": "Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs",
+        "authors": [
+          {
+            "name": "Josh Alman",
+            "affiliation": null
+          },
+          {
+            "name": "Virginia Vassilevska Williams",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We give the first polynomial improvements over the textbook algorithms for $3$SUM and All-Pairs Shortest Paths (APSP): we show how to deterministically solve $3$SUM on $n$ integers of polynomial size in $O(n^{1.9992})$ time and APSP on directed $n$-vertex graphs with polynomially bounded integer weights in $O(n^{2.9995})$ time. This refutes the $3$SUM and APSP hypotheses. Using known reductions, we also refute the real-valued versions of the $3$SUM and APSP hypotheses, the Exact Triangle hypothesis, the Zero-Weight $k$-Clique hypotheses, and the three rectangular hinted Online Matrix--Vector conjectures of van den Brand, Nanongkai, and Saranurak, and we give polynomial speedups for a variety of other problems. All of these results follow from a single new algorithm for thin matrix products. Let $X$ be an $N\\times D$ integer matrix and $Y$ a $D\\times N$ integer matrix with $D\\le N^{1/18}$, and let $W$ be any set of at most $N^2/\\sqrt D$ positions. We compute the entries $(XY)[I,J]$, $(I,J)\\in W$, in $O(N^2/D^{0.063})$ operations, which is polynomially less than the time needed to write down $XY$ or to compute $N^2/\\sqrt D$ inner products one by one. We design this algorithm by modifying a variant of Coppersmith's rectangular matrix multiplication algorithm, built from a ten-multiplication identity of Schönhage, to perform only the operations needed for the entries in $W$, and show that few operations are needed. Interpreted as a graph algorithm, this solves the All-Edges Sparse Triangle problem in truly subquadratic time on sparse lopsided tripartite graphs where two parts have $n$ vertices but one part has $n^{\\varepsilon}$ vertices for $\\varepsilon<0.12$. By known reductions, Exact Triangle, and hence $3$SUM and APSP, reduce to this problem. We also give a data structure version that answers queries for single entries of $XY$, not known in advance.",
+        "tldr": "The first polynomial improvements over the textbook algorithms for 3-SUM and All-Pairs Shortest Paths are given, and the Exact Triangle hypothesis is refuted, and the All-Edges Sparse Triangle problem is solved in truly subquadratic time on sparse lopsided tripartite graphs.",
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-12",
+          "submitted": "2026-10-05",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 22,
+          "influential": 7,
+          "last_12_months": 18,
+          "per_month": 17.623,
+          "by_year": {
+            "2026": 18
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2610.06783",
+          "pdf": "https://arxiv.org/pdf/2610.06783",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-12T11:06:53.931121Z"
+      }
+    }
+  ]
+}

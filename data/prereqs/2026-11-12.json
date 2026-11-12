@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T11:12:32.089960Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2508.20819",
+      "pick_title": "Beyond Nash-Williams: Counterexamples to clique decomposition thresholds for all cliques larger than triangles",
+      "source": "s2",
+      "references_seen": 30,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "s2:e27b49aebd055c5ef8030e8c4607c7ab0fffe143",
+            "ids": {
+              "s2": "e27b49aebd055c5ef8030e8c4607c7ab0fffe143"
+            },
+            "title": "Decompositions of large graphs and digraphs with high minimum degree",
+            "year": 1991,
+            "citations": 101,
+            "influential_citations": 28,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e27b49aebd055c5ef8030e8c4607c7ab0fffe143"
+            }
+          },
+          "label": "background",
+          "score": 5.338,
+          "reasons": [
+            "Influential reference for this paper",
+            "101 citations"
+          ],
+          "quote": "The first construction due to Gustavsson in 1991 [21] on pages 85-86 of his thesis (and reiterated by Yuster [36]), is K q − 1 ◦ H where H is a d -regular graph on v vertices for some specific d and v with the property that d/v is close to but smaller than 2 / ( q + 1) .",
+          "supports": [
+            "arxiv:2508.20819"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1603.04724",
+            "ids": {
+              "arxiv": "1603.04724",
+              "doi": "10.1016/j.jctb.2019.02.010",
+              "s2": "52b796c28cc0946de39856e155aba8aa74693838"
+            },
+            "title": "On the decomposition threshold of a given graph",
+            "year": 2016,
+            "venue": "J. Comb. Theory B",
+            "citations": 51,
+            "influential_citations": 13,
+            "is_review": false,
+            "tldr": "The proof involves further developments of the recent `iterative' absorbing approach and implies that $\\delta_{K_r}=\\delta^\\ast_{K-r}$ implies that $F$ is bipartite.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1603.04724",
+              "pdf": "https://arxiv.org/pdf/1603.04724",
+              "doi": "https://doi.org/10.1016/j.jctb.2019.02.010"
+            }
+          },
+          "label": "background",
+          "score": 4.946,
+          "reasons": [
+            "Influential reference for this paper",
+            "51 citations"
+          ],
+          "quote": "…instance in the literature of a problem where the “threshold to embed absorbers”, namely 1 − 1 q +1 via the result of Glock, Kühn, Lo, Montgomery, and Osthus [19], is below the “fractional threshold” (there are instances, such as in hypergraph matching, where the reverse is true; e.g., [29, 30]).",
+          "supports": [
+            "arxiv:2508.20819"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1603.01043",
+            "ids": {
+              "arxiv": "1603.01043",
+              "doi": "10.1016/j.jcta.2017.04.005",
+              "s2": "1aff61d95615762761defe458bc6c72856d2afef"
+            },
+            "title": "Clique decompositions of multipartite graphs and completion of Latin squares",
+            "year": 2016,
+            "venue": "Journal of Combinatorial Theory",
+            "citations": 42,
+            "influential_citations": 12,
+            "is_review": false,
+            "tldr": "This paper gives the best known bounds on the minimum degree which ensures an edge-decomposition of an r-partite graph into r-cliques (subject to trivially necessary divisibility conditions).",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1603.01043",
+              "pdf": "https://arxiv.org/pdf/1603.01043",
+              "doi": "https://doi.org/10.1016/j.jcta.2017.04.005"
+            }
+          },
+          "label": "background",
+          "score": 4.864,
+          "reasons": [
+            "Influential reference for this paper",
+            "42 citations"
+          ],
+          "quote": "In 2017 Barber, Kühn, Lo, Osthus, and Taylor [3] proved that if the fractional relaxation of Conjecture 1.5 holds for partite minimum degree cn for some constant c ≥ 3 / 4 , then Conjecture 1.5 holds for any constant c ′ > c .",
+          "supports": [
+            "arxiv:2508.20819"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.12527",
+      "pick_title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+      "source": "s2",
+      "references_seen": 76,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:1703.10135",
+            "ids": {
+              "arxiv": "1703.10135",
+              "doi": "10.21437/interspeech.2017-1452",
+              "s2": "a072c2a400f62f720b68dc54a662fb1ae115bf06"
+            },
+            "title": "Tacotron: Towards End-to-End Speech Synthesis",
+            "year": 2017,
+            "venue": "Interspeech",
+            "citations": 2133,
+            "influential_citations": 242,
+            "is_review": false,
+            "tldr": "Tacotron is presented, an end-to-end generative text- to-speech model that synthesizes speech directly from characters that achieves a 3.82 subjective 5-scale mean opinion score on US English, outperforming a production parametric system in terms of naturalness.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1703.10135",
+              "pdf": "https://arxiv.org/pdf/1703.10135",
+              "doi": "https://doi.org/10.21437/interspeech.2017-1452"
+            }
+          },
+          "label": "background",
+          "score": 6.856,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.1k citations"
+          ],
+          "quote": "Here, K is a set of spectral configurations with n bin = [512 , 256 , 128 , 64 , 32 , 16] , n fft = w = [1920 , 960 , 480 , 240 , 120 , 60] , and h = [480 , 240 , 120 , 60 , 30 , 15] , where w and h denote the window size and hop size, respectively.",
+          "supports": [
+            "arxiv:2611.12527"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.06885",
+            "ids": {
+              "arxiv": "2410.06885",
+              "doi": "10.48550/arxiv.2410.06885",
+              "s2": "1434e344cb826e53a45bfed96a9d62f80fb4fcb2"
+            },
+            "title": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+            "year": 2024,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 675,
+            "influential_citations": 123,
+            "is_review": false,
+            "tldr": "This paper introduces F5-TTS, a fully non-autoregressive text-to-speech system based on flow matching with Diffusion Transformer, and proposes an inference-time Sway Sampling strategy, which significantly improves the model's performance and efficiency.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.06885",
+              "pdf": "https://arxiv.org/pdf/2410.06885",
+              "doi": "https://doi.org/10.48550/arxiv.2410.06885"
+            }
+          },
+          "label": "background",
+          "score": 6.311,
+          "reasons": [
+            "Influential reference for this paper",
+            "675 citations"
+          ],
+          "quote": "Following [5], we filter out several speakers and use utterances with durations of up to 30s.",
+          "supports": [
+            "arxiv:2611.12527"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.17589",
+            "ids": {
+              "arxiv": "2505.17589",
+              "doi": "10.48550/arxiv.2505.17589",
+              "s2": "138a2de840af1726ec5daa51c43e44825b51f528"
+            },
+            "title": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 287,
+            "influential_citations": 39,
+            "is_review": false,
+            "tldr": "This paper presents CosyVoice 3, an improved model designed for zero-shot multilingual speech synthesis in the wild, surpassing its predecessor in content consistency, speaker similarity, and prosody naturalness.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.17589",
+              "pdf": "https://arxiv.org/pdf/2505.17589",
+              "doi": "https://doi.org/10.48550/arxiv.2505.17589"
+            }
+          },
+          "label": "background",
+          "score": 5.769,
+          "reasons": [
+            "Influential reference for this paper",
+            "287 citations"
+          ],
+          "quote": "Recently, most models utilize a pre-trained LLM for TTS backbone, and finetuned them to decode semantic token [13, 14] or RVQ tokens [27, 22, 18] which are extracted from large-scale high-quality audio codec via multi-token prediction (MTP) AR Transformer.",
+          "supports": [
+            "arxiv:2611.12527"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2610.06783",
+      "pick_title": "Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs",
+      "source": "openalex",
+      "references_seen": 14,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2506.13131",
+            "ids": {
+              "arxiv": "2506.13131",
+              "doi": "10.48550/arxiv.2506.13131",
+              "openalex": "W4415108068"
+            },
+            "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 1363,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.13131",
+              "pdf": "https://arxiv.org/pdf/2506.13131",
+              "doi": "https://doi.org/10.48550/arxiv.2506.13131"
+            }
+          },
+          "label": "background",
+          "score": 2.508,
+          "reasons": [
+            "1.4k citations"
+          ],
+          "supports": [
+            "arxiv:2610.06783"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/focs46700.2020.00078",
+            "ids": {
+              "doi": "10.1109/focs46700.2020.00078",
+              "openalex": "W3127419975"
+            },
+            "title": "Monochromatic Triangles, Triangle Listing and APSP",
+            "year": 2020,
+            "venue": "Annual Symposium on Foundations of Computer Science",
+            "citations": 45,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3127419975",
+              "doi": "https://doi.org/10.1109/focs46700.2020.00078"
+            }
+          },
+          "label": "background",
+          "score": 1.33,
+          "reasons": [
+            "45 citations"
+          ],
+          "supports": [
+            "arxiv:2610.06783"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3519935.3520066",
+            "ids": {
+              "doi": "10.1145/3519935.3520066",
+              "openalex": "W4281752231"
+            },
+            "title": "Hardness of approximation in p via short cycle removal: cycle detection, distance oracles, and beyond",
+            "year": 2022,
+            "venue": "ACM Symposium on Theory of Computing (STOC)",
+            "citations": 40,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4281752231",
+              "doi": "https://doi.org/10.1145/3519935.3520066"
+            }
+          },
+          "label": "background",
+          "score": 1.29,
+          "reasons": [
+            "40 citations"
+          ],
+          "supports": [
+            "arxiv:2610.06783"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
