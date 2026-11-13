@@ -1,0 +1,3047 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T11:02:41.365185Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2510.23823",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2510.23823",
+            "ids": {
+              "arxiv": "2510.23823",
+              "doi": "10.1051/0004-6361/202557993",
+              "s2": "f5856402ef40c87bba9fe5b346a43c82fdad3b9a",
+              "openalex": "W7127080620"
+            },
+            "title": "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at ∼1% precision",
+            "year": 2026,
+            "venue": "Astronomy &amp; Astrophysics",
+            "citations": 84,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.23823",
+              "pdf": "https://arxiv.org/pdf/2510.23823",
+              "doi": "https://doi.org/10.1051/0004-6361/202557993"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/305772",
+            "ids": {
+              "doi": "10.1086/305772",
+              "openalex": "W2111817932"
+            },
+            "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+            "year": 1998,
+            "venue": "The Astrophysical Journal",
+            "citations": 14531,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2111817932",
+              "doi": "https://doi.org/10.1086/305772"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/0004-637x/737/2/103",
+            "ids": {
+              "doi": "10.1088/0004-637x/737/2/103",
+              "openalex": "W2029343094"
+            },
+            "title": "MEASURING REDDENING WITH SLOAN DIGITAL SKY SURVEY STELLAR SPECTRA AND RECALIBRATING SFD",
+            "year": 2011,
+            "venue": "The Astrophysical Journal",
+            "citations": 7695,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2029343094",
+              "doi": "https://doi.org/10.1088/0004-637x/737/2/103"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201629272",
+            "ids": {
+              "doi": "10.1051/0004-6361/201629272",
+              "openalex": "W147232447"
+            },
+            "title": "The Gaia mission",
+            "year": 2016,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 7427,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W147232447",
+              "doi": "https://doi.org/10.1051/0004-6361/201629272"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/202039657",
+            "ids": {
+              "doi": "10.1051/0004-6361/202039657",
+              "openalex": "W4213259675"
+            },
+            "title": "Gaia Early Data Release 3: Summary of the contents and survey properties",
+            "year": 2020,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 4911,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4213259675",
+              "doi": "https://doi.org/10.1051/0004-6361/202039657"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/320638",
+            "ids": {
+              "doi": "10.1086/320638",
+              "openalex": "W2093077071"
+            },
+            "title": "Final Results from the Hubble Space Telescope Key Project to Measure the Hubble Constant",
+            "year": 2001,
+            "venue": "The Astrophysical Journal",
+            "citations": 3540,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2093077071",
+              "doi": "https://doi.org/10.1086/320638"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/2041-8213/ac5c5b",
+            "ids": {
+              "doi": "10.3847/2041-8213/ac5c5b",
+              "openalex": "W4286702585"
+            },
+            "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s −1 Mpc −1 Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+            "year": 2022,
+            "venue": "The Astrophysical Journal Letters",
+            "citations": 3115,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4286702585",
+              "doi": "https://doi.org/10.3847/2041-8213/ac5c5b"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1361-6382/ac086d",
+            "ids": {
+              "doi": "10.1088/1361-6382/ac086d",
+              "openalex": "W3135850969"
+            },
+            "title": "In the realm of the Hubble tension—a review of solutions *",
+            "year": 2021,
+            "venue": "Classical and Quantum Gravity",
+            "citations": 2511,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3135850969",
+              "doi": "https://doi.org/10.1088/1361-6382/ac086d"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/0004-637x/826/1/56",
+            "ids": {
+              "doi": "10.3847/0004-637x/826/1/56",
+              "openalex": "W2339590713"
+            },
+            "title": "A 2.4% DETERMINATION OF THE LOCAL VALUE OF THE HUBBLE CONSTANT *",
+            "year": 2016,
+            "venue": "The Astrophysical Journal",
+            "citations": 2440,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2339590713",
+              "doi": "https://doi.org/10.3847/0004-637x/826/1/56"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-4357/ab1422",
+            "ids": {
+              "doi": "10.3847/1538-4357/ab1422",
+              "openalex": "W2921829748"
+            },
+            "title": "Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant and Stronger Evidence for Physics beyond ΛCDM",
+            "year": 2019,
+            "venue": "The Astrophysical Journal",
+            "citations": 2398,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2921829748",
+              "doi": "https://doi.org/10.3847/1538-4357/ab1422"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-3881/ab089d",
+            "ids": {
+              "doi": "10.3847/1538-3881/ab089d",
+              "openalex": "W2799047820"
+            },
+            "title": "Overview of the DESI Legacy Imaging Surveys",
+            "year": 2019,
+            "venue": "The Astronomical Journal",
+            "citations": 2280,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2799047820",
+              "doi": "https://doi.org/10.3847/1538-3881/ab089d"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/150986",
+            "ids": {
+              "doi": "10.1086/150986",
+              "openalex": "W2036406818"
+            },
+            "title": "Realization of Accurate Close-Binary Light Curves: Application to MR Cygni",
+            "year": 1971,
+            "venue": "The Astrophysical Journal",
+            "citations": 2274,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2036406818",
+              "doi": "https://doi.org/10.1086/150986"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1146/annurev-nucl-111422-024107",
+            "ids": {
+              "doi": "10.1146/annurev-nucl-111422-024107",
+              "openalex": "W4386121961"
+            },
+            "title": "The Hubble Tension and Early Dark Energy",
+            "year": 2023,
+            "venue": "Annual Review of Nuclear and Particle Science",
+            "citations": 525,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W4386121961",
+              "doi": "https://doi.org/10.1146/annurev-nucl-111422-024107"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/510378",
+            "ids": {
+              "doi": "10.1086/510378",
+              "openalex": "W2099827831"
+            },
+            "title": "NewHubble Space TelescopeDiscoveries of Type Ia Supernovae atz≥ 1: Narrowing Constraints on the Early Behavior of Dark Energy",
+            "year": 2007,
+            "venue": "The Astrophysical Journal",
+            "citations": 1930,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2099827831",
+              "doi": "https://doi.org/10.1086/510378"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-4357/ac8e04",
+            "ids": {
+              "doi": "10.3847/1538-4357/ac8e04",
+              "openalex": "W4282961335"
+            },
+            "title": "The Pantheon+ Analysis: Cosmological Constraints",
+            "year": 2022,
+            "venue": "The Astrophysical Journal",
+            "citations": 1889,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4282961335",
+              "doi": "https://doi.org/10.3847/1538-4357/ac8e04"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/tr6y-kpc6",
+            "ids": {
+              "doi": "10.1103/tr6y-kpc6",
+              "openalex": "W4410636511"
+            },
+            "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+            "year": 2025,
+            "venue": "Physical review. D/Physical review. D.",
+            "citations": 1773,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4410636511",
+              "doi": "https://doi.org/10.1103/tr6y-kpc6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1146/annurev-astro-082708-101829",
+            "ids": {
+              "doi": "10.1146/annurev-astro-082708-101829",
+              "openalex": "W2172007718"
+            },
+            "title": "The Hubble Constant",
+            "year": 2010,
+            "venue": "Annual Review of Astronomy and Astrophysics",
+            "citations": 404,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W2172007718",
+              "doi": "https://doi.org/10.1146/annurev-astro-082708-101829"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41550-019-0902-0",
+            "ids": {
+              "doi": "10.1038/s41550-019-0902-0",
+              "openalex": "W2963125685"
+            },
+            "title": "Tensions between the early and late Universe",
+            "year": 2019,
+            "venue": "Nature Astronomy",
+            "citations": 1601,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2963125685",
+              "doi": "https://doi.org/10.1038/s41550-019-0902-0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/164948",
+            "ids": {
+              "doi": "10.1086/164948",
+              "openalex": "W2042905846"
+            },
+            "title": "Fundamental properties of elliptical galaxies",
+            "year": 1987,
+            "venue": "The Astrophysical Journal",
+            "citations": 1453,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2042905846",
+              "doi": "https://doi.org/10.1086/164948"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.03122",
+            "ids": {
+              "arxiv": "2601.03122",
+              "doi": "10.1016/j.dark.2026.102238",
+              "s2": "c85501b7958d341a89fd45639c2fa63abfe7e305"
+            },
+            "title": "Late-time Background Constraints on Linear and Non-linear Interacting Dark Energy after DESI DR2",
+            "year": 2026,
+            "venue": "Physics of the Dark Universe",
+            "citations": 26,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.03122",
+              "pdf": "https://arxiv.org/pdf/2601.03122",
+              "doi": "https://doi.org/10.1016/j.dark.2026.102238"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.21169",
+            "ids": {
+              "arxiv": "2602.21169",
+              "doi": "10.1016/j.dark.2026.102273",
+              "s2": "6381f577ffaed3a8815a6e7aea629edbbe64d2f6"
+            },
+            "title": "Revisiting CPL with sign-switching density: to cross or not to cross the NECB",
+            "year": 2026,
+            "venue": "Physics of the Dark Universe",
+            "citations": 18,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.21169",
+              "pdf": "https://arxiv.org/pdf/2602.21169",
+              "doi": "https://doi.org/10.1016/j.dark.2026.102273"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.08928",
+            "ids": {
+              "arxiv": "2602.08928",
+              "s2": "c3a5c1af6046fb14f65dbd4afa1b0389030aed3d"
+            },
+            "title": "Hints of sign-changing scalar field energy density and a transient acceleration phase at $z\\sim 2$ from model-agnostic reconstructions",
+            "year": 2026,
+            "citations": 17,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.08928",
+              "pdf": "https://arxiv.org/pdf/2602.08928"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.12032",
+            "ids": {
+              "arxiv": "2604.12032",
+              "doi": "10.1103/x8kc-zqzl",
+              "s2": "872909b67a05b128d3117a965916a18308ed2634"
+            },
+            "title": "Constraints on coupled dark energy in the DESI era",
+            "year": 2026,
+            "venue": "Physical Review D",
+            "citations": 14,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.12032",
+              "pdf": "https://arxiv.org/pdf/2604.12032",
+              "doi": "https://doi.org/10.1103/x8kc-zqzl"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.12347",
+            "ids": {
+              "arxiv": "2602.12347",
+              "doi": "10.1016/j.dark.2026.102351",
+              "s2": "8f4e4b3a5a548969eb0aa87441ccfea0060d3585"
+            },
+            "title": "Sign-Switching Dark Energy: Smooth Transitions with Recent DESI DR2 Observations",
+            "year": 2026,
+            "venue": "Physics of the Dark Universe",
+            "citations": 13,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.12347",
+              "pdf": "https://arxiv.org/pdf/2602.12347",
+              "doi": "https://doi.org/10.1016/j.dark.2026.102351"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.18131",
+            "ids": {
+              "arxiv": "2603.18131",
+              "doi": "10.1088/1475-7516/2026/08/072",
+              "s2": "4a9b84482fa39facf5a3d6713a90869897d4fa1f"
+            },
+            "title": "High-redshift physics from the acoustic scale",
+            "year": 2026,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 12,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.18131",
+              "pdf": "https://arxiv.org/pdf/2603.18131",
+              "doi": "https://doi.org/10.1088/1475-7516/2026/08/072"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.07060",
+            "ids": {
+              "arxiv": "2512.07060",
+              "s2": "52f59933bbf0b91a5f7f80dcdf8393c37529b1a6"
+            },
+            "title": "A Multi-Probe ISW Study of Dark Energy Models with Negative Energy Density: Galaxy Correlations, Lensing Bispectrum, and Planck ISW-Lensing Likelihood",
+            "year": 2025,
+            "citations": 12,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.07060",
+              "pdf": "https://arxiv.org/pdf/2512.07060"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.22406",
+            "ids": {
+              "arxiv": "2603.22406",
+              "doi": "10.1088/1475-7516/2026/09/023",
+              "s2": "56c3f600704437a0642cee6dd9bd8214e78b85f9"
+            },
+            "title": "Phantom-crossing dark energy and the Ω m tug-of-war",
+            "year": 2026,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 11,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.22406",
+              "pdf": "https://arxiv.org/pdf/2603.22406",
+              "doi": "https://doi.org/10.1088/1475-7516/2026/09/023"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.26560",
+            "ids": {
+              "arxiv": "2603.26560",
+              "doi": "10.1088/1475-7516/2026/07/040",
+              "s2": "e1bc7a4dc1ca05afb0c769a806ee444549b94abe"
+            },
+            "title": "Exploring the interplay of late-time dynamical dark energy and new physics before recombination",
+            "year": 2026,
+            "venue": "Journal of Cosmology and Astroparticle Physics",
+            "citations": 10,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.26560",
+              "pdf": "https://arxiv.org/pdf/2603.26560",
+              "doi": "https://doi.org/10.1088/1475-7516/2026/07/040"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.14222",
+            "ids": {
+              "arxiv": "2601.14222",
+              "doi": "10.1103/bqwg-ff57",
+              "s2": "d6163e49ec8425f1b96b47ad1af62c3f89a2b6c8"
+            },
+            "title": "Revisiting the matter creation process: Observational constraints on gravitationally induced dark energy and the Hubble tension",
+            "year": 2026,
+            "venue": "Physical Review D",
+            "citations": 10,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.14222",
+              "pdf": "https://arxiv.org/pdf/2601.14222",
+              "doi": "https://doi.org/10.1103/bqwg-ff57"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1086/305772",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1088/0004-637x/737/2/103",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1051/0004-6361/201629272",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1051/0004-6361/202039657",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1086/320638",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.3847/2041-8213/ac5c5b",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1088/1361-6382/ac086d",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.3847/0004-637x/826/1/56",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.3847/1538-4357/ab1422",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.3847/1538-3881/ab089d",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1086/150986",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1146/annurev-nucl-111422-024107",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1086/510378",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.3847/1538-4357/ac8e04",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1103/tr6y-kpc6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1146/annurev-astro-082708-101829",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1038/s41550-019-0902-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23823",
+          "target": "doi:10.1086/164948",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.03122",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.21169",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.08928",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.12032",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.12347",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.18131",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07060",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.22406",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.26560",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.14222",
+          "target": "arxiv:2510.23823",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 84,
+      "errors": [
+        "S2 cross-links: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch?fields=references.paperId"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2505.22618",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2505.22618",
+            "ids": {
+              "arxiv": "2505.22618",
+              "s2": "5e9ffdd179df49be1129e32ae75fc89a2b68e676",
+              "openalex": "W4416048624"
+            },
+            "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 507,
+            "influential_citations": 129,
+            "is_review": false,
+            "tldr": "A confidence-aware parallel decoding strategy that selectively decodes tokens exceeding a confidence threshold, mitigating dependency violations and maintaining generation quality is proposed, closing the performance gap with autoregressive models and paving the way for practical deployment of Diffusion LLMs.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.22618",
+              "pdf": "https://arxiv.org/pdf/2505.22618"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.09992",
+            "ids": {
+              "arxiv": "2502.09992",
+              "doi": "10.48550/arxiv.2502.09992",
+              "s2": "0d11a9674b68216b92e08cf7617a93fbd3fb91f4"
+            },
+            "title": "Large Language Diffusion Models",
+            "year": 2025,
+            "venue": "Neural Information Processing Systems",
+            "citations": 1094,
+            "influential_citations": 426,
+            "is_review": false,
+            "tldr": "This work introduces LLaDA, a diffusion model trained from scratch under the pre-training and supervised fine-tuning (SFT) paradigm, which provides a principled generative approach for probabilistic inference by optimizing a likelihood lower bound.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.09992",
+              "pdf": "https://arxiv.org/pdf/2502.09992",
+              "doi": "https://doi.org/10.48550/arxiv.2502.09992"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1706.03762",
+            "ids": {
+              "arxiv": "1706.03762",
+              "doi": "10.48550/arxiv.1706.03762",
+              "s2": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+            },
+            "title": "Attention is All you Need",
+            "year": 2017,
+            "venue": "Neural Information Processing Systems",
+            "citations": 202800,
+            "influential_citations": 21493,
+            "is_review": false,
+            "tldr": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1706.03762",
+              "pdf": "https://arxiv.org/pdf/1706.03762",
+              "doi": "https://doi.org/10.48550/arxiv.1706.03762"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2205.14987",
+            "ids": {
+              "arxiv": "2205.14987",
+              "doi": "10.48550/arxiv.2205.14987",
+              "s2": "e9b9a47cd81c66603c827f0f2bc4fba0d9ae77c4"
+            },
+            "title": "A Continuous Time Framework for Discrete Denoising Models",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 539,
+            "influential_citations": 80,
+            "is_review": false,
+            "tldr": "This work provides the first complete continuous time framework for denoising diffusion models of discrete data by formulating the forward noising process and corresponding reverse time generative process as Continuous Time Markov Chains (CTMCs).",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2205.14987",
+              "pdf": "https://arxiv.org/pdf/2205.14987",
+              "doi": "https://doi.org/10.48550/arxiv.2205.14987"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1910.13461",
+            "ids": {
+              "arxiv": "1910.13461",
+              "doi": "10.48550/arxiv.1910.13461",
+              "s2": "395de0bd3837fdf4b4b5e5f04835bcc69c279481"
+            },
+            "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "year": 2019,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 13615,
+            "influential_citations": 2515,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1910.13461",
+              "pdf": "https://arxiv.org/pdf/1910.13461",
+              "doi": "https://doi.org/10.48550/arxiv.1910.13461"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.05685",
+            "ids": {
+              "arxiv": "2306.05685",
+              "doi": "10.52202/075280-2020",
+              "s2": "a0a79dad89857a96f8f71b14238e5237cbfc4787"
+            },
+            "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 13217,
+            "influential_citations": 1553,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.05685",
+              "pdf": "https://arxiv.org/pdf/2306.05685",
+              "doi": "https://doi.org/10.52202/075280-2020"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1503.03585",
+            "ids": {
+              "arxiv": "1503.03585",
+              "doi": "10.48550/arxiv.1503.03585",
+              "s2": "2dcef55a07f8607a819c21fe84131ea269cc2e3c"
+            },
+            "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+            "year": 2015,
+            "venue": "International Conference on Machine Learning",
+            "citations": 11279,
+            "influential_citations": 624,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1503.03585",
+              "pdf": "https://arxiv.org/pdf/1503.03585",
+              "doi": "https://doi.org/10.48550/arxiv.1503.03585"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.12092",
+            "ids": {
+              "arxiv": "2102.12092",
+              "doi": "10.48550/arxiv.2102.12092",
+              "s2": "795a9f6d81a4b9c636c5711dead7786109ada440"
+            },
+            "title": "Zero-Shot Text-to-Image Generation",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 6938,
+            "influential_citations": 404,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.12092",
+              "pdf": "https://arxiv.org/pdf/2102.12092",
+              "doi": "https://doi.org/10.48550/arxiv.2102.12092"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.07524",
+            "ids": {
+              "arxiv": "2406.07524",
+              "doi": "10.48550/arxiv.2406.07524",
+              "s2": "f8d357d38bbcdd93889fe71762eb57842b2ab063"
+            },
+            "title": "Simple and Effective Masked Diffusion Language Models",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 1080,
+            "influential_citations": 252,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.07524",
+              "pdf": "https://arxiv.org/pdf/2406.07524",
+              "doi": "https://doi.org/10.48550/arxiv.2406.07524"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2107.03006",
+            "ids": {
+              "arxiv": "2107.03006",
+              "doi": "10.48550/arxiv.2107.03006",
+              "s2": "91b32fc0a23f0af53229fceaae9cce43a0406d2e"
+            },
+            "title": "Structured Denoising Diffusion Models in Discrete State-Spaces",
+            "year": 2021,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2452,
+            "influential_citations": 321,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2107.03006",
+              "pdf": "https://arxiv.org/pdf/2107.03006",
+              "doi": "https://doi.org/10.48550/arxiv.2107.03006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1063/1.1378322",
+            "ids": {
+              "doi": "10.1063/1.1378322",
+              "s2": "cfa3cb6b21410352a9aacb991cb0bd7e7d6a4ec0"
+            },
+            "title": "Approximate accelerated stochastic simulation of chemically reacting systems",
+            "year": 2001,
+            "citations": 2076,
+            "influential_citations": 176,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cfa3cb6b21410352a9aacb991cb0bd7e7d6a4ec0",
+              "doi": "https://doi.org/10.1063/1.1378322"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:13bd881530d003403325cd2de57d8af42acd0d81",
+            "ids": {
+              "s2": "13bd881530d003403325cd2de57d8af42acd0d81"
+            },
+            "title": "A HIGH-RESOLUTION",
+            "citations": 1107,
+            "influential_citations": 124,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/13bd881530d003403325cd2de57d8af42acd0d81"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.04329",
+            "ids": {
+              "arxiv": "2406.04329",
+              "doi": "10.48550/arxiv.2406.04329",
+              "s2": "1bed8c7541381b1f79027c240b64c9276573fc3c"
+            },
+            "title": "Simplified and Generalized Masked Diffusion for Discrete Data",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 776,
+            "influential_citations": 101,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.04329",
+              "pdf": "https://arxiv.org/pdf/2406.04329",
+              "doi": "https://doi.org/10.48550/arxiv.2406.04329"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.05379",
+            "ids": {
+              "arxiv": "2102.05379",
+              "s2": "1913d3edcc00d0aba097a9df190dd16f6fdfbf0c"
+            },
+            "title": "Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions",
+            "year": 2021,
+            "venue": "Neural Information Processing Systems",
+            "citations": 827,
+            "influential_citations": 62,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.05379",
+              "pdf": "https://arxiv.org/pdf/2102.05379"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.03736",
+            "ids": {
+              "arxiv": "2406.03736",
+              "doi": "10.48550/arxiv.2406.03736",
+              "s2": "7a73cc4bc0ce80661b5acbb51bbde30ea5167280"
+            },
+            "title": "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 452,
+            "influential_citations": 54,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.03736",
+              "pdf": "https://arxiv.org/pdf/2406.03736",
+              "doi": "https://doi.org/10.48550/arxiv.2406.03736"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.15595",
+            "ids": {
+              "arxiv": "2407.15595",
+              "doi": "10.48550/arxiv.2407.15595",
+              "s2": "a9ac6c4b165d8c4bf1a949d0931e7ca7a21fc55b"
+            },
+            "title": "Discrete Flow Matching",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 414,
+            "influential_citations": 57,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.15595",
+              "pdf": "https://arxiv.org/pdf/2407.15595",
+              "doi": "https://doi.org/10.48550/arxiv.2407.15595"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2301.12661",
+            "ids": {
+              "arxiv": "2301.12661",
+              "doi": "10.48550/arxiv.2301.12661",
+              "s2": "6d1433f3342fbee85ad1e2809e62734aec5c3853"
+            },
+            "title": "Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models",
+            "year": 2023,
+            "venue": "International Conference on Machine Learning",
+            "citations": 549,
+            "influential_citations": 31,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2301.12661",
+              "pdf": "https://arxiv.org/pdf/2301.12661",
+              "doi": "https://doi.org/10.48550/arxiv.2301.12661"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.17891",
+            "ids": {
+              "arxiv": "2410.17891",
+              "doi": "10.48550/arxiv.2410.17891",
+              "s2": "385f0c77e72f95e7df74e98b4ff6b9ab19d52f93"
+            },
+            "title": "Scaling Diffusion Language Models via Adaptation from Autoregressive Models",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 316,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.17891",
+              "pdf": "https://arxiv.org/pdf/2410.17891",
+              "doi": "https://doi.org/10.48550/arxiv.2410.17891"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.19223",
+            "ids": {
+              "arxiv": "2505.19223",
+              "doi": "10.48550/arxiv.2505.19223",
+              "s2": "c6f896aa698b2d65160372bce057ea5f081904de"
+            },
+            "title": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+            "year": 2025,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 319,
+            "influential_citations": 33,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.19223",
+              "pdf": "https://arxiv.org/pdf/2505.19223",
+              "doi": "https://doi.org/10.48550/arxiv.2505.19223"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.20639",
+            "ids": {
+              "arxiv": "2506.20639",
+              "doi": "10.48550/arxiv.2506.20639",
+              "s2": "61024282f1523543a5b06326cb58c9b6ad14cdd1"
+            },
+            "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 214,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.20639",
+              "pdf": "https://arxiv.org/pdf/2506.20639",
+              "doi": "https://doi.org/10.48550/arxiv.2506.20639"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.06295",
+            "ids": {
+              "arxiv": "2506.06295",
+              "doi": "10.48550/arxiv.2506.06295",
+              "s2": "a24b410204822d4faf61b9f3135be6ef39c5a617"
+            },
+            "title": "dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 194,
+            "influential_citations": 18,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.06295",
+              "pdf": "https://arxiv.org/pdf/2506.06295",
+              "doi": "https://doi.org/10.48550/arxiv.2506.06295"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.26328",
+            "ids": {
+              "arxiv": "2509.26328",
+              "doi": "10.48550/arxiv.2509.26328",
+              "s2": "4c81515d1aa61c56da6217766936a9fc368ac514"
+            },
+            "title": "Fast-dLLM v2: Efficient Block-Diffusion LLM",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 161,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.26328",
+              "pdf": "https://arxiv.org/pdf/2509.26328",
+              "doi": "https://doi.org/10.48550/arxiv.2509.26328"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.09192",
+            "ids": {
+              "arxiv": "2508.09192",
+              "doi": "10.48550/arxiv.2508.09192",
+              "s2": "4918d8815f77d64cf9dbd12bccd53a2f0aa798e7"
+            },
+            "title": "Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 133,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.09192",
+              "pdf": "https://arxiv.org/pdf/2508.09192",
+              "doi": "https://doi.org/10.48550/arxiv.2508.09192"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.06308",
+            "ids": {
+              "arxiv": "2510.06308",
+              "doi": "10.48550/arxiv.2510.06308",
+              "s2": "7824a7a8f8368361e4ff29cf47c81f7858338b13"
+            },
+            "title": "Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 111,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.06308",
+              "pdf": "https://arxiv.org/pdf/2510.06308",
+              "doi": "https://doi.org/10.48550/arxiv.2510.06308"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.20072",
+            "ids": {
+              "arxiv": "2508.20072",
+              "doi": "10.48550/arxiv.2508.20072",
+              "s2": "59d62f070c3f4ddfb3974fa1cff9aeed258fa492"
+            },
+            "title": "Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 107,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.20072",
+              "pdf": "https://arxiv.org/pdf/2508.20072",
+              "doi": "https://doi.org/10.48550/arxiv.2508.20072"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.01142",
+            "ids": {
+              "arxiv": "2509.01142",
+              "doi": "10.48550/arxiv.2509.01142",
+              "s2": "4b37680b828ea09aab51a3fa829d7ec166dcfb48"
+            },
+            "title": "Dream-Coder 7B: An Open Diffusion Language Model for Code",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 92,
+            "influential_citations": 23,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.01142",
+              "pdf": "https://arxiv.org/pdf/2509.01142",
+              "doi": "https://doi.org/10.48550/arxiv.2509.01142"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.21467",
+            "ids": {
+              "arxiv": "2505.21467",
+              "doi": "10.48550/arxiv.2505.21467",
+              "s2": "d116105534980a0e5619c98a66a3b101ea48ed2a"
+            },
+            "title": "Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 86,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.21467",
+              "pdf": "https://arxiv.org/pdf/2505.21467",
+              "doi": "https://doi.org/10.48550/arxiv.2505.21467"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.19982",
+            "ids": {
+              "arxiv": "2508.19982",
+              "doi": "10.48550/arxiv.2508.19982",
+              "s2": "b7b95b60ed78916950ae670cbf90bb5081112c38"
+            },
+            "title": "Diffusion Language Models Know the Answer Before Decoding",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 84,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.19982",
+              "pdf": "https://arxiv.org/pdf/2508.19982",
+              "doi": "https://doi.org/10.48550/arxiv.2508.19982"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.10875",
+            "ids": {
+              "arxiv": "2508.10875",
+              "doi": "10.48550/arxiv.2508.10875",
+              "s2": "71837e66048330a2b3a1b1840fdf0c10b69db3b5"
+            },
+            "title": "A Survey on Diffusion Language Models",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 81,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.10875",
+              "pdf": "https://arxiv.org/pdf/2508.10875",
+              "doi": "https://doi.org/10.48550/arxiv.2508.10875"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:1910.13461",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2306.05685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2102.12092",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "doi:10.1063/1.1378322",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "s2:13bd881530d003403325cd2de57d8af42acd0d81",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2407.15595",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2301.12661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.22618",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2505.22618",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.09992",
+          "target": "arxiv:2407.15595",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.14987",
+          "target": "doi:10.1063/1.1378322",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.14987",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.14987",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.14987",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.14987",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1910.13461",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2102.12092",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.07524",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2107.03006",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2107.03006",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.04329",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2102.05379",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03736",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.15595",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.15595",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.15595",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2301.12661",
+          "target": "arxiv:2102.12092",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2102.12092",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.17891",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2510.06308",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2306.05685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2509.26328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19223",
+          "target": "arxiv:2506.20639",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2505.21467",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.20639",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.06295",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2508.09192",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2508.19982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.26328",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2505.21467",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09192",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.06308",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.20072",
+          "target": "arxiv:2407.15595",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2505.21467",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2506.20639",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.01142",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.21467",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2205.14987",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2505.21467",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2102.12092",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2508.09192",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "doi:10.1063/1.1378322",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2102.05379",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.19982",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2410.17891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2406.03736",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2502.09992",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2505.19223",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2406.07524",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2505.21467",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2510.06308",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:1503.03585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2506.06295",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2406.04329",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:1910.13461",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2107.03006",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2407.15595",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.10875",
+          "target": "arxiv:2506.20639",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 507,
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1016/j.jrt.2025.100132",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1016/j.jrt.2025.100132",
+            "ids": {
+              "doi": "10.1016/j.jrt.2025.100132",
+              "s2": "c4d356f569d8607b6b4251d175e0d371eb127fee",
+              "openalex": "W4412999286"
+            },
+            "title": "What's left of responsible innovation after Gaza? Ecocide, epistemicide, and genocide in occupied Palestine",
+            "year": 2025,
+            "venue": "Journal of Responsible Technology",
+            "citations": 9,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://doi.org/10.1016/j.jrt.2025.100132",
+              "doi": "https://doi.org/10.1016/j.jrt.2025.100132"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/14623520601056240",
+            "ids": {
+              "doi": "10.1080/14623520601056240",
+              "s2": "9ead584d263031de5d99b4719b69d3c90422e872"
+            },
+            "title": "Settler colonialism and the elimination of the native",
+            "year": 2006,
+            "citations": 4847,
+            "influential_citations": 245,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9ead584d263031de5d99b4719b69d3c90422e872",
+              "doi": "https://doi.org/10.1080/14623520601056240"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/016224399301800306",
+            "ids": {
+              "doi": "10.1177/016224399301800306",
+              "s2": "b2d9df9e59ec40ec7ff8ef28fcab89390b6035dc"
+            },
+            "title": "Upon Opening the Black Box and Finding It Empty: Social Constructivism and the Philosophy of Technology",
+            "year": 1993,
+            "citations": 895,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b2d9df9e59ec40ec7ff8ef28fcab89390b6035dc",
+              "doi": "https://doi.org/10.1177/016224399301800306"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/0143659042000185417",
+            "ids": {
+              "doi": "10.1080/0143659042000185417",
+              "s2": "180457587474e005ef624dc21c0e6d549ee72a6d"
+            },
+            "title": "Beyond the Third World: imperial globality, global coloniality and anti-globalisation social movements",
+            "year": 2004,
+            "citations": 559,
+            "influential_citations": 30,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/180457587474e005ef624dc21c0e6d549ee72a6d",
+              "doi": "https://doi.org/10.1080/0143659042000185417"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.njas.2019.01.001",
+            "ids": {
+              "doi": "10.1016/j.njas.2019.01.001",
+              "s2": "fc9a631599e08f187b91374c3d5e9993e248c3eb"
+            },
+            "title": "Ethics of smart farming: Current questions and directions for responsible innovation towards the future",
+            "year": 2019,
+            "venue": "NJAS - Wageningen Journal of Life Sciences",
+            "citations": 216,
+            "influential_citations": 10,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fc9a631599e08f187b91374c3d5e9993e248c3eb",
+              "doi": "https://doi.org/10.1016/j.njas.2019.01.001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2014.922249",
+            "ids": {
+              "doi": "10.1080/23299460.2014.922249",
+              "s2": "22f6a11b0f425f27931e77bf9319d3fbc8bb84ff"
+            },
+            "title": "Responsible innovation across borders: tensions, paradoxes and possibilities",
+            "year": 2014,
+            "citations": 185,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/22f6a11b0f425f27931e77bf9319d3fbc8bb84ff",
+              "doi": "https://doi.org/10.1080/23299460.2014.922249"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/1362480618787176",
+            "ids": {
+              "doi": "10.1177/1362480618787176",
+              "s2": "59dfba5b64dc7d2def71dcf103e870a6989bfbc6"
+            },
+            "title": "Ecocide, genocide, capitalism and colonialism: Consequences for indigenous peoples and glocal ecosystems environments",
+            "year": 2018,
+            "citations": 115,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/59dfba5b64dc7d2def71dcf103e870a6989bfbc6",
+              "doi": "https://doi.org/10.1177/1362480618787176"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/00220388.2022.2043281",
+            "ids": {
+              "doi": "10.1080/00220388.2022.2043281",
+              "s2": "4299d9ffd1c9b3bf2327a7e01b710393b7aa0dda"
+            },
+            "title": "A Decolonial Approach to Innovation? Building Paths Towards Buen Vivir",
+            "year": 2022,
+            "venue": "Journal of Development Studies",
+            "citations": 59,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4299d9ffd1c9b3bf2327a7e01b710393b7aa0dda",
+              "doi": "https://doi.org/10.1080/00220388.2022.2043281"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2024.2370082",
+            "ids": {
+              "doi": "10.1080/23299460.2024.2370082",
+              "s2": "bcd2c0b7ece26c2168b44385f87c2d59913e1f95"
+            },
+            "title": "Responsibility and the hidden politics of directionality: opening up ‘innovation democracies’ for sustainability transformations",
+            "year": 2024,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 59,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bcd2c0b7ece26c2168b44385f87c2d59913e1f95",
+              "doi": "https://doi.org/10.1080/23299460.2024.2370082"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2021.1944736",
+            "ids": {
+              "doi": "10.1080/23299460.2021.1944736",
+              "s2": "8e8edf1f8cf2cfb3718dbb1629d668f86003c635"
+            },
+            "title": "Reconceptualising responsible research and innovation from a Global South perspective",
+            "year": 2021,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 48,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8e8edf1f8cf2cfb3718dbb1629d668f86003c635",
+              "doi": "https://doi.org/10.1080/23299460.2021.1944736"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2019.1647087",
+            "ids": {
+              "doi": "10.1080/23299460.2019.1647087",
+              "s2": "b106c56f99a1ea388ea515f447a8c428c546c204"
+            },
+            "title": "Responsible innovation as empowering ways of knowing",
+            "year": 2019,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 54,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b106c56f99a1ea388ea515f447a8c428c546c204",
+              "doi": "https://doi.org/10.1080/23299460.2019.1647087"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2021.1964321",
+            "ids": {
+              "doi": "10.1080/23299460.2021.1964321",
+              "s2": "ea2a2a47493c459d1de5f75e3aa80ec2135373b4"
+            },
+            "title": "Indigenous-led responsible innovation: lessons from co-developed protocols to guide the use of drones to monitor a biocultural landscape in Kakadu National Park, Australia",
+            "year": 2021,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 41,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ea2a2a47493c459d1de5f75e3aa80ec2135373b4",
+              "doi": "https://doi.org/10.1080/23299460.2021.1964321"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/01708406221131938",
+            "ids": {
+              "doi": "10.1177/01708406221131938",
+              "s2": "34048a10c2d27764a394cc302b88bf78b4d6070e"
+            },
+            "title": "Making a Killing: Israel’s Military-Innovation Ecosystem and the Globalization of Violence",
+            "year": 2023,
+            "venue": "Organization Studies",
+            "citations": 27,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/34048a10c2d27764a394cc302b88bf78b4d6070e",
+              "doi": "https://doi.org/10.1177/01708406221131938"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2019.1575682",
+            "ids": {
+              "doi": "10.1080/23299460.2019.1575682",
+              "s2": "5dfac4a2c1eef004b17ce3e22d14a59655abe790"
+            },
+            "title": "A retrospective analysis of responsible innovation for low-technology innovation in the Global South",
+            "year": 2019,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 51,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5dfac4a2c1eef004b17ce3e22d14a59655abe790",
+              "doi": "https://doi.org/10.1080/23299460.2019.1575682"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/14767724.2025.2513637",
+            "ids": {
+              "doi": "10.1080/14767724.2025.2513637",
+              "s2": "29e14d3a91f02894e58e57e6162b228c95b3347b"
+            },
+            "title": "Witnessing silence: the Palestinian genocide, institutional complicity, and the politics of knowledge",
+            "year": 2025,
+            "venue": "Globalisation, Societies and Education",
+            "citations": 27,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/29e14d3a91f02894e58e57e6162b228c95b3347b",
+              "doi": "https://doi.org/10.1080/14767724.2025.2513637"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/17449855.2014.883164",
+            "ids": {
+              "doi": "10.1080/17449855.2014.883164",
+              "s2": "643e46803542fb3e0a2e8e5325ae4292bc84b957"
+            },
+            "title": "Where is Palestine?",
+            "year": 2014,
+            "citations": 32,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/643e46803542fb3e0a2e8e5325ae4292bc84b957",
+              "doi": "https://doi.org/10.1080/17449855.2014.883164"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1111/gwao.13258",
+            "ids": {
+              "doi": "10.1111/gwao.13258",
+              "s2": "8cea2356282603306a8ec9f7c2e6c8d1de623f91"
+            },
+            "title": "Feminist Silences in the Face of Israel's Genocide Against the Palestinian People: A Call for Decolonial Praxis Against Complicity",
+            "year": 2025,
+            "venue": "Gender, Work &amp; Organization",
+            "citations": 24,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8cea2356282603306a8ec9f7c2e6c8d1de623f91",
+              "doi": "https://doi.org/10.1111/gwao.13258"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.worlddev.2024.106914",
+            "ids": {
+              "doi": "10.1016/j.worlddev.2024.106914",
+              "s2": "16032a977ca215aa9a659620560889276293bdb0"
+            },
+            "title": "Imposing innovation: How ‘innovation speak’ maintains postcolonial exclusion in Peru",
+            "year": 2025,
+            "venue": "World Development",
+            "citations": 10,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/16032a977ca215aa9a659620560889276293bdb0",
+              "doi": "https://doi.org/10.1016/j.worlddev.2024.106914"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/03063127221105748",
+            "ids": {
+              "doi": "10.1177/03063127221105748",
+              "s2": "8ef18d64c9aa151e47c77695ae98233aa127a869"
+            },
+            "title": "Apartheid drone: Infrastructures of militarism and the hidden genealogies of the South African Seeker",
+            "year": 2022,
+            "venue": "Social Studies of Science",
+            "citations": 5,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8ef18d64c9aa151e47c77695ae98233aa127a869",
+              "doi": "https://doi.org/10.1177/03063127221105748"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/08862605261463258",
+            "ids": {
+              "doi": "10.1177/08862605261463258",
+              "s2": "16fcb0614fbe5926170958bd78b8a7bb7d75fa01"
+            },
+            "title": "Annihilated Families and the Politics of Mass Graves: Testimonies of Gazan Women After the Loss of Entire Kin Networks",
+            "year": 2026,
+            "venue": "Journal of Interpersonal Violence",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/16fcb0614fbe5926170958bd78b8a7bb7d75fa01",
+              "doi": "https://doi.org/10.1177/08862605261463258"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.14512/tatup.7270",
+            "ids": {
+              "doi": "10.14512/tatup.7270",
+              "s2": "63cb546cc0487eed1de642a6653bfdb95921ac1e"
+            },
+            "title": "Technology assessment in ‘imperialist ruins’?: Towards solidarity, conviviality, and care",
+            "year": 2025,
+            "venue": "TATuP Zeitschrift für Technikfolgenabschätzung in Theorie und Praxis",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/63cb546cc0487eed1de642a6653bfdb95921ac1e",
+              "doi": "https://doi.org/10.14512/tatup.7270"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/19452829.2026.2679663",
+            "ids": {
+              "doi": "10.1080/19452829.2026.2679663",
+              "s2": "8d7251e3cb03ba765c35512f718189c6fdd6f419"
+            },
+            "title": "Scienticide in Gaza: The Destruction of Scientific Capabilities and Human Development",
+            "year": 2026,
+            "venue": "Journal of Human Development and Capabilities",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8d7251e3cb03ba765c35512f718189c6fdd6f419",
+              "doi": "https://doi.org/10.1080/19452829.2026.2679663"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s10551-026-06297-6",
+            "ids": {
+              "doi": "10.1007/s10551-026-06297-6",
+              "s2": "24e5cce611d75a11d51faebb5079956817e9cc31"
+            },
+            "title": "Speaking Across Silences: Academic Freedom, Care, and Responsibility",
+            "year": 2026,
+            "venue": "Journal of Business Ethics",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/24e5cce611d75a11d51faebb5079956817e9cc31",
+              "doi": "https://doi.org/10.1007/s10551-026-06297-6"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/09505431.2026.2646895",
+            "ids": {
+              "doi": "10.1080/09505431.2026.2646895",
+              "s2": "44dd3e6b17701e7b94dd4947f5c3088e4e432873"
+            },
+            "title": "The Teumessian fox of responsible AI",
+            "year": 2026,
+            "venue": "Science as Culture",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/44dd3e6b17701e7b94dd4947f5c3088e4e432873",
+              "doi": "https://doi.org/10.1080/09505431.2026.2646895"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/23299460.2025.2601384",
+            "ids": {
+              "doi": "10.1080/23299460.2025.2601384",
+              "s2": "194d2ed44d658715e139b0db625d6a9ab2c5bebf"
+            },
+            "title": "Taking care of ageing futures: reflections on a care-full, response-able praxis of co-design with older adults",
+            "year": 2026,
+            "venue": "Journal of Responsible Innovation",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/194d2ed44d658715e139b0db625d6a9ab2c5bebf",
+              "doi": "https://doi.org/10.1080/23299460.2025.2601384"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/10455752.2025.2607978",
+            "ids": {
+              "doi": "10.1080/10455752.2025.2607978",
+              "s2": "4be0f5c740d1976dca04d154bc74ee798f943556"
+            },
+            "title": "Ya Falastin: Networks of Resistance Against the Economy of Genocide",
+            "year": 2026,
+            "venue": "Capitalism Nature Socialism",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4be0f5c740d1976dca04d154bc74ee798f943556",
+              "doi": "https://doi.org/10.1080/10455752.2025.2607978"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:3ef037079ee55e43e1649fb24902bd92010cd8e9",
+            "ids": {
+              "s2": "3ef037079ee55e43e1649fb24902bd92010cd8e9"
+            },
+            "title": "Deeply sustainable technologies: Beyond extractivism, exploitation, and exclusion",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3ef037079ee55e43e1649fb24902bd92010cd8e9"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:ba9e9de128fdbce19506b6c7293ef06378131d5e",
+            "ids": {
+              "s2": "ba9e9de128fdbce19506b6c7293ef06378131d5e"
+            },
+            "title": "From Genocide to Ecocide: Confronting Political Violence Against the Environment",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ba9e9de128fdbce19506b6c7293ef06378131d5e"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/14623520601056240",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1177/016224399301800306",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/0143659042000185417",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1016/j.njas.2019.01.001",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1177/1362480618787176",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/00220388.2022.2043281",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2024.2370082",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2021.1944736",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2019.1647087",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2021.1964321",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1177/01708406221131938",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/23299460.2019.1575682",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/14767724.2025.2513637",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1080/17449855.2014.883164",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1111/gwao.13258",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1016/j.worlddev.2024.106914",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.jrt.2025.100132",
+          "target": "doi:10.1177/03063127221105748",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/08862605261463258",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.14512/tatup.7270",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/19452829.2026.2679663",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10551-026-06297-6",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/09505431.2026.2646895",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2025.2601384",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/10455752.2025.2607978",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:3ef037079ee55e43e1649fb24902bd92010cd8e9",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:ba9e9de128fdbce19506b6c7293ef06378131d5e",
+          "target": "doi:10.1016/j.jrt.2025.100132",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/1362480618787176",
+          "target": "doi:10.1080/14623520601056240",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2024.2370082",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2021.1944736",
+          "target": "doi:10.1080/23299460.2019.1575682",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2021.1944736",
+          "target": "doi:10.1080/23299460.2019.1647087",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2021.1944736",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2019.1647087",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2021.1964321",
+          "target": "doi:10.1080/23299460.2019.1647087",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2021.1964321",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/01708406221131938",
+          "target": "doi:10.1177/03063127221105748",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2019.1575682",
+          "target": "doi:10.1080/23299460.2014.922249",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/14767724.2025.2513637",
+          "target": "doi:10.1080/14623520601056240",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.worlddev.2024.106914",
+          "target": "doi:10.1177/03063127221105748",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.worlddev.2024.106914",
+          "target": "doi:10.1080/00220388.2022.2043281",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.worlddev.2024.106914",
+          "target": "doi:10.1177/01708406221131938",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.worlddev.2024.106914",
+          "target": "doi:10.1080/23299460.2019.1575682",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/19452829.2026.2679663",
+          "target": "doi:10.1080/14767724.2025.2513637",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/23299460.2025.2601384",
+          "target": "doi:10.1080/23299460.2021.1944736",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 9,
+      "errors": []
+    }
+  ]
+}

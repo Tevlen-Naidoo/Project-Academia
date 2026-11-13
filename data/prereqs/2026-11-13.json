@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T11:02:41.365185Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2510.23823",
+      "pick_title": "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at ∼1% precision",
+      "source": "openalex",
+      "references_seen": 203,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1086/305772",
+            "ids": {
+              "doi": "10.1086/305772",
+              "openalex": "W2111817932"
+            },
+            "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+            "year": 1998,
+            "venue": "The Astrophysical Journal",
+            "citations": 14531,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2111817932",
+              "doi": "https://doi.org/10.1086/305772"
+            }
+          },
+          "label": "background",
+          "score": 3.33,
+          "reasons": [
+            "15k citations"
+          ],
+          "supports": [
+            "arxiv:2510.23823"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/0004-637x/737/2/103",
+            "ids": {
+              "doi": "10.1088/0004-637x/737/2/103",
+              "openalex": "W2029343094"
+            },
+            "title": "MEASURING REDDENING WITH SLOAN DIGITAL SKY SURVEY STELLAR SPECTRA AND RECALIBRATING SFD",
+            "year": 2011,
+            "venue": "The Astrophysical Journal",
+            "citations": 7695,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2029343094",
+              "doi": "https://doi.org/10.1088/0004-637x/737/2/103"
+            }
+          },
+          "label": "background",
+          "score": 3.109,
+          "reasons": [
+            "7.7k citations"
+          ],
+          "supports": [
+            "arxiv:2510.23823"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201629272",
+            "ids": {
+              "doi": "10.1051/0004-6361/201629272",
+              "openalex": "W147232447"
+            },
+            "title": "The Gaia mission",
+            "year": 2016,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 7427,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W147232447",
+              "doi": "https://doi.org/10.1051/0004-6361/201629272"
+            }
+          },
+          "label": "background",
+          "score": 3.097,
+          "reasons": [
+            "7.4k citations"
+          ],
+          "supports": [
+            "arxiv:2510.23823"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2505.22618",
+      "pick_title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+      "source": "s2",
+      "references_seen": 32,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2502.09992",
+            "ids": {
+              "arxiv": "2502.09992",
+              "doi": "10.48550/arxiv.2502.09992",
+              "s2": "0d11a9674b68216b92e08cf7617a93fbd3fb91f4"
+            },
+            "title": "Large Language Diffusion Models",
+            "year": 2025,
+            "venue": "Neural Information Processing Systems",
+            "citations": 1094,
+            "influential_citations": 426,
+            "is_review": false,
+            "tldr": "This work introduces LLaDA, a diffusion model trained from scratch under the pre-training and supervised fine-tuning (SFT) paradigm, which provides a principled generative approach for probabilistic inference by optimizing a likelihood lower bound.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.09992",
+              "pdf": "https://arxiv.org/pdf/2502.09992",
+              "doi": "https://doi.org/10.48550/arxiv.2502.09992"
+            }
+          },
+          "label": "background",
+          "score": 6.747,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.1k citations"
+          ],
+          "quote": "Recent advancements in discrete diffusion models [2, 20, 21, 11, 3, 10, 18, 24, 31, 14, 42, 4, 37, 27, 28, 41, 5, 40, 39] have reshaped the landscape of text generation, offering a viable alternative to autoregressive (AR) paradigms in large language models (LLMs).",
+          "supports": [
+            "arxiv:2505.22618"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1706.03762",
+            "ids": {
+              "arxiv": "1706.03762",
+              "doi": "10.48550/arxiv.1706.03762",
+              "s2": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+            },
+            "title": "Attention is All you Need",
+            "year": 2017,
+            "venue": "Neural Information Processing Systems",
+            "citations": 202800,
+            "influential_citations": 21493,
+            "is_review": false,
+            "tldr": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1706.03762",
+              "pdf": "https://arxiv.org/pdf/1706.03762",
+              "doi": "https://doi.org/10.48550/arxiv.1706.03762"
+            }
+          },
+          "label": "background",
+          "score": 6.412,
+          "reasons": [
+            "203k citations"
+          ],
+          "quote": "Key-Value (KV) Cache is a fundamental optimization technique in modern large language model (LLM) inference with Transformer architecture [32].",
+          "supports": [
+            "arxiv:2505.22618"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2205.14987",
+            "ids": {
+              "arxiv": "2205.14987",
+              "doi": "10.48550/arxiv.2205.14987",
+              "s2": "e9b9a47cd81c66603c827f0f2bc4fba0d9ae77c4"
+            },
+            "title": "A Continuous Time Framework for Discrete Denoising Models",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 539,
+            "influential_citations": 80,
+            "is_review": false,
+            "tldr": "This work provides the first complete continuous time framework for denoising diffusion models of discrete data by formulating the forward noising process and corresponding reverse time generative process as Continuous Time Markov Chains (CTMCs).",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2205.14987",
+              "pdf": "https://arxiv.org/pdf/2205.14987",
+              "doi": "https://doi.org/10.48550/arxiv.2205.14987"
+            }
+          },
+          "label": "background",
+          "score": 6.14,
+          "reasons": [
+            "Influential reference for this paper",
+            "539 citations"
+          ],
+          "quote": "Recent advancements in discrete diffusion models [2, 20, 21, 11, 3, 10, 18, 24, 31, 14, 42, 4, 37, 27, 28, 41, 5, 40, 39] have reshaped the landscape of text generation, offering a viable alternative to autoregressive (AR) paradigms in large language models (LLMs).",
+          "supports": [
+            "arxiv:2505.22618"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1016/j.jrt.2025.100132",
+      "pick_title": "What's left of responsible innovation after Gaza? Ecocide, epistemicide, and genocide in occupied Palestine",
+      "source": "s2",
+      "references_seen": 19,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1080/14623520601056240",
+            "ids": {
+              "doi": "10.1080/14623520601056240",
+              "s2": "9ead584d263031de5d99b4719b69d3c90422e872"
+            },
+            "title": "Settler colonialism and the elimination of the native",
+            "year": 2006,
+            "citations": 4847,
+            "influential_citations": 245,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9ead584d263031de5d99b4719b69d3c90422e872",
+              "doi": "https://doi.org/10.1080/14623520601056240"
+            }
+          },
+          "label": "background",
+          "score": 4.144,
+          "reasons": [
+            "4.8k citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.jrt.2025.100132"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/016224399301800306",
+            "ids": {
+              "doi": "10.1177/016224399301800306",
+              "s2": "b2d9df9e59ec40ec7ff8ef28fcab89390b6035dc"
+            },
+            "title": "Upon Opening the Black Box and Finding It Empty: Social Constructivism and the Philosophy of Technology",
+            "year": 1993,
+            "citations": 895,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b2d9df9e59ec40ec7ff8ef28fcab89390b6035dc",
+              "doi": "https://doi.org/10.1177/016224399301800306"
+            }
+          },
+          "label": "background",
+          "score": 3.146,
+          "reasons": [
+            "895 citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.jrt.2025.100132"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/0143659042000185417",
+            "ids": {
+              "doi": "10.1080/0143659042000185417",
+              "s2": "180457587474e005ef624dc21c0e6d549ee72a6d"
+            },
+            "title": "Beyond the Third World: imperial globality, global coloniality and anti-globalisation social movements",
+            "year": 2004,
+            "citations": 559,
+            "influential_citations": 30,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/180457587474e005ef624dc21c0e6d549ee72a6d",
+              "doi": "https://doi.org/10.1080/0143659042000185417"
+            }
+          },
+          "label": "background",
+          "score": 2.944,
+          "reasons": [
+            "559 citations"
+          ],
+          "supports": [
+            "doi:10.1016/j.jrt.2025.100132"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

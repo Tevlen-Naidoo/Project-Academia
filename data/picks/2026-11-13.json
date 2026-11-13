@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T11:01:59.754162Z",
+  "candidates_file": "candidates/2026-11-13.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "astronomy",
+      "funnel": "waves",
+      "score": 0.9719,
+      "adjusted": 0.9719,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9074,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9375,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "84 citations, about 9 a month · Published in Astronomy &amp; Astrophysics",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2510.23823",
+        "ids": {
+          "arxiv": "2510.23823",
+          "doi": "10.1051/0004-6361/202557993",
+          "s2": "f5856402ef40c87bba9fe5b346a43c82fdad3b9a",
+          "openalex": "W7127080620"
+        },
+        "title": "The Local Distance Network: A community consensus report on the measurement of the Hubble constant at ∼1% precision",
+        "authors": [
+          {
+            "name": "Stefano Casertano",
+            "affiliation": null
+          },
+          {
+            "name": "Gagandeep Anand",
+            "affiliation": null
+          },
+          {
+            "name": "Richard I. Anderson",
+            "affiliation": null
+          },
+          {
+            "name": "Rachael Lynn Beaton",
+            "affiliation": null
+          },
+          {
+            "name": "Anupam Bhardwaj",
+            "affiliation": null
+          },
+          {
+            "name": "John P. Blakeslee",
+            "affiliation": null
+          },
+          {
+            "name": "Paula Boubel",
+            "affiliation": null
+          },
+          {
+            "name": "Louise Breuval",
+            "affiliation": null
+          },
+          {
+            "name": "Dillon Brout",
+            "affiliation": null
+          },
+          {
+            "name": "Michele Cantiello",
+            "affiliation": null
+          },
+          {
+            "name": "Mauricio Cruz Reyes",
+            "affiliation": null
+          },
+          {
+            "name": "G. Csörnyei",
+            "affiliation": null
+          },
+          {
+            "name": "Thomas de Jaeger",
+            "affiliation": null
+          },
+          {
+            "name": "Suhail Dhawan",
+            "affiliation": null
+          },
+          {
+            "name": "Eleonora Di Valentino",
+            "affiliation": null
+          },
+          {
+            "name": "Lluís Galbany",
+            "affiliation": null
+          },
+          {
+            "name": "Héctor Gil-Marín",
+            "affiliation": null
+          },
+          {
+            "name": "D. Graczyk",
+            "affiliation": null
+          },
+          {
+            "name": "Caroline D. Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Joseph B. Jensen",
+            "affiliation": null
+          },
+          {
+            "name": "P. Kervella",
+            "affiliation": null
+          },
+          {
+            "name": "BRUNO LEIBUNDGUT",
+            "affiliation": null
+          },
+          {
+            "name": "Bastian Lengen",
+            "affiliation": null
+          },
+          {
+            "name": "Siyang Li",
+            "affiliation": null
+          },
+          {
+            "name": "Lucas M. Macri",
+            "affiliation": null
+          },
+          {
+            "name": "Emre Özülker",
+            "affiliation": null
+          },
+          {
+            "name": "Dominic W. Pesce",
+            "affiliation": null
+          },
+          {
+            "name": "Adam G. Riess",
+            "affiliation": null
+          },
+          {
+            "name": "M. Romaniello",
+            "affiliation": null
+          },
+          {
+            "name": "Khaled Said",
+            "affiliation": null
+          },
+          {
+            "name": "Nils Schöneberg",
+            "affiliation": null
+          },
+          {
+            "name": "Daniel M. Scolnic",
+            "affiliation": null
+          },
+          {
+            "name": "T. Sicignano",
+            "affiliation": null
+          },
+          {
+            "name": "D. M. Skowron",
+            "affiliation": null
+          },
+          {
+            "name": "Syed A. Uddin",
+            "affiliation": null
+          },
+          {
+            "name": "Licia Verde",
+            "affiliation": null
+          },
+          {
+            "name": "A. Nota",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Context. The direct empirical determination of the local value of the Hubble constant ( H 0 ) has markedly advanced thanks to improved instrumentation, measurement techniques, and distance estimators. However, combining determinations from different estimators is nontrivial due to their correlated calibrations and different analysis methodologies. Aims. Using covariance weighting and leveraging community expertise, we have constructed a rigorous and transparent “Distance Network” to find a consensus value and uncertainty for the locally measured Hubble constant. Methods. Experts across all relevant distance measurement domains were invited to critically review the available datasets spanning parallaxes, detached eclipsing binaries, masers, Cepheids, the tip of the red giant branch, Miras, carbon-rich asymptotic giant branch stars, Type Ia (SNe Ia) and Type II supernovae, surface brightness fluctuations, the fundamental plane, and Tully–Fisher relations. Before any calculations, the group voted for first-rank indicators to define a “baseline” Distance Network. Other indicators were included to assess the robustness and sensitivity of the results. We provide open-source software and data products to support full transparency and future extensions of this effort. Results. Our key findings are as follows: (1) The local H 0 is robustly determined, with first-rank indicators internally consistent within their uncertainties. (2) A covariance-weighted combination yields a relative uncertainty of 1.1% (baseline) or 0.9% (all estimators). (3) The contribution from SNe Ia is consistent across compilations of optical or NIR magnitudes. (4) Removing either Cepheids or the tip of the red giant branch has a minimal effect on the central value of H 0 . (5) Replacing SNe Ia with galaxy-based indicators changes H 0 by less than 0.1 km s −1 Mpc −1 while doubling its uncertainty. (6) The baseline result is H 0 = 73.50 ± 0.81 km s −1 Mpc −1 , 7.1 σ from the early Universe plus ΛCDM result 67.24 ± 0.35 km s −1 Mpc −1 and 5.0 σ from BBN+BAO within a flat ΛCDM DESI DR2 (68.51 ± 0.58 km s −1 Mpc −1 ). Conclusions. A networked approach, such as the one presented here, is invaluable for enabling further progress in Hubble constant measurements, as it provides the much needed advances in accuracy and precision without overreliance on any single method, sample, or group.",
+        "tldr": null,
+        "topics": [
+          "astronomy"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-13",
+          "submitted": null,
+          "published": "2026-02-02"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Astronomy &amp; Astrophysics",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 84,
+          "influential": 8,
+          "last_12_months": 139,
+          "per_month": 9.003,
+          "by_year": {
+            "2026": 138,
+            "2025": 8
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2510.23823",
+          "pdf": "https://arxiv.org/pdf/2510.23823",
+          "doi": "https://doi.org/10.1051/0004-6361/202557993",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-13T10:57:37.995208Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.9144,
+      "adjusted": 0.7772,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.7989,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9464,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "507 citations, about 29 a month · Published in International Conference on Learning Representations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2505.22618",
+        "ids": {
+          "arxiv": "2505.22618",
+          "doi": null,
+          "s2": "5e9ffdd179df49be1129e32ae75fc89a2b68e676",
+          "openalex": "W4416048624"
+        },
+        "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+        "authors": [
+          {
+            "name": "Chengyue Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Hao Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Shuchen Xue",
+            "affiliation": null
+          },
+          {
+            "name": "Zhijian Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Shizhe Diao",
+            "affiliation": null
+          },
+          {
+            "name": "Ligeng Zhu",
+            "affiliation": null
+          },
+          {
+            "name": "Ping Luo",
+            "affiliation": null
+          },
+          {
+            "name": "Song Han",
+            "affiliation": null
+          },
+          {
+            "name": "Xie, Enze",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Diffusion-based large language models (Diffusion LLMs) have shown promise for non-autoregressive text generation with parallel decoding capabilities. However, the practical inference speed of open-sourced Diffusion LLMs often lags behind autoregressive models due to the lack of Key-Value (KV) Cache and quality degradation when decoding multiple tokens simultaneously. To bridge this gap, we introduce a novel block-wise approximate KV Cache mechanism tailored for bidirectional diffusion models, enabling cache reuse with negligible performance drop. Additionally, we identify the root cause of generation quality degradation in parallel decoding as the disruption of token dependencies under the conditional independence assumption. To address this, we propose a confidence-aware parallel decoding strategy that selectively decodes tokens exceeding a confidence threshold, mitigating dependency violations and maintaining generation quality. Experimental results on LLaDA and Dream models across multiple LLM benchmarks demonstrate up to \\textbf{27.6$\\times$ throughput} improvement with minimal accuracy loss, closing the performance gap with autoregressive models and paving the way for practical deployment of Diffusion LLMs.",
+        "tldr": "A confidence-aware parallel decoding strategy that selectively decodes tokens exceeding a confidence threshold, mitigating dependency violations and maintaining generation quality is proposed, closing the performance gap with autoregressive models and paving the way for practical deployment of Diffusion LLMs.",
+        "topics": [
+          "ml",
+          "ai",
+          "nlp"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-13",
+          "submitted": "2025-05-28",
+          "published": "2025-05-28"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "International Conference on Learning Representations",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 507,
+          "influential": 129,
+          "last_12_months": 262,
+          "per_month": 28.901,
+          "by_year": {
+            "2026": 252,
+            "2025": 79
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2505.22618",
+          "pdf": "https://arxiv.org/pdf/2505.22618",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-13T10:57:37.995208Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "waves",
+      "score": 0.9092,
+      "adjusted": 0.7728,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8281,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8594,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "9 citations · Published in Journal of Responsible Technology",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1016/j.jrt.2025.100132",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1016/j.jrt.2025.100132",
+          "s2": "c4d356f569d8607b6b4251d175e0d371eb127fee",
+          "openalex": "W4412999286"
+        },
+        "title": "What's left of responsible innovation after Gaza? Ecocide, epistemicide, and genocide in occupied Palestine",
+        "authors": [
+          {
+            "name": "Mario Pansera",
+            "affiliation": null
+          }
+        ],
+        "abstract": "This perspective confronts some of the foundational contradictions of Responsible Innovation (RI) through the case of Palestine's techno-colonial occupation. I argue that RI's current community risks to remain complicit in colonial violence if keep ignoring the entanglement of contemporary high-tech development with colonial oppression and dispossession. I suggest that RI's conceptual tools often fail when confronted with contexts where technological development is inseparable from ecocide, epistemicide and genocide. Building on this critique, I propose a decolonial reorientation of RI that rejects the myth of technological neutrality and instead centers old and contemporary forms of coloniality as constitutive of technoscience. This requires moving beyond ethics-washing toward material accountability for innovation's role in oppression. My fear is that the absence of a clear and widely shared position within the RI community on the genocide occurring in Gaza risks to amply and legitimise the neoliberal and colonial blindspots that characterise part of the academic production in the field. Gaza compels us to ask: can there be RI without abolition of the colonial structures that make such violence possible?",
+        "tldr": null,
+        "topics": [
+          "ai",
+          "culture"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-13",
+          "submitted": null,
+          "published": "2025-08-06"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Journal of Responsible Technology",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 9,
+          "influential": 3,
+          "last_12_months": 8,
+          "per_month": 0.59,
+          "by_year": {
+            "2026": 8,
+            "2025": 2
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1016/j.jrt.2025.100132",
+          "pdf": null,
+          "doi": "https://doi.org/10.1016/j.jrt.2025.100132",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-13T10:57:37.995208Z"
+      }
+    }
+  ]
+}
