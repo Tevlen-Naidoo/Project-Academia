@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:28:23.326391Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.11890",
+      "pick_title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+      "source": "s2",
+      "references_seen": 50,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2010.11929",
+            "ids": {
+              "arxiv": "2010.11929",
+              "doi": "10.48550/arxiv.2010.11929",
+              "s2": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+            },
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "year": 2020,
+            "venue": "International Conference on Learning Representations",
+            "citations": 74573,
+            "influential_citations": 7870,
+            "is_review": false,
+            "tldr": "Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2010.11929",
+              "pdf": "https://arxiv.org/pdf/2010.11929",
+              "doi": "https://doi.org/10.48550/arxiv.2010.11929"
+            }
+          },
+          "label": "background",
+          "score": 8.846,
+          "reasons": [
+            "Influential reference for this paper",
+            "75k citations"
+          ],
+          "quote": "DeiT III is a label-supervised training method for ViTs.",
+          "supports": [
+            "arxiv:2611.11890"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2103.00020",
+            "ids": {
+              "arxiv": "2103.00020",
+              "doi": "10.48550/arxiv.2103.00020",
+              "s2": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+            },
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 60237,
+            "influential_citations": 10978,
+            "is_review": false,
+            "tldr": "It is demonstrated that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2103.00020",
+              "pdf": "https://arxiv.org/pdf/2103.00020",
+              "doi": "https://doi.org/10.48550/arxiv.2103.00020"
+            }
+          },
+          "label": "background",
+          "score": 8.844,
+          "reasons": [
+            "Influential reference for this paper",
+            "60k citations"
+          ],
+          "quote": "D.1, we compare DeiT III (Touvron et al., 2022), CLIP (Radford et al., 2021), DINOv2 (Oquab et al., 2024) and DINOv2 with registers (Darcet et al., 2024), utilizing publicly available pretrained models.",
+          "supports": [
+            "arxiv:2611.11890"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1405.0312",
+            "ids": {
+              "arxiv": "1405.0312",
+              "doi": "10.48550/arxiv.1405.0312",
+              "s2": "71b7178df5d2b112d07e45038cb5637208659ff7"
+            },
+            "title": "Microsoft COCO: Common Objects in Context",
+            "year": 2014,
+            "venue": "European Conference on Computer Vision",
+            "citations": 57627,
+            "influential_citations": 8071,
+            "is_review": false,
+            "tldr": "A new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding by gathering images of complex everyday scenes containing common objects in their natural context.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1405.0312",
+              "pdf": "https://arxiv.org/pdf/1405.0312",
+              "doi": "https://doi.org/10.48550/arxiv.1405.0312"
+            }
+          },
+          "label": "background",
+          "score": 8.762,
+          "reasons": [
+            "Influential reference for this paper",
+            "58k citations"
+          ],
+          "quote": "We utilize COCO (Lin et al., 2014) and PASCAL VOC (Everingham et al., 2010) datasets for evaluation.",
+          "supports": [
+            "arxiv:2611.11890"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.17213",
+      "pick_title": "Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering",
+      "source": "s2",
+      "references_seen": 28,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1016/j.artint.2015.08.004",
+            "ids": {
+              "doi": "10.1016/j.artint.2015.08.004",
+              "s2": "5a0f5e2085475e86a98e560d900eef1663c8e527"
+            },
+            "title": "Coalition structure generation: A survey",
+            "year": 2015,
+            "venue": "Artificial Intelligence",
+            "citations": 209,
+            "influential_citations": 11,
+            "is_review": true,
+            "tldr": "This article surveys the main dynamic-programming approaches and anytime algorithms developed for coalition structure generation, and considers techniques specifically developed for a range of compact representation schemes for coalitional games.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5a0f5e2085475e86a98e560d900eef1663c8e527",
+              "doi": "https://doi.org/10.1016/j.artint.2015.08.004"
+            }
+          },
+          "label": "background",
+          "score": 5.897,
+          "reasons": [
+            "Influential reference for this paper",
+            "209 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "A global assignment A = { S 0 , S 1 , . . . , S μ } partitions the set of all robots R into μ + 1 teams S 0 , S 1 , . . . , S μ ⊆ R where team S j = { r i ∈ R : a i = j } contains the robots assigned to task t j for j (cid",
+          "supports": [
+            "arxiv:2611.17213"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tnn.1998.712192",
+            "ids": {
+              "doi": "10.1109/tnn.1998.712192",
+              "s2": "97efafdb4a3942ab3efba53ded7413199f79c054"
+            },
+            "title": "Reinforcement Learning: An Introduction",
+            "year": 1998,
+            "venue": "IEEE Trans. Neural Networks",
+            "citations": 47495,
+            "influential_citations": 6784,
+            "is_review": false,
+            "tldr": "This book provides a clear and simple account of the key ideas and algorithms of reinforcement learning, which ranges from the history of the field's intellectual foundations to the most recent developments and applications.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/97efafdb4a3942ab3efba53ded7413199f79c054",
+              "doi": "https://doi.org/10.1109/tnn.1998.712192"
+            }
+          },
+          "label": "background",
+          "score": 5.657,
+          "reasons": [
+            "47k citations"
+          ],
+          "quote": "Ifclusters are feasible and assignments within each cluster are optimal, then U ( A i ) ≤ U ( A i +1 ) .",
+          "supports": [
+            "arxiv:2611.17213"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/icra57147.2024.10611244",
+            "ids": {
+              "doi": "10.1109/icra57147.2024.10611244",
+              "s2": "715a365578c69d57eabd2315a54fd72a01055a41"
+            },
+            "title": "Dynamic Coalition Formation and Routing for Multirobot Task Allocation via Reinforcement Learning",
+            "year": 2024,
+            "venue": "IEEE International Conference on Robotics and Automation",
+            "citations": 22,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/715a365578c69d57eabd2315a54fd72a01055a41",
+              "doi": "https://doi.org/10.1109/icra57147.2024.10611244"
+            }
+          },
+          "label": "background",
+          "score": 4.328,
+          "reasons": [
+            "Influential reference for this paper",
+            "22 citations"
+          ],
+          "quote": "…[2], multiple drones equipped with cameras collab-oratively estimate 3D object depth with higher accuracy than lidar, in [8], aquatic robots transport terrestrial robots across water bodies to reach otherwise inaccessible goals, in [3] and [5], robot teams collaborate to carry oversized payloads.",
+          "supports": [
+            "arxiv:2611.17213"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.16612",
+      "pick_title": "Unibuc - NLP at \"Voight-Kampff\" Generative AI Detection PAN 2025",
+      "source": "s2",
+      "references_seen": 22,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:1201.0490",
+            "ids": {
+              "arxiv": "1201.0490",
+              "doi": "10.5555/1953048.2078195",
+              "s2": "ad4fd2c149f220a62441576af92a8a669fe81246"
+            },
+            "title": "Scikit-learn: Machine Learning in Python",
+            "year": 2011,
+            "venue": "Journal of machine learning research",
+            "citations": 98501,
+            "influential_citations": 9033,
+            "is_review": false,
+            "tldr": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems, focusing on bringing machine learning to non-specialists using a general-purpose high-level language.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1201.0490",
+              "pdf": "https://arxiv.org/pdf/1201.0490",
+              "doi": "https://doi.org/10.5555/1953048.2078195"
+            }
+          },
+          "label": "background",
+          "score": 8.973,
+          "reasons": [
+            "Influential reference for this paper",
+            "99k citations"
+          ],
+          "quote": "For the dataset splits and implementation for classical machine learning models (4.1) we used scikit-learn [27] 5 , xgboost 6 and lightgbm 7 whereas for LLM fine-tuning (4.2) and transformer-based embeddings combined (4.3) we used PyTorch [28] 8 .",
+          "supports": [
+            "arxiv:2611.16612"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1907.10902",
+            "ids": {
+              "arxiv": "1907.10902",
+              "doi": "10.1145/3292500.3330701",
+              "s2": "4cdf2fad22afc865999747336c7399fe422e6e8e"
+            },
+            "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+            "year": 2019,
+            "venue": "Knowledge Discovery and Data Mining",
+            "citations": 12760,
+            "influential_citations": 746,
+            "is_review": false,
+            "tldr": "New design-criteria for next-generation hyperparameter optimization software are introduced, including define-by-run API that allows users to construct the parameter search space dynamically, and easy-to-setup, versatile architecture that can be deployed for various purposes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1907.10902",
+              "pdf": "https://arxiv.org/pdf/1907.10902",
+              "doi": "https://doi.org/10.1145/3292500.3330701"
+            }
+          },
+          "label": "background",
+          "score": 7.721,
+          "reasons": [
+            "Influential reference for this paper",
+            "13k citations"
+          ],
+          "quote": "In order to find the best parameters for each of the classical models from 4.1 we did hyperparameter tuning using optuna [29] 9 and the final configuration is reported in Table 6.",
+          "supports": [
+            "arxiv:2611.16612"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s12397-015-9149-y",
+            "ids": {
+              "doi": "10.1007/s12397-015-9149-y",
+              "s2": "b744f64eec4fcc6fe62076dc5883a63f457a01bc"
+            },
+            "title": "Roberta Rosenthal Kwall: The Myth of the Cultural Jew: Culture and Law in Jewish Tradition",
+            "year": 2015,
+            "venue": "Contemporary Jewry",
+            "citations": 611,
+            "influential_citations": 33,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b744f64eec4fcc6fe62076dc5883a63f457a01bc",
+              "doi": "https://doi.org/10.1007/s12397-015-9149-y"
+            }
+          },
+          "label": "background",
+          "score": 6.495,
+          "reasons": [
+            "Influential reference for this paper",
+            "611 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "The backbone transformer model used for the last approach 4.3 is RoBERTa [31] 11 .",
+          "supports": [
+            "arxiv:2611.16612"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

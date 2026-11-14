@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:28:08.265733Z",
+  "candidates_file": "candidates/2026-11-14.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 0.9654,
+      "adjusted": 0.8206,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8448,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.2857,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "5 upvotes on Hugging Face · Accepted at NeurIPS 2026",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.11890",
+        "ids": {
+          "arxiv": "2611.11890",
+          "doi": null,
+          "s2": "3b0a7d0ace23c0b0629cf2485b23939fe9237104",
+          "openalex": "W7225701575"
+        },
+        "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+        "authors": [
+          {
+            "name": "Yuji Nozawa",
+            "affiliation": null
+          },
+          {
+            "name": "Yu-Chieh Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Youyang Ng",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring labeled data by leveraging large-scale image datasets. However, these models lack a focusing mechanism during training, resulting in perceptual representations that are often ambiguous or overly similar. In this work, we introduce two visual focusing loss functions designed to establish correspondence between the model's attention and specific regions within images. Specifically, we leverage the multi-head attention mechanism within the model to selectively steer the model's focus, leading to the emergence of spatial attention head specialization, characterized by diverse and spatially focused perceptual capabilities without requiring annotations. Through both qualitative and quantitative evaluations, we demonstrate that our method substantially increases the spatial selectivity and diversity of attention heads, improving both interpretability and performance on dense prediction tasks such as zero-shot image segmentation.",
+        "tldr": "This work introduces two visual focusing loss functions designed to establish correspondence between the model's attention and specific regions within images, leading to the emergence of spatial attention head specialization, characterized by diverse and spatially focused perceptual capabilities without requiring annotations.",
+        "topics": [
+          "vision",
+          "ml",
+          "ai",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-14",
+          "submitted": "2026-11-09",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "NeurIPS 2026",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 5,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.11890",
+          "pdf": "https://arxiv.org/pdf/2611.11890",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-14T10:24:47.121037Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "fresh",
+      "score": 0.8202,
+      "adjusted": 0.8202,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9667,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9667,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in IEEE Robotics and Automation Letters · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.17213",
+        "ids": {
+          "arxiv": "2611.17213",
+          "doi": "10.1109/LRA.2025.3632086",
+          "s2": "3e4a9c698fe8ee3321b3ff7767cca3a3b3a5bff2",
+          "openalex": "W4416343217"
+        },
+        "title": "Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering",
+        "authors": [
+          {
+            "name": "David R. Martin",
+            "affiliation": null
+          },
+          {
+            "name": "Brooks A. Butler",
+            "affiliation": null
+          },
+          {
+            "name": "Scott Nivison",
+            "affiliation": null
+          },
+          {
+            "name": "Magnus Egerstedt",
+            "affiliation": null
+          },
+          {
+            "name": "Mohammad Abdullah Al Faruque",
+            "affiliation": null
+          },
+          {
+            "name": "Pramod Khargonekar",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Multi-robot systems face the challenge of efficiently allocating teams of heterogeneous robots to tasks. The task allocation problem is complicated by collaborative interactions between robots where teams of robots develop emergent capabilities that enable them to complete tasks that would be inefficient or impossible for individual robots. To address these challenges, we present an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems. This approach partitions the computationally intractable global optimization problem into smaller, tractable subproblems by iteratively forming clusters of robots and tasks, then optimizing assignments within each cluster. By ensuring robots remain clustered with their currently assigned tasks, we guarantee monotonic improvement in overall utility with each iteration. We analyze the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm. In simulation, iterative clustering consistently outperforms simulated annealing, and a group-based auction in both computation time and solution quality, and outperforms a hedonic game approach in solution quality.",
+        "tldr": "This work presents an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems, and analyzes the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm.",
+        "topics": [
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-14",
+          "submitted": "2026-11-12",
+          "published": "2026-01-01"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Robotics and Automation Letters",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 10,
+          "influential": 1,
+          "last_12_months": 7,
+          "per_month": 0.96,
+          "by_year": {
+            "2026": 7
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.17213",
+          "pdf": "https://arxiv.org/pdf/2611.17213",
+          "doi": "https://doi.org/10.1109/LRA.2025.3632086",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-14T10:24:47.121037Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "nlp",
+      "funnel": "fresh",
+      "score": 0.8168,
+      "adjusted": 0.8168,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9444,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8889,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in Conference and Labs of the Evaluation Forum · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.16612",
+        "ids": {
+          "arxiv": "2611.16612",
+          "doi": null,
+          "s2": "e4c2ed79c79b5679c668161f2ac7a6c8a14f2caf",
+          "openalex": null
+        },
+        "title": "Unibuc - NLP at \"Voight-Kampff\" Generative AI Detection PAN 2025",
+        "authors": [
+          {
+            "name": "Teodor Marchitan",
+            "affiliation": null
+          },
+          {
+            "name": "Claudiu Creanga",
+            "affiliation": null
+          },
+          {
+            "name": "Liviu P. Dinu",
+            "affiliation": null
+          }
+        ],
+        "abstract": "This paper describes the approach of the Unibuc - NLP team in tackling the \"Voight-Kampff\" Generative AI Detection task from PAN at CLEF 2025. In the Subtask 1: Voight-Kampff AI Detection Sensitivity we have explored different approaches of leveraging embeddings extracted from LLMs, using either classical ML models or further fine-tuning LLMs with a classification head for the downstream binary classification task. Our experiments showed that using a majority vote ensemble of classical ML models (Light GBM, XGB, Logistic Regression and SVM) is comparable with fine-tuning for downstream task achieving around 99.4% F1 score. For the Subtask 2: Human-AI Collaborative Text Classification we explored a way of combining features at different layers extracted using transformer backbone with layer-wise projection and attentive pooling which proved modest results.",
+        "tldr": "The Unibuc - NLP team in tackling the Voight-Kampff Generative AI Detection task from PAN at CLEF 2025 showed that using a majority vote ensemble of classical ML models is comparable with fine-tuning for downstream task achieving around 99.4% F1 score.",
+        "topics": [
+          "nlp"
+        ],
+        "source_categories": [
+          "cs.CL"
+        ],
+        "dates": {
+          "first_seen": "2026-11-14",
+          "submitted": "2026-11-12",
+          "published": "2026-11-12"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Conference and Labs of the Evaluation Forum",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 5,
+          "influential": 1,
+          "last_12_months": null,
+          "per_month": 5.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.16612",
+          "pdf": "https://arxiv.org/pdf/2611.16612",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-14T10:24:47.121037Z"
+      }
+    }
+  ]
+}

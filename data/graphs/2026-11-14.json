@@ -1,0 +1,2251 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:28:23.326391Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.11890",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.11890",
+            "ids": {
+              "arxiv": "2611.11890",
+              "s2": "3b0a7d0ace23c0b0629cf2485b23939fe9237104",
+              "openalex": "W7225701575"
+            },
+            "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+            "year": 2026,
+            "venue": "NeurIPS 2026",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "This work introduces two visual focusing loss functions designed to establish correspondence between the model's attention and specific regions within images, leading to the emergence of spatial attention head specialization, characterized by diverse and spatially focused perceptual capabilities without requiring annotations.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.11890",
+              "pdf": "https://arxiv.org/pdf/2611.11890"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2010.11929",
+            "ids": {
+              "arxiv": "2010.11929",
+              "doi": "10.48550/arxiv.2010.11929",
+              "s2": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+            },
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "year": 2020,
+            "venue": "International Conference on Learning Representations",
+            "citations": 74573,
+            "influential_citations": 7870,
+            "is_review": false,
+            "tldr": "Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2010.11929",
+              "pdf": "https://arxiv.org/pdf/2010.11929",
+              "doi": "https://doi.org/10.48550/arxiv.2010.11929"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2103.00020",
+            "ids": {
+              "arxiv": "2103.00020",
+              "doi": "10.48550/arxiv.2103.00020",
+              "s2": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+            },
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 60237,
+            "influential_citations": 10978,
+            "is_review": false,
+            "tldr": "It is demonstrated that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2103.00020",
+              "pdf": "https://arxiv.org/pdf/2103.00020",
+              "doi": "https://doi.org/10.48550/arxiv.2103.00020"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1405.0312",
+            "ids": {
+              "arxiv": "1405.0312",
+              "doi": "10.48550/arxiv.1405.0312",
+              "s2": "71b7178df5d2b112d07e45038cb5637208659ff7"
+            },
+            "title": "Microsoft COCO: Common Objects in Context",
+            "year": 2014,
+            "venue": "European Conference on Computer Vision",
+            "citations": 57627,
+            "influential_citations": 8071,
+            "is_review": false,
+            "tldr": "A new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding by gathering images of complex everyday scenes containing common objects in their natural context.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1405.0312",
+              "pdf": "https://arxiv.org/pdf/1405.0312",
+              "doi": "https://doi.org/10.48550/arxiv.1405.0312"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1409.0575",
+            "ids": {
+              "arxiv": "1409.0575",
+              "doi": "10.1007/s11263-015-0816-y",
+              "s2": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+            },
+            "title": "ImageNet Large Scale Visual Recognition Challenge",
+            "year": 2014,
+            "venue": "International Journal of Computer Vision",
+            "citations": 44619,
+            "influential_citations": 5112,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1409.0575",
+              "pdf": "https://arxiv.org/pdf/1409.0575",
+              "doi": "https://doi.org/10.1007/s11263-015-0816-y"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11263-009-0275-4",
+            "ids": {
+              "doi": "10.1007/s11263-009-0275-4",
+              "s2": "3a9b175324ba11bc0e16c0633912d897b2fac4e2"
+            },
+            "title": "The Pascal Visual Object Classes (VOC) Challenge",
+            "year": 2010,
+            "venue": "International Journal of Computer Vision",
+            "citations": 16674,
+            "influential_citations": 1906,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3a9b175324ba11bc0e16c0633912d897b2fac4e2",
+              "doi": "https://doi.org/10.1007/s11263-009-0275-4"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.14294",
+            "ids": {
+              "arxiv": "2104.14294",
+              "doi": "10.1109/iccv48922.2021.00951",
+              "s2": "ad4a0938c48e61b7827869e4ac3baffd0aefab35"
+            },
+            "title": "Emerging Properties in Self-Supervised Vision Transformers",
+            "year": 2021,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 11049,
+            "influential_citations": 1800,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.14294",
+              "pdf": "https://arxiv.org/pdf/2104.14294",
+              "doi": "https://doi.org/10.1109/iccv48922.2021.00951"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1512.03385",
+            "ids": {
+              "arxiv": "1512.03385",
+              "doi": "10.1109/cvpr.2016.90",
+              "s2": "2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+            },
+            "title": "Deep Residual Learning for Image Recognition",
+            "year": 2015,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 247351,
+            "influential_citations": 33314,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1512.03385",
+              "pdf": "https://arxiv.org/pdf/1512.03385",
+              "doi": "https://doi.org/10.1109/cvpr.2016.90"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2309.16588",
+            "ids": {
+              "arxiv": "2309.16588",
+              "doi": "10.48550/arxiv.2309.16588",
+              "s2": "10bd38673951f5d7729568284093cbd80482ab16"
+            },
+            "title": "Vision Transformers Need Registers",
+            "year": 2023,
+            "venue": "International Conference on Learning Representations",
+            "citations": 1172,
+            "influential_citations": 152,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2309.16588",
+              "pdf": "https://arxiv.org/pdf/2309.16588",
+              "doi": "https://doi.org/10.48550/arxiv.2309.16588"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2204.07118",
+            "ids": {
+              "arxiv": "2204.07118",
+              "doi": "10.48550/arxiv.2204.07118",
+              "s2": "d2f63b56fc6bc373f5c023454c2b253326962865"
+            },
+            "title": "DeiT III: Revenge of the ViT",
+            "year": 2022,
+            "venue": "European Conference on Computer Vision",
+            "citations": 743,
+            "influential_citations": 99,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2204.07118",
+              "pdf": "https://arxiv.org/pdf/2204.07118",
+              "doi": "https://doi.org/10.48550/arxiv.2204.07118"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1409.1556",
+            "ids": {
+              "arxiv": "1409.1556",
+              "doi": "10.48550/arxiv.1409.1556",
+              "s2": "eb42cf88027de515750f230b23b1a057dc782108"
+            },
+            "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "year": 2014,
+            "venue": "International Conference on Learning Representations",
+            "citations": 116473,
+            "influential_citations": 14676,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1409.1556",
+              "pdf": "https://arxiv.org/pdf/1409.1556",
+              "doi": "https://doi.org/10.48550/arxiv.1409.1556"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2005.14165",
+            "ids": {
+              "arxiv": "2005.14165",
+              "doi": "10.48550/arxiv.2005.14165",
+              "s2": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+            },
+            "title": "Language Models are Few-Shot Learners",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 66601,
+            "influential_citations": 5646,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2005.14165",
+              "pdf": "https://arxiv.org/pdf/2005.14165",
+              "doi": "https://doi.org/10.48550/arxiv.2005.14165"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1610.02391",
+            "ids": {
+              "arxiv": "1610.02391",
+              "doi": "10.1007/s11263-019-01228-7",
+              "s2": "5582bebed97947a41e3ddd9bd1f284b73f1648c2"
+            },
+            "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+            "year": 2016,
+            "venue": "International Journal of Computer Vision",
+            "citations": 31484,
+            "influential_citations": 2709,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1610.02391",
+              "pdf": "https://arxiv.org/pdf/1610.02391",
+              "doi": "https://doi.org/10.1007/s11263-019-01228-7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.02643",
+            "ids": {
+              "arxiv": "2304.02643",
+              "doi": "10.1109/iccv51070.2023.00371",
+              "s2": "7470a1702c8c86e6f28d32cfa315381150102f5b"
+            },
+            "title": "Segment Anything",
+            "year": 2023,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 16923,
+            "influential_citations": 2213,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.02643",
+              "pdf": "https://arxiv.org/pdf/2304.02643",
+              "doi": "https://doi.org/10.1109/iccv51070.2023.00371"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1604.01685",
+            "ids": {
+              "arxiv": "1604.01685",
+              "doi": "10.1109/cvpr.2016.350",
+              "s2": "c8c494ee5488fe20e0aa01bddf3fc4632086d654"
+            },
+            "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+            "year": 2016,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 14563,
+            "influential_citations": 2628,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1604.01685",
+              "pdf": "https://arxiv.org/pdf/1604.01685",
+              "doi": "https://doi.org/10.1109/cvpr.2016.350"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11263-014-0733-5",
+            "ids": {
+              "doi": "10.1007/s11263-014-0733-5",
+              "s2": "616b246e332573af1f4859aa91440280774c183a"
+            },
+            "title": "The Pascal Visual Object Classes Challenge: A Retrospective",
+            "year": 2014,
+            "venue": "International Journal of Computer Vision",
+            "citations": 6982,
+            "influential_citations": 650,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/616b246e332573af1f4859aa91440280774c183a",
+              "doi": "https://doi.org/10.1007/s11263-014-0733-5"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "s2": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 12214,
+            "influential_citations": 1739,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2017.544",
+            "ids": {
+              "doi": "10.1109/cvpr.2017.544",
+              "s2": "2a5667702b0f1ff77dde8fb3e2e10d4e05e8de9d"
+            },
+            "title": "Scene Parsing through ADE20K Dataset",
+            "year": 2017,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 4241,
+            "influential_citations": 686,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2a5667702b0f1ff77dde8fb3e2e10d4e05e8de9d",
+              "doi": "https://doi.org/10.1109/cvpr.2017.544"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2203.12119",
+            "ids": {
+              "arxiv": "2203.12119",
+              "doi": "10.48550/arxiv.2203.12119",
+              "s2": "adb272fbdea3631059cf88ab764bb6c2ce29f965"
+            },
+            "title": "Visual Prompt Tuning",
+            "year": 2022,
+            "venue": "European Conference on Computer Vision",
+            "citations": 3052,
+            "influential_citations": 447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2203.12119",
+              "pdf": "https://arxiv.org/pdf/2203.12119",
+              "doi": "https://doi.org/10.48550/arxiv.2203.12119"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2309.16588",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2204.07118",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1610.02391",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2304.02643",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:1604.01685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "doi:10.1007/s11263-014-0733-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "doi:10.1109/cvpr.2017.544",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.11890",
+          "target": "arxiv:2203.12119",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2010.11929",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2010.11929",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.0575",
+          "target": "doi:10.1007/s11263-014-0733-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.0575",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.0575",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.0575",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.14294",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.14294",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.14294",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.14294",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.03385",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.03385",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.03385",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1512.03385",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2304.02643",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2204.07118",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2309.16588",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2204.07118",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2204.07118",
+          "target": "doi:10.1109/cvpr.2017.544",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2204.07118",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2204.07118",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2204.07118",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.1556",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.1556",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1409.1556",
+          "target": "doi:10.1007/s11263-014-0733-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1610.02391",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1610.02391",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1610.02391",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:1604.01685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.02643",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1604.01685",
+          "target": "doi:10.1007/s11263-014-0733-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1604.01685",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1604.01685",
+          "target": "arxiv:1409.1556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1604.01685",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:1604.01685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "doi:10.1109/cvpr.2017.544",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "doi:10.1007/s11263-014-0733-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2204.07118",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.07193",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/cvpr.2017.544",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/cvpr.2017.544",
+          "target": "doi:10.1007/s11263-009-0275-4",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/cvpr.2017.544",
+          "target": "arxiv:1409.0575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.12119",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.12119",
+          "target": "arxiv:2010.11929",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.12119",
+          "target": "arxiv:1512.03385",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.12119",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.17213",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.17213",
+            "ids": {
+              "arxiv": "2611.17213",
+              "doi": "10.1109/LRA.2025.3632086",
+              "s2": "3e4a9c698fe8ee3321b3ff7767cca3a3b3a5bff2",
+              "openalex": "W4416343217"
+            },
+            "title": "Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering",
+            "year": 2026,
+            "venue": "IEEE Robotics and Automation Letters",
+            "citations": 10,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "This work presents an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems, and analyzes the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.17213",
+              "pdf": "https://arxiv.org/pdf/2611.17213",
+              "doi": "https://doi.org/10.1109/LRA.2025.3632086"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.artint.2015.08.004",
+            "ids": {
+              "doi": "10.1016/j.artint.2015.08.004",
+              "s2": "5a0f5e2085475e86a98e560d900eef1663c8e527"
+            },
+            "title": "Coalition structure generation: A survey",
+            "year": 2015,
+            "venue": "Artificial Intelligence",
+            "citations": 209,
+            "influential_citations": 11,
+            "is_review": true,
+            "tldr": "This article surveys the main dynamic-programming approaches and anytime algorithms developed for coalition structure generation, and considers techniques specifically developed for a range of compact representation schemes for coalitional games.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5a0f5e2085475e86a98e560d900eef1663c8e527",
+              "doi": "https://doi.org/10.1016/j.artint.2015.08.004"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tnn.1998.712192",
+            "ids": {
+              "doi": "10.1109/tnn.1998.712192",
+              "s2": "97efafdb4a3942ab3efba53ded7413199f79c054"
+            },
+            "title": "Reinforcement Learning: An Introduction",
+            "year": 1998,
+            "venue": "IEEE Trans. Neural Networks",
+            "citations": 47495,
+            "influential_citations": 6784,
+            "is_review": false,
+            "tldr": "This book provides a clear and simple account of the key ideas and algorithms of reinforcement learning, which ranges from the history of the field's intellectual foundations to the most recent developments and applications.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/97efafdb4a3942ab3efba53ded7413199f79c054",
+              "doi": "https://doi.org/10.1109/tnn.1998.712192"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/icra57147.2024.10611244",
+            "ids": {
+              "doi": "10.1109/icra57147.2024.10611244",
+              "s2": "715a365578c69d57eabd2315a54fd72a01055a41"
+            },
+            "title": "Dynamic Coalition Formation and Routing for Multirobot Task Allocation via Reinforcement Learning",
+            "year": 2024,
+            "venue": "IEEE International Conference on Robotics and Automation",
+            "citations": 22,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/715a365578c69d57eabd2315a54fd72a01055a41",
+              "doi": "https://doi.org/10.1109/icra57147.2024.10611244"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/s0004-3702(98)00045-9",
+            "ids": {
+              "doi": "10.1016/s0004-3702(98)00045-9",
+              "s2": "57236a1873e831e2442ec4cc2106c692c35432bb"
+            },
+            "title": "Methods for Task Allocation via Agent Coalition Formation",
+            "year": 1998,
+            "venue": "Artificial Intelligence",
+            "citations": 1236,
+            "influential_citations": 104,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/57236a1873e831e2442ec4cc2106c692c35432bb",
+              "doi": "https://doi.org/10.1016/s0004-3702(98)00045-9"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.robot.2023.104492",
+            "ids": {
+              "doi": "10.1016/j.robot.2023.104492",
+              "s2": "101d586cf4895c4b54b86879bc2cd9ce29857cc7"
+            },
+            "title": "Optimization techniques for Multi-Robot Task Allocation problems: Review on the state-of-the-art",
+            "year": 2023,
+            "venue": "Robotics Auton. Syst.",
+            "citations": 252,
+            "influential_citations": 6,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/101d586cf4895c4b54b86879bc2cd9ce29857cc7",
+              "doi": "https://doi.org/10.1016/j.robot.2023.104492"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1401.3466",
+            "ids": {
+              "arxiv": "1401.3466",
+              "doi": "10.1613/jair.2695",
+              "s2": "8c6b290b1775fac3a5d833d27e6f09f6fdcad34b"
+            },
+            "title": "An Anytime Algorithm for Optimal Coalition Structure Generation",
+            "year": 2014,
+            "venue": "Journal of Artificial Intelligence Research",
+            "citations": 279,
+            "influential_citations": 28,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1401.3466",
+              "pdf": "https://arxiv.org/pdf/1401.3466",
+              "doi": "https://doi.org/10.1613/jair.2695"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.13560",
+            "ids": {
+              "arxiv": "2303.13560",
+              "doi": "10.1109/cvpr52729.2023.00892",
+              "s2": "9271147827e4b3110f810f4b629a470c3ec63889"
+            },
+            "title": "Collaboration Helps Camera Overtake LiDAR in 3D Detection",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 165,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.13560",
+              "pdf": "https://arxiv.org/pdf/2303.13560",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.00892"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1711.06871",
+            "ids": {
+              "arxiv": "1711.06871",
+              "doi": "10.1109/tro.2018.2858292",
+              "s2": "8e82640631e777c89635d5ce0a2e938c1f4cc718"
+            },
+            "title": "Anonymous Hedonic Game for Task Allocation in a Large-Scale Multiple Agent System",
+            "year": 2017,
+            "venue": "IEEE Transactions on robotics",
+            "citations": 129,
+            "influential_citations": 15,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1711.06871",
+              "pdf": "https://arxiv.org/pdf/1711.06871",
+              "doi": "https://doi.org/10.1109/tro.2018.2858292"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1805.08712",
+            "ids": {
+              "arxiv": "1805.08712",
+              "doi": "10.1109/tro.2017.2693377",
+              "s2": "8337b8fced87305b2858759692ab775739d4afb8"
+            },
+            "title": "A Distributed Version of the Hungarian Method for Multirobot Assignment",
+            "year": 2017,
+            "venue": "IEEE Transactions on robotics",
+            "citations": 173,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1805.08712",
+              "pdf": "https://arxiv.org/pdf/1805.08712",
+              "doi": "https://doi.org/10.1109/tro.2017.2693377"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2105.05586",
+            "ids": {
+              "arxiv": "2105.05586",
+              "doi": "10.48550/arxiv.2105.05586",
+              "s2": "a233483862ea34bd1a5f10829c3a92b920587ef3"
+            },
+            "title": "A Resilient and Energy-Aware Task Allocation Framework for Heterogeneous Multirobot Systems",
+            "year": 2021,
+            "venue": "IEEE Transactions on robotics",
+            "citations": 119,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2105.05586",
+              "pdf": "https://arxiv.org/pdf/2105.05586",
+              "doi": "https://doi.org/10.48550/arxiv.2105.05586"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3700591",
+            "ids": {
+              "doi": "10.1145/3700591",
+              "s2": "4eb86a1a968060a6cf36c39b5dead259504fd137"
+            },
+            "title": "A Systematic Literature Review on Multi-Robot Task Allocation",
+            "year": 2024,
+            "venue": "ACM Computing Surveys",
+            "citations": 84,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4eb86a1a968060a6cf36c39b5dead259504fd137",
+              "doi": "https://doi.org/10.1145/3700591"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tase.2022.3175040",
+            "ids": {
+              "doi": "10.1109/tase.2022.3175040",
+              "s2": "3d1d60f459aa6230640a0978076593a1ff5eb1e0"
+            },
+            "title": "Group-Based Distributed Auction Algorithms for Multi-Robot Task Assignment",
+            "year": 2023,
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "citations": 157,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3d1d60f459aa6230640a0978076593a1ff5eb1e0",
+              "doi": "https://doi.org/10.1109/tase.2022.3175040"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf02839001",
+            "ids": {
+              "doi": "10.1007/bf02839001",
+              "s2": "0f672cc558687e1fa31e2d16fd7c8a3914241d27"
+            },
+            "title": "Robotics",
+            "year": 2000,
+            "citations": 99,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0f672cc558687e1fa31e2d16fd7c8a3914241d27",
+              "doi": "https://doi.org/10.1007/bf02839001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:84d70d6f705504d41b7f126413b7f6a1b6e32068",
+            "ids": {
+              "s2": "84d70d6f705504d41b7f126413b7f6a1b6e32068"
+            },
+            "title": "A formal framework for the study of task allocation in multi-robot systems",
+            "year": 2003,
+            "citations": 80,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/84d70d6f705504d41b7f126413b7f6a1b6e32068"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.knosys.2024.111474",
+            "ids": {
+              "doi": "10.1016/j.knosys.2024.111474",
+              "s2": "0cb0ac6bf2e77c58d6de9a5c7f794d7573aaf4f1"
+            },
+            "title": "An effective collaboration evolutionary algorithm for multi-robot task allocation and scheduling in a smart farm",
+            "year": 2024,
+            "venue": "Knowledge-Based Systems",
+            "citations": 98,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0cb0ac6bf2e77c58d6de9a5c7f794d7573aaf4f1",
+              "doi": "https://doi.org/10.1016/j.knosys.2024.111474"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.robot.2022.104314",
+            "ids": {
+              "doi": "10.1016/j.robot.2022.104314",
+              "s2": "8201fc89ba87764493fa9488fe38e118a752bd7f"
+            },
+            "title": "Multi-robot task allocation clustering based on game theory",
+            "year": 2022,
+            "venue": "Robotics Auton. Syst.",
+            "citations": 86,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8201fc89ba87764493fa9488fe38e118a752bd7f",
+              "doi": "https://doi.org/10.1016/j.robot.2022.104314"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.robot.2021.103905",
+            "ids": {
+              "doi": "10.1016/j.robot.2021.103905",
+              "s2": "8977f538bd8b660f3a19782ef22e379197e82ecd"
+            },
+            "title": "Multi-robot task allocation in disaster response: Addressing dynamic tasks with deadlines and robots with range and payload constraints",
+            "year": 2021,
+            "venue": "Robotics Auton. Syst.",
+            "citations": 101,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8977f538bd8b660f3a19782ef22e379197e82ecd",
+              "doi": "https://doi.org/10.1016/j.robot.2021.103905"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.cja.2023.12.027",
+            "ids": {
+              "doi": "10.1016/j.cja.2023.12.027",
+              "s2": "ae1dbfbcbe1a65a6215b659481f92ea1c7331894"
+            },
+            "title": "Distributed dynamic task allocation for unmanned aerial vehicle swarm systems: A networked evolutionary game-theoretic approach",
+            "year": 2023,
+            "venue": "Chinese Journal of Aeronautics",
+            "citations": 80,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ae1dbfbcbe1a65a6215b659481f92ea1c7331894",
+              "doi": "https://doi.org/10.1016/j.cja.2023.12.027"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.23898",
+            "ids": {
+              "arxiv": "2603.23898",
+              "doi": "10.48550/arxiv.2603.23898",
+              "s2": "2ffc81810efa917f9bcf020e4383615bbe325839"
+            },
+            "title": "Collaboration in Multi-Robot Systems: Taxonomy and Survey over Frameworks for Collaboration",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.23898",
+              "pdf": "https://arxiv.org/pdf/2603.23898",
+              "doi": "https://doi.org/10.48550/arxiv.2603.23898"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.14300",
+            "ids": {
+              "arxiv": "2605.14300",
+              "s2": "6feabfd60027f2269741cceade0e26f3c0f1e7b5"
+            },
+            "title": "Joint Communication and Computation Design for Mobile Embodied AI Network (MEAN)",
+            "year": 2026,
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.14300",
+              "pdf": "https://arxiv.org/pdf/2605.14300"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.21723",
+            "ids": {
+              "arxiv": "2605.21723",
+              "doi": "10.48550/arxiv.2605.21723",
+              "s2": "53ce08b94eb3e48139ef98caa85a52c9c0af3a57"
+            },
+            "title": "Learning Altruistic Collaboration in Heterogeneous Multi-Team Systems",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.21723",
+              "pdf": "https://arxiv.org/pdf/2605.21723",
+              "doi": "https://doi.org/10.48550/arxiv.2605.21723"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tcyb.2026.3668425",
+            "ids": {
+              "doi": "10.1109/tcyb.2026.3668425",
+              "s2": "4519dfc4faf04e7d0caabe11d7aea53a6ee6b38d"
+            },
+            "title": "A Formal Framework for Reactive Heterogeneous Multirobot Task Allocation in Uncertain Semantic Environments",
+            "year": 2026,
+            "venue": "IEEE Transactions on Cybernetics",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4519dfc4faf04e7d0caabe11d7aea53a6ee6b38d",
+              "doi": "https://doi.org/10.1109/tcyb.2026.3668425"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.00724",
+            "ids": {
+              "arxiv": "2508.00724",
+              "doi": "10.1109/tase.2026.3730449",
+              "s2": "587d0e1bf1fec30b89c4e4bf1c6332b1c7a391e6"
+            },
+            "title": "Petri Net Modeling and Deadlock-Free Scheduling of Attachable Heterogeneous AGV Systems",
+            "year": 2025,
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.00724",
+              "pdf": "https://arxiv.org/pdf/2508.00724",
+              "doi": "https://doi.org/10.1109/tase.2026.3730449"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/s26092831",
+            "ids": {
+              "doi": "10.3390/s26092831",
+              "s2": "d3cb24e60b28d95dc1b74c33750d5f200e9d520d"
+            },
+            "title": "ACO-CLS: Ant Colony Optimization-Based Collaborative Localization and Search for Multi-Robot Systems",
+            "year": 2026,
+            "venue": "Italian National Conference on Sensors",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d3cb24e60b28d95dc1b74c33750d5f200e9d520d",
+              "doi": "https://doi.org/10.3390/s26092831"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00607-026-01743-9",
+            "ids": {
+              "doi": "10.1007/s00607-026-01743-9",
+              "s2": "db2cf8dfca657664bdfc85e5b1b4af611757856d"
+            },
+            "title": "Spatio-temporal allocation of multi-robot teams to points of interest under accuracy–makespan trade-offs",
+            "year": 2026,
+            "venue": "Computing",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/db2cf8dfca657664bdfc85e5b1b4af611757856d",
+              "doi": "https://doi.org/10.1007/s00607-026-01743-9"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/frobt.2026.1955600",
+            "ids": {
+              "doi": "10.3389/frobt.2026.1955600",
+              "s2": "e7a57f94e6a71b02bf2834fc0bf8174d6911cc56"
+            },
+            "title": "Generative real-time planning for multi-robot contingencies using deep prior-guided whale optimization",
+            "year": 2026,
+            "venue": "Frontiers in Robotics and AI",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e7a57f94e6a71b02bf2834fc0bf8174d6911cc56",
+              "doi": "https://doi.org/10.3389/frobt.2026.1955600"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/e-cargo70110.2026.11670597",
+            "ids": {
+              "doi": "10.1109/e-cargo70110.2026.11670597",
+              "s2": "4c58d4cd265e8f15933810536796221cace570e2"
+            },
+            "title": "Solving the Multi-Tasks Allocation Problem of Emergency Rescue via Group Role Assignment",
+            "year": 2026,
+            "venue": "2026 2nd International Symposium on E-CARGO and Applications (E-CARGO)",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4c58d4cd265e8f15933810536796221cace570e2",
+              "doi": "https://doi.org/10.1109/e-cargo70110.2026.11670597"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tase.2026.3739117",
+            "ids": {
+              "doi": "10.1109/tase.2026.3739117",
+              "s2": "7f79947b7c38e4341fe56785862433da8ec2c901"
+            },
+            "title": "Number Adaptive Formation Flight Planning via Affine Deformable Guidance in Narrow Environments",
+            "year": 2026,
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7f79947b7c38e4341fe56785862433da8ec2c901",
+              "doi": "https://doi.org/10.1109/tase.2026.3739117"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.artint.2015.08.004",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1109/tnn.1998.712192",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1109/icra57147.2024.10611244",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/s0004-3702(98)00045-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.robot.2023.104492",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "arxiv:1401.3466",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "arxiv:2303.13560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "arxiv:1711.06871",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "arxiv:1805.08712",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "arxiv:2105.05586",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1145/3700591",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1109/tase.2022.3175040",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1007/bf02839001",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "s2:84d70d6f705504d41b7f126413b7f6a1b6e32068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.knosys.2024.111474",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.robot.2022.104314",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.robot.2021.103905",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.17213",
+          "target": "doi:10.1016/j.cja.2023.12.027",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.23898",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.14300",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.21723",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tcyb.2026.3668425",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.00724",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/s26092831",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s00607-026-01743-9",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/frobt.2026.1955600",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/e-cargo70110.2026.11670597",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/tase.2026.3739117",
+          "target": "arxiv:2611.17213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1401.3466",
+          "target": "doi:10.1016/s0004-3702(98)00045-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.robot.2022.104314",
+          "target": "doi:10.1016/j.artint.2015.08.004",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.robot.2022.104314",
+          "target": "doi:10.1016/s0004-3702(98)00045-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.cja.2023.12.027",
+          "target": "doi:10.1109/tase.2022.3175040",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.cja.2023.12.027",
+          "target": "doi:10.1016/j.robot.2022.104314",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.cja.2023.12.027",
+          "target": "arxiv:2105.05586",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.cja.2023.12.027",
+          "target": "arxiv:1711.06871",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.23898",
+          "target": "arxiv:2605.21723",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.23898",
+          "target": "doi:10.1109/icra57147.2024.10611244",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.21723",
+          "target": "arxiv:2603.23898",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.21723",
+          "target": "arxiv:2105.05586",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/s26092831",
+          "target": "doi:10.1145/3700591",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/frobt.2026.1955600",
+          "target": "doi:10.1145/3700591",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/frobt.2026.1955600",
+          "target": "doi:10.1016/j.robot.2023.104492",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/frobt.2026.1955600",
+          "target": "doi:10.1016/j.robot.2021.103905",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/e-cargo70110.2026.11670597",
+          "target": "doi:10.1016/j.robot.2021.103905",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 10,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.16612",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.16612",
+            "ids": {
+              "arxiv": "2611.16612",
+              "s2": "e4c2ed79c79b5679c668161f2ac7a6c8a14f2caf"
+            },
+            "title": "Unibuc - NLP at \"Voight-Kampff\" Generative AI Detection PAN 2025",
+            "year": 2026,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 5,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "The Unibuc - NLP team in tackling the Voight-Kampff Generative AI Detection task from PAN at CLEF 2025 showed that using a majority vote ensemble of classical ML models is comparable with fine-tuning for downstream task achieving around 99.4% F1 score.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.16612",
+              "pdf": "https://arxiv.org/pdf/2611.16612"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1201.0490",
+            "ids": {
+              "arxiv": "1201.0490",
+              "doi": "10.5555/1953048.2078195",
+              "s2": "ad4fd2c149f220a62441576af92a8a669fe81246"
+            },
+            "title": "Scikit-learn: Machine Learning in Python",
+            "year": 2011,
+            "venue": "Journal of machine learning research",
+            "citations": 98501,
+            "influential_citations": 9033,
+            "is_review": false,
+            "tldr": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems, focusing on bringing machine learning to non-specialists using a general-purpose high-level language.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1201.0490",
+              "pdf": "https://arxiv.org/pdf/1201.0490",
+              "doi": "https://doi.org/10.5555/1953048.2078195"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1907.10902",
+            "ids": {
+              "arxiv": "1907.10902",
+              "doi": "10.1145/3292500.3330701",
+              "s2": "4cdf2fad22afc865999747336c7399fe422e6e8e"
+            },
+            "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+            "year": 2019,
+            "venue": "Knowledge Discovery and Data Mining",
+            "citations": 12760,
+            "influential_citations": 746,
+            "is_review": false,
+            "tldr": "New design-criteria for next-generation hyperparameter optimization software are introduced, including define-by-run API that allows users to construct the parameter search space dynamically, and easy-to-setup, versatile architecture that can be deployed for various purposes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1907.10902",
+              "pdf": "https://arxiv.org/pdf/1907.10902",
+              "doi": "https://doi.org/10.1145/3292500.3330701"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s12397-015-9149-y",
+            "ids": {
+              "doi": "10.1007/s12397-015-9149-y",
+              "s2": "b744f64eec4fcc6fe62076dc5883a63f457a01bc"
+            },
+            "title": "Roberta Rosenthal Kwall: The Myth of the Cultural Jew: Culture and Law in Jewish Tradition",
+            "year": 2015,
+            "venue": "Contemporary Jewry",
+            "citations": 611,
+            "influential_citations": 33,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b744f64eec4fcc6fe62076dc5883a63f457a01bc",
+              "doi": "https://doi.org/10.1007/s12397-015-9149-y"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.11156",
+            "ids": {
+              "arxiv": "2303.11156",
+              "doi": "10.48550/arxiv.2303.11156",
+              "s2": "5ee8bb4fc80a291b2e416a2a879e7153a783d7e9"
+            },
+            "title": "Can AI-Generated Text be Reliably Detected?",
+            "year": 2023,
+            "venue": "arXiv.org",
+            "citations": 702,
+            "influential_citations": 61,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.11156",
+              "pdf": "https://arxiv.org/pdf/2303.11156",
+              "doi": "https://doi.org/10.48550/arxiv.2303.11156"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2401.12070",
+            "ids": {
+              "arxiv": "2401.12070",
+              "s2": "8dafb105a0cec1956443003eeea9fcf13c0ffa99"
+            },
+            "title": "Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text",
+            "year": 2024,
+            "venue": "International Conference on Machine Learning",
+            "citations": 449,
+            "influential_citations": 102,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2401.12070",
+              "pdf": "https://arxiv.org/pdf/2401.12070"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/1015330.1015448",
+            "ids": {
+              "doi": "10.1145/1015330.1015448",
+              "s2": "3d0e59f6355243b6aa7ba0d13b357c1dd6582c84"
+            },
+            "title": "Authorship verification as a one-class classification problem",
+            "year": 2004,
+            "venue": "International Conference on Machine Learning",
+            "citations": 345,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3d0e59f6355243b6aa7ba0d13b357c1dd6582c84",
+              "doi": "https://doi.org/10.1145/1015330.1015448"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1603.02754",
+            "ids": {
+              "arxiv": "1603.02754",
+              "doi": "10.1145/2939672.2939785",
+              "s2": "26bc9195c6343e4d7f434dd65b4ad67efe2be27a"
+            },
+            "title": "XGBoost: A Scalable Tree Boosting System",
+            "year": 2016,
+            "venue": "Knowledge Discovery and Data Mining",
+            "citations": 66962,
+            "influential_citations": 4904,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1603.02754",
+              "pdf": "https://arxiv.org/pdf/1603.02754",
+              "doi": "https://doi.org/10.1145/2939672.2939785"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2109.13296",
+            "ids": {
+              "arxiv": "2109.13296",
+              "doi": "10.48550/arxiv.2109.13296",
+              "s2": "7845bfb55f5ce573b87d77bb76d4d38829b37620"
+            },
+            "title": "TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation",
+            "year": 2021,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 226,
+            "influential_citations": 18,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2109.13296",
+              "pdf": "https://arxiv.org/pdf/2109.13296",
+              "doi": "https://doi.org/10.48550/arxiv.2109.13296"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/wics.49",
+            "ids": {
+              "doi": "10.1002/wics.49",
+              "s2": "04b23f577c20d1a0e2a67aadda555f58e6d23d6e"
+            },
+            "title": "Support vector machines",
+            "year": 2008,
+            "venue": "Data Mining and Knowledge Discovery Handbook",
+            "citations": 8803,
+            "influential_citations": 1179,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/04b23f577c20d1a0e2a67aadda555f58e6d23d6e",
+              "doi": "https://doi.org/10.1002/wics.49"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2302.00560",
+            "ids": {
+              "arxiv": "2302.00560",
+              "doi": "10.1145/3544548.3581196",
+              "s2": "92999f7a304e866a2be7176e59c745481ed01042"
+            },
+            "title": "Co-Writing with Opinionated Language Models Affects Users’ Views",
+            "year": 2023,
+            "venue": "International Conference on Human Factors in Computing Systems",
+            "citations": 475,
+            "influential_citations": 18,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2302.00560",
+              "pdf": "https://arxiv.org/pdf/2302.00560",
+              "doi": "https://doi.org/10.1145/3544548.3581196"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2020.emnlp-main.673",
+            "ids": {
+              "doi": "10.18653/v1/2020.emnlp-main.673",
+              "s2": "9da9cab545bd1534a8c953bb66e611243dcee24d"
+            },
+            "title": "Authorship Attribution for Neural Text Generation",
+            "year": 2020,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 274,
+            "influential_citations": 20,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9da9cab545bd1534a8c953bb66e611243dcee24d",
+              "doi": "https://doi.org/10.18653/v1/2020.emnlp-main.673"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-031-28241-6_20",
+            "ids": {
+              "doi": "10.1007/978-3-031-28241-6_20",
+              "s2": "98e43bb4c0dbba538d4b50ae04bba7f3ac0c91e7"
+            },
+            "title": "Continuous Integration for Reproducible Shared Tasks with TIRA.io",
+            "year": 2023,
+            "venue": "European Conference on Information Retrieval",
+            "citations": 262,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/98e43bb4c0dbba538d4b50ae04bba7f3ac0c91e7",
+              "doi": "https://doi.org/10.1007/978-3-031-28241-6_20"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:bdb3e733666fbb80c31ed9eec1652ef08bcaebb7",
+            "ids": {
+              "s2": "bdb3e733666fbb80c31ed9eec1652ef08bcaebb7"
+            },
+            "title": "Overview of the \"Voight-Kampff\" Generative AI Authorship Verification Task at PAN and ELOQUENT 2025",
+            "year": 2025,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 44,
+            "influential_citations": 5,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bdb3e733666fbb80c31ed9eec1652ef08bcaebb7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:071d1c64455a10ac625181d0cc998e338a83517b",
+            "ids": {
+              "s2": "071d1c64455a10ac625181d0cc998e338a83517b"
+            },
+            "title": "Overview of the \"Voight-Kampff\" Generative AI Authorship Verification Task at PAN and ELOQUENT 2024",
+            "year": 2024,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 53,
+            "influential_citations": 3,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/071d1c64455a10ac625181d0cc998e338a83517b"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-032-04354-2_21",
+            "ids": {
+              "doi": "10.1007/978-3-032-04354-2_21",
+              "s2": "63b1031c9eef388f5230ec9b9b5030c996d25ea3"
+            },
+            "title": "Overview of PAN 2025: Voight-Kampff Generative AI Detection, Multilingual Text Detoxification, Multi-author Writing Style Analysis, and Generative Plagiarism Detection",
+            "year": 2025,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 55,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/63b1031c9eef388f5230ec9b9b5030c996d25ea3",
+              "doi": "https://doi.org/10.1007/978-3-032-04354-2_21"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2402.11175",
+            "ids": {
+              "arxiv": "2402.11175",
+              "doi": "10.48550/arxiv.2402.11175",
+              "s2": "c59628de894a4aa7f91548bad5b4103b747256e8"
+            },
+            "title": "M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection",
+            "year": 2024,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 87,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2402.11175",
+              "pdf": "https://arxiv.org/pdf/2402.11175",
+              "doi": "https://doi.org/10.48550/arxiv.2402.11175"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-031-71908-0_11",
+            "ids": {
+              "doi": "10.1007/978-3-031-71908-0_11",
+              "s2": "e8d8e46b672b6dd24690c66f47b114d7e33958c7"
+            },
+            "title": "Overview of PAN 2024: Multi-author Writing Style Analysis, Multilingual Text Detoxification, Oppositional Thinking Analysis, and Generative AI Authorship Verification Condensed Lab Overview",
+            "year": 2024,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 27,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e8d8e46b672b6dd24690c66f47b114d7e33958c7",
+              "doi": "https://doi.org/10.1007/978-3-031-71908-0_11"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3098954.3104050",
+            "ids": {
+              "doi": "10.1145/3098954.3104050",
+              "s2": "8901483ff7f69653b1437422976b87f8b86337de"
+            },
+            "title": "On the Usefulness of Compression Models for Authorship Verification",
+            "year": 2017,
+            "venue": "ARES",
+            "citations": 59,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8901483ff7f69653b1437422976b87f8b86337de",
+              "doi": "https://doi.org/10.1145/3098954.3104050"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:51281b15b0c60545c2383a3f018ea54e4b3b5f9a",
+            "ids": {
+              "s2": "51281b15b0c60545c2383a3f018ea54e4b3b5f9a"
+            },
+            "title": "Team Suspiciously Coherent at PAN 2026: We stacked two Qwens and hoped for the best",
+            "year": 2026,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 1,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/51281b15b0c60545c2383a3f018ea54e4b3b5f9a"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:cc34bcc6c04c5f46cbcfc727a6b9b98ced7e9199",
+            "ids": {
+              "s2": "cc34bcc6c04c5f46cbcfc727a6b9b98ced7e9199"
+            },
+            "title": "MiPV AI-IR at PAN 2026: Not Just Black Boxes, Interpretable AI-Generated Text Detection with Heterogeneous Signals",
+            "year": 2026,
+            "venue": "Conference and Labs of the Evaluation Forum",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cc34bcc6c04c5f46cbcfc727a6b9b98ced7e9199"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:d2e65291e3da0dfdd2cdb1b5619fd9785416d9fa",
+            "ids": {
+              "s2": "d2e65291e3da0dfdd2cdb1b5619fd9785416d9fa"
+            },
+            "title": "Overview of the 2nd “Voight-Kampff” Generative AI Authorship Verification Task at PAN and ELOQUENT 2025",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d2e65291e3da0dfdd2cdb1b5619fd9785416d9fa"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:1201.0490",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:1907.10902",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1007/s12397-015-9149-y",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:2303.11156",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:2401.12070",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1145/1015330.1015448",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:1603.02754",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:2109.13296",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1002/wics.49",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:2302.00560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.18653/v1/2020.emnlp-main.673",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1007/978-3-031-28241-6_20",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "s2:bdb3e733666fbb80c31ed9eec1652ef08bcaebb7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "s2:071d1c64455a10ac625181d0cc998e338a83517b",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1007/978-3-032-04354-2_21",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "arxiv:2402.11175",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1007/978-3-031-71908-0_11",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16612",
+          "target": "doi:10.1145/3098954.3104050",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:51281b15b0c60545c2383a3f018ea54e4b3b5f9a",
+          "target": "arxiv:2611.16612",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:cc34bcc6c04c5f46cbcfc727a6b9b98ced7e9199",
+          "target": "arxiv:2611.16612",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:d2e65291e3da0dfdd2cdb1b5619fd9785416d9fa",
+          "target": "arxiv:2611.16612",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2401.12070",
+          "target": "arxiv:2303.11156",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1603.02754",
+          "target": "arxiv:1201.0490",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2109.13296",
+          "target": "doi:10.18653/v1/2020.emnlp-main.673",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.11175",
+          "target": "doi:10.18653/v1/2020.emnlp-main.673",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.11175",
+          "target": "arxiv:2109.13296",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.11175",
+          "target": "arxiv:2401.12070",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 5,
+      "errors": []
+    }
+  ]
+}
