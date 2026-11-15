@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T10:56:08.694145Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2511.02864",
+      "pick_title": "Mathematical discovery and exploration can be done at scale",
+      "source": "openalex",
+      "references_seen": 46,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-023-06924-6",
+            "ids": {
+              "doi": "10.1038/s41586-023-06924-6",
+              "openalex": "W4389727268"
+            },
+            "title": "Mathematical discoveries from program search with large language models",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 990,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4389727268",
+              "doi": "https://doi.org/10.1038/s41586-023-06924-6"
+            }
+          },
+          "label": "background",
+          "score": 2.397,
+          "reasons": [
+            "990 citations"
+          ],
+          "supports": [
+            "arxiv:2511.02864"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-022-05172-4",
+            "ids": {
+              "doi": "10.1038/s41586-022-05172-4",
+              "openalex": "W4302010773"
+            },
+            "title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+            "year": 2022,
+            "venue": "Nature",
+            "citations": 613,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4302010773",
+              "doi": "https://doi.org/10.1038/s41586-022-05172-4"
+            }
+          },
+          "label": "background",
+          "score": 2.231,
+          "reasons": [
+            "613 citations"
+          ],
+          "supports": [
+            "arxiv:2511.02864"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-021-04086-x",
+            "ids": {
+              "doi": "10.1038/s41586-021-04086-x",
+              "openalex": "W3215285253"
+            },
+            "title": "Advancing mathematics by guiding human intuition with AI",
+            "year": 2021,
+            "venue": "Nature",
+            "citations": 551,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3215285253",
+              "doi": "https://doi.org/10.1038/s41586-021-04086-x"
+            }
+          },
+          "label": "background",
+          "score": 2.194,
+          "reasons": [
+            "551 citations"
+          ],
+          "supports": [
+            "arxiv:2511.02864"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2511.10647",
+      "pick_title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+      "source": "s2",
+      "references_seen": 114,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2406.09414",
+            "ids": {
+              "arxiv": "2406.09414",
+              "doi": "10.48550/arxiv.2406.09414",
+              "s2": "2091dcd7c80bc27ba7d1fdc0087748bb1e293e2f"
+            },
+            "title": "Depth Anything V2",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2578,
+            "influential_citations": 364,
+            "is_review": false,
+            "tldr": "This work presents Depth Anything V2, which produces much finer and more robust depth predictions through three key practices: replacing all labeled real images with synthetic images, scaling up the capacity of the teacher model, and teaching student models via the bridge of large-scale pseudo-labeled real images.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.09414",
+              "pdf": "https://arxiv.org/pdf/2406.09414",
+              "doi": "https://doi.org/10.48550/arxiv.2406.09414"
+            }
+          },
+          "label": "background",
+          "score": 7.01,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.6k citations"
+          ],
+          "quote": "To resolve this, we adopt a pseudo-labeling strategy inspired by prior works [112, 113].",
+          "supports": [
+            "arxiv:2511.10647"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2017.272",
+            "ids": {
+              "doi": "10.1109/cvpr.2017.272",
+              "s2": "1bd57b1eb2467d14461cbf5952d2d06ade81f277"
+            },
+            "title": "A Multi-view Stereo Benchmark with High-Resolution Images and Multi-camera Videos",
+            "year": 2017,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1347,
+            "influential_citations": 249,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1bd57b1eb2467d14461cbf5952d2d06ade81f277",
+              "doi": "https://doi.org/10.1109/cvpr.2017.272"
+            }
+          },
+          "label": "background",
+          "score": 6.703,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.3k citations"
+          ],
+          "quote": "We compare with state-of-the-art metric depth estimation methods, including DepthPro [7], Metric3D v2 [37], UniDepthv1 [65] and UniDepthv2 [66], on 5 benchmarks: NYUv2 [76], KITTI [25], ETH3D [72], . . . SUN-RGBD [81] and DIODE (indoor) [88].",
+          "supports": [
+            "arxiv:2511.10647"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.11417",
+            "ids": {
+              "arxiv": "2308.11417",
+              "doi": "10.1109/iccv51070.2023.00008",
+              "s2": "fc96c4a7d4708bfd6138bfd16482229975404499"
+            },
+            "title": "ScanNet++: A High-Fidelity Dataset of 3D Indoor Scenes",
+            "year": 2023,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 1035,
+            "influential_citations": 187,
+            "is_review": false,
+            "tldr": "A large-scale dataset that couples together capture of high-quality and commodity-level geometry and color of indoor scenes, and a new benchmark for 3D semantic scene understanding that comprehensively encapsulates diverse and ambiguous semantic labeling scenarios.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.11417",
+              "pdf": "https://arxiv.org/pdf/2308.11417",
+              "doi": "https://doi.org/10.1109/iccv51070.2023.00008"
+            }
+          },
+          "label": "background",
+          "score": 6.549,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.0k citations"
+          ],
+          "quote": "…Synthetic Omniobject [102] 5885 Synthetic OmniWorld [128] 1039 Synthetic PointOdyssey [127] 44 Synthetic ReplicaVMAP [83] 17 Synthetic ScanNet++ [117] 230 LiDAR ScenenetRGBD [55] 16866 Synthetic TartanAir [98] 355 Synthetic Trellis [104] 557408 Synthetic vKitti2 [9] 50 Synthetic WildRGBD [103]…",
+          "supports": [
+            "arxiv:2511.10647"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.13766",
+      "pick_title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "source": "s2",
+      "references_seen": 35,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:1711.08013",
+            "ids": {
+              "arxiv": "1711.08013",
+              "doi": "10.1007/s12532-020-00179-2",
+              "s2": "0d21f8df95227ef79d8efd2160ff103c6608592f"
+            },
+            "title": "OSQP: an operator splitting solver for quadratic programs",
+            "year": 2017,
+            "venue": "Mathematical Programming Computation",
+            "citations": 1793,
+            "influential_citations": 188,
+            "is_review": false,
+            "tldr": "This work presents a general-purpose solver for convex quadratic programs based on the alternating direction method of multipliers, employing a novel operator splitting technique that requires the solution of a quasi-definite linear system with the same coefficient matrix at almost every iteration.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1711.08013",
+              "pdf": "https://arxiv.org/pdf/1711.08013",
+              "doi": "https://doi.org/10.1007/s12532-020-00179-2"
+            }
+          },
+          "label": "background",
+          "score": 6.741,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.8k citations"
+          ],
+          "quote": "To solve (1), we employ the ADMM formulation proposed in [2].",
+          "supports": [
+            "arxiv:2611.13766"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/9781139061759",
+            "ids": {
+              "doi": "10.1017/9781139061759",
+              "s2": "54514b1bcb18402dc8e72902f097343576c0a89d"
+            },
+            "title": "Predictive Control for Linear and Hybrid Systems",
+            "year": 2017,
+            "citations": 1560,
+            "influential_citations": 225,
+            "is_review": false,
+            "tldr": "Predictive Control for Linear and Hybrid Systems is an ideal reference for graduate, postgraduate and advanced control practitioners interested in theory and/or implementation aspects of predictive control.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/54514b1bcb18402dc8e72902f097343576c0a89d",
+              "doi": "https://doi.org/10.1017/9781139061759"
+            }
+          },
+          "label": "background",
+          "score": 6.732,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.6k citations"
+          ],
+          "quote": "At each sampling instant, LMPC measures the current state ˆ x and solves the following optimal control problem (OCP) over a prediction horizon of N steps [31]: with x = { x k } Nk =0 and u = { u k } N − 1 k =0 .",
+          "supports": [
+            "arxiv:2611.13766"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1163/9789004206106_eifo_dum_dcl121",
+            "ids": {
+              "doi": "10.1163/9789004206106_eifo_dum_dcl121",
+              "s2": "a1385f17fbd3d070207941960244bfdfda250319"
+            },
+            "title": "Corporation",
+            "year": 2020,
+            "venue": "Fueling Culture",
+            "citations": 711,
+            "influential_citations": 68,
+            "is_review": false,
+            "tldr": "This article looks at market manipulations—from early scams of the 1600s to the high tech frauds of today—and asks how the game has changed and what you can do to protect yourself.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a1385f17fbd3d070207941960244bfdfda250319",
+              "doi": "https://doi.org/10.1163/9789004206106_eifo_dum_dcl121"
+            }
+          },
+          "label": "background",
+          "score": 6.201,
+          "reasons": [
+            "Influential reference for this paper",
+            "711 citations"
+          ],
+          "quote": "Successive kernels in the same stream execute in order, making kernel boundaries a standard way to synchronize all blocks between computational stages [32].",
+          "supports": [
+            "arxiv:2611.13766"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

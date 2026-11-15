@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T10:56:04.097631Z",
+  "candidates_file": "candidates/2026-11-15.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.9071,
+      "adjusted": 0.771,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9321,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.6111,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "109 citations, about 72 a month · Published in Proceedings of the National Academy of Sciences",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2511.02864",
+        "ids": {
+          "arxiv": "2511.02864",
+          "doi": "10.1073/pnas.2536158123",
+          "s2": "9761e9c0f5651200924a844d999dd802f8a2f37b",
+          "openalex": "W7214900988"
+        },
+        "title": "Mathematical discovery and exploration can be done at scale",
+        "authors": [
+          {
+            "name": "Bogdan Georgiev",
+            "affiliation": null
+          },
+          {
+            "name": "Javier Gómez-Serrano",
+            "affiliation": null
+          },
+          {
+            "name": "Terence Tao",
+            "affiliation": null
+          },
+          {
+            "name": "Adam Zsolt Wagner",
+            "affiliation": null
+          }
+        ],
+        "abstract": "AlphaEvolve, introduced in A. Novikov et al . [“AlphaEvolve: A coding agent for scientific and algorithmic discovery” (Tech. Rep., Google DeepMind, 2025).], is a generic evolutionary coding agent that combines large language models (LLMs) with automated evaluation in a loop that proposes, tests, and refines algorithmic solutions. Here we showcase AlphaEvolve as a tool for autonomously discovering novel mathematical constructions and making progress on long-standing open problems. On 67 problems spanning mathematical analysis, combinatorics, geometry, and number theory, the system rediscovered the best known solutions in most cases and improved on them in several. In some instances, it also generalized results for finitely many input values into a formula valid for all inputs. Furthermore, we combine this methodology with Deep Think [Google DeepMind, Advanced Version of Gemini with Deep Think Officially Achieves Gold-Medal Standard at the International Mathematical Olympiad (Google DeepMind Blog, 2025).] and AlphaProof [Google DeepMind, AI Achieves Silver-Medal Standard Solving International Mathematical Olympiad Problems (Google DeepMind Blog, 2024).] in a broader framework where the additional proof assistants and reasoning systems provide automated proof generation and further mathematical insights. These results demonstrate that LLM-guided evolutionary search can autonomously discover mathematical constructions that complement human intuition, at times matching or improving the best known results, and point to new modes of interaction between mathematicians and AI systems. AlphaEvolve explores vast search spaces to solve complex optimization problems at scale, often with significantly reduced preparation and computation time.",
+        "tldr": "It is demonstrated that large language model-guided evolutionary search can autonomously discover mathematical constructions that complement human intuition, at times matching or even improving the best known results, highlighting the potential for significant new ways of interaction between mathematicians and AI systems.",
+        "topics": [
+          "ml",
+          "ai",
+          "nlp",
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-15",
+          "submitted": null,
+          "published": "2026-09-30"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Proceedings of the National Academy of Sciences",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 109,
+          "influential": 15,
+          "last_12_months": 147,
+          "per_month": 72.13,
+          "by_year": {
+            "2026": 145,
+            "2025": 14
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2511.02864",
+          "pdf": "https://arxiv.org/pdf/2511.02864",
+          "doi": "https://doi.org/10.1073/pnas.2536158123",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-15T10:52:13.852450Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "waves",
+      "score": 0.784,
+      "adjusted": 0.6664,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9861,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9861,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "979 citations, about 81 a month · 214 influential citations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2511.10647",
+        "ids": {
+          "arxiv": "2511.10647",
+          "doi": null,
+          "s2": "bdc42352b968f52386fb09d1b43db9d8816fe083",
+          "openalex": "W7105740705"
+        },
+        "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+        "authors": [
+          {
+            "name": "Lin, Haotong",
+            "affiliation": null
+          },
+          {
+            "name": "Chen, Sili",
+            "affiliation": null
+          },
+          {
+            "name": "Liew, Junhao",
+            "affiliation": null
+          },
+          {
+            "name": "Chen, Donny Y.",
+            "affiliation": null
+          },
+          {
+            "name": "Li, Zhenyu",
+            "affiliation": null
+          },
+          {
+            "name": "Shi, Guang",
+            "affiliation": null
+          },
+          {
+            "name": "Feng, Jiashi",
+            "affiliation": null
+          },
+          {
+            "name": "Kang, Bingyi",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates the need for complex multi-task learning. Through our teacher-student training paradigm, the model achieves a level of detail and generalization on par with Depth Anything 2 (DA2). We establish a new visual geometry benchmark covering camera pose estimation, any-view geometry and visual rendering. On this benchmark, DA3 sets a new state-of-the-art across all tasks, surpassing prior SOTA VGGT by an average of 44.3% in camera pose accuracy and 25.1% in geometric accuracy. Moreover, it outperforms DA2 in monocular depth estimation. All models are trained exclusively on public academic datasets.",
+        "tldr": "This work presents Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses, and establishes a new visual geometry benchmark covering camera pose estimation, any-view geometry and visual rendering.",
+        "topics": [
+          "vision"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-15",
+          "submitted": "2025-11-13",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 979,
+          "influential": 214,
+          "last_12_months": 750,
+          "per_month": 81.201,
+          "by_year": {
+            "2026": 748,
+            "2025": 15
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2511.10647",
+          "pdf": "https://arxiv.org/pdf/2511.10647",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-15T10:52:13.852450Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "image-processing",
+      "funnel": "fresh",
+      "score": 0.6397,
+      "adjusted": 0.6397,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8698,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.2857,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "6 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.13766",
+        "ids": {
+          "arxiv": "2611.13766",
+          "doi": null,
+          "s2": "eeb58a760c08050fe5d72f47caa5f1fde31526e4",
+          "openalex": "W7225801741"
+        },
+        "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+        "authors": [
+          {
+            "name": "Santosh Mohan Rajkumar",
+            "affiliation": null
+          },
+          {
+            "name": "Debdipta Goswami",
+            "affiliation": null
+          },
+          {
+            "name": "Stephanie Stockar",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific timing. It probes a cached operator bank to select the initial penalty and updates operators lazily when problem matrices change. Numerical benchmarks and simulated humanoid and quadrotor control experiments demonstrate reduced latency relative to competing GPU solvers while maintaining solution accuracy and control performance.",
+        "tldr": "FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific timing to reduce latency relative to competing GPU solvers.",
+        "topics": [
+          "image-processing",
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO",
+          "cs.GR",
+          "eess.SY"
+        ],
+        "dates": {
+          "first_seen": "2026-11-15",
+          "submitted": "2026-11-10",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 6,
+          "hf_comments": 3,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.13766",
+          "pdf": "https://arxiv.org/pdf/2611.13766",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-15T10:52:13.852450Z"
+      }
+    }
+  ]
+}
