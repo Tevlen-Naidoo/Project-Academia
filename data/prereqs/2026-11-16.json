@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T11:20:36.690278Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.20885/tarbawi.vol18.iss1.art1",
+      "pick_title": "Integrating Eco-Theology In Islamic Education: A Case Study On Fostering Ecological Awareness Through Religious Pedagogy",
+      "source": "openalex",
+      "references_seen": 34,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1188/14.onf.545-547",
+            "ids": {
+              "doi": "10.1188/14.onf.545-547",
+              "openalex": "W2067652191"
+            },
+            "title": "The Use of Triangulation in Qualitative Research",
+            "year": 2014,
+            "venue": "Oncology nursing forum",
+            "citations": 5785,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2067652191",
+              "doi": "https://doi.org/10.1188/14.onf.545-547"
+            }
+          },
+          "label": "background",
+          "score": 3.01,
+          "reasons": [
+            "5.8k citations"
+          ],
+          "supports": [
+            "doi:10.20885/tarbawi.vol18.iss1.art1"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.4018/979-8-3693-3306-8",
+            "ids": {
+              "doi": "10.4018/979-8-3693-3306-8",
+              "openalex": "W4400953882"
+            },
+            "title": "Principles of Conducting Qualitative Research in Multicultural Settings",
+            "year": 2024,
+            "venue": "Advances in library and information science (ALIS) book series",
+            "citations": 216,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4400953882",
+              "doi": "https://doi.org/10.4018/979-8-3693-3306-8"
+            }
+          },
+          "label": "background",
+          "score": 1.869,
+          "reasons": [
+            "216 citations"
+          ],
+          "supports": [
+            "doi:10.20885/tarbawi.vol18.iss1.art1"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.4337/9781035317189",
+            "ids": {
+              "doi": "10.4337/9781035317189",
+              "openalex": "W4402799848"
+            },
+            "title": "Encyclopedia of Sport Management: Second Edition",
+            "year": 2024,
+            "venue": "Edward Elgar Publishing eBooks",
+            "citations": 141,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4402799848",
+              "doi": "https://doi.org/10.4337/9781035317189"
+            }
+          },
+          "label": "background",
+          "score": 1.722,
+          "reasons": [
+            "141 citations"
+          ],
+          "supports": [
+            "doi:10.20885/tarbawi.vol18.iss1.art1"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 42be50284348fc2f04a00c2c49e506344fd53f8f: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/42be50284348fc2f04a00c2c49e506344fd53f8f/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2603.20104",
+      "pick_title": "Computation and sampling for Schubert specializations",
+      "source": "s2",
+      "references_seen": 22,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "s2:e7a224b0983a2b858b89684a26cada1f3567081d",
+            "ids": {
+              "s2": "e7a224b0983a2b858b89684a26cada1f3567081d"
+            },
+            "title": "accuracy and stability of numerical algorithms",
+            "year": 1991,
+            "citations": 3017,
+            "influential_citations": 421,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e7a224b0983a2b858b89684a26cada1f3567081d"
+            }
+          },
+          "label": "background",
+          "score": 4.096,
+          "reasons": [
+            "3.0k citations"
+          ],
+          "supports": [
+            "arxiv:2603.20104"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:math/0312099",
+            "ids": {
+              "arxiv": "math/0312099",
+              "doi": "10.1007/s00440-006-0050-1",
+              "s2": "1fa66d0642095793fb753f90358cbc284629966e"
+            },
+            "title": "Gaussian free fields for mathematicians",
+            "year": 2003,
+            "citations": 525,
+            "influential_citations": 30,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math/0312099",
+              "pdf": "https://arxiv.org/pdf/math/0312099",
+              "doi": "https://doi.org/10.1007/s00440-006-0050-1"
+            }
+          },
+          "label": "background",
+          "score": 3.422,
+          "reasons": [
+            "525 citations",
+            "Survey: a good entry point"
+          ],
+          "supports": [
+            "arxiv:2603.20104"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/10586458.1993.10504567",
+            "ids": {
+              "doi": "10.1080/10586458.1993.10504567",
+              "s2": "2bec46572f73a7c76c55c7df7131ecf14c10a49a"
+            },
+            "title": "RC-Graphs and Schubert Polynomials",
+            "year": 1993,
+            "venue": "Experimental Mathematics",
+            "citations": 270,
+            "influential_citations": 51,
+            "is_review": false,
+            "tldr": "A new set of diagrams that encode the Schubert polynomials are introduced using a formula of Billey, Jockusch and Stanley, Fomin and Kirillov and a new proof of Monk’s rule is given using an insertion algorithm on rc-graphs.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2bec46572f73a7c76c55c7df7131ecf14c10a49a",
+              "doi": "https://doi.org/10.1080/10586458.1993.10504567"
+            }
+          },
+          "label": "background",
+          "score": 2.804,
+          "reasons": [
+            "270 citations"
+          ],
+          "supports": [
+            "arxiv:2603.20104"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2607.04434",
+      "pick_title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "source": "s2",
+      "references_seen": 66,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2506.18088",
+            "ids": {
+              "arxiv": "2506.18088",
+              "doi": "10.48550/arxiv.2506.18088",
+              "s2": "1002f84d1b487e49d3bc2d353dfb77e1495d3c58"
+            },
+            "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 758,
+            "influential_citations": 353,
+            "is_review": false,
+            "tldr": "An expert data synthesis pipeline that leverages multimodal language models (MLLMs) and simulation-in-the-loop refinement to automatically generate task-level execution code and highlights the effectiveness of RoboTwin 2.0 in strengthening sim-to-real transfer and robustness to environmental variations.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.18088",
+              "pdf": "https://arxiv.org/pdf/2506.18088",
+              "doi": "https://doi.org/10.48550/arxiv.2506.18088"
+            }
+          },
+          "label": "background",
+          "score": 6.579,
+          "reasons": [
+            "Influential reference for this paper",
+            "758 citations"
+          ],
+          "quote": "…long-horizon manipulation; LIBERO (Liu et al., 2023) studies lifelong learning across spatial, object, goal, and long-horizon suites; RoboTwin (Chen et al., 2025a) evaluates bimanual manipulation and generalization under structured domain randomization; RMBench (Chen et al., 2026b) targets…",
+          "supports": [
+            "arxiv:2607.04434"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.02456",
+            "ids": {
+              "arxiv": "2601.02456",
+              "doi": "10.48550/arxiv.2601.02456",
+              "s2": "14a08f3dc790992872957a2fe71d56e3a58b996e"
+            },
+            "title": "InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 69,
+            "influential_citations": 13,
+            "is_review": false,
+            "tldr": "This model employs a unified Mixture-of-Transformers architecture, coordinating three experts for scene understanding, visual foresight generation, and action execution, which shows that InternVLA-A1 consistently outperforms prior leading models.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.02456",
+              "pdf": "https://arxiv.org/pdf/2601.02456",
+              "doi": "https://doi.org/10.48550/arxiv.2601.02456"
+            }
+          },
+          "label": "background",
+          "score": 5.049,
+          "reasons": [
+            "Influential reference for this paper",
+            "69 citations"
+          ],
+          "quote": "Inspired by RMBench (Chen et al., 2026b), the Memory dimension includes 6 tasks that evaluate long-context observation modeling, key-frame memory, and non-Markovian decision making.",
+          "supports": [
+            "arxiv:2607.04434"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.04137",
+            "ids": {
+              "arxiv": "2303.04137",
+              "doi": "10.1177/02783649241273668",
+              "s2": "bdba3bd30a49ea4c5b20b43dbd8f0eb59e9d80e2"
+            },
+            "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+            "year": 2023,
+            "venue": "Robotics: Science and Systems Conference",
+            "citations": 5173,
+            "influential_citations": 956,
+            "is_review": false,
+            "tldr": "This paper introduces Diffusion Policy, a new way of generating robot behavior by representing a robot’s visuomotor policy as a conditional denoising diffusion process that consistently outperforms existing state-of-the-art robot learning methods.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.04137",
+              "pdf": "https://arxiv.org/pdf/2303.04137",
+              "doi": "https://doi.org/10.1177/02783649241273668"
+            }
+          },
+          "label": "background",
+          "score": 4.462,
+          "reasons": [
+            "5.2k citations"
+          ],
+          "supports": [
+            "arxiv:2607.04434"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

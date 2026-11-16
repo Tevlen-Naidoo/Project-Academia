@@ -1,0 +1,2379 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T11:20:36.690278Z",
+  "graphs": [
+    {
+      "pick_id": "doi:10.20885/tarbawi.vol18.iss1.art1",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.20885/tarbawi.vol18.iss1.art1",
+            "ids": {
+              "doi": "10.20885/tarbawi.vol18.iss1.art1",
+              "s2": "42be50284348fc2f04a00c2c49e506344fd53f8f",
+              "openalex": "W4415167332"
+            },
+            "title": "Integrating Eco-Theology In Islamic Education: A Case Study On Fostering Ecological Awareness Through Religious Pedagogy",
+            "year": 2025,
+            "venue": "el-Tarbawi",
+            "citations": 27,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://doi.org/10.20885/tarbawi.vol18.iss1.art1",
+              "doi": "https://doi.org/10.20885/tarbawi.vol18.iss1.art1"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1188/14.onf.545-547",
+            "ids": {
+              "doi": "10.1188/14.onf.545-547",
+              "openalex": "W2067652191"
+            },
+            "title": "The Use of Triangulation in Qualitative Research",
+            "year": 2014,
+            "venue": "Oncology nursing forum",
+            "citations": 5785,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2067652191",
+              "doi": "https://doi.org/10.1188/14.onf.545-547"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4018/979-8-3693-3306-8",
+            "ids": {
+              "doi": "10.4018/979-8-3693-3306-8",
+              "openalex": "W4400953882"
+            },
+            "title": "Principles of Conducting Qualitative Research in Multicultural Settings",
+            "year": 2024,
+            "venue": "Advances in library and information science (ALIS) book series",
+            "citations": 216,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4400953882",
+              "doi": "https://doi.org/10.4018/979-8-3693-3306-8"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4337/9781035317189",
+            "ids": {
+              "doi": "10.4337/9781035317189",
+              "openalex": "W4402799848"
+            },
+            "title": "Encyclopedia of Sport Management: Second Edition",
+            "year": 2024,
+            "venue": "Edward Elgar Publishing eBooks",
+            "citations": 141,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4402799848",
+              "doi": "https://doi.org/10.4337/9781035317189"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/berj.3816",
+            "ids": {
+              "doi": "10.1002/berj.3816",
+              "openalex": "W4282938177"
+            },
+            "title": "Putting climate change at the heart of education: Is England's strategy a placebo for policy?",
+            "year": 2022,
+            "venue": "British Educational Research Journal",
+            "citations": 118,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4282938177",
+              "doi": "https://doi.org/10.1002/berj.3816"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11217-013-9387-y",
+            "ids": {
+              "doi": "10.1007/s11217-013-9387-y",
+              "openalex": "W2030037517"
+            },
+            "title": "Islamic Education, Eco-ethics and Community",
+            "year": 2013,
+            "venue": "Studies in Philosophy and Education",
+            "citations": 104,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2030037517",
+              "doi": "https://doi.org/10.1007/s11217-013-9387-y"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.21315/aamj2022.27.2.10",
+            "ids": {
+              "doi": "10.21315/aamj2022.27.2.10",
+              "openalex": "W4311717115"
+            },
+            "title": "Environmental sustainability and contemporary Islamic society: A Shariah perspective",
+            "year": 2022,
+            "venue": "Asian Academy of Management Journal",
+            "citations": 92,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4311717115",
+              "doi": "https://doi.org/10.21315/aamj2022.27.2.10"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/su16093562",
+            "ids": {
+              "doi": "10.3390/su16093562",
+              "openalex": "W4395110690"
+            },
+            "title": "Values-Based Education for Sustainable Development (VbESD): Introducing a Pedagogical Framework for Education for Sustainable Development (ESD) Using a Values-Based Education (VbE) Approach",
+            "year": 2024,
+            "venue": "Sustainability",
+            "citations": 73,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4395110690",
+              "doi": "https://doi.org/10.3390/su16093562"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1755-1315/156/1/012035",
+            "ids": {
+              "doi": "10.1088/1755-1315/156/1/012035",
+              "openalex": "W2805656448"
+            },
+            "title": "Islamic Education on Formation of Environmental Awareness in Pondok Pesantren Indonesia",
+            "year": 2018,
+            "venue": "IOP Conference Series Earth and Environmental Science",
+            "citations": 60,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2805656448",
+              "doi": "https://doi.org/10.1088/1755-1315/156/1/012035"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/e3sconf/202448204014",
+            "ids": {
+              "doi": "10.1051/e3sconf/202448204014",
+              "openalex": "W4391318373"
+            },
+            "title": "Environmental Education through Islamic Lens: Values and Practices",
+            "year": 2024,
+            "venue": "E3S Web of Conferences",
+            "citations": 53,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4391318373",
+              "doi": "https://doi.org/10.1051/e3sconf/202448204014"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.15575/jpi.v9i2.29347",
+            "ids": {
+              "doi": "10.15575/jpi.v9i2.29347",
+              "openalex": "W4390685506"
+            },
+            "title": "Ecopedagogy in Action: An Ethnographic Exploration of Environmental Preservation Strategies in Pesantren",
+            "year": 2023,
+            "venue": "Jurnal Pendidikan Islam",
+            "citations": 51,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4390685506",
+              "doi": "https://doi.org/10.15575/jpi.v9i2.29347"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.24857/rgsa.v18n8-047",
+            "ids": {
+              "doi": "10.24857/rgsa.v18n8-047",
+              "openalex": "W4394963579"
+            },
+            "title": "Prophetic Approach in Environmental Education and Community Empowerment: A Case Study of Sustainable Pesantren Development",
+            "year": 2024,
+            "venue": "Revista de Gestão Social e Ambiental",
+            "citations": 50,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4394963579",
+              "doi": "https://doi.org/10.24857/rgsa.v18n8-047"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.36681/tused.2023.028",
+            "ids": {
+              "doi": "10.36681/tused.2023.028",
+              "openalex": "W4387369657"
+            },
+            "title": "Curriculum development for environmental education at an Islamic boarding school",
+            "year": 2023,
+            "venue": "Journal of Turkish Science Education",
+            "citations": 49,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4387369657",
+              "doi": "https://doi.org/10.36681/tused.2023.028"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.21697/seb.5821",
+            "ids": {
+              "doi": "10.21697/seb.5821",
+              "openalex": "W4400663016"
+            },
+            "title": "Freedom that is not Absolute: Ecological Ethics and Human-Nature Relationship in the Qur'an",
+            "year": 2024,
+            "venue": "Studia Ecologiae et Bioethicae",
+            "citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4400663016",
+              "doi": "https://doi.org/10.21697/seb.5821"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.15575/jpi.v10i1.35204",
+            "ids": {
+              "doi": "10.15575/jpi.v10i1.35204",
+              "openalex": "W4400218929"
+            },
+            "title": "Integrating Problem-Based and Flipped Learning in Islamic Religious Education: A Pathway to Achieving Sustainable Development Goals",
+            "year": 2024,
+            "venue": "Jurnal Pendidikan Islam",
+            "citations": 38,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4400218929",
+              "doi": "https://doi.org/10.15575/jpi.v10i1.35204"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.24090/volksgeist.v7i2.12205",
+            "ids": {
+              "doi": "10.24090/volksgeist.v7i2.12205",
+              "openalex": "W4405393054"
+            },
+            "title": "Islamic Environmental Stewardship: A Sociological Approach to Hadith and Legal Frameworks for Ecological Responsibility",
+            "year": 2024,
+            "venue": "Volksgeist Jurnal Ilmu Hukum dan Konstitusi",
+            "citations": 35,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4405393054",
+              "doi": "https://doi.org/10.24090/volksgeist.v7i2.12205"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.17509/ijost.v9i3.74385",
+            "ids": {
+              "doi": "10.17509/ijost.v9i3.74385",
+              "openalex": "W4407111458"
+            },
+            "title": "Assessment of Student Awareness and Application of Eco-Friendly Curriculum and Technologies in Indonesian Higher Education for Supporting Sustainable Development Goals (SDGs): A Case Study on Environmental Challenges",
+            "year": 2024,
+            "venue": "Indonesian Journal of Science and Technology",
+            "citations": 35,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4407111458",
+              "doi": "https://doi.org/10.17509/ijost.v9i3.74385"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52541/isiri.v60i2.1438",
+            "ids": {
+              "doi": "10.52541/isiri.v60i2.1438",
+              "openalex": "W3186506905"
+            },
+            "title": "Islam and Environmental Ethics: A Qur’ānic Approach",
+            "year": 2021,
+            "venue": "ISLAMIC STUDIES",
+            "citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3186506905",
+              "doi": "https://doi.org/10.52541/isiri.v60i2.1438"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4324/9781003193432-4",
+            "ids": {
+              "doi": "10.4324/9781003193432-4",
+              "openalex": "W4211086710"
+            },
+            "title": "Environmental Education and Indonesia's Traditional Islamic Boarding Schools",
+            "year": 2022,
+            "venue": "Routledge eBooks",
+            "citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4211086710",
+              "doi": "https://doi.org/10.4324/9781003193432-4"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.22373/jie.v8i2.34136",
+            "ids": {
+              "doi": "10.22373/jie.v8i2.34136",
+              "s2": "57d333a3aa4f84d7a74b8ebf06defe0fb0b4a0be"
+            },
+            "title": "Integrating Ecotheology into Islamic Religious Education: A Systematic Literature Review on Students’ Spiritual, Social, and Cognitive Character Development",
+            "year": 2025,
+            "venue": "DAYAH: Journal of Islamic Education",
+            "citations": 16,
+            "influential_citations": 4,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/57d333a3aa4f84d7a74b8ebf06defe0fb0b4a0be",
+              "doi": "https://doi.org/10.22373/jie.v8i2.34136"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.21697/seb.5894",
+            "ids": {
+              "doi": "10.21697/seb.5894",
+              "s2": "888e0b32958ce02d486bbf2429928d3dd3e12d50"
+            },
+            "title": "Eco-pesantren in Indonesia: A Faith-Based Sustainability Education Model Integrating Islamic Environmental Ethics and Institutional Practices",
+            "year": 2026,
+            "venue": "Studia Ecologiae et Bioethicae",
+            "citations": 6,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/888e0b32958ce02d486bbf2429928d3dd3e12d50",
+              "doi": "https://doi.org/10.21697/seb.5894"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.61815/khazanah.v1i2.870",
+            "ids": {
+              "doi": "10.61815/khazanah.v1i2.870",
+              "s2": "a27c19c8a8caf52e904a62ca7cd5975e3f670f86"
+            },
+            "title": "Integration of Environmental Theology in an Integrative Science Curriculum to Build Ecological Literacy among Muslim Students",
+            "year": 2025,
+            "venue": "Khazanah",
+            "citations": 4,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a27c19c8a8caf52e904a62ca7cd5975e3f670f86",
+              "doi": "https://doi.org/10.61815/khazanah.v1i2.870"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.24256/jiis.v6i1.12093",
+            "ids": {
+              "doi": "10.24256/jiis.v6i1.12093",
+              "s2": "29f06747861db07e10bd7fa1a710f0893fe26c7f"
+            },
+            "title": "Integrating Ecotheological Values to Strengthen Ecological Awareness in Aqidah Akhlak Learning",
+            "year": 2026,
+            "venue": "Journal of Indonesian Islamic Studies",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/29f06747861db07e10bd7fa1a710f0893fe26c7f",
+              "doi": "https://doi.org/10.24256/jiis.v6i1.12093"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.14421/jpi.2026.151.149-164",
+            "ids": {
+              "doi": "10.14421/jpi.2026.151.149-164",
+              "s2": "a27d66ed307539bf091d63ca019e410defe2b8fd"
+            },
+            "title": "Eco-Theology-Based Al-Islam and Kemuhammadiyahan Teaching Materials: A Mixed-Methods Needs Analysis at Universitas Muhammadiyah Mataram",
+            "year": 2026,
+            "venue": "Jurnal Pendidikan Islam",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a27d66ed307539bf091d63ca019e410defe2b8fd",
+              "doi": "https://doi.org/10.14421/jpi.2026.151.149-164"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.65793/j.j.khazanah-tarbawi.2026.106",
+            "ids": {
+              "doi": "10.65793/j.j.khazanah-tarbawi.2026.106",
+              "s2": "8069e9de8823889dd81cd11f2ecf8b3abe6b035a"
+            },
+            "title": "Reframing Islamic Ecology as a Transformative Ethical Paradigm: Khalīfah, Tawḥīd, Mīzān, and the Global Ecological Crisis",
+            "year": 2026,
+            "venue": "Jurnal Pendidikan Islam",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8069e9de8823889dd81cd11f2ecf8b3abe6b035a",
+              "doi": "https://doi.org/10.65793/j.j.khazanah-tarbawi.2026.106"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.32332/an-nabighoh.v28i1.145-170",
+            "ids": {
+              "doi": "10.32332/an-nabighoh.v28i1.145-170",
+              "s2": "0eb7919a4e1170e2e50e70080da4eb31c4f8f737"
+            },
+            "title": "Paperless Arabic Language Learning: Integrating Ecotheology, Bilingual Education, and the Love-Based Curriculum in Madrasah",
+            "year": 2026,
+            "venue": "An Nabighoh",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0eb7919a4e1170e2e50e70080da4eb31c4f8f737",
+              "doi": "https://doi.org/10.32332/an-nabighoh.v28i1.145-170"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52366/edusoshum.v6i1.351",
+            "ids": {
+              "doi": "10.52366/edusoshum.v6i1.351",
+              "s2": "c2bef582966534f0adca63397b904573ae41f771"
+            },
+            "title": "Advancing Eco-theology in Islamic Educational Framework: A Systematic Review of Indonesian Research Landscape",
+            "year": 2026,
+            "venue": "EDUSOSHUM Journal of Islamic Education and Social Humanities",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c2bef582966534f0adca63397b904573ae41f771",
+              "doi": "https://doi.org/10.52366/edusoshum.v6i1.351"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.24042/tadris.v10i1.26758",
+            "ids": {
+              "doi": "10.24042/tadris.v10i1.26758",
+              "s2": "98ec110b29188e9602cdc1c69c15ca98d406248f"
+            },
+            "title": "Perception on Building Cultural Responsiveness through ‎the Synergy of Maqasid al-Shariah and Rahmatan Lil ‎‎'Alamin in Islamic Academia",
+            "year": 2025,
+            "venue": "Tadris: Jurnal Keguruan dan Ilmu Tarbiyah",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/98ec110b29188e9602cdc1c69c15ca98d406248f",
+              "doi": "https://doi.org/10.24042/tadris.v10i1.26758"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.37251/jpaii.v7i5.3915",
+            "ids": {
+              "doi": "10.37251/jpaii.v7i5.3915",
+              "s2": "2ea4db62d235057f83e9afc4f5a88cce2ad7039e"
+            },
+            "title": "Tri-Axis Model of Eco-Theology Integration in Islamic Religious Education: A Case Study of a Pesantren-Based Islamic Junior High School",
+            "year": 2026,
+            "venue": "Jurnal Pendidikan Agama Islam Indonesia (JPAII)",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2ea4db62d235057f83e9afc4f5a88cce2ad7039e",
+              "doi": "https://doi.org/10.37251/jpaii.v7i5.3915"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.1188/14.onf.545-547",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.4018/979-8-3693-3306-8",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.4337/9781035317189",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.1002/berj.3816",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.1007/s11217-013-9387-y",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.21315/aamj2022.27.2.10",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.3390/su16093562",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.1088/1755-1315/156/1/012035",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.1051/e3sconf/202448204014",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.15575/jpi.v9i2.29347",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.24857/rgsa.v18n8-047",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.36681/tused.2023.028",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.21697/seb.5821",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.15575/jpi.v10i1.35204",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.24090/volksgeist.v7i2.12205",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.17509/ijost.v9i3.74385",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.52541/isiri.v60i2.1438",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "target": "doi:10.4324/9781003193432-4",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.22373/jie.v8i2.34136",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.21697/seb.5894",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.61815/khazanah.v1i2.870",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.24256/jiis.v6i1.12093",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.14421/jpi.2026.151.149-164",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.65793/j.j.khazanah-tarbawi.2026.106",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.32332/an-nabighoh.v28i1.145-170",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.52366/edusoshum.v6i1.351",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.24042/tadris.v10i1.26758",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.37251/jpaii.v7i5.3915",
+          "target": "doi:10.20885/tarbawi.vol18.iss1.art1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.24256/jiis.v6i1.12093",
+          "target": "doi:10.22373/jie.v8i2.34136",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.32332/an-nabighoh.v28i1.145-170",
+          "target": "doi:10.22373/jie.v8i2.34136",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.37251/jpaii.v7i5.3915",
+          "target": "doi:10.22373/jie.v8i2.34136",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 27,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2603.20104",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2603.20104",
+            "ids": {
+              "arxiv": "2603.20104",
+              "doi": "10.1073/pnas.2615757123",
+              "s2": "4ce3769d8e9abc07f2d1f1b1a71f7a4b6fe475ed",
+              "openalex": "W7140145270"
+            },
+            "title": "Computation and sampling for Schubert specializations",
+            "year": 2026,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "citations": 7,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "It is shown that reducedness breaks the sublattice property of the ASM lattice, preventing monotone CFTP and causing false coalescence, and an efficient MCMC sampler with macroscopic \"droop\" updates for connectivity and fast mixing is developed.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.20104",
+              "pdf": "https://arxiv.org/pdf/2603.20104",
+              "doi": "https://doi.org/10.1073/pnas.2615757123"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "s2:e7a224b0983a2b858b89684a26cada1f3567081d",
+            "ids": {
+              "s2": "e7a224b0983a2b858b89684a26cada1f3567081d"
+            },
+            "title": "accuracy and stability of numerical algorithms",
+            "year": 1991,
+            "citations": 3017,
+            "influential_citations": 421,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e7a224b0983a2b858b89684a26cada1f3567081d"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:math/0312099",
+            "ids": {
+              "arxiv": "math/0312099",
+              "doi": "10.1007/s00440-006-0050-1",
+              "s2": "1fa66d0642095793fb753f90358cbc284629966e"
+            },
+            "title": "Gaussian free fields for mathematicians",
+            "year": 2003,
+            "citations": 525,
+            "influential_citations": 30,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math/0312099",
+              "pdf": "https://arxiv.org/pdf/math/0312099",
+              "doi": "https://doi.org/10.1007/s00440-006-0050-1"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/10586458.1993.10504567",
+            "ids": {
+              "doi": "10.1080/10586458.1993.10504567",
+              "s2": "2bec46572f73a7c76c55c7df7131ecf14c10a49a"
+            },
+            "title": "RC-Graphs and Schubert Polynomials",
+            "year": 1993,
+            "venue": "Experimental Mathematics",
+            "citations": 270,
+            "influential_citations": 51,
+            "is_review": false,
+            "tldr": "A new set of diagrams that encode the Schubert polynomials are introduced using a formula of Billey, Jockusch and Stanley, Fomin and Kirillov and a new proof of Monk’s rule is given using an insertion algorithm on rc-graphs.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2bec46572f73a7c76c55c7df7131ecf14c10a49a",
+              "doi": "https://doi.org/10.1080/10586458.1993.10504567"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-023-06924-6",
+            "ids": {
+              "doi": "10.1038/s41586-023-06924-6",
+              "s2": "d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3"
+            },
+            "title": "Mathematical discoveries from program search with large language models",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 1633,
+            "influential_citations": 68,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3",
+              "doi": "https://doi.org/10.1038/s41586-023-06924-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/aima.1994.1009",
+            "ids": {
+              "doi": "10.1006/aima.1994.1009",
+              "s2": "f007094ebd8bae3c70af9486f1d630fccce6bb31"
+            },
+            "title": "Schubert Polynomials and the Nilcoxeter Algebra",
+            "year": 1994,
+            "citations": 219,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f007094ebd8bae3c70af9486f1d630fccce6bb31",
+              "doi": "https://doi.org/10.1006/aima.1994.1009"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1103.5844",
+            "ids": {
+              "arxiv": "1103.5844",
+              "doi": "10.1016/j.jctb.2012.09.003",
+              "s2": "bf4b38d0e7811ca2f89e1ec2f7b25fe475f68503"
+            },
+            "title": "Limits of permutation sequences",
+            "year": 2011,
+            "venue": "J. Comb. Theory B",
+            "citations": 161,
+            "influential_citations": 37,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1103.5844",
+              "pdf": "https://arxiv.org/pdf/1103.5844",
+              "doi": "https://doi.org/10.1016/j.jctb.2012.09.003"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:math-ph/0002027",
+            "ids": {
+              "arxiv": "math-ph/0002027",
+              "doi": "10.1214/aop/1015345599",
+              "s2": "229c6c96ac72f39669672d24870ee08b0c64930a"
+            },
+            "title": "Dominos and the Gaussian Free Field",
+            "year": 2000,
+            "citations": 274,
+            "influential_citations": 15,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math-ph/0002027",
+              "pdf": "https://arxiv.org/pdf/math-ph/0002027",
+              "doi": "https://doi.org/10.1214/aop/1015345599"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/mana.19780830111",
+            "ids": {
+              "doi": "10.1002/mana.19780830111",
+              "s2": "2cc9939a8a936eea0863c6236691b024e81b3de8"
+            },
+            "title": "Major Index and Inversion Number of Permutations",
+            "year": 1978,
+            "citations": 183,
+            "influential_citations": 19,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2cc9939a8a936eea0863c6236691b024e81b3de8",
+              "doi": "https://doi.org/10.1002/mana.19780830111"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:math/9801068",
+            "ids": {
+              "arxiv": "math/9801068",
+              "doi": "10.4171/aihpd/233",
+              "s2": "eff3713a4e8bb85fcc01bcd671498681a61a8153"
+            },
+            "title": "Random domino tilings and the arctic circle theorem",
+            "year": 1998,
+            "venue": "Annales de l’Institut Henri Poincaré D, Combinatorics, Physics and their Interactions",
+            "citations": 191,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math/9801068",
+              "pdf": "https://arxiv.org/pdf/math/9801068",
+              "doi": "https://doi.org/10.4171/aihpd/233"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:0905.0679",
+            "ids": {
+              "arxiv": "0905.0679",
+              "doi": "10.1007/s00029-010-0034-y",
+              "s2": "6f74eea77a6956581f39feaf50468f74364b5bcb"
+            },
+            "title": "q-Distributions on boxed plane partitions",
+            "year": 2009,
+            "citations": 113,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/0905.0679",
+              "pdf": "https://arxiv.org/pdf/0905.0679",
+              "doi": "https://doi.org/10.1007/s00029-010-0034-y"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2003.07342",
+            "ids": {
+              "arxiv": "2003.07342",
+              "doi": "10.1016/j.jcta.2021.105470",
+              "s2": "47dfc5098143a2a2fec0d2658df8a8995b6899b3"
+            },
+            "title": "Bumpless pipe dreams and alternating sign matrices",
+            "year": 2020,
+            "venue": "Journal of Combinatorial Theory",
+            "citations": 71,
+            "influential_citations": 15,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2003.07342",
+              "pdf": "https://arxiv.org/pdf/2003.07342",
+              "doi": "https://doi.org/10.1016/j.jcta.2021.105470"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:0907.1264",
+            "ids": {
+              "arxiv": "0907.1264",
+              "doi": "10.1088/1742-5468/2010/03/l03002",
+              "s2": "a2be8785cf396b64a20043e813c8d8e1c632ec56"
+            },
+            "title": "The arctic curve of the domain wall six-vertex model in its antiferroelectric regime",
+            "year": 2009,
+            "citations": 104,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/0907.1264",
+              "pdf": "https://arxiv.org/pdf/0907.1264",
+              "doi": "https://doi.org/10.1088/1742-5468/2010/03/l03002"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1604.01110",
+            "ids": {
+              "arxiv": "1604.01110",
+              "doi": "10.1016/j.aim.2018.07.009",
+              "s2": "a06f615bf23f71abddf9a92578f7c785c825b832"
+            },
+            "title": "Fluctuations of particle systems determined by Schur generating functions",
+            "year": 2016,
+            "venue": "Advances in Mathematics",
+            "citations": 74,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1604.01110",
+              "pdf": "https://arxiv.org/pdf/1604.01110",
+              "doi": "https://doi.org/10.1016/j.aim.2018.07.009"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2206.12153",
+            "ids": {
+              "arxiv": "2206.12153",
+              "doi": "10.1007/s00184-023-00908-2",
+              "s2": "f510fbba374eb7d4b2e78bfc724ad315cd871bfc"
+            },
+            "title": "Ranks, copulas, and permutons",
+            "year": 2022,
+            "venue": "Metrika (Heidelberg)",
+            "citations": 14,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2206.12153",
+              "pdf": "https://arxiv.org/pdf/2206.12153",
+              "doi": "https://doi.org/10.1007/s00184-023-00908-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1812.03847",
+            "ids": {
+              "arxiv": "1812.03847",
+              "doi": "10.1007/s00222-019-00938-6",
+              "s2": "c3d3f7eefb1f07ab25eaf9c5e01a973eb5413911"
+            },
+            "title": "Arctic boundaries of the ice model on three-bundle domains",
+            "year": 2018,
+            "venue": "Inventiones Mathematicae",
+            "citations": 38,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1812.03847",
+              "pdf": "https://arxiv.org/pdf/1812.03847",
+              "doi": "https://doi.org/10.1007/s00222-019-00938-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:0803.2697",
+            "ids": {
+              "arxiv": "0803.2697",
+              "doi": "10.1137/080730639",
+              "s2": "83a47fa97526c95ea4b65b04a5cd24b7e5fb764d"
+            },
+            "title": "The Limit Shape of Large Alternating Sign Matrices",
+            "year": 2008,
+            "venue": "SIAM Journal on Discrete Mathematics",
+            "citations": 57,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/0803.2697",
+              "pdf": "https://arxiv.org/pdf/0803.2697",
+              "doi": "https://doi.org/10.1137/080730639"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1702.02936",
+            "ids": {
+              "arxiv": "1702.02936",
+              "doi": "10.5802/alco.23",
+              "s2": "07cdc61b78f678d42b075eb803a8b849c147e556"
+            },
+            "title": "A bijective proof of Macdonald's reduced word formula",
+            "year": 2017,
+            "venue": "Discrete Mathematics & Theoretical Computer Science",
+            "citations": 30,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1702.02936",
+              "pdf": "https://arxiv.org/pdf/1702.02936",
+              "doi": "https://doi.org/10.5802/alco.23"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1812.11934",
+            "ids": {
+              "arxiv": "1812.11934",
+              "doi": "10.1007/s00220-021-04126-7",
+              "s2": "82039c98a8b7e18fb385cf81932493ada1c8d4b3"
+            },
+            "title": "Limit Shapes for the Asymmetric Five Vertex Model",
+            "year": 2018,
+            "venue": "Communications in Mathematical Physics",
+            "citations": 37,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1812.11934",
+              "pdf": "https://arxiv.org/pdf/1812.11934",
+              "doi": "https://doi.org/10.1007/s00220-021-04126-7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2412.02932",
+            "ids": {
+              "arxiv": "2412.02932",
+              "doi": "10.1007/s00209-026-04049-w",
+              "s2": "dd75be9a41220d2078e85856eecdd792c8e63415"
+            },
+            "title": "Schubert polynomials and patterns in permutations",
+            "year": 2024,
+            "venue": "Mathematische Zeitschrift",
+            "citations": 5,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.02932",
+              "pdf": "https://arxiv.org/pdf/2412.02932",
+              "doi": "https://doi.org/10.1007/s00209-026-04049-w"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.09107",
+            "ids": {
+              "arxiv": "2508.09107",
+              "s2": "fac95a79bb45bc1c785fee2d51f621021cad315f"
+            },
+            "title": "Newton polytopes of fireworks Grothendieck polynomials",
+            "year": 2025,
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.09107",
+              "pdf": "https://arxiv.org/pdf/2508.09107"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.18852",
+            "ids": {
+              "arxiv": "2507.18852",
+              "s2": "7c252a134101a8353256bcb42c8284bb08a34971"
+            },
+            "title": "A Proof of Rubey's Lattice Conjecture",
+            "year": 2025,
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.18852",
+              "pdf": "https://arxiv.org/pdf/2507.18852"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.05141",
+            "ids": {
+              "arxiv": "2609.05141",
+              "doi": "10.48550/arxiv.2609.05141",
+              "s2": "c8c09625c2f7965810c0663a8f6e1104261b07a4"
+            },
+            "title": "SciDocBench: A Workflow-Centered Benchmark and Data Pipeline for Scientific Document Understanding",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.05141",
+              "pdf": "https://arxiv.org/pdf/2609.05141",
+              "doi": "https://doi.org/10.48550/arxiv.2609.05141"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.04053",
+            "ids": {
+              "arxiv": "2512.04053",
+              "doi": "10.1112/blms.70432",
+              "s2": "09608131cbd7d86f9935360854565c61cf015f57"
+            },
+            "title": "Asymptotically maximal Schubitopes",
+            "year": 2025,
+            "venue": "Bulletin of the London Mathematical Society",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.04053",
+              "pdf": "https://arxiv.org/pdf/2512.04053",
+              "doi": "https://doi.org/10.1112/blms.70432"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.13518",
+            "ids": {
+              "arxiv": "2606.13518",
+              "s2": "93000e0053820924118988fa699d51eff68b75ed"
+            },
+            "title": "Weak order: Alternating sign matrices, monotone triangles, and bumpless pipe dreams",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.13518",
+              "pdf": "https://arxiv.org/pdf/2606.13518"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.10276",
+            "ids": {
+              "arxiv": "2605.10276",
+              "s2": "f61f62865f5f139b9d64c343764fd87d81d7fe7a"
+            },
+            "title": "Principal specializations of Grothendieck polynomials",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.10276",
+              "pdf": "https://arxiv.org/pdf/2605.10276"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2603.20104",
+          "target": "s2:e7a224b0983a2b858b89684a26cada1f3567081d",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:math/0312099",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "doi:10.1006/aima.1994.1009",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:1103.5844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:math-ph/0002027",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "doi:10.1002/mana.19780830111",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:math/9801068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:0905.0679",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:2003.07342",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:0907.1264",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:1604.01110",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:2206.12153",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:1812.03847",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:0803.2697",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:1702.02936",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.20104",
+          "target": "arxiv:1812.11934",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02932",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09107",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.18852",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05141",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04053",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.13518",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.10276",
+          "target": "arxiv:2603.20104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:math/0312099",
+          "target": "arxiv:math-ph/0002027",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2003.07342",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:0907.1264",
+          "target": "arxiv:math/9801068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:0907.1264",
+          "target": "arxiv:0905.0679",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:0907.1264",
+          "target": "arxiv:0803.2697",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1604.01110",
+          "target": "arxiv:math/0312099",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.12153",
+          "target": "arxiv:1103.5844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1812.03847",
+          "target": "arxiv:0907.1264",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1812.03847",
+          "target": "arxiv:math/9801068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1812.03847",
+          "target": "arxiv:0905.0679",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1812.03847",
+          "target": "arxiv:0803.2697",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:0803.2697",
+          "target": "arxiv:math/9801068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1702.02936",
+          "target": "doi:10.1006/aima.1994.1009",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1702.02936",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02932",
+          "target": "arxiv:2512.04053",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02932",
+          "target": "doi:10.1006/aima.1994.1009",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09107",
+          "target": "arxiv:2412.02932",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09107",
+          "target": "arxiv:2003.07342",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.09107",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.18852",
+          "target": "doi:10.1006/aima.1994.1009",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.18852",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04053",
+          "target": "arxiv:2412.02932",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04053",
+          "target": "arxiv:2508.09107",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.10276",
+          "target": "arxiv:2412.02932",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.10276",
+          "target": "arxiv:2003.07342",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.10276",
+          "target": "doi:10.1006/aima.1994.1009",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.10276",
+          "target": "doi:10.1080/10586458.1993.10504567",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 7,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2607.04434",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2607.04434",
+            "ids": {
+              "arxiv": "2607.04434",
+              "s2": "697fee3831e3bebd5052c607383bd42a0b50e9dd",
+              "openalex": "W7167635130"
+            },
+            "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+            "year": 2026,
+            "citations": 110,
+            "influential_citations": 31,
+            "is_review": false,
+            "tldr": "RoboDojo is introduced, a unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation policies that integrates 30 policies into XPolicyLab and evaluates them on RoboDojo, establishing a public leaderboard and systematic analysis of current policy performance.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.04434",
+              "pdf": "https://arxiv.org/pdf/2607.04434"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.18088",
+            "ids": {
+              "arxiv": "2506.18088",
+              "doi": "10.48550/arxiv.2506.18088",
+              "s2": "1002f84d1b487e49d3bc2d353dfb77e1495d3c58"
+            },
+            "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 758,
+            "influential_citations": 353,
+            "is_review": false,
+            "tldr": "An expert data synthesis pipeline that leverages multimodal language models (MLLMs) and simulation-in-the-loop refinement to automatically generate task-level execution code and highlights the effectiveness of RoboTwin 2.0 in strengthening sim-to-real transfer and robustness to environmental variations.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.18088",
+              "pdf": "https://arxiv.org/pdf/2506.18088",
+              "doi": "https://doi.org/10.48550/arxiv.2506.18088"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.02456",
+            "ids": {
+              "arxiv": "2601.02456",
+              "doi": "10.48550/arxiv.2601.02456",
+              "s2": "14a08f3dc790992872957a2fe71d56e3a58b996e"
+            },
+            "title": "InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 69,
+            "influential_citations": 13,
+            "is_review": false,
+            "tldr": "This model employs a unified Mixture-of-Transformers architecture, coordinating three experts for scene understanding, visual foresight generation, and action execution, which shows that InternVLA-A1 consistently outperforms prior leading models.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.02456",
+              "pdf": "https://arxiv.org/pdf/2601.02456",
+              "doi": "https://doi.org/10.48550/arxiv.2601.02456"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.04137",
+            "ids": {
+              "arxiv": "2303.04137",
+              "doi": "10.1177/02783649241273668",
+              "s2": "bdba3bd30a49ea4c5b20b43dbd8f0eb59e9d80e2"
+            },
+            "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+            "year": 2023,
+            "venue": "Robotics: Science and Systems Conference",
+            "citations": 5173,
+            "influential_citations": 956,
+            "is_review": false,
+            "tldr": "This paper introduces Diffusion Policy, a new way of generating robot behavior by representing a robot’s visuomotor policy as a conditional denoising diffusion process that consistently outperforms existing state-of-the-art robot learning methods.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.04137",
+              "pdf": "https://arxiv.org/pdf/2303.04137",
+              "doi": "https://doi.org/10.1177/02783649241273668"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.09246",
+            "ids": {
+              "arxiv": "2406.09246",
+              "doi": "10.48550/arxiv.2406.09246",
+              "s2": "8f9ceb5ffad8e7a066dfc9d9aaa5153b714740ee"
+            },
+            "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+            "year": 2024,
+            "venue": "Conference on Robot Learning",
+            "citations": 4455,
+            "influential_citations": 605,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.09246",
+              "pdf": "https://arxiv.org/pdf/2406.09246",
+              "doi": "https://doi.org/10.48550/arxiv.2406.09246"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.24164",
+            "ids": {
+              "arxiv": "2410.24164",
+              "doi": "10.48550/arxiv.2410.24164",
+              "s2": "7e7e59d2e247d99954081080ddd5aae93d10b9e0"
+            },
+            "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 3608,
+            "influential_citations": 625,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.24164",
+              "pdf": "https://arxiv.org/pdf/2410.24164",
+              "doi": "https://doi.org/10.48550/arxiv.2410.24164"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.13705",
+            "ids": {
+              "arxiv": "2304.13705",
+              "doi": "10.48550/arxiv.2304.13705",
+              "s2": "91eb20f923ea3b0246868902aef4e9bea572b800"
+            },
+            "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+            "year": 2023,
+            "venue": "Robotics: Science and Systems Conference",
+            "citations": 2981,
+            "influential_citations": 447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.13705",
+              "pdf": "https://arxiv.org/pdf/2304.13705",
+              "doi": "https://doi.org/10.48550/arxiv.2304.13705"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.03310",
+            "ids": {
+              "arxiv": "2306.03310",
+              "doi": "10.48550/arxiv.2306.03310",
+              "s2": "98cfd7b1b29453c4e82536f5afdc6ddc58bbb1b3"
+            },
+            "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 2268,
+            "influential_citations": 587,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.03310",
+              "pdf": "https://arxiv.org/pdf/2306.03310",
+              "doi": "https://doi.org/10.48550/arxiv.2306.03310"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1910.10897",
+            "ids": {
+              "arxiv": "1910.10897",
+              "doi": "10.48550/arxiv.1910.10897",
+              "s2": "0bc855f84668b35cb65618d996d09f6e434d28c9"
+            },
+            "title": "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning",
+            "year": 2019,
+            "venue": "Conference on Robot Learning",
+            "citations": 1940,
+            "influential_citations": 343,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1910.10897",
+              "pdf": "https://arxiv.org/pdf/1910.10897",
+              "doi": "https://doi.org/10.48550/arxiv.1910.10897"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.14734",
+            "ids": {
+              "arxiv": "2503.14734",
+              "doi": "10.48550/arxiv.2503.14734",
+              "s2": "731c50b0d6af4c1cb8d95f506541681ea487973b"
+            },
+            "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 1800,
+            "influential_citations": 272,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.14734",
+              "pdf": "https://arxiv.org/pdf/2503.14734",
+              "doi": "https://doi.org/10.48550/arxiv.2503.14734"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.19645",
+            "ids": {
+              "arxiv": "2502.19645",
+              "doi": "10.48550/arxiv.2502.19645",
+              "s2": "5088b84507462bf725bb4898623d1dead4c6a206"
+            },
+            "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+            "year": 2025,
+            "venue": "Robotics",
+            "citations": 1208,
+            "influential_citations": 238,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.19645",
+              "pdf": "https://arxiv.org/pdf/2502.19645",
+              "doi": "https://doi.org/10.48550/arxiv.2502.19645"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1909.12271",
+            "ids": {
+              "arxiv": "1909.12271",
+              "doi": "10.1109/lra.2020.2974707",
+              "s2": "a2fdfda785b3a2a0178d174daa515377c531f222"
+            },
+            "title": "RLBench: The Robot Learning Benchmark & Learning Environment",
+            "year": 2019,
+            "venue": "IEEE Robotics and Automation Letters",
+            "citations": 1223,
+            "influential_citations": 167,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1909.12271",
+              "pdf": "https://arxiv.org/pdf/1909.12271",
+              "doi": "https://doi.org/10.1109/lra.2020.2974707"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:69764fcc646e4c608ac08eeb4c784cf8465268d2",
+            "ids": {
+              "s2": "69764fcc646e4c608ac08eeb4c784cf8465268d2"
+            },
+            "title": "BEHAVIOR-1K: A Benchmark for Embodied AI with 1, 000 Everyday Activities and Realistic Simulation",
+            "year": 2022,
+            "venue": "Conference on Robot Learning",
+            "citations": 516,
+            "influential_citations": 56,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/69764fcc646e4c608ac08eeb4c784cf8465268d2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2112.03227",
+            "ids": {
+              "arxiv": "2112.03227",
+              "doi": "10.48550/arxiv.2112.03227",
+              "s2": "4be02694125b71876552900a53c85c47a2a83614"
+            },
+            "title": "CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks",
+            "year": 2021,
+            "venue": "IEEE Robotics and Automation Letters",
+            "citations": 928,
+            "influential_citations": 148,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2112.03227",
+              "pdf": "https://arxiv.org/pdf/2112.03227",
+              "doi": "https://doi.org/10.48550/arxiv.2112.03227"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.07864",
+            "ids": {
+              "arxiv": "2410.07864",
+              "doi": "10.48550/arxiv.2410.07864",
+              "s2": "41ba8127b73abd32051a89764cb976095b1dee94"
+            },
+            "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 1067,
+            "influential_citations": 101,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.07864",
+              "pdf": "https://arxiv.org/pdf/2410.07864",
+              "doi": "https://doi.org/10.48550/arxiv.2410.07864"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.01844",
+            "ids": {
+              "arxiv": "2506.01844",
+              "doi": "10.48550/arxiv.2506.01844",
+              "s2": "6ab4d113676d00e74b55e918fee4c7affaa8652f"
+            },
+            "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 751,
+            "influential_citations": 131,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.01844",
+              "pdf": "https://arxiv.org/pdf/2506.01844",
+              "doi": "https://doi.org/10.48550/arxiv.2506.01844"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2405.05941",
+            "ids": {
+              "arxiv": "2405.05941",
+              "doi": "10.48550/arxiv.2405.05941",
+              "s2": "202cc3fcea588cee37ffabcb0b5e145567109a66"
+            },
+            "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+            "year": 2024,
+            "venue": "Conference on Robot Learning",
+            "citations": 680,
+            "influential_citations": 126,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2405.05941",
+              "pdf": "https://arxiv.org/pdf/2405.05941",
+              "doi": "https://doi.org/10.48550/arxiv.2405.05941"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2009.12293",
+            "ids": {
+              "arxiv": "2009.12293",
+              "doi": "10.48550/arxiv.2009.12293",
+              "s2": "cf34efc663284da131e747407ac3f389f898e471"
+            },
+            "title": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning",
+            "year": 2020,
+            "venue": "arXiv.org",
+            "citations": 849,
+            "influential_citations": 69,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2009.12293",
+              "pdf": "https://arxiv.org/pdf/2009.12293",
+              "doi": "https://doi.org/10.48550/arxiv.2009.12293"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.16666",
+            "ids": {
+              "arxiv": "2603.16666",
+              "doi": "10.48550/arxiv.2603.16666",
+              "s2": "b5be12ccbb037be57a1dbc03fbd43d379170055f"
+            },
+            "title": "Fast-WAM: Do World Action Models Need Test-time Future Imagination?",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 489,
+            "influential_citations": 162,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.16666",
+              "pdf": "https://arxiv.org/pdf/2603.16666",
+              "doi": "https://doi.org/10.48550/arxiv.2603.16666"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2506.18088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2601.02456",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2503.14734",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2502.19645",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "s2:69764fcc646e4c608ac08eeb4c784cf8465268d2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2112.03227",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2410.07864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2506.01844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2405.05941",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2009.12293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.04434",
+          "target": "arxiv:2603.16666",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2009.12293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2410.07864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2502.19645",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.18088",
+          "target": "arxiv:2112.03227",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:2503.14734",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:2112.03227",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02456",
+          "target": "arxiv:2506.18088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.09246",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.09246",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.09246",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.24164",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.24164",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.24164",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.03310",
+          "target": "arxiv:2009.12293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.03310",
+          "target": "s2:69764fcc646e4c608ac08eeb4c784cf8465268d2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.03310",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.03310",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1910.10897",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.14734",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.14734",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.14734",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.14734",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2503.14734",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2410.07864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2502.19645",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1909.12271",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2112.03227",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.07864",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.07864",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.07864",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.07864",
+          "target": "arxiv:2112.03227",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2503.14734",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2304.13705",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.01844",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "arxiv:2009.12293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "s2:69764fcc646e4c608ac08eeb4c784cf8465268d2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "arxiv:1910.10897",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "arxiv:2303.04137",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "arxiv:2112.03227",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05941",
+          "target": "arxiv:1909.12271",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2410.24164",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2503.14734",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2506.01844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2410.07864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2406.09246",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2306.03310",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.16666",
+          "target": "arxiv:2506.18088",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for 697fee3831e3bebd5052c607383bd42a0b50e9dd: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/697fee3831e3bebd5052c607383bd42a0b50e9dd/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000"
+      ]
+    }
+  ]
+}
