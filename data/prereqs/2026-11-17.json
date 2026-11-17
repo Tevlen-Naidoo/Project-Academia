@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T11:59:20.599981Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.17955",
+      "pick_title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for 2bb82615ecf809b92dcdafe32ae3883fab5b406a: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/2bb82615ecf809b92dcdafe32ae3883fab5b406a/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000",
+        "OpenAlex references for doi:10.48550/arXiv.2611.17955: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.17955?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.21003",
+      "pick_title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.21003: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.21003/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.21003: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.21003?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.21607",
+      "pick_title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.21607: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.21607/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.21607: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.21607?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    }
+  ]
+}

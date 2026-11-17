@@ -1,0 +1,821 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T11:58:16.281933Z",
+  "candidates_file": "candidates/2026-11-17.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8789,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "12 upvotes on Hugging Face · Accepted at NeurIPS 2026 E&D Track",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.17955",
+        "ids": {
+          "arxiv": "2611.17955",
+          "doi": null,
+          "s2": "2bb82615ecf809b92dcdafe32ae3883fab5b406a",
+          "openalex": null
+        },
+        "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+        "authors": [
+          {
+            "name": "Imene Kerboua",
+            "affiliation": null
+          },
+          {
+            "name": "Fatemeh Pesaran Zadeh",
+            "affiliation": null
+          },
+          {
+            "name": "Xing Han Lù",
+            "affiliation": null
+          },
+          {
+            "name": "Weijian Qi",
+            "affiliation": null
+          },
+          {
+            "name": "Alexander Miller",
+            "affiliation": null
+          },
+          {
+            "name": "Junyi Song",
+            "affiliation": null
+          },
+          {
+            "name": "Yunjia Tian",
+            "affiliation": null
+          },
+          {
+            "name": "Dongjin Kang",
+            "affiliation": null
+          },
+          {
+            "name": "Seyeon Choi",
+            "affiliation": null
+          },
+          {
+            "name": "Marzia Nouri",
+            "affiliation": null
+          },
+          {
+            "name": "Ewen Gueguen",
+            "affiliation": null
+          },
+          {
+            "name": "Matteo Boglioni",
+            "affiliation": null
+          },
+          {
+            "name": "Fengyuan Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Zeyi Liao",
+            "affiliation": null
+          },
+          {
+            "name": "Mengqi Yuan",
+            "affiliation": null
+          },
+          {
+            "name": "Yue Li",
+            "affiliation": null
+          },
+          {
+            "name": "Alexandre Lacoste",
+            "affiliation": null
+          },
+          {
+            "name": "Alexandre Drouin",
+            "affiliation": null
+          },
+          {
+            "name": "Spandana Gella",
+            "affiliation": null
+          },
+          {
+            "name": "Huan Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Gunhee Kim",
+            "affiliation": null
+          },
+          {
+            "name": "Siva Reddy",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few software categories, and restrict modality to text and vision. Live benchmarks broaden site coverage but sacrifice reproducibility, since pages and data drift between runs. Moreover, existing benchmarks do not meaningfully evaluate whether agents can understand and use audio and video content embedded within web tasks. To address these gaps, we introduce WebArena-Pro, a benchmark comprising 300 tasks across 20 self-hosted web applications in six domain categories, spanning distinct interface conventions, workflows, and data models. Across the evaluated agents, the best performance is achieved by both Codex with GPT 6.1 Sol and Claude Code with Claude Opus 5.5 at 62.3%, followed by OpenCode with Kimi 3.1 Pro at 60.7%. The strongest GenericAgent configurations, Gemini 3.1 Pro omni and Gemma4 31B, both achieve 30.3%. Among reproducible, human-curated web agent benchmarks, WebArena-Pro provides the broadest application coverage and the most comprehensive multimodal support to date. The benchmark treats audio and video as core observations alongside text and vision, with dedicated actions for extracting information from each. WebArena-Pro runs each task in isolation and supports reproducible, parallel evaluation. Tasks are authored through a dedicated annotator interface, filtered by LLM-assisted triage, and finally validated by humans before release. Project page: https://webarena-pro.github.io",
+        "tldr": "Among reproducible, human-curated web agent benchmarks, WebArena-Pro provides the broadest application coverage and the most comprehensive multimodal support to date.",
+        "topics": [
+          "ml",
+          "ai",
+          "nlp"
+        ],
+        "source_categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "dates": {
+          "first_seen": "2026-11-17",
+          "submitted": "2026-11-13",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "NeurIPS 2026 E&D Track",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 12,
+          "hf_comments": 3,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.17955",
+          "pdf": "https://arxiv.org/pdf/2611.17955",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-17T11:51:42.809114Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 0.9002,
+      "adjusted": 0.7652,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9706,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "51 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.21003",
+        "ids": {
+          "arxiv": "2611.21003",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+        "authors": [
+          {
+            "name": "K2 Team",
+            "affiliation": null
+          },
+          {
+            "name": "Zhengzhong Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Haonan Li",
+            "affiliation": null
+          },
+          {
+            "name": "Xuezhe Ma",
+            "affiliation": null
+          },
+          {
+            "name": "Alexander Moreno",
+            "affiliation": null
+          },
+          {
+            "name": "Subham Sekhar Sahoo",
+            "affiliation": null
+          },
+          {
+            "name": "Rupesh Kumar Srivastava",
+            "affiliation": null
+          },
+          {
+            "name": "Mikhail Yurochkin",
+            "affiliation": null
+          },
+          {
+            "name": "Hadi Abdine",
+            "affiliation": null
+          },
+          {
+            "name": "Yash Akhauri",
+            "affiliation": null
+          },
+          {
+            "name": "Adharsh Babu",
+            "affiliation": null
+          },
+          {
+            "name": "David Bellamy",
+            "affiliation": null
+          },
+          {
+            "name": "Jalaj Bhandari",
+            "affiliation": null
+          },
+          {
+            "name": "Dani Bouch",
+            "affiliation": null
+          },
+          {
+            "name": "Wail Bouhedja",
+            "affiliation": null
+          },
+          {
+            "name": "Weili Cao",
+            "affiliation": null
+          },
+          {
+            "name": "Ahmad Chamma",
+            "affiliation": null
+          },
+          {
+            "name": "Po-Chun Chang",
+            "affiliation": null
+          },
+          {
+            "name": "Junlin Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Lingjie Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Zhoujun Cheng",
+            "affiliation": null
+          },
+          {
+            "name": "Kyle Chickering",
+            "affiliation": null
+          },
+          {
+            "name": "Ryandito Diandaru",
+            "affiliation": null
+          },
+          {
+            "name": "Evan Dufraisse",
+            "affiliation": null
+          },
+          {
+            "name": "Chaitanya Dwivedi",
+            "affiliation": null
+          },
+          {
+            "name": "Bilal El Bouardi",
+            "affiliation": null
+          },
+          {
+            "name": "Desai Fan",
+            "affiliation": null
+          },
+          {
+            "name": "Richard Fan",
+            "affiliation": null
+          },
+          {
+            "name": "Chengqian Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Rifo Ahmad Genadi",
+            "affiliation": null
+          },
+          {
+            "name": "Jonathan Geuter",
+            "affiliation": null
+          },
+          {
+            "name": "Charles Guille-Escuret",
+            "affiliation": null
+          },
+          {
+            "name": "Willis Guo",
+            "affiliation": null
+          },
+          {
+            "name": "Dhawal Gupta",
+            "affiliation": null
+          },
+          {
+            "name": "Seungwook Han",
+            "affiliation": null
+          },
+          {
+            "name": "Tingxu Han",
+            "affiliation": null
+          },
+          {
+            "name": "Shibo Hao",
+            "affiliation": null
+          },
+          {
+            "name": "Besher Hassan",
+            "affiliation": null
+          },
+          {
+            "name": "Guowei He",
+            "affiliation": null
+          },
+          {
+            "name": "Ming Shan Hee",
+            "affiliation": null
+          },
+          {
+            "name": "Joel Hestness",
+            "affiliation": null
+          },
+          {
+            "name": "Yu Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Yuan Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Haolong Jia",
+            "affiliation": null
+          },
+          {
+            "name": "Linghao Jin",
+            "affiliation": null
+          },
+          {
+            "name": "Junu Kim",
+            "affiliation": null
+          },
+          {
+            "name": "Lingjing Kong",
+            "affiliation": null
+          },
+          {
+            "name": "Nurkhan Laiyk",
+            "affiliation": null
+          },
+          {
+            "name": "Andrej Leban",
+            "affiliation": null
+          },
+          {
+            "name": "Liqun Ma",
+            "affiliation": null
+          },
+          {
+            "name": "John Maggs",
+            "affiliation": null
+          },
+          {
+            "name": "Amr Mohamed",
+            "affiliation": null
+          },
+          {
+            "name": "Mukhesh Narra",
+            "affiliation": null
+          },
+          {
+            "name": "Omkar Pangarkar",
+            "affiliation": null
+          },
+          {
+            "name": "Aldo Pareja",
+            "affiliation": null
+          },
+          {
+            "name": "Khiem Pham",
+            "affiliation": null
+          },
+          {
+            "name": "Varad Pimpalkhute",
+            "affiliation": null
+          },
+          {
+            "name": "Nikhil Ranjan",
+            "affiliation": null
+          },
+          {
+            "name": "Elizaveta Rebrova",
+            "affiliation": null
+          },
+          {
+            "name": "Hector Ren",
+            "affiliation": null
+          },
+          {
+            "name": "Shaurya Rohatgi",
+            "affiliation": null
+          },
+          {
+            "name": "Guokan Shang",
+            "affiliation": null
+          },
+          {
+            "name": "Jianshu She",
+            "affiliation": null
+          },
+          {
+            "name": "Chufan Shi",
+            "affiliation": null
+          },
+          {
+            "name": "Aaryamonvikram Singh",
+            "affiliation": null
+          },
+          {
+            "name": "Daria Soboleva",
+            "affiliation": null
+          },
+          {
+            "name": "Kartik Sreenivasan",
+            "affiliation": null
+          },
+          {
+            "name": "Suqi Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Yuekai Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Bowen Tan",
+            "affiliation": null
+          },
+          {
+            "name": "Liping Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Shengkun Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Muzi Tao",
+            "affiliation": null
+          },
+          {
+            "name": "Mallikarjuna Tupakula",
+            "affiliation": null
+          },
+          {
+            "name": "Micah Villmow",
+            "affiliation": null
+          },
+          {
+            "name": "Hongyi Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Huijuan Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Renxi Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Yongxin Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Yuqi Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Zhenting Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Shicheng Wen",
+            "affiliation": null
+          },
+          {
+            "name": "Yingquan Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Anze Xie",
+            "affiliation": null
+          },
+          {
+            "name": "Andrew Xing",
+            "affiliation": null
+          },
+          {
+            "name": "Matthew Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Shuanghai Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Kerem Zaman",
+            "affiliation": null
+          },
+          {
+            "name": "Zenan Zhai",
+            "affiliation": null
+          },
+          {
+            "name": "Hongli Zhan",
+            "affiliation": null
+          },
+          {
+            "name": "Xuezhou Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Anshun Asher Zheng",
+            "affiliation": null
+          },
+          {
+            "name": "Zhe Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Richard Zhuang",
+            "affiliation": null
+          },
+          {
+            "name": "Eric P. Xing",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2x without a separate draft model. Our release follows the LLM360 definition of open source for transparency and reproducibility: the full development history, including intermediate checkpoints from every training stage, pre-training data, training logs, and all training, evaluation, and infrastructure code, notably our production-scale xLLM framework for dense and MoE training and the RL360 reinforcement-learning stack. Beyond the data itself, we release and document in detail every pipeline that built it, the part of model development that open releases most rarely disclose. These pipelines produced roughly 10T synthetic pre-training tokens, showing that synthetic data can be a major ingredient of pre-training at scale. Four of the models share one 22T-token pre-training corpus and recipe, revealing consistent scaling behavior and enabling controlled studies of scale and sparsity. All artifacts are available at https://ifm.ai/k2/",
+        "tldr": null,
+        "topics": [
+          "ai"
+        ],
+        "source_categories": [
+          "cs.AI"
+        ],
+        "dates": {
+          "first_seen": "2026-11-17",
+          "submitted": "2026-11-16",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 51,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.21003",
+          "pdf": "https://arxiv.org/pdf/2611.21003",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-17T11:51:42.809114Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "fresh",
+      "score": 0.8777,
+      "adjusted": 0.746,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9325,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "31 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.21607",
+        "ids": {
+          "arxiv": "2611.21607",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+        "authors": [
+          {
+            "name": "Ruixi Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Dairu Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Xuchuan Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Zekun Qi",
+            "affiliation": null
+          },
+          {
+            "name": "Zekai Li",
+            "affiliation": null
+          },
+          {
+            "name": "Zhuo Cao",
+            "affiliation": null
+          },
+          {
+            "name": "Luyang Niu",
+            "affiliation": null
+          },
+          {
+            "name": "Yingsheng Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Sikai Liang",
+            "affiliation": null
+          },
+          {
+            "name": "Ke Fan",
+            "affiliation": null
+          },
+          {
+            "name": "He Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Li Yi",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generalization, LIBERO-PRO success reaches 45.1%, compared with at most 31.3% for smaller backbones. In precise manipulation, real-world charger insertion improves from 4/10 to 9/10 successes, with gains concentrated in contact-sensitive alignment. Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk. Our findings suggest that frontier VLMs can serve not only as reasoning agents, but also as powerful representational foundations for efficient and generalizable robot policies.",
+        "tldr": null,
+        "topics": [
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-17",
+          "submitted": "2026-11-16",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 31,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.21607",
+          "pdf": "https://arxiv.org/pdf/2611.21607",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-17T11:51:42.809114Z"
+      }
+    }
+  ]
+}

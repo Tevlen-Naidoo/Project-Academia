@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T11:59:20.599981Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.17955",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.17955",
+            "ids": {
+              "arxiv": "2611.17955",
+              "s2": "2bb82615ecf809b92dcdafe32ae3883fab5b406a"
+            },
+            "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+            "year": 2026,
+            "venue": "NeurIPS 2026 E&D Track",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "Among reproducible, human-curated web agent benchmarks, WebArena-Pro provides the broadest application coverage and the most comprehensive multimodal support to date.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.17955",
+              "pdf": "https://arxiv.org/pdf/2611.17955"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.21003",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.21003",
+            "ids": {
+              "arxiv": "2611.21003"
+            },
+            "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.21003",
+              "pdf": "https://arxiv.org/pdf/2611.21003"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.21003: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.21003/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.21607",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.21607",
+            "ids": {
+              "arxiv": "2611.21607"
+            },
+            "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.21607",
+              "pdf": "https://arxiv.org/pdf/2611.21607"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.21607: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.21607/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    }
+  ]
+}
