@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:48:17.105239Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2609.08005",
+      "pick_title": "Algorithmic List Decoding of Reed-Solomon Codes up to Capacity",
+      "source": "s2",
+      "references_seen": 68,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1145/359168.359176",
+            "ids": {
+              "doi": "10.1145/359168.359176",
+              "s2": "88abb2cda4f2a57499a717966ac4fbe9a993027a"
+            },
+            "title": "How to share a secret",
+            "year": 1979,
+            "venue": "CACM",
+            "citations": 15741,
+            "influential_citations": 1526,
+            "is_review": false,
+            "tldr": "This technique enables the construction of robust key management schemes for cryptographic systems that can function securely and reliably even when misfortunes destroy half the pieces and security breaches expose all but one of the remaining pieces.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/88abb2cda4f2a57499a717966ac4fbe9a993027a",
+              "doi": "https://doi.org/10.1145/359168.359176"
+            }
+          },
+          "label": "background",
+          "score": 4.95,
+          "reasons": [
+            "16k citations"
+          ],
+          "supports": [
+            "arxiv:2609.08005"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00145-012-9129-2",
+            "ids": {
+              "doi": "10.1007/s00145-012-9129-2",
+              "s2": "ed5685db1beb05fea431a5548a115a099f656418"
+            },
+            "title": "Compact Proofs of Retrievability",
+            "year": 2008,
+            "venue": "Journal of Cryptology",
+            "citations": 2194,
+            "influential_citations": 325,
+            "is_review": false,
+            "tldr": "This paper gives the first proof-of-retrievability schemes with full proofs of security against arbitrary adversaries in the strongest model, that of Juels and Kaliski.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ed5685db1beb05fea431a5548a115a099f656418",
+              "doi": "https://doi.org/10.1007/s00145-012-9129-2"
+            }
+          },
+          "label": "background",
+          "score": 3.93,
+          "reasons": [
+            "2.2k citations"
+          ],
+          "supports": [
+            "arxiv:2609.08005"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/62212.62213",
+            "ids": {
+              "doi": "10.1145/62212.62213",
+              "s2": "889de2dc91109b767e71a9b3cffa6e0a22f8a79c"
+            },
+            "title": "Completeness theorems for non-cryptographic fault-tolerant distributed computation",
+            "year": 1988,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 2726,
+            "influential_citations": 216,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/889de2dc91109b767e71a9b3cffa6e0a22f8a79c",
+              "doi": "https://doi.org/10.1145/62212.62213"
+            }
+          },
+          "label": "background",
+          "score": 3.917,
+          "reasons": [
+            "2.7k citations"
+          ],
+          "supports": [
+            "arxiv:2609.08005"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.1057/s41599-025-06186-9",
+      "pick_title": "Knowledge graph-driven digital preservation of intangible cultural heritage: a cross-cultural comparative study of Chinese and Western implementation paradigms",
+      "source": "s2",
+      "references_seen": 85,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1007/s10055-024-01043-7",
+            "ids": {
+              "doi": "10.1007/s10055-024-01043-7",
+              "s2": "3423fb697fc1fa3314f94769b46eb90e81770f16"
+            },
+            "title": "Continuance intention toward VR games of intangible cultural heritage: A stimulus-organism-response perspective",
+            "year": 2024,
+            "venue": "Virtual Reality",
+            "citations": 52,
+            "influential_citations": 3,
+            "is_review": true,
+            "tldr": "Results show that visual attractiveness, interactivity, and immersion are significant indicators in measuring users’ continuance intention to play, and perceived usefulness, perceived ease of use, and perceived enjoyment of VR games positively influence their continuance intention.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3423fb697fc1fa3314f94769b46eb90e81770f16",
+              "doi": "https://doi.org/10.1007/s10055-024-01043-7"
+            }
+          },
+          "label": "background",
+          "score": 5.18,
+          "reasons": [
+            "Influential reference for this paper",
+            "52 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "…that WOS scholars have gradually shifted their research toward more ef ﬁ cient and innovative technologies, such as virtual reality (Li, 2020; Qiu et al. 2024) , arti ﬁ cial intelligence (Cao, 2025), and digital humanities, while also placing greater emphasis on user experience…",
+          "supports": [
+            "doi:10.1057/s41599-025-06186-9"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/2159032x.2021.1883950",
+            "ids": {
+              "doi": "10.1080/2159032x.2021.1883950",
+              "s2": "fdff1f5034b043a2f87cecf38dcf1cc517ee278a"
+            },
+            "title": "Digital Intangible Heritage: Inventories, Virtual Learning and Participation",
+            "year": 2019,
+            "venue": "Heritage & Society",
+            "citations": 24,
+            "influential_citations": 2,
+            "is_review": false,
+            "tldr": "The paper aims to raise questions about how intangible heritage is defined and performed digitally and how this relates to issues of participation in the safeguarding process and how digital technologies inform relations between communities and intangible heritage.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fdff1f5034b043a2f87cecf38dcf1cc517ee278a",
+              "doi": "https://doi.org/10.1080/2159032x.2021.1883950"
+            }
+          },
+          "label": "background",
+          "score": 4.357,
+          "reasons": [
+            "Influential reference for this paper",
+            "24 citations"
+          ],
+          "quote": "…(1) application and innovation of digital technologies (Chen C and Huang Y, 2020); (2) development of digital platforms and virtual museums for ICH (Alivizatou, 2019; Zihan Xu and Zhangmin Li, 2025); (3) data management and preservation mechanisms (Xudi, 2024); (4) socio-cultural impacts of ICH…",
+          "supports": [
+            "doi:10.1057/s41599-025-06186-9"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.3727/106527098791784448",
+            "ids": {
+              "doi": "10.3727/106527098791784448",
+              "s2": "7021a5b2e22308e253afe0877714bbf2c5f34a6a"
+            },
+            "title": "Destination Culture. Tourism, Museums and Heritage",
+            "year": 1998,
+            "citations": 866,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7021a5b2e22308e253afe0877714bbf2c5f34a6a",
+              "doi": "https://doi.org/10.3727/106527098791784448"
+            }
+          },
+          "label": "background",
+          "score": 3.162,
+          "reasons": [
+            "866 citations"
+          ],
+          "quote": "Meanwhile, the establishment of digital platforms transcends geographical and temporal constraints (Stallkamp and Schotter, 2021), enabling global audiences to access and experience cultural heritage conveniently (Kirshenblatt-Gimblett, 1998).",
+          "supports": [
+            "doi:10.1057/s41599-025-06186-9"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.21152",
+      "pick_title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.21152: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.21152/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000",
+        "OpenAlex references for doi:10.48550/arXiv.2611.21152: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.21152?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1537 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:48:17.105239Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2609.08005",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2609.08005",
+            "ids": {
+              "arxiv": "2609.08005",
+              "s2": "ad29a36a5e48a74f0e28961b217596f2f3faa10b",
+              "openalex": "W7211990869"
+            },
+            "title": "Algorithmic List Decoding of Reed-Solomon Codes up to Capacity",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 12,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.08005",
+              "pdf": "https://arxiv.org/pdf/2609.08005"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/359168.359176",
+            "ids": {
+              "doi": "10.1145/359168.359176",
+              "s2": "88abb2cda4f2a57499a717966ac4fbe9a993027a"
+            },
+            "title": "How to share a secret",
+            "year": 1979,
+            "venue": "CACM",
+            "citations": 15741,
+            "influential_citations": 1526,
+            "is_review": false,
+            "tldr": "This technique enables the construction of robust key management schemes for cryptographic systems that can function securely and reliably even when misfortunes destroy half the pieces and security breaches expose all but one of the remaining pieces.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/88abb2cda4f2a57499a717966ac4fbe9a993027a",
+              "doi": "https://doi.org/10.1145/359168.359176"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00145-012-9129-2",
+            "ids": {
+              "doi": "10.1007/s00145-012-9129-2",
+              "s2": "ed5685db1beb05fea431a5548a115a099f656418"
+            },
+            "title": "Compact Proofs of Retrievability",
+            "year": 2008,
+            "venue": "Journal of Cryptology",
+            "citations": 2194,
+            "influential_citations": 325,
+            "is_review": false,
+            "tldr": "This paper gives the first proof-of-retrievability schemes with full proofs of security against arbitrary adversaries in the strongest model, that of Juels and Kaliski.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ed5685db1beb05fea431a5548a115a099f656418",
+              "doi": "https://doi.org/10.1007/s00145-012-9129-2"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/62212.62213",
+            "ids": {
+              "doi": "10.1145/62212.62213",
+              "s2": "889de2dc91109b767e71a9b3cffa6e0a22f8a79c"
+            },
+            "title": "Completeness theorems for non-cryptographic fault-tolerant distributed computation",
+            "year": 1988,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 2726,
+            "influential_citations": 216,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/889de2dc91109b767e71a9b3cffa6e0a22f8a79c",
+              "doi": "https://doi.org/10.1145/62212.62213"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1969.1054260",
+            "ids": {
+              "doi": "10.1109/tit.1969.1054260",
+              "s2": "a0870e57fb5e59aae83f2a2a09b8df78257ef556"
+            },
+            "title": "Shift-register synthesis and BCH decoding",
+            "year": 1969,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 2407,
+            "influential_citations": 136,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a0870e57fb5e59aae83f2a2a09b8df78257ef556",
+              "doi": "https://doi.org/10.1109/tit.1969.1054260"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit.2002.1023680",
+            "ids": {
+              "doi": "10.1109/isit.2002.1023680",
+              "s2": "b3d128ddb7f21cb5be06c023eae5143cfc03db5c"
+            },
+            "title": "A Fuzzy Vault Scheme",
+            "year": 2002,
+            "venue": "Proceedings IEEE International Symposium on Information Theory,",
+            "citations": 1710,
+            "influential_citations": 157,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b3d128ddb7f21cb5be06c023eae5143cfc03db5c",
+              "doi": "https://doi.org/10.1109/isit.2002.1023680"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/73007.73010",
+            "ids": {
+              "doi": "10.1145/73007.73010",
+              "s2": "65f77b5c1a03ab2beb949714dd9bb37b60a8ff0c"
+            },
+            "title": "A hard-core predicate for all one-way functions",
+            "year": 1989,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 1338,
+            "influential_citations": 154,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/65f77b5c1a03ab2beb949714dd9bb37b60a8ff0c",
+              "doi": "https://doi.org/10.1145/73007.73010"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+            "ids": {
+              "s2": "deb34a26594db07d13b19e497521b052d129c5ad"
+            },
+            "title": "Polynomial Codes Over Certain Finite Fields",
+            "year": 2017,
+            "citations": 1558,
+            "influential_citations": 103,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/deb34a26594db07d13b19e497521b052d129c5ad"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/(sici)1097-024x(199709)27:9<995::aid-spe111>3.0.co;2-6",
+            "ids": {
+              "doi": "10.1002/(sici)1097-024x(199709)27:9<995::aid-spe111>3.0.co;2-6",
+              "s2": "878468a21848e0e0b32902dc8aecb42f4edb65c1"
+            },
+            "title": "A tutorial on Reed–Solomon coding for fault‐tolerance in RAID‐like systems",
+            "year": 1997,
+            "venue": "Software, Practice & Experience",
+            "citations": 647,
+            "influential_citations": 40,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/878468a21848e0e0b32902dc8aecb42f4edb65c1",
+              "doi": "https://doi.org/10.1002/(sici)1097-024x(199709)27:9%3C995::aid-spe111%3E3.0.co;2-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/62212.62214",
+            "ids": {
+              "doi": "10.1145/62212.62214",
+              "s2": "a9fef14c1d84a71854c85ae60b5b4c2d74700d4f"
+            },
+            "title": "Multiparty unconditionally secure protocols",
+            "year": 1988,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 1587,
+            "influential_citations": 57,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a9fef14c1d84a71854c85ae60b5b4c2d74700d4f",
+              "doi": "https://doi.org/10.1145/62212.62214"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/73007.73014",
+            "ids": {
+              "doi": "10.1145/73007.73014",
+              "s2": "4701faa37e2c5ba5d1810b9b39db28bbcf4a230e"
+            },
+            "title": "Verifiable secret sharing and multiparty protocols with honest majority",
+            "year": 1989,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 1128,
+            "influential_citations": 87,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4701faa37e2c5ba5d1810b9b39db28bbcf4a230e",
+              "doi": "https://doi.org/10.1145/73007.73014"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/3-540-46416-6_47",
+            "ids": {
+              "doi": "10.1007/3-540-46416-6_47",
+              "s2": "79804f82aba5f7abd344e52ef0908935ae9319b3"
+            },
+            "title": "A Threshold Cryptosystem without a Trusted Party (Extended Abstract)",
+            "year": 1991,
+            "venue": "International Conference on the Theory and Application of Cryptographic Techniques",
+            "citations": 968,
+            "influential_citations": 92,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/79804f82aba5f7abd344e52ef0908935ae9319b3",
+              "doi": "https://doi.org/10.1007/3-540-46416-6_47"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/jcom.1997.0439",
+            "ids": {
+              "doi": "10.1006/jcom.1997.0439",
+              "s2": "c60165174daa8911f3d57971c8be11b73e5eef20"
+            },
+            "title": "Decoding of Reed Solomon Codes beyond the Error-Correction Bound",
+            "year": 1997,
+            "venue": "Journal of Complexity",
+            "citations": 870,
+            "influential_citations": 97,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c60165174daa8911f3d57971c8be11b73e5eef20",
+              "doi": "https://doi.org/10.1006/jcom.1997.0439"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit.2000.866351",
+            "ids": {
+              "doi": "10.1109/isit.2000.866351",
+              "s2": "211dd579794d7c64801b9e257cefc5474a3124ab"
+            },
+            "title": "Algebraic soft-decision decoding of Reed-Solomon codes",
+            "year": 2000,
+            "venue": "2000 IEEE International Symposium on Information Theory (Cat. No.00CH37060)",
+            "citations": 684,
+            "influential_citations": 93,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/211dd579794d7c64801b9e257cefc5474a3124ab",
+              "doi": "https://doi.org/10.1109/isit.2000.866351"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/358746.358762",
+            "ids": {
+              "doi": "10.1145/358746.358762",
+              "s2": "b76c6baeb385498ea3e9e1a66291bb8b23c73554"
+            },
+            "title": "On sharing secrets and Reed-Solomon codes",
+            "year": 1981,
+            "venue": "CACM",
+            "citations": 717,
+            "influential_citations": 35,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b76c6baeb385498ea3e9e1a66291bb8b23c73554",
+              "doi": "https://doi.org/10.1145/358746.358762"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1964.1053661",
+            "ids": {
+              "doi": "10.1109/tit.1964.1053661",
+              "s2": "fb72951a260927716a6067ab1a4331925f7486a6"
+            },
+            "title": "Maximum distance q -nary codes",
+            "year": 1964,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 605,
+            "influential_citations": 43,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fb72951a260927716a6067ab1a4331925f7486a6",
+              "doi": "https://doi.org/10.1109/tit.1964.1053661"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/1538902.1538904",
+            "ids": {
+              "doi": "10.1145/1538902.1538904",
+              "s2": "06521fd89f6233bd779b7754a4042dad3008e650"
+            },
+            "title": "Unbalanced Expanders and Randomness Extractors from Parvaresh-Vardy Codes",
+            "year": 2007,
+            "venue": "Cybersecurity and Cyberforensics Conference",
+            "citations": 489,
+            "influential_citations": 58,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/06521fd89f6233bd779b7754a4042dad3008e650",
+              "doi": "https://doi.org/10.1145/1538902.1538904"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/301250.301397",
+            "ids": {
+              "doi": "10.1145/301250.301397",
+              "s2": "f2315eb07115e5b2a0a0b4b0e7a34a4b9b140c74"
+            },
+            "title": "Pseudorandom generators without the XOR lemma",
+            "year": 1999,
+            "venue": "Proceedings. Fourteenth Annual IEEE Conference on Computational Complexity (Formerly: Structure in Complexity Theory Conference) (Cat.No.99CB36317)",
+            "citations": 474,
+            "influential_citations": 40,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f2315eb07115e5b2a0a0b4b0e7a34a4b9b140c74",
+              "doi": "https://doi.org/10.1145/301250.301397"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/502090.502099",
+            "ids": {
+              "doi": "10.1145/502090.502099",
+              "s2": "ca73bec3f9b1a483c64ccb51e8dd154fe87fbd42"
+            },
+            "title": "Extractors and pseudorandom generators",
+            "year": 2001,
+            "venue": "JACM",
+            "citations": 357,
+            "influential_citations": 46,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ca73bec3f9b1a483c64ccb51e8dd154fe87fbd42",
+              "doi": "https://doi.org/10.1145/502090.502099"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.05870",
+            "ids": {
+              "arxiv": "2609.05870",
+              "doi": "10.48550/arxiv.2609.05870",
+              "s2": "95604451a5163580ffb20451e3cc6dcf609ae99b"
+            },
+            "title": "Algorithmic List Decoding at Capacity and Optimal Proximity Gaps for Reed-Solomon Codes",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 9,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.05870",
+              "pdf": "https://arxiv.org/pdf/2609.05870",
+              "doi": "https://doi.org/10.48550/arxiv.2609.05870"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.01902",
+            "ids": {
+              "arxiv": "2610.01902",
+              "s2": "5f9a224e4e4ffbdf930294bebccbc67f56f29133"
+            },
+            "title": "Exponential quantum advantages for decoded quantum interferometry in the streaming setting",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.01902",
+              "pdf": "https://arxiv.org/pdf/2610.01902"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.07607",
+            "ids": {
+              "arxiv": "2611.07607",
+              "s2": "44b0980b3583e73e9fd4f52612f2ebb2cd409a66"
+            },
+            "title": "Combinatorial limitations of list-decoding Reed-Solomon codes",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.07607",
+              "pdf": "https://arxiv.org/pdf/2611.07607"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.15815",
+            "ids": {
+              "arxiv": "2610.15815",
+              "s2": "c798801490cb74b9e9f33eb2f000c0978d1748c3"
+            },
+            "title": "Superpolynomial Lists for Reed-Solomon Codes over Binary Extension Fields",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.15815",
+              "pdf": "https://arxiv.org/pdf/2610.15815"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.15128",
+            "ids": {
+              "arxiv": "2611.15128",
+              "s2": "0d38285d58c7024fd0887cdd8ea0f6af8d7c358c"
+            },
+            "title": "Affine Combiners for Reed-Solomon Proximity Gaps",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.15128",
+              "pdf": "https://arxiv.org/pdf/2611.15128"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.12325",
+            "ids": {
+              "arxiv": "2611.12325",
+              "s2": "78a7663c531f7571cc068096c82821b6f3c4a29a"
+            },
+            "title": "An Explicit Below Half Threshold Bound for the Local Leakage Resilience of Shamir's Secret Sharing Scheme",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.12325",
+              "pdf": "https://arxiv.org/pdf/2611.12325"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.39256",
+            "ids": {
+              "arxiv": "2610.39256",
+              "s2": "c3c669d962aaeb84c1c64d6b5c514c2597111c9b"
+            },
+            "title": "On Proximity Gaps for One-Point Algebraic Geometric Codes",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.39256",
+              "pdf": "https://arxiv.org/pdf/2610.39256"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.33452",
+            "ids": {
+              "arxiv": "2610.33452",
+              "s2": "7f83c712e35d22676df56cc5781a4c594d8ade44"
+            },
+            "title": "Bounds on polynomial approximations of the discrete logarithm function",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.33452",
+              "pdf": "https://arxiv.org/pdf/2610.33452"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.31922",
+            "ids": {
+              "arxiv": "2610.31922",
+              "s2": "18c15d7be4d7b8b1a208434aa1d2055a20fed047"
+            },
+            "title": "Deterministic Constructions of Reed-Solomon Codes Beyond the Johnson Bound",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.31922",
+              "pdf": "https://arxiv.org/pdf/2610.31922"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.17711",
+            "ids": {
+              "arxiv": "2610.17711",
+              "s2": "aa0a4f239684550263d823c19e81017a9c5551f8"
+            },
+            "title": "Local Leakage Resilience of Shamir Secret Sharing: Below Half Threshold Rate",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.17711",
+              "pdf": "https://arxiv.org/pdf/2610.17711"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/359168.359176",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1007/s00145-012-9129-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/62212.62213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/tit.1969.1054260",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/isit.2002.1023680",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/73007.73010",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1002/(sici)1097-024x(199709)27:9<995::aid-spe111>3.0.co;2-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/62212.62214",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/73007.73014",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1007/3-540-46416-6_47",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/isit.2000.866351",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/358746.358762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/1538902.1538904",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/301250.301397",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1145/502090.502099",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.01902",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.39256",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.33452",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.31922",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 12,
+      "errors": [
+        "S2 cross-links: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch?fields=references.paperId"
+      ]
+    },
+    {
+      "pick_id": "doi:10.1057/s41599-025-06186-9",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1057/s41599-025-06186-9",
+            "ids": {
+              "doi": "10.1057/s41599-025-06186-9",
+              "s2": "a9c3b195b9e02283c6adea1bc527aa46f33e4083",
+              "openalex": "W7118997326"
+            },
+            "title": "Knowledge graph-driven digital preservation of intangible cultural heritage: a cross-cultural comparative study of Chinese and Western implementation paradigms",
+            "year": 2026,
+            "venue": "Humanities and Social Sciences Communications",
+            "citations": 31,
+            "influential_citations": 2,
+            "is_review": false,
+            "tldr": "This study employs bibliometric analysis and CiteSpace visualization tools to examine 798 research articles from the Web of Science and China National Knowledge Infrastructure databases and proposes a technology–culture–community synergy framework, fostering a holistic and inclusive approach to ICH digitization.",
+            "links": {
+              "abstract_page": "https://doi.org/10.1057/s41599-025-06186-9",
+              "doi": "https://doi.org/10.1057/s41599-025-06186-9"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s10055-024-01043-7",
+            "ids": {
+              "doi": "10.1007/s10055-024-01043-7",
+              "s2": "3423fb697fc1fa3314f94769b46eb90e81770f16"
+            },
+            "title": "Continuance intention toward VR games of intangible cultural heritage: A stimulus-organism-response perspective",
+            "year": 2024,
+            "venue": "Virtual Reality",
+            "citations": 52,
+            "influential_citations": 3,
+            "is_review": true,
+            "tldr": "Results show that visual attractiveness, interactivity, and immersion are significant indicators in measuring users’ continuance intention to play, and perceived usefulness, perceived ease of use, and perceived enjoyment of VR games positively influence their continuance intention.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3423fb697fc1fa3314f94769b46eb90e81770f16",
+              "doi": "https://doi.org/10.1007/s10055-024-01043-7"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/2159032x.2021.1883950",
+            "ids": {
+              "doi": "10.1080/2159032x.2021.1883950",
+              "s2": "fdff1f5034b043a2f87cecf38dcf1cc517ee278a"
+            },
+            "title": "Digital Intangible Heritage: Inventories, Virtual Learning and Participation",
+            "year": 2019,
+            "venue": "Heritage & Society",
+            "citations": 24,
+            "influential_citations": 2,
+            "is_review": false,
+            "tldr": "The paper aims to raise questions about how intangible heritage is defined and performed digitally and how this relates to issues of participation in the safeguarding process and how digital technologies inform relations between communities and intangible heritage.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fdff1f5034b043a2f87cecf38dcf1cc517ee278a",
+              "doi": "https://doi.org/10.1080/2159032x.2021.1883950"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3727/106527098791784448",
+            "ids": {
+              "doi": "10.3727/106527098791784448",
+              "s2": "7021a5b2e22308e253afe0877714bbf2c5f34a6a"
+            },
+            "title": "Destination Culture. Tourism, Museums and Heritage",
+            "year": 1998,
+            "citations": 866,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7021a5b2e22308e253afe0877714bbf2c5f34a6a",
+              "doi": "https://doi.org/10.3727/106527098791784448"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1108/ecam-11-2023-1139",
+            "ids": {
+              "doi": "10.1108/ecam-11-2023-1139",
+              "s2": "e5551d04e586505efe41723f0bda46d70afaf6df"
+            },
+            "title": "Research on the green development path of prefabricated building industry based on intelligent technology",
+            "year": 2024,
+            "venue": "Engineering Construction and Architectural Management",
+            "citations": 8,
+            "influential_citations": 2,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e5551d04e586505efe41723f0bda46d70afaf6df",
+              "doi": "https://doi.org/10.1108/ecam-11-2023-1139"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/iccse.2018.8468809",
+            "ids": {
+              "doi": "10.1109/iccse.2018.8468809",
+              "s2": "67e9d95010ee5fdd8303f7dfad21b169c856f294"
+            },
+            "title": "Research on UI Visual Design of Intangible Cultural Heritage Digital Museum Based on User Experience",
+            "year": 2018,
+            "venue": "International Conference on Crowd Science and Engineering",
+            "citations": 9,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/67e9d95010ee5fdd8303f7dfad21b169c856f294",
+              "doi": "https://doi.org/10.1109/iccse.2018.8468809"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-031-61950-2_36",
+            "ids": {
+              "doi": "10.1007/978-3-031-61950-2_36",
+              "s2": "5e93d329d0d3e5b19ea5fe703704e304516fd24f"
+            },
+            "title": "Enhancing Digital Interaction with Intangible Cultural Heritage: A Study on User Experience and Acceptance of the Zhuhai Intangible Cultural Heritage Database",
+            "year": 2024,
+            "venue": "Interacción",
+            "citations": 4,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5e93d329d0d3e5b19ea5fe703704e304516fd24f",
+              "doi": "https://doi.org/10.1007/978-3-031-61950-2_36"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3145534",
+            "ids": {
+              "doi": "10.1145/3145534",
+              "s2": "cdeda2c21fdfe930327cbca424f8ce5ac9d30c67"
+            },
+            "title": "A Survey of Augmented, Virtual, and Mixed Reality for Cultural Heritage",
+            "year": 2018,
+            "venue": "ACM Journal on Computing and Cultural Heritage",
+            "citations": 1014,
+            "influential_citations": 33,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cdeda2c21fdfe930327cbca424f8ce5ac9d30c67",
+              "doi": "https://doi.org/10.1145/3145534"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1111/j.1350-0775.2004.00459.x",
+            "ids": {
+              "doi": "10.1111/j.1350-0775.2004.00459.x",
+              "s2": "dcbe16f400172841aa41f171b8d9866c3a5fc31e"
+            },
+            "title": "Safeguarding Intangible Cultural Heritage in the 2003 UNESCO Convention: a critical appraisal",
+            "year": 2004,
+            "citations": 447,
+            "influential_citations": 23,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/dcbe16f400172841aa41f171b8d9866c3a5fc31e",
+              "doi": "https://doi.org/10.1111/j.1350-0775.2004.00459.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/app12199859",
+            "ids": {
+              "doi": "10.3390/app12199859",
+              "s2": "03aaf8147818ec59fc4d6421e3efb34bf89cdf23"
+            },
+            "title": "Augmented Reality in Cultural Heritage: An Overview of the Last Decade of Applications",
+            "year": 2022,
+            "venue": "Applied Sciences",
+            "citations": 339,
+            "influential_citations": 16,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/03aaf8147818ec59fc4d6421e3efb34bf89cdf23",
+              "doi": "https://doi.org/10.3390/app12199859"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.culher.2010.01.006",
+            "ids": {
+              "doi": "10.1016/j.culher.2010.01.006",
+              "s2": "11111a1f952fb77ac01461aceee615681dfd2797"
+            },
+            "title": "A definition of cultural heritage: From the tangible to the intangible",
+            "year": 2010,
+            "citations": 897,
+            "influential_citations": 33,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/11111a1f952fb77ac01461aceee615681dfd2797",
+              "doi": "https://doi.org/10.1016/j.culher.2010.01.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4324/9780203852873",
+            "ids": {
+              "doi": "10.4324/9780203852873",
+              "s2": "df8c05a2f7495c1eb5aa3ca6411585511b19bc13"
+            },
+            "title": "Performing Remains: Art and War in Times of Theatrical Reenactment",
+            "year": 2011,
+            "citations": 893,
+            "influential_citations": 33,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/df8c05a2f7495c1eb5aa3ca6411585511b19bc13",
+              "doi": "https://doi.org/10.4324/9780203852873"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3494837",
+            "ids": {
+              "doi": "10.1145/3494837",
+              "s2": "34081bc04d13782881e4a6c4f68c2e599a4ca7eb"
+            },
+            "title": "Digitizing Intangible Cultural Heritage Embodied: State of the Art",
+            "year": 2022,
+            "venue": "ACM Journal on Computing and Cultural Heritage",
+            "citations": 304,
+            "influential_citations": 10,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/34081bc04d13782881e4a6c4f68c2e599a4ca7eb",
+              "doi": "https://doi.org/10.1145/3494837"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/ejil/chr006",
+            "ids": {
+              "doi": "10.1093/ejil/chr006",
+              "s2": "deea64587b18d890d64c1ab336c3fa96df9915ac"
+            },
+            "title": "Intangible cultural heritage: The living culture of peoples",
+            "year": 2011,
+            "citations": 510,
+            "influential_citations": 32,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/deea64587b18d890d64c1ab336c3fa96df9915ac",
+              "doi": "https://doi.org/10.1093/ejil/chr006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1186/s40494-021-00633-x",
+            "ids": {
+              "doi": "10.1186/s40494-021-00633-x",
+              "s2": "b5d904bac6a1420ce037e4e0d9f94093bef7168e"
+            },
+            "title": "3D technologies for intangible cultural heritage preservation—literature review for selected databases",
+            "year": 2022,
+            "venue": "Heritage Science",
+            "citations": 292,
+            "influential_citations": 5,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b5d904bac6a1420ce037e4e0d9f94093bef7168e",
+              "doi": "https://doi.org/10.1186/s40494-021-00633-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/2158244019840119",
+            "ids": {
+              "doi": "10.1177/2158244019840119",
+              "s2": "fcf8e1ddff5b53fdb323236c46e28f1f913522f7"
+            },
+            "title": "A Bibliometric Analysis of Research on Intangible Cultural Heritage Using CiteSpace",
+            "year": 2019,
+            "venue": "SAGE Open",
+            "citations": 195,
+            "influential_citations": 9,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fcf8e1ddff5b53fdb323236c46e28f1f913522f7",
+              "doi": "https://doi.org/10.1177/2158244019840119"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1186/s40494-024-01403-1",
+            "ids": {
+              "doi": "10.1186/s40494-024-01403-1",
+              "s2": "3b615cd77e5dd69aeee083b7252bce0a603ffd4b"
+            },
+            "title": "Digitalizing cultural heritage through metaverse applications: challenges, opportunities, and strategies",
+            "year": 2024,
+            "venue": "Heritage Science",
+            "citations": 165,
+            "influential_citations": 7,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3b615cd77e5dd69aeee083b7252bce0a603ffd4b",
+              "doi": "https://doi.org/10.1186/s40494-024-01403-1"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.culher.2009.02.006",
+            "ids": {
+              "doi": "10.1016/j.culher.2009.02.006",
+              "s2": "5a226a78c8221373be4100182f37e2312e8624a9"
+            },
+            "title": "From 3D reconstruction to virtual reality: A complete methodology for digital archaeological exhibition",
+            "year": 2010,
+            "citations": 483,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5a226a78c8221373be4100182f37e2312e8624a9",
+              "doi": "https://doi.org/10.1016/j.culher.2009.02.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4324/9780203112984",
+            "ids": {
+              "doi": "10.4324/9780203112984",
+              "s2": "85ddb0cecaf9a74527a0e7da50dcf87a9d8e8526"
+            },
+            "title": "Heritage and Social Media : Understanding heritage in a participatory culture",
+            "year": 2012,
+            "citations": 362,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/85ddb0cecaf9a74527a0e7da50dcf87a9d8e8526",
+              "doi": "https://doi.org/10.4324/9780203112984"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.66325/nusantaraeducation.v5i1.254",
+            "ids": {
+              "doi": "10.66325/nusantaraeducation.v5i1.254",
+              "s2": "2df8cffff130041ed8a2ad121fbd80b3ee373edb"
+            },
+            "title": "Facilitating Academic Mobility and Knowledge Exchange to Promote Continuous Learning and Collaboration",
+            "year": 2026,
+            "venue": "Nusantara Education",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2df8cffff130041ed8a2ad121fbd80b3ee373edb",
+              "doi": "https://doi.org/10.66325/nusantaraeducation.v5i1.254"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.11114/smc.v14i4.8882",
+            "ids": {
+              "doi": "10.11114/smc.v14i4.8882",
+              "s2": "c6459a4b6c1b5755ef16c9f69d64345c622b7d7a"
+            },
+            "title": "Representation, Audience, and Authority in the Digital Communication of Intangible Cultural Heritage: A Policy-Design Analysis Grounded in an Immersive Heritage Prototype in Ethnic-Minority China",
+            "year": 2026,
+            "venue": "Studies in Media and Communication",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c6459a4b6c1b5755ef16c9f69d64345c622b7d7a",
+              "doi": "https://doi.org/10.11114/smc.v14i4.8882"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/su18115534",
+            "ids": {
+              "doi": "10.3390/su18115534",
+              "s2": "d852173068e1791b818bf85ca637e3057941ccea"
+            },
+            "title": "Evaluation and Development Path Optimization of Rural Low-Altitude Tourism Using a Triangular Fuzzy TOPSIS Approach",
+            "year": 2026,
+            "venue": "Sustainability",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d852173068e1791b818bf85ca637e3057941ccea",
+              "doi": "https://doi.org/10.3390/su18115534"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4018/ijec.427453",
+            "ids": {
+              "doi": "10.4018/ijec.427453",
+              "s2": "ff85e7233b061075180e27602195dbba3429ec4e"
+            },
+            "title": "A Scalable Deep Reinforcement Learning Framework for Enhancing Intangible Cultural Heritage Digital Protection",
+            "year": 2026,
+            "venue": "International Journal of e-collaboration",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ff85e7233b061075180e27602195dbba3429ec4e",
+              "doi": "https://doi.org/10.4018/ijec.427453"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.61784/jtah3059",
+            "ids": {
+              "doi": "10.61784/jtah3059",
+              "s2": "b1e6ffe5aefadfb0b528d95c04e049ebbe6fa878"
+            },
+            "title": "REVITALIZING INTANGIBLE CULTURAL HERITAGE IN THE GRAND CANAL'S ANHUI SECTION: PATHWAYS AND DIGITAL STRATEGIES",
+            "year": 2026,
+            "venue": "Journal of Trends in Arts and Humanities",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b1e6ffe5aefadfb0b528d95c04e049ebbe6fa878",
+              "doi": "https://doi.org/10.61784/jtah3059"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.71204/ryd15635",
+            "ids": {
+              "doi": "10.71204/ryd15635",
+              "s2": "46d5b767b14c9e97ffcafa6c598c2e3056d77f8b"
+            },
+            "title": "Living Inheritance or Digital Alienation ? The Ethical Dilemma and Path Selection of the Inheritance of Intangible Cultural Heritage Digital People",
+            "year": 2026,
+            "venue": "The Development of Humanities and Social Sciences",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/46d5b767b14c9e97ffcafa6c598c2e3056d77f8b",
+              "doi": "https://doi.org/10.71204/ryd15635"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/heritage9110445",
+            "ids": {
+              "doi": "10.3390/heritage9110445",
+              "s2": "bc4517cee0e213f5a93f86b0960cc12acaf268ad"
+            },
+            "title": "Balancing Cultural Preservation and Design: A Study on the Generative Artificial Intelligence-Empowered Framework for the Sustainable Design of Intangible Cultural Heritage",
+            "year": 2026,
+            "venue": "The Heritage",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bc4517cee0e213f5a93f86b0960cc12acaf268ad",
+              "doi": "https://doi.org/10.3390/heritage9110445"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2026.1935285",
+            "ids": {
+              "doi": "10.3389/fpsyg.2026.1935285",
+              "s2": "297aa6861d7b67eba6da5bf8da8dab4046228ccb"
+            },
+            "title": "Motivational predictors and configurations associated with youths’ intention to share intangible cultural heritage knowledge on Douyin: a PLS-SEM and fsQCA study",
+            "year": 2026,
+            "venue": "Frontiers in Psychology",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/297aa6861d7b67eba6da5bf8da8dab4046228ccb",
+              "doi": "https://doi.org/10.3389/fpsyg.2026.1935285"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/21582440261507757",
+            "ids": {
+              "doi": "10.1177/21582440261507757",
+              "s2": "eec733fc57a4f57dec78862c89245511ecc54ea3"
+            },
+            "title": "Research on the Spatial Pattern and Influence Mechanism of Traditional Artistic Intangible Cultural Heritage",
+            "year": 2026,
+            "venue": "SAGE Open",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/eec733fc57a4f57dec78862c89245511ecc54ea3",
+              "doi": "https://doi.org/10.1177/21582440261507757"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.63808/mca.v2i3.408",
+            "ids": {
+              "doi": "10.63808/mca.v2i3.408",
+              "s2": "730db6c524651a267c385b18bb021ca4882a97ed"
+            },
+            "title": "Communication Behaviors of Xi’an Drum Music Inheritors in the Context of Mediatization: Digital Communication and Cultural Heritage Transmission",
+            "year": 2026,
+            "venue": "Multidimensional Culture &amp; Arts",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/730db6c524651a267c385b18bb021ca4882a97ed",
+              "doi": "https://doi.org/10.63808/mca.v2i3.408"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1007/s10055-024-01043-7",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1080/2159032x.2021.1883950",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.3727/106527098791784448",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1108/ecam-11-2023-1139",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1109/iccse.2018.8468809",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1007/978-3-031-61950-2_36",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1145/3145534",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1111/j.1350-0775.2004.00459.x",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.3390/app12199859",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1016/j.culher.2010.01.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.4324/9780203852873",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1145/3494837",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1093/ejil/chr006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1186/s40494-021-00633-x",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1177/2158244019840119",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1186/s40494-024-01403-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.1016/j.culher.2009.02.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1057/s41599-025-06186-9",
+          "target": "doi:10.4324/9780203112984",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.66325/nusantaraeducation.v5i1.254",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.11114/smc.v14i4.8882",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/su18115534",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.4018/ijec.427453",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.61784/jtah3059",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.71204/ryd15635",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/heritage9110445",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1935285",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/21582440261507757",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.63808/mca.v2i3.408",
+          "target": "doi:10.1057/s41599-025-06186-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s10055-024-01043-7",
+          "target": "doi:10.1186/s40494-021-00633-x",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/app12199859",
+          "target": "doi:10.1145/3145534",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1145/3494837",
+          "target": "doi:10.1093/ejil/chr006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1145/3494837",
+          "target": "doi:10.1145/3145534",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1186/s40494-021-00633-x",
+          "target": "doi:10.1016/j.culher.2010.01.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/2158244019840119",
+          "target": "doi:10.1093/ejil/chr006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1177/2158244019840119",
+          "target": "doi:10.1016/j.culher.2010.01.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1186/s40494-024-01403-1",
+          "target": "doi:10.3390/app12199859",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.11114/smc.v14i4.8882",
+          "target": "doi:10.1145/3494837",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.71204/ryd15635",
+          "target": "doi:10.4324/9780203112984",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.63808/mca.v2i3.408",
+          "target": "doi:10.1145/3494837",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 31,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.21152",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.21152",
+            "ids": {
+              "arxiv": "2611.21152"
+            },
+            "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.21152",
+              "pdf": "https://arxiv.org/pdf/2611.21152"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": []
+    }
+  ]
+}

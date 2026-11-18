@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:47:11.472160Z",
+  "candidates_file": "candidates/2026-11-18.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.9294,
+      "adjusted": 0.9294,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8636,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9375,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "12 citations, about 5 a month · Published in Electron. Colloquium Comput. Complex.",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2609.08005",
+        "ids": {
+          "arxiv": "2609.08005",
+          "doi": null,
+          "s2": "ad29a36a5e48a74f0e28961b217596f2f3faa10b",
+          "openalex": "W7211990869"
+        },
+        "title": "Algorithmic List Decoding of Reed-Solomon Codes up to Capacity",
+        "authors": [
+          {
+            "name": "Joshua Brakensiek",
+            "affiliation": null
+          },
+          {
+            "name": "Yeyuan Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Aaron Putterman",
+            "affiliation": null
+          },
+          {
+            "name": "Zihan Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Kai Zhe Zheng",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We give a deterministic polynomial-time list-decoding algorithm for Reed-Solomon codes over prime fields that approaches list-decoding capacity for every evaluation set and every constant rate.",
+        "tldr": null,
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-18",
+          "submitted": "2026-09-07",
+          "published": "2026-09-07"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Electron. Colloquium Comput. Complex.",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 12,
+          "influential": 3,
+          "last_12_months": 16,
+          "per_month": 5.073,
+          "by_year": {
+            "2026": 16
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2609.08005",
+          "pdf": "https://arxiv.org/pdf/2609.08005",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-18T11:40:52.488895Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "light",
+      "topic": "history",
+      "funnel": "waves",
+      "score": 0.9018,
+      "adjusted": 0.9018,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.925,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.6842,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "31 citations, about 3 a month · Published in Humanities and Social Sciences Communications",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1057/s41599-025-06186-9",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1057/s41599-025-06186-9",
+          "s2": "a9c3b195b9e02283c6adea1bc527aa46f33e4083",
+          "openalex": "W7118997326"
+        },
+        "title": "Knowledge graph-driven digital preservation of intangible cultural heritage: a cross-cultural comparative study of Chinese and Western implementation paradigms",
+        "authors": [
+          {
+            "name": "Kexin Ren",
+            "affiliation": null
+          },
+          {
+            "name": "Johnny F. I. Lam",
+            "affiliation": null
+          }
+        ],
+        "abstract": "The digital preservation of intangible cultural heritage (ICH) has become a vital strategy for sustaining cultural diversity in the face of globalization and digital transformation. This study employs bibliometric analysis and CiteSpace visualization tools to examine 798 research articles from the Web of Science (WoS) and China National Knowledge Infrastructure (CNKI) databases (2006–2024). It provides a systematic comparative analysis of methodologies and paradigms in ICH digitization across Chinese and Western academic discourses. The findings reveal distinct conceptual orientations: Western research tends to be technology-centric, emphasizing virtual reality (VR), augmented reality (AR), and blockchain for heritage data modeling, digital archiving, and virtual exhibitions. In contrast, Chinese research adopts a culture–technology symbiosis approach, focusing on digital storytelling, with an emphasis on tourism-integrated innovation, community participation, and interdisciplinary collaboration. A temporal analysis highlights digital twins and artificial intelligence (AI) as emerging transformative forces shaping global ICH preservation, integrating technological advancements with cultural imperatives. To address existing gaps, this study proposes a technology–culture–community synergy framework, fostering a holistic and inclusive approach to ICH digitization. By bridging technological rationality with humanistic values, this study contributes to comparative ICH digitization discourse and provides practical guidance for building inclusive digital ecosystems. Ultimately, it contributes to global heritage discourse by redefining digital technology not only as a preservation tool but also as a driver of cultural innovation, offering a strategic roadmap for balancing technological advancement with the ontological integrity of intangible heritage.",
+        "tldr": "This study employs bibliometric analysis and CiteSpace visualization tools to examine 798 research articles from the Web of Science and China National Knowledge Infrastructure databases and proposes a technology–culture–community synergy framework, fostering a holistic and inclusive approach to ICH digitization.",
+        "topics": [
+          "history"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-18",
+          "submitted": null,
+          "published": "2026-01-06"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Humanities and Social Sciences Communications",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 31,
+          "influential": 2,
+          "last_12_months": 45,
+          "per_month": 2.986,
+          "by_year": {
+            "2026": 45,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1057/s41599-025-06186-9",
+          "pdf": null,
+          "doi": "https://doi.org/10.1057/s41599-025-06186-9",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-18T11:40:52.488895Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "nlp",
+      "funnel": "fresh",
+      "score": 0.8174,
+      "adjusted": 0.8174,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.8269,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "7 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.21152",
+        "ids": {
+          "arxiv": "2611.21152",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+        "authors": [
+          {
+            "name": "Yang Tian",
+            "affiliation": null
+          },
+          {
+            "name": "Tianyu Zheng",
+            "affiliation": null
+          },
+          {
+            "name": "Xiyuan Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Yaxin Du",
+            "affiliation": null
+          },
+          {
+            "name": "Chengran Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Bo Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Jian Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Bryan Dai",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often follow a linear process that ends with validation, establishing usability but providing little guidance on improving training value. Recursive self-improvement (RSI) often requires model rollouts or model training followed by downstream evaluation, with costs and feedback delays amplified on long-horizon tasks. How can we use timely, reliable proxy signals to improve training value and synthesize environments at scale? We present RepoFactory, an automated pipeline that converts real repositories into verifiable environments where agents build complete projects from scratch given a language specification. Its Environment Evolution Loop optimizes a multiplicative objective combining validity, structural coupling, and implementation scope through proxy feedback. RepoFactory produces 10,159 environments across 17 software domains. Training Qwen3.5-35B-A3B on these environments yields RepoHorizen-35B-A3B, which achieves gains of 22.6 percentage points on NL2Repo-Bench and 8.5 points on average across five benchmarks covering long-horizon coding and agentic tasks in real-world production settings, compared with 17.5 and 6.4 points without environment evolution. These results highlight the training value of RepoFactory environments and the additional gains from the Environment Evolution Loop.",
+        "tldr": null,
+        "topics": [
+          "nlp"
+        ],
+        "source_categories": [
+          "cs.CL"
+        ],
+        "dates": {
+          "first_seen": "2026-11-18",
+          "submitted": "2026-11-16",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 7,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.21152",
+          "pdf": "https://arxiv.org/pdf/2611.21152",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-18T11:40:52.488895Z"
+      }
+    }
+  ]
+}
