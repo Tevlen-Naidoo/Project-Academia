@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:44:02.963464Z",
+  "candidates_file": "candidates/2026-11-19.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.7993,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "3 upvotes on Hugging Face · Published in ACM Transactions on Graphics",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.24941",
+        "ids": {
+          "arxiv": "2611.24941",
+          "doi": "10.1145/3842583",
+          "s2": null,
+          "openalex": "W7225610648"
+        },
+        "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+        "authors": [
+          {
+            "name": "Jingzhi Bao",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaohe Ma",
+            "affiliation": null
+          },
+          {
+            "name": "Hong Li",
+            "affiliation": null
+          },
+          {
+            "name": "Yuanming Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaoguang Han",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation. UltraTex first jointly predicts albedo and world-space shading normals to generate more detailed albedo maps, and then predicts metallic-roughness (MR) maps conditioned on the generated albedo, reference image, and material semantic priors. To inject material semantics, a lightweight adapter transforms hidden-layer features of a vision-language model (VLM) into intrinsic material representation tokens, providing part-level knowledge anchors for MR estimation. To model material-light interaction, photometric representation alignment guides intermediate diffusion features toward ground-truth material renderings under controlled lighting. This makes metallic and roughness variations observable through highlight intensity, specular sharpness, and local reflectance contrast, providing stronger guidance for fine-grained material prediction without explicit lighting supervision. Extensive experiments show that UltraTex generates high-quality textures and outperforms existing open-source and commercial methods in visual fidelity, material accuracy, and physical plausibility.",
+        "tldr": null,
+        "topics": [
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-19",
+          "submitted": "2026-11-18",
+          "published": null
+        },
+        "publication": {
+          "status": "published",
+          "venue": "ACM Transactions on Graphics",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 0,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 3,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.24941",
+          "pdf": "https://arxiv.org/pdf/2611.24941",
+          "doi": "https://doi.org/10.1145/3842583",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-19T11:38:41.488832Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.9088,
+      "adjusted": 0.7725,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.875,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7083,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "11 citations, about 3 a month · Published in IEEE Transactions on Information Theory",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2512.04197",
+        "ids": {
+          "arxiv": "2512.04197",
+          "doi": "10.1109/tit.2026.3718236",
+          "s2": "123e8076aafa7574e1344a2b78757d01bcd13227",
+          "openalex": "W7171666675"
+        },
+        "title": "Constructing Low-Redundancy Codes via Distributed Graph Coloring",
+        "authors": [
+          {
+            "name": "Yuting Li",
+            "affiliation": null
+          },
+          {
+            "name": "Ryan Gabrys",
+            "affiliation": null
+          },
+          {
+            "name": "Farzad Farnoud",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We present a general framework for constructing error-correcting codes using distributed graph coloring under the LOCAL model. Building on the correspondence between independent sets in the confusion graph and valid codes, we show that the color of a single vertex - consistent with a global proper coloring - can be computed in polynomial time using a modified version of Linial’s coloring algorithm, leading to efficient encoding and decoding. Our results include: 1) uniquely decodable code constructions for a constant number of errors of any type with redundancy twice the Gilbert–Varshamov bound; 2) list-decodable codes via a proposed extension of graph coloring, namely, hypergraph labeling; 3) an incremental synchronization scheme with reduced average-case communication when the edit distance is not precisely known; and 4) the first asymptotically optimal codes (up to a factor of 8) for correcting bursts of unbounded-length edits. Compared to syndrome compression, our approach is more flexible and generalizable, does not rely on a good base code, and achieves improved redundancy across a range of parameters.",
+        "tldr": "It is shown that the color of a single vertex - consistent with a global proper coloring - can be computed in polynomial time using a modified version of Linial’s coloring algorithm, leading to efficient encoding and decoding.",
+        "topics": [
+          "graph-theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-19",
+          "submitted": null,
+          "published": "2026-07-29"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Transactions on Information Theory",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 11,
+          "influential": 4,
+          "last_12_months": 10,
+          "per_month": 2.963,
+          "by_year": {
+            "2026": 10
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2512.04197",
+          "pdf": "https://arxiv.org/pdf/2512.04197",
+          "doi": "https://doi.org/10.1109/tit.2026.3718236",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-19T11:38:41.488832Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.8085,
+      "adjusted": 0.6872,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.6905,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7177,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "349 citations, about 26 a month · Published in International Conference on Learning Representations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2509.25140",
+        "ids": {
+          "arxiv": "2509.25140",
+          "doi": null,
+          "s2": "9c03c7b9ae5bc182134edd736c6d48946f4aaaaf",
+          "openalex": "W4415337833"
+        },
+        "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+        "authors": [
+          {
+            "name": "Siru Ouyang",
+            "affiliation": null
+          },
+          {
+            "name": "Yan, Jun",
+            "affiliation": null
+          },
+          {
+            "name": "I-Hung Hsu",
+            "affiliation": null
+          },
+          {
+            "name": "Yanfei Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Ke Jiang",
+            "affiliation": null
+          },
+          {
+            "name": "Zifeng Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Han, Rujun",
+            "affiliation": null
+          },
+          {
+            "name": "Long T. Le",
+            "affiliation": null
+          },
+          {
+            "name": "Samira Daruki",
+            "affiliation": null
+          },
+          {
+            "name": "Xiangru Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Vishy Tirumalashetty",
+            "affiliation": null
+          },
+          {
+            "name": "George Lee",
+            "affiliation": null
+          },
+          {
+            "name": "Mahsan Rofouei",
+            "affiliation": null
+          },
+          {
+            "name": "Hangfei Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Jiawei Han",
+            "affiliation": null
+          },
+          {
+            "name": "Chen-Yu Lee",
+            "affiliation": null
+          },
+          {
+            "name": "Tomas Pfister",
+            "affiliation": null
+          }
+        ],
+        "abstract": "With the growing adoption of large language model agents in persistent real-world roles, they naturally encounter continuous streams of tasks. A key limitation, however, is their failure to learn from the accumulated interaction history, forcing them to discard valuable insights and repeat past errors. We propose ReasoningBank, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences. At test time, an agent retrieves relevant memories from ReasoningBank to inform its interaction and then integrates new learnings back, enabling it to become more capable over time. Building on this powerful experience learner, we further introduce memory-aware test-time scaling (MaTTS), which accelerates and diversifies this learning process by scaling up the agent's interaction experience. By allocating more compute to each task, the agent generates abundant, diverse experiences that provide rich contrastive signals for synthesizing higher-quality memory. The better memory in turn guides more effective scaling, establishing a powerful synergy between memory and test-time scaling. Across web browsing and software engineering benchmarks, ReasoningBank consistently outperforms existing memory mechanisms that store raw trajectories or only successful task routines, improving both effectiveness and efficiency; MaTTS further amplifies these gains. These findings establish memory-driven experience scaling as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise. Our code can be found at https://github.com/google-research/reasoning-bank.",
+        "tldr": "ReasoningBank is proposed, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences, and memory-driven experience scaling is established as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise.",
+        "topics": [
+          "ml",
+          "ai",
+          "nlp"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-19",
+          "submitted": "2025-09-29",
+          "published": "2025-09-29"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "International Conference on Learning Representations",
+          "venue_type": "conference",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 349,
+          "influential": 62,
+          "last_12_months": 327,
+          "per_month": 25.537,
+          "by_year": {
+            "2026": 325,
+            "2025": 14
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2509.25140",
+          "pdf": "https://arxiv.org/pdf/2509.25140",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-19T11:38:41.488832Z"
+      }
+    }
+  ]
+}

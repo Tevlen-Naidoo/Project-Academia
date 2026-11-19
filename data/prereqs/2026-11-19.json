@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:44:55.411908Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.24941",
+      "pick_title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "source": "openalex",
+      "references_seen": 71,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:1412.6980",
+            "ids": {
+              "arxiv": "1412.6980",
+              "doi": "10.48550/arxiv.1412.6980",
+              "openalex": "W2964121744"
+            },
+            "title": "Adam: A Method for Stochastic Optimization",
+            "year": 2015,
+            "venue": "UvA-DARE (University of Amsterdam)",
+            "citations": 139228,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1412.6980",
+              "pdf": "https://arxiv.org/pdf/1412.6980",
+              "doi": "https://doi.org/10.48550/arxiv.1412.6980"
+            }
+          },
+          "label": "background",
+          "score": 4.115,
+          "reasons": [
+            "139k citations"
+          ],
+          "supports": [
+            "arxiv:2611.24941"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52688.2022.01042",
+            "ids": {
+              "doi": "10.1109/cvpr52688.2022.01042",
+              "openalex": "W4312933868"
+            },
+            "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+            "year": 2022,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 37105,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4312933868",
+              "doi": "https://doi.org/10.1109/cvpr52688.2022.01042"
+            }
+          },
+          "label": "background",
+          "score": 3.656,
+          "reasons": [
+            "37k citations"
+          ],
+          "supports": [
+            "arxiv:2611.24941"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2018.00068",
+            "ids": {
+              "doi": "10.1109/cvpr.2018.00068",
+              "openalex": "W2962785568"
+            },
+            "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+            "year": 2018,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 24573,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2962785568",
+              "doi": "https://doi.org/10.1109/cvpr.2018.00068"
+            }
+          },
+          "label": "background",
+          "score": 3.512,
+          "reasons": [
+            "25k citations"
+          ],
+          "supports": [
+            "arxiv:2611.24941"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for ARXIV:2611.24941: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.24941/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2512.04197",
+      "pick_title": "Constructing Low-Redundancy Codes via Distributed Graph Coloring",
+      "source": "s2",
+      "references_seen": 27,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1137/0221015",
+            "ids": {
+              "doi": "10.1137/0221015",
+              "s2": "a4b650d68fa2a15db5307b70d5f5fb7dc3e29569"
+            },
+            "title": "Locality in Distributed Graph Algorithms",
+            "year": 1992,
+            "venue": "SIAM journal on computing (Print)",
+            "citations": 1112,
+            "influential_citations": 188,
+            "is_review": false,
+            "tldr": "This model focuses on the issue of locality in distributed processing, namely, to what extent a global solution to a computational problem can be obtained from locally available data.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a4b650d68fa2a15db5307b70d5f5fb7dc3e29569",
+              "doi": "https://doi.org/10.1137/0221015"
+            }
+          },
+          "label": "background",
+          "score": 6.575,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.1k citations"
+          ],
+          "quote": "In particular, it is shown that given a proper coloring with 2 k colors, in one round, it is possible to obtain a proper coloring with 5 k ∆ 2 colors (although the proof with these speciﬁc constants in [15] is nonconstructive).",
+          "supports": [
+            "arxiv:2512.04197"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "s2:b2f8876482c97e804bb50a5e2433881ae31d0cdd",
+            "ids": {
+              "s2": "b2f8876482c97e804bb50a5e2433881ae31d0cdd"
+            },
+            "title": "Binary codes capable of correcting deletions, insertions, and reversals",
+            "year": 1965,
+            "citations": 14553,
+            "influential_citations": 770,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b2f8876482c97e804bb50a5e2433881ae31d0cdd"
+            }
+          },
+          "label": "background",
+          "score": 4.774,
+          "reasons": [
+            "15k citations"
+          ],
+          "quote": "In particular, it took more than half a century after Levenshtein’s optimal single-deletion-correcting codes [12] to construct codes with redundancy within a known constant factor of optimal [6], [7], [24] to correct two deletions.",
+          "supports": [
+            "arxiv:2512.04197"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit44484.2020.9174241",
+            "ids": {
+              "doi": "10.1109/isit44484.2020.9174241",
+              "s2": "c9324637ef3895a766724e754a5402092026ed0b"
+            },
+            "title": "Optimal Codes for the q-ary Deletion Channel",
+            "year": 2020,
+            "venue": "International Symposium on Information Theory",
+            "citations": 49,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c9324637ef3895a766724e754a5402092026ed0b",
+              "doi": "https://doi.org/10.1109/isit44484.2020.9174241"
+            }
+          },
+          "label": "background",
+          "score": 4.709,
+          "reasons": [
+            "Influential reference for this paper",
+            "49 citations"
+          ],
+          "quote": "For example, in [21], Sima et al. study q -ary deletion codes.",
+          "supports": [
+            "arxiv:2512.04197"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2509.25140",
+      "pick_title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "source": "openalex",
+      "references_seen": 48,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-2019",
+            "ids": {
+              "doi": "10.52202/075280-2019",
+              "openalex": "W7133236450"
+            },
+            "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 6244,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133236450",
+              "doi": "https://doi.org/10.52202/075280-2019"
+            }
+          },
+          "label": "background",
+          "score": 3.036,
+          "reasons": [
+            "6.2k citations"
+          ],
+          "supports": [
+            "arxiv:2509.25140"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11704-024-40231-1",
+            "ids": {
+              "doi": "10.1007/s11704-024-40231-1",
+              "openalex": "W4393065402"
+            },
+            "title": "A survey on large language model based autonomous agents",
+            "year": 2024,
+            "venue": "Frontiers of Computer Science",
+            "citations": 5383,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4393065402",
+              "doi": "https://doi.org/10.1007/s11704-024-40231-1"
+            }
+          },
+          "label": "background",
+          "score": 2.985,
+          "reasons": [
+            "5.4k citations"
+          ],
+          "supports": [
+            "arxiv:2509.25140"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.08560",
+            "ids": {
+              "arxiv": "2310.08560",
+              "doi": "10.48550/arxiv.2310.08560",
+              "openalex": "W4387636003"
+            },
+            "title": "MemGPT: Towards LLMs as Operating Systems",
+            "year": 2023,
+            "venue": "arXiv (Cornell University)",
+            "citations": 2704,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.08560",
+              "pdf": "https://arxiv.org/pdf/2310.08560",
+              "doi": "https://doi.org/10.48550/arxiv.2310.08560"
+            }
+          },
+          "label": "background",
+          "score": 2.746,
+          "reasons": [
+            "2.7k citations"
+          ],
+          "supports": [
+            "arxiv:2509.25140"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 9c03c7b9ae5bc182134edd736c6d48946f4aaaaf: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/9c03c7b9ae5bc182134edd736c6d48946f4aaaaf/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    }
+  ]
+}

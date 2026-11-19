@@ -1,0 +1,2044 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:44:55.411908Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.24941",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.24941",
+            "ids": {
+              "arxiv": "2611.24941",
+              "doi": "10.1145/3842583",
+              "openalex": "W7225610648"
+            },
+            "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+            "year": 2026,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.24941",
+              "pdf": "https://arxiv.org/pdf/2611.24941",
+              "doi": "https://doi.org/10.1145/3842583"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1412.6980",
+            "ids": {
+              "arxiv": "1412.6980",
+              "doi": "10.48550/arxiv.1412.6980",
+              "openalex": "W2964121744"
+            },
+            "title": "Adam: A Method for Stochastic Optimization",
+            "year": 2015,
+            "venue": "UvA-DARE (University of Amsterdam)",
+            "citations": 139228,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1412.6980",
+              "pdf": "https://arxiv.org/pdf/1412.6980",
+              "doi": "https://doi.org/10.48550/arxiv.1412.6980"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52688.2022.01042",
+            "ids": {
+              "doi": "10.1109/cvpr52688.2022.01042",
+              "openalex": "W4312933868"
+            },
+            "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+            "year": 2022,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 37105,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4312933868",
+              "doi": "https://doi.org/10.1109/cvpr52688.2022.01042"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2018.00068",
+            "ids": {
+              "doi": "10.1109/cvpr.2018.00068",
+              "openalex": "W2962785568"
+            },
+            "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+            "year": 2018,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 24573,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2962785568",
+              "doi": "https://doi.org/10.1109/cvpr.2018.00068"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1706.08500",
+            "ids": {
+              "arxiv": "1706.08500",
+              "doi": "10.48550/arxiv.1706.08500",
+              "openalex": "W2963981733"
+            },
+            "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+            "year": 2017,
+            "venue": "arXiv (Cornell University)",
+            "citations": 19522,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1706.08500",
+              "pdf": "https://arxiv.org/pdf/1706.08500",
+              "doi": "https://doi.org/10.48550/arxiv.1706.08500"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52688.2022.01553",
+            "ids": {
+              "doi": "10.1109/cvpr52688.2022.01553",
+              "openalex": "W4226002507"
+            },
+            "title": "Masked Autoencoders Are Scalable Vision Learners",
+            "year": 2022,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 15901,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4226002507",
+              "doi": "https://doi.org/10.1109/cvpr52688.2022.01553"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "openalex": "W4366208220"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Transactions on machine learning research",
+            "citations": 11361,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2403.03206",
+            "ids": {
+              "arxiv": "2403.03206",
+              "doi": "10.48550/arxiv.2403.03206",
+              "openalex": "W4392538976"
+            },
+            "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+            "year": 2024,
+            "venue": "arXiv (Cornell University)",
+            "citations": 5624,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2403.03206",
+              "pdf": "https://arxiv.org/pdf/2403.03206",
+              "doi": "https://doi.org/10.48550/arxiv.2403.03206"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2209.14988",
+            "ids": {
+              "arxiv": "2209.14988",
+              "doi": "10.48550/arxiv.2209.14988",
+              "openalex": "W4298187450"
+            },
+            "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+            "year": 2022,
+            "venue": "arXiv (Cornell University)",
+            "citations": 3115,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2209.14988",
+              "pdf": "https://arxiv.org/pdf/2209.14988",
+              "doi": "https://doi.org/10.48550/arxiv.2209.14988"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52729.2023.01263",
+            "ids": {
+              "doi": "10.1109/cvpr52729.2023.01263",
+              "openalex": "W4386075660"
+            },
+            "title": "Objaverse: A Universe of Annotated 3D Objects",
+            "year": 2023,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 2119,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4386075660",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.01263"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52729.2023.00037",
+            "ids": {
+              "doi": "10.1109/cvpr52729.2023.00037",
+              "openalex": "W4386065887"
+            },
+            "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+            "year": 2023,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 1945,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4386065887",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.00037"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-0368",
+            "ids": {
+              "doi": "10.52202/075280-0368",
+              "openalex": "W7133190699"
+            },
+            "title": "ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 1459,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133190699",
+              "doi": "https://doi.org/10.52202/075280-0368"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.16512",
+            "ids": {
+              "arxiv": "2308.16512",
+              "doi": "10.48550/arxiv.2308.16512",
+              "openalex": "W4386395766"
+            },
+            "title": "MVDream: Multi-view Diffusion for 3D Generation",
+            "year": 2023,
+            "venue": "arXiv (Cornell University)",
+            "citations": 957,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.16512",
+              "pdf": "https://arxiv.org/pdf/2308.16512",
+              "doi": "https://doi.org/10.48550/arxiv.2308.16512"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/iccv51070.2023.02033",
+            "ids": {
+              "doi": "10.1109/iccv51070.2023.02033",
+              "openalex": "W4390873542"
+            },
+            "title": "Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation",
+            "year": 2023,
+            "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+            "citations": 928,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4390873542",
+              "doi": "https://doi.org/10.1109/iccv51070.2023.02033"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-1554",
+            "ids": {
+              "doi": "10.52202/075280-1554",
+              "openalex": "W7133205559"
+            },
+            "title": "Objaverse-XL: A Universe of 10M+ 3D Objects",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 829,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133205559",
+              "doi": "https://doi.org/10.52202/075280-1554"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.06940",
+            "ids": {
+              "arxiv": "2410.06940",
+              "doi": "10.48550/arxiv.2410.06940",
+              "openalex": "W4403345601"
+            },
+            "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+            "year": 2024,
+            "venue": "arXiv (Cornell University)",
+            "citations": 697,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.06940",
+              "pdf": "https://arxiv.org/pdf/2410.06940",
+              "doi": "https://doi.org/10.48550/arxiv.2410.06940"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr52729.2023.01218",
+            "ids": {
+              "doi": "10.1109/cvpr52729.2023.01218",
+              "openalex": "W4386075992"
+            },
+            "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+            "year": 2023,
+            "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "citations": 662,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4386075992",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.01218"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.12202",
+            "ids": {
+              "arxiv": "2501.12202",
+              "doi": "10.48550/arxiv.2501.12202",
+              "openalex": "W4406746339"
+            },
+            "title": "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 616,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.12202",
+              "pdf": "https://arxiv.org/pdf/2501.12202",
+              "doi": "https://doi.org/10.48550/arxiv.2501.12202"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3658146",
+            "ids": {
+              "doi": "10.1145/3658146",
+              "openalex": "W4400822286"
+            },
+            "title": "CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets",
+            "year": 2024,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 612,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4400822286",
+              "doi": "https://doi.org/10.1145/3658146"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:1412.6980",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr52688.2022.01042",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr.2018.00068",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:1706.08500",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr52688.2022.01553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2403.03206",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2209.14988",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr52729.2023.01263",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr52729.2023.00037",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.52202/075280-0368",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2308.16512",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/iccv51070.2023.02033",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.52202/075280-1554",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2410.06940",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1109/cvpr52729.2023.01218",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.24941",
+          "target": "doi:10.1145/3658146",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.24941: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.24941/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2512.04197",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2512.04197",
+            "ids": {
+              "arxiv": "2512.04197",
+              "doi": "10.1109/tit.2026.3718236",
+              "s2": "123e8076aafa7574e1344a2b78757d01bcd13227",
+              "openalex": "W7171666675"
+            },
+            "title": "Constructing Low-Redundancy Codes via Distributed Graph Coloring",
+            "year": 2026,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 11,
+            "influential_citations": 4,
+            "is_review": false,
+            "tldr": "It is shown that the color of a single vertex - consistent with a global proper coloring - can be computed in polynomial time using a modified version of Linial’s coloring algorithm, leading to efficient encoding and decoding.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.04197",
+              "pdf": "https://arxiv.org/pdf/2512.04197",
+              "doi": "https://doi.org/10.1109/tit.2026.3718236"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/0221015",
+            "ids": {
+              "doi": "10.1137/0221015",
+              "s2": "a4b650d68fa2a15db5307b70d5f5fb7dc3e29569"
+            },
+            "title": "Locality in Distributed Graph Algorithms",
+            "year": 1992,
+            "venue": "SIAM journal on computing (Print)",
+            "citations": 1112,
+            "influential_citations": 188,
+            "is_review": false,
+            "tldr": "This model focuses on the issue of locality in distributed processing, namely, to what extent a global solution to a computational problem can be obtained from locally available data.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a4b650d68fa2a15db5307b70d5f5fb7dc3e29569",
+              "doi": "https://doi.org/10.1137/0221015"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:b2f8876482c97e804bb50a5e2433881ae31d0cdd",
+            "ids": {
+              "s2": "b2f8876482c97e804bb50a5e2433881ae31d0cdd"
+            },
+            "title": "Binary codes capable of correcting deletions, insertions, and reversals",
+            "year": 1965,
+            "citations": 14553,
+            "influential_citations": 770,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b2f8876482c97e804bb50a5e2433881ae31d0cdd"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit44484.2020.9174241",
+            "ids": {
+              "doi": "10.1109/isit44484.2020.9174241",
+              "s2": "c9324637ef3895a766724e754a5402092026ed0b"
+            },
+            "title": "Optimal Codes for the q-ary Deletion Channel",
+            "year": 2020,
+            "venue": "International Symposium on Information Theory",
+            "citations": 49,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c9324637ef3895a766724e754a5402092026ed0b",
+              "doi": "https://doi.org/10.1109/isit44484.2020.9174241"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1956.1056798",
+            "ids": {
+              "doi": "10.1109/tit.1956.1056798",
+              "s2": "3e57b0c954031c31bd8ff459b006af264e16c21d"
+            },
+            "title": "The zero error capacity of a noisy channel",
+            "year": 1956,
+            "venue": "IRE Transactions on Information Theory",
+            "citations": 1558,
+            "influential_citations": 201,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3e57b0c954031c31bd8ff459b006af264e16c21d",
+              "doi": "https://doi.org/10.1109/tit.1956.1056798"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf02772959",
+            "ids": {
+              "doi": "10.1007/bf02772959",
+              "s2": "22e40ea560a2dc6a3e42e8e0173f93114ac7d3b8"
+            },
+            "title": "Families of finite sets in which no set is covered by the union ofr others",
+            "year": 1985,
+            "citations": 469,
+            "influential_citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/22e40ea560a2dc6a3e42e8e0173f93114ac7d3b8",
+              "doi": "https://doi.org/10.1007/bf02772959"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/sfcs.1987.20",
+            "ids": {
+              "doi": "10.1109/sfcs.1987.20",
+              "s2": "d00db20e0a1a92d4bb566d20e3341060b9f4158a"
+            },
+            "title": "Distributive graph algorithms Global solutions from local data",
+            "year": 1987,
+            "venue": "28th Annual Symposium on Foundations of Computer Science (sfcs 1987)",
+            "citations": 249,
+            "influential_citations": 50,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d00db20e0a1a92d4bb566d20e3341060b9f4158a",
+              "doi": "https://doi.org/10.1109/sfcs.1987.20"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-031-02009-4",
+            "ids": {
+              "doi": "10.1007/978-3-031-02009-4",
+              "s2": "aa052149b40abaabbcdf637b85c7bc3c6ed570cc"
+            },
+            "title": "Distributed Graph Coloring: Fundamentals and Recent Developments",
+            "year": 2013,
+            "venue": "Distributed Graph Coloring",
+            "citations": 259,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/aa052149b40abaabbcdf637b85c7bc3c6ed570cc",
+              "doi": "https://doi.org/10.1007/978-3-031-02009-4"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1704.00807",
+            "ids": {
+              "arxiv": "1704.00807",
+              "doi": "10.1145/3055399.3055498",
+              "s2": "f61d48b67dc68dd56d03bd6e58df7b1af9b3a676"
+            },
+            "title": "Synchronization strings: codes for insertions and deletions approaching the Singleton bound",
+            "year": 2017,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 103,
+            "influential_citations": 14,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1704.00807",
+              "pdf": "https://arxiv.org/pdf/1704.00807",
+              "doi": "https://doi.org/10.1145/3055399.3055498"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1112/plms/s2_14.1.347",
+            "ids": {
+              "doi": "10.1112/plms/s2_14.1.347",
+              "s2": "b45f91a8cb642c6181ef0d87c87427420fd2b946"
+            },
+            "title": "Highly Composite Numbers",
+            "citations": 249,
+            "influential_citations": 21,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b45f91a8cb642c6181ef0d87c87427420fd2b946",
+              "doi": "https://doi.org/10.1112/plms/s2_14.1.347"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1602.06820",
+            "ids": {
+              "arxiv": "1602.06820",
+              "doi": "10.1109/tit.2017.2661747",
+              "s2": "ce13536f5ce679a22dd69329bc5e1777cbf67b39"
+            },
+            "title": "Codes Correcting a Burst of Deletions or Insertions",
+            "year": 2016,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 191,
+            "influential_citations": 26,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1602.06820",
+              "pdf": "https://arxiv.org/pdf/1602.06820",
+              "doi": "https://doi.org/10.1109/tit.2017.2661747"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1507.06175",
+            "ids": {
+              "arxiv": "1507.06175",
+              "doi": "10.48550/arxiv.1507.06175",
+              "s2": "11fbac79217a026d77155f0d12ee11971101073b"
+            },
+            "title": "Efficient Low-Redundancy Codes for Correcting Multiple Deletions",
+            "year": 2015,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 192,
+            "influential_citations": 19,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1507.06175",
+              "pdf": "https://arxiv.org/pdf/1507.06175",
+              "doi": "https://doi.org/10.48550/arxiv.1507.06175"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/1583991.1584032",
+            "ids": {
+              "doi": "10.1145/1583991.1584032",
+              "s2": "ca54ccd73732f29f01b4b269fa42160e16dd67f5"
+            },
+            "title": "Weak graph colorings: distributed algorithms and applications",
+            "year": 2009,
+            "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+            "citations": 134,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ca54ccd73732f29f01b4b269fa42160e16dd67f5",
+              "doi": "https://doi.org/10.1145/1583991.1584032"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1910.12247",
+            "ids": {
+              "arxiv": "1910.12247",
+              "doi": "10.1109/isit.2019.8849750",
+              "s2": "14d6df782153937d289c6dcc10d0d5eab361be54"
+            },
+            "title": "Optimal k-Deletion Correcting Codes",
+            "year": 2019,
+            "venue": "International Symposium on Information Theory",
+            "citations": 147,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1910.12247",
+              "pdf": "https://arxiv.org/pdf/1910.12247",
+              "doi": "https://doi.org/10.1109/isit.2019.8849750"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2007.10592",
+            "ids": {
+              "arxiv": "2007.10592",
+              "doi": "10.48550/arxiv.2007.10592",
+              "s2": "fd9f6f8a2ffbb8fb05bb09738be26555ff8bf71d"
+            },
+            "title": "Explicit Two-Deletion Codes With Redundancy Matching the Existential Bound",
+            "year": 2020,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 95,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2007.10592",
+              "pdf": "https://arxiv.org/pdf/2007.10592",
+              "doi": "https://doi.org/10.48550/arxiv.2007.10592"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1804.05776",
+            "ids": {
+              "arxiv": "1804.05776",
+              "doi": "10.1145/3561046",
+              "s2": "a257b2a2c9d605b32f8b1d9fa399ba961cc68455"
+            },
+            "title": "Deterministic Document Exchange Protocols, and Almost Optimal Binary Codes for Edit Errors",
+            "year": 2018,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 104,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1804.05776",
+              "pdf": "https://arxiv.org/pdf/1804.05776",
+              "doi": "https://doi.org/10.1145/3561046"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit44484.2020.9173986",
+            "ids": {
+              "doi": "10.1109/isit44484.2020.9173986",
+              "s2": "1b28f042eaa486f874c6e58e7a2a82f4188eb1ac"
+            },
+            "title": "Optimal Systematic t-Deletion Correcting Codes",
+            "year": 2020,
+            "venue": "International Symposium on Information Theory",
+            "citations": 86,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1b28f042eaa486f874c6e58e7a2a82f4188eb1ac",
+              "doi": "https://doi.org/10.1109/isit44484.2020.9173986"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1804.03604",
+            "ids": {
+              "arxiv": "1804.03604",
+              "doi": "10.1109/focs.2019.00029",
+              "s2": "2e84d9f2991142cacd39dd9c873ec317e6a52ca8"
+            },
+            "title": "Optimal Document Exchange and New Codes for Insertions and Deletions",
+            "year": 2018,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 77,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1804.03604",
+              "pdf": "https://arxiv.org/pdf/1804.03604",
+              "doi": "https://doi.org/10.1109/focs.2019.00029"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1806.09240",
+            "ids": {
+              "arxiv": "1806.09240",
+              "doi": "10.48550/arxiv.1806.09240",
+              "s2": "65630193f3666b0852032921b9c2fde99dc122e7"
+            },
+            "title": "Two Deletion Correcting Codes from Indicator Vectors",
+            "year": 2018,
+            "venue": "International Symposium on Information Theory",
+            "citations": 69,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1806.09240",
+              "pdf": "https://arxiv.org/pdf/1806.09240",
+              "doi": "https://doi.org/10.48550/arxiv.1806.09240"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.19493",
+            "ids": {
+              "arxiv": "2609.19493",
+              "doi": "10.48550/arxiv.2609.19493",
+              "s2": "26f0ad9f9a1f3e71940a42c2c62348a902e1f4a8"
+            },
+            "title": "Polynomially larger deletion codes by linear hashing of substring counts",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 5,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.19493",
+              "pdf": "https://arxiv.org/pdf/2609.19493",
+              "doi": "https://doi.org/10.48550/arxiv.2609.19493"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.37578",
+            "ids": {
+              "arxiv": "2609.37578",
+              "doi": "10.48550/arxiv.2609.37578",
+              "s2": "9c4da4961e2672fed45d09eb6b65a5f1eff30219"
+            },
+            "title": "Order-Optimal Systematic Permutation Codes for Correcting t Deletions",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.37578",
+              "pdf": "https://arxiv.org/pdf/2609.37578",
+              "doi": "https://doi.org/10.48550/arxiv.2609.37578"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.04023",
+            "ids": {
+              "arxiv": "2611.04023",
+              "s2": "59d9d7485261ffb0a8903438b45c42c3cd02127a"
+            },
+            "title": "Making Every Edit Count: Efficient Binary Edit Correction at the Gilbert-Varshamov Bound",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.04023",
+              "pdf": "https://arxiv.org/pdf/2611.04023"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.15631",
+            "ids": {
+              "arxiv": "2610.15631",
+              "s2": "308027b994d0877bbac6e047e9bd98a372e68a58"
+            },
+            "title": "Seed Recycling: Explicit Codes for Mixed Synchronization Errors Matching the Leading Term of the Gilbert--Varshamov Bound",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.15631",
+              "pdf": "https://arxiv.org/pdf/2610.15631"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.19673",
+            "ids": {
+              "arxiv": "2607.19673",
+              "doi": "10.48550/arxiv.2607.19673",
+              "s2": "4c7b89099368e181a307085127a4ab0ad1e33825"
+            },
+            "title": "Optimal Break-Resilient Codes",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.19673",
+              "pdf": "https://arxiv.org/pdf/2607.19673",
+              "doi": "https://doi.org/10.48550/arxiv.2607.19673"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.16835",
+            "ids": {
+              "arxiv": "2611.16835",
+              "s2": "c260fc541fd65b78303b088b72bf5dc7ab029c7c"
+            },
+            "title": "Explicit Edit Codes via Multicoloring",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.16835",
+              "pdf": "https://arxiv.org/pdf/2611.16835"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.05696",
+            "ids": {
+              "arxiv": "2610.05696",
+              "s2": "3df86d07cbba399d202daf57a319d245e58c9d51"
+            },
+            "title": "Substring Edit Correcting Codes and Optimal Single Burst-Deletion Correcting Codes",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.05696",
+              "pdf": "https://arxiv.org/pdf/2610.05696"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.38259",
+            "ids": {
+              "arxiv": "2609.38259",
+              "doi": "10.48550/arxiv.2609.38259",
+              "s2": "8054a13e6ac24a14188deba86e15b46af5cce8c8"
+            },
+            "title": "Systematic Codes Correcting Two Deletions with Three Redundant Symbols over Large Alphabets",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.38259",
+              "pdf": "https://arxiv.org/pdf/2609.38259",
+              "doi": "https://doi.org/10.48550/arxiv.2609.38259"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.09626",
+            "ids": {
+              "arxiv": "2607.09626",
+              "doi": "10.48550/arxiv.2607.09626",
+              "s2": "937eec0510ac0470f0422e9814798e2ef542dac9"
+            },
+            "title": "New Complexity Classes in Locally Checkable Labeling for Local Computation Algorithms",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.09626",
+              "pdf": "https://arxiv.org/pdf/2607.09626",
+              "doi": "https://doi.org/10.48550/arxiv.2607.09626"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/isit62367.2026.11653662",
+            "ids": {
+              "doi": "10.1109/isit62367.2026.11653662",
+              "s2": "46e4cc75bf5ab46ccb51293a2519dc76ed61cc32"
+            },
+            "title": "Covering Codes with Low KL Distortion for Smooth Compression",
+            "year": 2026,
+            "venue": "International Symposium on Information Theory",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/46e4cc75bf5ab46ccb51293a2519dc76ed61cc32",
+              "doi": "https://doi.org/10.1109/isit62367.2026.11653662"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1137/0221015",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "s2:b2f8876482c97e804bb50a5e2433881ae31d0cdd",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1109/isit44484.2020.9174241",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1109/tit.1956.1056798",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1007/bf02772959",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1109/sfcs.1987.20",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1007/978-3-031-02009-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1704.00807",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1112/plms/s2_14.1.347",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1602.06820",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1507.06175",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1145/1583991.1584032",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1910.12247",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:2007.10592",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1804.05776",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "doi:10.1109/isit44484.2020.9173986",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1804.03604",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.04197",
+          "target": "arxiv:1806.09240",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.19493",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.37578",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.04023",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15631",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.19673",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.16835",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05696",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.38259",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.09626",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/isit62367.2026.11653662",
+          "target": "arxiv:2512.04197",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 11,
+      "errors": [
+        "S2 cross-links: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch?fields=references.paperId"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2509.25140",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2509.25140",
+            "ids": {
+              "arxiv": "2509.25140",
+              "s2": "9c03c7b9ae5bc182134edd736c6d48946f4aaaaf",
+              "openalex": "W4415337833"
+            },
+            "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 349,
+            "influential_citations": 62,
+            "is_review": false,
+            "tldr": "ReasoningBank is proposed, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences, and memory-driven experience scaling is established as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.25140",
+              "pdf": "https://arxiv.org/pdf/2509.25140"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-2019",
+            "ids": {
+              "doi": "10.52202/075280-2019",
+              "openalex": "W7133236450"
+            },
+            "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 6244,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133236450",
+              "doi": "https://doi.org/10.52202/075280-2019"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11704-024-40231-1",
+            "ids": {
+              "doi": "10.1007/s11704-024-40231-1",
+              "openalex": "W4393065402"
+            },
+            "title": "A survey on large language model based autonomous agents",
+            "year": 2024,
+            "venue": "Frontiers of Computer Science",
+            "citations": 5383,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4393065402",
+              "doi": "https://doi.org/10.1007/s11704-024-40231-1"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.08560",
+            "ids": {
+              "arxiv": "2310.08560",
+              "doi": "10.48550/arxiv.2310.08560",
+              "openalex": "W4387636003"
+            },
+            "title": "MemGPT: Towards LLMs as Operating Systems",
+            "year": 2023,
+            "venue": "arXiv (Cornell University)",
+            "citations": 2704,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.08560",
+              "pdf": "https://arxiv.org/pdf/2310.08560",
+              "doi": "https://doi.org/10.48550/arxiv.2310.08560"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2025.emnlp-main.1025",
+            "ids": {
+              "doi": "10.18653/v1/2025.emnlp-main.1025",
+              "openalex": "W4416036482"
+            },
+            "title": "s1: Simple test-time scaling",
+            "year": 2025,
+            "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "citations": 1939,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4416036482",
+              "doi": "https://doi.org/10.18653/v1/2025.emnlp-main.1025"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/079017-1650",
+            "ids": {
+              "doi": "10.52202/079017-1650",
+              "openalex": "W4415797693"
+            },
+            "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+            "year": 2024,
+            "venue": "neural information processing systems",
+            "citations": 1926,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4415797693",
+              "doi": "https://doi.org/10.52202/079017-1650"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/075280-1220",
+            "ids": {
+              "doi": "10.52202/075280-1220",
+              "openalex": "W7133215859"
+            },
+            "title": "Mind2Web: Towards a Generalist Agent for the Web",
+            "year": 2023,
+            "venue": "neural information processing systems",
+            "citations": 1705,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133215859",
+              "doi": "https://doi.org/10.52202/075280-1220"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1609/aaai.v38i17.29946",
+            "ids": {
+              "doi": "10.1609/aaai.v38i17.29946",
+              "openalex": "W4393147158"
+            },
+            "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+            "year": 2024,
+            "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "citations": 1688,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4393147158",
+              "doi": "https://doi.org/10.1609/aaai.v38i17.29946"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/085713-0593",
+            "ids": {
+              "doi": "10.52202/085713-0593",
+              "openalex": "W4407759090"
+            },
+            "title": "A-Mem: Agentic Memory for LLM Agents",
+            "year": 2025,
+            "venue": "neural information processing systems",
+            "citations": 1505,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4407759090",
+              "doi": "https://doi.org/10.52202/085713-0593"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1609/aaai.v38i17.29936",
+            "ids": {
+              "doi": "10.1609/aaai.v38i17.29936",
+              "openalex": "W4393160747"
+            },
+            "title": "ExpeL: LLM Agents Are Experiential Learners",
+            "year": 2024,
+            "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "citations": 1452,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4393160747",
+              "doi": "https://doi.org/10.1609/aaai.v38i17.29936"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2024.acl-long.747",
+            "ids": {
+              "doi": "10.18653/v1/2024.acl-long.747",
+              "openalex": "W4402684150"
+            },
+            "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+            "year": 2024,
+            "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+            "citations": 1361,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4402684150",
+              "doi": "https://doi.org/10.18653/v1/2024.acl-long.747"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.19413",
+            "ids": {
+              "arxiv": "2504.19413",
+              "doi": "10.48550/arxiv.2504.19413",
+              "openalex": "W4416895257"
+            },
+            "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 1320,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.19413",
+              "pdf": "https://arxiv.org/pdf/2504.19413",
+              "doi": "https://doi.org/10.48550/arxiv.2504.19413"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/085713-1933",
+            "ids": {
+              "doi": "10.52202/085713-1933",
+              "openalex": "W7196963086"
+            },
+            "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+            "year": 2025,
+            "venue": "neural information processing systems",
+            "citations": 1174,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7196963086",
+              "doi": "https://doi.org/10.52202/085713-1933"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3748302",
+            "ids": {
+              "doi": "10.1145/3748302",
+              "openalex": "W4412203333"
+            },
+            "title": "A Survey on the Memory Mechanism of Large Language Model-based Agents",
+            "year": 2025,
+            "venue": "ACM Transactions on Information Systems",
+            "citations": 1025,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4412203333",
+              "doi": "https://doi.org/10.1145/3748302"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.00724",
+            "ids": {
+              "arxiv": "2408.00724",
+              "doi": "10.48550/arxiv.2408.00724",
+              "openalex": "W4401307656"
+            },
+            "title": "Inference Scaling Laws: An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models",
+            "year": 2024,
+            "venue": "arXiv (Cornell University)",
+            "citations": 467,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.00724",
+              "pdf": "https://arxiv.org/pdf/2408.00724",
+              "doi": "https://doi.org/10.48550/arxiv.2408.00724"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.13564",
+            "ids": {
+              "arxiv": "2512.13564",
+              "doi": "10.48550/arxiv.2512.13564",
+              "openalex": "W4417459816"
+            },
+            "title": "Memory in the Age of AI Agents",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 431,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.13564",
+              "pdf": "https://arxiv.org/pdf/2512.13564",
+              "doi": "https://doi.org/10.48550/arxiv.2512.13564"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.01990",
+            "ids": {
+              "arxiv": "2504.01990",
+              "doi": "10.48550/arxiv.2504.01990",
+              "openalex": "W4409316940"
+            },
+            "title": "Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 293,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.01990",
+              "pdf": "https://arxiv.org/pdf/2504.01990",
+              "doi": "https://doi.org/10.48550/arxiv.2504.01990"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2025.acl-long.1575",
+            "ids": {
+              "doi": "10.18653/v1/2025.acl-long.1575",
+              "openalex": "W4412889641"
+            },
+            "title": "HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model",
+            "year": 2025,
+            "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+            "citations": 255,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4412889641",
+              "doi": "https://doi.org/10.18653/v1/2025.acl-long.1575"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2503.07891",
+            "ids": {
+              "arxiv": "2503.07891",
+              "doi": "10.48550/arxiv.2503.07891",
+              "openalex": "W4414566258"
+            },
+            "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
+            "year": 2025,
+            "venue": "arXiv (Cornell University)",
+            "citations": 244,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2503.07891",
+              "pdf": "https://arxiv.org/pdf/2503.07891",
+              "doi": "https://doi.org/10.48550/arxiv.2503.07891"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.08234",
+            "ids": {
+              "arxiv": "2602.08234",
+              "doi": "10.48550/arxiv.2602.08234",
+              "s2": "370193afcb842f88f725af2e9fd0bfaeee1bf452"
+            },
+            "title": "SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 338,
+            "influential_citations": 49,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.08234",
+              "pdf": "https://arxiv.org/pdf/2602.08234",
+              "doi": "https://doi.org/10.48550/arxiv.2602.08234"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.25158",
+            "ids": {
+              "arxiv": "2603.25158",
+              "doi": "10.48550/arxiv.2603.25158",
+              "s2": "8b02872a17028c037e214fef695304494c809411"
+            },
+            "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+            "year": 2026,
+            "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+            "citations": 229,
+            "influential_citations": 52,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.25158",
+              "pdf": "https://arxiv.org/pdf/2603.25158",
+              "doi": "https://doi.org/10.48550/arxiv.2603.25158"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.02553",
+            "ids": {
+              "arxiv": "2601.02553",
+              "doi": "10.48550/arxiv.2601.02553",
+              "s2": "473edf1acf5e21b7c3ccca548de1c0b860c54ba3"
+            },
+            "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 187,
+            "influential_citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.02553",
+              "pdf": "https://arxiv.org/pdf/2601.02553",
+              "doi": "https://doi.org/10.48550/arxiv.2601.02553"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.02474",
+            "ids": {
+              "arxiv": "2602.02474",
+              "doi": "10.48550/arxiv.2602.02474",
+              "s2": "3e63ce648f66f935c958a69364af65ee9734cd37"
+            },
+            "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 170,
+            "influential_citations": 12,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.02474",
+              "pdf": "https://arxiv.org/pdf/2602.02474",
+              "doi": "https://doi.org/10.48550/arxiv.2602.02474"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.18746",
+            "ids": {
+              "arxiv": "2512.18746",
+              "doi": "10.48550/arxiv.2512.18746",
+              "s2": "fc6e9b47819d2f5cdfd8f47829f7894d37e2059c"
+            },
+            "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 113,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.18746",
+              "pdf": "https://arxiv.org/pdf/2512.18746",
+              "doi": "https://doi.org/10.48550/arxiv.2512.18746"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.16313",
+            "ids": {
+              "arxiv": "2602.16313",
+              "doi": "10.48550/arxiv.2602.16313",
+              "s2": "a7729d9ef14fdbf69ed1a53a0c75a70407760ca5"
+            },
+            "title": "MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 103,
+            "influential_citations": 17,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.16313",
+              "pdf": "https://arxiv.org/pdf/2602.16313",
+              "doi": "https://doi.org/10.48550/arxiv.2602.16313"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.12056",
+            "ids": {
+              "arxiv": "2603.12056",
+              "doi": "10.48550/arxiv.2603.12056",
+              "s2": "b94a18aa9d6117e602cf45485260ca16936a760b"
+            },
+            "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 95,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.12056",
+              "pdf": "https://arxiv.org/pdf/2603.12056",
+              "doi": "https://doi.org/10.48550/arxiv.2603.12056"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.04804",
+            "ids": {
+              "arxiv": "2604.04804",
+              "doi": "10.48550/arxiv.2604.04804",
+              "s2": "24566e0b5989b1b32951ff9a10b6d6b0162683f5"
+            },
+            "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 93,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.04804",
+              "pdf": "https://arxiv.org/pdf/2604.04804",
+              "doi": "https://doi.org/10.48550/arxiv.2604.04804"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.08377",
+            "ids": {
+              "arxiv": "2604.08377",
+              "doi": "10.48550/arxiv.2604.08377",
+              "s2": "3d795acefb5939ec88767d9a01dffb765fb90111"
+            },
+            "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 80,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.08377",
+              "pdf": "https://arxiv.org/pdf/2604.08377",
+              "doi": "https://doi.org/10.48550/arxiv.2604.08377"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.01658",
+            "ids": {
+              "arxiv": "2604.01658",
+              "doi": "10.48550/arxiv.2604.01658",
+              "s2": "0f1156bdeaf34f37853f331dab1a2b1736ba60f2"
+            },
+            "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 72,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.01658",
+              "pdf": "https://arxiv.org/pdf/2604.01658",
+              "doi": "https://doi.org/10.48550/arxiv.2604.01658"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.52202/075280-2019",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.1007/s11704-024-40231-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2310.08560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.18653/v1/2025.emnlp-main.1025",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.52202/079017-1650",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.52202/075280-1220",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.1609/aaai.v38i17.29946",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.52202/085713-0593",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.1609/aaai.v38i17.29936",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.18653/v1/2024.acl-long.747",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2504.19413",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.52202/085713-1933",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.1145/3748302",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2408.00724",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2512.13564",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2504.01990",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "doi:10.18653/v1/2025.acl-long.1575",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2503.07891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.08234",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.25158",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02553",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.02474",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.18746",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.16313",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.12056",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.04804",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.08377",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.01658",
+          "target": "arxiv:2509.25140",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.25140",
+          "target": "arxiv:2602.16313",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.08234",
+          "target": "arxiv:2512.18746",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.08234",
+          "target": "arxiv:2601.02553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.25158",
+          "target": "arxiv:2602.08234",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.25158",
+          "target": "arxiv:2603.12056",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.02474",
+          "target": "arxiv:2512.18746",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.04804",
+          "target": "arxiv:2603.25158",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.04804",
+          "target": "arxiv:2602.02474",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.08377",
+          "target": "arxiv:2602.08234",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.08377",
+          "target": "arxiv:2512.18746",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.08377",
+          "target": "arxiv:2601.02553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.08377",
+          "target": "arxiv:2602.02474",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 349,
+      "errors": []
+    }
+  ]
+}
