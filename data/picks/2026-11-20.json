@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:46:37.365980Z",
+  "candidates_file": "candidates/2026-11-20.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "astronomy",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.7266,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.6,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in Nature · 2 points on Hacker News",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.23470",
+        "ids": {
+          "arxiv": "2611.23470",
+          "doi": "10.1038/s41586-026-11221-z",
+          "s2": null,
+          "openalex": "W7236502213"
+        },
+        "title": "An inspiral of a star inside a common envelope with its giant companion",
+        "authors": [
+          {
+            "name": "Viraj Karambelkar",
+            "affiliation": null
+          },
+          {
+            "name": "Kishalay De",
+            "affiliation": null
+          },
+          {
+            "name": "Karel D. Temmink",
+            "affiliation": null
+          },
+          {
+            "name": "Brian D. Metzger",
+            "affiliation": null
+          },
+          {
+            "name": "Nadejda Blagorodnova",
+            "affiliation": null
+          },
+          {
+            "name": "G. C. Anupama",
+            "affiliation": null
+          },
+          {
+            "name": "Sudhanshu Barway",
+            "affiliation": null
+          },
+          {
+            "name": "Judhajeet Basu",
+            "affiliation": null
+          },
+          {
+            "name": "Eric C. Bellm",
+            "affiliation": null
+          },
+          {
+            "name": "Varun Bhalerao",
+            "affiliation": null
+          },
+          {
+            "name": "Aleksandra Bochenek",
+            "affiliation": null
+          },
+          {
+            "name": "Shatakshi Chamoli",
+            "affiliation": null
+          },
+          {
+            "name": "Kaustav Das",
+            "affiliation": null
+          },
+          {
+            "name": "Christoffer Fremling",
+            "affiliation": null
+          },
+          {
+            "name": "Danielle Frostig",
+            "affiliation": null
+          },
+          {
+            "name": "Marco A. Gomez-Munoz",
+            "affiliation": null
+          },
+          {
+            "name": "Steven L. Groom",
+            "affiliation": null
+          },
+          {
+            "name": "K-Ryan Hinds",
+            "affiliation": null
+          },
+          {
+            "name": "Joahan Castaneda Jaimes",
+            "affiliation": null
+          },
+          {
+            "name": "Jacob Jencson",
+            "affiliation": null
+          },
+          {
+            "name": "David Jones",
+            "affiliation": null
+          },
+          {
+            "name": "Mansi Kasliwal",
+            "affiliation": null
+          },
+          {
+            "name": "Grace Katusiime",
+            "affiliation": null
+          },
+          {
+            "name": "Rubina Kotak",
+            "affiliation": null
+          },
+          {
+            "name": "S. R. Kulkarni",
+            "affiliation": null
+          },
+          {
+            "name": "Ryan Lau",
+            "affiliation": null
+          },
+          {
+            "name": "Chang Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Nathan P. Lourie",
+            "affiliation": null
+          },
+          {
+            "name": "Morgan MacLeod",
+            "affiliation": null
+          },
+          {
+            "name": "Keiichi Maeda",
+            "affiliation": null
+          },
+          {
+            "name": "Zoe McGrath",
+            "affiliation": null
+          },
+          {
+            "name": "Geoffrey Mo",
+            "affiliation": null
+          },
+          {
+            "name": "Gerard Garcia-Moreno",
+            "affiliation": null
+          },
+          {
+            "name": "Josiah Purdum",
+            "affiliation": null
+          },
+          {
+            "name": "Nabeel Rehemtulla",
+            "affiliation": null
+          },
+          {
+            "name": "R. Michael Rich",
+            "affiliation": null
+          },
+          {
+            "name": "Reed L. Riddle",
+            "affiliation": null
+          },
+          {
+            "name": "Sam Rose",
+            "affiliation": null
+          },
+          {
+            "name": "Robert A. Simcoe",
+            "affiliation": null
+          },
+          {
+            "name": "Jesper Sollerman",
+            "affiliation": null
+          },
+          {
+            "name": "Robert Stein",
+            "affiliation": null
+          },
+          {
+            "name": "Hugo Tranin",
+            "affiliation": null
+          },
+          {
+            "name": "Maxime Wavasseur",
+            "affiliation": null
+          },
+          {
+            "name": "Simon de Wet",
+            "affiliation": null
+          },
+          {
+            "name": "Jacob Wise",
+            "affiliation": null
+          }
+        ],
+        "abstract": "The formation of compact stellar binaries requires rapid orbital tightening of their progenitor binary stars. This is theorized to happen via Common Envelope Evolution (CEE), when the stars orbit in a loosely bound, shared convective envelope, triggering an inspiral due to frictional drag. However, this inspiral in such a system has never been observed directly. Here, we present observations of AT 2025abao, a transient eruption in the Andromeda Galaxy, that originates from the CEE of a ~7M$_{\\odot}$ asymptotic giant branch (AGB) star with its companion. Extensive pre- and post-eruption spectroscopy is best explained as a ~0.7M$_{\\odot}$ companion inspiraling within the convective AGB envelope that powers a seven year period of gradual brightening - the first direct observations of frictional drag energy dissipation induced by CEE. The subsequent merger of the companion with the primary core within a few (<10) orbits powers the ejection of the outermost ~10% of the stellar envelope at speeds ~10x the primary escape speed, and empirically constrains the fraction of dissipated orbital energy available to unbind the convective common envelope, $0.01\\lesssim α\\lesssim 0.4$. This end-to-end characterization using multi-survey observations demonstrates a path towards mapping the landscape of CEE outcomes with upcoming surveys.",
+        "tldr": null,
+        "topics": [
+          "astronomy"
+        ],
+        "source_categories": [
+          "astro-ph.SR"
+        ],
+        "dates": {
+          "first_seen": "2026-11-20",
+          "submitted": "2026-11-17",
+          "published": null
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Nature",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 1,
+          "influential": null,
+          "last_12_months": 1,
+          "per_month": 1.0,
+          "by_year": {
+            "2026": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": 2,
+          "hn_comments": 0,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.23470",
+          "pdf": "https://arxiv.org/pdf/2611.23470",
+          "doi": "https://doi.org/10.1038/s41586-026-11221-z",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-20T11:38:46.401400Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.95,
+      "adjusted": 0.8075,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9062,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7667,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "9 citations, about 4 a month · Published in Electron. Colloquium Comput. Complex.",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2609.05870",
+        "ids": {
+          "arxiv": "2609.05870",
+          "doi": null,
+          "s2": "95604451a5163580ffb20451e3cc6dcf609ae99b",
+          "openalex": "W7212063356"
+        },
+        "title": "Algorithmic List Decoding at Capacity and Optimal Proximity Gaps for Reed-Solomon Codes",
+        "authors": [
+          {
+            "name": "Fernando Granha Jeronimo",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We give a unified hidden-derivative framework for list decoding and mutual correlated agreement of ordinary Reed--Solomon codes over prime fields, on arbitrary prescribed evaluation sets. For every fixed slack $γ>0$, every sufficiently large block length $n$, every prime $q\\ge n$, and every dimension $1\\le k\\le(1-γ)n$, a deterministic algorithm finds all codewords within relative distance $1-k/n-γ$ in $q^{O_γ(1)}$ time. The final list has size $n^{O_γ(1)}$, independently of $q$. Both statements extend to bounded-input-list recovery, with constants depending additionally on the input-list bound. For every fixed curve degree $\\ell$, at most $n^{O_{γ,\\ell}(1)}$ parameters on a curve $f_0+zf_1+\\cdots+z^\\ell f_\\ell$ admit a nearby codeword whose exact agreement support is not a maximal jointly explained support of the coefficient words. For lines this gives MCA error $n^{O_γ(1)}/q$, with no proximity loss. The interpolation stage reparameterizes and optimizes the hidden-derivative construction of Brakensiek, Chen, Putterman, Zhang, and Zheng; differential root enumeration uses Kopparty's algorithm. We then prove that a specialization-safe differential equation has a cover by constant-dimensional varieties of polynomial cumulative degree, outside polynomially many parameter values. Intersecting these varieties with equations from the full agreement support yields both the field-size-independent list bound and exact-support MCA.",
+        "tldr": "The interpolation stage reparameterizes and optimizes the hidden-derivative construction of Brakensiek, Chen, Putterman, Zhang, and Zheng; differential root enumeration uses Kopparty's algorithm.",
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-20",
+          "submitted": "2026-09-05",
+          "published": "2026-09-05"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Electron. Colloquium Comput. Complex.",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 9,
+          "influential": 5,
+          "last_12_months": 9,
+          "per_month": 3.605,
+          "by_year": {
+            "2026": 9
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2609.05870",
+          "pdf": "https://arxiv.org/pdf/2609.05870",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-20T11:38:46.401400Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 0.8999,
+      "adjusted": 0.7649,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9065,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "26 upvotes on Hugging Face · Accepted at NeurIPS 2026",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.21383",
+        "ids": {
+          "arxiv": "2611.21383",
+          "doi": null,
+          "s2": "541f669284aef7d152a603d18452c56dec54b2ef",
+          "openalex": "W7235035713"
+        },
+        "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+        "authors": [
+          {
+            "name": "Jeonghwan Cho",
+            "affiliation": null
+          },
+          {
+            "name": "Minsu Kim",
+            "affiliation": null
+          },
+          {
+            "name": "Junyoung Hong",
+            "affiliation": null
+          },
+          {
+            "name": "Seon Joo Kim",
+            "affiliation": null
+          }
+        ],
+        "abstract": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly supervised. We propose VODA, a plug-and-play supervision objective that exploits local depth structure to group per-pixel contributors and directly supervises all Gaussians in selected depth clusters, bypassing contribution-weighted gradient delivery. To evaluate volumetric completeness, we introduce Removal-3D, a synthetic object-removal benchmark, and the Removal Depth Error (RDE), a metric comparing predicted and ground-truth depth changes. Across four rendering-based baselines, VODA consistently improves volumetric segmentation on Removal-3D while maintaining or improving performance on LERF and ScanNet. Further analysis shows that VODA recovers lower-contribution Gaussians, while simple gradient reweighting and spatial propagation fail to reproduce comparable gains.",
+        "tldr": "VODA consistently improves volumetric segmentation on Removal-3D while maintaining or improving performance on LERF and ScanNet, and shows that VODA recovers lower-contribution Gaussians, while simple gradient reweighting and spatial propagation fail to reproduce comparable gains.",
+        "topics": [
+          "ai",
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "dates": {
+          "first_seen": "2026-11-20",
+          "submitted": "2026-11-16",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "NeurIPS 2026",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 26,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.21383",
+          "pdf": "https://arxiv.org/pdf/2611.21383",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-20T11:38:46.401400Z"
+      }
+    }
+  ]
+}

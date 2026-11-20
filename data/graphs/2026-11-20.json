@@ -1,0 +1,2796 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:46:58.348019Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.23470",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.23470",
+            "ids": {
+              "arxiv": "2611.23470",
+              "doi": "10.1038/s41586-026-11221-z",
+              "openalex": "W7236502213"
+            },
+            "title": "An inspiral of a star inside a common envelope with its giant companion",
+            "year": 2026,
+            "venue": "Nature",
+            "citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.23470",
+              "pdf": "https://arxiv.org/pdf/2611.23470",
+              "doi": "https://doi.org/10.1038/s41586-026-11221-z"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1146/annurev.astro.46.060407.145222",
+            "ids": {
+              "doi": "10.1146/annurev.astro.46.060407.145222",
+              "openalex": "W2899497983"
+            },
+            "title": "The Chemical Composition of the Sun",
+            "year": 2009,
+            "venue": "Annual Review of Astronomy and Astrophysics",
+            "citations": 10538,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W2899497983",
+              "doi": "https://doi.org/10.1146/annurev.astro.46.060407.145222"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/160554",
+            "ids": {
+              "doi": "10.1086/160554",
+              "openalex": "W1986316936"
+            },
+            "title": "Studies in astronomical time series analysis. II - Statistical aspects of spectral analysis of unevenly spaced data",
+            "year": 1982,
+            "venue": "The Astrophysical Journal",
+            "citations": 8447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1986316936",
+              "doi": "https://doi.org/10.1086/160554"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-4357/ab042c",
+            "ids": {
+              "doi": "10.3847/1538-4357/ab042c",
+              "openalex": "W2159714423"
+            },
+            "title": "LSST: From Science Drivers to Reference Design and Anticipated Data Products",
+            "year": 2019,
+            "venue": "The Astrophysical Journal",
+            "citations": 6297,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2159714423",
+              "doi": "https://doi.org/10.3847/1538-4357/ab042c"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/422091",
+            "ids": {
+              "doi": "10.1086/422091",
+              "openalex": "W2194080530"
+            },
+            "title": "The Swift Gamma‐Ray Burst Mission",
+            "year": 2004,
+            "venue": "The Astrophysical Journal",
+            "citations": 4814,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2194080530",
+              "doi": "https://doi.org/10.1086/422091"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1612.05560",
+            "ids": {
+              "arxiv": "1612.05560",
+              "doi": "10.48550/arxiv.1612.05560",
+              "openalex": "W2563171474"
+            },
+            "title": "The Pan-STARRS1 Surveys",
+            "year": 2016,
+            "venue": "arXiv (Cornell University)",
+            "citations": 4090,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1612.05560",
+              "pdf": "https://arxiv.org/pdf/1612.05560",
+              "doi": "https://doi.org/10.48550/arxiv.1612.05560"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/162480",
+            "ids": {
+              "doi": "10.1086/162480",
+              "openalex": "W2006869439"
+            },
+            "title": "Optical properties of interstellar graphite and silicate grains",
+            "year": 1984,
+            "venue": "The Astrophysical Journal",
+            "citations": 3751,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2006869439",
+              "doi": "https://doi.org/10.1086/162480"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/0004-637x/823/2/102",
+            "ids": {
+              "doi": "10.3847/0004-637x/823/2/102",
+              "openalex": "W2344233738"
+            },
+            "title": "MESA ISOCHRONES AND STELLAR TRACKS (MIST). I. SOLAR-SCALED MODELS",
+            "year": 2016,
+            "venue": "The Astrophysical Journal",
+            "citations": 3374,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2344233738",
+              "doi": "https://doi.org/10.3847/0004-637x/823/2/102"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11214-005-5097-2",
+            "ids": {
+              "doi": "10.1007/s11214-005-5097-2",
+              "openalex": "W1996932215"
+            },
+            "title": "The Swift X-Ray Telescope",
+            "year": 2005,
+            "venue": "Space Science Reviews",
+            "citations": 3263,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1996932215",
+              "doi": "https://doi.org/10.1007/s11214-005-5097-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/160960",
+            "ids": {
+              "doi": "10.1086/160960",
+              "openalex": "W2024680894"
+            },
+            "title": "Approximations to the radii of Roche lobes",
+            "year": 1983,
+            "venue": "The Astrophysical Journal",
+            "citations": 2801,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2024680894",
+              "doi": "https://doi.org/10.1086/160960"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/161701",
+            "ids": {
+              "doi": "10.1086/161701",
+              "openalex": "W2038347333"
+            },
+            "title": "Double white dwarfs as progenitors of R Coronae Borealis stars and Type I supernovae",
+            "year": 1984,
+            "venue": "The Astrophysical Journal",
+            "citations": 2716,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2038347333",
+              "doi": "https://doi.org/10.1086/161701"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.12942/lrr-2014-3",
+            "ids": {
+              "doi": "10.12942/lrr-2014-3",
+              "openalex": "W2152006089"
+            },
+            "title": "The Evolution of Compact Binary Star Systems",
+            "year": 2014,
+            "venue": "Living Reviews in Relativity",
+            "citations": 608,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W2152006089",
+              "doi": "https://doi.org/10.12942/lrr-2014-3"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1538-3873/aaecbe",
+            "ids": {
+              "doi": "10.1088/1538-3873/aaecbe",
+              "openalex": "W2905450617"
+            },
+            "title": "The Zwicky Transient Facility: System Overview, Performance, and First Results",
+            "year": 2018,
+            "venue": "Publications of the Astronomical Society of the Pacific",
+            "citations": 2510,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2905450617",
+              "doi": "https://doi.org/10.1088/1538-3873/aaecbe"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11214-005-5095-4",
+            "ids": {
+              "doi": "10.1007/s11214-005-5095-4",
+              "openalex": "W2796705535"
+            },
+            "title": "The Swift Ultra-Violet/Optical Telescope",
+            "year": 2005,
+            "venue": "Space Science Reviews",
+            "citations": 2449,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2796705535",
+              "doi": "https://doi.org/10.1007/s11214-005-5095-4"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1046/j.1365-8711.2002.05038.x",
+            "ids": {
+              "doi": "10.1046/j.1365-8711.2002.05038.x",
+              "openalex": "W2059879627"
+            },
+            "title": "Evolution of binary stars and the effect of tides on binary populations",
+            "year": 2002,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 2324,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2059879627",
+              "doi": "https://doi.org/10.1046/j.1365-8711.2002.05038.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/0067-0049/222/1/8",
+            "ids": {
+              "doi": "10.3847/0067-0049/222/1/8",
+              "openalex": "W2287912467"
+            },
+            "title": "MESA ISOCHRONES AND STELLAR TRACKS (MIST) 0: METHODS FOR THE CONSTRUCTION OF STELLAR ISOCHRONES",
+            "year": 2016,
+            "venue": "The Astrophysical Journal Supplement Series",
+            "citations": 2280,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2287912467",
+              "doi": "https://doi.org/10.3847/0067-0049/222/1/8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201219058",
+            "ids": {
+              "doi": "10.1051/0004-6361/201219058",
+              "openalex": "W2157805129"
+            },
+            "title": "A new extensive library of PHOENIX stellar atmospheres and synthetic spectra",
+            "year": 2013,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 2220,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2157805129",
+              "doi": "https://doi.org/10.1051/0004-6361/201219058"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1111/j.1365-2966.2009.14913.x",
+            "ids": {
+              "doi": "10.1111/j.1365-2966.2009.14913.x",
+              "openalex": "W2112637594"
+            },
+            "title": "Methods and results of an automatic analysis of a complete sample of Swift -XRT observations of GRBs",
+            "year": 2009,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 2062,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2112637594",
+              "doi": "https://doi.org/10.1111/j.1365-2966.2009.14913.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1093/mnras/104.5.273",
+            "ids": {
+              "doi": "10.1093/mnras/104.5.273",
+              "openalex": "W2039226225"
+            },
+            "title": "On the Mechanism of Accretion by Stars",
+            "year": 1944,
+            "venue": "Monthly Notices of the Royal Astronomical Society",
+            "citations": 1996,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2039226225",
+              "doi": "https://doi.org/10.1093/mnras/104.5.273"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1146/annurev.astro.46.060407.145222",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1086/160554",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.3847/1538-4357/ab042c",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1086/422091",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "arxiv:1612.05560",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1086/162480",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.3847/0004-637x/823/2/102",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1007/s11214-005-5097-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1086/160960",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1086/161701",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.12942/lrr-2014-3",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1088/1538-3873/aaecbe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1007/s11214-005-5095-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1046/j.1365-8711.2002.05038.x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.3847/0067-0049/222/1/8",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1051/0004-6361/201219058",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1111/j.1365-2966.2009.14913.x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.23470",
+          "target": "doi:10.1093/mnras/104.5.273",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2609.05870",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2609.05870",
+            "ids": {
+              "arxiv": "2609.05870",
+              "s2": "95604451a5163580ffb20451e3cc6dcf609ae99b",
+              "openalex": "W7212063356"
+            },
+            "title": "Algorithmic List Decoding at Capacity and Optimal Proximity Gaps for Reed-Solomon Codes",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 9,
+            "influential_citations": 5,
+            "is_review": false,
+            "tldr": "The interpolation stage reparameterizes and optimizes the hidden-derivative construction of Brakensiek, Chen, Putterman, Zhang, and Zheng; differential root enumeration uses Kopparty's algorithm.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.05870",
+              "pdf": "https://arxiv.org/pdf/2609.05870"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4086/toc.2015.v011a005",
+            "ids": {
+              "doi": "10.4086/toc.2015.v011a005",
+              "s2": "3dc79c3cab5df78e80b70536d2ad42f9f0ac9dec"
+            },
+            "title": "List-Decoding Multiplicity Codes",
+            "year": 2012,
+            "venue": "Theory of Computing",
+            "citations": 115,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "It is shown that univariate multiplicity codes of rate R over fields of prime order can be list-decoded from a (1 R e) fraction of errors in polynomial time (for constant R;e).",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3dc79c3cab5df78e80b70536d2ad42f9f0ac9dec",
+              "doi": "https://doi.org/10.4086/toc.2015.v011a005"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+            "ids": {
+              "s2": "deb34a26594db07d13b19e497521b052d129c5ad"
+            },
+            "title": "Polynomial Codes Over Certain Finite Fields",
+            "year": 2017,
+            "citations": 1559,
+            "influential_citations": 103,
+            "is_review": false,
+            "tldr": "A programmable logic device as may be used in a communication System device Such as a digital Subscriber line modem to perform Reed-Solomon decoding upon a received frame of digital values is disclosed.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/deb34a26594db07d13b19e497521b052d129c5ad"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/jcom.1997.0439",
+            "ids": {
+              "doi": "10.1006/jcom.1997.0439",
+              "s2": "c60165174daa8911f3d57971c8be11b73e5eef20"
+            },
+            "title": "Decoding of Reed Solomon Codes beyond the Error-Correction Bound",
+            "year": 1997,
+            "venue": "Journal of Complexity",
+            "citations": 870,
+            "influential_citations": 97,
+            "is_review": false,
+            "tldr": "To the best of the knowledge, this is the first efficient (i.e., polynomial time bounded) algorithm which provides error recovery capability beyond the error-correction bound of a code for any efficient code.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c60165174daa8911f3d57971c8be11b73e5eef20",
+              "doi": "https://doi.org/10.1006/jcom.1997.0439"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.08005",
+            "ids": {
+              "arxiv": "2609.08005",
+              "doi": "10.48550/arxiv.2609.08005",
+              "s2": "ad29a36a5e48a74f0e28961b217596f2f3faa10b"
+            },
+            "title": "Algorithmic List Decoding of Reed-Solomon Codes up to Capacity in the Low-Rate Regime",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 12,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.08005",
+              "pdf": "https://arxiv.org/pdf/2609.08005",
+              "doi": "https://doi.org/10.48550/arxiv.2609.08005"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.1964.1053661",
+            "ids": {
+              "doi": "10.1109/tit.1964.1053661",
+              "s2": "fb72951a260927716a6067ab1a4331925f7486a6"
+            },
+            "title": "Maximum distance q -nary codes",
+            "year": 1964,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 605,
+            "influential_citations": 43,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fb72951a260927716a6067ab1a4331925f7486a6",
+              "doi": "https://doi.org/10.1109/tit.1964.1053661"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/0304-3975(83)90002-6",
+            "ids": {
+              "doi": "10.1016/0304-3975(83)90002-6",
+              "s2": "b7322fcac7754f4b1bce37652d287303ae455b6c"
+            },
+            "title": "Definability and Fast Quantifier Elimination in Algebraically Closed Fields",
+            "year": 1983,
+            "venue": "Theoretical Computer Science",
+            "citations": 366,
+            "influential_citations": 36,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b7322fcac7754f4b1bce37652d287303ae455b6c",
+              "doi": "https://doi.org/10.1016/0304-3975(83)90002-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:cs/0511072",
+            "ids": {
+              "arxiv": "cs/0511072",
+              "doi": "10.1109/tit.2007.911222",
+              "s2": "23fbd40a9136939f1706b42865dabba311d1567d"
+            },
+            "title": "Explicit Codes Achieving List Decoding Capacity: Error-Correction With Optimal Redundancy",
+            "year": 2005,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 271,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/cs/0511072",
+              "pdf": "https://arxiv.org/pdf/cs/0511072",
+              "doi": "https://doi.org/10.1109/tit.2007.911222"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/sfcs.1998.743426",
+            "ids": {
+              "doi": "10.1109/sfcs.1998.743426",
+              "s2": "9533282712dd1ad148b70ea8479b377e6f918de6"
+            },
+            "title": "Improved decoding of Reed-Solomon and algebraic-geometric codes",
+            "year": 1998,
+            "venue": "Proceedings 39th Annual Symposium on Foundations of Computer Science (Cat. No.98CB36280)",
+            "citations": 242,
+            "influential_citations": 29,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9533282712dd1ad148b70ea8479b377e6f918de6",
+              "doi": "https://doi.org/10.1109/sfcs.1998.743426"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/sfcs.2005.29",
+            "ids": {
+              "doi": "10.1109/sfcs.2005.29",
+              "s2": "3a2144871d22f7f14f5c315a5d7ff6b0ddffc2cc"
+            },
+            "title": "Correcting errors beyond the Guruswami-Sudan radius in polynomial time",
+            "year": 2005,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 232,
+            "influential_citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3a2144871d22f7f14f5c315a5d7ff6b0ddffc2cc",
+              "doi": "https://doi.org/10.1109/sfcs.2005.29"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/focs46700.2020.00088",
+            "ids": {
+              "doi": "10.1109/focs46700.2020.00088",
+              "s2": "45c5571f34994d2e64d32bb0a2cd3000ee087e51"
+            },
+            "title": "Proximity Gaps for Reed–Solomon Codes",
+            "year": 2020,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 109,
+            "influential_citations": 26,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/45c5571f34994d2e64d32bb0a2cd3000ee087e51",
+              "doi": "https://doi.org/10.1109/focs46700.2020.00088"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tit.2013.2246813",
+            "ids": {
+              "doi": "10.1109/tit.2013.2246813",
+              "s2": "e6c9b1cb76cee1b1d5601a0177477fa2c9892fca"
+            },
+            "title": "Linear-Algebraic List Decoding for Variants of Reed–Solomon Codes",
+            "year": 2013,
+            "venue": "IEEE Transactions on Information Theory",
+            "citations": 116,
+            "influential_citations": 20,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e6c9b1cb76cee1b1d5601a0177477fa2c9892fca",
+              "doi": "https://doi.org/10.1109/tit.2013.2246813"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2206.05256",
+            "ids": {
+              "arxiv": "2206.05256",
+              "doi": "10.1145/3564246.3585128",
+              "s2": "dc4482a152022d823cbfb8f81a090cb5b6fcc93d"
+            },
+            "title": "Generic Reed-Solomon Codes Achieve List-Decoding Capacity",
+            "year": 2022,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 77,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2206.05256",
+              "pdf": "https://arxiv.org/pdf/2206.05256",
+              "doi": "https://doi.org/10.1145/3564246.3585128"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1310.1891",
+            "ids": {
+              "arxiv": "1310.1891",
+              "doi": "10.1145/2591796.2591797",
+              "s2": "cd3af5e063cb30ea91cd7d54f8681e5b20fb7146"
+            },
+            "title": "Every list-decodable code for high noise has abundant near-optimal rate puncturings",
+            "year": 2013,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 84,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1310.1891",
+              "pdf": "https://arxiv.org/pdf/1310.1891",
+              "doi": "https://doi.org/10.1145/2591796.2591797"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/20m1370215",
+            "ids": {
+              "doi": "10.1137/20m1370215",
+              "s2": "666fbcdbbc5400619f4518468aab8bddbc35ee3b"
+            },
+            "title": "Improved List Decoding of Folded Reed-Solomon and Multiplicity Codes",
+            "year": 2023,
+            "venue": "SIAM journal on computing (Print)",
+            "citations": 40,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/666fbcdbbc5400619f4518468aab8bddbc35ee3b",
+              "doi": "https://doi.org/10.1137/20m1370215"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.15925",
+            "ids": {
+              "arxiv": "2408.15925",
+              "doi": "10.1145/3717823.3718114",
+              "s2": "85679cd0579740fcf8ff77b9ee2bbcf022655d24"
+            },
+            "title": "Explicit Folded Reed-Solomon and Multiplicity Codes Achieve Relaxed Generalized Singleton Bounds",
+            "year": 2024,
+            "venue": "Symposium on the Theory of Computing",
+            "citations": 48,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.15925",
+              "pdf": "https://arxiv.org/pdf/2408.15925",
+              "doi": "https://doi.org/10.1145/3717823.3718114"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.01403",
+            "ids": {
+              "arxiv": "2304.01403",
+              "doi": "10.1109/focs57990.2023.00019",
+              "s2": "1ce97d9f0e8858d57117a82e73f2409fcce150eb"
+            },
+            "title": "Randomly Punctured Reed-Solomon Codes Achieve the List Decoding Capacity over Polynomial-Size Alphabets",
+            "year": 2023,
+            "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citations": 50,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.01403",
+              "pdf": "https://arxiv.org/pdf/2304.01403",
+              "doi": "https://doi.org/10.1109/focs57990.2023.00019"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2011.04453",
+            "ids": {
+              "arxiv": "2011.04453",
+              "doi": "10.1137/21m1463707",
+              "s2": "cc8d66fd611085075c1cb244888757bd6b60d850"
+            },
+            "title": "Improved List-Decodability and List-Recoverability of Reed-Solomon Codes via Tree Packings",
+            "year": 2020,
+            "venue": "SIAM journal on computing (Print)",
+            "citations": 38,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2011.04453",
+              "pdf": "https://arxiv.org/pdf/2011.04453",
+              "doi": "https://doi.org/10.1137/21m1463707"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.09445",
+            "ids": {
+              "arxiv": "2304.09445",
+              "doi": "10.19086/aic.2025.8",
+              "s2": "a8c0d84ece7deaea07e4fc7b23ed6ce942a84559"
+            },
+            "title": "Random Reed-Solomon codes achieve list-decoding capacity with linear-sized alphabets",
+            "year": 2023,
+            "venue": "Advances in Combinatorics",
+            "citations": 51,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.09445",
+              "pdf": "https://arxiv.org/pdf/2304.09445",
+              "doi": "https://doi.org/10.19086/aic.2025.8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.08610",
+            "ids": {
+              "arxiv": "2610.08610",
+              "s2": "908d4f421aa0d303b1e2f71dafbdccbba5043ae5"
+            },
+            "title": "Reed-Solomon Codes at Capacity: Algorithmic List-Decoding and Proximity Gaps",
+            "year": 2026,
+            "venue": "Electron. Colloquium Comput. Complex.",
+            "citations": 4,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.08610",
+              "pdf": "https://arxiv.org/pdf/2610.08610"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.01902",
+            "ids": {
+              "arxiv": "2610.01902",
+              "s2": "5f9a224e4e4ffbdf930294bebccbc67f56f29133"
+            },
+            "title": "Exponential quantum advantages for decoded quantum interferometry in the streaming setting",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.01902",
+              "pdf": "https://arxiv.org/pdf/2610.01902"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.07607",
+            "ids": {
+              "arxiv": "2611.07607",
+              "s2": "44b0980b3583e73e9fd4f52612f2ebb2cd409a66"
+            },
+            "title": "Combinatorial limitations of list-decoding Reed-Solomon codes",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.07607",
+              "pdf": "https://arxiv.org/pdf/2611.07607"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.15815",
+            "ids": {
+              "arxiv": "2610.15815",
+              "s2": "c798801490cb74b9e9f33eb2f000c0978d1748c3"
+            },
+            "title": "Superpolynomial Lists for Reed-Solomon Codes over Binary Extension Fields",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.15815",
+              "pdf": "https://arxiv.org/pdf/2610.15815"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.15128",
+            "ids": {
+              "arxiv": "2611.15128",
+              "s2": "0d38285d58c7024fd0887cdd8ea0f6af8d7c358c"
+            },
+            "title": "Affine Combiners for Reed-Solomon Proximity Gaps",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.15128",
+              "pdf": "https://arxiv.org/pdf/2611.15128"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.12325",
+            "ids": {
+              "arxiv": "2611.12325",
+              "s2": "78a7663c531f7571cc068096c82821b6f3c4a29a"
+            },
+            "title": "An Explicit Below Half Threshold Bound for the Local Leakage Resilience of Shamir's Secret Sharing Scheme",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.12325",
+              "pdf": "https://arxiv.org/pdf/2611.12325"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.39256",
+            "ids": {
+              "arxiv": "2610.39256",
+              "s2": "c3c669d962aaeb84c1c64d6b5c514c2597111c9b"
+            },
+            "title": "On Proximity Gaps for One-Point Algebraic Geometric Codes",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.39256",
+              "pdf": "https://arxiv.org/pdf/2610.39256"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.17711",
+            "ids": {
+              "arxiv": "2610.17711",
+              "s2": "aa0a4f239684550263d823c19e81017a9c5551f8"
+            },
+            "title": "Local Leakage Resilience of Shamir Secret Sharing: Below Half Threshold Rate",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.17711",
+              "pdf": "https://arxiv.org/pdf/2610.17711"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.12019",
+            "ids": {
+              "arxiv": "2610.12019",
+              "s2": "249c16908e22fe1aa6b3a0ccc44ae565acb2f107"
+            },
+            "title": "Thresholds for Local Coordinate-Wise Linear Properties of Random One-Point AG Codes",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.12019",
+              "pdf": "https://arxiv.org/pdf/2610.12019"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1016/0304-3975(83)90002-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2408.15925",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05870",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.01902",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.39256",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:2609.05870",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.4086/toc.2015.v011a005",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.4086/toc.2015.v011a005",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.4086/toc.2015.v011a005",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.4086/toc.2015.v011a005",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:2408.15925",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.08005",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:cs/0511072",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:cs/0511072",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2206.05256",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1310.1891",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.15925",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.01403",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2011.04453",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.09445",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.08610",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.01902",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.01902",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.01902",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2610.08610",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "doi:10.1109/tit.1964.1053661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2610.15815",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.07607",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2408.15925",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "doi:10.1137/20m1370215",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.15815",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "arxiv:2611.07607",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "arxiv:2610.08610",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.15128",
+          "target": "doi:10.1016/0304-3975(83)90002-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.12325",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.39256",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.39256",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "doi:10.1006/jcom.1997.0439",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2304.09445",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:1310.1891",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2011.04453",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17711",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "doi:10.1109/focs46700.2020.00088",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:2408.15925",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "doi:10.1109/tit.2013.2246813",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "doi:10.1109/sfcs.1998.743426",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:2609.08005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "doi:10.1109/sfcs.2005.29",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:2304.01403",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:2206.05256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "doi:10.4086/toc.2015.v011a005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.12019",
+          "target": "arxiv:cs/0511072",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 9,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.21383",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.21383",
+            "ids": {
+              "arxiv": "2611.21383",
+              "s2": "541f669284aef7d152a603d18452c56dec54b2ef",
+              "openalex": "W7235035713"
+            },
+            "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+            "year": 2026,
+            "venue": "NeurIPS 2026",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "VODA consistently improves volumetric segmentation on Removal-3D while maintaining or improving performance on LERF and ScanNet, and shows that VODA recovers lower-contribution Gaussians, while simple gradient reweighting and spatial propagation fail to reproduce comparable gains.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.21383",
+              "pdf": "https://arxiv.org/pdf/2611.21383"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.00732",
+            "ids": {
+              "arxiv": "2312.00732",
+              "doi": "10.48550/arxiv.2312.00732",
+              "s2": "5f7867681c6287cc4f4e7fb5260af8067b52b3d9"
+            },
+            "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
+            "year": 2023,
+            "venue": "European Conference on Computer Vision",
+            "citations": 599,
+            "influential_citations": 118,
+            "is_review": false,
+            "tldr": "Based on Gaussian Grouping, a local Gaussian Editing scheme is proposed, which shows efficacy in versatile scene editing applications, including 3D object removal, inpainting, colorization, style transfer and scene recomposition.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.00732",
+              "pdf": "https://arxiv.org/pdf/2312.00732",
+              "doi": "https://doi.org/10.48550/arxiv.2312.00732"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.02058",
+            "ids": {
+              "arxiv": "2406.02058",
+              "doi": "10.48550/arxiv.2406.02058",
+              "s2": "ed1643e6ac201a38767ae24ee07aeda6837068ea"
+            },
+            "title": "OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 226,
+            "influential_citations": 62,
+            "is_review": false,
+            "tldr": "This paper introduces OpenGaussian, a method based on 3D Gaussian Splatting capable of 3D point-level open vocabulary understanding and introduces an instance-level 3D-2D feature association method that links 3D points to 2D masks, which is further associated with 2D CLIP features.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.02058",
+              "pdf": "https://arxiv.org/pdf/2406.02058",
+              "doi": "https://doi.org/10.48550/arxiv.2406.02058"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.14294",
+            "ids": {
+              "arxiv": "2104.14294",
+              "doi": "10.1109/iccv48922.2021.00951",
+              "s2": "ad4a0938c48e61b7827869e4ac3baffd0aefab35"
+            },
+            "title": "Emerging Properties in Self-Supervised Vision Transformers",
+            "year": 2021,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 11114,
+            "influential_citations": 1799,
+            "is_review": false,
+            "tldr": "This paper questions if self-supervised learning provides new properties to Vision Transformer (ViT) that stand out compared to convolutional networks (convnets) and implements DINO, a form of self-distillation with no labels, which implements the synergy between DINO and ViTs.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.14294",
+              "pdf": "https://arxiv.org/pdf/2104.14294",
+              "doi": "https://doi.org/10.1109/iccv48922.2021.00951"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.04079",
+            "ids": {
+              "arxiv": "2308.04079",
+              "doi": "10.1145/3592433",
+              "s2": "2cc1d857e86d5152ba7fe6a8355c2a0150cc280a"
+            },
+            "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+            "year": 2023,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 11686,
+            "influential_citations": 2947,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.04079",
+              "pdf": "https://arxiv.org/pdf/2308.04079",
+              "doi": "https://doi.org/10.1145/3592433"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1702.04405",
+            "ids": {
+              "arxiv": "1702.04405",
+              "doi": "10.1109/cvpr.2017.261",
+              "s2": "e52e37cd91366f07df1f98e88f87010f494dd16e"
+            },
+            "title": "ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes",
+            "year": 2017,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 6246,
+            "influential_citations": 1425,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1702.04405",
+              "pdf": "https://arxiv.org/pdf/1702.04405",
+              "doi": "https://doi.org/10.1109/cvpr.2017.261"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.24746",
+            "ids": {
+              "arxiv": "2505.24746",
+              "doi": "10.48550/arxiv.2505.24746",
+              "s2": "abe0ac901de8df5cd173cb1f8d8da6724dc368d7"
+            },
+            "title": "Tackling View-Dependent Semantics in 3D Language Gaussian Splatting",
+            "year": 2025,
+            "venue": "International Conference on Machine Learning",
+            "citations": 21,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.24746",
+              "pdf": "https://arxiv.org/pdf/2505.24746",
+              "doi": "https://doi.org/10.48550/arxiv.2505.24746"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/iccv51701.2025.01903",
+            "ids": {
+              "doi": "10.1109/iccv51701.2025.01903",
+              "s2": "a8cf678209d2fe8a7cfc04e7c054d985cf3f5569"
+            },
+            "title": "Identity-Aware Language Gaussian Splatting for Open-Vocabulary 3D Semantic Segmentation",
+            "year": 2025,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 17,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a8cf678209d2fe8a7cfc04e7c054d985cf3f5569",
+              "doi": "https://doi.org/10.1109/iccv51701.2025.01903"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.09553",
+            "ids": {
+              "arxiv": "2303.09553",
+              "doi": "10.1109/iccv51070.2023.01807",
+              "s2": "611e2100a3f8ed02b2583d4e53fd27a12d223b4c"
+            },
+            "title": "LERF: Language Embedded Radiance Fields",
+            "year": 2023,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 791,
+            "influential_citations": 131,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.09553",
+              "pdf": "https://arxiv.org/pdf/2303.09553",
+              "doi": "https://doi.org/10.1109/iccv51070.2023.01807"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.16084",
+            "ids": {
+              "arxiv": "2312.16084",
+              "doi": "10.1109/cvpr52733.2024.01895",
+              "s2": "42fb38cba6e078a1c5c2d98694dd55613ebca150"
+            },
+            "title": "LangSplat: 3D Language Gaussian Splatting",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 626,
+            "influential_citations": 139,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.16084",
+              "pdf": "https://arxiv.org/pdf/2312.16084",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.01895"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2103.15875",
+            "ids": {
+              "arxiv": "2103.15875",
+              "doi": "10.1109/iccv48922.2021.01554",
+              "s2": "be05b97c1a221b12640bac66cf4b322e3a81ca86"
+            },
+            "title": "In-Place Scene Labelling and Understanding with Implicit Scene Representation",
+            "year": 2021,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 597,
+            "influential_citations": 78,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2103.15875",
+              "pdf": "https://arxiv.org/pdf/2103.15875",
+              "doi": "https://doi.org/10.1109/iccv48922.2021.01554"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.03203",
+            "ids": {
+              "arxiv": "2312.03203",
+              "doi": "10.1109/cvpr52733.2024.02048",
+              "s2": "fcdb4cc5202140f41b0181fbbee1b321af4df7ad"
+            },
+            "title": "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 570,
+            "influential_citations": 74,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.03203",
+              "pdf": "https://arxiv.org/pdf/2312.03203",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02048"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2205.15585",
+            "ids": {
+              "arxiv": "2205.15585",
+              "doi": "10.48550/arxiv.2205.15585",
+              "s2": "6115a34ad9dd868fe886df815071023fd432e7a1"
+            },
+            "title": "Decomposing NeRF for Editing via Feature Field Distillation",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 487,
+            "influential_citations": 44,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2205.15585",
+              "pdf": "https://arxiv.org/pdf/2205.15585",
+              "doi": "https://doi.org/10.48550/arxiv.2205.15585"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2311.18482",
+            "ids": {
+              "arxiv": "2311.18482",
+              "doi": "10.1109/cvpr52733.2024.00510",
+              "s2": "2870d5e37b5a7c38d6248cda2ac1be8c68d199c0"
+            },
+            "title": "Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 283,
+            "influential_citations": 50,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2311.18482",
+              "pdf": "https://arxiv.org/pdf/2311.18482",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.00510"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2211.12254",
+            "ids": {
+              "arxiv": "2211.12254",
+              "doi": "10.1109/cvpr52729.2023.01980",
+              "s2": "f3b9388892c76be0c16af9bb64075b2d36a895fc"
+            },
+            "title": "SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields",
+            "year": 2022,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 209,
+            "influential_citations": 54,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2211.12254",
+              "pdf": "https://arxiv.org/pdf/2211.12254",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.01980"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.00860",
+            "ids": {
+              "arxiv": "2312.00860",
+              "doi": "10.48550/arxiv.2312.00860",
+              "s2": "9c21993421d05bd908ac8498aae134aa2aeb43e3"
+            },
+            "title": "Segment Any 3D Gaussians",
+            "year": 2023,
+            "venue": "AAAI Conference on Artificial Intelligence",
+            "citations": 273,
+            "influential_citations": 30,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.00860",
+              "pdf": "https://arxiv.org/pdf/2312.00860",
+              "doi": "https://doi.org/10.48550/arxiv.2312.00860"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.2304.12308",
+            "ids": {
+              "doi": "10.48550/arxiv.2304.12308",
+              "s2": "ef407defa95e71f8acee7a6cc47c5e90d6cddda4"
+            },
+            "title": "Segment Anything in 3D with NeRFs",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 272,
+            "influential_citations": 24,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ef407defa95e71f8acee7a6cc47c5e90d6cddda4",
+              "doi": "https://doi.org/10.48550/arxiv.2304.12308"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2212.09802",
+            "ids": {
+              "arxiv": "2212.09802",
+              "doi": "10.1109/cvpr52729.2023.00873",
+              "s2": "b78840a67848913f3d6093a87ee1fa70e9cba24f"
+            },
+            "title": "Panoptic Lifting for 3D Scene Understanding with Neural Fields",
+            "year": 2022,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 228,
+            "influential_citations": 32,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2212.09802",
+              "pdf": "https://arxiv.org/pdf/2212.09802",
+              "doi": "https://doi.org/10.1109/cvpr52729.2023.00873"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2209.03494",
+            "ids": {
+              "arxiv": "2209.03494",
+              "doi": "10.1109/3dv57658.2022.00056",
+              "s2": "bba58099a13b59f8272dc2c0129057670e252fa1"
+            },
+            "title": "Neural Feature Fusion Fields: 3D Distillation of Self-Supervised 2D Image Representations",
+            "year": 2022,
+            "venue": "International Conference on 3D Vision",
+            "citations": 261,
+            "influential_citations": 15,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2209.03494",
+              "pdf": "https://arxiv.org/pdf/2209.03494",
+              "doi": "https://doi.org/10.1109/3dv57658.2022.00056"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2312.00732",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2406.02058",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2505.24746",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "doi:10.1109/iccv51701.2025.01903",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2312.16084",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2312.03203",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2311.18482",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2211.12254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2312.00860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "doi:10.48550/arxiv.2304.12308",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.21383",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2211.12254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2312.16084",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00732",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2312.03203",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2312.00732",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2312.00860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2312.16084",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.02058",
+          "target": "arxiv:2311.18482",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2312.03203",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2406.02058",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2312.00860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "doi:10.48550/arxiv.2304.12308",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2312.16084",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.24746",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.09553",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.16084",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.15875",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03203",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.15585",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.15585",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.15585",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.15585",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.18482",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.12254",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.12254",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.12254",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.12254",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2312.00732",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2212.09802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2211.12254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2303.09553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2312.16084",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.00860",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.09802",
+          "target": "arxiv:1702.04405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.09802",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.09802",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.09802",
+          "target": "arxiv:2209.03494",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2209.03494",
+          "target": "arxiv:2104.14294",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2209.03494",
+          "target": "arxiv:2205.15585",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2209.03494",
+          "target": "arxiv:2103.15875",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:46:58.348019Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.23470",
+      "pick_title": "An inspiral of a star inside a common envelope with its giant companion",
+      "source": "openalex",
+      "references_seen": 158,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1146/annurev.astro.46.060407.145222",
+            "ids": {
+              "doi": "10.1146/annurev.astro.46.060407.145222",
+              "openalex": "W2899497983"
+            },
+            "title": "The Chemical Composition of the Sun",
+            "year": 2009,
+            "venue": "Annual Review of Astronomy and Astrophysics",
+            "citations": 10538,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://openalex.org/W2899497983",
+              "doi": "https://doi.org/10.1146/annurev.astro.46.060407.145222"
+            }
+          },
+          "label": "background",
+          "score": 3.718,
+          "reasons": [
+            "11k citations",
+            "Survey: a good entry point"
+          ],
+          "supports": [
+            "arxiv:2611.23470"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1086/160554",
+            "ids": {
+              "doi": "10.1086/160554",
+              "openalex": "W1986316936"
+            },
+            "title": "Studies in astronomical time series analysis. II - Statistical aspects of spectral analysis of unevenly spaced data",
+            "year": 1982,
+            "venue": "The Astrophysical Journal",
+            "citations": 8447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W1986316936",
+              "doi": "https://doi.org/10.1086/160554"
+            }
+          },
+          "label": "background",
+          "score": 3.141,
+          "reasons": [
+            "8.4k citations"
+          ],
+          "supports": [
+            "arxiv:2611.23470"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.3847/1538-4357/ab042c",
+            "ids": {
+              "doi": "10.3847/1538-4357/ab042c",
+              "openalex": "W2159714423"
+            },
+            "title": "LSST: From Science Drivers to Reference Design and Anticipated Data Products",
+            "year": 2019,
+            "venue": "The Astrophysical Journal",
+            "citations": 6297,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2159714423",
+              "doi": "https://doi.org/10.3847/1538-4357/ab042c"
+            }
+          },
+          "label": "background",
+          "score": 3.039,
+          "reasons": [
+            "6.3k citations"
+          ],
+          "supports": [
+            "arxiv:2611.23470"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2609.05870",
+      "pick_title": "Algorithmic List Decoding at Capacity and Optimal Proximity Gaps for Reed-Solomon Codes",
+      "source": "s2",
+      "references_seen": 30,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.4086/toc.2015.v011a005",
+            "ids": {
+              "doi": "10.4086/toc.2015.v011a005",
+              "s2": "3dc79c3cab5df78e80b70536d2ad42f9f0ac9dec"
+            },
+            "title": "List-Decoding Multiplicity Codes",
+            "year": 2012,
+            "venue": "Theory of Computing",
+            "citations": 115,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "It is shown that univariate multiplicity codes of rate R over fields of prime order can be list-decoded from a (1 R e) fraction of errors in polynomial time (for constant R;e).",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3dc79c3cab5df78e80b70536d2ad42f9f0ac9dec",
+              "doi": "https://doi.org/10.4086/toc.2015.v011a005"
+            }
+          },
+          "label": "background",
+          "score": 5.267,
+          "reasons": [
+            "Influential reference for this paper",
+            "115 citations"
+          ],
+          "quote": "The nonsingular Taylor lifting and the singular reduction by a highest-variable partial derivative follow Kopparty [Kop15, Section 4.2, Theorem 4.4 and the proof of Theorem 4.3].",
+          "supports": [
+            "arxiv:2609.05870"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "s2:deb34a26594db07d13b19e497521b052d129c5ad",
+            "ids": {
+              "s2": "deb34a26594db07d13b19e497521b052d129c5ad"
+            },
+            "title": "Polynomial Codes Over Certain Finite Fields",
+            "year": 2017,
+            "citations": 1559,
+            "influential_citations": 103,
+            "is_review": false,
+            "tldr": "A programmable logic device as may be used in a communication System device Such as a digital Subscriber line modem to perform Reed-Solomon decoding upon a received frame of digital values is disclosed.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/deb34a26594db07d13b19e497521b052d129c5ad"
+            }
+          },
+          "label": "background",
+          "score": 3.563,
+          "reasons": [
+            "1.6k citations"
+          ],
+          "supports": [
+            "arxiv:2609.05870"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/jcom.1997.0439",
+            "ids": {
+              "doi": "10.1006/jcom.1997.0439",
+              "s2": "c60165174daa8911f3d57971c8be11b73e5eef20"
+            },
+            "title": "Decoding of Reed Solomon Codes beyond the Error-Correction Bound",
+            "year": 1997,
+            "venue": "Journal of Complexity",
+            "citations": 870,
+            "influential_citations": 97,
+            "is_review": false,
+            "tldr": "To the best of the knowledge, this is the first efficient (i.e., polynomial time bounded) algorithm which provides error recovery capability beyond the error-correction bound of a code for any efficient code.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c60165174daa8911f3d57971c8be11b73e5eef20",
+              "doi": "https://doi.org/10.1006/jcom.1997.0439"
+            }
+          },
+          "label": "background",
+          "score": 3.348,
+          "reasons": [
+            "870 citations"
+          ],
+          "quote": "For ordinary Reed–Solomon codes, the classical general algorithmic guarantee is the Johnson radius 1 − √ R , from the interpolation algorithms of Sudan and Guruswami–Sudan [Sud97, GS99].",
+          "supports": [
+            "arxiv:2609.05870"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.21383",
+      "pick_title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+      "source": "s2",
+      "references_seen": 34,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2312.00732",
+            "ids": {
+              "arxiv": "2312.00732",
+              "doi": "10.48550/arxiv.2312.00732",
+              "s2": "5f7867681c6287cc4f4e7fb5260af8067b52b3d9"
+            },
+            "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
+            "year": 2023,
+            "venue": "European Conference on Computer Vision",
+            "citations": 599,
+            "influential_citations": 118,
+            "is_review": false,
+            "tldr": "Based on Gaussian Grouping, a local Gaussian Editing scheme is proposed, which shows efficacy in versatile scene editing applications, including 3D object removal, inpainting, colorization, style transfer and scene recomposition.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.00732",
+              "pdf": "https://arxiv.org/pdf/2312.00732",
+              "doi": "https://doi.org/10.48550/arxiv.2312.00732"
+            }
+          },
+          "label": "background",
+          "score": 6.26,
+          "reasons": [
+            "Influential reference for this paper",
+            "599 citations"
+          ],
+          "quote": "We evaluate four baselines spanning both feature-learning paradigms in §2: OpenGaussian [28] and LaGa [6] are self-supervised, while Gaussian Grouping [29] and ILGS [10] are supervised.",
+          "supports": [
+            "arxiv:2611.21383"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.02058",
+            "ids": {
+              "arxiv": "2406.02058",
+              "doi": "10.48550/arxiv.2406.02058",
+              "s2": "ed1643e6ac201a38767ae24ee07aeda6837068ea"
+            },
+            "title": "OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 226,
+            "influential_citations": 62,
+            "is_review": false,
+            "tldr": "This paper introduces OpenGaussian, a method based on 3D Gaussian Splatting capable of 3D point-level open vocabulary understanding and introduces an instance-level 3D-2D feature association method that links 3D points to 2D masks, which is further associated with 2D CLIP features.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.02058",
+              "pdf": "https://arxiv.org/pdf/2406.02058",
+              "doi": "https://doi.org/10.48550/arxiv.2406.02058"
+            }
+          },
+          "label": "background",
+          "score": 5.784,
+          "reasons": [
+            "Influential reference for this paper",
+            "226 citations"
+          ],
+          "quote": "We evaluate four baselines spanning both feature-learning paradigms in §2: OpenGaussian [28] and LaGa [6] are self-supervised, while Gaussian Grouping [29] and ILGS [10] are supervised.",
+          "supports": [
+            "arxiv:2611.21383"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.14294",
+            "ids": {
+              "arxiv": "2104.14294",
+              "doi": "10.1109/iccv48922.2021.00951",
+              "s2": "ad4a0938c48e61b7827869e4ac3baffd0aefab35"
+            },
+            "title": "Emerging Properties in Self-Supervised Vision Transformers",
+            "year": 2021,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 11114,
+            "influential_citations": 1799,
+            "is_review": false,
+            "tldr": "This paper questions if self-supervised learning provides new properties to Vision Transformer (ViT) that stand out compared to convolutional networks (convnets) and implements DINO, a form of self-distillation with no labels, which implements the synergy between DINO and ViTs.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.14294",
+              "pdf": "https://arxiv.org/pdf/2104.14294",
+              "doi": "https://doi.org/10.1109/iccv48922.2021.00951"
+            }
+          },
+          "label": "background",
+          "score": 4.864,
+          "reasons": [
+            "11k citations"
+          ],
+          "quote": "Earlier NeRF methods lift 2D semantics through feature distillation, mask supervision, or contrastive learning [31, 16, 26, 25, 1, 19, 4, 14, 30, 2], including distillation of pretrained visual features such as DINO [3].",
+          "supports": [
+            "arxiv:2611.21383"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
