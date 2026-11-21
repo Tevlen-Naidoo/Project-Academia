@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:06:36.264829Z",
+  "candidates_file": "candidates/2026-11-21.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.7717,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "4 upvotes on Hugging Face · Published in ACM Transactions on Graphics",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.26511",
+        "ids": {
+          "arxiv": "2611.26511",
+          "doi": "10.1145/3842524",
+          "s2": "c8bae9ca8cbaecba2a9c1dc8fd08c9bf87fa8315",
+          "openalex": "W7225646265"
+        },
+        "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+        "authors": [
+          {
+            "name": "Shuang Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Jiachen Qian",
+            "affiliation": null
+          },
+          {
+            "name": "Youtian Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Feihu Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Philip Torr",
+            "affiliation": null
+          },
+          {
+            "name": "Yao Yao",
+            "affiliation": null
+          },
+          {
+            "name": "Xun Cao",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator. We take a different route and propose Direct3D-V3, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling. To make this direct voxel formulation geometrically reliable, we introduce an implicit manifold regularization over neighboring voxels to suppress non-watertight surfaces, and convert predicted SDF grids into meshes via Marching Cubes so that rendered normal losses can supervise the model directly from its predicted SDF. To improve alignment between the conditioning image and generated geometry, Direct3D-V3 also predicts the camera parameters of the conditioning image as an auxiliary task, encouraging the DiT to learn the mapping from image observations to 3D shape. This latent-free design removes the reconstruction bottleneck, brings training under an objective in the native voxel domain, and yields meshes with substantially richer local detail. The predicted camera and native SDF voxel output further make Direct3D-V3 extensible to generative reconstruction, where diffusion is interleaved with normal-guided refinement to improve alignment with the observed view while the generative prior completes unseen regions. Project page: https://dreamtechai.github.io/Direct3D-V3.",
+        "tldr": "Direct3D-V3 is proposed, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling and achieving competitive results to state-of-the-art latent-based methods.",
+        "topics": [
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-21",
+          "submitted": "2026-11-19",
+          "published": "2026-11-09"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "ACM Transactions on Graphics",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 4,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.26511",
+          "pdf": "https://arxiv.org/pdf/2611.26511",
+          "doi": "https://doi.org/10.1145/3842524",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-21T10:59:55.976089Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "fresh",
+      "score": 0.7168,
+      "adjusted": 0.7168,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9583,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in Journal of nonlinear science · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.25725",
+        "ids": {
+          "arxiv": "2611.25725",
+          "doi": "10.1007/s00332-021-09692-7",
+          "s2": "671539ac557bd779ba811f6cede3e2228571c604",
+          "openalex": "W3139532549"
+        },
+        "title": "On the Hamel Coefficients and the Boltzmann-Hamel Equations for the Rigid Body",
+        "authors": [
+          {
+            "name": "Andreas Müller",
+            "affiliation": null
+          }
+        ],
+        "abstract": "The Boltzmann-Hamel (BH) equations are central in the dynamics and control of nonholonomic systems described in terms of quasi-velocities. The rigid body is a classical example of such systems, and it is well-known that the BH-equations are the Newton-Euler (NE) equations when described in terms of rigid body twists as quasi-velocities. It is further known that the NE-equations are the Euler-Poincare, respectively, the reduced Euler-Lagrange equations on SE(3) when using body-fixed or spatial representation of rigid body twists. The connection between these equations are the Hamel coefficients, which are immediately identified as the structure constants of SE(3). However, an explicit coordinate-free derivation has not been presented in the literature. In this paper the Hamel coefficients for the rigid body are derived in a coordinate-free way without resorting to local coordinates describing the rigid body motion. The three most relevant choices of quasi-velocities (body-fixed, spatial, and hybrid representation of rigid body twists) are considered. The corresponding BH-equations are derived explicitly for the rotating and free floating body. Further, the Hamel equations for nonholonomically constrained rigid bodies are discussed, and demonstrated for the inhomogenous ball rolling on a plane.",
+        "tldr": "The Hamel equations for nonholonomically constrained rigid bodies are discussed, and demonstrated for the inhomogenous ball rolling on a plane.",
+        "topics": [
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-21",
+          "submitted": "2026-11-19",
+          "published": "2021-03-19"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Journal of nonlinear science",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 7,
+          "influential": 0,
+          "last_12_months": 1,
+          "per_month": 0.103,
+          "by_year": {
+            "2026": 1,
+            "2024": 2,
+            "2023": 2,
+            "2021": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.25725",
+          "pdf": "https://arxiv.org/pdf/2611.25725",
+          "doi": "https://doi.org/10.1007/s00332-021-09692-7",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-21T10:59:55.976089Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 0.8017,
+      "adjusted": 0.6814,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.692,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.8,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "1 points on Hacker News · Accepted at NeurIPS 2026",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.22941",
+        "ids": {
+          "arxiv": "2611.22941",
+          "doi": null,
+          "s2": "9c5868a97ebfd71297cbcf54aaf49f344baeb8c3",
+          "openalex": "W7236488347"
+        },
+        "title": "A Transformer-Derived Iterative Preconditioner",
+        "authors": [
+          {
+            "name": "Patrick Lutz",
+            "affiliation": null
+          },
+          {
+            "name": "Themistoklis Haris",
+            "affiliation": null
+          },
+          {
+            "name": "Aditya Gangrade",
+            "affiliation": null
+          },
+          {
+            "name": "Venkatesh Saligrama",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Transformers trained on in-context prediction problems can learn known numerical algorithms, e.g., gradient descent. We go further, showing that their internal computations can reveal new algorithms with provable guarantees. A softmax-attention transformer trained to solve linear systems $Xw=y$ implicitly improves matrix conditioning. Tracing $XX^\\top$ reveals an iterative preconditioning primitive, which we develop into RAPID, a standalone algorithm requiring no learned components. RAPID is an anytime preconditioner for symmetric positive definite (SPD) matrices, using randomized mixing and sparse local corrections to improve conditioning. Proof-of-concept experiments on synthetic and real-world problems consistently improve conditioning and reduce conjugate gradient iterations needed to reach a target accuracy. For a Haar-mixing idealization, we prove convergence to any fixed target condition number regardless of spectral distribution, with only logarithmic dependence on initial conditioning. Together, these results show how a transformer can discover a broadly applicable numerical algorithm.",
+        "tldr": "RAPID is an anytime preconditioner for symmetric positive definite (SPD) matrices, using randomized mixing and sparse local corrections to improve conditioning and proves convergence to any fixed target condition number regardless of spectral distribution.",
+        "topics": [
+          "ml",
+          "ai",
+          "theory"
+        ],
+        "source_categories": [
+          "cs.LG"
+        ],
+        "dates": {
+          "first_seen": "2026-11-21",
+          "submitted": "2026-11-17",
+          "published": null
+        },
+        "publication": {
+          "status": "accepted",
+          "venue": "NeurIPS 2026",
+          "venue_type": null,
+          "evidence": "arxiv_comment"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": 1,
+          "hn_comments": 0,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.22941",
+          "pdf": "https://arxiv.org/pdf/2611.22941",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-21T10:59:55.976089Z"
+      }
+    }
+  ]
+}

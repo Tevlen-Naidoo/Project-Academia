@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:06:56.981882Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.26511",
+      "pick_title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+      "source": "s2",
+      "references_seen": 43,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2506.15442",
+            "ids": {
+              "arxiv": "2506.15442",
+              "doi": "10.48550/arxiv.2506.15442",
+              "s2": "d72632c00f54ed3048bc35c1d593ebc3af1924b8"
+            },
+            "title": "Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 220,
+            "influential_citations": 71,
+            "is_review": true,
+            "tldr": "This tutorial offers a comprehensive, step-by-step guide on processing 3D data, training a 3D generative model, and evaluating its performance using Hunyuan3D 2.1, an advanced system for producing high-resolution, textured 3D assets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.15442",
+              "pdf": "https://arxiv.org/pdf/2506.15442",
+              "doi": "https://doi.org/10.48550/arxiv.2506.15442"
+            }
+          },
+          "label": "background",
+          "score": 6.304,
+          "reasons": [
+            "Influential reference for this paper",
+            "220 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "…evaluate Direct3D-V3 on the test images described in Section 5.1, comparing against recent open-source image-to-3D methods including Michelangelo [Zhao et al. 2023], Hunyuan3D 2.1 [Hunyuan3D et al. 2025], Direct3D-S2 [Wu et al. 2026], UltraShape [Jia et al. 2025], and TRELLIS2 [Xiang et al. 2026].",
+          "supports": [
+            "arxiv:2611.26511"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.12202",
+            "ids": {
+              "arxiv": "2501.12202",
+              "doi": "10.48550/arxiv.2501.12202",
+              "s2": "be47289592be9747050b1d50bd2cf7d00dfde825"
+            },
+            "title": "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 495,
+            "influential_citations": 99,
+            "is_review": false,
+            "tldr": "Huyuan3D 2.0 is publicly released in order to fill the gaps in the open-source 3D community for large-scale foundation generative models and build Hunyuan3D-Studio -- a versatile, user-friendly production platform that simplifies the re-creation process of 3D assets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.12202",
+              "pdf": "https://arxiv.org/pdf/2501.12202",
+              "doi": "https://doi.org/10.48550/arxiv.2501.12202"
+            }
+          },
+          "label": "background",
+          "score": 6.156,
+          "reasons": [
+            "Influential reference for this paper",
+            "495 citations"
+          ],
+          "quote": "Dora [Chen et al. 2025a] and Hunyuan3D 2.0 [Zhao et al. 2025] study this line from the VAE perspective, showing that sharp edge sampling and stronger cross-attention improve the preservation of fine geometric structures during shape autoencoding.",
+          "supports": [
+            "arxiv:2611.26511"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.17115",
+            "ids": {
+              "arxiv": "2306.17115",
+              "doi": "10.48550/arxiv.2306.17115",
+              "s2": "830ed65d226a337088d6d97c3c3b068155bf10ec"
+            },
+            "title": "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 304,
+            "influential_citations": 33,
+            "is_review": false,
+            "tldr": "The proposed approach can generate higher-quality and more diverse 3D shapes that better semantically conform to the visual or textural conditional inputs, validating the effectiveness of the shape-image-text-aligned space for cross-modality 3D shape generation.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.17115",
+              "pdf": "https://arxiv.org/pdf/2306.17115",
+              "doi": "https://doi.org/10.48550/arxiv.2306.17115"
+            }
+          },
+          "label": "background",
+          "score": 5.753,
+          "reasons": [
+            "Influential reference for this paper",
+            "304 citations"
+          ],
+          "quote": "We evaluate Direct3D-V3 on the test images described in Section 5.1, comparing against recent open-source image-to-3D methods including Michelangelo [Zhao et al. 2023 and TRELLIS2 [Xiang et al. 2026].",
+          "supports": [
+            "arxiv:2611.26511"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.25725",
+      "pick_title": "On the Hamel Coefficients and the Boltzmann-Hamel Equations for the Rigid Body",
+      "source": "s2",
+      "references_seen": 46,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1201/9781315136370",
+            "ids": {
+              "doi": "10.1201/9781315136370",
+              "s2": "ca442cc2eef5d9bd5cd5cb4c516cd15991569d93"
+            },
+            "title": "A Mathematical Introduction to Robotic Manipulation",
+            "year": 1994,
+            "citations": 7823,
+            "influential_citations": 738,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ca442cc2eef5d9bd5cd5cb4c516cd15991569d93",
+              "doi": "https://doi.org/10.1201/9781315136370"
+            }
+          },
+          "label": "background",
+          "score": 7.549,
+          "reasons": [
+            "Influential reference for this paper",
+            "7.8k citations"
+          ],
+          "quote": "Then, is called the hybrid form of the body twist since it is the twist measured at the origin of the body-fixed frame but resolved in the IFR [35].",
+          "supports": [
+            "arxiv:2611.25725"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "s2:2d19cfb0970bafb1af6e50226f6840ca36711c6c",
+            "ids": {
+              "s2": "2d19cfb0970bafb1af6e50226f6840ca36711c6c"
+            },
+            "title": "Introduction to Mechanics and Symmetry: A Basic Exposition of Classical Mechanical Systems",
+            "year": 1999,
+            "citations": 1207,
+            "influential_citations": 112,
+            "is_review": false,
+            "tldr": "This second edition has been rewritten and updated for clarity throughout, with a major revamping and expansion of the exercises.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2d19cfb0970bafb1af6e50226f6840ca36711c6c"
+            }
+          },
+          "label": "background",
+          "score": 6.492,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.2k citations"
+          ],
+          "quote": "They satisfy the Maurer-Cartan equations [31, p. 255] where c abc are the structure constants of the Lie group.",
+          "supports": [
+            "arxiv:2611.25725"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01448428",
+            "ids": {
+              "doi": "10.1007/bf01448428",
+              "s2": "96bf3ae2b4726442713ed6535cc56f54b36c96e0"
+            },
+            "title": "Über nichtholonome Systeme",
+            "year": 1924,
+            "citations": 16,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/96bf3ae2b4726442713ed6535cc56f54b36c96e0",
+              "doi": "https://doi.org/10.1007/bf01448428"
+            }
+          },
+          "label": "background",
+          "score": 6.135,
+          "reasons": [
+            "Influential reference for this paper",
+            "Cited for its method",
+            "16 citations"
+          ],
+          "quote": "The configuration space of a rigid body is the Lie group SE(3)—the special Euclidean group (Marsden and Scheurle 1993; Marsden and Ratiu 2003; Murray et al. 1994; Selig 2005), and the BH-equations are the Euler–Poincaré equations (when formulated in terms of body-fixed twists), or the reduced Euler…",
+          "supports": [
+            "arxiv:2611.25725"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.22941",
+      "pick_title": "A Transformer-Derived Iterative Preconditioner",
+      "source": "s2",
+      "references_seen": 33,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2005.14165",
+            "ids": {
+              "arxiv": "2005.14165",
+              "doi": "10.48550/arxiv.2005.14165",
+              "s2": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+            },
+            "title": "Language Models are Few-Shot Learners",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 66903,
+            "influential_citations": 5665,
+            "is_review": false,
+            "tldr": "GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2005.14165",
+              "pdf": "https://arxiv.org/pdf/2005.14165",
+              "doi": "https://doi.org/10.48550/arxiv.2005.14165"
+            }
+          },
+          "label": "background",
+          "score": 5.737,
+          "reasons": [
+            "67k citations"
+          ],
+          "quote": "Transformers can learn from examples in their input at test time without updating their parameters, a capability known as in-context learning [Brown et al., 2020, Garg et al., 2022].",
+          "supports": [
+            "arxiv:2611.22941"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/1.9780898718003",
+            "ids": {
+              "doi": "10.1137/1.9780898718003",
+              "s2": "cd4f2ffcda1f9907936daf79ed67356b6694479a"
+            },
+            "title": "Iterative methods for sparse linear systems",
+            "year": 2003,
+            "citations": 15997,
+            "influential_citations": 1987,
+            "is_review": false,
+            "tldr": "This chapter discusses methods related to the normal equations of linear algebra, and some of the techniques used in this chapter were derived from previous chapters of this book.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cd4f2ffcda1f9907936daf79ed67356b6694479a",
+              "doi": "https://doi.org/10.1137/1.9780898718003"
+            }
+          },
+          "label": "background",
+          "score": 5.012,
+          "reasons": [
+            "16k citations"
+          ],
+          "quote": "Conjugate gradient (CG) avoids direct factorization, but its convergence depends strongly on the spectrum of A [Hestenes and Stiefel, 1952, Saad, 2003].",
+          "supports": [
+            "arxiv:2611.22941"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1602.07576",
+            "ids": {
+              "arxiv": "1602.07576",
+              "doi": "10.48550/arxiv.1602.07576",
+              "s2": "5c077b3ad4de4f2ea99561908aa9be1520f18a14"
+            },
+            "title": "Group Equivariant Convolutional Networks",
+            "year": 2016,
+            "venue": "International Conference on Machine Learning",
+            "citations": 2875,
+            "influential_citations": 326,
+            "is_review": false,
+            "tldr": "Group equivariant Convolutional Neural Networks (G-CNNs), a natural generalization of convolutional neural networks that reduces sample complexity by exploiting symmetries and achieves state of the art results on CI- FAR10 and rotated MNIST.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1602.07576",
+              "pdf": "https://arxiv.org/pdf/1602.07576",
+              "doi": "https://doi.org/10.48550/arxiv.1602.07576"
+            }
+          },
+          "label": "background",
+          "score": 4.024,
+          "reasons": [
+            "2.9k citations"
+          ],
+          "quote": "When task symmetries are known, equivariant architectures provide a way to encode them as inductive biases, restricting the learned function class and improving generalization [Cohen and Welling, 2016, Kondor and Trivedi, 2018, Finzi et al., 2021].",
+          "supports": [
+            "arxiv:2611.22941"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

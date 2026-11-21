@@ -1,0 +1,2200 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:06:56.981882Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.26511",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.26511",
+            "ids": {
+              "arxiv": "2611.26511",
+              "doi": "10.1145/3842524",
+              "s2": "c8bae9ca8cbaecba2a9c1dc8fd08c9bf87fa8315",
+              "openalex": "W7225646265"
+            },
+            "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+            "year": 2026,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "Direct3D-V3 is proposed, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling and achieving competitive results to state-of-the-art latent-based methods.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.26511",
+              "pdf": "https://arxiv.org/pdf/2611.26511",
+              "doi": "https://doi.org/10.1145/3842524"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2506.15442",
+            "ids": {
+              "arxiv": "2506.15442",
+              "doi": "10.48550/arxiv.2506.15442",
+              "s2": "d72632c00f54ed3048bc35c1d593ebc3af1924b8"
+            },
+            "title": "Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 220,
+            "influential_citations": 71,
+            "is_review": true,
+            "tldr": "This tutorial offers a comprehensive, step-by-step guide on processing 3D data, training a 3D generative model, and evaluating its performance using Hunyuan3D 2.1, an advanced system for producing high-resolution, textured 3D assets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.15442",
+              "pdf": "https://arxiv.org/pdf/2506.15442",
+              "doi": "https://doi.org/10.48550/arxiv.2506.15442"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.12202",
+            "ids": {
+              "arxiv": "2501.12202",
+              "doi": "10.48550/arxiv.2501.12202",
+              "s2": "be47289592be9747050b1d50bd2cf7d00dfde825"
+            },
+            "title": "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 495,
+            "influential_citations": 99,
+            "is_review": false,
+            "tldr": "Huyuan3D 2.0 is publicly released in order to fill the gaps in the open-source 3D community for large-scale foundation generative models and build Hunyuan3D-Studio -- a versatile, user-friendly production platform that simplifies the re-creation process of 3D assets.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.12202",
+              "pdf": "https://arxiv.org/pdf/2501.12202",
+              "doi": "https://doi.org/10.48550/arxiv.2501.12202"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.17115",
+            "ids": {
+              "arxiv": "2306.17115",
+              "doi": "10.48550/arxiv.2306.17115",
+              "s2": "830ed65d226a337088d6d97c3c3b068155bf10ec"
+            },
+            "title": "Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 304,
+            "influential_citations": 33,
+            "is_review": false,
+            "tldr": "The proposed approach can generate higher-quality and more diverse 3D shapes that better semantically conform to the visual or textural conditional inputs, validating the effectiveness of the shape-image-text-aligned space for cross-modality 3D shape generation.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.17115",
+              "pdf": "https://arxiv.org/pdf/2306.17115",
+              "doi": "https://doi.org/10.48550/arxiv.2306.17115"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2412.01506",
+            "ids": {
+              "arxiv": "2412.01506",
+              "doi": "10.1109/cvpr52734.2025.02000",
+              "s2": "5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8"
+            },
+            "title": "Structured 3D Latents for Scalable and Versatile 3D Generation",
+            "year": 2024,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1088,
+            "influential_citations": 288,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.01506",
+              "pdf": "https://arxiv.org/pdf/2412.01506",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.02000"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.14692",
+            "ids": {
+              "arxiv": "2512.14692",
+              "doi": "10.48550/arxiv.2512.14692",
+              "s2": "ecd0d6c7e8093bd69655edc511e408216d52c7fb"
+            },
+            "title": "Native and Compact Structured Latents for 3D Generation",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 246,
+            "influential_citations": 74,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.14692",
+              "pdf": "https://arxiv.org/pdf/2512.14692",
+              "doi": "https://doi.org/10.48550/arxiv.2512.14692"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2006.11239",
+            "ids": {
+              "arxiv": "2006.11239",
+              "doi": "10.48550/arxiv.2006.11239",
+              "s2": "5c126ae3421f05768d8edd97ecd44b1364e2c99a"
+            },
+            "title": "Denoising Diffusion Probabilistic Models",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 38147,
+            "influential_citations": 5177,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2006.11239",
+              "pdf": "https://arxiv.org/pdf/2006.11239",
+              "doi": "https://doi.org/10.48550/arxiv.2006.11239"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+            "ids": {
+              "s2": "231af7dc01a166cac3b5b01ca05778238f796e41"
+            },
+            "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+            "year": 2017,
+            "venue": "Neural Information Processing Systems",
+            "citations": 20782,
+            "influential_citations": 3228,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/231af7dc01a166cac3b5b01ca05778238f796e41"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.03052",
+            "ids": {
+              "arxiv": "2512.03052",
+              "doi": "10.48550/arxiv.2512.03052",
+              "s2": "9ff2ac89b68c8cc6543da0bcacb018e70348d282"
+            },
+            "title": "LATTICE: Democratize High-Fidelity 3D Generation at Scale",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 62,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.03052",
+              "pdf": "https://arxiv.org/pdf/2512.03052",
+              "doi": "https://doi.org/10.48550/arxiv.2512.03052"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.04079",
+            "ids": {
+              "arxiv": "2308.04079",
+              "doi": "10.1145/3592433",
+              "s2": "2cc1d857e86d5152ba7fe6a8355c2a0150cc280a"
+            },
+            "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+            "year": 2023,
+            "venue": "ACM Transactions on Graphics",
+            "citations": 11713,
+            "influential_citations": 2954,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.04079",
+              "pdf": "https://arxiv.org/pdf/2308.04079",
+              "doi": "https://doi.org/10.1145/3592433"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.07193",
+            "ids": {
+              "arxiv": "2304.07193",
+              "doi": "10.48550/arxiv.2304.07193",
+              "s2": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+            },
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "year": 2023,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 12437,
+            "influential_citations": 1756,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.07193",
+              "pdf": "https://arxiv.org/pdf/2304.07193",
+              "doi": "https://doi.org/10.48550/arxiv.2304.07193"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2105.05233",
+            "ids": {
+              "arxiv": "2105.05233",
+              "doi": "10.48550/arxiv.2105.05233",
+              "s2": "64ea8f180d0682e6c18d1eb688afdb2027c02794"
+            },
+            "title": "Diffusion Models Beat GANs on Image Synthesis",
+            "year": 2021,
+            "venue": "Neural Information Processing Systems",
+            "citations": 13896,
+            "influential_citations": 1229,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2105.05233",
+              "pdf": "https://arxiv.org/pdf/2105.05233",
+              "doi": "https://doi.org/10.48550/arxiv.2105.05233"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.23306",
+            "ids": {
+              "arxiv": "2510.23306",
+              "doi": "10.48550/arxiv.2510.23306",
+              "s2": "55f5c6f60322fc311a5517f4c6adb6b7f1274d39"
+            },
+            "title": "ReconViaGen: Towards Accurate Multi-view 3D Object Reconstruction via Generation",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 38,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.23306",
+              "pdf": "https://arxiv.org/pdf/2510.23306",
+              "doi": "https://doi.org/10.48550/arxiv.2510.23306"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.21185",
+            "ids": {
+              "arxiv": "2512.21185",
+              "doi": "10.48550/arxiv.2512.21185",
+              "s2": "af13859b699d9c57fe469e111b176019d5ac9eff"
+            },
+            "title": "UltraShape 1.0: High-Fidelity 3D Shape Generation via Scalable Geometric Refinement",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 23,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.21185",
+              "pdf": "https://arxiv.org/pdf/2512.21185",
+              "doi": "https://doi.org/10.48550/arxiv.2512.21185"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.09672",
+            "ids": {
+              "arxiv": "2102.09672",
+              "doi": "10.48550/arxiv.2102.09672",
+              "s2": "de18baa4964804cf471d85a5a090498242d2e79f"
+            },
+            "title": "Improved Denoising Diffusion Probabilistic Models",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 6232,
+            "influential_citations": 469,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.09672",
+              "pdf": "https://arxiv.org/pdf/2102.09672",
+              "doi": "https://doi.org/10.48550/arxiv.2102.09672"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.11328",
+            "ids": {
+              "arxiv": "2303.11328",
+              "doi": "10.1109/iccv51070.2023.00853",
+              "s2": "2c70684973bc4d7b6f8404a647b8031c4d3c8383"
+            },
+            "title": "Zero-1-to-3: Zero-shot One Image to 3D Object",
+            "year": 2023,
+            "venue": "IEEE International Conference on Computer Vision",
+            "citations": 1986,
+            "influential_citations": 278,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.11328",
+              "pdf": "https://arxiv.org/pdf/2303.11328",
+              "doi": "https://doi.org/10.1109/iccv51070.2023.00853"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2003.08934",
+            "ids": {
+              "arxiv": "2003.08934",
+              "doi": "10.48550/arxiv.2003.08934",
+              "s2": "428b663772dba998f5dc6a24488fff1858a0899f"
+            },
+            "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "year": 2020,
+            "venue": "European Conference on Computer Vision",
+            "citations": 1615,
+            "influential_citations": 280,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2003.08934",
+              "pdf": "https://arxiv.org/pdf/2003.08934",
+              "doi": "https://doi.org/10.48550/arxiv.2003.08934"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2204.11918",
+            "ids": {
+              "arxiv": "2204.11918",
+              "doi": "10.48550/arxiv.2204.11918",
+              "s2": "9f5120b815fddaaef25c7042035ffe5680507a65"
+            },
+            "title": "Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items",
+            "year": 2022,
+            "venue": "IEEE International Conference on Robotics and Automation",
+            "citations": 890,
+            "influential_citations": 96,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2204.11918",
+              "pdf": "https://arxiv.org/pdf/2204.11918",
+              "doi": "https://doi.org/10.48550/arxiv.2204.11918"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2307.05663",
+            "ids": {
+              "arxiv": "2307.05663",
+              "doi": "10.48550/arxiv.2307.05663",
+              "s2": "1b90e9e9734bed6b379ae87d688cb3b887baf597"
+            },
+            "title": "Objaverse-XL: A Universe of 10M+ 3D Objects",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 990,
+            "influential_citations": 80,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2307.05663",
+              "pdf": "https://arxiv.org/pdf/2307.05663",
+              "doi": "https://doi.org/10.48550/arxiv.2307.05663"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2506.15442",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2512.14692",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2512.03052",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2105.05233",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2510.23306",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2512.21185",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2102.09672",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2003.08934",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2204.11918",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.26511",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.15442",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2501.12202",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17115",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.01506",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.14692",
+          "target": "arxiv:2506.15442",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.14692",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.14692",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.14692",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.14692",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2006.11239",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2506.15442",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.03052",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2308.04079",
+          "target": "arxiv:2003.08934",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2105.05233",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2105.05233",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2105.05233",
+          "target": "arxiv:2102.09672",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2204.11918",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2308.04079",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2307.05663",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.23306",
+          "target": "arxiv:2306.17115",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2512.03052",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2506.15442",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2304.07193",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2412.01506",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2501.12202",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.21185",
+          "target": "arxiv:2512.14692",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2102.09672",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2102.09672",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.11328",
+          "target": "s2:231af7dc01a166cac3b5b01ca05778238f796e41",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.11328",
+          "target": "arxiv:2204.11918",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.11328",
+          "target": "arxiv:2006.11239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2303.11328",
+          "target": "arxiv:2105.05233",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2307.05663",
+          "target": "arxiv:2204.11918",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2307.05663",
+          "target": "arxiv:2303.11328",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for c8bae9ca8cbaecba2a9c1dc8fd08c9bf87fa8315: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/c8bae9ca8cbaecba2a9c1dc8fd08c9bf87fa8315/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.25725",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.25725",
+            "ids": {
+              "arxiv": "2611.25725",
+              "doi": "10.1007/s00332-021-09692-7",
+              "s2": "671539ac557bd779ba811f6cede3e2228571c604",
+              "openalex": "W3139532549"
+            },
+            "title": "On the Hamel Coefficients and the Boltzmann-Hamel Equations for the Rigid Body",
+            "year": 2021,
+            "venue": "Journal of nonlinear science",
+            "citations": 7,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "The Hamel equations for nonholonomically constrained rigid bodies are discussed, and demonstrated for the inhomogenous ball rolling on a plane.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.25725",
+              "pdf": "https://arxiv.org/pdf/2611.25725",
+              "doi": "https://doi.org/10.1007/s00332-021-09692-7"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1201/9781315136370",
+            "ids": {
+              "doi": "10.1201/9781315136370",
+              "s2": "ca442cc2eef5d9bd5cd5cb4c516cd15991569d93"
+            },
+            "title": "A Mathematical Introduction to Robotic Manipulation",
+            "year": 1994,
+            "citations": 7823,
+            "influential_citations": 738,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ca442cc2eef5d9bd5cd5cb4c516cd15991569d93",
+              "doi": "https://doi.org/10.1201/9781315136370"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:2d19cfb0970bafb1af6e50226f6840ca36711c6c",
+            "ids": {
+              "s2": "2d19cfb0970bafb1af6e50226f6840ca36711c6c"
+            },
+            "title": "Introduction to Mechanics and Symmetry: A Basic Exposition of Classical Mechanical Systems",
+            "year": 1999,
+            "citations": 1207,
+            "influential_citations": 112,
+            "is_review": false,
+            "tldr": "This second edition has been rewritten and updated for clarity throughout, with a major revamping and expansion of the exercises.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2d19cfb0970bafb1af6e50226f6840ca36711c6c"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01448428",
+            "ids": {
+              "doi": "10.1007/bf01448428",
+              "s2": "96bf3ae2b4726442713ed6535cc56f54b36c96e0"
+            },
+            "title": "Über nichtholonome Systeme",
+            "year": 1924,
+            "citations": 16,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/96bf3ae2b4726442713ed6535cc56f54b36c96e0",
+              "doi": "https://doi.org/10.1007/bf01448428"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/042585a0",
+            "ids": {
+              "doi": "10.1038/042585a0",
+              "s2": "245b68ae04af9d113588b61fa09088381c18a251"
+            },
+            "title": "Analytical Mechanics",
+            "venue": "Nature",
+            "citations": 401,
+            "influential_citations": 39,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/245b68ae04af9d113588b61fa09088381c18a251",
+              "doi": "https://doi.org/10.1038/042585a0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01708221",
+            "ids": {
+              "doi": "10.1007/bf01708221",
+              "s2": "4afc0891123c84408b80c63fd327a71940ccf0f8"
+            },
+            "title": "Theoretische Mechanik",
+            "year": 1913,
+            "citations": 94,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4afc0891123c84408b80c63fd327a71940ccf0f8",
+              "doi": "https://doi.org/10.1007/bf01708221"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.17793",
+            "ids": {
+              "arxiv": "2306.17793",
+              "doi": "10.1007/s11044-017-9583-6",
+              "s2": "145a198c5c0e556ad92598f90990f93788daa2eb"
+            },
+            "title": "Screw and Lie group theory in multibody dynamics",
+            "year": 2017,
+            "venue": "Multibody system dynamics",
+            "citations": 68,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.17793",
+              "pdf": "https://arxiv.org/pdf/2306.17793",
+              "doi": "https://doi.org/10.1007/s11044-017-9583-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-1-4939-2441-7_20",
+            "ids": {
+              "doi": "10.1007/978-1-4939-2441-7_20",
+              "s2": "3dde19c0049c87a268895cca71f49d32a3156e3e"
+            },
+            "title": "Hamel’s Formalism and Variational Integrators",
+            "year": 2015,
+            "citations": 23,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3dde19c0049c87a268895cca71f49d32a3156e3e",
+              "doi": "https://doi.org/10.1007/978-1-4939-2441-7_20"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11044-014-9439-2",
+            "ids": {
+              "doi": "10.1007/s11044-014-9439-2",
+              "s2": "21e7e5358a14bc0c39b987364d38d22f9a1ad0a5"
+            },
+            "title": "Lie-group integration method for constrained multibody systems in state space",
+            "year": 2014,
+            "venue": "Multibody system dynamics",
+            "citations": 65,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/21e7e5358a14bc0c39b987364d38d22f9a1ad0a5",
+              "doi": "https://doi.org/10.1007/s11044-014-9439-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-1-4899-7276-7",
+            "ids": {
+              "doi": "10.1007/978-1-4899-7276-7",
+              "s2": "2a6744e7a6805d107804e163fd49dc0b0c8eed3e"
+            },
+            "title": "Geometric control of mechanical systems",
+            "year": 2004,
+            "citations": 977,
+            "influential_citations": 120,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2a6744e7a6805d107804e163fd49dc0b0c8eed3e",
+              "doi": "https://doi.org/10.1007/978-1-4899-7276-7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-642-82755-6",
+            "ids": {
+              "doi": "10.1007/978-3-642-82755-6",
+              "s2": "e1aae4c59d516c27b9f90b716b109aa3d92f6ae3"
+            },
+            "title": "Dynamics of Multibody Systems",
+            "year": 1986,
+            "citations": 629,
+            "influential_citations": 52,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e1aae4c59d516c27b9f90b716b109aa3d92f6ae3",
+              "doi": "https://doi.org/10.1007/978-3-642-82755-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-1-4757-2484-4",
+            "ids": {
+              "doi": "10.1007/978-1-4757-2484-4",
+              "s2": "f15b518d3fe2ef7f35b7b7f0fde89d9693955030"
+            },
+            "title": "Geometric Fundamentals of Robotics",
+            "year": 2004,
+            "venue": "Monographs in Computer Science",
+            "citations": 633,
+            "influential_citations": 51,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f15b518d3fe2ef7f35b7b7f0fde89d9693955030",
+              "doi": "https://doi.org/10.1007/978-1-4757-2484-4"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/s0033-569x-09-01196-5",
+            "ids": {
+              "doi": "10.1090/s0033-569x-09-01196-5",
+              "s2": "418ccacf431aaa2678854b03738fbfc02002b98d"
+            },
+            "title": "Book Review: Geometric Mechanics, Part II: Rotating, Translating and Rolling",
+            "year": 2008,
+            "citations": 119,
+            "influential_citations": 8,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/418ccacf431aaa2678854b03738fbfc02002b98d",
+              "doi": "https://doi.org/10.1090/s0033-569x-09-01196-5"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/cbo9781107337213",
+            "ids": {
+              "doi": "10.1017/cbo9781107337213",
+              "s2": "fe6537498ef5d69b6055763db138f28b6c2ea5ad"
+            },
+            "title": "Dynamics of Multibody Systems",
+            "year": 2020,
+            "citations": 189,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fe6537498ef5d69b6055763db138f28b6c2ea5ad",
+              "doi": "https://doi.org/10.1017/cbo9781107337213"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1115/1.4001370",
+            "ids": {
+              "doi": "10.1115/1.4001370",
+              "s2": "7e1a3084c627d5553643e0cce7e815c454d98a9d"
+            },
+            "title": "On the Use of Lie Group Time Integrators in Multibody Dynamics",
+            "year": 2010,
+            "citations": 139,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7e1a3084c627d5553643e0cce7e815c454d98a9d",
+              "doi": "https://doi.org/10.1115/1.4001370"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/tro.2005.852253",
+            "ids": {
+              "doi": "10.1109/tro.2005.852253",
+              "s2": "237f76a499a7966ffb298f49fff1d937ea976eea"
+            },
+            "title": "Geometric integration on Euclidean group with application to articulated multibody systems",
+            "year": 2005,
+            "venue": "IEEE Transactions on robotics",
+            "citations": 147,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/237f76a499a7966ffb298f49fff1d937ea976eea",
+              "doi": "https://doi.org/10.1109/tro.2005.852253"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s004190050238",
+            "ids": {
+              "doi": "10.1007/s004190050238",
+              "s2": "e76c1765f38341948a18f78fd780d372ca1fcfa6"
+            },
+            "title": "Tensor calculus and analytical dynamics",
+            "year": 1998,
+            "citations": 68,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e76c1765f38341948a18f78fd780d372ca1fcfa6",
+              "doi": "https://doi.org/10.1007/s004190050238"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/s0045-7825(00)00285-1",
+            "ids": {
+              "doi": "10.1016/s0045-7825(00)00285-1",
+              "s2": "e60edbf1e1ec2da9a94a1c49e4b8fb4b15a301ff"
+            },
+            "title": "Integration of elastic multibody systems by invariant conserving/dissipating algorithms. II. Numerical schemes and applications",
+            "year": 2001,
+            "citations": 79,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e60edbf1e1ec2da9a94a1c49e4b8fb4b15a301ff",
+              "doi": "https://doi.org/10.1016/s0045-7825(00)00285-1"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/s0362-546x(96)00147-2",
+            "ids": {
+              "doi": "10.1016/s0362-546x(96)00147-2",
+              "s2": "c881e0c47635a1daa954332ce485b0aa4b5b690f"
+            },
+            "title": "Differential-geometric methods in multibody dynamics",
+            "year": 1997,
+            "citations": 32,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c881e0c47635a1daa954332ce485b0aa4b5b690f",
+              "doi": "https://doi.org/10.1016/s0362-546x(96)00147-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2412.13681",
+            "ids": {
+              "arxiv": "2412.13681",
+              "doi": "10.1016/j.mechmachtheory.2021.104549",
+              "s2": "388a1b7d7b4db09429e3dde178dcaeaeb9edc63e"
+            },
+            "title": "Dynamics of Parallel Manipulators with Hybrid Complex Limbs - Modular Modeling and Parallel Computing",
+            "year": 2022,
+            "venue": "Mechanism and Machine Theory",
+            "citations": 33,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.13681",
+              "pdf": "https://arxiv.org/pdf/2412.13681",
+              "doi": "https://doi.org/10.1016/j.mechmachtheory.2021.104549"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2305.05412",
+            "ids": {
+              "arxiv": "2305.05412",
+              "doi": "10.1098/rspa.2022.0732",
+              "s2": "2f7b5a239efc411c898573071594dc0212077568"
+            },
+            "title": "Hamel’s equations and geometric mechanics of constrained and floating multibody and space systems",
+            "year": 2023,
+            "venue": "Proceedings of the Royal Society A",
+            "citations": 8,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2305.05412",
+              "pdf": "https://arxiv.org/pdf/2305.05412",
+              "doi": "https://doi.org/10.1098/rspa.2022.0732"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.15632/jtam-pl/194505",
+            "ids": {
+              "doi": "10.15632/jtam-pl/194505",
+              "s2": "78452e0fe7c8fea94ab5ec7468c4846e92fa6610"
+            },
+            "title": "Dynamics modeling of variable mass systems – a case study of an underwater inertia based propelled glider performance",
+            "year": 2024,
+            "venue": "Journal of Theoretical and Applied Mechanics",
+            "citations": 5,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/78452e0fe7c8fea94ab5ec7468c4846e92fa6610",
+              "doi": "https://doi.org/10.15632/jtam-pl/194505"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s40435-023-01119-3",
+            "ids": {
+              "doi": "10.1007/s40435-023-01119-3",
+              "s2": "7a9b75c5883d1f45a27b0899ae9a76c8ebaeb2b3"
+            },
+            "title": "The equivalence of Boltzmann–Hamel and Gibbs–Appell equations in modeling constrained systems",
+            "year": 2023,
+            "venue": "International Journal of Dynamics and Control",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7a9b75c5883d1f45a27b0899ae9a76c8ebaeb2b3",
+              "doi": "https://doi.org/10.1007/s40435-023-01119-3"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.35857",
+            "ids": {
+              "arxiv": "2609.35857",
+              "s2": "cc00a0749bde36fbd1fe6e29ea1e48c99f0f9fc7"
+            },
+            "title": "The Myth of Hamel's Paradox",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.35857",
+              "pdf": "https://arxiv.org/pdf/2609.35857"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2210.16965",
+            "ids": {
+              "arxiv": "2210.16965",
+              "doi": "10.24200/sci.2024.60600.6891",
+              "s2": "4b3f3a166e2ae121a0a199c3033dc5545a0ec74a"
+            },
+            "title": "Development of an Efficient Formulation for Volterra’s Equations of Motion for Multibody Dynamical Systems",
+            "year": 2022,
+            "venue": "Scientia Iranica. International Journal of Science and Technology",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2210.16965",
+              "pdf": "https://arxiv.org/pdf/2210.16965",
+              "doi": "https://doi.org/10.24200/sci.2024.60600.6891"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "s2:9621b4d00caed14a5c4449685777d589b95c4a10",
+            "ids": {
+              "s2": "9621b4d00caed14a5c4449685777d589b95c4a10"
+            },
+            "title": "Mechanism and Machine Theory",
+            "year": 2021,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9621b4d00caed14a5c4449685777d589b95c4a10"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1201/9781315136370",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "s2:2d19cfb0970bafb1af6e50226f6840ca36711c6c",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/bf01448428",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1038/042585a0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/bf01708221",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "arxiv:2306.17793",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/978-1-4939-2441-7_20",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/s11044-014-9439-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/978-1-4899-7276-7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/978-3-642-82755-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/978-1-4757-2484-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1090/s0033-569x-09-01196-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1017/cbo9781107337213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1115/1.4001370",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1109/tro.2005.852253",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1007/s004190050238",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1016/s0045-7825(00)00285-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.25725",
+          "target": "doi:10.1016/s0362-546x(96)00147-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.13681",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.15632/jtam-pl/194505",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s40435-023-01119-3",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.35857",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2210.16965",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "s2:9621b4d00caed14a5c4449685777d589b95c4a10",
+          "target": "arxiv:2611.25725",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1007/s11044-014-9439-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1016/s0045-7825(00)00285-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1109/tro.2005.852253",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1201/9781315136370",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1016/s0362-546x(96)00147-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.17793",
+          "target": "doi:10.1007/978-1-4757-2484-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.13681",
+          "target": "arxiv:2306.17793",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.13681",
+          "target": "doi:10.1017/cbo9781107337213",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.13681",
+          "target": "s2:2d19cfb0970bafb1af6e50226f6840ca36711c6c",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.13681",
+          "target": "doi:10.1090/s0033-569x-09-01196-5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "doi:10.1007/bf01448428",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "doi:10.1007/bf01708221",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "doi:10.1201/9781315136370",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "doi:10.1016/s0362-546x(96)00147-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2305.05412",
+          "target": "doi:10.1007/978-1-4757-2484-4",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.35857",
+          "target": "arxiv:2305.05412",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.35857",
+          "target": "doi:10.1007/bf01708221",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2210.16965",
+          "target": "doi:10.1007/978-3-642-82755-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2210.16965",
+          "target": "doi:10.1007/s40435-023-01119-3",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 7,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.22941",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.22941",
+            "ids": {
+              "arxiv": "2611.22941",
+              "s2": "9c5868a97ebfd71297cbcf54aaf49f344baeb8c3",
+              "openalex": "W7236488347"
+            },
+            "title": "A Transformer-Derived Iterative Preconditioner",
+            "year": 2026,
+            "venue": "NeurIPS 2026",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "RAPID is an anytime preconditioner for symmetric positive definite (SPD) matrices, using randomized mixing and sparse local corrections to improve conditioning and proves convergence to any fixed target condition number regardless of spectral distribution.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.22941",
+              "pdf": "https://arxiv.org/pdf/2611.22941"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2005.14165",
+            "ids": {
+              "arxiv": "2005.14165",
+              "doi": "10.48550/arxiv.2005.14165",
+              "s2": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+            },
+            "title": "Language Models are Few-Shot Learners",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 66903,
+            "influential_citations": 5665,
+            "is_review": false,
+            "tldr": "GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2005.14165",
+              "pdf": "https://arxiv.org/pdf/2005.14165",
+              "doi": "https://doi.org/10.48550/arxiv.2005.14165"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/1.9780898718003",
+            "ids": {
+              "doi": "10.1137/1.9780898718003",
+              "s2": "cd4f2ffcda1f9907936daf79ed67356b6694479a"
+            },
+            "title": "Iterative methods for sparse linear systems",
+            "year": 2003,
+            "citations": 15997,
+            "influential_citations": 1987,
+            "is_review": false,
+            "tldr": "This chapter discusses methods related to the normal equations of linear algebra, and some of the techniques used in this chapter were derived from previous chapters of this book.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cd4f2ffcda1f9907936daf79ed67356b6694479a",
+              "doi": "https://doi.org/10.1137/1.9780898718003"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1602.07576",
+            "ids": {
+              "arxiv": "1602.07576",
+              "doi": "10.48550/arxiv.1602.07576",
+              "s2": "5c077b3ad4de4f2ea99561908aa9be1520f18a14"
+            },
+            "title": "Group Equivariant Convolutional Networks",
+            "year": 2016,
+            "venue": "International Conference on Machine Learning",
+            "citations": 2875,
+            "influential_citations": 326,
+            "is_review": false,
+            "tldr": "Group equivariant Convolutional Neural Networks (G-CNNs), a natural generalization of convolutional neural networks that reduces sample complexity by exploiting symmetries and achieves state of the art results on CI- FAR10 and rotated MNIST.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1602.07576",
+              "pdf": "https://arxiv.org/pdf/1602.07576",
+              "doi": "https://doi.org/10.48550/arxiv.1602.07576"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1706.03762",
+            "ids": {
+              "arxiv": "1706.03762",
+              "doi": "10.48550/arxiv.1706.03762",
+              "s2": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+            },
+            "title": "Attention is All you Need",
+            "year": 2017,
+            "venue": "Neural Information Processing Systems",
+            "citations": 204123,
+            "influential_citations": 21575,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1706.03762",
+              "pdf": "https://arxiv.org/pdf/1706.03762",
+              "doi": "https://doi.org/10.48550/arxiv.1706.03762"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/jcph.2002.7176",
+            "ids": {
+              "doi": "10.1006/jcph.2002.7176",
+              "s2": "6c15b76f9018e24cbb16909a9d77df24da948ab9"
+            },
+            "title": "Preconditioning techniques for large linear systems: a survey",
+            "year": 2002,
+            "citations": 1445,
+            "influential_citations": 90,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6c15b76f9018e24cbb16909a9d77df24da948ab9",
+              "doi": "https://doi.org/10.1006/jcph.2002.7176"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2208.01066",
+            "ids": {
+              "arxiv": "2208.01066",
+              "doi": "10.48550/arxiv.2208.01066",
+              "s2": "de32da8f5c6a50a6c311e9357ba16aa7d05a1bc9"
+            },
+            "title": "What Can Transformers Learn In-Context? A Case Study of Simple Function Classes",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 945,
+            "influential_citations": 119,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2208.01066",
+              "pdf": "https://arxiv.org/pdf/2208.01066",
+              "doi": "https://doi.org/10.48550/arxiv.2208.01066"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2212.07677",
+            "ids": {
+              "arxiv": "2212.07677",
+              "doi": "10.48550/arxiv.2212.07677",
+              "s2": "525d93a382f6e7873b5d8a2e0713eb3dff7fb250"
+            },
+            "title": "Transformers learn in-context by gradient descent",
+            "year": 2022,
+            "venue": "International Conference on Machine Learning",
+            "citations": 940,
+            "influential_citations": 86,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2212.07677",
+              "pdf": "https://arxiv.org/pdf/2212.07677",
+              "doi": "https://doi.org/10.48550/arxiv.2212.07677"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2211.15661",
+            "ids": {
+              "arxiv": "2211.15661",
+              "doi": "10.48550/arxiv.2211.15661",
+              "s2": "7aa801b907b59b8ee4cfb1296d9dac22c5164c5d"
+            },
+            "title": "What learning algorithm is in-context learning? Investigations with linear models",
+            "year": 2022,
+            "venue": "International Conference on Learning Representations",
+            "citations": 842,
+            "influential_citations": 67,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2211.15661",
+              "pdf": "https://arxiv.org/pdf/2211.15661",
+              "doi": "https://doi.org/10.48550/arxiv.2211.15661"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf02238511",
+            "ids": {
+              "doi": "10.1007/bf02238511",
+              "s2": "a576292fb8cad1677e36e5f7ab88ecbce1acf330"
+            },
+            "title": "Algebraic multigrid by smoothed aggregation for second and fourth order elliptic problems",
+            "year": 2005,
+            "venue": "Computing",
+            "citations": 718,
+            "influential_citations": 52,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a576292fb8cad1677e36e5f7ab88ecbce1acf330",
+              "doi": "https://doi.org/10.1007/bf02238511"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/060673096",
+            "ids": {
+              "doi": "10.1137/060673096",
+              "s2": "2a941e7c5f374f8f8dba0daf6ffc6504a2779473"
+            },
+            "title": "The Fast Johnson--Lindenstrauss Transform and Approximate Nearest Neighbors",
+            "year": 2009,
+            "venue": "SIAM journal on computing (Print)",
+            "citations": 604,
+            "influential_citations": 66,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2a941e7c5f374f8f8dba0daf6ffc6504a2779473",
+              "doi": "https://doi.org/10.1137/060673096"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1802.03690",
+            "ids": {
+              "arxiv": "1802.03690",
+              "doi": "10.48550/arxiv.1802.03690",
+              "s2": "84032c19bad3493957d1319babd19bde2821fee3"
+            },
+            "title": "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups",
+            "year": 2018,
+            "venue": "International Conference on Machine Learning",
+            "citations": 697,
+            "influential_citations": 49,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1802.03690",
+              "pdf": "https://arxiv.org/pdf/1802.03690",
+              "doi": "https://doi.org/10.48550/arxiv.1802.03690"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0962492915000021",
+            "ids": {
+              "doi": "10.1017/s0962492915000021",
+              "s2": "d34c2baaa3422485eeb68285dc66e8fba0c3c235"
+            },
+            "title": "Preconditioning",
+            "year": 2015,
+            "venue": "Acta Numerica",
+            "citations": 251,
+            "influential_citations": 22,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d34c2baaa3422485eeb68285dc66e8fba0c3c235",
+              "doi": "https://doi.org/10.1017/s0962492915000021"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1408.3060",
+            "ids": {
+              "arxiv": "1408.3060",
+              "doi": "10.48550/arxiv.1408.3060",
+              "s2": "ba3a4c7769712d926440b256a35ce6f8d915c2ca"
+            },
+            "title": "Fastfood: Approximate Kernel Expansions in Loglinear Time",
+            "year": 2014,
+            "venue": "arXiv.org",
+            "citations": 480,
+            "influential_citations": 55,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1408.3060",
+              "pdf": "https://arxiv.org/pdf/1408.3060",
+              "doi": "https://doi.org/10.48550/arxiv.1408.3060"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.09927",
+            "ids": {
+              "arxiv": "2306.09927",
+              "doi": "10.48550/arxiv.2306.09927",
+              "s2": "4a7530bbaee7563ee244f3ffed6b706bd96f08a8"
+            },
+            "title": "Trained Transformers Learn Linear Models In-Context",
+            "year": 2023,
+            "venue": "Journal of machine learning research",
+            "citations": 392,
+            "influential_citations": 66,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.09927",
+              "pdf": "https://arxiv.org/pdf/2306.09927",
+              "doi": "https://doi.org/10.48550/arxiv.2306.09927"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.00297",
+            "ids": {
+              "arxiv": "2306.00297",
+              "doi": "10.48550/arxiv.2306.00297",
+              "s2": "f5e9337477d7a9eb6267d0310549fdefafbb7fe2"
+            },
+            "title": "Transformers learn to implement preconditioned gradient descent for in-context learning",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 337,
+            "influential_citations": 55,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.00297",
+              "pdf": "https://arxiv.org/pdf/2306.00297",
+              "doi": "https://doi.org/10.48550/arxiv.2306.00297"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/090767911",
+            "ids": {
+              "doi": "10.1137/090767911",
+              "s2": "a471515c46aeba729cc50b3e7814ca85b69115a1"
+            },
+            "title": "Blendenpik: Supercharging LAPACK's Least-Squares Solver",
+            "year": 2010,
+            "venue": "SIAM Journal on Scientific Computing",
+            "citations": 294,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a471515c46aeba729cc50b3e7814ca85b69115a1",
+              "doi": "https://doi.org/10.1137/090767911"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.09459",
+            "ids": {
+              "arxiv": "2104.09459",
+              "doi": "10.48550/arxiv.2104.09459",
+              "s2": "c12c87607371d095cb3e149fe20fef5acd9d116f"
+            },
+            "title": "A Practical Method for Constructing Equivariant Multilayer Perceptrons for Arbitrary Matrix Groups",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 325,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.09459",
+              "pdf": "https://arxiv.org/pdf/2104.09459",
+              "doi": "https://doi.org/10.48550/arxiv.2104.09459"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1610.09072",
+            "ids": {
+              "arxiv": "1610.09072",
+              "doi": "10.48550/arxiv.1610.09072",
+              "s2": "32e934094c4d17fe4d734b2e169ba5e3cd0ee05e"
+            },
+            "title": "Orthogonal Random Features",
+            "year": 2016,
+            "venue": "Neural Information Processing Systems",
+            "citations": 267,
+            "influential_citations": 43,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1610.09072",
+              "pdf": "https://arxiv.org/pdf/1610.09072",
+              "doi": "https://doi.org/10.48550/arxiv.1610.09072"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1137/1.9780898718003",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:1602.07576",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1006/jcph.2002.7176",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2208.01066",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2212.07677",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2211.15661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1007/bf02238511",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1137/060673096",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:1802.03690",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1017/s0962492915000021",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:1408.3060",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2306.09927",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2306.00297",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "doi:10.1137/090767911",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:2104.09459",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.22941",
+          "target": "arxiv:1610.09072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2208.01066",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2208.01066",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.07677",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.07677",
+          "target": "arxiv:2211.15661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.07677",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2212.07677",
+          "target": "arxiv:2208.01066",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.15661",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.15661",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2211.15661",
+          "target": "arxiv:2208.01066",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1802.03690",
+          "target": "arxiv:1602.07576",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1408.3060",
+          "target": "doi:10.1137/060673096",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.09927",
+          "target": "arxiv:2211.15661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.09927",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.09927",
+          "target": "arxiv:2306.00297",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.09927",
+          "target": "arxiv:2208.01066",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.09927",
+          "target": "arxiv:2212.07677",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:2211.15661",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:1706.03762",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:2208.01066",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:2212.07677",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.00297",
+          "target": "arxiv:2306.09927",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09459",
+          "target": "arxiv:1602.07576",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1610.09072",
+          "target": "arxiv:1408.3060",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": []
+    }
+  ]
+}
