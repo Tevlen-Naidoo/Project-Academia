@@ -1,0 +1,3301 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T11:28:47.386250Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2506.07982",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2506.07982",
+            "ids": {
+              "arxiv": "2506.07982",
+              "s2": "91c12fc38719eae97e812c6d59a37de5de288c75",
+              "openalex": "W4417136556"
+            },
+            "title": "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+            "year": 2025,
+            "citations": 792,
+            "influential_citations": 109,
+            "is_review": false,
+            "tldr": "The $\\tau^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions, and shows significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.07982",
+              "pdf": "https://arxiv.org/pdf/2506.07982"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2308.03688",
+            "ids": {
+              "arxiv": "2308.03688",
+              "doi": "10.48550/arxiv.2308.03688",
+              "openalex": "W4385682136"
+            },
+            "title": "AgentBench: Evaluating LLMs as Agents",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2479,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.03688",
+              "pdf": "https://arxiv.org/pdf/2308.03688",
+              "doi": "https://doi.org/10.48550/arxiv.2308.03688"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/d18-1547",
+            "ids": {
+              "doi": "10.18653/v1/d18-1547",
+              "openalex": "W2891732163"
+            },
+            "title": "MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling",
+            "year": 2018,
+            "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "citations": 1843,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2891732163",
+              "doi": "https://doi.org/10.18653/v1/d18-1547"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/068431-1508",
+            "ids": {
+              "doi": "10.52202/068431-1508",
+              "openalex": "W7133227044"
+            },
+            "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+            "year": 2022,
+            "venue": "neural information processing systems",
+            "citations": 1791,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133227044",
+              "doi": "https://doi.org/10.52202/068431-1508"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.06770",
+            "ids": {
+              "arxiv": "2310.06770",
+              "doi": "10.48550/arxiv.2310.06770",
+              "openalex": "W4387561453"
+            },
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2687,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.06770",
+              "pdf": "https://arxiv.org/pdf/2310.06770",
+              "doi": "https://doi.org/10.48550/arxiv.2310.06770"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.12045",
+            "ids": {
+              "arxiv": "2406.12045",
+              "doi": "10.48550/arxiv.2406.12045",
+              "openalex": "W4399836817"
+            },
+            "title": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 1566,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.12045",
+              "pdf": "https://arxiv.org/pdf/2406.12045",
+              "doi": "https://doi.org/10.48550/arxiv.2406.12045"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2307.13854",
+            "ids": {
+              "arxiv": "2307.13854",
+              "doi": "10.48550/arxiv.2307.13854",
+              "openalex": "W4385327683"
+            },
+            "title": "Autonomous Tester Agent Benchmark",
+            "year": 2023,
+            "venue": "arXiv (Cornell University)",
+            "citations": 1463,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2307.13854",
+              "pdf": "https://arxiv.org/pdf/2307.13854",
+              "doi": "https://doi.org/10.48550/arxiv.2307.13854"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2309.15817",
+            "ids": {
+              "arxiv": "2309.15817",
+              "doi": "10.48550/arxiv.2309.15817",
+              "openalex": "W4387164935"
+            },
+            "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 430,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2309.15817",
+              "pdf": "https://arxiv.org/pdf/2309.15817",
+              "doi": "https://doi.org/10.48550/arxiv.2309.15817"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2025.acl-long.421",
+            "ids": {
+              "doi": "10.18653/v1/2025.acl-long.421",
+              "openalex": "W4412945638"
+            },
+            "title": "MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents",
+            "year": 2025,
+            "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+            "citations": 382,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4412945638",
+              "doi": "https://doi.org/10.18653/v1/2025.acl-long.421"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/d18-1256",
+            "ids": {
+              "doi": "10.18653/v1/d18-1256",
+              "openalex": "W2963170138"
+            },
+            "title": "Decoupling Strategy and Generation in Negotiation Dialogues",
+            "year": 2018,
+            "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "citations": 319,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2963170138",
+              "doi": "https://doi.org/10.18653/v1/d18-1256"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.03128",
+            "ids": {
+              "arxiv": "2310.03128",
+              "doi": "10.48550/arxiv.2310.03128",
+              "openalex": "W4387427530"
+            },
+            "title": "MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 218,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.03128",
+              "pdf": "https://arxiv.org/pdf/2310.03128",
+              "doi": "https://doi.org/10.48550/arxiv.2310.03128"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1162/tacl_a_00333",
+            "ids": {
+              "doi": "10.1162/tacl_a_00333",
+              "openalex": "W3087300239"
+            },
+            "title": "Task-Oriented Dialogue as Dataflow Synthesis",
+            "year": 2020,
+            "venue": "Transactions of the Association for Computational Linguistics",
+            "citations": 195,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3087300239",
+              "doi": "https://doi.org/10.1162/tacl_a_00333"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/085713-2184",
+            "ids": {
+              "doi": "10.52202/085713-2184",
+              "openalex": "W4415980674"
+            },
+            "title": "APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay",
+            "year": 2025,
+            "venue": "neural information processing systems",
+            "citations": 191,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4415980674",
+              "doi": "https://doi.org/10.52202/085713-2184"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.04682",
+            "ids": {
+              "arxiv": "2408.04682",
+              "doi": "10.48550/arxiv.2408.04682",
+              "openalex": "W4402387511"
+            },
+            "title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
+            "year": 2024,
+            "venue": "arXiv (Cornell University)",
+            "citations": 180,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.04682",
+              "pdf": "https://arxiv.org/pdf/2408.04682",
+              "doi": "https://doi.org/10.48550/arxiv.2408.04682"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0269888912000343",
+            "ids": {
+              "doi": "10.1017/s0269888912000343",
+              "openalex": "W2109038907"
+            },
+            "title": "A survey on metrics for the evaluation of user simulations",
+            "year": 2012,
+            "venue": "The Knowledge Engineering Review",
+            "citations": 137,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2109038907",
+              "doi": "https://doi.org/10.1017/s0269888912000343"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2021.naacl-main.239",
+            "ids": {
+              "doi": "10.18653/v1/2021.naacl-main.239",
+              "openalex": "W3172407229"
+            },
+            "title": "Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems",
+            "year": 2021,
+            "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+            "citations": 130,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3172407229",
+              "doi": "https://doi.org/10.18653/v1/2021.naacl-main.239"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/slt.2018.8639652",
+            "ids": {
+              "doi": "10.1109/slt.2018.8639652",
+              "openalex": "W2899908862"
+            },
+            "title": "User Modeling for Task Oriented Dialogues",
+            "year": 2018,
+            "venue": "IEEE Spoken Language Technology Workshop (SLT)",
+            "citations": 81,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2899908862",
+              "doi": "https://doi.org/10.1109/slt.2018.8639652"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2024.findings-emnlp.638",
+            "ids": {
+              "doi": "10.18653/v1/2024.findings-emnlp.638",
+              "openalex": "W4404792846"
+            },
+            "title": "FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents",
+            "year": 2024,
+            "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+            "citations": 77,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4404792846",
+              "doi": "https://doi.org/10.18653/v1/2024.findings-emnlp.638"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3583780.3615220",
+            "ids": {
+              "doi": "10.1145/3583780.3615220",
+              "openalex": "W4387848958"
+            },
+            "title": "Unlocking the Potential of User Feedback: Leveraging Large Language Model as User Simulators to Enhance Dialogue System",
+            "year": 2023,
+            "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+            "citations": 69,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4387848958",
+              "doi": "https://doi.org/10.1145/3583780.3615220"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.02556",
+            "ids": {
+              "arxiv": "2512.02556",
+              "doi": "10.48550/arxiv.2512.02556",
+              "s2": "1dc2281d4df5bd34f66aeb10e5b4741a27e23a9a"
+            },
+            "title": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 951,
+            "influential_citations": 83,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.02556",
+              "pdf": "https://arxiv.org/pdf/2512.02556",
+              "doi": "https://doi.org/10.48550/arxiv.2512.02556"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.15763",
+            "ids": {
+              "arxiv": "2602.15763",
+              "doi": "10.48550/arxiv.2602.15763",
+              "s2": "e0db747ad65d72559e583ff92f729d68949e9daf"
+            },
+            "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 721,
+            "influential_citations": 57,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.15763",
+              "pdf": "https://arxiv.org/pdf/2602.15763",
+              "doi": "https://doi.org/10.48550/arxiv.2602.15763"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2507.20534",
+            "ids": {
+              "arxiv": "2507.20534",
+              "s2": "0307bd5ec17c146a0cb8f8592f3027196bdb3f44"
+            },
+            "title": "Kimi K2: Open Agentic Intelligence",
+            "year": 2025,
+            "citations": 456,
+            "influential_citations": 50,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.20534",
+              "pdf": "https://arxiv.org/pdf/2507.20534"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.02770",
+            "ids": {
+              "arxiv": "2607.02770",
+              "doi": "10.48550/arxiv.2607.02770",
+              "s2": "bae8d2f66cd289f690db7d3f89e2951e34229d8e"
+            },
+            "title": "Gemma 4 Technical Report",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 430,
+            "influential_citations": 67,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.02770",
+              "pdf": "https://arxiv.org/pdf/2607.02770",
+              "doi": "https://doi.org/10.48550/arxiv.2607.02770"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.15804",
+            "ids": {
+              "arxiv": "2604.15804",
+              "doi": "10.48550/arxiv.2604.15804",
+              "s2": "6073e690859fe39bffe77ee3731524a5f37e8150"
+            },
+            "title": "Qwen3.5-Omni Technical Report",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 231,
+            "influential_citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.15804",
+              "pdf": "https://arxiv.org/pdf/2604.15804",
+              "doi": "https://doi.org/10.48550/arxiv.2604.15804"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.02780",
+            "ids": {
+              "arxiv": "2601.02780",
+              "doi": "10.48550/arxiv.2601.02780",
+              "s2": "38bfb955426702f1bfc9888e52c9cd48b2f8757b"
+            },
+            "title": "MiMo-V2-Flash Technical Report",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 190,
+            "influential_citations": 20,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.02780",
+              "pdf": "https://arxiv.org/pdf/2601.02780",
+              "doi": "https://doi.org/10.48550/arxiv.2601.02780"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.08296",
+            "ids": {
+              "arxiv": "2512.08296",
+              "doi": "10.48550/arxiv.2512.08296",
+              "s2": "628dcc7046ea462b5e770a0f070c5b0988aaeee0"
+            },
+            "title": "Towards a Science of Scaling Agent Systems",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 187,
+            "influential_citations": 19,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.08296",
+              "pdf": "https://arxiv.org/pdf/2512.08296",
+              "doi": "https://doi.org/10.48550/arxiv.2512.08296"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.20848",
+            "ids": {
+              "arxiv": "2512.20848",
+              "doi": "10.48550/arxiv.2512.20848",
+              "s2": "c94545504f2dc1757e972118ca774be38d1674ce"
+            },
+            "title": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 119,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.20848",
+              "pdf": "https://arxiv.org/pdf/2512.20848",
+              "doi": "https://doi.org/10.48550/arxiv.2512.20848"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.19432",
+            "ids": {
+              "arxiv": "2512.19432",
+              "doi": "10.48550/arxiv.2512.19432",
+              "s2": "3ae51d54abf0f722511acfa17e18165a8dfe8bd9"
+            },
+            "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+            "year": 2025,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 94,
+            "influential_citations": 31,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.19432",
+              "pdf": "https://arxiv.org/pdf/2512.19432",
+              "doi": "https://doi.org/10.48550/arxiv.2512.19432"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.04804",
+            "ids": {
+              "arxiv": "2604.04804",
+              "doi": "10.48550/arxiv.2604.04804",
+              "s2": "24566e0b5989b1b32951ff9a10b6d6b0162683f5"
+            },
+            "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 93,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.04804",
+              "pdf": "https://arxiv.org/pdf/2604.04804",
+              "doi": "https://doi.org/10.48550/arxiv.2604.04804"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2308.03688",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.18653/v1/d18-1547",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.52202/068431-1508",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2310.06770",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2406.12045",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2307.13854",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2309.15817",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.18653/v1/2025.acl-long.421",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.18653/v1/d18-1256",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2310.03128",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.1162/tacl_a_00333",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.52202/085713-2184",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "arxiv:2408.04682",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.1017/s0269888912000343",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.18653/v1/2021.naacl-main.239",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.1109/slt.2018.8639652",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.18653/v1/2024.findings-emnlp.638",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.07982",
+          "target": "doi:10.1145/3583780.3615220",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.02556",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.15763",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.20534",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.02770",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.15804",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02780",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.08296",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.20848",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.19432",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.04804",
+          "target": "arxiv:2506.07982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.15763",
+          "target": "arxiv:2512.02556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.02770",
+          "target": "arxiv:2602.15763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.02770",
+          "target": "arxiv:2604.15804",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.02770",
+          "target": "arxiv:2601.02780",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02780",
+          "target": "arxiv:2507.20534",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.02780",
+          "target": "arxiv:2512.02556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.04804",
+          "target": "arxiv:2512.02556",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 792,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2507.04590",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2507.04590",
+            "ids": {
+              "arxiv": "2507.04590",
+              "s2": "2cd7ae727a4a76bed6b531d764bd609aa778fae1",
+              "openalex": "W4415163284"
+            },
+            "title": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents",
+            "year": 2026,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 151,
+            "influential_citations": 36,
+            "is_review": false,
+            "tldr": "This study proposes VLM2Vec-V2, a general-purpose embedding model that supports text, image, video, and visual document inputs and trains VLM2Vec-V2, a general-purpose embedding model that supports text, image, video, and visual document inputs.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2507.04590",
+              "pdf": "https://arxiv.org/pdf/2507.04590"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2409.12191",
+            "ids": {
+              "arxiv": "2409.12191",
+              "doi": "10.48550/arxiv.2409.12191",
+              "s2": "a22b23b65cdbc0335b872ed7c7a7206c710f8997"
+            },
+            "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 5521,
+            "influential_citations": 712,
+            "is_review": false,
+            "tldr": "The Qwen2-VL Series introduces the Naive Dynamic Resolution mechanism, which enables the model to dynamically process images of varying resolutions into different numbers of visual tokens, allowing the model to generate more efficient and accurate visual representations, closely aligning with human perceptual processes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2409.12191",
+              "pdf": "https://arxiv.org/pdf/2409.12191",
+              "doi": "https://doi.org/10.48550/arxiv.2409.12191"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1505.04870",
+            "ids": {
+              "arxiv": "1505.04870",
+              "doi": "10.1007/s11263-016-0965-7",
+              "s2": "11c9c31dff70de92ada9160c78ff8bb46b2912d6"
+            },
+            "title": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+            "year": 2015,
+            "venue": "International Journal of Computer Vision",
+            "citations": 2849,
+            "influential_citations": 414,
+            "is_review": false,
+            "tldr": "This paper presents Flickr30K Entities, which augments the 158k captions from Flickr30k with 244k coreference chains, linking mentions of the same entities across different captions for the same image, and associating them with 276k manually annotated bounding boxes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1505.04870",
+              "pdf": "https://arxiv.org/pdf/1505.04870",
+              "doi": "https://doi.org/10.1007/s11263-016-0965-7"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2311.17005",
+            "ids": {
+              "arxiv": "2311.17005",
+              "doi": "10.1109/cvpr52733.2024.02095",
+              "s2": "ea3448eb86a233189631d914721e587d45931b64"
+            },
+            "title": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1534,
+            "influential_citations": 238,
+            "is_review": false,
+            "tldr": "A comprehensive Multi-modal Video understanding Benchmark, namely MVBench, which covers 20 chal-lenging video tasks that cannot be effectively solved with a single frame, and develops a robust video MLLM baseline, i.e., VideoChat2, by progressive multi-modal training with di-verse instruction-tuning data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2311.17005",
+              "pdf": "https://arxiv.org/pdf/2311.17005",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02095"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:18316673291b537b74eee1b369009379688da73a",
+            "ids": {
+              "s2": "18316673291b537b74eee1b369009379688da73a"
+            },
+            "title": "Detecting Moments and Highlights in Videos via Natural Language Queries",
+            "year": 2021,
+            "venue": "Neural Information Processing Systems",
+            "citations": 466,
+            "influential_citations": 165,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/18316673291b537b74eee1b369009379688da73a"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.05160",
+            "ids": {
+              "arxiv": "2410.05160",
+              "doi": "10.48550/arxiv.2410.05160",
+              "s2": "0812f6b841a99b6ffb4fb114c04a090de956de6e"
+            },
+            "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 300,
+            "influential_citations": 96,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.05160",
+              "pdf": "https://arxiv.org/pdf/2410.05160",
+              "doi": "https://doi.org/10.48550/arxiv.2410.05160"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/cvpr.2009.5206848",
+            "ids": {
+              "doi": "10.1109/cvpr.2009.5206848",
+              "s2": "d2c733e34d48784a37d717fe43d9e93277a8c53e"
+            },
+            "title": "ImageNet: A large-scale hierarchical image database",
+            "year": 2009,
+            "venue": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+            "citations": 79009,
+            "influential_citations": 10904,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e",
+              "doi": "https://doi.org/10.1109/cvpr.2009.5206848"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.01449",
+            "ids": {
+              "arxiv": "2407.01449",
+              "doi": "10.48550/arxiv.2407.01449",
+              "s2": "c948e2d00ac2628ed4098a009c67c81ea4cc00a2"
+            },
+            "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 283,
+            "influential_citations": 71,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.01449",
+              "pdf": "https://arxiv.org/pdf/2407.01449",
+              "doi": "https://doi.org/10.48550/arxiv.2407.01449"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2103.00020",
+            "ids": {
+              "arxiv": "2103.00020",
+              "doi": "10.48550/arxiv.2103.00020",
+              "s2": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+            },
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "year": 2021,
+            "venue": "International Conference on Machine Learning",
+            "citations": 60795,
+            "influential_citations": 11041,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2103.00020",
+              "pdf": "https://arxiv.org/pdf/2103.00020",
+              "doi": "https://doi.org/10.48550/arxiv.2103.00020"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1405.0312",
+            "ids": {
+              "arxiv": "1405.0312",
+              "doi": "10.48550/arxiv.1405.0312",
+              "s2": "71b7178df5d2b112d07e45038cb5637208659ff7"
+            },
+            "title": "Microsoft COCO: Common Objects in Context",
+            "year": 2014,
+            "venue": "European Conference on Computer Vision",
+            "citations": 57912,
+            "influential_citations": 8104,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1405.0312",
+              "pdf": "https://arxiv.org/pdf/1405.0312",
+              "doi": "https://doi.org/10.48550/arxiv.1405.0312"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2412.16855",
+            "ids": {
+              "arxiv": "2412.16855",
+              "doi": "10.48550/arxiv.2412.16855",
+              "s2": "49e65c03a4f24deaf195b3765e83833412e91edb"
+            },
+            "title": "GME: Improving Universal Multimodal Retrieval by Multimodal LLMs",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 218,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.16855",
+              "pdf": "https://arxiv.org/pdf/2412.16855",
+              "doi": "https://doi.org/10.48550/arxiv.2412.16855"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.2403.15377",
+            "ids": {
+              "doi": "10.48550/arxiv.2403.15377",
+              "s2": "f329ae90bb7e6655b8ca3a19c4d06dbed7792d6f"
+            },
+            "title": "InternVideo2: Scaling Video Foundation Models for Multimodal Video Understanding",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 242,
+            "influential_citations": 34,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f329ae90bb7e6655b8ca3a19c4d06dbed7792d6f",
+              "doi": "https://doi.org/10.48550/arxiv.2403.15377"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2107.09609",
+            "ids": {
+              "arxiv": "2107.09609",
+              "doi": "10.48550/arxiv.2107.09609",
+              "s2": "f9faec7204aeaa9601dea6168bbe18d1f3d3bd1a"
+            },
+            "title": "QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries",
+            "year": 2021,
+            "venue": "arXiv.org",
+            "citations": 134,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2107.09609",
+              "pdf": "https://arxiv.org/pdf/2107.09609",
+              "doi": "https://doi.org/10.48550/arxiv.2107.09609"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1807.03748",
+            "ids": {
+              "arxiv": "1807.03748",
+              "doi": "10.48550/arxiv.1807.03748",
+              "s2": "b227f3e4c0dc96e5ac5426b85485a70f2175a205"
+            },
+            "title": "Representation Learning with Contrastive Predictive Coding",
+            "year": 2018,
+            "venue": "arXiv.org",
+            "citations": 15455,
+            "influential_citations": 1644,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1807.03748",
+              "pdf": "https://arxiv.org/pdf/1807.03748",
+              "doi": "https://doi.org/10.48550/arxiv.1807.03748"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2304.08485",
+            "ids": {
+              "arxiv": "2304.08485",
+              "doi": "10.48550/arxiv.2304.08485",
+              "s2": "a5036f31f0e629dc661f120b8c3b1f374d479ab8"
+            },
+            "title": "Visual Instruction Tuning",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 12153,
+            "influential_citations": 1767,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2304.08485",
+              "pdf": "https://arxiv.org/pdf/2304.08485",
+              "doi": "https://doi.org/10.48550/arxiv.2304.08485"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1212.0402",
+            "ids": {
+              "arxiv": "1212.0402",
+              "doi": "10.48550/arxiv.1212.0402",
+              "s2": "da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+            },
+            "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+            "year": 2012,
+            "venue": "arXiv.org",
+            "citations": 7914,
+            "influential_citations": 1401,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1212.0402",
+              "pdf": "https://arxiv.org/pdf/1212.0402",
+              "doi": "https://doi.org/10.48550/arxiv.1212.0402"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2201.12086",
+            "ids": {
+              "arxiv": "2201.12086",
+              "doi": "10.48550/arxiv.2201.12086",
+              "s2": "a3b42a83669998f65df60d7c065a70d07ca95e99"
+            },
+            "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+            "year": 2022,
+            "venue": "International Conference on Machine Learning",
+            "citations": 7734,
+            "influential_citations": 775,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2201.12086",
+              "pdf": "https://arxiv.org/pdf/2201.12086",
+              "doi": "https://doi.org/10.48550/arxiv.2201.12086"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/iccv.2011.6126543",
+            "ids": {
+              "doi": "10.1109/iccv.2011.6126543",
+              "s2": "8b3b8848a311c501e704c45c6d50430ab7068956"
+            },
+            "title": "HMDB: A large video database for human motion recognition",
+            "year": 2011,
+            "venue": "Vision",
+            "citations": 4593,
+            "influential_citations": 949,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8b3b8848a311c501e704c45c6d50430ab7068956",
+              "doi": "https://doi.org/10.1109/iccv.2011.6126543"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/p18-1238",
+            "ids": {
+              "doi": "10.18653/v1/p18-1238",
+              "s2": "b4df354db88a70183a64dbc9e56cf14e7669a6c0"
+            },
+            "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+            "year": 2018,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 3190,
+            "influential_citations": 455,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b4df354db88a70183a64dbc9e56cf14e7669a6c0",
+              "doi": "https://doi.org/10.18653/v1/p18-1238"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.04720",
+            "ids": {
+              "arxiv": "2601.04720",
+              "doi": "10.48550/arxiv.2601.04720",
+              "s2": "d7ff3693d6d8f5e695334e7a19ac0591242e3a0c"
+            },
+            "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 342,
+            "influential_citations": 66,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.04720",
+              "pdf": "https://arxiv.org/pdf/2601.04720",
+              "doi": "https://doi.org/10.48550/arxiv.2601.04720"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.02425",
+            "ids": {
+              "arxiv": "2512.02425",
+              "doi": "10.48550/arxiv.2512.02425",
+              "s2": "261926854c8f4b5d1535b6d9dd46144068961e41"
+            },
+            "title": "WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 67,
+            "influential_citations": 15,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.02425",
+              "pdf": "https://arxiv.org/pdf/2512.02425",
+              "doi": "https://doi.org/10.48550/arxiv.2512.02425"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.05014",
+            "ids": {
+              "arxiv": "2510.05014",
+              "doi": "10.48550/arxiv.2510.05014",
+              "s2": "631a5f197ede1b229cdb6883719ae2016cc56873"
+            },
+            "title": "Think Then Embed: Generative Context Improves Multimodal Embedding",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 50,
+            "influential_citations": 9,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.05014",
+              "pdf": "https://arxiv.org/pdf/2510.05014",
+              "doi": "https://doi.org/10.48550/arxiv.2510.05014"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.18095",
+            "ids": {
+              "arxiv": "2509.18095",
+              "doi": "10.48550/arxiv.2509.18095",
+              "s2": "b44bed44cb88e23a5a070d520f6d87a397f32b6d"
+            },
+            "title": "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 49,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.18095",
+              "pdf": "https://arxiv.org/pdf/2509.18095",
+              "doi": "https://doi.org/10.48550/arxiv.2509.18095"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2511.00405",
+            "ids": {
+              "arxiv": "2511.00405",
+              "doi": "10.48550/arxiv.2511.00405",
+              "s2": "a71465a257a96eec8547215918d466e6208f6b94"
+            },
+            "title": "UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 44,
+            "influential_citations": 17,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.00405",
+              "pdf": "https://arxiv.org/pdf/2511.00405",
+              "doi": "https://doi.org/10.48550/arxiv.2511.00405"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.27350",
+            "ids": {
+              "arxiv": "2510.27350",
+              "doi": "10.48550/arxiv.2510.27350",
+              "s2": "19547b20e800026fb73b3c52abecec5cc980b590"
+            },
+            "title": "RzenEmbed: Towards Comprehensive Multimodal Retrieval",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 33,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.27350",
+              "pdf": "https://arxiv.org/pdf/2510.27350",
+              "doi": "https://doi.org/10.48550/arxiv.2510.27350"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.19650",
+            "ids": {
+              "arxiv": "2505.19650",
+              "doi": "10.1145/3767308.3836506",
+              "s2": "78811a537eba9414e8aa84a701fae4a027a258d1"
+            },
+            "title": "Modality Curation: Building Universal Embeddings for Advanced Multimodal Information Retrieval",
+            "year": 2025,
+            "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+            "citations": 31,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.19650",
+              "pdf": "https://arxiv.org/pdf/2505.19650",
+              "doi": "https://doi.org/10.1145/3767308.3836506"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.13823",
+            "ids": {
+              "arxiv": "2602.13823",
+              "doi": "10.48550/arxiv.2602.13823",
+              "s2": "e3a6370ffeb2eabc5490e97e9d333a3f757d9764"
+            },
+            "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+            "year": 2026,
+            "venue": "European Conference on Computer Vision",
+            "citations": 28,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.13823",
+              "pdf": "https://arxiv.org/pdf/2602.13823",
+              "doi": "https://doi.org/10.48550/arxiv.2602.13823"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2509.23883",
+            "ids": {
+              "arxiv": "2509.23883",
+              "doi": "10.48550/arxiv.2509.23883",
+              "s2": "a1d011bb65c787aaf2886e1196e12613ee2a36e4"
+            },
+            "title": "DocPruner: A Storage-Efficient Framework for Multi-Vector Visual Document Retrieval via Adaptive Patch-Level Embedding Pruning",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 28,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2509.23883",
+              "pdf": "https://arxiv.org/pdf/2509.23883",
+              "doi": "https://doi.org/10.48550/arxiv.2509.23883"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.20734",
+            "ids": {
+              "arxiv": "2504.20734",
+              "doi": "10.18653/v1/2026.acl-long.177",
+              "s2": "94cf17cdb8df7016ebe7decb91257a2d0b14d1e8"
+            },
+            "title": "UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities",
+            "year": 2025,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 28,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.20734",
+              "pdf": "https://arxiv.org/pdf/2504.20734",
+              "doi": "https://doi.org/10.18653/v1/2026.acl-long.177"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2311.17005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "s2:18316673291b537b74eee1b369009379688da73a",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2412.16855",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "doi:10.48550/arxiv.2403.15377",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2107.09609",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:1212.0402",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "doi:10.1109/iccv.2011.6126543",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "doi:10.18653/v1/p18-1238",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.02425",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.05014",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.23883",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.20734",
+          "target": "arxiv:2507.04590",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2510.05014",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2507.04590",
+          "target": "arxiv:2509.18095",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1505.04870",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1505.04870",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17005",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17005",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17005",
+          "target": "doi:10.18653/v1/p18-1238",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17005",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17005",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2410.05160",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.01449",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.01449",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.01449",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.01449",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.01449",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:1212.0402",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "doi:10.18653/v1/p18-1238",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2103.00020",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1405.0312",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.16855",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2107.09609",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.08485",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2304.08485",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1212.0402",
+          "target": "doi:10.1109/iccv.2011.6126543",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2201.12086",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2201.12086",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2201.12086",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2201.12086",
+          "target": "doi:10.18653/v1/p18-1238",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/iccv.2011.6126543",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.18653/v1/p18-1238",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.18653/v1/p18-1238",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2510.27350",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:1212.0402",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04720",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.02425",
+          "target": "arxiv:2504.20734",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.02425",
+          "target": "arxiv:2601.04720",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.05014",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.05014",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.05014",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.05014",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2505.19650",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.18095",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2511.00405",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2505.19650",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.27350",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "doi:10.1109/cvpr.2009.5206848",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2201.12086",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:2412.16855",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:1405.0312",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.19650",
+          "target": "arxiv:1505.04870",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2505.19650",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2409.12191",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:1807.03748",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2510.05014",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2412.16855",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.13823",
+          "target": "arxiv:2511.00405",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.23883",
+          "target": "arxiv:2410.05160",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.23883",
+          "target": "arxiv:2407.01449",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2509.23883",
+          "target": "arxiv:2412.16855",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.20734",
+          "target": "arxiv:2103.00020",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.20734",
+          "target": "arxiv:2311.17005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.20734",
+          "target": "arxiv:2304.08485",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2504.20734",
+          "target": "arxiv:2601.04720",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 151,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2609.11093",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2609.11093",
+            "ids": {
+              "arxiv": "2609.11093",
+              "s2": "5e3399bda1b5923619f27e886db7853a59a58db0",
+              "openalex": "W7212406395"
+            },
+            "title": "Recursive-Line Zarankiewicz Numbers with Four Columns",
+            "year": 2026,
+            "citations": 9,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.11093",
+              "pdf": "https://arxiv.org/pdf/2609.11093"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1306.5167",
+            "ids": {
+              "arxiv": "1306.5167",
+              "doi": "10.1007/978-3-642-39286-3_7",
+              "s2": "448dc7527c4031086bcdf3d117e73bc163b64c5e"
+            },
+            "title": "The History of Degenerate (Bipartite) Extremal Graph Problems",
+            "year": 2013,
+            "citations": 472,
+            "influential_citations": 50,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1306.5167",
+              "pdf": "https://arxiv.org/pdf/1306.5167",
+              "doi": "https://doi.org/10.1007/978-3-642-39286-3_7"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4064/cm-3-1-50-57",
+            "ids": {
+              "doi": "10.4064/cm-3-1-50-57",
+              "s2": "93f54762bbcf7a729d4da21b6196cd723c7380fd"
+            },
+            "title": "On a problem of K. Zarankiewicz",
+            "year": 1954,
+            "citations": 926,
+            "influential_citations": 69,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/93f54762bbcf7a729d4da21b6196cd723c7380fd",
+              "doi": "https://doi.org/10.4064/cm-3-1-50-57"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/pspum/058.2/1327293",
+            "ids": {
+              "doi": "10.1090/pspum/058.2/1327293",
+              "s2": "42c4b89250e9ead6706aff5b556a489a4711a19f"
+            },
+            "title": "Sums of squares of real polynomials",
+            "year": 1995,
+            "citations": 451,
+            "influential_citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/42c4b89250e9ead6706aff5b556a489a4711a19f",
+              "doi": "https://doi.org/10.1090/pspum/058.2/1327293"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2608.30555",
+            "ids": {
+              "arxiv": "2608.30555",
+              "s2": "bb5b1cc72df04ba9143d850e22d182f725c91647"
+            },
+            "title": "Second Order Zarankiewicz Number",
+            "year": 2026,
+            "citations": 9,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2608.30555",
+              "pdf": "https://arxiv.org/pdf/2608.30555"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/0024-3795(75)90058-0",
+            "ids": {
+              "doi": "10.1016/0024-3795(75)90058-0",
+              "s2": "37ca9275507f1c73f8abf7d2a0bffb63db0f5a59"
+            },
+            "title": "Positive semidefinite biquadratic forms",
+            "year": 1975,
+            "citations": 291,
+            "influential_citations": 28,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/37ca9275507f1c73f8abf7d2a0bffb63db0f5a59",
+              "doi": "https://doi.org/10.1016/0024-3795(75)90058-0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/0097-3165(75)90007-2",
+            "ids": {
+              "doi": "10.1016/0097-3165(75)90007-2",
+              "s2": "0c7e03aafbde688c60a370e3a1550e0c39ef51a0"
+            },
+            "title": "A Problem of Zarankiewicz",
+            "year": 1975,
+            "venue": "Journal of Combinatorial Theory",
+            "citations": 175,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0c7e03aafbde688c60a370e3a1550e0c39ef51a0",
+              "doi": "https://doi.org/10.1016/0097-3165(75)90007-2"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf02020254",
+            "ids": {
+              "doi": "10.1007/bf02020254",
+              "s2": "d700168f01e84a793bcf4024a519a4fd96409384"
+            },
+            "title": "Über ein Problem von K. Zarankiewicz",
+            "year": 1958,
+            "citations": 197,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d700168f01e84a793bcf4024a519a4fd96409384",
+              "doi": "https://doi.org/10.1007/bf02020254"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0963548300001814",
+            "ids": {
+              "doi": "10.1017/s0963548300001814",
+              "s2": "45914a33cb7166678ecfd8e00825b4bd1782d804"
+            },
+            "title": "An Upper Bound on Zarankiewicz' Problem",
+            "year": 1996,
+            "venue": "Combinatorics, probability & computing",
+            "citations": 140,
+            "influential_citations": 17,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/45914a33cb7166678ecfd8e00825b4bd1782d804",
+              "doi": "https://doi.org/10.1017/s0963548300001814"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.4064/ap-3-1-165-168",
+            "ids": {
+              "doi": "10.4064/ap-3-1-165-168",
+              "s2": "3a078efb53b69d8c9e9d78974362f12a348b8a4f"
+            },
+            "title": "Teilweise Lösung eines verallgemeinerten Problems von K. Zarankiewicz",
+            "year": 1956,
+            "citations": 32,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3a078efb53b69d8c9e9d78974362f12a348b8a4f",
+              "doi": "https://doi.org/10.4064/ap-3-1-165-168"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2203.02283",
+            "ids": {
+              "arxiv": "2203.02283",
+              "doi": "10.48550/arxiv.2203.02283",
+              "s2": "680f99d962ecc6ad30faa4c958926a0ad46b661c"
+            },
+            "title": "An attack on Zarankiewicz's problem through SAT solving",
+            "year": 2022,
+            "venue": "arXiv.org",
+            "citations": 10,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2203.02283",
+              "pdf": "https://arxiv.org/pdf/2203.02283",
+              "doi": "https://doi.org/10.48550/arxiv.2203.02283"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.12685",
+            "ids": {
+              "arxiv": "2310.12685",
+              "doi": "10.1002/jcd.21948",
+              "s2": "7da60beac8842994ea83eff8a752915a1322e8f7"
+            },
+            "title": "Zarankiewicz numbers near the triple system threshold",
+            "year": 2023,
+            "venue": "Journal of combinatorial designs (Print)",
+            "citations": 17,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.12685",
+              "pdf": "https://arxiv.org/pdf/2310.12685",
+              "doi": "https://doi.org/10.1002/jcd.21948"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.04912",
+            "ids": {
+              "arxiv": "2603.04912",
+              "doi": "10.3390/math14091552",
+              "s2": "930c1880972d633c83aaa1d1145db7d7ed07ac4a"
+            },
+            "title": "Biquadratic SOS Rank and Augmented Zarankiewicz Number",
+            "year": 2026,
+            "venue": "Mathematics",
+            "citations": 16,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.04912",
+              "pdf": "https://arxiv.org/pdf/2603.04912",
+              "doi": "https://doi.org/10.3390/math14091552"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.01120",
+            "ids": {
+              "arxiv": "2605.01120",
+              "doi": "10.48550/arxiv.2605.01120",
+              "s2": "563ee363361b22ea2a69ef7d94f8e2ee7f96219a"
+            },
+            "title": "New Bounds for Zarankiewicz Numbers via Reinforced LLM Evolutionary Search",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 9,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.01120",
+              "pdf": "https://arxiv.org/pdf/2605.01120",
+              "doi": "https://doi.org/10.48550/arxiv.2605.01120"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2411.18842",
+            "ids": {
+              "arxiv": "2411.18842",
+              "doi": "10.1016/j.disc.2025.114924",
+              "s2": "331aff3306e95ef4fa6d586ff36abbe7d170a2c3"
+            },
+            "title": "Improved upper bounds on Zarankiewicz numbers",
+            "year": 2024,
+            "venue": "Discrete Mathematics",
+            "citations": 8,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2411.18842",
+              "pdf": "https://arxiv.org/pdf/2411.18842",
+              "doi": "https://doi.org/10.1016/j.disc.2025.114924"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.04965",
+            "ids": {
+              "arxiv": "2601.04965",
+              "doi": "10.3390/math14040635",
+              "s2": "83c051192c3afb5eed516d7d2509efd771b82cb2"
+            },
+            "title": "Sum of Squares Decompositions and Rank Bounds for Biquadratic Forms",
+            "year": 2026,
+            "venue": "Mathematics",
+            "citations": 10,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.04965",
+              "pdf": "https://arxiv.org/pdf/2601.04965",
+              "doi": "https://doi.org/10.3390/math14040635"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.07071",
+            "ids": {
+              "arxiv": "2607.07071",
+              "doi": "10.3390/math14173052",
+              "s2": "31e65415606575c9473fd1ac54ee0af7b3c435fe"
+            },
+            "title": "A Weak Condition for Limited Augmented Zarankiewicz Numbers",
+            "year": 2026,
+            "venue": "Mathematics",
+            "citations": 8,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.07071",
+              "pdf": "https://arxiv.org/pdf/2607.07071",
+              "doi": "https://doi.org/10.3390/math14173052"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.07844",
+            "ids": {
+              "arxiv": "2602.07844",
+              "s2": "77118e8424407def475a64d8cf24b2edeea80c2d"
+            },
+            "title": "Sum of Squares Rank of Biquadratic Forms and The Zarankiewicz Number",
+            "year": 2026,
+            "citations": 7,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.07844",
+              "pdf": "https://arxiv.org/pdf/2602.07844"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.29658",
+            "ids": {
+              "arxiv": "2605.29658",
+              "s2": "ad4c9471062633e82159b6b773a37d2befc1a6af"
+            },
+            "title": "Optimization Models and Computational Bounds for Limited Augmented Zarankiewicz Numbers in the Incidence-Graph Family of Complete Graphs",
+            "year": 2026,
+            "citations": 4,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.29658",
+              "pdf": "https://arxiv.org/pdf/2605.29658"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.18429",
+            "ids": {
+              "arxiv": "2609.18429",
+              "s2": "ccaf35f423a5bfb446393af0f45ecd43f7e0923c"
+            },
+            "title": "Exact Values, Extremal Classifications, and Sum-of-Squares Reductions for Second-Order Zarankiewicz Numbers",
+            "year": 2026,
+            "citations": 5,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.18429",
+              "pdf": "https://arxiv.org/pdf/2609.18429"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.20071",
+            "ids": {
+              "arxiv": "2609.20071",
+              "s2": "d239691c22579d8b123989e0294fb91347dc183c"
+            },
+            "title": "Is the Signed Zarankiewicz Number the Same as the Recursive-line Zarankiewicz Number?",
+            "year": 2026,
+            "citations": 4,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.20071",
+              "pdf": "https://arxiv.org/pdf/2609.20071"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.25974",
+            "ids": {
+              "arxiv": "2609.25974",
+              "s2": "4861fa5af2f9ef70dd772d8836ed5a22dd607f80"
+            },
+            "title": "Exact Second-Order Zarankiewicz Numbers for Complete-Graph Incidence Families",
+            "year": 2026,
+            "citations": 3,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.25974",
+              "pdf": "https://arxiv.org/pdf/2609.25974"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.05442",
+            "ids": {
+              "arxiv": "2610.05442",
+              "s2": "7ab86d6711fdc8753a6645a949d934c18da3135d"
+            },
+            "title": "Asymptotic equivalence and exact values for second-order Zarankiewicz numbers",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.05442",
+              "pdf": "https://arxiv.org/pdf/2610.05442"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.13858",
+            "ids": {
+              "arxiv": "2611.13858",
+              "s2": "e302c7e892714ff27c2fd4fe025a2dcdc9aad097"
+            },
+            "title": "A Second Order Extended Zarankiewicz Number for Biquadratic SOS Rank",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.13858",
+              "pdf": "https://arxiv.org/pdf/2611.13858"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.04448",
+            "ids": {
+              "arxiv": "2610.04448",
+              "s2": "dd5d0d90a2dfbef8e4647be7503c41b50e4d8304"
+            },
+            "title": "The Second-Order Augmented Zarankiewicz Number",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.04448",
+              "pdf": "https://arxiv.org/pdf/2610.04448"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.19437",
+            "ids": {
+              "arxiv": "2611.19437",
+              "s2": "b83eaec35e49d743a7464f2ba1ee2af9be35f1b6"
+            },
+            "title": "On $z_{2M}(21,4)$: the Hole Extensions of the Chen--Chen Configuration Are Reducible, and the Extremal Configurations of $z_2(21,4)$ Are Not Unique",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.19437",
+              "pdf": "https://arxiv.org/pdf/2611.19437"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.22875",
+            "ids": {
+              "arxiv": "2610.22875",
+              "s2": "fd8493604da0585c503f14ff35b0ebdd68714dc1"
+            },
+            "title": "Overtake and the recursive-line equality for second-order Zarankiewicz numbers",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.22875",
+              "pdf": "https://arxiv.org/pdf/2610.22875"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:1306.5167",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.1016/0024-3795(75)90058-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.1017/s0963548300001814",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2203.02283",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2605.01120",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2411.18842",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2601.04965",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2602.07844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.11093",
+          "target": "arxiv:2605.29658",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05442",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.13858",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.19437",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1306.5167",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1306.5167",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1306.5167",
+          "target": "doi:10.1017/s0963548300001814",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1306.5167",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1306.5167",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.30555",
+          "target": "arxiv:2609.11093",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.02283",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.02283",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2203.02283",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2310.12685",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2310.12685",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2310.12685",
+          "target": "arxiv:2203.02283",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2310.12685",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.04912",
+          "target": "arxiv:2601.04965",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.04912",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.04912",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.04912",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.04912",
+          "target": "arxiv:2602.07844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.01120",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.01120",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.01120",
+          "target": "arxiv:2203.02283",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.01120",
+          "target": "arxiv:2411.18842",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.18842",
+          "target": "doi:10.1017/s0963548300001814",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.18842",
+          "target": "doi:10.1016/0097-3165(75)90007-2",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.18842",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.18842",
+          "target": "arxiv:2203.02283",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2411.18842",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.04965",
+          "target": "doi:10.1016/0024-3795(75)90058-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "arxiv:2601.04965",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.07071",
+          "target": "arxiv:2602.07844",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.07844",
+          "target": "doi:10.1016/0024-3795(75)90058-0",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.07844",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.29658",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.29658",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.29658",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.29658",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.29658",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "arxiv:2601.04965",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.18429",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "arxiv:2609.18429",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.20071",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2609.20071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2609.18429",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.25974",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05442",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05442",
+          "target": "arxiv:2609.25974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05442",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.05442",
+          "target": "arxiv:2609.20071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.13858",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.13858",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2609.25974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "doi:10.1090/pspum/058.2/1327293",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2609.18429",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2607.07071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.04448",
+          "target": "arxiv:2609.20071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.19437",
+          "target": "arxiv:2611.13858",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.19437",
+          "target": "arxiv:2609.18429",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.19437",
+          "target": "arxiv:2610.05442",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.19437",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2608.30555",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2610.04448",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "doi:10.1007/bf02020254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "doi:10.4064/cm-3-1-50-57",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2310.12685",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2609.25974",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2605.29658",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2603.04912",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "doi:10.4064/ap-3-1-165-168",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2609.20071",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2609.18429",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.22875",
+          "target": "arxiv:2610.05442",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 9,
+      "errors": []
+    }
+  ]
+}

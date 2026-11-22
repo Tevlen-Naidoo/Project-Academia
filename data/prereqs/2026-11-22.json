@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T11:28:47.386250Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2506.07982",
+      "pick_title": "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+      "source": "openalex",
+      "references_seen": 20,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2308.03688",
+            "ids": {
+              "arxiv": "2308.03688",
+              "doi": "10.48550/arxiv.2308.03688",
+              "openalex": "W4385682136"
+            },
+            "title": "AgentBench: Evaluating LLMs as Agents",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2479,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2308.03688",
+              "pdf": "https://arxiv.org/pdf/2308.03688",
+              "doi": "https://doi.org/10.48550/arxiv.2308.03688"
+            }
+          },
+          "label": "background",
+          "score": 2.716,
+          "reasons": [
+            "2.5k citations"
+          ],
+          "supports": [
+            "arxiv:2506.07982"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/d18-1547",
+            "ids": {
+              "doi": "10.18653/v1/d18-1547",
+              "openalex": "W2891732163"
+            },
+            "title": "MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling",
+            "year": 2018,
+            "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "citations": 1843,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2891732163",
+              "doi": "https://doi.org/10.18653/v1/d18-1547"
+            }
+          },
+          "label": "background",
+          "score": 2.613,
+          "reasons": [
+            "1.8k citations"
+          ],
+          "supports": [
+            "arxiv:2506.07982"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.52202/068431-1508",
+            "ids": {
+              "doi": "10.52202/068431-1508",
+              "openalex": "W7133227044"
+            },
+            "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+            "year": 2022,
+            "venue": "neural information processing systems",
+            "citations": 1791,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W7133227044",
+              "doi": "https://doi.org/10.52202/068431-1508"
+            }
+          },
+          "label": "background",
+          "score": 2.603,
+          "reasons": [
+            "1.8k citations"
+          ],
+          "supports": [
+            "arxiv:2506.07982"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 91c12fc38719eae97e812c6d59a37de5de288c75: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/91c12fc38719eae97e812c6d59a37de5de288c75/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2507.04590",
+      "pick_title": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents",
+      "source": "s2",
+      "references_seen": 59,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2409.12191",
+            "ids": {
+              "arxiv": "2409.12191",
+              "doi": "10.48550/arxiv.2409.12191",
+              "s2": "a22b23b65cdbc0335b872ed7c7a7206c710f8997"
+            },
+            "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 5521,
+            "influential_citations": 712,
+            "is_review": false,
+            "tldr": "The Qwen2-VL Series introduces the Naive Dynamic Resolution mechanism, which enables the model to dynamically process images of varying resolutions into different numbers of visual tokens, allowing the model to generate more efficient and accurate visual representations, closely aligning with human perceptual processes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2409.12191",
+              "pdf": "https://arxiv.org/pdf/2409.12191",
+              "doi": "https://doi.org/10.48550/arxiv.2409.12191"
+            }
+          },
+          "label": "background",
+          "score": 7.42,
+          "reasons": [
+            "Influential reference for this paper",
+            "5.5k citations"
+          ],
+          "quote": "For example, Qwen2-VL uses < | image pad | > for image inputs and < | video pad | > for video inputs.",
+          "supports": [
+            "arxiv:2507.04590"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1505.04870",
+            "ids": {
+              "arxiv": "1505.04870",
+              "doi": "10.1007/s11263-016-0965-7",
+              "s2": "11c9c31dff70de92ada9160c78ff8bb46b2912d6"
+            },
+            "title": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+            "year": 2015,
+            "venue": "International Journal of Computer Vision",
+            "citations": 2849,
+            "influential_citations": 414,
+            "is_review": false,
+            "tldr": "This paper presents Flickr30K Entities, which augments the 158k captions from Flickr30k with 244k coreference chains, linking mentions of the same entities across different captions for the same image, and associating them with 276k manually annotated bounding boxes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1505.04870",
+              "pdf": "https://arxiv.org/pdf/1505.04870",
+              "doi": "https://doi.org/10.1007/s11263-016-0965-7"
+            }
+          },
+          "label": "background",
+          "score": 7.073,
+          "reasons": [
+            "Influential reference for this paper",
+            "2.8k citations"
+          ],
+          "quote": "Flickr30K (Plummer et al., 2015), and Conceptual Captions (Sharma et al., 2018) enabled progress in tasks like image captioning and retrieval.",
+          "supports": [
+            "arxiv:2507.04590"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2311.17005",
+            "ids": {
+              "arxiv": "2311.17005",
+              "doi": "10.1109/cvpr52733.2024.02095",
+              "s2": "ea3448eb86a233189631d914721e587d45931b64"
+            },
+            "title": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 1534,
+            "influential_citations": 238,
+            "is_review": false,
+            "tldr": "A comprehensive Multi-modal Video understanding Benchmark, namely MVBench, which covers 20 chal-lenging video tasks that cannot be effectively solved with a single frame, and develops a robust video MLLM baseline, i.e., VideoChat2, by progressive multi-modal training with di-verse instruction-tuning data.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2311.17005",
+              "pdf": "https://arxiv.org/pdf/2311.17005",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02095"
+            }
+          },
+          "label": "background",
+          "score": 6.738,
+          "reasons": [
+            "Influential reference for this paper",
+            "1.5k citations"
+          ],
+          "quote": "In contrast, the QVHighlights paper and some other Vision-Language Models like InternVideo2 (Wang et al., 2024c) evaluate models using Recall@0.5 and Recall@0.7 with Intersection over Union (IoU) as a threshold, a metric that is not well-suited for embedding-based approaches.",
+          "supports": [
+            "arxiv:2507.04590"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2609.11093",
+      "pick_title": "Recursive-Line Zarankiewicz Numbers with Four Columns",
+      "source": "s2",
+      "references_seen": 23,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:1306.5167",
+            "ids": {
+              "arxiv": "1306.5167",
+              "doi": "10.1007/978-3-642-39286-3_7",
+              "s2": "448dc7527c4031086bcdf3d117e73bc163b64c5e"
+            },
+            "title": "The History of Degenerate (Bipartite) Extremal Graph Problems",
+            "year": 2013,
+            "citations": 472,
+            "influential_citations": 50,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1306.5167",
+              "pdf": "https://arxiv.org/pdf/1306.5167",
+              "doi": "https://doi.org/10.1007/978-3-642-39286-3_7"
+            }
+          },
+          "label": "background",
+          "score": 3.494,
+          "reasons": [
+            "472 citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "The double-counting method of K˝ov´ari, S´os and Tur´an [2] established the basic extremal scale, while Reiman [4] and Roman [5] sharpened finite bounds and F¨uredi [6] refined the asymptotic theory; see [7] for a historical survey.",
+          "supports": [
+            "arxiv:2609.11093"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.4064/cm-3-1-50-57",
+            "ids": {
+              "doi": "10.4064/cm-3-1-50-57",
+              "s2": "93f54762bbcf7a729d4da21b6196cd723c7380fd"
+            },
+            "title": "On a problem of K. Zarankiewicz",
+            "year": 1954,
+            "citations": 926,
+            "influential_citations": 69,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/93f54762bbcf7a729d4da21b6196cd723c7380fd",
+              "doi": "https://doi.org/10.4064/cm-3-1-50-57"
+            }
+          },
+          "label": "background",
+          "score": 3.296,
+          "reasons": [
+            "926 citations"
+          ],
+          "quote": "Zarankiewicz’s original problem [1], the theorem of K˝ov´ari, S´os and Tur´an [2], and the early work of ˇCul´ık [3] and Reiman [4] established the basic counting principles and exact special cases.",
+          "supports": [
+            "arxiv:2609.11093"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1090/pspum/058.2/1327293",
+            "ids": {
+              "doi": "10.1090/pspum/058.2/1327293",
+              "s2": "42c4b89250e9ead6706aff5b556a489a4711a19f"
+            },
+            "title": "Sums of squares of real polynomials",
+            "year": 1995,
+            "citations": 451,
+            "influential_citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/42c4b89250e9ead6706aff5b556a489a4711a19f",
+              "doi": "https://doi.org/10.1090/pspum/058.2/1327293"
+            }
+          },
+          "label": "background",
+          "score": 2.941,
+          "reasons": [
+            "451 citations"
+          ],
+          "quote": "The distinction between nonnegativity and representability as a sum of squares is already visible in Choi’s biquadratic example [12]; the survey of Choi, Lam and Reznick [13] provides broader background on polynomial sums of squares.",
+          "supports": [
+            "arxiv:2609.11093"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

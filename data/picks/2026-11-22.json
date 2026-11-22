@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T11:28:10.672548Z",
+  "candidates_file": "candidates/2026-11-22.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "waves",
+      "score": 0.7897,
+      "adjusted": 0.6712,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9861,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9833,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "792 citations, about 45 a month · 109 influential citations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2506.07982",
+        "ids": {
+          "arxiv": "2506.07982",
+          "doi": null,
+          "s2": "91c12fc38719eae97e812c6d59a37de5de288c75",
+          "openalex": "W4417136556"
+        },
+        "title": "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+        "authors": [
+          {
+            "name": "Victor Barres",
+            "affiliation": null
+          },
+          {
+            "name": "Dong, Honghua",
+            "affiliation": null
+          },
+          {
+            "name": "Ray, Soham",
+            "affiliation": null
+          },
+          {
+            "name": "Si, Xujie",
+            "affiliation": null
+          },
+          {
+            "name": "Karthik Narasimhan",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Existing benchmarks for conversational AI agents simulate single-control environments, where only the AI agent can use tools to interact with the world, while the user remains a passive information provider. This differs from real-world scenarios like technical support, where users need to actively participate in modifying the state of the (shared) world. In order to address this gap, we introduce $τ^2$-bench, with four key contributions: 1) A novel Telecom dual-control domain modeled as a Dec-POMDP, where both agent and user make use of tools to act in a shared, dynamic environment that tests both agent coordination and communication, 2) A compositional task generator that programmatically creates diverse, verifiable tasks from atomic components, ensuring domain coverage and controlled complexity, 3) A reliable user simulator tightly coupled with the environment, whose behavior is constrained by tools and observable states, improving simulation fidelity, 4) Fine-grained analysis of agent performance through multiple ablations including separating errors arising from reasoning vs communication/coordination. In particular, our experiments show significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users. Overall, $τ^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions.",
+        "tldr": "The $\\tau^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions, and shows significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users.",
+        "topics": [
+          "ai"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-22",
+          "submitted": "2025-06-09",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 792,
+          "influential": 109,
+          "last_12_months": 813,
+          "per_month": 45.402,
+          "by_year": {
+            "2026": 806,
+            "2025": 65
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2506.07982",
+          "pdf": "https://arxiv.org/pdf/2506.07982",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-22T11:23:50.056553Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "waves",
+      "score": 0.8993,
+      "adjusted": 0.6497,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8152,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.8125,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "151 citations, about 16 a month · Published in Trans. Mach. Learn. Res.",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2507.04590",
+        "ids": {
+          "arxiv": "2507.04590",
+          "doi": null,
+          "s2": "2cd7ae727a4a76bed6b531d764bd609aa778fae1",
+          "openalex": "W4415163284"
+        },
+        "title": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents",
+        "authors": [
+          {
+            "name": "Meng, Rui",
+            "affiliation": null
+          },
+          {
+            "name": "Ziyan Jiang",
+            "affiliation": null
+          },
+          {
+            "name": "Ye Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Su, Mingyi",
+            "affiliation": null
+          },
+          {
+            "name": "Xinyi Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Fu, Yuepeng",
+            "affiliation": null
+          },
+          {
+            "name": "Can Qin",
+            "affiliation": null
+          },
+          {
+            "name": "Zeyuan Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Ran Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Caiming Xiong",
+            "affiliation": null
+          },
+          {
+            "name": "Yingbo Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Wenhu Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Semih Yavuz",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Multimodal embedding models have been crucial in enabling various downstream tasks such as semantic similarity, information retrieval, and clustering over different modalities. However, existing multimodal embeddings like VLM2Vec, E5-V, GME are predominantly focused on natural images, with limited support for other visual forms such as videos and visual documents. This restricts their applicability in real-world scenarios, including AI agents, multi-modal search and recommendation, and retrieval-augmented generation (RAG). To close this gap, we propose VLM2Vec-V2, a unified framework for learning embeddings across diverse visual forms. First, we introduce MMEB-V2, a comprehensive benchmark that extends MMEB with five new task types: visual document retrieval, video retrieval, temporal grounding, video classification and video question answering - spanning text, image, video, and visual document inputs. Next, we train VLM2Vec-V2, a general-purpose embedding model that supports text, image, video, and visual document inputs. Extensive experiments show that VLM2Vec-V2 achieves strong performance not only on the newly introduced video and document retrieval tasks, but also improves over prior baselines on the original image benchmarks. Through extensive evaluation, our study offers insights into the generalizability of various multimodal embedding models and highlights effective strategies for unified embedding learning, laying the groundwork for more scalable and adaptable representation learning in both research and real-world settings.",
+        "tldr": "This study proposes VLM2Vec-V2, a general-purpose embedding model that supports text, image, video, and visual document inputs and trains VLM2Vec-V2, a general-purpose embedding model that supports text, image, video, and visual document inputs.",
+        "topics": [
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-22",
+          "submitted": null,
+          "published": "2026-02-01"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Trans. Mach. Learn. Res.",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 151,
+          "influential": 36,
+          "last_12_months": 139,
+          "per_month": 15.634,
+          "by_year": {
+            "2026": 138,
+            "2025": 12
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2507.04590",
+          "pdf": "https://arxiv.org/pdf/2507.04590",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-22T11:23:50.056553Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.74,
+      "adjusted": 0.629,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9844,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7857,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "9 citations, about 4 a month · 4 influential citations",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2609.11093",
+        "ids": {
+          "arxiv": "2609.11093",
+          "doi": null,
+          "s2": "5e3399bda1b5923619f27e886db7853a59a58db0",
+          "openalex": "W7212406395"
+        },
+        "title": "Recursive-Line Zarankiewicz Numbers with Four Columns",
+        "authors": [
+          {
+            "name": "Zhiwei Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Yannan Chen",
+            "affiliation": null
+          }
+        ],
+        "abstract": "The recursive-line Zarankiewicz number maximizes the number of squares in a structured irreducible sum-of-squares representation encoded by an augmentation of an extremal $C_4$-free bipartite graph. We determine its four-column behavior under the strengthened recursive definition in the manuscript of Löfberg and Qi dated 9 September 2026. Combining AI-assisted discovery with exact certificate verification and finite exclusion computations, we determine eighteen of the nineteen values for $2\\le m\\le20$ and isolate the only unresolved case to $37\\le\\zr(14,4)\\le38$. More significantly, we prove the first eventual exact formula in the four-column setting: \\[ \\zr(m,4)=\\floor{\\frac{5m+6}{2}}\\qquad(m\\ge15). \\] The upper bound follows from the classical identity $z(m,4)=m+6$ and a sharp cell count. For the matching lower bound, we construct a two-row extension chain from an explicit $20\\times4$ seed and derive the odd orders by a fixed deletion. Analytic propagation, together with two independently audited symbolic certificate tables, proves the construction for arbitrary chain length rather than merely for a finite computational range. Thus every extremal configuration has no holes when $m$ is even and exactly one hole when $m$ is odd, and the same exact formula holds for the second-order number $z_2(m,4)$.",
+        "tldr": null,
+        "topics": [
+          "graph-theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-22",
+          "submitted": "2026-09-10",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 9,
+          "influential": 4,
+          "last_12_months": 8,
+          "per_month": 3.753,
+          "by_year": {
+            "2026": 8
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2609.11093",
+          "pdf": "https://arxiv.org/pdf/2609.11093",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-22T11:23:50.056553Z"
+      }
+    }
+  ]
+}
