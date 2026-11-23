@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:50:23.633046Z",
+  "candidates_file": "candidates/2026-11-23.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "history",
+      "funnel": "waves",
+      "score": 0.9578,
+      "adjusted": 0.9578,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9615,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.75,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "11 citations, about 2 a month · Published in Computational Brain & Behavior",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1007/s42113-026-00271-1",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1007/s42113-026-00271-1",
+          "s2": "500c55521dd6e9bb15d8263b8b1b048b0aba6525",
+          "openalex": "W7160178427"
+        },
+        "title": "Illusions of Understanding in the Sciences",
+        "authors": [
+          {
+            "name": "Richard M. Shiffrin",
+            "affiliation": null
+          },
+          {
+            "name": "Stephen Stigler",
+            "affiliation": null
+          },
+          {
+            "name": "Frank C. Keil",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Scientists seek to understand the causes of observed phenomena. Beliefs that they have succeeded are based on understanding that is rarely or possibly never complete, and varies in depth and quality. Most often scientists believe they understand more than they do, making their belief an illusion. This illusion then persists in explanations scientists provide in print, in talks, or in discussions. The illusion that a scientist has a valid and complete explanation tends to be magnified when the data are well described by mathematical and computer simulation models due to the precision of such models and their ability to predict well; prediction does not imply causality, but gives the illusion that it does. The first part of this essay supports the case for the universality of partial and incomplete levels of understanding by showing the difficulty of reaching a deep level of understanding for even a simple analysis and model that most scientists use and believe they understand: linear regression. The second part highlights some implications of the existence of many levels of understanding and explanation, and their use by scientists for design, testing, analysis, and theory development. It discusses the way that deduction and induction depend on the levels of understanding and the implications of the illusion that a scientist's understanding is deep. It makes a case that the many incomplete levels of understanding affect, often unwittingly, the ways scientists design experiments, test theories, comprehend, communicate, and teach.",
+        "tldr": null,
+        "topics": [
+          "history"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-23",
+          "submitted": null,
+          "published": "2026-04-30"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Computational Brain & Behavior",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 11,
+          "influential": 2,
+          "last_12_months": 23,
+          "per_month": 1.618,
+          "by_year": {
+            "2026": 23
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1007/s42113-026-00271-1",
+          "pdf": null,
+          "doi": "https://doi.org/10.1007/s42113-026-00271-1",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-23T12:37:38.809198Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 0.7902,
+      "adjusted": 0.6717,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9754,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "78 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.27193",
+        "ids": {
+          "arxiv": "2611.27193",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+        "authors": [
+          {
+            "name": "Haowei He",
+            "affiliation": null
+          },
+          {
+            "name": "Ziwen Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Chenshuo Pan",
+            "affiliation": null
+          },
+          {
+            "name": "Gang Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Zhihao Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Chao Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xinzhang Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Kaidong Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Han Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Dongfang Li",
+            "affiliation": null
+          },
+          {
+            "name": "Menglin Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Shuangyong Song",
+            "affiliation": null
+          },
+          {
+            "name": "Yongxiang Li",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a set of nearly independent streams; when over-mixed residual matrices are concentrated around the uniform barycenter of the polytope, streams will become less distinguishable from each other. We theoretically validate our findings by bounding the cumulative residual mixing, stream difference and gradient difference of mixing coefficients across layers. Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior. This contraction mitigates under-mixing by forcing the residual matrices to explore deeper into the polytope, with a provable stream mixing bound and no new parameterization. Moreover, we apply a moderate contraction at the shallow layers to prevent over-mixing, enabling stable gradient propagation on extremely large-scale model pretraining. Extensive experiments across dense and mixture-of-experts models at various parameter scales demonstrate the effectiveness and scalability of cmHC. We also develop fused operators for cmHC on Ascend NPUs, reducing hyper-connection execution latency by up to 44.8%.",
+        "tldr": null,
+        "topics": [
+          "ml"
+        ],
+        "source_categories": [
+          "cs.LG"
+        ],
+        "dates": {
+          "first_seen": "2026-11-23",
+          "submitted": "2026-11-20",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 78,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.27193",
+          "pdf": "https://arxiv.org/pdf/2611.27193",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-23T12:37:38.809198Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "waves",
+      "score": 0.907,
+      "adjusted": 0.6553,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8548,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7826,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "13 citations, about 1 a month · Published in Communications Psychology",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.1038/s44271-026-00428-5",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.1038/s44271-026-00428-5",
+          "s2": "dd0eb5e7bcfa65738b5a1ac13dea9c9743f09736",
+          "openalex": "W7131079454"
+        },
+        "title": "AI is turning research into a scientific monoculture",
+        "authors": [
+          {
+            "name": "Cecilie S. Traberg",
+            "affiliation": null
+          },
+          {
+            "name": "Jon Roozenbeek",
+            "affiliation": null
+          },
+          {
+            "name": "Sander van der Linden",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Generative AI deserves scientific attention. But the rush to study it is producing a feedback loop of topical and methodological convergence, flattening scientific imagination and crowding out the pluralism needed to keep research adaptive, resilient, and intellectually generative. The rush to study generative AI is producing a feedback loop of topical and methodological convergence, flattening scientific imagination and crowding out the pluralism needed to keep research adaptive, resilient, and intellectually generative.",
+        "tldr": "The rush to study generative AI is producing a feedback loop of topical and methodological convergence, flattening scientific imagination and crowding out the pluralism needed to keep research adaptive, resilient, and intellectually generative.",
+        "topics": [
+          "ai",
+          "history"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-23",
+          "submitted": null,
+          "published": "2026-02-23"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Communications Psychology",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 13,
+          "influential": 1,
+          "last_12_months": 25,
+          "per_month": 1.45,
+          "by_year": {
+            "2026": 25
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.1038/s44271-026-00428-5",
+          "pdf": null,
+          "doi": "https://doi.org/10.1038/s44271-026-00428-5",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-23T12:37:38.809198Z"
+      }
+    }
+  ]
+}

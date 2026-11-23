@@ -1,0 +1,895 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:50:50.595837Z",
+  "graphs": [
+    {
+      "pick_id": "doi:10.1007/s42113-026-00271-1",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00271-1",
+            "ids": {
+              "doi": "10.1007/s42113-026-00271-1",
+              "s2": "500c55521dd6e9bb15d8263b8b1b048b0aba6525",
+              "openalex": "W7160178427"
+            },
+            "title": "Illusions of Understanding in the Sciences",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 11,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://doi.org/10.1007/s42113-026-00271-1",
+              "doi": "https://doi.org/10.1007/s42113-026-00271-1"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-94-010-9731-4_3",
+            "ids": {
+              "doi": "10.1007/978-94-010-9731-4_3",
+              "s2": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5"
+            },
+            "title": "The Structure of Scientific Revolutions",
+            "year": 1964,
+            "citations": 8626,
+            "influential_citations": 617,
+            "is_review": true,
+            "tldr": "A Philosophy of Science Group was formally constituted and affiliated with the British Society for the History of Science and adopted the following statement of aims : “The purpose of the Group is to study the logic and method of science as well as of the various special sciences, including the social sciences.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+              "doi": "https://doi.org/10.1007/978-94-010-9731-4_3"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/j.2333-8504.1968.tb00724.x",
+            "ids": {
+              "doi": "10.1002/j.2333-8504.1968.tb00724.x",
+              "s2": "e40f63d5a9a7b729a54b4f7d97600d6f9e53b099"
+            },
+            "title": "STATISTICAL ADJUSTMENTS WHEN COMPARING PREEXISTING GROUPS",
+            "year": 1968,
+            "citations": 87,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e40f63d5a9a7b729a54b4f7d97600d6f9e53b099",
+              "doi": "https://doi.org/10.1002/j.2333-8504.1968.tb00724.x"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:9148565cd7053cea2841bb49328afc4fef179815",
+            "ids": {
+              "s2": "9148565cd7053cea2841bb49328afc4fef179815"
+            },
+            "title": "Simple Heuristics That Make Us Smart",
+            "year": 1999,
+            "citations": 4969,
+            "influential_citations": 177,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9148565cd7053cea2841bb49328afc4fef179815"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1037/0033-295x.90.4.293",
+            "ids": {
+              "doi": "10.1037/0033-295x.90.4.293",
+              "s2": "b455189ca678237659f001316b2425667f04c286"
+            },
+            "title": "Extensional versus intuitive reasoning: the conjunction fallacy in probability judgment",
+            "year": 1983,
+            "citations": 3765,
+            "influential_citations": 259,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b455189ca678237659f001316b2425667f04c286",
+              "doi": "https://doi.org/10.1037/0033-295x.90.4.293"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.7551/mitpress/1968.001.0001",
+            "ids": {
+              "doi": "10.7551/mitpress/1968.001.0001",
+              "s2": "17222e2ed3892b98935a5a48820e3d1f4802a4a3"
+            },
+            "title": "Computational Philosophy of Science",
+            "year": 1988,
+            "citations": 843,
+            "influential_citations": 40,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/17222e2ed3892b98935a5a48820e3d1f4802a4a3",
+              "doi": "https://doi.org/10.7551/mitpress/1968.001.0001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-024-07146-0",
+            "ids": {
+              "doi": "10.1038/s41586-024-07146-0",
+              "s2": "30ca396d023fdf91b59db2eb107b173ca796a34f"
+            },
+            "title": "Artificial intelligence and illusions of understanding in scientific research",
+            "year": 2024,
+            "venue": "Nature",
+            "citations": 786,
+            "influential_citations": 22,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/30ca396d023fdf91b59db2eb107b173ca796a34f",
+              "doi": "https://doi.org/10.1038/s41586-024-07146-0"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.2307/3105539",
+            "ids": {
+              "doi": "10.2307/3105539",
+              "s2": "635ce31774417b67f22d4e3534a3408f8c2a3e20"
+            },
+            "title": "The History of Statistics: The Measurement of Uncertainty before 1900",
+            "year": 1988,
+            "citations": 1252,
+            "influential_citations": 55,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/635ce31774417b67f22d4e3534a3408f8c2a3e20",
+              "doi": "https://doi.org/10.2307/3105539"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.5860/choice.42-1645",
+            "ids": {
+              "doi": "10.5860/choice.42-1645",
+              "s2": "77231a3543059fdba723315b1b54ebf69a92f384"
+            },
+            "title": "The Wisdom of Crowds: Why the Many Are Smarter Than the Few and How Collective Wisdom Shapes Business, Economies, Societies and Nations",
+            "year": 2004,
+            "citations": 1340,
+            "influential_citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/77231a3543059fdba723315b1b54ebf69a92f384",
+              "doi": "https://doi.org/10.5860/choice.42-1645"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.14507/er.v24.2257",
+            "ids": {
+              "doi": "10.14507/er.v24.2257",
+              "s2": "c7829a15bb4365c772974943c890223230db7676"
+            },
+            "title": "Review of The knowledge illusion: Why we never think alone",
+            "year": 2017,
+            "citations": 229,
+            "influential_citations": 13,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c7829a15bb4365c772974943c890223230db7676",
+              "doi": "https://doi.org/10.14507/er.v24.2257"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.cogpsych.2006.09.006",
+            "ids": {
+              "doi": "10.1016/j.cogpsych.2006.09.006",
+              "s2": "d7c642e366acead6cdec1d6b3e8198c93b2d5630"
+            },
+            "title": "Simplicity and probability in causal explanation.",
+            "year": 2007,
+            "venue": "Cognitive Psychology",
+            "citations": 434,
+            "influential_citations": 39,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d7c642e366acead6cdec1d6b3e8198c93b2d5630",
+              "doi": "https://doi.org/10.1016/j.cogpsych.2006.09.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.2105/ajph.2011.300292",
+            "ids": {
+              "doi": "10.2105/ajph.2011.300292",
+              "s2": "c0013c176f955744c8abd2ae22da76efc013a23c"
+            },
+            "title": "Inventing conflicts of interest: a history of tobacco industry tactics.",
+            "year": 2012,
+            "venue": "American Journal of Public Health",
+            "citations": 170,
+            "influential_citations": 7,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c0013c176f955744c8abd2ae22da76efc013a23c",
+              "doi": "https://doi.org/10.2105/ajph.2011.300292"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:9c42db9fc82c7b648657030d4df4e5df230203ea",
+            "ids": {
+              "s2": "9c42db9fc82c7b648657030d4df4e5df230203ea"
+            },
+            "title": "Reasoning and the logic of things",
+            "year": 1992,
+            "citations": 345,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9c42db9fc82c7b648657030d4df4e5df230203ea"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.2307/2025976",
+            "ids": {
+              "doi": "10.2307/2025976",
+              "s2": "e8f685386ae039993be1f45069ba51e9875774cc"
+            },
+            "title": "The Four-color Problem and Its Philosophical Significance",
+            "year": 1979,
+            "citations": 259,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e8f685386ae039993be1f45069ba51e9875774cc",
+              "doi": "https://doi.org/10.2307/2025976"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/j.2333-8504.1982.tb01321.x",
+            "ids": {
+              "doi": "10.1002/j.2333-8504.1982.tb01321.x",
+              "s2": "74aced8619ebdde7a134fb250c037f959cb98e9b"
+            },
+            "title": "ON LORD'S PARADOX",
+            "year": 1982,
+            "citations": 164,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/74aced8619ebdde7a134fb250c037f959cb98e9b",
+              "doi": "https://doi.org/10.1002/j.2333-8504.1982.tb01321.x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.2307/27757605",
+            "ids": {
+              "doi": "10.2307/27757605",
+              "s2": "cb1a1a90542a1b8ea5c879190885b0450c836ad5"
+            },
+            "title": "The Rejection of Continental Drift",
+            "year": 1988,
+            "citations": 108,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cb1a1a90542a1b8ea5c879190885b0450c836ad5",
+              "doi": "https://doi.org/10.2307/27757605"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1515/jci-2016-0021",
+            "ids": {
+              "doi": "10.1515/jci-2016-0021",
+              "s2": "f2a1e15d3b2ddcd804e2ef44dbe3ca0781266477"
+            },
+            "title": "Lord’s Paradox Revisited – (Oh Lord! Kumbaya!)",
+            "year": 2016,
+            "citations": 69,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f2a1e15d3b2ddcd804e2ef44dbe3ca0781266477",
+              "doi": "https://doi.org/10.1515/jci-2016-0021"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/09332480.2018.1438714",
+            "ids": {
+              "doi": "10.1080/09332480.2018.1438714",
+              "s2": "8803af5464c9b8fbd2b6a7d96c8c60f90bea9b23"
+            },
+            "title": "The Seven Pillars of Statistical Wisdom",
+            "year": 2018,
+            "citations": 57,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8803af5464c9b8fbd2b6a7d96c8c60f90bea9b23",
+              "doi": "https://doi.org/10.1080/09332480.2018.1438714"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1073/pnas.2401230121",
+            "ids": {
+              "doi": "10.1073/pnas.2401230121",
+              "s2": "0a957db44e832e2d1f457314e2dbb10301f94cd8"
+            },
+            "title": "Is Ockham’s razor losing its edge? New perspectives on the principle of model parsimony",
+            "year": 2025,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "citations": 31,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0a957db44e832e2d1f457314e2dbb10301f94cd8",
+              "doi": "https://doi.org/10.1073/pnas.2401230121"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00323-6",
+            "ids": {
+              "doi": "10.1007/s42113-026-00323-6",
+              "s2": "3ea0b09011c32ce8b1ef0fcc404bdd5fce2dd6b5"
+            },
+            "title": "All Illusions Are Wrong, but Some Are Useful",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3ea0b09011c32ce8b1ef0fcc404bdd5fce2dd6b5",
+              "doi": "https://doi.org/10.1007/s42113-026-00323-6"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00318-3",
+            "ids": {
+              "doi": "10.1007/s42113-026-00318-3",
+              "s2": "2b4d947a5877e060fc1d92cab0d06fc3f272346e"
+            },
+            "title": "Uncovering Illusions of Understanding: A Falsificationist Perspective",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2b4d947a5877e060fc1d92cab0d06fc3f272346e",
+              "doi": "https://doi.org/10.1007/s42113-026-00318-3"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00320-9",
+            "ids": {
+              "doi": "10.1007/s42113-026-00320-9",
+              "s2": "47af06b49f685f30f27c7b548134f9610cd82460"
+            },
+            "title": "Beyond the Curve: Visual Working Memory and the Illusion of Understanding",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/47af06b49f685f30f27c7b548134f9610cd82460",
+              "doi": "https://doi.org/10.1007/s42113-026-00320-9"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00291-x",
+            "ids": {
+              "doi": "10.1007/s42113-026-00291-x",
+              "s2": "483e50828026c2a7f317714714b2e45a455264e3"
+            },
+            "title": "Imprecision Can Promote Illusions of Understanding",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/483e50828026c2a7f317714714b2e45a455264e3",
+              "doi": "https://doi.org/10.1007/s42113-026-00291-x"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00285-9",
+            "ids": {
+              "doi": "10.1007/s42113-026-00285-9",
+              "s2": "a0a3fe20c89f40e273362f661103f0b61fcc8835"
+            },
+            "title": "Prediction, Risk, and Illusion",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a0a3fe20c89f40e273362f661103f0b61fcc8835",
+              "doi": "https://doi.org/10.1007/s42113-026-00285-9"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00289-5",
+            "ids": {
+              "doi": "10.1007/s42113-026-00289-5",
+              "s2": "bbfd4beba23df6f225fd6658cb43de4b5cf756ee"
+            },
+            "title": "On the Difficulty of Identifying Cognitive Causes",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bbfd4beba23df6f225fd6658cb43de4b5cf756ee",
+              "doi": "https://doi.org/10.1007/s42113-026-00289-5"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00282-y",
+            "ids": {
+              "doi": "10.1007/s42113-026-00282-y",
+              "s2": "2baf9a984f68bcb951c98fa24f5c61111ee8be15"
+            },
+            "title": "Understandable Lack of Understanding",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2baf9a984f68bcb951c98fa24f5c61111ee8be15",
+              "doi": "https://doi.org/10.1007/s42113-026-00282-y"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00290-y",
+            "ids": {
+              "doi": "10.1007/s42113-026-00290-y",
+              "s2": "25bc32b5d6d4e5cb50b7d5d7ea5dfbcc81ccf124"
+            },
+            "title": "Illusions of Misunderstanding in the Sciences",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/25bc32b5d6d4e5cb50b7d5d7ea5dfbcc81ccf124",
+              "doi": "https://doi.org/10.1007/s42113-026-00290-y"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00287-7",
+            "ids": {
+              "doi": "10.1007/s42113-026-00287-7",
+              "s2": "4ad1e303a262a5e389bda41df2f1b41d64d5ea02"
+            },
+            "title": "Bounded Understanding Is Still Understanding",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4ad1e303a262a5e389bda41df2f1b41d64d5ea02",
+              "doi": "https://doi.org/10.1007/s42113-026-00287-7"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42113-026-00275-x",
+            "ids": {
+              "doi": "10.1007/s42113-026-00275-x",
+              "s2": "7c17510d73b3d5921776776b2f14cb662d802923"
+            },
+            "title": "Multiple Ways of Understanding Evidence Accumulation Models: A Comment",
+            "year": 2026,
+            "venue": "Computational Brain & Behavior",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7c17510d73b3d5921776776b2f14cb662d802923",
+              "doi": "https://doi.org/10.1007/s42113-026-00275-x"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1007/978-94-010-9731-4_3",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1002/j.2333-8504.1968.tb00724.x",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "s2:9148565cd7053cea2841bb49328afc4fef179815",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1037/0033-295x.90.4.293",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.7551/mitpress/1968.001.0001",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1038/s41586-024-07146-0",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.2307/3105539",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.5860/choice.42-1645",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.14507/er.v24.2257",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1016/j.cogpsych.2006.09.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.2105/ajph.2011.300292",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "s2:9c42db9fc82c7b648657030d4df4e5df230203ea",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.2307/2025976",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1002/j.2333-8504.1982.tb01321.x",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.2307/27757605",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1515/jci-2016-0021",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1080/09332480.2018.1438714",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00271-1",
+          "target": "doi:10.1073/pnas.2401230121",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00323-6",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00318-3",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00320-9",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00291-x",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00285-9",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00289-5",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00282-y",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00290-y",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00287-7",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00275-x",
+          "target": "doi:10.1007/s42113-026-00271-1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1073/pnas.2401230121",
+          "target": "doi:10.1016/j.cogpsych.2006.09.006",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42113-026-00323-6",
+          "target": "doi:10.1007/978-94-010-9731-4_3",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 11,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.27193",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.27193",
+            "ids": {
+              "arxiv": "2611.27193"
+            },
+            "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.27193",
+              "pdf": "https://arxiv.org/pdf/2611.27193"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.27193: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.27193/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "doi:10.1038/s44271-026-00428-5",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.1038/s44271-026-00428-5",
+            "ids": {
+              "doi": "10.1038/s44271-026-00428-5",
+              "s2": "dd0eb5e7bcfa65738b5a1ac13dea9c9743f09736",
+              "openalex": "W7131079454"
+            },
+            "title": "AI is turning research into a scientific monoculture",
+            "year": 2026,
+            "venue": "Communications Psychology",
+            "citations": 13,
+            "influential_citations": 1,
+            "is_review": false,
+            "tldr": "The rush to study generative AI is producing a feedback loop of topical and methodological convergence, flattening scientific imagination and crowding out the pluralism needed to keep research adaptive, resilient, and intellectually generative.",
+            "links": {
+              "abstract_page": "https://doi.org/10.1038/s44271-026-00428-5",
+              "doi": "https://doi.org/10.1038/s44271-026-00428-5"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-024-07146-0",
+            "ids": {
+              "doi": "10.1038/s41586-024-07146-0",
+              "s2": "30ca396d023fdf91b59db2eb107b173ca796a34f"
+            },
+            "title": "Artificial intelligence and illusions of understanding in scientific research",
+            "year": 2024,
+            "venue": "Nature",
+            "citations": 786,
+            "influential_citations": 22,
+            "is_review": true,
+            "tldr": "A taxonomy of scientists’ visions for AI is developed, observing that their appeal comes from promises to improve productivity and objectivity by overcoming human shortcomings.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/30ca396d023fdf91b59db2eb107b173ca796a34f",
+              "doi": "https://doi.org/10.1038/s41586-024-07146-0"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-025-09922-y",
+            "ids": {
+              "doi": "10.1038/s41586-025-09922-y",
+              "s2": "ce033b75ccb30eeec6e637e3d779866e62bd0f56"
+            },
+            "title": "Artificial intelligence tools expand scientists’ impact but contract science’s focus",
+            "year": 2026,
+            "venue": "Nature",
+            "citations": 207,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "An accelerated adoption of AI tools among scientists and consistent professional advantages associated with AI usage are shown, but a collective narrowing of scientific focus is shown, highlighting a tension between personal advancement and collective scientific progress.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ce033b75ccb30eeec6e637e3d779866e62bd0f56",
+              "doi": "https://doi.org/10.1038/s41586-025-09922-y"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.04426",
+            "ids": {
+              "arxiv": "2502.04426",
+              "doi": "10.1073/pnas.2518443122",
+              "s2": "988ebfe1714f16dc541ce5803b06d8cd3019ffe6"
+            },
+            "title": "The simulation of judgment in LLMs",
+            "year": 2025,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "citations": 92,
+            "influential_citations": 3,
+            "is_review": false,
+            "tldr": "This work compares six LLMs to expert ratings and human evaluations under an identical, structured framework and suggests that they may rely on lexical associations and statistical priors rather than contextual reasoning or normative criteria.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.04426",
+              "pdf": "https://arxiv.org/pdf/2502.04426",
+              "doi": "https://doi.org/10.1073/pnas.2518443122"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-019-1138-y",
+            "ids": {
+              "doi": "10.1038/s41586-019-1138-y",
+              "s2": "84f21d04b1c2a9541cd463f352fa7330d28a711f"
+            },
+            "title": "Machine behaviour",
+            "year": 2019,
+            "venue": "Nature",
+            "citations": 1405,
+            "influential_citations": 39,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/84f21d04b1c2a9541cd463f352fa7330d28a711f",
+              "doi": "https://doi.org/10.1038/s41586-019-1138-y"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.1038/s44271-026-00428-5",
+          "target": "doi:10.1038/s41586-024-07146-0",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s44271-026-00428-5",
+          "target": "doi:10.1038/s41586-025-09922-y",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s44271-026-00428-5",
+          "target": "arxiv:2502.04426",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s44271-026-00428-5",
+          "target": "doi:10.1038/s41586-019-1138-y",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for dd0eb5e7bcfa65738b5a1ac13dea9c9743f09736: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/dd0eb5e7bcfa65738b5a1ac13dea9c9743f09736/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000",
+        "S2 cross-links: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch?fields=references.paperId"
+      ]
+    }
+  ]
+}

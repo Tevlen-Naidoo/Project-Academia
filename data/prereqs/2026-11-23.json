@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:50:50.595837Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.1007/s42113-026-00271-1",
+      "pick_title": "Illusions of Understanding in the Sciences",
+      "source": "s2",
+      "references_seen": 93,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1007/978-94-010-9731-4_3",
+            "ids": {
+              "doi": "10.1007/978-94-010-9731-4_3",
+              "s2": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5"
+            },
+            "title": "The Structure of Scientific Revolutions",
+            "year": 1964,
+            "citations": 8626,
+            "influential_citations": 617,
+            "is_review": true,
+            "tldr": "A Philosophy of Science Group was formally constituted and affiliated with the British Society for the History of Science and adopted the following statement of aims : “The purpose of the Group is to study the logic and method of science as well as of the various special sciences, including the social sciences.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+              "doi": "https://doi.org/10.1007/978-94-010-9731-4_3"
+            }
+          },
+          "label": "background",
+          "score": 5.044,
+          "reasons": [
+            "8.6k citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "Progress in science can leap forward when unanticipated results are found that are difficult or impossible to explain with current understanding (e.g. Kuhn, 1962 ).",
+          "supports": [
+            "doi:10.1007/s42113-026-00271-1"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/j.2333-8504.1968.tb00724.x",
+            "ids": {
+              "doi": "10.1002/j.2333-8504.1968.tb00724.x",
+              "s2": "e40f63d5a9a7b729a54b4f7d97600d6f9e53b099"
+            },
+            "title": "STATISTICAL ADJUSTMENTS WHEN COMPARING PREEXISTING GROUPS",
+            "year": 1968,
+            "citations": 87,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/e40f63d5a9a7b729a54b4f7d97600d6f9e53b099",
+              "doi": "https://doi.org/10.1002/j.2333-8504.1968.tb00724.x"
+            }
+          },
+          "label": "background",
+          "score": 4.905,
+          "reasons": [
+            "Influential reference for this paper",
+            "87 citations"
+          ],
+          "quote": "…using linear regression to show how parents tend to be shorter than their adult children and adult children tend to be shorter than their parents published a 1.25 page paper in Psychological Bulletin two years later (Lord, 1969 ) pointing out that the conclusion of statistician 2 was ‘absurd’.",
+          "supports": [
+            "doi:10.1007/s42113-026-00271-1"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "s2:9148565cd7053cea2841bb49328afc4fef179815",
+            "ids": {
+              "s2": "9148565cd7053cea2841bb49328afc4fef179815"
+            },
+            "title": "Simple Heuristics That Make Us Smart",
+            "year": 1999,
+            "citations": 4969,
+            "influential_citations": 177,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9148565cd7053cea2841bb49328afc4fef179815"
+            }
+          },
+          "label": "background",
+          "score": 4.082,
+          "reasons": [
+            "5.0k citations"
+          ],
+          "supports": [
+            "doi:10.1007/s42113-026-00271-1"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.27193",
+      "pick_title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.27193: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.27193/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.27193: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.27193?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "doi:10.1038/s44271-026-00428-5",
+      "pick_title": "AI is turning research into a scientific monoculture",
+      "source": "s2",
+      "references_seen": 5,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-024-07146-0",
+            "ids": {
+              "doi": "10.1038/s41586-024-07146-0",
+              "s2": "30ca396d023fdf91b59db2eb107b173ca796a34f"
+            },
+            "title": "Artificial intelligence and illusions of understanding in scientific research",
+            "year": 2024,
+            "venue": "Nature",
+            "citations": 786,
+            "influential_citations": 22,
+            "is_review": true,
+            "tldr": "A taxonomy of scientists’ visions for AI is developed, observing that their appeal comes from promises to improve productivity and objectivity by overcoming human shortcomings.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/30ca396d023fdf91b59db2eb107b173ca796a34f",
+              "doi": "https://doi.org/10.1038/s41586-024-07146-0"
+            }
+          },
+          "label": "background",
+          "score": 4.998,
+          "reasons": [
+            "786 citations",
+            "Also a reference of 1 other pick",
+            "Survey: a good entry point"
+          ],
+          "supports": [
+            "doi:10.1038/s44271-026-00428-5"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-025-09922-y",
+            "ids": {
+              "doi": "10.1038/s41586-025-09922-y",
+              "s2": "ce033b75ccb30eeec6e637e3d779866e62bd0f56"
+            },
+            "title": "Artificial intelligence tools expand scientists’ impact but contract science’s focus",
+            "year": 2026,
+            "venue": "Nature",
+            "citations": 207,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "An accelerated adoption of AI tools among scientists and consistent professional advantages associated with AI usage are shown, but a collective narrowing of scientific focus is shown, highlighting a tension between personal advancement and collective scientific progress.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/ce033b75ccb30eeec6e637e3d779866e62bd0f56",
+              "doi": "https://doi.org/10.1038/s41586-025-09922-y"
+            }
+          },
+          "label": "background",
+          "score": 2.47,
+          "reasons": [
+            "207 citations"
+          ],
+          "supports": [
+            "doi:10.1038/s44271-026-00428-5"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2502.04426",
+            "ids": {
+              "arxiv": "2502.04426",
+              "doi": "10.1073/pnas.2518443122",
+              "s2": "988ebfe1714f16dc541ce5803b06d8cd3019ffe6"
+            },
+            "title": "The simulation of judgment in LLMs",
+            "year": 2025,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "citations": 92,
+            "influential_citations": 3,
+            "is_review": false,
+            "tldr": "This work compares six LLMs to expert ratings and human evaluations under an identical, structured framework and suggests that they may rely on lexical associations and statistical priors rather than contextual reasoning or normative criteria.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2502.04426",
+              "pdf": "https://arxiv.org/pdf/2502.04426",
+              "doi": "https://doi.org/10.1073/pnas.2518443122"
+            }
+          },
+          "label": "background",
+          "score": 1.876,
+          "reasons": [
+            "92 citations"
+          ],
+          "supports": [
+            "doi:10.1038/s44271-026-00428-5"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
