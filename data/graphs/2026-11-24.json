@@ -1,0 +1,2405 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:48:53.880556Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2506.11277",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2506.11277",
+            "ids": {
+              "arxiv": "2506.11277",
+              "doi": "10.1137/25m1768539",
+              "openalex": "W4415068415"
+            },
+            "title": "Analysis of Floating-Point Matrix Multiplication Computed via Integer Arithmetic",
+            "year": 2026,
+            "venue": "SIAM Journal on Scientific Computing",
+            "citations": 20,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2506.11277",
+              "pdf": "https://arxiv.org/pdf/2506.11277",
+              "doi": "https://doi.org/10.1137/25m1768539"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.56021/9781421407944",
+            "ids": {
+              "doi": "10.56021/9781421407944",
+              "openalex": "W2798909945"
+            },
+            "title": "Matrix Computations",
+            "year": 2012,
+            "venue": "Johns Hopkins University Press eBooks",
+            "citations": 36233,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2798909945",
+              "doi": "https://doi.org/10.56021/9781421407944"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/1.9780898718027",
+            "ids": {
+              "doi": "10.1137/1.9780898718027",
+              "openalex": "W2020804487"
+            },
+            "title": "Accuracy and Stability of Numerical Algorithms: Second Edition",
+            "year": 2002,
+            "venue": "Society for Industrial and Applied Mathematics eBooks",
+            "citations": 5242,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2020804487",
+              "doi": "https://doi.org/10.1137/1.9780898718027"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/cpe.728",
+            "ids": {
+              "doi": "10.1002/cpe.728",
+              "openalex": "W2169631286"
+            },
+            "title": "The LINPACK Benchmark: past, present and future",
+            "year": 2003,
+            "venue": "Concurrency and Computation Practice and Experience",
+            "citations": 1064,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2169631286",
+              "doi": "https://doi.org/10.1002/cpe.728"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/ieeestd.2019.8766229",
+            "ids": {
+              "doi": "10.1109/ieeestd.2019.8766229",
+              "openalex": "W4233996382"
+            },
+            "title": "IEEE Standard for Floating-Point Arithmetic",
+            "year": 2019,
+            "venue": "IEEE Standards",
+            "citations": 695,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4233996382",
+              "doi": "https://doi.org/10.1109/ieeestd.2019.8766229"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/ipdpsw.2018.00091",
+            "ids": {
+              "doi": "10.1109/ipdpsw.2018.00091",
+              "openalex": "W2791673912"
+            },
+            "title": "NVIDIA Tensor Core Programmability, Performance & Precision",
+            "year": 2018,
+            "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+            "citations": 683,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2791673912",
+              "doi": "https://doi.org/10.1109/ipdpsw.2018.00091"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2209.05433",
+            "ids": {
+              "arxiv": "2209.05433",
+              "doi": "10.48550/arxiv.2209.05433",
+              "openalex": "W4297812065"
+            },
+            "title": "FP8 Formats for Deep Learning",
+            "year": 2022,
+            "venue": "arXiv (Cornell University)",
+            "citations": 626,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2209.05433",
+              "pdf": "https://arxiv.org/pdf/2209.05433",
+              "doi": "https://doi.org/10.48550/arxiv.2209.05433"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1088/1742-6596/180/1/012037",
+            "ids": {
+              "doi": "10.1088/1742-6596/180/1/012037",
+              "openalex": "W2016279572"
+            },
+            "title": "Numerical linear algebra on emerging architectures: The PLASMA and MAGMA projects",
+            "year": 2009,
+            "venue": "Journal of Physics Conference Series",
+            "citations": 507,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2016279572",
+              "doi": "https://doi.org/10.1088/1742-6596/180/1/012037"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-319-76526-6",
+            "ids": {
+              "doi": "10.1007/978-3-319-76526-6",
+              "openalex": "W2887397219"
+            },
+            "title": "Handbook of Floating-Point Arithmetic",
+            "year": 2018,
+            "venue": "Springer eBooks",
+            "citations": 395,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2887397219",
+              "doi": "https://doi.org/10.1007/978-3-319-76526-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/17m1140819",
+            "ids": {
+              "doi": "10.1137/17m1140819",
+              "openalex": "W2752879223"
+            },
+            "title": "Accelerating the Solution of Linear Systems by Iterative Refinement in Three Precisions",
+            "year": 2018,
+            "venue": "SIAM Journal on Scientific Computing",
+            "citations": 287,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2752879223",
+              "doi": "https://doi.org/10.1137/17m1140819"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0962492922000022",
+            "ids": {
+              "doi": "10.1017/s0962492922000022",
+              "openalex": "W4281657881"
+            },
+            "title": "Mixed precision algorithms in numerical linear algebra",
+            "year": 2022,
+            "venue": "Acta Numerica",
+            "citations": 285,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4281657881",
+              "doi": "https://doi.org/10.1017/s0962492922000022"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/10943420211003313",
+            "ids": {
+              "doi": "10.1177/10943420211003313",
+              "openalex": "W3138530731"
+            },
+            "title": "A survey of numerical linear algebra methods utilizing mixed-precision arithmetic",
+            "year": 2021,
+            "venue": "The International Journal of High Performance Computing Applications",
+            "citations": 225,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3138530731",
+              "doi": "https://doi.org/10.1177/10943420211003313"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/050645671",
+            "ids": {
+              "doi": "10.1137/050645671",
+              "openalex": "W2002064155"
+            },
+            "title": "Accurate Floating-Point Summation Part I: Faithful Rounding",
+            "year": 2008,
+            "venue": "SIAM Journal on Scientific Computing",
+            "citations": 219,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2002064155",
+              "doi": "https://doi.org/10.1137/050645671"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1137/17m1122918",
+            "ids": {
+              "doi": "10.1137/17m1122918",
+              "openalex": "W2599973081"
+            },
+            "title": "A New Analysis of Iterative Refinement and Its Application to Accurate Solution of Ill-Conditioned Sparse Linear Systems",
+            "year": 2017,
+            "venue": "SIAM Journal on Scientific Computing",
+            "citations": 178,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2599973081",
+              "doi": "https://doi.org/10.1137/17m1122918"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11075-011-9478-1",
+            "ids": {
+              "doi": "10.1007/s11075-011-9478-1",
+              "openalex": "W2073327480"
+            },
+            "title": "Error-free transformations of matrix multiplication by using fast routines of matrix multiplication and its applications",
+            "year": 2011,
+            "venue": "Numerical Algorithms",
+            "citations": 136,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2073327480",
+              "doi": "https://doi.org/10.1007/s11075-011-9478-1"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2303.17951",
+            "ids": {
+              "arxiv": "2303.17951",
+              "doi": "10.48550/arxiv.2303.17951",
+              "openalex": "W4362510878"
+            },
+            "title": "FP8 versus INT8 for efficient deep learning inference",
+            "year": 2023,
+            "venue": "arXiv (Cornell University)",
+            "citations": 113,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2303.17951",
+              "pdf": "https://arxiv.org/pdf/2303.17951",
+              "doi": "https://doi.org/10.48550/arxiv.2303.17951"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/arith.2019.00019",
+            "ids": {
+              "doi": "10.1109/arith.2019.00019",
+              "openalex": "W2938673919"
+            },
+            "title": "Leveraging the bfloat16 Artificial Intelligence Datatype For Higher-Precision Computations",
+            "year": 2019,
+            "venue": "IEEE Symposium on Computer Arithmetic (ARITH)",
+            "citations": 109,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2938673919",
+              "doi": "https://doi.org/10.1109/arith.2019.00019"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.7717/peerj-cs.330",
+            "ids": {
+              "doi": "10.7717/peerj-cs.330",
+              "openalex": "W3021029305"
+            },
+            "title": "Numerical behavior of NVIDIA tensor cores",
+            "year": 2021,
+            "venue": "PeerJ Computer Science",
+            "citations": 89,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3021029305",
+              "doi": "https://doi.org/10.7717/peerj-cs.330"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/10943420241239588",
+            "ids": {
+              "doi": "10.1177/10943420241239588",
+              "openalex": "W4392884779"
+            },
+            "title": "DGEMM on integer matrix multiplication unit",
+            "year": 2024,
+            "venue": "The International Journal of High Performance Computing Applications",
+            "citations": 85,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4392884779",
+              "doi": "https://doi.org/10.1177/10943420241239588"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2508.00441",
+            "ids": {
+              "arxiv": "2508.00441",
+              "doi": "10.48550/arxiv.2508.00441",
+              "s2": "8ff3a9ac128bec4a7e9e251cb89b186ac7cf1d5d"
+            },
+            "title": "DGEMM without FP64 Arithmetic - Using FP64 Emulation and FP8 Tensor Cores with Ozaki Scheme",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 15,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2508.00441",
+              "pdf": "https://arxiv.org/pdf/2508.00441",
+              "doi": "https://doi.org/10.48550/arxiv.2508.00441"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3784828.3785017",
+            "ids": {
+              "doi": "10.1145/3784828.3785017",
+              "s2": "290d6dbccaffeecff7df82a2afb993380c0a9c2b"
+            },
+            "title": "DGEMM using FP64 Arithmetic Emulation and FP8 Tensor Cores with Ozaki Scheme",
+            "year": 2026,
+            "venue": "SCA/HPC Asia Workshops",
+            "citations": 12,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/290d6dbccaffeecff7df82a2afb993380c0a9c2b",
+              "doi": "https://doi.org/10.1145/3784828.3785017"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.02549",
+            "ids": {
+              "arxiv": "2602.02549",
+              "doi": "10.48550/arxiv.2602.02549",
+              "s2": "452e87e79c4b79ba269311c9bb93e60459e35706"
+            },
+            "title": "Error Analysis of Matrix Multiplication Emulation Using Ozaki-II Scheme",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 11,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.02549",
+              "pdf": "https://arxiv.org/pdf/2602.02549",
+              "doi": "https://doi.org/10.48550/arxiv.2602.02549"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.08321",
+            "ids": {
+              "arxiv": "2512.08321",
+              "doi": "10.23919/isc.2026.11520500",
+              "s2": "035a4a8f17ca154f02442b5fc203406c5da40cce"
+            },
+            "title": "Emulation of Complex Matrix Multiplication based on the Chinese Remainder Theorem",
+            "year": 2025,
+            "venue": "ISC High Performance",
+            "citations": 11,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.08321",
+              "pdf": "https://arxiv.org/pdf/2512.08321",
+              "doi": "https://doi.org/10.23919/isc.2026.11520500"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2608.13756",
+            "ids": {
+              "arxiv": "2608.13756",
+              "doi": "10.48550/arxiv.2608.13756",
+              "s2": "9e3b83fc7b50a02fececa035b8eb0deb4dab753b"
+            },
+            "title": "The Integer Alibi: Localizing Cross-Kernel Divergence in INT8-Quantized LLM Inference",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2608.13756",
+              "pdf": "https://arxiv.org/pdf/2608.13756",
+              "doi": "https://doi.org/10.48550/arxiv.2608.13756"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.05419",
+            "ids": {
+              "arxiv": "2609.05419",
+              "doi": "10.1145/3859285",
+              "s2": "ddc317d22f05871ce65b224135748879ac822d91"
+            },
+            "title": "The 2M Multiplication Algorithm for Complex Matrices",
+            "year": 2026,
+            "venue": "ACM Transactions on Mathematical Software",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.05419",
+              "pdf": "https://arxiv.org/pdf/2609.05419",
+              "doi": "https://doi.org/10.1145/3859285"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3858628",
+            "ids": {
+              "doi": "10.1145/3858628",
+              "s2": "79ca4db0c6e96b8ab7aa5e4b4718aed273626037"
+            },
+            "title": "Sharper Bounds on the Required Fixed-Point Precision for Emulating Floating-Point Matrix Multiplication",
+            "year": 2026,
+            "venue": "ACM Transactions on Mathematical Software",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/79ca4db0c6e96b8ab7aa5e4b4718aed273626037",
+              "doi": "https://doi.org/10.1145/3858628"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.37693",
+            "ids": {
+              "arxiv": "2609.37693",
+              "doi": "10.48550/arxiv.2609.37693",
+              "s2": "ed324f868e357b9851ef8f93a76d76b8b635f6c6"
+            },
+            "title": "FP64 Is All You Want, INT8 Is All You Need, FP4/6/8 Is All You Have",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.37693",
+              "pdf": "https://arxiv.org/pdf/2609.37693",
+              "doi": "https://doi.org/10.48550/arxiv.2609.37693"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.03158",
+            "ids": {
+              "arxiv": "2611.03158",
+              "s2": "0c8f0e743de93faf712b86a382efcefa9b504c70"
+            },
+            "title": "Adaptive accuracy-driven splitting in Ozaki matrix multiplication and application to block LU factorization",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.03158",
+              "pdf": "https://arxiv.org/pdf/2611.03158"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.39361",
+            "ids": {
+              "arxiv": "2609.39361",
+              "doi": "10.48550/arxiv.2609.39361",
+              "s2": "6fd4ff2c0cea86a82ee6164edffea5d5bdd39eca"
+            },
+            "title": "LampAttention: Look-Ahead Mixed-Precision FlashAttention for Dedicated Accelerators",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.39361",
+              "pdf": "https://arxiv.org/pdf/2609.39361",
+              "doi": "https://doi.org/10.48550/arxiv.2609.39361"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.56021/9781421407944",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1137/1.9780898718027",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1002/cpe.728",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1109/ieeestd.2019.8766229",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1109/ipdpsw.2018.00091",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "arxiv:2209.05433",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1088/1742-6596/180/1/012037",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1007/978-3-319-76526-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1137/17m1140819",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1017/s0962492922000022",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1177/10943420211003313",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1137/050645671",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1137/17m1122918",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1007/s11075-011-9478-1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "arxiv:2303.17951",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1109/arith.2019.00019",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.7717/peerj-cs.330",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2506.11277",
+          "target": "doi:10.1177/10943420241239588",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2508.00441",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1145/3784828.3785017",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.02549",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.08321",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.13756",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05419",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1145/3858628",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.37693",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03158",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.39361",
+          "target": "arxiv:2506.11277",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.02549",
+          "target": "arxiv:2508.00441",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.02549",
+          "target": "arxiv:2512.08321",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.08321",
+          "target": "arxiv:2508.00441",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05419",
+          "target": "arxiv:2512.08321",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05419",
+          "target": "doi:10.1145/3858628",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.05419",
+          "target": "arxiv:2602.02549",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.37693",
+          "target": "arxiv:2512.08321",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.37693",
+          "target": "arxiv:2508.00441",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.37693",
+          "target": "arxiv:2602.02549",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03158",
+          "target": "doi:10.1145/3784828.3785017",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.03158",
+          "target": "arxiv:2602.02549",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 16,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2601.01235",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2601.01235",
+            "ids": {
+              "arxiv": "2601.01235",
+              "doi": "10.1093/imrn/rnag222",
+              "s2": "f0b2760da1de1712d66f7bc7eec3da10e1774d5b",
+              "openalex": "W7118458454"
+            },
+            "title": "Bruhat intervals that are large hypercubes",
+            "year": 2026,
+            "venue": "International Mathematics Research Notices",
+            "citations": 10,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.01235",
+              "pdf": "https://arxiv.org/pdf/2601.01235",
+              "doi": "https://doi.org/10.1093/imrn/rnag222"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/3-540-27596-7",
+            "ids": {
+              "doi": "10.1007/3-540-27596-7",
+              "s2": "1f3bd946e1ca17d97af96486e7c00f42b37623b7"
+            },
+            "title": "Combinatorics of Coxeter Groups",
+            "year": 2005,
+            "citations": 2041,
+            "influential_citations": 358,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1f3bd946e1ca17d97af96486e7c00f42b37623b7",
+              "doi": "https://doi.org/10.1007/3-540-27596-7"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/cbo9780511761188",
+            "ids": {
+              "doi": "10.1017/cbo9780511761188",
+              "s2": "df25e1e67608862743d5634d13f3963f73ac6e30"
+            },
+            "title": "Digital Nets and Sequences: Discrepancy Theory and Quasi-Monte Carlo Integration",
+            "year": 2010,
+            "citations": 749,
+            "influential_citations": 89,
+            "is_review": false,
+            "tldr": "This comprehensive treatment of contemporary quasi-Monte Carlo methods, digital nets and sequences, and discrepancy theory starts from scratch with detailed explanations of the basic concepts and then advances to current methods used in research.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/df25e1e67608862743d5634d13f3963f73ac6e30",
+              "doi": "https://doi.org/10.1017/cbo9780511761188"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01388520",
+            "ids": {
+              "doi": "10.1007/bf01388520",
+              "s2": "6d3c7167ab6589554a628f94708cda07d06d8836"
+            },
+            "title": "On some geometric aspects of Bruhat orderings. I. A finer decomposition of Bruhat cells",
+            "year": 1985,
+            "citations": 235,
+            "influential_citations": 41,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6d3c7167ab6589554a628f94708cda07d06d8836",
+              "doi": "https://doi.org/10.1007/bf01388520"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2511.02864",
+            "ids": {
+              "arxiv": "2511.02864",
+              "doi": "10.48550/arxiv.2511.02864",
+              "s2": "9761e9c0f5651200924a844d999dd802f8a2f37b"
+            },
+            "title": "Mathematical exploration and discovery at scale",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 112,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2511.02864",
+              "pdf": "https://arxiv.org/pdf/2511.02864",
+              "doi": "https://doi.org/10.48550/arxiv.2511.02864"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1209.4146",
+            "ids": {
+              "arxiv": "1209.4146",
+              "doi": "10.4310/mrl.2013.v20.n2.a14",
+              "s2": "40d9a6d2b38940a4d36c595cf4d9ac111d74abd0"
+            },
+            "title": "Singularities of Richardson varieties",
+            "year": 2012,
+            "citations": 36,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1209.4146",
+              "pdf": "https://arxiv.org/pdf/1209.4146",
+              "doi": "https://doi.org/10.4310/mrl.2013.v20.n2.a14"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2012.09745",
+            "ids": {
+              "arxiv": "2012.09745",
+              "doi": "10.1215/00127094-2023-0049",
+              "s2": "c50f5dc924fd735e84726c4a21e80649509c3772"
+            },
+            "title": "Positroids, knots, and q,t-Catalan numbers",
+            "year": 2020,
+            "venue": "Duke mathematical journal",
+            "citations": 44,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2012.09745",
+              "pdf": "https://arxiv.org/pdf/2012.09745",
+              "doi": "https://doi.org/10.1215/00127094-2023-0049"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2402.16970",
+            "ids": {
+              "arxiv": "2402.16970",
+              "s2": "68af252b87a6eba82e3acff44a6d4fe6dec9e92b"
+            },
+            "title": "Cluster deep loci and mirror symmetry",
+            "year": 2024,
+            "citations": 14,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2402.16970",
+              "pdf": "https://arxiv.org/pdf/2402.16970"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:math/0104151",
+            "ids": {
+              "arxiv": "math/0104151",
+              "doi": "10.1090/s0894-0347-01-00385-x",
+              "s2": "6feb8e4825f4374a32b56b5bfd3467eef46d8a6a"
+            },
+            "title": "Cluster algebras I: Foundations",
+            "year": 2001,
+            "citations": 2231,
+            "influential_citations": 207,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math/0104151",
+              "pdf": "https://arxiv.org/pdf/math/0104151",
+              "doi": "https://doi.org/10.1090/s0894-0347-01-00385-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/s0165-1889(97)00028-6",
+            "ids": {
+              "doi": "10.1016/s0165-1889(97)00028-6",
+              "s2": "1c2f6f8d054d205328b95685f69b16cd7d496d1c"
+            },
+            "title": "Monte Carlo methods for security pricing",
+            "year": 1997,
+            "citations": 948,
+            "influential_citations": 51,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1c2f6f8d054d205328b95685f69b16cd7d496d1c",
+              "doi": "https://doi.org/10.1016/s0165-1889(97)00028-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1515/mcma.2002.8.1.97",
+            "ids": {
+              "doi": "10.1515/mcma.2002.8.1.97",
+              "s2": "6eba4377f56012501936e0a01d793d73fcf70ffa"
+            },
+            "title": "Some geometric properties of (0, m, 2)-nets in base b ≥ 2",
+            "year": 2002,
+            "venue": "Monte Carlo Methods Appl.",
+            "citations": 3,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6eba4377f56012501936e0a01d793d73fcf70ffa",
+              "doi": "https://doi.org/10.1515/mcma.2002.8.1.97"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.14889",
+            "ids": {
+              "arxiv": "2505.14889",
+              "s2": "01b9780b57e88c2f94f789b1cf82f00eb570cfd1"
+            },
+            "title": "Cluster automorphism group of braid varieties",
+            "year": 2025,
+            "citations": 2,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.14889",
+              "pdf": "https://arxiv.org/pdf/2505.14889"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-023-06924-6",
+            "ids": {
+              "doi": "10.1038/s41586-023-06924-6",
+              "s2": "d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3"
+            },
+            "title": "Mathematical discoveries from program search with large language models",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 1688,
+            "influential_citations": 70,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3",
+              "doi": "https://doi.org/10.1038/s41586-023-06924-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1411.1394",
+            "ids": {
+              "arxiv": "1411.1394",
+              "doi": "10.1090/jams/890",
+              "s2": "60e28184fbedf965ea6426ca336e426044637085"
+            },
+            "title": "Canonical bases for cluster algebras",
+            "year": 2014,
+            "citations": 565,
+            "influential_citations": 128,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1411.1394",
+              "pdf": "https://arxiv.org/pdf/1411.1394",
+              "doi": "https://doi.org/10.1090/jams/890"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01294651",
+            "ids": {
+              "doi": "10.1007/bf01294651",
+              "s2": "10afaba88ea5096bcb98cb8669bb043ec38bc4ed"
+            },
+            "title": "Point sets and sequences with small discrepancy",
+            "year": 1987,
+            "citations": 633,
+            "influential_citations": 105,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/10afaba88ea5096bcb98cb8669bb043ec38bc4ed",
+              "doi": "https://doi.org/10.1007/bf01294651"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-021-04086-x",
+            "ids": {
+              "doi": "10.1038/s41586-021-04086-x",
+              "s2": "c0cd4b4844c31a27a7900a754d0a91b160b00e55"
+            },
+            "title": "Advancing mathematics by guiding human intuition with AI",
+            "year": 2021,
+            "venue": "Nature",
+            "citations": 641,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c0cd4b4844c31a27a7900a754d0a91b160b00e55",
+              "doi": "https://doi.org/10.1038/s41586-021-04086-x"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:math/0008200",
+            "ids": {
+              "arxiv": "math/0008200",
+              "doi": "10.1007/s002080100232",
+              "s2": "90dca00a6ad45b2b51d144506fcd57baad3eba93"
+            },
+            "title": "From moment graphs to intersection cohomology",
+            "year": 2000,
+            "citations": 142,
+            "influential_citations": 30,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/math/0008200",
+              "pdf": "https://arxiv.org/pdf/math/0008200",
+              "doi": "https://doi.org/10.1007/s002080100232"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:828957262fa5a734a4ad848ae1c70f4de350f420",
+            "ids": {
+              "s2": "828957262fa5a734a4ad848ae1c70f4de350f420"
+            },
+            "title": "On the “Bruhat graph” of a Coxeter system",
+            "year": 1991,
+            "citations": 137,
+            "influential_citations": 27,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/828957262fa5a734a4ad848ae1c70f4de350f420"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bf01231537",
+            "ids": {
+              "doi": "10.1007/bf01231537",
+              "s2": "6f243db92b7fcfb5596ad1b0751eda3d8024742a"
+            },
+            "title": "A combinatorial formula for Kazhdan-Lusztig polynomials",
+            "year": 1994,
+            "citations": 92,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6f243db92b7fcfb5596ad1b0751eda3d8024742a",
+              "doi": "https://doi.org/10.1007/bf01231537"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2601.07793",
+            "ids": {
+              "arxiv": "2601.07793",
+              "s2": "f721fd21eff0abddedf399a718a241118c20e87c"
+            },
+            "title": "Combinatorial invariance for the coefficient of $q$ in Kazhdan-Lusztig polynomials",
+            "year": 2026,
+            "citations": 10,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2601.07793",
+              "pdf": "https://arxiv.org/pdf/2601.07793"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2603.29260",
+            "ids": {
+              "arxiv": "2603.29260",
+              "s2": "16d4a15147b470be1d6fb67111031e426783525f"
+            },
+            "title": "Unexpected toric Richardson varieties",
+            "year": 2026,
+            "citations": 5,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2603.29260",
+              "pdf": "https://arxiv.org/pdf/2603.29260"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.30257",
+            "ids": {
+              "arxiv": "2609.30257",
+              "s2": "d1c9beb03623641091065d26f6653a935b2fcaf6"
+            },
+            "title": "A quasisymmetric analog of Grassmannian Schubert varieties",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.30257",
+              "pdf": "https://arxiv.org/pdf/2609.30257"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.05921",
+            "ids": {
+              "arxiv": "2605.05921",
+              "s2": "fd4a9811872f0d8fcbff3e75c4a10e50fd3f6ce7"
+            },
+            "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.05921",
+              "pdf": "https://arxiv.org/pdf/2605.05921"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.06553",
+            "ids": {
+              "arxiv": "2602.06553",
+              "doi": "10.48550/arxiv.2602.06553",
+              "s2": "3c5988b8ef91274201a63da9dfdb3841312cb962"
+            },
+            "title": "Evolving Ranking Functions for Canonical Blow-Ups in Positive Characteristic",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.06553",
+              "pdf": "https://arxiv.org/pdf/2602.06553",
+              "doi": "https://doi.org/10.48550/arxiv.2602.06553"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.13546",
+            "ids": {
+              "arxiv": "2610.13546",
+              "s2": "cde8112df43bd42868231e49f297b46ed20a824c"
+            },
+            "title": "AI and humanity's long conversation",
+            "year": 2026,
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.13546",
+              "pdf": "https://arxiv.org/pdf/2610.13546"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.chbah.2026.100386",
+            "ids": {
+              "doi": "10.1016/j.chbah.2026.100386",
+              "s2": "fa3cea9a0a1e6420dc463f81c40488898d0ef112"
+            },
+            "title": "Mathematical Anxiety in the Age of AI: Opacity, Role Inversion, and the Changing Place of the Mathematician",
+            "year": 2026,
+            "venue": "Computers in Human Behavior",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/fa3cea9a0a1e6420dc463f81c40488898d0ef112",
+              "doi": "https://doi.org/10.1016/j.chbah.2026.100386"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2610.17798",
+            "ids": {
+              "arxiv": "2610.17798",
+              "s2": "05f2e83c0033235e2b308fc2a544cfa02ff3937a"
+            },
+            "title": "Lattice Bruhat intervals are polytopal",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2610.17798",
+              "pdf": "https://arxiv.org/pdf/2610.17798"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.16894",
+            "ids": {
+              "arxiv": "2606.16894",
+              "s2": "9ad2d0ef8a5e6502d7d61b6f15128408e6e75670"
+            },
+            "title": "Bounded Bruhat intervals and affine Coxeter groups",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.16894",
+              "pdf": "https://arxiv.org/pdf/2606.16894"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.48550/arxiv.2605.05921",
+            "ids": {
+              "doi": "10.48550/arxiv.2605.05921",
+              "s2": "2780011ec575f0c17c0f49f58ca86c2fb8c96965"
+            },
+            "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2780011ec575f0c17c0f49f58ca86c2fb8c96965",
+              "doi": "https://doi.org/10.48550/arxiv.2605.05921"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1007/3-540-27596-7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1017/cbo9780511761188",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1007/bf01388520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:2511.02864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:1209.4146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:2012.09745",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:2402.16970",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:math/0104151",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1016/s0165-1889(97)00028-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1515/mcma.2002.8.1.97",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:2505.14889",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:1411.1394",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1007/bf01294651",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1038/s41586-021-04086-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "arxiv:math/0008200",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "s2:828957262fa5a734a4ad848ae1c70f4de350f420",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.01235",
+          "target": "doi:10.1007/bf01231537",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.07793",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.30257",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.05921",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.06553",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.13546",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.chbah.2026.100386",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17798",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.16894",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.48550/arxiv.2605.05921",
+          "target": "arxiv:2601.01235",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2012.09745",
+          "target": "doi:10.1007/bf01388520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14889",
+          "target": "arxiv:math/0104151",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14889",
+          "target": "arxiv:2012.09745",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14889",
+          "target": "arxiv:2402.16970",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14889",
+          "target": "doi:10.1007/bf01388520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1411.1394",
+          "target": "arxiv:math/0104151",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41586-021-04086-x",
+          "target": "arxiv:math/0008200",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.07793",
+          "target": "arxiv:math/0104151",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.07793",
+          "target": "doi:10.1038/s41586-021-04086-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.07793",
+          "target": "s2:828957262fa5a734a4ad848ae1c70f4de350f420",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2601.07793",
+          "target": "doi:10.1007/bf01388520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "doi:10.1007/bf01231537",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "arxiv:1209.4146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "arxiv:2505.14889",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "arxiv:2601.07793",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "doi:10.1007/bf01388520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2603.29260",
+          "target": "doi:10.1007/3-540-27596-7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.30257",
+          "target": "arxiv:2603.29260",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.05921",
+          "target": "arxiv:2602.06553",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.05921",
+          "target": "doi:10.1038/s41586-021-04086-x",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.05921",
+          "target": "arxiv:2511.02864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.13546",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.13546",
+          "target": "arxiv:2511.02864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17798",
+          "target": "doi:10.1007/bf01231537",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17798",
+          "target": "arxiv:2603.29260",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17798",
+          "target": "arxiv:1209.4146",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2610.17798",
+          "target": "arxiv:2601.07793",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.16894",
+          "target": "s2:828957262fa5a734a4ad848ae1c70f4de350f420",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.16894",
+          "target": "arxiv:2601.07793",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 10,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2605.22763",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2605.22763",
+            "ids": {
+              "arxiv": "2605.22763",
+              "doi": "10.1126/science.aej2213",
+              "openalex": "W7162098200"
+            },
+            "title": "Advancing mathematics research with AI-driven formal proof search",
+            "year": 2026,
+            "venue": "Science",
+            "citations": 65,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.22763",
+              "pdf": "https://arxiv.org/pdf/2605.22763",
+              "doi": "https://doi.org/10.1126/science.aej2213"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1126/science.aar6404",
+            "ids": {
+              "doi": "10.1126/science.aar6404",
+              "s2": "f9717d29840f4d8f1cc19d1b1e80c5d12ec40608"
+            },
+            "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+            "year": 2018,
+            "venue": "Science",
+            "citations": 4367,
+            "influential_citations": 220,
+            "is_review": false,
+            "tldr": "This paper generalizes the AlphaZero approach into a single AlphaZero algorithm that can achieve superhuman performance in many challenging games, and convincingly defeated a world champion program in the games of chess and shogi (Japanese chess), as well as Go.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f9717d29840f4d8f1cc19d1b1e80c5d12ec40608",
+              "doi": "https://doi.org/10.1126/science.aar6404"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.15626",
+            "ids": {
+              "arxiv": "2306.15626",
+              "doi": "10.48550/arxiv.2306.15626",
+              "s2": "87875a07976c26f82705de1fc70041169e5d652b"
+            },
+            "title": "LeanDojo: Theorem Proving with Retrieval-Augmented Language Models",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 670,
+            "influential_citations": 77,
+            "is_review": false,
+            "tldr": "This paper introduces LeanDojo: an open-source Lean playground consisting of toolkits, data, models, and benchmarks, and develops ReProver (Retrieval-Augmented Prover): an LLM-based prover augmented with retrieval for selecting premises from a vast math library.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.15626",
+              "pdf": "https://arxiv.org/pdf/2306.15626",
+              "doi": "https://doi.org/10.48550/arxiv.2306.15626"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1910.09336",
+            "ids": {
+              "arxiv": "1910.09336",
+              "doi": "10.1145/3372885.3373824",
+              "s2": "9df88155d6b65e14e06f8dcd851d31b7753659b1"
+            },
+            "title": "The lean mathematical library",
+            "year": 2019,
+            "venue": "Certified Programs and Proofs",
+            "citations": 582,
+            "influential_citations": 58,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1910.09336",
+              "pdf": "https://arxiv.org/pdf/1910.09336",
+              "doi": "https://doi.org/10.1145/3372885.3373824"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41586-023-06924-6",
+            "ids": {
+              "doi": "10.1038/s41586-023-06924-6",
+              "s2": "d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3"
+            },
+            "title": "Mathematical discoveries from program search with large language models",
+            "year": 2023,
+            "venue": "Nature",
+            "citations": 1688,
+            "influential_citations": 70,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d32ba88571141ed0ebe7aeefbaa4ccaf8cda7be3",
+              "doi": "https://doi.org/10.1038/s41586-023-06924-6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/3-540-45949-9",
+            "ids": {
+              "doi": "10.1007/3-540-45949-9",
+              "s2": "628b6018231ec49782def9f0b83e086a0cdc9b3e"
+            },
+            "title": "Isabelle/HOL",
+            "year": 2002,
+            "venue": "Lecture Notes in Computer Science",
+            "citations": 644,
+            "influential_citations": 35,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/628b6018231ec49782def9f0b83e086a0cdc9b3e",
+              "doi": "https://doi.org/10.1007/3-540-45949-9"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1002/jgt.3190010306",
+            "ids": {
+              "doi": "10.1002/jgt.3190010306",
+              "s2": "f2d3c4b4b1942b75f825bee478ef081a51800bdb"
+            },
+            "title": "Graph reconstruction - a survey",
+            "year": 1977,
+            "venue": "Journal of Graph Theory",
+            "citations": 284,
+            "influential_citations": 11,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f2d3c4b4b1942b75f825bee478ef081a51800bdb",
+              "doi": "https://doi.org/10.1002/jgt.3190010306"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1011.1761",
+            "ids": {
+              "arxiv": "1011.1761",
+              "doi": "10.1080/10618600.2012.638220",
+              "s2": "b5e2857c3afac6461a33f477e139b23b8b06f617"
+            },
+            "title": "Efficient Bayesian Inference for Generalized Bradley–Terry Models",
+            "year": 2010,
+            "citations": 177,
+            "influential_citations": 37,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1011.1761",
+              "pdf": "https://arxiv.org/pdf/1011.1761",
+              "doi": "https://doi.org/10.1080/10618600.2012.638220"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1908.08465",
+            "ids": {
+              "arxiv": "1908.08465",
+              "doi": "10.48550/arxiv.1908.08465",
+              "s2": "763c7a66be643bfeec7956c0aa1a2baf9bbc3146"
+            },
+            "title": "On the convergence of single-call stochastic extra-gradient methods",
+            "year": 2019,
+            "venue": "Neural Information Processing Systems",
+            "citations": 199,
+            "influential_citations": 26,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1908.08465",
+              "pdf": "https://arxiv.org/pdf/1908.08465",
+              "doi": "https://doi.org/10.48550/arxiv.1908.08465"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2106.02326",
+            "ids": {
+              "arxiv": "2106.02326",
+              "s2": "d5cd74054f64ed41a2b0a9f7f78e63a997c41697"
+            },
+            "title": "Fast Extra Gradient Methods for Smooth Structured Nonconvex-Nonconcave Minimax Problems",
+            "year": 2021,
+            "venue": "Neural Information Processing Systems",
+            "citations": 129,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2106.02326",
+              "pdf": "https://arxiv.org/pdf/2106.02326"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2205.10893",
+            "ids": {
+              "arxiv": "2205.10893",
+              "doi": "10.48550/arxiv.2205.10893",
+              "s2": "c2d574f7c6a9e3bafe396ecb4ab639179d6fd92c"
+            },
+            "title": "Thor: Wielding Hammers to Integrate Language Models and Automated Theorem Provers",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 165,
+            "influential_citations": 11,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2205.10893",
+              "pdf": "https://arxiv.org/pdf/2205.10893",
+              "doi": "https://doi.org/10.48550/arxiv.2205.10893"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2510.01346",
+            "ids": {
+              "arxiv": "2510.01346",
+              "doi": "10.48550/arxiv.2510.01346",
+              "s2": "39be23d432ab9c45243fed3dd0bee47b530d8a92"
+            },
+            "title": "Aristotle: IMO-level Automated Theorem Proving",
+            "year": 2025,
+            "venue": "Robotics",
+            "citations": 88,
+            "influential_citations": 10,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2510.01346",
+              "pdf": "https://arxiv.org/pdf/2510.01346",
+              "doi": "https://doi.org/10.48550/arxiv.2510.01346"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2205.08446",
+            "ids": {
+              "arxiv": "2205.08446",
+              "doi": "10.52202/068431-1589",
+              "s2": "2d5bc3fc467adce761ef3947e7f69b6f1a4a6b5c"
+            },
+            "title": "Last-Iterate Convergence of Optimistic Gradient Method for Monotone Variational Inequalities",
+            "year": 2022,
+            "venue": "Neural Information Processing Systems",
+            "citations": 68,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2205.08446",
+              "pdf": "https://arxiv.org/pdf/2205.08446",
+              "doi": "https://doi.org/10.52202/068431-1589"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2208.05925",
+            "ids": {
+              "arxiv": "2208.05925",
+              "doi": "10.48550/arxiv.2208.05925",
+              "s2": "180e6275c01bd20ec7957d24e0ab5d8a713a4514"
+            },
+            "title": "Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization",
+            "year": 2022,
+            "venue": "Journal of machine learning research",
+            "citations": 30,
+            "influential_citations": 8,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2208.05925",
+              "pdf": "https://arxiv.org/pdf/2208.05925",
+              "doi": "https://doi.org/10.48550/arxiv.2208.05925"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2605.13171",
+            "ids": {
+              "arxiv": "2605.13171",
+              "doi": "10.48550/arxiv.2605.13171",
+              "s2": "b02e9f56bf2a5d3b97c32afa5c7a0607d2ec18ac"
+            },
+            "title": "Formal Conjectures: An Open and Evolving Benchmark for Verified Discovery in Mathematics",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 22,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2605.13171",
+              "pdf": "https://arxiv.org/pdf/2605.13171",
+              "doi": "https://doi.org/10.48550/arxiv.2605.13171"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.03303",
+            "ids": {
+              "arxiv": "2606.03303",
+              "doi": "10.48550/arxiv.2606.03303",
+              "s2": "354b4b3d35f11cd8f923870c3e05f28438d5b810"
+            },
+            "title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 19,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.03303",
+              "pdf": "https://arxiv.org/pdf/2606.03303",
+              "doi": "https://doi.org/10.48550/arxiv.2606.03303"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2602.16805",
+            "ids": {
+              "arxiv": "2602.16805",
+              "doi": "10.48550/arxiv.2602.16805",
+              "s2": "319fb7a8515a1666a1c294cdb3b563ee288f3326"
+            },
+            "title": "Simple Baselines are Competitive with Code Evolution",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 13,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2602.16805",
+              "pdf": "https://arxiv.org/pdf/2602.16805",
+              "doi": "https://doi.org/10.48550/arxiv.2602.16805"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2608.11941",
+            "ids": {
+              "arxiv": "2608.11941",
+              "doi": "10.48550/arxiv.2608.11941",
+              "s2": "90ba5e515e12e5e7d7c83876f279ad8749810616"
+            },
+            "title": "OEIS Open: How many conjectures can language models turn into theorems?",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 6,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2608.11941",
+              "pdf": "https://arxiv.org/pdf/2608.11941",
+              "doi": "https://doi.org/10.48550/arxiv.2608.11941"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.08986",
+            "ids": {
+              "arxiv": "2607.08986",
+              "doi": "10.48550/arxiv.2607.08986",
+              "s2": "747da8624d1279cc2ec851edad1c998d2f27c8cb"
+            },
+            "title": "A Formalization of the Mean-Field Derivation of the Vlasov Equation",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 6,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.08986",
+              "pdf": "https://arxiv.org/pdf/2607.08986",
+              "doi": "https://doi.org/10.48550/arxiv.2607.08986"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.15983",
+            "ids": {
+              "arxiv": "2609.15983",
+              "doi": "10.48550/arxiv.2609.15983",
+              "s2": "9bf3ba253769f8fa257fdc44c052c0bb2fdadea8"
+            },
+            "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 5,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.15983",
+              "pdf": "https://arxiv.org/pdf/2609.15983",
+              "doi": "https://doi.org/10.48550/arxiv.2609.15983"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.31182",
+            "ids": {
+              "arxiv": "2606.31182",
+              "doi": "10.48550/arxiv.2606.31182",
+              "s2": "3b8aeb6bb59ac449ca5bd63da024c4ac1e58b21f"
+            },
+            "title": "AI-Assisted Discovery of Convex Relaxations via Dual Agents",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.31182",
+              "pdf": "https://arxiv.org/pdf/2606.31182",
+              "doi": "https://doi.org/10.48550/arxiv.2606.31182"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2606.27386",
+            "ids": {
+              "arxiv": "2606.27386",
+              "doi": "10.48550/arxiv.2606.27386",
+              "s2": "e17c563926148c3ecb6442a80d58fdfc631fad06"
+            },
+            "title": "Agentic Publication Protocol: An Attempt to Modernize Scientific Publication",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2606.27386",
+              "pdf": "https://arxiv.org/pdf/2606.27386",
+              "doi": "https://doi.org/10.48550/arxiv.2606.27386"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2505.14479",
+            "ids": {
+              "arxiv": "2505.14479",
+              "doi": "10.18653/2026.findings-emnlp.501",
+              "s2": "b10de8a95896b6e97862c8fb991a7812d47bd1d1"
+            },
+            "title": "Reliable Proof Generation with LLMs via Analogical Retrieval and Symbolic Verification: A Case Study in Euclidean Geometry",
+            "year": 2025,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 4,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2505.14479",
+              "pdf": "https://arxiv.org/pdf/2505.14479",
+              "doi": "https://doi.org/10.18653/2026.findings-emnlp.501"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2611.09822",
+            "ids": {
+              "arxiv": "2611.09822",
+              "s2": "2dacd3d1c17301d270aafa0eac8d7b3154cada1e"
+            },
+            "title": "Discovering formally verified quantum programs with AI",
+            "year": 2026,
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.09822",
+              "pdf": "https://arxiv.org/pdf/2611.09822"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2605.22763",
+          "target": "doi:10.1126/science.aar6404",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2306.15626",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:1910.09336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "doi:10.1007/3-540-45949-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "doi:10.1002/jgt.3190010306",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:1011.1761",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:1908.08465",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2106.02326",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2205.10893",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2510.01346",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2205.08446",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.22763",
+          "target": "arxiv:2208.05925",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.13171",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.03303",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.16805",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.11941",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.08986",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.15983",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.31182",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.27386",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14479",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09822",
+          "target": "arxiv:2605.22763",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.15626",
+          "target": "arxiv:2205.10893",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2306.15626",
+          "target": "arxiv:1910.09336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2106.02326",
+          "target": "arxiv:1908.08465",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.01346",
+          "target": "doi:10.1126/science.aar6404",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.01346",
+          "target": "arxiv:2306.15626",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2510.01346",
+          "target": "arxiv:2205.10893",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.08446",
+          "target": "arxiv:1908.08465",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2205.08446",
+          "target": "arxiv:2106.02326",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2208.05925",
+          "target": "arxiv:2106.02326",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.13171",
+          "target": "arxiv:2510.01346",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2605.13171",
+          "target": "arxiv:1910.09336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.03303",
+          "target": "arxiv:1910.09336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.03303",
+          "target": "arxiv:2306.15626",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.03303",
+          "target": "arxiv:2605.13171",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2602.16805",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2608.11941",
+          "target": "arxiv:2605.13171",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2609.15983",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2606.31182",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2505.14479",
+          "target": "arxiv:2510.01346",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09822",
+          "target": "doi:10.1038/s41586-023-06924-6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.09822",
+          "target": "arxiv:2510.01346",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 45,
+      "errors": []
+    }
+  ]
+}

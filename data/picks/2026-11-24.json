@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:47:48.587138Z",
+  "candidates_file": "candidates/2026-11-24.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "waves",
+      "score": 0.8641,
+      "adjusted": 0.8641,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.875,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.2,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "20 citations, about 20 a month · Published in SIAM Journal on Scientific Computing",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2506.11277",
+        "ids": {
+          "arxiv": "2506.11277",
+          "doi": "10.1137/25m1768539",
+          "s2": null,
+          "openalex": "W4415068415"
+        },
+        "title": "Analysis of Floating-Point Matrix Multiplication Computed via Integer Arithmetic",
+        "authors": [
+          {
+            "name": "Ahmad Abdelfattah",
+            "affiliation": null
+          },
+          {
+            "name": "Jack J. Dongarra",
+            "affiliation": null
+          },
+          {
+            "name": "Massimiliano Fasi",
+            "affiliation": null
+          },
+          {
+            "name": "Mantas Mikaitis",
+            "affiliation": null
+          },
+          {
+            "name": "Françoise Tisseur",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Ootomo, Ozaki, and Yokota [ Int. J. High Perform. Comput. Appl., 38 (2024), pp. 297–313] have proposed a strategy to recast a floating-point matrix multiplication in terms of integer matrix products. The factors [Formula: see text] and [Formula: see text] are split into integer slices, the product of these slices is computed exactly, and [Formula: see text] is approximated by accumulating these integer products in floating-point arithmetic. This technique is particularly well suited to mixed-precision matrix multiply–accumulate units with integer support, such as the NVIDIA tensor cores or the AMD matrix cores. The number of slices allows for performance-accuracy tradeoffs: more slices yield better accuracy but require more multiplications, which in turn reduce performance. We propose an inexpensive way to estimate the minimum number of multiplications needed to achieve a prescribed level of accuracy. Our error analysis shows that the algorithm may become inaccurate (or inefficient) if rows of [Formula: see text] or columns of [Formula: see text] are badly scaled. We perform a range of numerical experiments, both in simulation and on the latest NVIDIA GPUs, that confirm the analysis and illustrate strengths and weaknesses of the algorithm. Reproducibility of computational results. This paper has been awarded the “SIAM Reproducibility Badge: Code and data available” as a recognition that the authors have followed reproducibility principles valued by SISC and the scientific computing community. Code and data that allow readers to reproduce the results in this paper are available at https://github.com/north-numerical-computing/integer-matrix-multiply-experiments and in the supplementary materials ( integer-matrix-multiply-experiments-main.zip [97.8KB]). [Formula: see text]",
+        "tldr": null,
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-24",
+          "submitted": null,
+          "published": "2026-11-16"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "SIAM Journal on Scientific Computing",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 20,
+          "influential": null,
+          "last_12_months": 18,
+          "per_month": 20.0,
+          "by_year": {
+            "2026": 18,
+            "2025": 2
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2506.11277",
+          "pdf": "https://arxiv.org/pdf/2506.11277",
+          "doi": "https://doi.org/10.1137/25m1768539",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-24T13:41:41.714654Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "graph-theory",
+      "funnel": "waves",
+      "score": 0.798,
+      "adjusted": 0.6783,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.8125,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.375,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "10 citations, about 6 a month · Published in International Mathematics Research Notices",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2601.01235",
+        "ids": {
+          "arxiv": "2601.01235",
+          "doi": "10.1093/imrn/rnag222",
+          "s2": "f0b2760da1de1712d66f7bc7eec3da10e1774d5b",
+          "openalex": "W7118458454"
+        },
+        "title": "Bruhat intervals that are large hypercubes",
+        "authors": [
+          {
+            "name": "Jordan S. Ellenberg",
+            "affiliation": null
+          },
+          {
+            "name": "Nicolás Libedinsky",
+            "affiliation": null
+          },
+          {
+            "name": "David Plaza",
+            "affiliation": null
+          },
+          {
+            "name": "José Simental",
+            "affiliation": null
+          },
+          {
+            "name": "Geordie Williamson",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We study the question of finding big Bruhat intervals that are poset hypercubes in the symmetric group $S_{n}$. Using permutations suggested by AlphaEvolve (an evolutionary coding agent developed by Google DeepMind), we were led to an unusual situation in which the agent produced a pattern that performed well for the $n$ tested, and that we show works well for general $n$. When $n$ is a power of 2 we exhibit a hypercube of dimension $O(n\\log n)$, matching the largest possible dimension up to a constant multiple. Furthermore, we give an exact characterization of the vertices of this hypercube: they are precisely the dyadically well-distributed permutations—a simple digitwise property that already appeared in connection with Monte Carlo integration and mathematical finance. The maximal dimension of a Bruhat interval that is a hypercube in $S_{n}$ gives a lower bound (and possibly is equal to) the maximal possible coefficient of the second-highest degree term in the Kazhdan–Lusztig $R$-polynomial in $S_{n}$. As a surprising consequence, we obtain a new lower bound of order $n\\log n$ for the maximal number of frozen variables appearing in the cluster algebras attached to the open Richardson varieties in $S_{n}$, and a similar result for moduli spaces of embeddings of Bruhat graphs.",
+        "tldr": null,
+        "topics": [
+          "graph-theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-24",
+          "submitted": null,
+          "published": "2026-10-01"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "International Mathematics Research Notices",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 10,
+          "influential": 1,
+          "last_12_months": 15,
+          "per_month": 5.637,
+          "by_year": {
+            "2026": 15
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2601.01235",
+          "pdf": "https://arxiv.org/pdf/2601.01235",
+          "doi": "https://doi.org/10.1093/imrn/rnag222",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-24T13:41:41.714654Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "waves",
+      "score": 0.7821,
+      "adjusted": 0.5651,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.7286,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.2,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "65 citations, about 42 a month · Published in Science",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2605.22763",
+        "ids": {
+          "arxiv": "2605.22763",
+          "doi": "10.1126/science.aej2213",
+          "s2": null,
+          "openalex": "W7162098200"
+        },
+        "title": "Advancing mathematics research with AI-driven formal proof search",
+        "authors": [
+          {
+            "name": "George Tsoukalas",
+            "affiliation": null
+          },
+          {
+            "name": "Anton Kovsharov",
+            "affiliation": null
+          },
+          {
+            "name": "S. Shirobokov",
+            "affiliation": null
+          },
+          {
+            "name": "Anja Surina",
+            "affiliation": null
+          },
+          {
+            "name": "Moritz Firsching",
+            "affiliation": null
+          },
+          {
+            "name": "Gergely Bérczi",
+            "affiliation": null
+          },
+          {
+            "name": "Francisco J. R. Ruiz",
+            "affiliation": null
+          },
+          {
+            "name": "Arun Suggala",
+            "affiliation": null
+          },
+          {
+            "name": "Adam Zsolt Wagner",
+            "affiliation": null
+          },
+          {
+            "name": "Eric Wieser",
+            "affiliation": null
+          },
+          {
+            "name": "Lei Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Aja Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Miklós Z. Horváth",
+            "affiliation": null
+          },
+          {
+            "name": "Andrew Ferrauiolo",
+            "affiliation": null
+          },
+          {
+            "name": "Henryk Michalewski",
+            "affiliation": null
+          },
+          {
+            "name": "Codruţ Grosu",
+            "affiliation": null
+          },
+          {
+            "name": "Edward Lockhart",
+            "affiliation": null
+          },
+          {
+            "name": "Thomas Hubert",
+            "affiliation": null
+          },
+          {
+            "name": "Matej Balog",
+            "affiliation": null
+          },
+          {
+            "name": "Pushmeet Kohli",
+            "affiliation": null
+          },
+          {
+            "name": "Swarat Chaudhuri",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Large language models (LLMs) increasingly excel at mathematics tasks, but their unreliability limits their utility in mathematics research. A mitigation is to use LLMs to generate formal proofs in languages such as Lean, in which the compiler verifies every proof step. We present the first demonstration of this method's value in solving open problems at scale. We built an artificial intelligence agent for formal proof search that autonomously resolved nine of 353 open Erdős problems, proved 44/492 On-Line Encyclopedia of Integer Sequences conjectures, and is being deployed in combinatorics, optimization, graph theory, algebraic geometry, and quantum optics research. Even a basic agent alternating LLM-based generation with Lean-based verification replicated the Erdős successes. These findings demonstrate the power of formal proof search as an enabler of autonomous mathematical discovery.",
+        "tldr": null,
+        "topics": [
+          "ml",
+          "ai",
+          "nlp",
+          "theory"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-24",
+          "submitted": null,
+          "published": "2026-10-08"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Science",
+          "venue_type": "journal",
+          "evidence": "openalex_published_version"
+        },
+        "citations": {
+          "total": 65,
+          "influential": null,
+          "last_12_months": 64,
+          "per_month": 42.098,
+          "by_year": {
+            "2026": 64,
+            "2025": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2605.22763",
+          "pdf": "https://arxiv.org/pdf/2605.22763",
+          "doi": "https://doi.org/10.1126/science.aej2213",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-24T13:41:41.714654Z"
+      }
+    }
+  ]
+}
