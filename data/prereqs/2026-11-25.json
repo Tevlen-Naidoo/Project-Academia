@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T13:00:23.326728Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.29338",
+      "pick_title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "source": "s2",
+      "references_seen": 35,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "s2:d07284a6811f1b2745d91bdb06b040b57f226882",
+            "ids": {
+              "s2": "d07284a6811f1b2745d91bdb06b040b57f226882"
+            },
+            "title": "Decoupled Weight Decay Regularization",
+            "year": 2017,
+            "venue": "International Conference on Learning Representations",
+            "citations": 43125,
+            "influential_citations": 7355,
+            "is_review": false,
+            "tldr": "This work proposes a simple modification to recover the original formulation of weight decay regularization by decoupling the weight decay from the optimization steps taken w.r.t. the loss function, and provides empirical evidence that this modification substantially improves Adam's generalization performance.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d07284a6811f1b2745d91bdb06b040b57f226882"
+            }
+          },
+          "label": "background",
+          "score": 8.641,
+          "reasons": [
+            "Influential reference for this paper",
+            "43k citations"
+          ],
+          "quote": "We use the AdamW optimizer [20] with a peak learning rate of 1 × 10 − 5 , a cosine learning-rate schedule, a warmup ratio of 0.01, and weight decay of 0.1.",
+          "supports": [
+            "arxiv:2611.29338"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1021/ac60319a045",
+            "ids": {
+              "doi": "10.1021/ac60319a045",
+              "s2": "6fa16f9d4e50a6923b4d0525ffe3057147a2c4d3"
+            },
+            "title": "Smoothing and differentiation of data by simplified least square procedure.",
+            "year": 1964,
+            "venue": "Analytical Chemistry",
+            "citations": 20879,
+            "influential_citations": 479,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6fa16f9d4e50a6923b4d0525ffe3057147a2c4d3",
+              "doi": "https://doi.org/10.1021/ac60319a045"
+            }
+          },
+          "label": "background",
+          "score": 7.796,
+          "reasons": [
+            "Influential reference for this paper",
+            "21k citations"
+          ],
+          "quote": "…the frame level, we mask redundant idle segments before, after, and between motions (pauses longer than 0.5 s), together with action outliers, jerky motions, abrupt signal spikes [27, 32], and extreme values that would distort normalization; an episode is dropped only when such frames dominate it.",
+          "supports": [
+            "arxiv:2611.29338"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2504.16054",
+            "ids": {
+              "arxiv": "2504.16054",
+              "doi": "10.48550/arxiv.2504.16054",
+              "s2": "1e2a82ef5e0325a26ca0344c4f8c256c52fae7ec"
+            },
+            "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+            "year": 2025,
+            "venue": "arXiv.org",
+            "citations": 2983,
+            "influential_citations": 598,
+            "is_review": false,
+            "tldr": "A new model based onpi 0.5 is described that uses co-training on heterogeneous tasks to enable broad generalization and is demonstrated for the first time that an end-to-end learning-enabled robotic system can perform long-horizon and dexterous manipulation skills, such as cleaning a kitchen or bedroom, in entirely new homes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2504.16054",
+              "pdf": "https://arxiv.org/pdf/2504.16054",
+              "doi": "https://doi.org/10.48550/arxiv.2504.16054"
+            }
+          },
+          "label": "background",
+          "score": 7.169,
+          "reasons": [
+            "Influential reference for this paper",
+            "3.0k citations"
+          ],
+          "quote": "5 [14], X-VLA [42], and StarVLA [8].",
+          "supports": [
+            "arxiv:2611.29338"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2510.26848",
+      "pick_title": "Cosmological and High-Energy Physics Implications from Gravitational-Wave Background Searches in LIGO-Virgo-KAGRA’s O1–O4a Runs",
+      "source": "openalex",
+      "references_seen": 385,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.1051/0004-6361/201525830",
+            "ids": {
+              "doi": "10.1051/0004-6361/201525830",
+              "openalex": "W4292875581"
+            },
+            "title": "Planck 2015 results: XIII. Cosmological parameters",
+            "year": 2016,
+            "venue": "Astronomy and Astrophysics",
+            "citations": 16684,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4292875581",
+              "doi": "https://doi.org/10.1051/0004-6361/201525830"
+            }
+          },
+          "label": "background",
+          "score": 3.378,
+          "reasons": [
+            "17k citations"
+          ],
+          "supports": [
+            "arxiv:2510.26848"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.119.161101",
+            "ids": {
+              "doi": "10.1103/physrevlett.119.161101",
+              "openalex": "W2765081049"
+            },
+            "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+            "year": 2017,
+            "venue": "Physical Review Letters",
+            "citations": 12223,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2765081049",
+              "doi": "https://doi.org/10.1103/physrevlett.119.161101"
+            }
+          },
+          "label": "background",
+          "score": 3.27,
+          "reasons": [
+            "12k citations"
+          ],
+          "supports": [
+            "arxiv:2510.26848"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1103/physrevlett.38.1440",
+            "ids": {
+              "doi": "10.1103/physrevlett.38.1440",
+              "openalex": "W2061044423"
+            },
+            "title": "CP Conservation in the Presence of Pseudoparticles",
+            "year": 1977,
+            "venue": "Physical Review Letters",
+            "citations": 9523,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2061044423",
+              "doi": "https://doi.org/10.1103/physrevlett.38.1440"
+            }
+          },
+          "label": "background",
+          "score": 3.183,
+          "reasons": [
+            "9.5k citations"
+          ],
+          "supports": [
+            "arxiv:2510.26848"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 2f93b895761b5f5f4059c594b7759b48ea5f5f0b: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/2f93b895761b5f5f4059c594b7759b48ea5f5f0b/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.28857",
+      "pick_title": "Thakaa at AlexandriaX-2026: Who Gets the Final Say? Assigning Output Authority in Dialectal Arabic Machine Translation and Error Detection",
+      "source": "s2",
+      "references_seen": 31,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2022.wmt-1.52",
+            "ids": {
+              "doi": "10.18653/v1/2022.wmt-1.52",
+              "s2": "5f0a1418494c5c8cc669fbf3a3a8395020122a2a"
+            },
+            "title": "COMET-22: Unbabel-IST 2022 Submission for the Metrics Shared Task",
+            "year": 2022,
+            "venue": "Conference on Machine Translation",
+            "citations": 623,
+            "influential_citations": 128,
+            "is_review": false,
+            "tldr": "The joint contribution of Unbabel and IST to the WMT 2022 Metrics Shared Task is presented and both submissions show improved correlations compared to state-of-the-art metrics from last year as well as increased robustness to critical errors.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5f0a1418494c5c8cc669fbf3a3a8395020122a2a",
+              "doi": "https://doi.org/10.18653/v1/2022.wmt-1.52"
+            }
+          },
+          "label": "background",
+          "score": 6.291,
+          "reasons": [
+            "Influential reference for this paper",
+            "623 citations"
+          ],
+          "quote": "COMET-22 (Rei et al., 2022) changes 60.2% of selections, largely toward the NileChat soup, and falls below the strongest standalone candidate on both official metrics.",
+          "supports": [
+            "arxiv:2611.28857"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.15343",
+            "ids": {
+              "arxiv": "2407.15343",
+              "doi": "10.48550/arxiv.2407.15343",
+              "s2": "7ac673e51c89a3658496bb0e22572f58650f23d5"
+            },
+            "title": "Improving Minimum Bayes Risk Decoding with Multi-Prompt",
+            "year": 2024,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 26,
+            "influential_citations": 4,
+            "is_review": false,
+            "tldr": "This work shows multi-prompt improves MBR across a comprehensive set of conditional generation tasks, and shows this is a result of estimating a more diverse and higher quality candidate space than that of a single prompt.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.15343",
+              "pdf": "https://arxiv.org/pdf/2407.15343",
+              "doi": "https://doi.org/10.48550/arxiv.2407.15343"
+            }
+          },
+          "label": "background",
+          "score": 4.495,
+          "reasons": [
+            "Influential reference for this paper",
+            "26 citations"
+          ],
+          "quote": "Exact development Shapley values over all 256 coalitions of the eight tested jurors sum to that diagnostic pool’s +0.4329 improvement over four-candidate MBR.",
+          "supports": [
+            "arxiv:2611.28857"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1804.08771",
+            "ids": {
+              "arxiv": "1804.08771",
+              "doi": "10.18653/v1/w18-6319",
+              "s2": "b4bfadfca9742bb3ee98a0cd322d5ce4e59a3ceb"
+            },
+            "title": "A Call for Clarity in Reporting BLEU Scores",
+            "year": 2018,
+            "venue": "Conference on Machine Translation",
+            "citations": 3878,
+            "influential_citations": 419,
+            "is_review": false,
+            "tldr": "Pointing to the success of the parsing community, it is suggested machine translation researchers settle upon the BLEU scheme, which does not allow for user-supplied reference processing, and provide a new tool, SACREBLEU, to facilitate this.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1804.08771",
+              "pdf": "https://arxiv.org/pdf/1804.08771",
+              "doi": "https://doi.org/10.18653/v1/w18-6319"
+            }
+          },
+          "label": "background",
+          "score": 4.183,
+          "reasons": [
+            "3.9k citations"
+          ],
+          "supports": [
+            "arxiv:2611.28857"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T12:59:39.819954Z",
+  "candidates_file": "candidates/2026-11-25.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "robotics",
+      "funnel": "fresh",
+      "score": 0.9422,
+      "adjusted": 0.9422,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9603,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9286,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "56 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.29338",
+        "ids": {
+          "arxiv": "2611.29338",
+          "doi": null,
+          "s2": "be17eb6a0b77dc38dbab185d5bc72dbc2386197c",
+          "openalex": "W7239438733"
+        },
+        "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+        "authors": [
+          {
+            "name": "Meng-Hao Guo",
+            "affiliation": null
+          },
+          {
+            "name": "Yi Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Zhe-Han Mo",
+            "affiliation": null
+          },
+          {
+            "name": "Han-Zheng Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Jia-Jun Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xin-Sheng Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Jiaxi Song",
+            "affiliation": null
+          },
+          {
+            "name": "Yi-Xuan Deng",
+            "affiliation": null
+          },
+          {
+            "name": "Jia-Ning Li",
+            "affiliation": null
+          },
+          {
+            "name": "Xuanyu Chu",
+            "affiliation": null
+          },
+          {
+            "name": "Hengrui Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Huan-ang Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Yongming Rao",
+            "affiliation": null
+          },
+          {
+            "name": "Shi-Min Hu",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explicit progress descriptions. Meanwhile, CP-SFT uses an explicit robot-specific system prompt to constrain manipulation outputs to a structured action space, aiming to focus adaptation on robot-specific contexts and promote specialization while minimizing interference with broader pretrained capabilities. With this formulation, we train nanoAstra on more than 5,000 hours of robot data together with general VQA data. On RoboTwin 2.0's randomized benchmark, nanoAstra-9B achieves a 17.8% zero-shot success rate, substantially outperforming advanced VLA and WAM baselines as well as similarly sized VLMs. With inference faster than the corresponding motion execution on a single H20 GPU, our model supports action-chunk-like streaming execution that overlaps inference with motion, reducing the robot's idle time from 35.0% to 6.9%.",
+        "tldr": "N nanoAstra is introduced, an approach to training vision-language models for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT) and represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explicit progress descriptions.",
+        "topics": [
+          "robotics",
+          "ml",
+          "ai",
+          "vision"
+        ],
+        "source_categories": [
+          "cs.RO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-25",
+          "submitted": "2026-11-22",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 1,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 1.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 56,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.29338",
+          "pdf": "https://arxiv.org/pdf/2611.29338",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-25T12:53:27.881295Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "light",
+      "topic": "astronomy",
+      "funnel": "waves",
+      "score": 0.9391,
+      "adjusted": 0.9391,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9516,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.6818,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "26 citations, about 23 a month · Published in Physical Review X",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2510.26848",
+        "ids": {
+          "arxiv": "2510.26848",
+          "doi": "10.1103/dlfv-z6m2",
+          "s2": "2f93b895761b5f5f4059c594b7759b48ea5f5f0b",
+          "openalex": "W4415910184"
+        },
+        "title": "Cosmological and High-Energy Physics Implications from Gravitational-Wave Background Searches in LIGO-Virgo-KAGRA’s O1–O4a Runs",
+        "authors": [
+          {
+            "name": "Adrian Abac",
+            "affiliation": null
+          },
+          {
+            "name": "I. Abouelfettouh",
+            "affiliation": null
+          },
+          {
+            "name": "F. Acernese",
+            "affiliation": null
+          },
+          {
+            "name": "K. Ackley",
+            "affiliation": null
+          },
+          {
+            "name": "Christian Adamcewicz",
+            "affiliation": null
+          },
+          {
+            "name": "S. Adhicary",
+            "affiliation": null
+          },
+          {
+            "name": "D. Adhikari",
+            "affiliation": null
+          },
+          {
+            "name": "N. Adhikari",
+            "affiliation": null
+          },
+          {
+            "name": "R. X. Adhikari",
+            "affiliation": null
+          },
+          {
+            "name": "V. K. Adkins",
+            "affiliation": null
+          },
+          {
+            "name": "Samsuzzaman Afroz",
+            "affiliation": null
+          },
+          {
+            "name": "A. Agapito",
+            "affiliation": null
+          },
+          {
+            "name": "D. Agarwal",
+            "affiliation": null
+          },
+          {
+            "name": "M. Agathos",
+            "affiliation": null
+          },
+          {
+            "name": "N. Aggarwal",
+            "affiliation": null
+          },
+          {
+            "name": "S. Aggarwal",
+            "affiliation": null
+          },
+          {
+            "name": "O. D. Aguiar",
+            "affiliation": null
+          },
+          {
+            "name": "I.-L. Ahrend",
+            "affiliation": null
+          },
+          {
+            "name": "L. Aiello",
+            "affiliation": null
+          },
+          {
+            "name": "A. Ain",
+            "affiliation": null
+          },
+          {
+            "name": "P. Ajith",
+            "affiliation": null
+          },
+          {
+            "name": "Tomotada Akutsu",
+            "affiliation": null
+          },
+          {
+            "name": "Simone Albanesi",
+            "affiliation": null
+          },
+          {
+            "name": "W. Ali",
+            "affiliation": null
+          },
+          {
+            "name": "S. Al-Kershi",
+            "affiliation": null
+          },
+          {
+            "name": "C. Alléné",
+            "affiliation": null
+          },
+          {
+            "name": "A. Allocca",
+            "affiliation": null
+          },
+          {
+            "name": "S. Al-Shammari",
+            "affiliation": null
+          },
+          {
+            "name": "P. A. Altin",
+            "affiliation": null
+          },
+          {
+            "name": "S. Álvarez-López",
+            "affiliation": null
+          },
+          {
+            "name": "W. Amar",
+            "affiliation": null
+          },
+          {
+            "name": "O. Amarasinghe",
+            "affiliation": null
+          },
+          {
+            "name": "A. Amato",
+            "affiliation": null
+          },
+          {
+            "name": "F. Amicucci",
+            "affiliation": null
+          },
+          {
+            "name": "C. Amra",
+            "affiliation": null
+          },
+          {
+            "name": "A. Ananyeva",
+            "affiliation": null
+          },
+          {
+            "name": "S. B. Anderson",
+            "affiliation": null
+          },
+          {
+            "name": "Warren G. Anderson",
+            "affiliation": null
+          },
+          {
+            "name": "M. Andia",
+            "affiliation": null
+          },
+          {
+            "name": "M. Ando",
+            "affiliation": null
+          },
+          {
+            "name": "Marc Andrés-Carcasona",
+            "affiliation": null
+          },
+          {
+            "name": "T. Andrić",
+            "affiliation": null
+          },
+          {
+            "name": "J. Anglin",
+            "affiliation": null
+          },
+          {
+            "name": "Stefano Ansoldi",
+            "affiliation": null
+          },
+          {
+            "name": "Javier Mauricio Antelis",
+            "affiliation": null
+          },
+          {
+            "name": "S. Antier",
+            "affiliation": null
+          },
+          {
+            "name": "M. Aoumi",
+            "affiliation": null
+          },
+          {
+            "name": "E. Z. Appavuravther",
+            "affiliation": null
+          },
+          {
+            "name": "S. Appert",
+            "affiliation": null
+          },
+          {
+            "name": "S. K. Apple",
+            "affiliation": null
+          },
+          {
+            "name": "Koji Arai",
+            "affiliation": null
+          },
+          {
+            "name": "A. Araya",
+            "affiliation": null
+          },
+          {
+            "name": "M. C. Araya",
+            "affiliation": null
+          },
+          {
+            "name": "M. Arca Sedda",
+            "affiliation": null
+          },
+          {
+            "name": "J. S. Areeda",
+            "affiliation": null
+          },
+          {
+            "name": "N. Aritomi",
+            "affiliation": null
+          },
+          {
+            "name": "F. Armato",
+            "affiliation": null
+          },
+          {
+            "name": "Sharon Armstrong",
+            "affiliation": null
+          },
+          {
+            "name": "N. Arnaud",
+            "affiliation": null
+          },
+          {
+            "name": "M. Arogeti",
+            "affiliation": null
+          },
+          {
+            "name": "S.M Aronson",
+            "affiliation": null
+          },
+          {
+            "name": "G. Ashton",
+            "affiliation": null
+          },
+          {
+            "name": "Y. Aso",
+            "affiliation": null
+          },
+          {
+            "name": "L. Asprea",
+            "affiliation": null
+          },
+          {
+            "name": "M. Assiduo",
+            "affiliation": null
+          },
+          {
+            "name": "S. Assis de Souza Melo",
+            "affiliation": null
+          },
+          {
+            "name": "S. M. Aston",
+            "affiliation": null
+          },
+          {
+            "name": "P. Astone",
+            "affiliation": null
+          },
+          {
+            "name": "F. Attadio",
+            "affiliation": null
+          },
+          {
+            "name": "F. Aubin",
+            "affiliation": null
+          },
+          {
+            "name": "K. AultONeal",
+            "affiliation": null
+          },
+          {
+            "name": "Guerino Avallone",
+            "affiliation": null
+          },
+          {
+            "name": "E. A. Avila",
+            "affiliation": null
+          },
+          {
+            "name": "S. Babak",
+            "affiliation": null
+          },
+          {
+            "name": "C. Badger",
+            "affiliation": null
+          },
+          {
+            "name": "S. Bae",
+            "affiliation": null
+          },
+          {
+            "name": "S. Bagnasco",
+            "affiliation": null
+          },
+          {
+            "name": "Luca Baiotti",
+            "affiliation": null
+          },
+          {
+            "name": "R. Bajpai",
+            "affiliation": null
+          },
+          {
+            "name": "T. Baka",
+            "affiliation": null
+          },
+          {
+            "name": "A. M. Baker",
+            "affiliation": null
+          },
+          {
+            "name": "K. A. Baker",
+            "affiliation": null
+          },
+          {
+            "name": "Tessa Baker",
+            "affiliation": null
+          },
+          {
+            "name": "G. Baldi",
+            "affiliation": null
+          },
+          {
+            "name": "N. Baldicchi",
+            "affiliation": null
+          },
+          {
+            "name": "M. Ball",
+            "affiliation": null
+          },
+          {
+            "name": "G. Ballardin",
+            "affiliation": null
+          },
+          {
+            "name": "S. W. Ballmer",
+            "affiliation": null
+          },
+          {
+            "name": "S. Banagiri",
+            "affiliation": null
+          },
+          {
+            "name": "B. Banerjee",
+            "affiliation": null
+          },
+          {
+            "name": "D. Bankar",
+            "affiliation": null
+          },
+          {
+            "name": "T. M. Baptiste",
+            "affiliation": null
+          },
+          {
+            "name": "Pratyusava Baral",
+            "affiliation": null
+          },
+          {
+            "name": "M. Baratti",
+            "affiliation": null
+          },
+          {
+            "name": "J. C. Barayoga",
+            "affiliation": null
+          },
+          {
+            "name": "B. C. Barish",
+            "affiliation": null
+          },
+          {
+            "name": "D. Barker",
+            "affiliation": null
+          },
+          {
+            "name": "N. Barman",
+            "affiliation": null
+          },
+          {
+            "name": "P. Barneo",
+            "affiliation": null
+          },
+          {
+            "name": "F. Barone",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We search for gravitational-wave background signals produced by various early Universe processes in the Advanced LIGO O4a dataset, combined with the data from the earlier O1, O2, and O3 (LIGO-Virgo) runs. The absence of detectable signals enables powerful constraints on fundamental physics. We derive gravitational-wave background energy density upper limits from the O1–O4a data to constrain parameters associated with various possible processes in the early Universe: first-order phase transitions, cosmic strings, domain walls, stiff equation of state, axion inflation, second-order scalar perturbations, primordial black hole binaries, and parity violation. In our analyses, the presence of an astrophysical background produced by compact (black hole and neutron star) binary coalescences throughout the Universe is also considered. We address the implications for various cosmological and high-energy physics models based on the obtained parameter constraints. We conclude that LIGO-Virgo data already yield significant constraints on numerous early Universe scenarios.",
+        "tldr": null,
+        "topics": [
+          "astronomy"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-25",
+          "submitted": null,
+          "published": "2026-10-22"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Physical Review X",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 26,
+          "influential": 4,
+          "last_12_months": 49,
+          "per_month": 23.278,
+          "by_year": {
+            "2026": 49,
+            "2025": 2
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2510.26848",
+          "pdf": "https://arxiv.org/pdf/2510.26848",
+          "doi": "https://doi.org/10.1103/dlfv-z6m2",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-25T12:53:27.881295Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "nlp",
+      "funnel": "fresh",
+      "score": 0.7641,
+      "adjusted": 0.7641,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9375,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9375,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.4286,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in Proceedings of The Fourth Arabic Natural Language Processing Conference: Shared Tasks · 2 citations, about 2 a month",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.28857",
+        "ids": {
+          "arxiv": "2611.28857",
+          "doi": "10.18653/2026.arabicnlp-sharedtasks.109",
+          "s2": "5fd24162fbd51a1f4905e5b0e934f9a023876898",
+          "openalex": "W7224497185"
+        },
+        "title": "Thakaa at AlexandriaX-2026: Who Gets the Final Say? Assigning Output Authority in Dialectal Arabic Machine Translation and Error Detection",
+        "authors": [
+          {
+            "name": "Meshal Alamr",
+            "affiliation": null
+          },
+          {
+            "name": "Maryam Altuwaijri",
+            "affiliation": null
+          },
+          {
+            "name": "Hassan Alqaeri",
+            "affiliation": null
+          },
+          {
+            "name": "Abdullah Aldahlawi",
+            "affiliation": null
+          }
+        ],
+        "abstract": "We report first-place systems for all four evaluated AlexandriaX-2026 settings: both English-to-dialect translation tracks, cross-dialect translation, and translation-error detection. In unconstrained translation, our minimum Bayes risk (MBR) selection restricts output authority: four local systems can supply the translation, while seven additional systems contribute only reference evidence. Candidate-constrained MBR beats the strongest complete candidate in all 13 dialects and gains 1.2554 macro spBLEU overall, reaching 33.4891. It also surpasses a retrospective oracle selecting the best whole candidate system per dialect. In the constrained track, country-routed LoRA adapters over a shared NileChat-3B-Base backbone incorporate the released Libyan and Sudanese supervision absent from the training and development splits, raising macro spBLEU from 29.5969 to 30.4233. Post-evaluation, a single adapter trained on all released Alexandria data reaches 30.4733 macro spBLEU; averaging model weights across three training seeds raises this to 30.9726 while retaining one model for inference. For cross-dialect translation, nonparallel target-dialect retrieval guides deliberation, raising Gemma-4-31B-IT without fine-tuning from 24.6898 to 28.4011 spBLEU. For translation-error detection, GPT-5.5 proposes semantic error regions, while MARBERTv2 controls their character boundaries and corroborates additional spans, raising Overall from 0.4691 to 0.4982.",
+        "tldr": "First-place systems for all four evaluated AlexandriaX-2026 settings are reported: both English-to-dialect translation tracks, cross-dialect translation, and translation-error detection, with candidate-constrained MBR beating the strongest complete candidate in all 13 dialects and gaining 1.2554 macro spBLEU overall.",
+        "topics": [
+          "nlp",
+          "ml",
+          "ai"
+        ],
+        "source_categories": [
+          "cs.CL"
+        ],
+        "dates": {
+          "first_seen": "2026-11-25",
+          "submitted": "2026-11-21",
+          "published": "2026-11-21"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Proceedings of The Fourth Arabic Natural Language Processing Conference: Shared Tasks",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 2,
+          "influential": 2,
+          "last_12_months": 1,
+          "per_month": 2.0,
+          "by_year": {
+            "2026": 1
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.28857",
+          "pdf": "https://arxiv.org/pdf/2611.28857",
+          "doi": "https://doi.org/10.18653/2026.arabicnlp-sharedtasks.109",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-25T12:53:27.881295Z"
+      }
+    }
+  ]
+}
