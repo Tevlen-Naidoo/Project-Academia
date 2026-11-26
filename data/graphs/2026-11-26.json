@@ -1,0 +1,780 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:39:52.200061Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.34849",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34849",
+            "ids": {
+              "arxiv": "2611.34849"
+            },
+            "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34849",
+              "pdf": "https://arxiv.org/pdf/2611.34849"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.34849: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.34849/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.34575",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34575",
+            "ids": {
+              "arxiv": "2611.34575"
+            },
+            "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+            "year": 2026,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34575",
+              "pdf": "https://arxiv.org/pdf/2611.34575"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for ARXIV:2611.34575: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.34575/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.32303",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.32303",
+            "ids": {
+              "arxiv": "2611.32303",
+              "doi": "10.1109/ACCESS.2024.3518204",
+              "s2": "545c15961eb4d602ee1fd2638a1ccf25e6716d0f",
+              "openalex": "W4405429479"
+            },
+            "title": "ArabFake: A multitask deep learning framework for Arabic fake news Detection, Categorization, and risk prediction",
+            "year": 2026,
+            "venue": "IEEE Access",
+            "citations": 17,
+            "influential_citations": 3,
+            "is_review": false,
+            "tldr": "A comprehensive deep-learning framework that goes beyond the binary classification on Arabic fake news detection, named ArabFake, that has practical implications on news organizations and fact checking projects is introduced.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.32303",
+              "pdf": "https://arxiv.org/pdf/2611.32303",
+              "doi": "https://doi.org/10.1109/ACCESS.2024.3518204"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/n19-1423",
+            "ids": {
+              "doi": "10.18653/v1/n19-1423",
+              "openalex": "W2963341956"
+            },
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "year": 2019,
+            "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+            "citations": 95934,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2963341956",
+              "doi": "https://doi.org/10.18653/v1/n19-1423"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1810.04805",
+            "ids": {
+              "arxiv": "1810.04805",
+              "doi": "10.48550/arxiv.1810.04805",
+              "openalex": "W2896457183"
+            },
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "year": 2018,
+            "venue": "arXiv",
+            "citations": 64095,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1810.04805",
+              "pdf": "https://arxiv.org/pdf/1810.04805",
+              "doi": "https://doi.org/10.48550/arxiv.1810.04805"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1301.3781",
+            "ids": {
+              "arxiv": "1301.3781",
+              "doi": "10.48550/arxiv.1301.3781",
+              "openalex": "W1614298861"
+            },
+            "title": "Efficient Estimation of Word Representations in Vector Space",
+            "year": 2013,
+            "venue": "arXiv",
+            "citations": 44447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1301.3781",
+              "pdf": "https://arxiv.org/pdf/1301.3781",
+              "doi": "https://doi.org/10.48550/arxiv.1301.3781"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/2020.emnlp-demos.6",
+            "ids": {
+              "doi": "10.18653/v1/2020.emnlp-demos.6",
+              "openalex": "W2979826702"
+            },
+            "title": "Transformers: State-of-the-Art Natural Language Processing",
+            "year": 2020,
+            "venue": "Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)",
+            "citations": 17939,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2979826702",
+              "doi": "https://doi.org/10.18653/v1/2020.emnlp-demos.6"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2003.00104",
+            "ids": {
+              "arxiv": "2003.00104",
+              "doi": "10.48550/arxiv.2003.00104",
+              "openalex": "W3008110149"
+            },
+            "title": "AraBERT: Transformer-based Model for Arabic Language Understanding",
+            "year": 2020,
+            "venue": "arXiv",
+            "citations": 1718,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2003.00104",
+              "pdf": "https://arxiv.org/pdf/2003.00104",
+              "doi": "https://doi.org/10.48550/arxiv.2003.00104"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "openalex:W2097732278",
+            "ids": {
+              "openalex": "W2097732278"
+            },
+            "title": "Learning word embeddings efficiently with noise-contrastive estimation",
+            "year": 2013,
+            "venue": "neural information processing systems",
+            "citations": 653,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2097732278"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.procs.2017.10.117",
+            "ids": {
+              "doi": "10.1016/j.procs.2017.10.117",
+              "openalex": "W2767784948"
+            },
+            "title": "AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP",
+            "year": 2017,
+            "venue": "Procedia Computer Science",
+            "citations": 602,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2767784948",
+              "doi": "https://doi.org/10.1016/j.procs.2017.10.117"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/info13060273",
+            "ids": {
+              "doi": "10.3390/info13060273",
+              "openalex": "W4281889937"
+            },
+            "title": "A Literature Review of Textual Hate Speech Detection Methods and Datasets",
+            "year": 2022,
+            "venue": "Information",
+            "citations": 263,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4281889937",
+              "doi": "https://doi.org/10.3390/info13060273"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-319-99740-7_12",
+            "ids": {
+              "doi": "10.1007/978-3-319-99740-7_12",
+              "openalex": "W2832139998"
+            },
+            "title": "A Combined CNN and LSTM Model for Arabic Sentiment Analysis",
+            "year": 2018,
+            "venue": "Lecture notes in computer science",
+            "citations": 254,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2832139998",
+              "doi": "https://doi.org/10.1007/978-3-319-99740-7_12"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2102.10684",
+            "ids": {
+              "arxiv": "2102.10684",
+              "doi": "10.48550/arxiv.2102.10684",
+              "openalex": "W3133440961"
+            },
+            "title": "Pre-Training BERT on Arabic Tweets: Practical Considerations",
+            "year": 2021,
+            "venue": "arXiv",
+            "citations": 203,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2102.10684",
+              "pdf": "https://arxiv.org/pdf/2102.10684",
+              "doi": "https://doi.org/10.48550/arxiv.2102.10684"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "openalex:W2574075017",
+            "ids": {
+              "openalex": "W2574075017"
+            },
+            "title": "Word Embeddings and Convolutional Neural Network for Arabic Sentiment Classification",
+            "year": 2016,
+            "venue": "International Conference on Computational Linguistics",
+            "citations": 201,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2574075017"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/w19-4621",
+            "ids": {
+              "doi": "10.18653/v1/w19-4621",
+              "openalex": "W2964573145"
+            },
+            "title": "Mazajak: An Online Arabic Sentiment Analyser",
+            "year": 2019,
+            "venue": "Arabic Natural Language Processing Workshop (WANLP)",
+            "citations": 181,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2964573145",
+              "doi": "https://doi.org/10.18653/v1/w19-4621"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1611.04033",
+            "ids": {
+              "arxiv": "1611.04033",
+              "doi": "10.48550/arxiv.1611.04033",
+              "openalex": "W4297663785"
+            },
+            "title": "1.5 billion words Arabic Corpus",
+            "year": 2016,
+            "venue": "arXiv",
+            "citations": 154,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1611.04033",
+              "pdf": "https://arxiv.org/pdf/1611.04033",
+              "doi": "https://doi.org/10.48550/arxiv.1611.04033"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/bigdata.2016.7841054",
+            "ids": {
+              "doi": "10.1109/bigdata.2016.7841054",
+              "openalex": "W2584934697"
+            },
+            "title": "Word embeddings for Arabic sentiment analysis",
+            "year": 2016,
+            "venue": "IEEE International Conference on Big Data (BigData)",
+            "citations": 144,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2584934697",
+              "doi": "https://doi.org/10.1109/bigdata.2016.7841054"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/w19-4619",
+            "ids": {
+              "doi": "10.18653/v1/w19-4619",
+              "openalex": "W2970814728"
+            },
+            "title": "OSIAN: Open Source International Arabic News Corpus - Preparation and Integration into the CLARIN-infrastructure",
+            "year": 2019,
+            "venue": "Arabic Natural Language Processing Workshop (WANLP)",
+            "citations": 128,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2970814728",
+              "doi": "https://doi.org/10.18653/v1/w19-4619"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s1351324923000402",
+            "ids": {
+              "doi": "10.1017/s1351324923000402",
+              "openalex": "W4385723172"
+            },
+            "title": "Emojis as anchors to detect Arabic offensive language and hate speech",
+            "year": 2023,
+            "venue": "Natural Language Engineering",
+            "citations": 93,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4385723172",
+              "doi": "https://doi.org/10.1017/s1351324923000402"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s11042-023-14347-8",
+            "ids": {
+              "doi": "10.1007/s11042-023-14347-8",
+              "openalex": "W4318618625"
+            },
+            "title": "A novel machine learning and face recognition technique for fake accounts detection system on cyber social networks",
+            "year": 2023,
+            "venue": "Multimedia Tools and Applications",
+            "citations": 59,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W4318618625",
+              "doi": "https://doi.org/10.1007/s11042-023-14347-8"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/info12020084",
+            "ids": {
+              "doi": "10.3390/info12020084",
+              "openalex": "W3130015284"
+            },
+            "title": "The Evolution of Language Models Applied to Emotion Analysis of Arabic Tweets",
+            "year": 2021,
+            "venue": "Information",
+            "citations": 53,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W3130015284",
+              "doi": "https://doi.org/10.3390/info12020084"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/app151910659",
+            "ids": {
+              "doi": "10.3390/app151910659",
+              "s2": "54bfb3f921599294792865ef5c58e6acecc8a458"
+            },
+            "title": "Toward Transparent Modeling: A Scoping Review of Explainability for Arabic Sentiment Analysis",
+            "year": 2025,
+            "venue": "Applied Sciences",
+            "citations": 5,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/54bfb3f921599294792865ef5c58e6acecc8a458",
+              "doi": "https://doi.org/10.3390/app151910659"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-026-49960-8",
+            "ids": {
+              "doi": "10.1038/s41598-026-49960-8",
+              "s2": "1e00080d1ccd2665c86e5757ed9567a0fd187acc"
+            },
+            "title": "AraBLA: cross-layer enhanced AraBERT with BiLSTM and attention for Arabic fake news detection",
+            "year": 2026,
+            "venue": "Scientific Reports",
+            "citations": 3,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1e00080d1ccd2665c86e5757ed9567a0fd187acc",
+              "doi": "https://doi.org/10.1038/s41598-026-49960-8"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-025-30299-5",
+            "ids": {
+              "doi": "10.1038/s41598-025-30299-5",
+              "s2": "c88fe429054aee1cb9720db81cfb89ea4f89c466"
+            },
+            "title": "A hybrid contrastive graph neural network framework for fake news and hate speech detection using content and user interaction signals",
+            "year": 2025,
+            "venue": "Scientific Reports",
+            "citations": 3,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c88fe429054aee1cb9720db81cfb89ea4f89c466",
+              "doi": "https://doi.org/10.1038/s41598-025-30299-5"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/icima64861.2025.11074096",
+            "ids": {
+              "doi": "10.1109/icima64861.2025.11074096",
+              "s2": "625f68fa3a7ac3fee322e8f40733ff5ded03a181"
+            },
+            "title": "Enhancing Deepfake Detection Through Facial Pattern Recognition and Transfer Learning",
+            "year": 2025,
+            "venue": "International Conference on Industrial Mechatronics and Automation",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/625f68fa3a7ac3fee322e8f40733ff5ded03a181",
+              "doi": "https://doi.org/10.1109/icima64861.2025.11074096"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.71097/ijsat.v16.i2.5305",
+            "ids": {
+              "doi": "10.71097/ijsat.v16.i2.5305",
+              "s2": "63efb062bb31582d2cf52a23cde0c554be688e8b"
+            },
+            "title": "Fake News Detection Using Hybrid Transformer-Based Model",
+            "year": 2025,
+            "venue": "International Journal for Sciences and Technology",
+            "citations": 2,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/63efb062bb31582d2cf52a23cde0c554be688e8b",
+              "doi": "https://doi.org/10.71097/ijsat.v16.i2.5305"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.array.2026.100924",
+            "ids": {
+              "doi": "10.1016/j.array.2026.100924",
+              "s2": "bea497d0883e7e6841fa657fae17908d594565b9"
+            },
+            "title": "MAFIA-Net: Multimodal Arabic fake-news identification via hybrid attention networks",
+            "year": 2026,
+            "venue": "Array",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bea497d0883e7e6841fa657fae17908d594565b9",
+              "doi": "https://doi.org/10.1016/j.array.2026.100924"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.dim.2026.100149",
+            "ids": {
+              "doi": "10.1016/j.dim.2026.100149",
+              "s2": "c3bb52215cdc4d0f8fe60226c9b3dd8c38cced95"
+            },
+            "title": "An Arabic Fake News Dataset with Fine-Tuned Language Models for Misinformation Detection",
+            "year": 2026,
+            "venue": "Data and Information Management",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/c3bb52215cdc4d0f8fe60226c9b3dd8c38cced95",
+              "doi": "https://doi.org/10.1016/j.dim.2026.100149"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/3849391",
+            "ids": {
+              "doi": "10.1145/3849391",
+              "s2": "a4ad81c51aa9d87cd890630912a126b393dccf1e"
+            },
+            "title": "TRIDENT-SE: Translation-Divergence and Intent Graph Learning for Cross-Lingual Phishing and Social Engineering Detection in Arabic–English Communication",
+            "year": 2026,
+            "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/a4ad81c51aa9d87cd890630912a126b393dccf1e",
+              "doi": "https://doi.org/10.1145/3849391"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.36548/jitdw.2026.4.004",
+            "ids": {
+              "doi": "10.36548/jitdw.2026.4.004",
+              "s2": "bce49d1cb6eb89bdb457f0c541662d81e99b0609"
+            },
+            "title": "A Technical Review of Fake News Detection: Progression from Textual Analysis to Multimodal and Knowledge-Aware Learning",
+            "year": 2026,
+            "venue": "Journal of Information Technology and Digital World",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bce49d1cb6eb89bdb457f0c541662d81e99b0609",
+              "doi": "https://doi.org/10.36548/jitdw.2026.4.004"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.66224/jist.49506.14.54.142",
+            "ids": {
+              "doi": "10.66224/jist.49506.14.54.142",
+              "s2": "8545641c7aa47f6fdcad83d41b4205186aac0223"
+            },
+            "title": "A Hybrid Deep Neural Network for Arabic Fake News Classification based on\n Temporal CNN and BiLSTM with Attention",
+            "year": 2026,
+            "venue": "Journal of Information Systems and Telecommunication (JIST)",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8545641c7aa47f6fdcad83d41b4205186aac0223",
+              "doi": "https://doi.org/10.66224/jist.49506.14.54.142"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.18653/v1/n19-1423",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "arxiv:1810.04805",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "arxiv:1301.3781",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.18653/v1/2020.emnlp-demos.6",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "arxiv:2003.00104",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "openalex:W2097732278",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.1016/j.procs.2017.10.117",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.3390/info13060273",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.1007/978-3-319-99740-7_12",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "arxiv:2102.10684",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "openalex:W2574075017",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.18653/v1/w19-4621",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "arxiv:1611.04033",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.1109/bigdata.2016.7841054",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.18653/v1/w19-4619",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.1017/s1351324923000402",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.1007/s11042-023-14347-8",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.32303",
+          "target": "doi:10.3390/info12020084",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/app151910659",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-026-49960-8",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-025-30299-5",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/icima64861.2025.11074096",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.71097/ijsat.v16.i2.5305",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.array.2026.100924",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.dim.2026.100149",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1145/3849391",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.36548/jitdw.2026.4.004",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.66224/jist.49506.14.54.142",
+          "target": "arxiv:2611.32303",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 17,
+      "errors": []
+    }
+  ]
+}

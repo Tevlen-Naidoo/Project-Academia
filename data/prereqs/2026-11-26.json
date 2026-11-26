@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:39:52.200061Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.34849",
+      "pick_title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.34849: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.34849/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.34849: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.34849?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.34575",
+      "pick_title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": [
+        "S2 references for ARXIV:2611.34575: HTTPStatusError: Client error '404 Not Found' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.34575/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAlex references for doi:10.48550/arXiv.2611.34575: HTTPStatusError: Client error '404 Not Found' for url 'https://api.openalex.org/works/doi:10.48550/arXiv.2611.34575?select=id%2Creferenced_works&api_key=O1Uap6HBIHDyUKaOtmeXdE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.32303",
+      "pick_title": "ArabFake: A multitask deep learning framework for Arabic fake news Detection, Categorization, and risk prediction",
+      "source": "openalex",
+      "references_seen": 55,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.18653/v1/n19-1423",
+            "ids": {
+              "doi": "10.18653/v1/n19-1423",
+              "openalex": "W2963341956"
+            },
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "year": 2019,
+            "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+            "citations": 95934,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://openalex.org/W2963341956",
+              "doi": "https://doi.org/10.18653/v1/n19-1423"
+            }
+          },
+          "label": "background",
+          "score": 3.986,
+          "reasons": [
+            "96k citations"
+          ],
+          "supports": [
+            "arxiv:2611.32303"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1810.04805",
+            "ids": {
+              "arxiv": "1810.04805",
+              "doi": "10.48550/arxiv.1810.04805",
+              "openalex": "W2896457183"
+            },
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "year": 2018,
+            "venue": "arXiv",
+            "citations": 64095,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1810.04805",
+              "pdf": "https://arxiv.org/pdf/1810.04805",
+              "doi": "https://doi.org/10.48550/arxiv.1810.04805"
+            }
+          },
+          "label": "background",
+          "score": 3.845,
+          "reasons": [
+            "64k citations"
+          ],
+          "supports": [
+            "arxiv:2611.32303"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:1301.3781",
+            "ids": {
+              "arxiv": "1301.3781",
+              "doi": "10.48550/arxiv.1301.3781",
+              "openalex": "W1614298861"
+            },
+            "title": "Efficient Estimation of Word Representations in Vector Space",
+            "year": 2013,
+            "venue": "arXiv",
+            "citations": 44447,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1301.3781",
+              "pdf": "https://arxiv.org/pdf/1301.3781",
+              "doi": "https://doi.org/10.48550/arxiv.1301.3781"
+            }
+          },
+          "label": "background",
+          "score": 3.718,
+          "reasons": [
+            "44k citations"
+          ],
+          "supports": [
+            "arxiv:2611.32303"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": [
+        "S2 references for 545c15961eb4d602ee1fd2638a1ccf25e6716d0f: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/545c15961eb4d602ee1fd2638a1ccf25e6716d0f/references?fields=isInfluential%2Cintents%2Ccontexts%2CpaperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy%2Cs2FieldsOfStudy&limit=1000"
+      ]
+    }
+  ]
+}

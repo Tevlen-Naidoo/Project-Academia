@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:39:16.332572Z",
+  "candidates_file": "candidates/2026-11-26.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 1.0,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9688,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "83 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34849",
+        "ids": {
+          "arxiv": "2611.34849",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+        "authors": [
+          {
+            "name": "Yongchang Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Jie Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Yunhe Ni",
+            "affiliation": null
+          },
+          {
+            "name": "Ningyu Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Guangyu Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Ruixun Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Rui Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Yidi Wu",
+            "affiliation": null
+          },
+          {
+            "name": "TianZe Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Zixiang Jiang",
+            "affiliation": null
+          },
+          {
+            "name": "Xiang Li",
+            "affiliation": null
+          },
+          {
+            "name": "Kevin Shen",
+            "affiliation": null
+          },
+          {
+            "name": "Yiwu Zhong",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to $N \\times M$ integrations when evaluating $N$ methods on $M$ benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover, Real2SimLab provides a pipeline to create training data and reward annotations for real-to-simulation methods. Our pipeline carefully avoids data contamination by filtering out the video recordings that exist in benchmarks. For each video recording, a program is first produced, and then our pipeline computes its reward with the same code that Real2SimLab uses for evaluation. So far, it supports 47 coding agents and 5 non-agent methods on 6 benchmarks. Both the platform and Awesome-Real2Sim, our research map of nearly 300 real-to-simulation papers, are open source, and we invite the Real2SimHub community to build them together.",
+        "tldr": null,
+        "topics": [
+          "vision",
+          "robotics"
+        ],
+        "source_categories": [
+          "cs.RO",
+          "cs.CV"
+        ],
+        "dates": {
+          "first_seen": "2026-11-26",
+          "submitted": "2026-11-25",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 83,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34849",
+          "pdf": "https://arxiv.org/pdf/2611.34849",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-26T12:32:07.014637Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 0.9976,
+      "adjusted": 0.848,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9651,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.5,
+          "weight": 0.1,
+          "known": false
+        },
+        {
+          "signal": "influential",
+          "value": 0.5,
+          "weight": 0.0,
+          "known": false
+        },
+        {
+          "signal": "recency",
+          "value": 0.8571,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "78 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34575",
+        "ids": {
+          "arxiv": "2611.34575",
+          "doi": null,
+          "s2": null,
+          "openalex": null
+        },
+        "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+        "authors": [
+          {
+            "name": "Sage-Med Team",
+            "affiliation": null
+          },
+          {
+            "name": ":",
+            "affiliation": null
+          },
+          {
+            "name": "Ming Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Cheng Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Wei Li",
+            "affiliation": null
+          },
+          {
+            "name": "Rongbin Li",
+            "affiliation": null
+          },
+          {
+            "name": "Feilong Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Junru Hu",
+            "affiliation": null
+          },
+          {
+            "name": "Hongze Zhu",
+            "affiliation": null
+          },
+          {
+            "name": "Qiujuan Yan",
+            "affiliation": null
+          },
+          {
+            "name": "Huanze Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Shaocong Wei",
+            "affiliation": null
+          },
+          {
+            "name": "Siyuan Yan",
+            "affiliation": null
+          },
+          {
+            "name": "Min Cen",
+            "affiliation": null
+          },
+          {
+            "name": "Zhongxing Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Zhonghua Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Lie Ju",
+            "affiliation": null
+          },
+          {
+            "name": "Zhen Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Wenjie Li",
+            "affiliation": null
+          },
+          {
+            "name": "Shiyan Su",
+            "affiliation": null
+          },
+          {
+            "name": "Jing Hao",
+            "affiliation": null
+          },
+          {
+            "name": "Jingyong Liang",
+            "affiliation": null
+          },
+          {
+            "name": "Diping Song",
+            "affiliation": null
+          },
+          {
+            "name": "Fang Yan",
+            "affiliation": null
+          },
+          {
+            "name": "Chenglong Ma",
+            "affiliation": null
+          },
+          {
+            "name": "Junzhi Ning",
+            "affiliation": null
+          },
+          {
+            "name": "Haochen Xue",
+            "affiliation": null
+          },
+          {
+            "name": "Zanting Ye",
+            "affiliation": null
+          },
+          {
+            "name": "Chenrun Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Jinjie Wei",
+            "affiliation": null
+          },
+          {
+            "name": "Yi Xin",
+            "affiliation": null
+          },
+          {
+            "name": "Jianghan Shen",
+            "affiliation": null
+          },
+          {
+            "name": "Siqi Luo",
+            "affiliation": null
+          },
+          {
+            "name": "Jiyao Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Huidong Xie",
+            "affiliation": null
+          },
+          {
+            "name": "Jun Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Rulin Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Longquan Jiang",
+            "affiliation": null
+          },
+          {
+            "name": "Ziyan Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Ying Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Hanxiao Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Junyang Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Mouxiao Bian",
+            "affiliation": null
+          },
+          {
+            "name": "Jiashi Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Chenyu Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Qi Qin",
+            "affiliation": null
+          },
+          {
+            "name": "Jie Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Yiling Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Jiawei Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Kefan Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Jingjing Hua",
+            "affiliation": null
+          },
+          {
+            "name": "Yaoyu Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Huihui Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Tianbin Li",
+            "affiliation": null
+          },
+          {
+            "name": "Jin Ye",
+            "affiliation": null
+          },
+          {
+            "name": "Ziyang Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Shujian Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Zilin Lu",
+            "affiliation": null
+          },
+          {
+            "name": "Jiangtao Yan",
+            "affiliation": null
+          },
+          {
+            "name": "Changkai Ji",
+            "affiliation": null
+          },
+          {
+            "name": "Wenhao Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Xinyi Zeng",
+            "affiliation": null
+          },
+          {
+            "name": "Yuxing Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Hongwei Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Rongzhao Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Jinru Ding",
+            "affiliation": null
+          },
+          {
+            "name": "Yingcheng Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Zhenfei Yin",
+            "affiliation": null
+          },
+          {
+            "name": "Jinzhe Li",
+            "affiliation": null
+          },
+          {
+            "name": "Lu Lu",
+            "affiliation": null
+          },
+          {
+            "name": "Yun Zhong",
+            "affiliation": null
+          },
+          {
+            "name": "Zhishan Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Bingli Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaohan Ren",
+            "affiliation": null
+          },
+          {
+            "name": "Jianmin Qian",
+            "affiliation": null
+          },
+          {
+            "name": "Penghao Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Zhongbo Tian",
+            "affiliation": null
+          },
+          {
+            "name": "Zhenbang Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Peiling Dai",
+            "affiliation": null
+          },
+          {
+            "name": "Mengjing Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Jingyu Zheng",
+            "affiliation": null
+          },
+          {
+            "name": "Pinan Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Shiwei Li",
+            "affiliation": null
+          },
+          {
+            "name": "Victoria Mar",
+            "affiliation": null
+          },
+          {
+            "name": "Cristina Vico-Alonso",
+            "affiliation": null
+          },
+          {
+            "name": "Qiang Wu",
+            "affiliation": null
+          },
+          {
+            "name": "Xianming Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Lingtong Huang",
+            "affiliation": null
+          },
+          {
+            "name": "Dili Song",
+            "affiliation": null
+          },
+          {
+            "name": "Minghui Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Wenlong Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Qipeng Guo",
+            "affiliation": null
+          },
+          {
+            "name": "Yuqiang Li",
+            "affiliation": null
+          },
+          {
+            "name": "Nanqing Dong",
+            "affiliation": null
+          },
+          {
+            "name": "Yun Gu",
+            "affiliation": null
+          },
+          {
+            "name": "Qi Duan",
+            "affiliation": null
+          },
+          {
+            "name": "Hongliang Ren",
+            "affiliation": null
+          },
+          {
+            "name": "Hongming Shan",
+            "affiliation": null
+          },
+          {
+            "name": "Yin Xie",
+            "affiliation": null
+          },
+          {
+            "name": "Xiang An",
+            "affiliation": null
+          },
+          {
+            "name": "Benyou Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Yueming Su",
+            "affiliation": null
+          },
+          {
+            "name": "Yefeng Zheng",
+            "affiliation": null
+          },
+          {
+            "name": "Zongyuan Ge",
+            "affiliation": null
+          },
+          {
+            "name": "Chun-Mei Feng",
+            "affiliation": null
+          },
+          {
+            "name": "Jie Xu",
+            "affiliation": null
+          },
+          {
+            "name": "Yu Qiao",
+            "affiliation": null
+          },
+          {
+            "name": "Junjun He",
+            "affiliation": null
+          },
+          {
+            "name": "Yirong Chen",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model GPT-6.2-Sol across multiple tasks such as comprehensive multimodal understanding, report generation, and visual grounding. Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.",
+        "tldr": null,
+        "topics": [
+          "ai",
+          "vision"
+        ],
+        "source_categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "dates": {
+          "first_seen": "2026-11-26",
+          "submitted": "2026-11-25",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": null,
+          "influential": null,
+          "last_12_months": null,
+          "per_month": null,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 78,
+          "hf_comments": 1,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34575",
+          "pdf": "https://arxiv.org/pdf/2611.34575",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-26T12:32:07.014637Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "nlp",
+      "funnel": "fresh",
+      "score": 0.8778,
+      "adjusted": 0.7461,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9167,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in IEEE Access · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.32303",
+        "ids": {
+          "arxiv": "2611.32303",
+          "doi": "10.1109/ACCESS.2024.3518204",
+          "s2": "545c15961eb4d602ee1fd2638a1ccf25e6716d0f",
+          "openalex": "W4405429479"
+        },
+        "title": "ArabFake: A multitask deep learning framework for Arabic fake news Detection, Categorization, and risk prediction",
+        "authors": [
+          {
+            "name": "Ahmed Maher Khafaga Shehata",
+            "affiliation": null
+          },
+          {
+            "name": "Mohammed Nasser Al-Suqri",
+            "affiliation": null
+          },
+          {
+            "name": "Nour Eldin Mohamed Elshaiekh Osman",
+            "affiliation": null
+          },
+          {
+            "name": "Faten Hamad",
+            "affiliation": null
+          },
+          {
+            "name": "Yousuf Nasser Alhusaini",
+            "affiliation": null
+          },
+          {
+            "name": "Ahmed Mahfouz",
+            "affiliation": null
+          }
+        ],
+        "abstract": "The spread of fake news among Arabic media including social media represents a great challenge to the integrity of information and the trust of the public in it. In this paper, we introduce a comprehensive deep-learning framework, named ArabFake, that goes beyond the binary classification on Arabic fake news detection. ArabFake, built over MARBERTv2 (a state-of-the-art model for multi-dialectal Arabic tweets), proficiently address the complexity of the Arabic language while performing three unified tasks which are fake news detection, content categorization and its risk assessment. The framework promotes efficiency and performance both by enabling multi-task learning through shared knowledge representation across tasks. In order to facilitate development and evaluation, we present the ArabFake Dataset consisting of 2,495 manually labelled news items with labels that are verified by experts regarding fake news categories and risk levels. ArabFake demonstrates robust performance, achieving an F1 score of 94.12% for fake news detection, 84.92% for categorization, and 88.91% for risk zone assessment, highlighting its reliability and effectiveness across multiple tasks. We improve interpretability and extract insight into manipulative techniques by integrating valence scoring as part of the framework that emphasizes misleading linguistic cues used to disseminate fake news within the produced image. The results show that ArabFake is a holistic Arabic fake news detection framework that has practical implications on news organizations and fact checking projects.",
+        "tldr": "A comprehensive deep-learning framework that goes beyond the binary classification on Arabic fake news detection, named ArabFake, that has practical implications on news organizations and fact checking projects is introduced.",
+        "topics": [
+          "nlp",
+          "ml",
+          "ai"
+        ],
+        "source_categories": [
+          "cs.CL",
+          "cs.CR"
+        ],
+        "dates": {
+          "first_seen": "2026-11-26",
+          "submitted": "2026-11-24",
+          "published": "2026-11-24"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "IEEE Access",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 17,
+          "influential": 3,
+          "last_12_months": 17,
+          "per_month": 17.0,
+          "by_year": {
+            "2026": 16,
+            "2025": 6
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.32303",
+          "pdf": "https://arxiv.org/pdf/2611.32303",
+          "doi": "https://doi.org/10.1109/ACCESS.2024.3518204",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-26T12:32:07.014637Z"
+      }
+    }
+  ]
+}
