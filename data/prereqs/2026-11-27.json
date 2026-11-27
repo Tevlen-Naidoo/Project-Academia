@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:24:38.356499Z",
+  "picks": [
+    {
+      "pick_id": "doi:10.3389/fpsyg.2025.1675762",
+      "pick_title": "Exploring the impact of AI-assisted practice applications on music learners’ performance, self-efficacy, and self-regulated learning",
+      "source": "s2",
+      "references_seen": 65,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "doi:10.3758/bf03193146",
+            "ids": {
+              "doi": "10.3758/bf03193146",
+              "s2": "6814d976154b17e41bc79f8694e2372534e50419"
+            },
+            "title": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+            "year": 2007,
+            "venue": "Behavior Research Methods",
+            "citations": 62298,
+            "influential_citations": 14657,
+            "is_review": false,
+            "tldr": "G*Power 3 provides improved effect size calculators and graphic options, supports both distribution-based and design-based input modes, and offers all types of power analyses in which users might be interested.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6814d976154b17e41bc79f8694e2372534e50419",
+              "doi": "https://doi.org/10.3758/bf03193146"
+            }
+          },
+          "label": "background",
+          "score": 8.919,
+          "reasons": [
+            "Influential reference for this paper",
+            "62k citations"
+          ],
+          "quote": "An a priori power analysis was conducted using G*Power 3.1.9.7 (Faul et al., 2007) to approximate the minimum required sample size for the planned mixed-effects model analysis.",
+          "supports": [
+            "doi:10.3389/fpsyg.2025.1675762"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1207/s15430421tip4102_2",
+            "ids": {
+              "doi": "10.1207/s15430421tip4102_2",
+              "s2": "532c4ff8c63cfc711f824b52457a94f1016cc0d4"
+            },
+            "title": "Becoming a Self-Regulated Learner: An Overview",
+            "year": 2002,
+            "citations": 8117,
+            "influential_citations": 860,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/532c4ff8c63cfc711f824b52457a94f1016cc0d4",
+              "doi": "https://doi.org/10.1207/s15430421tip4102_2"
+            }
+          },
+          "label": "background",
+          "score": 8.095,
+          "reasons": [
+            "Influential reference for this paper",
+            "8.1k citations",
+            "Survey: a good entry point"
+          ],
+          "quote": "Initial codes were then generated using a top-down approach, with parent nodes created based on the phases of SRL theory (Zimmerman, 2002).",
+          "supports": [
+            "doi:10.3389/fpsyg.2025.1675762"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/0305735610374895",
+            "ids": {
+              "doi": "10.1177/0305735610374895",
+              "s2": "d4c83c70afa98dc8e3002652347660251e644782"
+            },
+            "title": "Measuring distinct types of musical self-efficacy",
+            "year": 2011,
+            "citations": 144,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d4c83c70afa98dc8e3002652347660251e644782",
+              "doi": "https://doi.org/10.1177/0305735610374895"
+            }
+          },
+          "label": "background",
+          "score": 5.317,
+          "reasons": [
+            "Influential reference for this paper",
+            "144 citations"
+          ],
+          "quote": "Recognizing the distinction between learning an instrument and performing on stage (Nelson, 2023), Ritchie and Williamon (2011) developed the General Musical Self-Efficacy Scale, which differentiates between Music Learning Self-Efficacy (MLSE) and Music Performance Self-Efficacy (MPSE), offering a…",
+          "supports": [
+            "doi:10.3389/fpsyg.2025.1675762"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.34051",
+      "pick_title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.55670/fpll.futech.4.3.12",
+      "pick_title": "Deep Learning models for cultural pattern recognition: preserving intangible heritage of Li ethnic subgroups through intelligent documentation systems",
+      "source": "none",
+      "references_seen": 0,
+      "prerequisites": [],
+      "errors": []
+    }
+  ]
+}

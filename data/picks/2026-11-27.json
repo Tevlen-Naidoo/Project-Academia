@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:24:16.861365Z",
+  "candidates_file": "candidates/2026-11-27.json",
+  "light_day": true,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "light",
+      "topic": "art",
+      "funnel": "waves",
+      "score": 0.9296,
+      "adjusted": 0.9296,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9286,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "34 citations, about 3 a month · Published in Frontiers in Psychology",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.3389/fpsyg.2025.1675762",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.3389/fpsyg.2025.1675762",
+          "s2": "3ab2b2603a7e7b542b077560b67bbb6c9964ebd5",
+          "openalex": "W4415105647"
+        },
+        "title": "Exploring the impact of AI-assisted practice applications on music learners’ performance, self-efficacy, and self-regulated learning",
+        "authors": [
+          {
+            "name": "Jiayi Ou",
+            "affiliation": null
+          },
+          {
+            "name": "João Nogueira",
+            "affiliation": null
+          },
+          {
+            "name": "Chao Qin",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Introduction: Despite significant advancements in artificial intelligence (AI) applications across various disciplines, research on AI's psychological impacts in music learning contexts remains limited. This study explores the effects of AI-assisted practice apps on violin students' self-efficacy, performance outcomes and Self-Regulated Learning (SRL). Methods: A four-month quasi-experimental study was conducted with 40 violin majors from a conservatory in South China. All participants received identical classroom instruction and maintained equivalent daily practice time, but the experimental group (n = 20) used AI-assisted practice app while the control group (n = 20) practiced using regular practice methods. Results: Mixed-effects modelling revealed differentiated impacts on self-efficacy dimensions: while the control group experienced natural decline in Music Learning Self-Efficacy (MLSE) as task difficulty increased, AI intervention enabled the experimental group to maintain stable learning confidence. More notably, the experimental group achieved significant improvements in Music Performance Self-Efficacy (MPSE) with large effect sizes, indicating that AI-assisted practice app possesses distinct advantages in enhancing performance confidence. In terms of performance outcomes, the experimental group demonstrated significant improvement while the control group showed a declining trend. Thematic analysis revealed that AI-assisted practice apps support self-regulated learning (SRL) across three critical phases: providing goal-setting and strategic planning support during the forethought phase, facilitates self-monitoring and self-control during the performance phase, and enabling objective evaluation and strategic adjustment during the self-reflection phase. Discussion: This study enriches understanding of self-efficacy theory in AI technology-enhanced learning environments and demonstrates AI technology's educational value in instrumental music learning.",
+        "tldr": "Understanding of self-efficacy theory in AI technology-enhanced learning environments is enriched and demonstrates AI technology’s educational value in instrumental music learning.",
+        "topics": [
+          "art"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-27",
+          "submitted": null,
+          "published": "2025-10-13"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Frontiers in Psychology",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 34,
+          "influential": 3,
+          "last_12_months": 55,
+          "per_month": 2.524,
+          "by_year": {
+            "2026": 55
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.3389/fpsyg.2025.1675762",
+          "pdf": null,
+          "doi": "https://doi.org/10.3389/fpsyg.2025.1675762",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-27T12:17:21.598508Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9911,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.7143,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "105 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34051",
+        "ids": {
+          "arxiv": "2611.34051",
+          "doi": null,
+          "s2": "a350daf87a26f52a4bffbdf8b049fc989cb00f74",
+          "openalex": "W7240071976"
+        },
+        "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+        "authors": [
+          {
+            "name": "Xichong Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Xixuan Hao",
+            "affiliation": null
+          },
+          {
+            "name": "Zhichen Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Le Zhou",
+            "affiliation": null
+          },
+          {
+            "name": "Zeyu Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Boyu Chen",
+            "affiliation": null
+          },
+          {
+            "name": "Mingfei Lu",
+            "affiliation": null
+          },
+          {
+            "name": "Zehao Lin",
+            "affiliation": null
+          },
+          {
+            "name": "Bo Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Yonggang Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Linyun Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Feiyu Xiong",
+            "affiliation": null
+          },
+          {
+            "name": "Jianlin Su",
+            "affiliation": null
+          },
+          {
+            "name": "Zhiyu Li",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose \\model{}, employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an $O(\\sqrt{T})$ upper bound on recurrent state growth while retaining chunkwise parallel computation. Experiments on ~1.6B parameter models show that \\model{} achieves stable training alongside improved long-context retrieval. Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.",
+        "tldr": "This work proposes a symmetric erasure model, employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility, and establishes an upper bound on recurrent state growth while retaining chunkwise parallel computation.",
+        "topics": [
+          "ml",
+          "nlp",
+          "ai",
+          "vision"
+        ],
+        "source_categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "dates": {
+          "first_seen": "2026-11-27",
+          "submitted": "2026-11-25",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 105,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34051",
+          "pdf": "https://arxiv.org/pdf/2611.34051",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-27T12:17:21.598508Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "vision",
+      "funnel": "waves",
+      "score": 1.0,
+      "adjusted": 0.85,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.15,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.9605,
+          "weight": 0.45,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.9306,
+          "weight": 0.2,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        }
+      ],
+      "reason": "23 citations, about 1 a month · Published in Future Technology",
+      "repick": false,
+      "paper": {
+        "id": "doi:10.55670/fpll.futech.4.3.12",
+        "ids": {
+          "arxiv": null,
+          "doi": "10.55670/fpll.futech.4.3.12",
+          "s2": "6045d628ba0172b722842e4bf74d0f1f1e140254",
+          "openalex": "W4411597770"
+        },
+        "title": "Deep Learning models for cultural pattern recognition: preserving intangible heritage of Li ethnic subgroups through intelligent documentation systems",
+        "authors": [
+          {
+            "name": "Jing Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Kartini Aboo Talib Khalid",
+            "affiliation": null
+          },
+          {
+            "name": "Chan Suet Kay",
+            "affiliation": null
+          }
+        ],
+        "abstract": "This study develops an advanced intelligent documentation system using deep learning models to preserve intangible cultural heritage for the Li ethnic minorities. Traditional heritage documentation models face significant obstacles in systematically capturing oral traditions and inter-group cultural differences. The proposed comprehensive multimodal fusion framework integrates visual pattern analysis through convolutional neural networks, temporal cultural depiction via bidirectional LSTM networks, and semantic comprehension using transformer-based models. Collaborative fieldwork across five Li subgroups (Ha, Qi, Run, Sai, and Meifu) in Hainan Province documented 4,450 cultural samples, including traditional textiles, music, oral traditions, artifacts, and architectural heritage. The five-layer distributed system architecture employs pattern recognition, semantic indexing, and recommendation algorithms for scalable cultural preservation. Experimental results demonstrate remarkable 94.8% accuracy across Li subgroups, significantly outperforming traditional single-modality systems (CNN: 85.3%, RNN: 87.6%, Transformer: 89.4%). System implementation yielded unprecedented improvements in cultural transmission effectiveness: 73% increase in knowledge retention, 121% in skill transfer, and 280% in digital archiving abilities. Community participation increased exponentially, with 340% growth in active users and a 665% increase in monthly contributions. The system achieves robust operational performance with sub-200ms response times and 99.7% stability. User satisfaction and expert evaluation scores of 4.4 and 4.6, respectively, confirm reliable cultural preservation functionality. This framework establishes advanced benchmarks for computational heritage preservation methods, demonstrating the effective integration of technological innovation with ethnographic sensitivity for the sustainable documentation and transmission of minority cultures.",
+        "tldr": "An advanced intelligent documentation system using deep learning models to preserve intangible cultural heritage for the Li ethnic minorities, demonstrating the effective integration of technological innovation with ethnographic sensitivity for the sustainable documentation and transmission of minority cultures.",
+        "topics": [
+          "vision",
+          "history",
+          "culture"
+        ],
+        "source_categories": [],
+        "dates": {
+          "first_seen": "2026-11-27",
+          "submitted": null,
+          "published": "2025-08-15"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Future Technology",
+          "venue_type": null,
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 23,
+          "influential": 2,
+          "last_12_months": 22,
+          "per_month": 1.493,
+          "by_year": {
+            "2026": 21,
+            "2025": 6
+          }
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://doi.org/10.55670/fpll.futech.4.3.12",
+          "pdf": null,
+          "doi": "https://doi.org/10.55670/fpll.futech.4.3.12",
+          "code": null
+        },
+        "funnel": [
+          "waves"
+        ],
+        "fetched_at": "2026-11-27T12:17:21.598508Z"
+      }
+    }
+  ]
+}

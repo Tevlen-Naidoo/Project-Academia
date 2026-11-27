@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:24:38.356499Z",
+  "graphs": [
+    {
+      "pick_id": "doi:10.3389/fpsyg.2025.1675762",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2025.1675762",
+            "ids": {
+              "doi": "10.3389/fpsyg.2025.1675762",
+              "s2": "3ab2b2603a7e7b542b077560b67bbb6c9964ebd5",
+              "openalex": "W4415105647"
+            },
+            "title": "Exploring the impact of AI-assisted practice applications on music learners’ performance, self-efficacy, and self-regulated learning",
+            "year": 2025,
+            "venue": "Frontiers in Psychology",
+            "citations": 34,
+            "influential_citations": 3,
+            "is_review": false,
+            "tldr": "Understanding of self-efficacy theory in AI technology-enhanced learning environments is enriched and demonstrates AI technology’s educational value in instrumental music learning.",
+            "links": {
+              "abstract_page": "https://doi.org/10.3389/fpsyg.2025.1675762",
+              "doi": "https://doi.org/10.3389/fpsyg.2025.1675762"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3758/bf03193146",
+            "ids": {
+              "doi": "10.3758/bf03193146",
+              "s2": "6814d976154b17e41bc79f8694e2372534e50419"
+            },
+            "title": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+            "year": 2007,
+            "venue": "Behavior Research Methods",
+            "citations": 62298,
+            "influential_citations": 14657,
+            "is_review": false,
+            "tldr": "G*Power 3 provides improved effect size calculators and graphic options, supports both distribution-based and design-based input modes, and offers all types of power analyses in which users might be interested.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/6814d976154b17e41bc79f8694e2372534e50419",
+              "doi": "https://doi.org/10.3758/bf03193146"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1207/s15430421tip4102_2",
+            "ids": {
+              "doi": "10.1207/s15430421tip4102_2",
+              "s2": "532c4ff8c63cfc711f824b52457a94f1016cc0d4"
+            },
+            "title": "Becoming a Self-Regulated Learner: An Overview",
+            "year": 2002,
+            "citations": 8117,
+            "influential_citations": 860,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/532c4ff8c63cfc711f824b52457a94f1016cc0d4",
+              "doi": "https://doi.org/10.1207/s15430421tip4102_2"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/0305735610374895",
+            "ids": {
+              "doi": "10.1177/0305735610374895",
+              "s2": "d4c83c70afa98dc8e3002652347660251e644782"
+            },
+            "title": "Measuring distinct types of musical self-efficacy",
+            "year": 2011,
+            "citations": 144,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d4c83c70afa98dc8e3002652347660251e644782",
+              "doi": "https://doi.org/10.1177/0305735610374895"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.lmot.2024.101961",
+            "ids": {
+              "doi": "10.1016/j.lmot.2024.101961",
+              "s2": "30eda9aef36d5703c11384ad9fe04cf2b669dee2"
+            },
+            "title": "Delving into the role of self-efficacy in predicting motivation and engagement among music learners",
+            "year": 2024,
+            "venue": "Learning and Motivation",
+            "citations": 34,
+            "influential_citations": 6,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/30eda9aef36d5703c11384ad9fe04cf2b669dee2",
+              "doi": "https://doi.org/10.1016/j.lmot.2024.101961"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2021.713648",
+            "ids": {
+              "doi": "10.3389/fpsyg.2021.713648",
+              "s2": "adb1c61eb089f157921c0e0e6ce01c2eb06b254d"
+            },
+            "title": "Musicians as “Makers in Society”: A Conceptual Foundation for Contemporary Professional Higher Music Education",
+            "year": 2021,
+            "venue": "Frontiers in Psychology",
+            "citations": 101,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/adb1c61eb089f157921c0e0e6ce01c2eb06b254d",
+              "doi": "https://doi.org/10.3389/fpsyg.2021.713648"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.poetic.2024.101865",
+            "ids": {
+              "doi": "10.1016/j.poetic.2024.101865",
+              "s2": "bbe608237c5ea3d61a7eac9f2734bcb3d36b9d7d"
+            },
+            "title": "Beyond the author: Artificial intelligence, creative writing and intellectual emancipation",
+            "year": 2024,
+            "venue": "Poetics",
+            "citations": 76,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bbe608237c5ea3d61a7eac9f2734bcb3d36b9d7d",
+              "doi": "https://doi.org/10.1016/j.poetic.2024.101865"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/s0265051720000133",
+            "ids": {
+              "doi": "10.1017/s0265051720000133",
+              "s2": "9428a91b790b8a7b8f16f72dc0770a3fe1e01459"
+            },
+            "title": "Editorial Research: Music education in a time of pandemic",
+            "year": 2020,
+            "venue": "British Journal of Music Education",
+            "citations": 94,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9428a91b790b8a7b8f16f72dc0770a3fe1e01459",
+              "doi": "https://doi.org/10.1017/s0265051720000133"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2025.1575591",
+            "ids": {
+              "doi": "10.3389/fpsyg.2025.1575591",
+              "s2": "7c75575f1f375f3846ce4afdbd3f7ad412276142"
+            },
+            "title": "Exploring musical self-efficacy and performance anxiety in young violin learners: insights from mainland China",
+            "year": 2025,
+            "venue": "Frontiers in Psychology",
+            "citations": 14,
+            "influential_citations": 3,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7c75575f1f375f3846ce4afdbd3f7ad412276142",
+              "doi": "https://doi.org/10.3389/fpsyg.2025.1575591"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1177/0305735619854531",
+            "ids": {
+              "doi": "10.1177/0305735619854531",
+              "s2": "bc4358019065f7bc7ea53f245151b2114e73af22"
+            },
+            "title": "Ageing and the orchestra: Self-efficacy and engagement in community music-making",
+            "year": 2019,
+            "venue": "Psychology of Music",
+            "citations": 15,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/bc4358019065f7bc7ea53f245151b2114e73af22",
+              "doi": "https://doi.org/10.1177/0305735619854531"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2023.1208311",
+            "ids": {
+              "doi": "10.3389/fpsyg.2023.1208311",
+              "s2": "2a5e23381bb8e5c4ac096905650e57c551432c25"
+            },
+            "title": "Dispositional and performance-specific music performance anxiety in young amateur musicians",
+            "year": 2023,
+            "venue": "Frontiers in Psychology",
+            "citations": 20,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2a5e23381bb8e5c4ac096905650e57c551432c25",
+              "doi": "https://doi.org/10.3389/fpsyg.2023.1208311"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1063/5.0224734",
+            "ids": {
+              "doi": "10.1063/5.0224734",
+              "s2": "dcf60355b16acd5a1636791d85166021bdc22d3c"
+            },
+            "title": "A review on AI-enabled techniques for evaluating musician’s performance",
+            "year": 2024,
+            "venue": "AIP Conference Proceedings",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/dcf60355b16acd5a1636791d85166021bdc22d3c",
+              "doi": "https://doi.org/10.1063/5.0224734"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2026.1776445",
+            "ids": {
+              "doi": "10.3389/fpsyg.2026.1776445",
+              "s2": "3194ac79e79279cf981fc518d46302f81ac606c7"
+            },
+            "title": "Empowerment or dependency? A systematic review of the impacts of intelligent assessment and generative AI on learners’ self-beliefs and cognitive agency in music education",
+            "year": 2026,
+            "venue": "Frontiers in Psychology",
+            "citations": 15,
+            "influential_citations": 1,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3194ac79e79279cf981fc518d46302f81ac606c7",
+              "doi": "https://doi.org/10.3389/fpsyg.2026.1776445"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/systems14070786",
+            "ids": {
+              "doi": "10.3390/systems14070786",
+              "s2": "4dd0299ea3b7a2b537ea941690138a3e5928fcc6"
+            },
+            "title": "AI Usage and Employee Performance: The Dual Roles of AI Self-Efficacy and AI-Enabled HRM",
+            "year": 2026,
+            "venue": "Syst.",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4dd0299ea3b7a2b537ea941690138a3e5928fcc6",
+              "doi": "https://doi.org/10.3390/systems14070786"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1080/14613808.2026.2672358",
+            "ids": {
+              "doi": "10.1080/14613808.2026.2672358",
+              "s2": "aca1b8d638240aeeb5a081db0aad325e13a2fa6f"
+            },
+            "title": "Music teachers’ perspectives on artificial intelligence tools: opportunities and challenges",
+            "year": 2026,
+            "venue": "Music Education Research",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/aca1b8d638240aeeb5a081db0aad325e13a2fa6f",
+              "doi": "https://doi.org/10.1080/14613808.2026.2672358"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.11591/ijere.v15i2.38450",
+            "ids": {
+              "doi": "10.11591/ijere.v15i2.38450",
+              "s2": "62e39054b19fdf9882080fb2bdd06fb371cde027"
+            },
+            "title": "AI-based scaffolding and conceptual understanding: evidence from Indonesian students using PLS-SEM",
+            "year": 2026,
+            "venue": "International Journal of Evaluation and Research in Education (IJERE)",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/62e39054b19fdf9882080fb2bdd06fb371cde027",
+              "doi": "https://doi.org/10.11591/ijere.v15i2.38450"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-026-43769-1",
+            "ids": {
+              "doi": "10.1038/s41598-026-43769-1",
+              "s2": "3b11f5758313a77bf43af38bb60c538c63d92212"
+            },
+            "title": "Selecting AI-enabled music learning technologies in higher education using AHP and TOPSIS",
+            "year": 2026,
+            "venue": "Scientific Reports",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/3b11f5758313a77bf43af38bb60c538c63d92212",
+              "doi": "https://doi.org/10.1038/s41598-026-43769-1"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2026.1961896",
+            "ids": {
+              "doi": "10.3389/fpsyg.2026.1961896",
+              "s2": "d0e34764baa6e0a632aadc8587123ec5081b04f5"
+            },
+            "title": "Artificial intelligence literacy, artificial intelligence anxiety, and career optimism among university music students: a cross-sectional study",
+            "year": 2026,
+            "venue": "Frontiers in Psychology",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d0e34764baa6e0a632aadc8587123ec5081b04f5",
+              "doi": "https://doi.org/10.3389/fpsyg.2026.1961896"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2026.1956107",
+            "ids": {
+              "doi": "10.3389/fpsyg.2026.1956107",
+              "s2": "d69d554c2245f584621f25cc3333822af06197ef"
+            },
+            "title": "Technology-mediated feedback in instrumental music practice, performance, and learning: a systematic review of feedback architectures, performance outcomes, and effect-size feasibility",
+            "year": 2026,
+            "venue": "Frontiers in Psychology",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d69d554c2245f584621f25cc3333822af06197ef",
+              "doi": "https://doi.org/10.3389/fpsyg.2026.1956107"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.34142/27091805.2026.7.02.05",
+            "ids": {
+              "doi": "10.34142/27091805.2026.7.02.05",
+              "s2": "4b7033d70855cfde44698d50ba843ff9731713a7"
+            },
+            "title": "Digital Feedback and Self-Regulated Learning in Professional Art Education: A Structured Integrative Review and the M-SRL Framework",
+            "year": 2026,
+            "venue": "Professional Art Education",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4b7033d70855cfde44698d50ba843ff9731713a7",
+              "doi": "https://doi.org/10.34142/27091805.2026.7.02.05"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3389/fpsyg.2026.1844841",
+            "ids": {
+              "doi": "10.3389/fpsyg.2026.1844841",
+              "s2": "b83143a9f77c322b259579e4aa082422f3aa2234"
+            },
+            "title": "Beyond output metrics: reframing AI-assisted vocal pedagogy through human learning and educational value",
+            "year": 2026,
+            "venue": "Frontiers in Psychology",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b83143a9f77c322b259579e4aa082422f3aa2234",
+              "doi": "https://doi.org/10.3389/fpsyg.2026.1844841"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-026-54337-y",
+            "ids": {
+              "doi": "10.1038/s41598-026-54337-y",
+              "s2": "9e9893a0973e10e19751e8e098683955b9f33a2b"
+            },
+            "title": "Thoughtless use of generative artificial intelligence and college students’ self-directed learning: a multi-group SEM analysis of gender differences",
+            "year": 2026,
+            "venue": "Scientific Reports",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9e9893a0973e10e19751e8e098683955b9f33a2b",
+              "doi": "https://doi.org/10.1038/s41598-026-54337-y"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.3758/bf03193146",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1207/s15430421tip4102_2",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1177/0305735610374895",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1016/j.lmot.2024.101961",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.3389/fpsyg.2021.713648",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1016/j.poetic.2024.101865",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1017/s0265051720000133",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.3389/fpsyg.2025.1575591",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1177/0305735619854531",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.3389/fpsyg.2023.1208311",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1675762",
+          "target": "doi:10.1063/5.0224734",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1776445",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/systems14070786",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1080/14613808.2026.2672358",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.11591/ijere.v15i2.38450",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-026-43769-1",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1961896",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1956107",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.34142/27091805.2026.7.02.05",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1844841",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-026-54337-y",
+          "target": "doi:10.3389/fpsyg.2025.1675762",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1575591",
+          "target": "doi:10.1177/0305735610374895",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2025.1575591",
+          "target": "doi:10.1016/j.lmot.2024.101961",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3389/fpsyg.2026.1844841",
+          "target": "doi:10.3389/fpsyg.2026.1776445",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-026-54337-y",
+          "target": "doi:10.1207/s15430421tip4102_2",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 34,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.34051",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34051",
+            "ids": {
+              "arxiv": "2611.34051",
+              "s2": "a350daf87a26f52a4bffbdf8b049fc989cb00f74",
+              "openalex": "W7240071976"
+            },
+            "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "This work proposes a symmetric erasure model, employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility, and establishes an upper bound on recurrent state growth while retaining chunkwise parallel computation.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34051",
+              "pdf": "https://arxiv.org/pdf/2611.34051"
+            }
+          },
+          "role": "pick"
+        }
+      ],
+      "edges": [],
+      "citing_seen": 0,
+      "errors": []
+    },
+    {
+      "pick_id": "doi:10.55670/fpll.futech.4.3.12",
+      "nodes": [
+        {
+          "paper": {
+            "id": "doi:10.55670/fpll.futech.4.3.12",
+            "ids": {
+              "doi": "10.55670/fpll.futech.4.3.12",
+              "s2": "6045d628ba0172b722842e4bf74d0f1f1e140254",
+              "openalex": "W4411597770"
+            },
+            "title": "Deep Learning models for cultural pattern recognition: preserving intangible heritage of Li ethnic subgroups through intelligent documentation systems",
+            "year": 2025,
+            "venue": "Future Technology",
+            "citations": 23,
+            "influential_citations": 2,
+            "is_review": false,
+            "tldr": "An advanced intelligent documentation system using deep learning models to preserve intangible cultural heritage for the Li ethnic minorities, demonstrating the effective integration of technological innovation with ethnographic sensitivity for the sustainable documentation and transmission of minority cultures.",
+            "links": {
+              "abstract_page": "https://doi.org/10.55670/fpll.futech.4.3.12",
+              "doi": "https://doi.org/10.55670/fpll.futech.4.3.12"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/app15158260",
+            "ids": {
+              "doi": "10.3390/app15158260",
+              "s2": "5cfd911667173783478655101258e4f22e209512"
+            },
+            "title": "Automated Edge Detection for Cultural Heritage Conservation: Comparative Evaluation of Classical and Deep Learning Methods on Artworks Affected by Natural Disaster Damage",
+            "year": 2025,
+            "venue": "Applied Sciences",
+            "citations": 8,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/5cfd911667173783478655101258e4f22e209512",
+              "doi": "https://doi.org/10.3390/app15158260"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s44163-025-00697-9",
+            "ids": {
+              "doi": "10.1007/s44163-025-00697-9",
+              "s2": "2dca75ac50622c7d846068e12b30c29dd66dcf4d"
+            },
+            "title": "Quantitative assessment of the value of intangible cultural heritage art supported by multimodal machine learning",
+            "year": 2025,
+            "venue": "Discover Artificial Intelligence",
+            "citations": 5,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2dca75ac50622c7d846068e12b30c29dd66dcf4d",
+              "doi": "https://doi.org/10.1007/s44163-025-00697-9"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.3390/app16094064",
+            "ids": {
+              "doi": "10.3390/app16094064",
+              "s2": "8f2245a008666afe093c6915a3125fb2c59aa309"
+            },
+            "title": "Deep-Learning-Based Mobile Application for Real-Time Recognition of Cultural Artifacts in Museum Environments",
+            "year": 2026,
+            "venue": "Applied Sciences",
+            "citations": 3,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8f2245a008666afe093c6915a3125fb2c59aa309",
+              "doi": "https://doi.org/10.3390/app16094064"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1038/s41598-025-31611-z",
+            "ids": {
+              "doi": "10.1038/s41598-025-31611-z",
+              "s2": "23d69dd6cf1aa2f70f06ede71b58b59ec56903af"
+            },
+            "title": "The analysis of bidirectional long short-term memory network model for construction of cultural gene map and information extraction",
+            "year": 2025,
+            "venue": "Scientific Reports",
+            "citations": 2,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/23d69dd6cf1aa2f70f06ede71b58b59ec56903af",
+              "doi": "https://doi.org/10.1038/s41598-025-31611-z"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.29121/shodhkosh.v7.i1s.2026.7073",
+            "ids": {
+              "doi": "10.29121/shodhkosh.v7.i1s.2026.7073",
+              "s2": "7a960dc61b6f5ebb8b3e081f02bc3247632ec98b"
+            },
+            "title": "AI-BASED RESTORATION OF DIGITAL HERITAGE ARTWORKS",
+            "year": 2026,
+            "venue": "ShodhKosh Journal of Visual and Performing Arts",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/7a960dc61b6f5ebb8b3e081f02bc3247632ec98b",
+              "doi": "https://doi.org/10.29121/shodhkosh.v7.i1s.2026.7073"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/smc63593.2026.11788118",
+            "ids": {
+              "doi": "10.1109/smc63593.2026.11788118",
+              "s2": "431f75ade92b3eda3efe1dbbc0cc2e075b4bd6d2"
+            },
+            "title": "TSRC-ViT: A Recognition Model for Ethnic Minority Clothing Images under Long-Tailed Distribution",
+            "year": 2026,
+            "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/431f75ade92b3eda3efe1dbbc0cc2e075b4bd6d2",
+              "doi": "https://doi.org/10.1109/smc63593.2026.11788118"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s44163-026-02017-1",
+            "ids": {
+              "doi": "10.1007/s44163-026-02017-1",
+              "s2": "dc38633d09c8336c622602082d928ad30636145c"
+            },
+            "title": "Virtual display experience design for Yi cultural heritage using CapsGNN and user experience",
+            "year": 2026,
+            "venue": "Discover Artificial Intelligence",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/dc38633d09c8336c622602082d928ad30636145c",
+              "doi": "https://doi.org/10.1007/s44163-026-02017-1"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.53365/nrfhh.1666",
+            "ids": {
+              "doi": "10.53365/nrfhh.1666",
+              "s2": "d680ac8c32c0ffee889477e0588904fbae2ed15d"
+            },
+            "title": "Digital Documentation of Cultural Narratives, Rituals and Processions: A Study of Mahasu Maharaj Traditions in Uttarakhand using AI and IoT",
+            "year": 2026,
+            "venue": "Natural Resources for Human Health",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/d680ac8c32c0ffee889477e0588904fbae2ed15d",
+              "doi": "https://doi.org/10.53365/nrfhh.1666"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s42452-026-09067-1",
+            "ids": {
+              "doi": "10.1007/s42452-026-09067-1",
+              "s2": "9d386487158979bdaac49630366ed4b542fd6270"
+            },
+            "title": "Deep learning-based intelligent generation model for intangible cultural heritage products",
+            "year": 2026,
+            "venue": "Discover Applied Sciences",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9d386487158979bdaac49630366ed4b542fd6270",
+              "doi": "https://doi.org/10.1007/s42452-026-09067-1"
+            }
+          },
+          "role": "citing"
+        },
+        {
+          "paper": {
+            "id": "doi:10.32332/milrev.v5i2.13295",
+            "ids": {
+              "doi": "10.32332/milrev.v5i2.13295",
+              "s2": "f4077dc8db5d9917d4452f000b21270f27d90ad9"
+            },
+            "title": "Reconstructing Legal Protection for Contemporary Intangible Cultural Heritage: An Islamic Law Perspective on the Murut Oral Tradition in Sabah",
+            "year": 2026,
+            "venue": "MILRev: Metro Islamic Law Review",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f4077dc8db5d9917d4452f000b21270f27d90ad9",
+              "doi": "https://doi.org/10.32332/milrev.v5i2.13295"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "doi:10.3390/app15158260",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s44163-025-00697-9",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.3390/app16094064",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1038/s41598-025-31611-z",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.29121/shodhkosh.v7.i1s.2026.7073",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1109/smc63593.2026.11788118",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s44163-026-02017-1",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.53365/nrfhh.1666",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1007/s42452-026-09067-1",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.32332/milrev.v5i2.13295",
+          "target": "doi:10.55670/fpll.futech.4.3.12",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 23,
+      "errors": []
+    }
+  ]
+}
