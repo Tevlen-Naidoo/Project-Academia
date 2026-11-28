@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T11:49:14.364476Z",
+  "candidates_file": "candidates/2026-11-28.json",
+  "light_day": false,
+  "notes": [],
+  "picks": [
+    {
+      "rank": 1,
+      "slot": "open",
+      "topic": "theory",
+      "funnel": "fresh",
+      "score": 0.9517,
+      "adjusted": 0.9517,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.0,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 1.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.7308,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "Published in Information and Computation · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34311",
+        "ids": {
+          "arxiv": "2611.34311",
+          "doi": "10.1016/j.ic.2026.105541",
+          "s2": "0304b07f0d9a666fd59a6db3756ec4dd41e5090e",
+          "openalex": "W7221341472"
+        },
+        "title": "A Complete Axiomatisation of Distribution-Based Branching Bisimilarity for Non-Deterministic and Probabilistic Choice",
+        "authors": [
+          {
+            "name": "Rob J. van Glabbeek",
+            "affiliation": null
+          },
+          {
+            "name": "Jan Friso Groote",
+            "affiliation": null
+          },
+          {
+            "name": "Erik P. de Vink",
+            "affiliation": null
+          }
+        ],
+        "abstract": "This paper proposes a notion of branching bisimilarity for non-deterministic probabilistic processes. In order to characterise the corresponding notion of rooted branching probabilistic bisimilarity, an equational theory is proposed for a basic, recursion-free process language with non-deterministic as well as probabilistic choice. The proof of completeness of the axiomatisation builds on the completeness of strong probabilistic bisimilarity on the one hand and on the notion of a concrete process, i.e. a process that does not display (partially) inert $τ$-moves, on the other hand. The approach is first presented for the non-deterministic fragment of the calculus and next generalised to incorporate probabilistic choice, too.",
+        "tldr": "An equational theory is proposed for a basic, recursion-free process language with non-deterministic as well as probabilistic choice and the proof of completeness of the axiomatisation builds on the completeness of strong probabilistic bisimilarity.",
+        "topics": [
+          "theory"
+        ],
+        "source_categories": [
+          "cs.LO"
+        ],
+        "dates": {
+          "first_seen": "2026-11-28",
+          "submitted": "2026-11-25",
+          "published": "2026-10-01"
+        },
+        "publication": {
+          "status": "published",
+          "venue": "Information and Computation",
+          "venue_type": "journal",
+          "evidence": "s2_venue"
+        },
+        "citations": {
+          "total": 1,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.525,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": null,
+          "hf_comments": null,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34311",
+          "pdf": "https://arxiv.org/pdf/2611.34311",
+          "doi": "https://doi.org/10.1016/j.ic.2026.105541",
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-28T11:43:53.842903Z"
+      }
+    },
+    {
+      "rank": 2,
+      "slot": "open",
+      "topic": "ml",
+      "funnel": "fresh",
+      "score": 0.9828,
+      "adjusted": 0.8354,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9725,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "76 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34923",
+        "ids": {
+          "arxiv": "2611.34923",
+          "doi": null,
+          "s2": "d3ccbd69cf0f1aea6e4d96fa55acc466d5015bf8",
+          "openalex": "W7240026611"
+        },
+        "title": "Mixture-of-Loops Transformer",
+        "authors": [
+          {
+            "name": "Lianghui Zhu",
+            "affiliation": null
+          },
+          {
+            "name": "Shijie Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xinggang Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Jinze Bai",
+            "affiliation": null
+          },
+          {
+            "name": "Bo Wang",
+            "affiliation": null
+          },
+          {
+            "name": "Xiang Bai",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. To balance efficiency and quality, we introduce U-shaped MoLT (U-MoLT), which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. In 100B-token continued pretraining of Qwen3.5-0.8B-Base, our U-MoLT adaptation lowers CE on all 11 domains over the matched baseline with 1.4x mean token efficiency. At inference, U-MoLT with MoL-Hybrid-2 matches non-looped OLMo3 latency at 996.6 vs. 1,000.6 ms on S-size (~113M) models. Code is available at https://github.com/hustvl/MoLT",
+        "tldr": "U-shaped MoLT (U-MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops, is introduced, which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions.",
+        "topics": [
+          "ml",
+          "nlp",
+          "ai",
+          "vision"
+        ],
+        "source_categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "dates": {
+          "first_seen": "2026-11-28",
+          "submitted": "2026-11-25",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 76,
+          "hf_comments": 2,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34923",
+          "pdf": "https://arxiv.org/pdf/2611.34923",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-28T11:43:53.842903Z"
+      }
+    },
+    {
+      "rank": 3,
+      "slot": "open",
+      "topic": "ai",
+      "funnel": "fresh",
+      "score": 0.9327,
+      "adjusted": 0.7928,
+      "breakdown": [
+        {
+          "signal": "buzz",
+          "value": 0.9084,
+          "weight": 0.4,
+          "known": true
+        },
+        {
+          "signal": "status",
+          "value": 0.0,
+          "weight": 0.3,
+          "known": true
+        },
+        {
+          "signal": "citation_speed",
+          "value": 0.0,
+          "weight": 0.1,
+          "known": true
+        },
+        {
+          "signal": "influential",
+          "value": 0.0,
+          "weight": 0.0,
+          "known": true
+        },
+        {
+          "signal": "recency",
+          "value": 0.5714,
+          "weight": 0.2,
+          "known": true
+        }
+      ],
+      "reason": "36 upvotes on Hugging Face · New this week",
+      "repick": false,
+      "paper": {
+        "id": "arxiv:2611.34457",
+        "ids": {
+          "arxiv": "2611.34457",
+          "doi": null,
+          "s2": "e3c811320ae5f365b88497922fe2d27cafaee3cf",
+          "openalex": "W7240042875"
+        },
+        "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+        "authors": [
+          {
+            "name": "Zhenchen Tang",
+            "affiliation": null
+          },
+          {
+            "name": "Haolin Lu",
+            "affiliation": null
+          },
+          {
+            "name": "Songlin Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Xiaotong Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Ran Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Bo Peng",
+            "affiliation": null
+          },
+          {
+            "name": "Shuai Li",
+            "affiliation": null
+          },
+          {
+            "name": "Haotian Fan",
+            "affiliation": null
+          },
+          {
+            "name": "Haobin Zhong",
+            "affiliation": null
+          },
+          {
+            "name": "Yanni Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Songlian Li",
+            "affiliation": null
+          },
+          {
+            "name": "Ning Zhang",
+            "affiliation": null
+          },
+          {
+            "name": "Xun Gao",
+            "affiliation": null
+          },
+          {
+            "name": "Alan Zhao",
+            "affiliation": null
+          },
+          {
+            "name": "Jing Dong",
+            "affiliation": null
+          }
+        ],
+        "abstract": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs. We evaluate five video generators using verified, case-specific checklists. Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding.",
+        "tldr": "Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding, and ProxyGenBench is introduced to study these interacting requirements.",
+        "topics": [
+          "ai",
+          "vision",
+          "image-processing"
+        ],
+        "source_categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "dates": {
+          "first_seen": "2026-11-28",
+          "submitted": "2026-11-25",
+          "published": null
+        },
+        "publication": {
+          "status": "preprint",
+          "venue": null,
+          "venue_type": null,
+          "evidence": "none"
+        },
+        "citations": {
+          "total": 0,
+          "influential": 0,
+          "last_12_months": null,
+          "per_month": 0.0,
+          "by_year": {}
+        },
+        "buzz": {
+          "hf_upvotes": 36,
+          "hf_comments": 3,
+          "hn_points": null,
+          "hn_comments": null,
+          "awards": []
+        },
+        "links": {
+          "abstract_page": "https://arxiv.org/abs/2611.34457",
+          "pdf": "https://arxiv.org/pdf/2611.34457",
+          "doi": null,
+          "code": null
+        },
+        "funnel": [
+          "fresh"
+        ],
+        "fetched_at": "2026-11-28T11:43:53.842903Z"
+      }
+    }
+  ]
+}

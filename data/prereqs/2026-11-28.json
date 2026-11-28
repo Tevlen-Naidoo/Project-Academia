@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T11:49:29.845313Z",
+  "picks": [
+    {
+      "pick_id": "arxiv:2611.34311",
+      "pick_title": "A Complete Axiomatisation of Distribution-Based Branching Bisimilarity for Non-Deterministic and Probabilistic Choice",
+      "source": "s2",
+      "references_seen": 43,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+            "ids": {
+              "s2": "1c157b5422182c0ec38611fefba60008080c64a1"
+            },
+            "title": "Communication and concurrency",
+            "year": 1989,
+            "venue": "PHI Series in computer science",
+            "citations": 9553,
+            "influential_citations": 1477,
+            "is_review": false,
+            "tldr": "This chapter discusses Bisimulation and Observation Equivalence as a Modelling Communication, a Programming Language, and its application to Equational laws.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1c157b5422182c0ec38611fefba60008080c64a1"
+            }
+          },
+          "label": "background",
+          "score": 7.769,
+          "reasons": [
+            "Influential reference for this paper",
+            "9.6k citations"
+          ],
+          "quote": "Not surprisingly, the axioms dealing with a silent step are reminiscent to the well-known τ -laws of Milner [34, 35].",
+          "supports": [
+            "arxiv:2611.34311"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-540-48654-1_35",
+            "ids": {
+              "doi": "10.1007/978-3-540-48654-1_35",
+              "s2": "03ee2b27b00ab270fbede178107dcfaf08d49d94"
+            },
+            "title": "Probabilistic Simulations for Probabilistic Processes",
+            "year": 1994,
+            "venue": "Nordic Journal of Computing",
+            "citations": 872,
+            "influential_citations": 128,
+            "is_review": false,
+            "tldr": "The interesting properties of a system are identified with those that are expressible in an untimed version of the Timed Probabilistic concurrent Computation Tree Logic (TPCTL) of Hansson.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/03ee2b27b00ab270fbede178107dcfaf08d49d94",
+              "doi": "https://doi.org/10.1007/978-3-540-48654-1_35"
+            }
+          },
+          "label": "background",
+          "score": 6.408,
+          "reasons": [
+            "Influential reference for this paper",
+            "872 citations"
+          ],
+          "quote": "This feature makes it coarser, or less discriminating, than the state-based branching probabilistic bisimulation semantics of Segala & Lynch [37], which distinguishes the processes G 0 , G 1 and G 2 .",
+          "supports": [
+            "arxiv:2611.34311"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/233551.233556",
+            "ids": {
+              "doi": "10.1145/233551.233556",
+              "s2": "cfb089b218bf4a62c9c94aa0e7fb2767b74026d5"
+            },
+            "title": "Branching time and abstraction in bisimulation semantics",
+            "year": 1996,
+            "venue": "JACM",
+            "citations": 877,
+            "influential_citations": 78,
+            "is_review": false,
+            "tldr": "This paper investigates whether observation equivalence really does respect the branching structure of processes, and finds that in the presence of the unobservable action τ of CCS this is not the case, and the notion of branching bisimulation equivalence is introduced which strongly preserves the branching structures of processes.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cfb089b218bf4a62c9c94aa0e7fb2767b74026d5",
+              "doi": "https://doi.org/10.1145/233551.233556"
+            }
+          },
+          "label": "background",
+          "score": 6.304,
+          "reasons": [
+            "Influential reference for this paper",
+            "877 citations"
+          ],
+          "quote": "Examples B 1 and B 2 express the axiom called B in [22], cast to the setting of the present paper.",
+          "supports": [
+            "arxiv:2611.34311"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.34923",
+      "pick_title": "Mixture-of-Loops Transformer",
+      "source": "s2",
+      "references_seen": 67,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2609.19969",
+            "ids": {
+              "arxiv": "2609.19969",
+              "s2": "e79f9541258bb9fc026c129f8a0920cfac7a2063"
+            },
+            "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+            "year": 2026,
+            "citations": 276,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "The DeepSeek-V4.1-Flash model, a multimodal Mixture-of-Experts model with 552B backbone parameters and support for contexts of up to one million tokens, is introduced, substantially improving cost efficiency for agentic workloads and pushing the limits of KV cache compression.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.19969",
+              "pdf": "https://arxiv.org/pdf/2609.19969"
+            }
+          },
+          "label": "background",
+          "score": 5.569,
+          "reasons": [
+            "Influential reference for this paper",
+            "276 citations"
+          ],
+          "quote": "Recent frontier architectures have largely advanced this tradeoff through sparser computation, linear attention, and richer cross-layer connectivity [14, 27, 28, 55, 65, 70].",
+          "supports": [
+            "arxiv:2611.34923"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2405.05254",
+            "ids": {
+              "arxiv": "2405.05254",
+              "doi": "10.48550/arxiv.2405.05254",
+              "s2": "1d4c48335d841014d0145256c3c4e7f6c426b8fb"
+            },
+            "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 204,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "A decoder-decoder architecture, YOCO, for large language models, which only caches key-value pairs once, and improves inference memory, prefill latency, and throughput by orders of magnitude across context lengths and model sizes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2405.05254",
+              "pdf": "https://arxiv.org/pdf/2405.05254",
+              "doi": "https://doi.org/10.48550/arxiv.2405.05254"
+            }
+          },
+          "label": "background",
+          "score": 5.465,
+          "reasons": [
+            "Influential reference for this paper",
+            "204 citations"
+          ],
+          "quote": "Recent frontier architectures have largely advanced this tradeoff through sparser computation, linear attention, and richer cross-layer connectivity [14, 27, 28, 55, 65, 70].",
+          "supports": [
+            "arxiv:2611.34923"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+            "ids": {
+              "s2": "9405cc0d6169988371b2755e573cc28650d14dfe"
+            },
+            "title": "Language Models are Unsupervised Multitask Learners",
+            "year": 2019,
+            "citations": 31690,
+            "influential_citations": 4287,
+            "is_review": false,
+            "tldr": "It is demonstrated that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText, suggesting a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+            }
+          },
+          "label": "background",
+          "score": 5.417,
+          "reasons": [
+            "32k citations"
+          ],
+          "quote": "Models and training budgets Following the GPT-S scale convention [6, 47], the S-size ( ∼ 113M) studies use an OLMo3-style pre-norm Transformer backbone of width 768 with grouped-query attention [1], QK normalization, and SwiGLU, organized as either a plain 12-layer model or a 6-layer loop stack…",
+          "supports": [
+            "arxiv:2611.34923"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.34457",
+      "pick_title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "source": "s2",
+      "references_seen": 25,
+      "prerequisites": [
+        {
+          "paper": {
+            "id": "arxiv:2501.06336",
+            "ids": {
+              "arxiv": "2501.06336",
+              "doi": "10.1109/cvpr52734.2025.00566",
+              "s2": "c52e8c5dfeb95ea51ac8fcf55c47921df8cde771"
+            },
+            "title": "MEt3R: Measuring Multi-View Consistency in Generated Images",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 154,
+            "influential_citations": 26,
+            "is_review": false,
+            "tldr": "This work introduces MEt3R, a metric for multi-view consistency in generated images, which can be evaluated independently of the specific scene, and evaluates the consistency of a large set of previous methods for novel view and video generation, including the open, multi-view latent diffusion model.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.06336",
+              "pdf": "https://arxiv.org/pdf/2501.06336",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.00566"
+            }
+          },
+          "label": "background",
+          "score": 5.468,
+          "reasons": [
+            "Influential reference for this paper",
+            "154 citations"
+          ],
+          "quote": "On matched sub-sets, action-transition accuracy rises from 0.894 to 1.000, cross-shot spatial consistency from 0.833 to 0.952, and MEt3R [3] error falls from 0.464 to 0.337.",
+          "supports": [
+            "arxiv:2611.34457"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.06072",
+            "ids": {
+              "arxiv": "2408.06072",
+              "doi": "10.48550/arxiv.2408.06072",
+              "s2": "7b248d78573ccf0dca6aa2cec2743d3eccaa9d1a"
+            },
+            "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2808,
+            "influential_citations": 495,
+            "is_review": false,
+            "tldr": "CogVideoX is adept at producing coherent, long-duration, different shape videos characterized by significant motions, and develops an effective text-video data processing pipeline that includes various data preprocessing strategies and a video captioning method, greatly contributing to the generation quality and semantic alignment.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.06072",
+              "pdf": "https://arxiv.org/pdf/2408.06072",
+              "doi": "https://doi.org/10.48550/arxiv.2408.06072"
+            }
+          },
+          "label": "background",
+          "score": 4.107,
+          "reasons": [
+            "2.8k citations"
+          ],
+          "quote": "Video generation has advanced rapidly in realism, but precise control over how a scene unfolds remains challenging [6, 21, 31].",
+          "supports": [
+            "arxiv:2611.34457"
+          ],
+          "chain": []
+        },
+        {
+          "paper": {
+            "id": "arxiv:2311.17982",
+            "ids": {
+              "arxiv": "2311.17982",
+              "doi": "10.1109/cvpr52733.2024.02060",
+              "s2": "4e9a8141da2a8c603722b07d096109207f8e0b66"
+            },
+            "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 2436,
+            "influential_citations": 436,
+            "is_review": false,
+            "tldr": "VBench is a comprehensive benchmark suite that dissects “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods, and investi-gate the gaps between video and image generation models.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2311.17982",
+              "pdf": "https://arxiv.org/pdf/2311.17982",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02060"
+            }
+          },
+          "label": "background",
+          "score": 4.03,
+          "reasons": [
+            "2.4k citations"
+          ],
+          "quote": "VBench [14] and EvalCrafter [19] evaluate visual quality, temporal consistency, and semantic alignment; VBench-2.",
+          "supports": [
+            "arxiv:2611.34457"
+          ],
+          "chain": []
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

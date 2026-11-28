@@ -1,0 +1,1994 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T11:49:29.845313Z",
+  "graphs": [
+    {
+      "pick_id": "arxiv:2611.34311",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34311",
+            "ids": {
+              "arxiv": "2611.34311",
+              "doi": "10.1016/j.ic.2026.105541",
+              "s2": "0304b07f0d9a666fd59a6db3756ec4dd41e5090e",
+              "openalex": "W7221341472"
+            },
+            "title": "A Complete Axiomatisation of Distribution-Based Branching Bisimilarity for Non-Deterministic and Probabilistic Choice",
+            "year": 2026,
+            "venue": "Information and Computation",
+            "citations": 1,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "An equational theory is proposed for a basic, recursion-free process language with non-deterministic as well as probabilistic choice and the proof of completeness of the axiomatisation builds on the completeness of strong probabilistic bisimilarity.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34311",
+              "pdf": "https://arxiv.org/pdf/2611.34311",
+              "doi": "https://doi.org/10.1016/j.ic.2026.105541"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+            "ids": {
+              "s2": "1c157b5422182c0ec38611fefba60008080c64a1"
+            },
+            "title": "Communication and concurrency",
+            "year": 1989,
+            "venue": "PHI Series in computer science",
+            "citations": 9553,
+            "influential_citations": 1477,
+            "is_review": false,
+            "tldr": "This chapter discusses Bisimulation and Observation Equivalence as a Modelling Communication, a Programming Language, and its application to Equational laws.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1c157b5422182c0ec38611fefba60008080c64a1"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-540-48654-1_35",
+            "ids": {
+              "doi": "10.1007/978-3-540-48654-1_35",
+              "s2": "03ee2b27b00ab270fbede178107dcfaf08d49d94"
+            },
+            "title": "Probabilistic Simulations for Probabilistic Processes",
+            "year": 1994,
+            "venue": "Nordic Journal of Computing",
+            "citations": 872,
+            "influential_citations": 128,
+            "is_review": false,
+            "tldr": "The interesting properties of a system are identified with those that are expressible in an untimed version of the Timed Probabilistic concurrent Computation Tree Logic (TPCTL) of Hansson.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/03ee2b27b00ab270fbede178107dcfaf08d49d94",
+              "doi": "https://doi.org/10.1007/978-3-540-48654-1_35"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/233551.233556",
+            "ids": {
+              "doi": "10.1145/233551.233556",
+              "s2": "cfb089b218bf4a62c9c94aa0e7fb2767b74026d5"
+            },
+            "title": "Branching time and abstraction in bisimulation semantics",
+            "year": 1996,
+            "venue": "JACM",
+            "citations": 877,
+            "influential_citations": 78,
+            "is_review": false,
+            "tldr": "This paper investigates whether observation equivalence really does respect the branching structure of processes, and finds that in the presence of the unobservable action τ of CCS this is not the case, and the notion of branching bisimulation equivalence is introduced which strongly preserves the branching structures of processes.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/cfb089b218bf4a62c9c94aa0e7fb2767b74026d5",
+              "doi": "https://doi.org/10.1145/233551.233556"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/3-540-48224-5_31",
+            "ids": {
+              "doi": "10.1007/3-540-48224-5_31",
+              "s2": "9c267a946330047d7ddc5186d0fbed8a503c3d41"
+            },
+            "title": "Axiomatizations for Probabilistic Bisimulation",
+            "year": 2001,
+            "venue": "International Colloquium on Automata, Languages and Programming",
+            "citations": 91,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9c267a946330047d7ddc5186d0fbed8a503c3d41",
+              "doi": "https://doi.org/10.1007/3-540-48224-5_31"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/j.tcs.2006.12.008",
+            "ids": {
+              "doi": "10.1016/j.tcs.2006.12.008",
+              "s2": "daa4fe879580210f319d4017874dcdd1fa3a4d34"
+            },
+            "title": "Axiomatizations for probabilistic finite-state behaviors",
+            "year": 2005,
+            "venue": "Theoretical Computer Science",
+            "citations": 66,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/daa4fe879580210f319d4017874dcdd1fa3a4d34",
+              "doi": "https://doi.org/10.1016/j.tcs.2006.12.008"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/s00165-012-0242-7",
+            "ids": {
+              "doi": "10.1007/s00165-012-0242-7",
+              "s2": "2674c9ba9069ce967a0104a0cf78138eef8f8f8d"
+            },
+            "title": "Exploring probabilistic bisimulations, part I",
+            "year": 2012,
+            "venue": "Formal Aspects of Computing",
+            "citations": 47,
+            "influential_citations": 5,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2674c9ba9069ce967a0104a0cf78138eef8f8f8d",
+              "doi": "https://doi.org/10.1007/s00165-012-0242-7"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:44bfa579e4a7f35bd93c1153a35912408b1c8b80",
+            "ids": {
+              "s2": "44bfa579e4a7f35bd93c1153a35912408b1c8b80"
+            },
+            "title": "Testing finitary probabilistic processes (extended abstract)",
+            "year": 2009,
+            "citations": 21,
+            "influential_citations": 4,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/44bfa579e4a7f35bd93c1153a35912408b1c8b80"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1810.07488",
+            "ids": {
+              "arxiv": "1810.07488",
+              "doi": "10.1016/j.jlamp.2018.09.006",
+              "s2": "255c030c03b8d1b1e5fa156d56f1e5d7d54a9422"
+            },
+            "title": "Axiomatising Infinitary Probabilistic Weak Bisimilarity of Finite-State Behaviours",
+            "year": 2018,
+            "venue": "J. Log. Algebraic Methods Program.",
+            "citations": 10,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1810.07488",
+              "pdf": "https://arxiv.org/pdf/1810.07488",
+              "doi": "https://doi.org/10.1016/j.jlamp.2018.09.006"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/3-540-10003-2_79",
+            "ids": {
+              "doi": "10.1007/3-540-10003-2_79",
+              "s2": "4fb66e4bb8a2341896bb2b2627a8d1ca7bf543e3"
+            },
+            "title": "On Observing Nondeterminism and Concurrency",
+            "year": 1980,
+            "venue": "International Colloquium on Automata, Languages and Programming",
+            "citations": 4591,
+            "influential_citations": 42,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/4fb66e4bb8a2341896bb2b2627a8d1ca7bf543e3",
+              "doi": "https://doi.org/10.1007/3-540-10003-2_79"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:b75c86dc890a4dc72550ce31f3df0654483ee8c5",
+            "ids": {
+              "s2": "b75c86dc890a4dc72550ce31f3df0654483ee8c5"
+            },
+            "title": "Modeling and verification of randomized distributed real-time systems",
+            "year": 1996,
+            "citations": 725,
+            "influential_citations": 103,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/b75c86dc890a4dc72550ce31f3df0654483ee8c5"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1017/cbo9781139195003.005",
+            "ids": {
+              "doi": "10.1017/cbo9781139195003.005",
+              "s2": "9742076a3255a4f0889cfb8285611489efac3e19"
+            },
+            "title": "Process Algebra: Equational Theories of Communicating Processes",
+            "year": 2009,
+            "citations": 230,
+            "influential_citations": 30,
+            "is_review": true,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9742076a3255a4f0889cfb8285611489efac3e19",
+              "doi": "https://doi.org/10.1017/cbo9781139195003.005"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/978-3-662-04293-9",
+            "ids": {
+              "doi": "10.1007/978-3-662-04293-9",
+              "s2": "28005259d9bad0b3d797ed10a588c47a5139292e"
+            },
+            "title": "Introduction to Process Algebra",
+            "year": 1999,
+            "venue": "Texts in Theoretical Computer Science. An EATCS Series",
+            "citations": 464,
+            "influential_citations": 33,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/28005259d9bad0b3d797ed10a588c47a5139292e",
+              "doi": "https://doi.org/10.1007/978-3-662-04293-9"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1145/201019.201032",
+            "ids": {
+              "doi": "10.1145/201019.201032",
+              "s2": "8a9ced2fab7c9e7c3f23aaf1c9e13237bb722c8b"
+            },
+            "title": "Three logics for branching bisimulation",
+            "year": 1990,
+            "venue": "[1990] Proceedings. Fifth Annual IEEE Symposium on Logic in Computer Science",
+            "citations": 399,
+            "influential_citations": 28,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/8a9ced2fab7c9e7c3f23aaf1c9e13237bb722c8b",
+              "doi": "https://doi.org/10.1145/201019.201032"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1007/bfb0032063",
+            "ids": {
+              "doi": "10.1007/bfb0032063",
+              "s2": "0e54af8edfc0f1d18fb1dea7f89eea4e2013e3c6"
+            },
+            "title": "An Efficient Algorithm for Branching Bisimulation and Stuttering Equivalence",
+            "year": 1990,
+            "venue": "International Colloquium on Automata, Languages and Programming",
+            "citations": 277,
+            "influential_citations": 22,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/0e54af8edfc0f1d18fb1dea7f89eea4e2013e3c6",
+              "doi": "https://doi.org/10.1007/bfb0032063"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1016/0890-5401(89)90070-9",
+            "ids": {
+              "doi": "10.1016/0890-5401(89)90070-9",
+              "s2": "29083b3ab3544732fc916b161d57ac3a655c155c"
+            },
+            "title": "A Complete Axiomatisation for Observational Congruence of Finite-State Behaviors",
+            "year": 1989,
+            "venue": "Information and Computation",
+            "citations": 184,
+            "influential_citations": 35,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/29083b3ab3544732fc916b161d57ac3a655c155c",
+              "doi": "https://doi.org/10.1016/0890-5401(89)90070-9"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.7551/mitpress/9946.001.0001",
+            "ids": {
+              "doi": "10.7551/mitpress/9946.001.0001",
+              "s2": "f99cf4047819f9f2ed61096c9be679fb296337f5"
+            },
+            "title": "Modeling and Analysis of Communicating Systems",
+            "year": 2014,
+            "citations": 243,
+            "influential_citations": 21,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/f99cf4047819f9f2ed61096c9be679fb296337f5",
+              "doi": "https://doi.org/10.7551/mitpress/9946.001.0001"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1109/real.1990.128759",
+            "ids": {
+              "doi": "10.1109/real.1990.128759",
+              "s2": "1797a3e4e32a57884c585a490bd649010400a8eb"
+            },
+            "title": "A calculus for communicating systems with time and probabilities",
+            "year": 1990,
+            "venue": "[1990] Proceedings 11th Real-Time Systems Symposium",
+            "citations": 247,
+            "influential_citations": 14,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/1797a3e4e32a57884c585a490bd649010400a8eb",
+              "doi": "https://doi.org/10.1109/real.1990.128759"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "doi:10.1006/jcss.1999.1683",
+            "ids": {
+              "doi": "10.1006/jcss.1999.1683",
+              "s2": "2cd92463745939ab80fa35b9f9e73d401f1573d1"
+            },
+            "title": "Deciding Bisimilarity and Similarity for Probabilistic Processes",
+            "year": 2000,
+            "venue": "Journal of computer and system sciences (Print)",
+            "citations": 141,
+            "influential_citations": 21,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/2cd92463745939ab80fa35b9f9e73d401f1573d1",
+              "doi": "https://doi.org/10.1006/jcss.1999.1683"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2607.16757",
+            "ids": {
+              "arxiv": "2607.16757",
+              "doi": "10.48550/arxiv.2607.16757",
+              "s2": "75bcdb41cf60faf8841b6b93999450190f805262"
+            },
+            "title": "A New Branching Bisimulation for Probabilistic Processes",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2607.16757",
+              "pdf": "https://arxiv.org/pdf/2607.16757",
+              "doi": "https://doi.org/10.48550/arxiv.2607.16757"
+            }
+          },
+          "role": "citing"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.34311",
+          "target": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/978-3-540-48654-1_35",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1145/233551.233556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/3-540-48224-5_31",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1016/j.tcs.2006.12.008",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/s00165-012-0242-7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "s2:44bfa579e4a7f35bd93c1153a35912408b1c8b80",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "arxiv:1810.07488",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/3-540-10003-2_79",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "s2:b75c86dc890a4dc72550ce31f3df0654483ee8c5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1017/cbo9781139195003.005",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/978-3-662-04293-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1145/201019.201032",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1007/bfb0032063",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1016/0890-5401(89)90070-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.7551/mitpress/9946.001.0001",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1109/real.1990.128759",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34311",
+          "target": "doi:10.1006/jcss.1999.1683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "arxiv:2611.34311",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.tcs.2006.12.008",
+          "target": "doi:10.1016/0890-5401(89)90070-9",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.tcs.2006.12.008",
+          "target": "doi:10.1007/978-3-540-48654-1_35",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.tcs.2006.12.008",
+          "target": "s2:b75c86dc890a4dc72550ce31f3df0654483ee8c5",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.tcs.2006.12.008",
+          "target": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+          "kind": "cites"
+        },
+        {
+          "source": "doi:10.1016/j.tcs.2006.12.008",
+          "target": "doi:10.1007/3-540-48224-5_31",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1810.07488",
+          "target": "doi:10.1016/0890-5401(89)90070-9",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1810.07488",
+          "target": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1810.07488",
+          "target": "s2:b75c86dc890a4dc72550ce31f3df0654483ee8c5",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1810.07488",
+          "target": "doi:10.1007/3-540-48224-5_31",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1810.07488",
+          "target": "doi:10.1016/j.tcs.2006.12.008",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1109/real.1990.128759",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1006/jcss.1999.1683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1007/s00165-012-0242-7",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1007/978-3-540-48654-1_35",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "s2:1c157b5422182c0ec38611fefba60008080c64a1",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1145/233551.233556",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2607.16757",
+          "target": "doi:10.1007/3-540-48224-5_31",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 1,
+      "errors": []
+    },
+    {
+      "pick_id": "arxiv:2611.34923",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34923",
+            "ids": {
+              "arxiv": "2611.34923",
+              "s2": "d3ccbd69cf0f1aea6e4d96fa55acc466d5015bf8",
+              "openalex": "W7240026611"
+            },
+            "title": "Mixture-of-Loops Transformer",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "U-shaped MoLT (U-MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops, is introduced, which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34923",
+              "pdf": "https://arxiv.org/pdf/2611.34923"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2609.19969",
+            "ids": {
+              "arxiv": "2609.19969",
+              "s2": "e79f9541258bb9fc026c129f8a0920cfac7a2063"
+            },
+            "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+            "year": 2026,
+            "citations": 276,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "The DeepSeek-V4.1-Flash model, a multimodal Mixture-of-Experts model with 552B backbone parameters and support for contexts of up to one million tokens, is introduced, substantially improving cost efficiency for agentic workloads and pushing the limits of KV cache compression.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2609.19969",
+              "pdf": "https://arxiv.org/pdf/2609.19969"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2405.05254",
+            "ids": {
+              "arxiv": "2405.05254",
+              "doi": "10.48550/arxiv.2405.05254",
+              "s2": "1d4c48335d841014d0145256c3c4e7f6c426b8fb"
+            },
+            "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+            "year": 2024,
+            "venue": "Neural Information Processing Systems",
+            "citations": 204,
+            "influential_citations": 16,
+            "is_review": false,
+            "tldr": "A decoder-decoder architecture, YOCO, for large language models, which only caches key-value pairs once, and improves inference memory, prefill latency, and throughput by orders of magnitude across context lengths and model sizes.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2405.05254",
+              "pdf": "https://arxiv.org/pdf/2405.05254",
+              "doi": "https://doi.org/10.48550/arxiv.2405.05254"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+            "ids": {
+              "s2": "9405cc0d6169988371b2755e573cc28650d14dfe"
+            },
+            "title": "Language Models are Unsupervised Multitask Learners",
+            "year": 2019,
+            "citations": 31690,
+            "influential_citations": 4287,
+            "is_review": false,
+            "tldr": "It is demonstrated that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText, suggesting a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2005.14165",
+            "ids": {
+              "arxiv": "2005.14165",
+              "doi": "10.48550/arxiv.2005.14165",
+              "s2": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+            },
+            "title": "Language Models are Few-Shot Learners",
+            "year": 2020,
+            "venue": "Neural Information Processing Systems",
+            "citations": 67304,
+            "influential_citations": 5690,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2005.14165",
+              "pdf": "https://arxiv.org/pdf/2005.14165",
+              "doi": "https://doi.org/10.48550/arxiv.2005.14165"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1910.10683",
+            "ids": {
+              "arxiv": "1910.10683",
+              "doi": "10.48550/arxiv.1910.10683",
+              "s2": "6c4b76232bb72897685d19b3d264c6ee3005bc2b"
+            },
+            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "year": 2019,
+            "venue": "Journal of machine learning research",
+            "citations": 28627,
+            "influential_citations": 2706,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1910.10683",
+              "pdf": "https://arxiv.org/pdf/1910.10683",
+              "doi": "https://doi.org/10.48550/arxiv.1910.10683"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2009.03300",
+            "ids": {
+              "arxiv": "2009.03300",
+              "doi": "10.48550/arxiv.2009.03300",
+              "s2": "814a4f680b9ba6baba23b93499f4b48af1a27678"
+            },
+            "title": "Measuring Massive Multitask Language Understanding",
+            "year": 2020,
+            "venue": "International Conference on Learning Representations",
+            "citations": 10745,
+            "influential_citations": 2037,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2009.03300",
+              "pdf": "https://arxiv.org/pdf/2009.03300",
+              "doi": "https://doi.org/10.48550/arxiv.2009.03300"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1909.11942",
+            "ids": {
+              "arxiv": "1909.11942",
+              "doi": "10.48550/arxiv.1909.11942",
+              "s2": "7a064df1aeada7e69e5173f7d4c8606f4470365b"
+            },
+            "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "year": 2019,
+            "venue": "International Conference on Learning Representations",
+            "citations": 7991,
+            "influential_citations": 1048,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1909.11942",
+              "pdf": "https://arxiv.org/pdf/1909.11942",
+              "doi": "https://doi.org/10.48550/arxiv.1909.11942"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1803.05457",
+            "ids": {
+              "arxiv": "1803.05457",
+              "doi": "10.48550/arxiv.1803.05457",
+              "s2": "88bb0a28bb58d847183ec505dda89b63771bb495"
+            },
+            "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+            "year": 2018,
+            "venue": "arXiv.org",
+            "citations": 6347,
+            "influential_citations": 811,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1803.05457",
+              "pdf": "https://arxiv.org/pdf/1803.05457",
+              "doi": "https://doi.org/10.48550/arxiv.1803.05457"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2104.09864",
+            "ids": {
+              "arxiv": "2104.09864",
+              "doi": "10.48550/arxiv.2104.09864",
+              "s2": "66c10bf1f11bc1b2d92204d8f8391d087f6de1c4"
+            },
+            "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+            "year": 2021,
+            "venue": "Neurocomputing",
+            "citations": 7471,
+            "influential_citations": 594,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2104.09864",
+              "pdf": "https://arxiv.org/pdf/2104.09864",
+              "doi": "https://doi.org/10.48550/arxiv.2104.09864"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1609.07843",
+            "ids": {
+              "arxiv": "1609.07843",
+              "doi": "10.48550/arxiv.1609.07843",
+              "s2": "efbd381493bb9636f489b965a2034d529cd56bcd"
+            },
+            "title": "Pointer Sentinel Mixture Models",
+            "year": 2016,
+            "venue": "International Conference on Learning Representations",
+            "citations": 5209,
+            "influential_citations": 819,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1609.07843",
+              "pdf": "https://arxiv.org/pdf/1609.07843",
+              "doi": "https://doi.org/10.48550/arxiv.1609.07843"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1905.07830",
+            "ids": {
+              "arxiv": "1905.07830",
+              "doi": "10.18653/v1/p19-1472",
+              "s2": "8b0f27bb594b1eaaf493eaf1e2ee723a2b0a19ad"
+            },
+            "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+            "year": 2019,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 5509,
+            "influential_citations": 578,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1905.07830",
+              "pdf": "https://arxiv.org/pdf/1905.07830",
+              "doi": "https://doi.org/10.18653/v1/p19-1472"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1901.02860",
+            "ids": {
+              "arxiv": "1901.02860",
+              "doi": "10.18653/v1/p19-1285",
+              "s2": "c4744a7c2bb298e4a52289a1e085c71cc3d37bc6"
+            },
+            "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+            "year": 2019,
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "citations": 4689,
+            "influential_citations": 457,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1901.02860",
+              "pdf": "https://arxiv.org/pdf/1901.02860",
+              "doi": "https://doi.org/10.18653/v1/p19-1285"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1911.11641",
+            "ids": {
+              "arxiv": "1911.11641",
+              "doi": "10.48550/arxiv.1911.11641",
+              "s2": "04f4e55e14150b7c48b0287ba77c7443df76ed45"
+            },
+            "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+            "year": 2019,
+            "venue": "AAAI Conference on Artificial Intelligence",
+            "citations": 3966,
+            "influential_citations": 454,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1911.11641",
+              "pdf": "https://arxiv.org/pdf/1911.11641",
+              "doi": "https://doi.org/10.48550/arxiv.1911.11641"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:92e121c6e114fe3cfb89370df03847c66a9b4e28",
+            "ids": {
+              "s2": "92e121c6e114fe3cfb89370df03847c66a9b4e28"
+            },
+            "title": "An Adversarial Winograd Schema Challenge at Scale",
+            "year": 2019,
+            "citations": 4123,
+            "influential_citations": 332,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/92e121c6e114fe3cfb89370df03847c66a9b4e28"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2101.00027",
+            "ids": {
+              "arxiv": "2101.00027",
+              "doi": "10.48550/arxiv.2101.00027",
+              "s2": "db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e"
+            },
+            "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+            "year": 2020,
+            "venue": "arXiv.org",
+            "citations": 3221,
+            "influential_citations": 470,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2101.00027",
+              "pdf": "https://arxiv.org/pdf/2101.00027",
+              "doi": "https://doi.org/10.48550/arxiv.2101.00027"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1905.10044",
+            "ids": {
+              "arxiv": "1905.10044",
+              "doi": "10.18653/v1/n19-1300",
+              "s2": "9770fff7379a7ab9006b48939462354dda9a2053"
+            },
+            "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+            "year": 2019,
+            "venue": "North American Chapter of the Association for Computational Linguistics",
+            "citations": 3014,
+            "influential_citations": 420,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1905.10044",
+              "pdf": "https://arxiv.org/pdf/1905.10044",
+              "doi": "https://doi.org/10.18653/v1/n19-1300"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:1809.02789",
+            "ids": {
+              "arxiv": "1809.02789",
+              "doi": "10.18653/v1/d18-1260",
+              "s2": "1536e8958697c5364f68b2e2448905dbbeb3a0ca"
+            },
+            "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+            "year": 2018,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 3066,
+            "influential_citations": 291,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/1809.02789",
+              "pdf": "https://arxiv.org/pdf/1809.02789",
+              "doi": "https://doi.org/10.18653/v1/d18-1260"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.01220",
+            "ids": {
+              "arxiv": "2604.01220",
+              "doi": "10.48550/arxiv.2604.01220",
+              "s2": "f1b909db58f01f9d098a7087d843698442cd2c37"
+            },
+            "title": "Universal YOCO for Efficient Depth Scaling",
+            "year": 2026,
+            "venue": "arXiv.org",
+            "citations": 4,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.01220",
+              "pdf": "https://arxiv.org/pdf/2604.01220",
+              "doi": "https://doi.org/10.48550/arxiv.2604.01220"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2609.19969",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2405.05254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2009.03300",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1909.11942",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1803.05457",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2104.09864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1609.07843",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1905.07830",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1901.02860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1911.11641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "s2:92e121c6e114fe3cfb89370df03847c66a9b4e28",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2101.00027",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1905.10044",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:1809.02789",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34923",
+          "target": "arxiv:2604.01220",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05254",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05254",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2405.05254",
+          "target": "arxiv:2104.09864",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1901.02860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1905.07830",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1905.10044",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1911.11641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1809.02789",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "s2:92e121c6e114fe3cfb89370df03847c66a9b4e28",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1909.11942",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2005.14165",
+          "target": "arxiv:1803.05457",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1910.10683",
+          "target": "arxiv:1905.10044",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1910.10683",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1910.10683",
+          "target": "arxiv:1909.11942",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1809.02789",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1905.07830",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1909.11942",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1803.05457",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2009.03300",
+          "target": "arxiv:1911.11641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1909.11942",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1909.11942",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1909.11942",
+          "target": "arxiv:1901.02860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "arxiv:2005.14165",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "arxiv:1905.07830",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "arxiv:1910.10683",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "arxiv:1909.11942",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2104.09864",
+          "target": "arxiv:1901.02860",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1905.07830",
+          "target": "s2:9405cc0d6169988371b2755e573cc28650d14dfe",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1901.02860",
+          "target": "arxiv:1609.07843",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1911.11641",
+          "target": "arxiv:1905.07830",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1911.11641",
+          "target": "s2:92e121c6e114fe3cfb89370df03847c66a9b4e28",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1905.10044",
+          "target": "arxiv:1809.02789",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:1809.02789",
+          "target": "arxiv:1803.05457",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.01220",
+          "target": "arxiv:2405.05254",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.01220",
+          "target": "arxiv:2104.09864",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for d3ccbd69cf0f1aea6e4d96fa55acc466d5015bf8: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/d3ccbd69cf0f1aea6e4d96fa55acc466d5015bf8/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000"
+      ]
+    },
+    {
+      "pick_id": "arxiv:2611.34457",
+      "nodes": [
+        {
+          "paper": {
+            "id": "arxiv:2611.34457",
+            "ids": {
+              "arxiv": "2611.34457",
+              "s2": "e3c811320ae5f365b88497922fe2d27cafaee3cf",
+              "openalex": "W7240042875"
+            },
+            "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+            "year": 2026,
+            "citations": 0,
+            "influential_citations": 0,
+            "is_review": false,
+            "tldr": "Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding, and ProxyGenBench is introduced to study these interacting requirements.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2611.34457",
+              "pdf": "https://arxiv.org/pdf/2611.34457"
+            }
+          },
+          "role": "pick"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2501.06336",
+            "ids": {
+              "arxiv": "2501.06336",
+              "doi": "10.1109/cvpr52734.2025.00566",
+              "s2": "c52e8c5dfeb95ea51ac8fcf55c47921df8cde771"
+            },
+            "title": "MEt3R: Measuring Multi-View Consistency in Generated Images",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 154,
+            "influential_citations": 26,
+            "is_review": false,
+            "tldr": "This work introduces MEt3R, a metric for multi-view consistency in generated images, which can be evaluated independently of the specific scene, and evaluates the consistency of a large set of previous methods for novel view and video generation, including the open, multi-view latent diffusion model.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2501.06336",
+              "pdf": "https://arxiv.org/pdf/2501.06336",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.00566"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2408.06072",
+            "ids": {
+              "arxiv": "2408.06072",
+              "doi": "10.48550/arxiv.2408.06072",
+              "s2": "7b248d78573ccf0dca6aa2cec2743d3eccaa9d1a"
+            },
+            "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 2808,
+            "influential_citations": 495,
+            "is_review": false,
+            "tldr": "CogVideoX is adept at producing coherent, long-duration, different shape videos characterized by significant motions, and develops an effective text-video data processing pipeline that includes various data preprocessing strategies and a video captioning method, greatly contributing to the generation quality and semantic alignment.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2408.06072",
+              "pdf": "https://arxiv.org/pdf/2408.06072",
+              "doi": "https://doi.org/10.48550/arxiv.2408.06072"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2311.17982",
+            "ids": {
+              "arxiv": "2311.17982",
+              "doi": "10.1109/cvpr52733.2024.02060",
+              "s2": "4e9a8141da2a8c603722b07d096109207f8e0b66"
+            },
+            "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 2436,
+            "influential_citations": 436,
+            "is_review": false,
+            "tldr": "VBench is a comprehensive benchmark suite that dissects “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods, and investi-gate the gaps between video and image generation models.",
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2311.17982",
+              "pdf": "https://arxiv.org/pdf/2311.17982",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02060"
+            }
+          },
+          "role": "background"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2312.03641",
+            "ids": {
+              "arxiv": "2312.03641",
+              "doi": "10.1145/3641519.3657518",
+              "s2": "44999d9bae3976d38e91b742c4541a21c7000260"
+            },
+            "title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+            "year": 2023,
+            "venue": "International Conference on Computer Graphics and Interactive Techniques",
+            "citations": 768,
+            "influential_citations": 88,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2312.03641",
+              "pdf": "https://arxiv.org/pdf/2312.03641",
+              "doi": "https://doi.org/10.1145/3641519.3657518"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2410.13720",
+            "ids": {
+              "arxiv": "2410.13720",
+              "s2": "ed92a7be6b2acc36baf0ed43454a97dbade0c893"
+            },
+            "title": "Movie Gen: A Cast of Media Foundation Models",
+            "year": 2024,
+            "citations": 760,
+            "influential_citations": 60,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2410.13720",
+              "pdf": "https://arxiv.org/pdf/2410.13720"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2306.02018",
+            "ids": {
+              "arxiv": "2306.02018",
+              "doi": "10.48550/arxiv.2306.02018",
+              "s2": "f02ea7a18f00859d9ea1b321e3385ae7d0170639"
+            },
+            "title": "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+            "year": 2023,
+            "venue": "Neural Information Processing Systems",
+            "citations": 608,
+            "influential_citations": 65,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2306.02018",
+              "pdf": "https://arxiv.org/pdf/2306.02018",
+              "doi": "https://doi.org/10.48550/arxiv.2306.02018"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2310.11440",
+            "ids": {
+              "arxiv": "2310.11440",
+              "doi": "10.1109/cvpr52733.2024.02090",
+              "s2": "66d927fdb6c2774131960c75275546fd5ee3dd72"
+            },
+            "title": "EvalCrafter: Benchmarking and Evaluating Large Video Generation Models",
+            "year": 2023,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 466,
+            "influential_citations": 48,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2310.11440",
+              "pdf": "https://arxiv.org/pdf/2310.11440",
+              "doi": "https://doi.org/10.1109/cvpr52733.2024.02090"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.03520",
+            "ids": {
+              "arxiv": "2406.03520",
+              "doi": "10.48550/arxiv.2406.03520",
+              "s2": "2993723421b03e5bf678f977eedf4339ba6cab41"
+            },
+            "title": "VideoPhy: Evaluating Physical Commonsense for Video Generation",
+            "year": 2024,
+            "venue": "International Conference on Learning Representations",
+            "citations": 298,
+            "influential_citations": 48,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.03520",
+              "pdf": "https://arxiv.org/pdf/2406.03520",
+              "doi": "https://doi.org/10.48550/arxiv.2406.03520"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2401.12945",
+            "ids": {
+              "arxiv": "2401.12945",
+              "doi": "10.1145/3680528.3687614",
+              "s2": "94f7d8bce3bb848d127c8f113afc5bb0243579df"
+            },
+            "title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+            "year": 2024,
+            "venue": "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia",
+            "citations": 599,
+            "influential_citations": 12,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2401.12945",
+              "pdf": "https://arxiv.org/pdf/2401.12945",
+              "doi": "https://doi.org/10.1145/3680528.3687614"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.15252",
+            "ids": {
+              "arxiv": "2406.15252",
+              "doi": "10.48550/arxiv.2406.15252",
+              "s2": "1680eedc706ef081c0b103457bb52c071ab924b8"
+            },
+            "title": "VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation",
+            "year": 2024,
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "citations": 271,
+            "influential_citations": 39,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.15252",
+              "pdf": "https://arxiv.org/pdf/2406.15252",
+              "doi": "https://doi.org/10.48550/arxiv.2406.15252"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2407.14505",
+            "ids": {
+              "arxiv": "2407.14505",
+              "doi": "10.1109/cvpr52734.2025.00787",
+              "s2": "af9a0a099c00629431a1d9096001570e60974faf"
+            },
+            "title": "T2V-CompBench: A Comprehensive Benchmark for Compositional Text-to-video Generation",
+            "year": 2024,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 241,
+            "influential_citations": 24,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2407.14505",
+              "pdf": "https://arxiv.org/pdf/2407.14505",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.00787"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2402.04324",
+            "ids": {
+              "arxiv": "2402.04324",
+              "doi": "10.48550/arxiv.2402.04324",
+              "s2": "d599dc40c9cb8d6d76554ee7d21d20c22cc7cdb5"
+            },
+            "title": "ConsistI2V: Enhancing Visual Consistency for Image-to-Video Generation",
+            "year": 2024,
+            "venue": "Trans. Mach. Learn. Res.",
+            "citations": 164,
+            "influential_citations": 25,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2402.04324",
+              "pdf": "https://arxiv.org/pdf/2402.04324",
+              "doi": "https://doi.org/10.48550/arxiv.2402.04324"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2412.02700",
+            "ids": {
+              "arxiv": "2412.02700",
+              "doi": "10.1109/cvpr52734.2025.00010",
+              "s2": "a25091348153da23b016161ca1fbba1ffcb386ad"
+            },
+            "title": "Motion Prompting: Controlling Video Generation with Motion Trajectories",
+            "year": 2024,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 224,
+            "influential_citations": 13,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2412.02700",
+              "pdf": "https://arxiv.org/pdf/2412.02700",
+              "doi": "https://doi.org/10.1109/cvpr52734.2025.00010"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "s2:9aec97a1576d6f0f4f1907ad9e9983e7b86ce986",
+            "ids": {
+              "s2": "9aec97a1576d6f0f4f1907ad9e9983e7b86ce986"
+            },
+            "title": "CameraCtrl: Enabling Camera Control for Video Diffusion Models",
+            "year": 2025,
+            "venue": "International Conference on Learning Representations",
+            "citations": 146,
+            "influential_citations": 16,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://www.semanticscholar.org/paper/9aec97a1576d6f0f4f1907ad9e9983e7b86ce986"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2309.15091",
+            "ids": {
+              "arxiv": "2309.15091",
+              "doi": "10.48550/arxiv.2309.15091",
+              "s2": "16753e0317730e8c1b297338300a8c6163dd06f2"
+            },
+            "title": "VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning",
+            "year": 2023,
+            "venue": "arXiv.org",
+            "citations": 206,
+            "influential_citations": 7,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2309.15091",
+              "pdf": "https://arxiv.org/pdf/2309.15091",
+              "doi": "https://doi.org/10.48550/arxiv.2309.15091"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2406.08656",
+            "ids": {
+              "arxiv": "2406.08656",
+              "doi": "10.48550/arxiv.2406.08656",
+              "s2": "f50cd839d4bafd0b799c8da298d70a1b42a1b923"
+            },
+            "title": "TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation",
+            "year": 2024,
+            "venue": "arXiv.org",
+            "citations": 55,
+            "influential_citations": 2,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2406.08656",
+              "pdf": "https://arxiv.org/pdf/2406.08656",
+              "doi": "https://doi.org/10.48550/arxiv.2406.08656"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2512.07802",
+            "ids": {
+              "arxiv": "2512.07802",
+              "doi": "10.48550/arxiv.2512.07802",
+              "s2": "c9aebf8701dc65b6e50eacd4c4434bda14cff6f0"
+            },
+            "title": "OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory",
+            "year": 2025,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 45,
+            "influential_citations": 3,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2512.07802",
+              "pdf": "https://arxiv.org/pdf/2512.07802",
+              "doi": "https://doi.org/10.48550/arxiv.2512.07802"
+            }
+          },
+          "role": "reference"
+        },
+        {
+          "paper": {
+            "id": "arxiv:2604.03723",
+            "ids": {
+              "arxiv": "2604.03723",
+              "doi": "10.48550/arxiv.2604.03723",
+              "s2": "268976c8996631b85f8877894a9be36114471ee2"
+            },
+            "title": "SymphoMotion: Joint Control of Camera Motion and Object Dynamics for Coherent Video Generation",
+            "year": 2026,
+            "venue": "Computer Vision and Pattern Recognition",
+            "citations": 17,
+            "influential_citations": 1,
+            "is_review": false,
+            "links": {
+              "abstract_page": "https://arxiv.org/abs/2604.03723",
+              "pdf": "https://arxiv.org/pdf/2604.03723",
+              "doi": "https://doi.org/10.48550/arxiv.2604.03723"
+            }
+          },
+          "role": "reference"
+        }
+      ],
+      "edges": [
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2501.06336",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2408.06072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2312.03641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2410.13720",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2310.11440",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2406.03520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2406.15252",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2407.14505",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2402.04324",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2412.02700",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "s2:9aec97a1576d6f0f4f1907ad9e9983e7b86ce986",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2309.15091",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2406.08656",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2512.07802",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2611.34457",
+          "target": "arxiv:2604.03723",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2408.06072",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17982",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17982",
+          "target": "arxiv:2310.11440",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2311.17982",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03641",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2312.03641",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03520",
+          "target": "arxiv:2408.06072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03520",
+          "target": "arxiv:2310.11440",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03520",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.03520",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2401.12945",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.15252",
+          "target": "arxiv:2406.03520",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.15252",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.15252",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.14505",
+          "target": "arxiv:2408.06072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.14505",
+          "target": "arxiv:2309.15091",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.14505",
+          "target": "arxiv:2310.11440",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2407.14505",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.04324",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2402.04324",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02700",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02700",
+          "target": "arxiv:2410.13720",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02700",
+          "target": "arxiv:2312.03641",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2412.02700",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.08656",
+          "target": "arxiv:2309.15091",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.08656",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.08656",
+          "target": "arxiv:2310.11440",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2406.08656",
+          "target": "arxiv:2306.02018",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07802",
+          "target": "arxiv:2410.13720",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07802",
+          "target": "arxiv:2408.06072",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07802",
+          "target": "arxiv:2311.17982",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2512.07802",
+          "target": "arxiv:2401.12945",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.03723",
+          "target": "arxiv:2412.02700",
+          "kind": "cites"
+        },
+        {
+          "source": "arxiv:2604.03723",
+          "target": "arxiv:2312.03641",
+          "kind": "cites"
+        }
+      ],
+      "citing_seen": 0,
+      "errors": [
+        "S2 citations for e3c811320ae5f365b88497922fe2d27cafaee3cf: RetryableStatusError: HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/e3c811320ae5f365b88497922fe2d27cafaee3cf/citations?fields=paperId%2CexternalIds%2Ctitle%2Cyear%2Cvenue%2CpublicationTypes%2CcitationCount%2CinfluentialCitationCount%2CfieldsOfStudy&limit=1000"
+      ]
+    }
+  ]
+}
